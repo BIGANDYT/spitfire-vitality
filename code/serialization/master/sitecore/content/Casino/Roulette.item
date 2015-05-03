@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {2BC5C4FC-2A02-4423-BC4C-F828BF1D55F4}
+database: master
+path: /sitecore/content/Casino/Roulette
+parent: {1849EBD8-8BB6-406B-AD32-3E766FF0FDA1}
+name: Roulette
+master: {00000000-0000-0000-0000-000000000000}
+template: {7EBCA45F-92C6-487C-BF33-66BA594F5D67}
+templatekey: SiteSection
+
+----version----
+language: en
+version: 1
+revision: 23904559-5c91-4bd5-be54-f239ff8b97a9
+
+----field----
+field: {EA2AB9D8-1953-43AD-B740-EB473F4780E2}
+name: Title
+key: title
+content-length: 8
+
+Roulette
+----field----
+field: {B43A08BA-EBB1-478D-BD90-8DD771A41F16}
+name: Text
+key: text
+content-length: 25
+
+Roulette information here
+----field----
+field: {1B058F78-A226-418E-ABFA-1CB0EEF0EBA2}
+name: Icon
+key: icon
+content-length: 58
+
+<image mediaid="{A86C55CD-2F75-4C0B-B5C9-20F62810E2E1}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150407T112247Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+23904559-5c91-4bd5-be54-f239ff8b97a9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150407T134853:635640113332174054Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

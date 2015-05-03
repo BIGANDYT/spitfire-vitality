@@ -1,0 +1,115 @@
+----item----
+version: 1
+id: {ADA49DFC-A7B3-4F20-8E3D-043A9CEA11E7}
+database: master
+path: /sitecore/media library/Images/Icons/poker6
+parent: {1B979D86-A6D5-4DCD-8574-528986C8EC1E}
+name: poker6
+master: {00000000-0000-0000-0000-000000000000}
+template: {F1828A2C-7E5D-4BBD-98CA-320474871548}
+templatekey: Image
+
+----field----
+field: {40E50ED9-BA07-4702-992E-A912738D32DC}
+name: Blob
+key: blob
+content-length: 1246
+
+iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAAMvUAADL1Ad7iDnMAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAu
+NWWFMmUAAAMASURBVDhPbZU7aFRBFIb3FRPXiOu6KMbCKEgqS1+VNmqjBrI+0BjBVxMhYCGCIGiX
+DcFCBBsLCQYERdDOwhdYiFhIEjcxojFRBFExESO7O3Pv+J25czfjYvFzz5zzn3/OnDmzmzDG/A9Z
+bfQBHapbQahf850B33Sox/kOEeuC09KQY9HoSIkQIiNBqO4oo7bjWw2a8O9FzDjU4JTxFYklXa6F
+L9ZMBVchk6K2OV+TMdUNJO6wlcWCbFo11Q5EX5IzAC/j+HXBlBOzCYFRfeAMvknWc9FR9QT2fMTR
+JXKkssWc5C7rfreOBGVHiGFErmMqMMFR4tIrIQuygamdIPYJoXusW8FSBMfQ2INtBbOUPibHpKpe
+EYP8CH9OCA4rwSpvvYKcZ3BvY6dsLj3FztjqEHggRHY/BekDti+2iAqugJvY6zx/Dt97MAhK5IVo
+FRMYwxi7IaTZZZRjdntJzWz2BM4vkiaJv8BXv1UKOEbMb9NwAtIIwXawFscsX2++qh34AjYcZC03
+2Th7eeJ/nBjQE1LhFwJL6MNmHOPY9QoAtyijoUL7ZXy8mEDaweWpi+RvhTcngj845mECN2QHSL6g
+TeJoPQjK2PxmXfBj5NDzynrs5cR/ImifU9yDeQJZL6GVzQ7Z4bbNVzV8a7x4Ad9XvrmaqW2EU5YK
+F14AoJrjCwmVdkgy3BXwXQXqAn7/Uk5yaQ/Fx8Y9cIZkbLowtNwYvTiHPQ0hHyeBDKIlYmc9n0Au
+ZJr8fdgpWvIKu1MCLVIFTd0iROzrBJ9iL5O1Qwr4vc3DeY5gGASqD6H9rMfwpy0BRxGht9gy0NLo
+a+CdVC3J4nMoyDER+ggCELdKoVF/eoIkAgP04zG2PDN6os47MnOmp2QD7M9w7pO8C+FuF+c3QF+W
+HNGKBQXSq34IMyTs9ARNaPQl4m1AfgyEm+YSDhJTTkxaYnV8QUFSSqcf5WjnSJDkI8Ta6PMmKjuN
+yCicN+6Y/8ytL+YjA5m+8s6jgeY3Uc1ix38BnXDSDTnAJP4Cv/E8cXeR1qQAAAAASUVORK5CYII=
+----field----
+field: {22EAC599-F13B-4607-A89D-C091763A467D}
+name: Width
+key: width
+content-length: 2
+
+20
+----field----
+field: {DE2CA9E4-C117-4C8A-A139-1FF4B199D15A}
+name: Height
+key: height
+content-length: 2
+
+20
+----field----
+field: {C06867FE-9A43-4C7D-B739-48780492D06F}
+name: Extension
+key: extension
+content-length: 3
+
+png
+----field----
+field: {6F47A0A5-9C94-4B48-ABEB-42D38DEF6054}
+name: Mime Type
+key: mime type
+content-length: 9
+
+image/png
+----field----
+field: {6954B7C7-2487-423F-8600-436CB3B6DC0E}
+name: Size
+key: size
+content-length: 3
+
+911
+----field----
+field: {CB09946F-3218-4823-87D2-D5007C199A96}
+name: Dimensions
+key: dimensions
+content-length: 7
+
+20 x 20
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 61
+
+~/media/ADA49DFCA7B34F208E3D043A9CEA11E7.ashx?h=16&thn=1&w=16
+----version----
+language: en
+version: 1
+revision: 66bde8de-da25-41be-80ae-006c9b676e58
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150329T221422Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+66bde8de-da25-41be-80ae-006c9b676e58
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150329T221422:635632640628040552Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

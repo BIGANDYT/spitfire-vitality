@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {AC69B8E7-B2B5-4F9E-A8B2-494607A2CF16}
+database: master
+path: /sitecore/content/LiveCasino/Slots
+parent: {BBDDF59C-C120-47AC-A1B8-8034B9D11353}
+name: Slots
+master: {00000000-0000-0000-0000-000000000000}
+template: {7EBCA45F-92C6-487C-BF33-66BA594F5D67}
+templatekey: SiteSection
+
+----version----
+language: en
+version: 1
+revision: 54af5f69-9e7c-455d-a809-f498f7e21c33
+
+----field----
+field: {EA2AB9D8-1953-43AD-B740-EB473F4780E2}
+name: Title
+key: title
+content-length: 5
+
+Slots
+----field----
+field: {B43A08BA-EBB1-478D-BD90-8DD771A41F16}
+name: Text
+key: text
+content-length: 21
+
+Slot information here
+----field----
+field: {1B058F78-A226-418E-ABFA-1CB0EEF0EBA2}
+name: Icon
+key: icon
+content-length: 58
+
+<image mediaid="{A04436C7-BDCE-4829-BC3E-DDF2A112A622}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150406T143531Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+54af5f69-9e7c-455d-a809-f498f7e21c33
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150406T154404:635639318443575569Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

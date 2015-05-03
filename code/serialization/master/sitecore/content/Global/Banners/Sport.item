@@ -1,0 +1,128 @@
+----item----
+version: 1
+id: {88DBEEA7-7AD5-48B1-AE6B-3850DFA3C708}
+database: master
+path: /sitecore/content/Global/Banners/Sport
+parent: {65ACAFC4-464E-417E-964B-EDD05F889FE0}
+name: Sport
+master: {00000000-0000-0000-0000-000000000000}
+template: {1D4F3617-2957-4ACB-AA2E-731A9F775A67}
+templatekey: Banner
+
+----version----
+language: en
+version: 1
+revision: 262f4b4b-2fce-4937-b70e-15d90690d7de
+
+----field----
+field: {CA684A60-ABF4-4C8F-A48A-8232C94E205E}
+name: BannerImage
+key: bannerimage
+content-length: 58
+
+<image mediaid="{3772773F-7F26-4FFB-9765-B64A91D2BDF8}" />
+----field----
+field: {4E1E38B5-F484-43E5-93F4-78723220BDCF}
+name: BannerTitle1
+key: bannertitle1
+content-length: 11
+
+SIGN UP NOW
+----field----
+field: {3CB47D21-06E1-4A53-A8F2-AEC66B07992E}
+name: BannerTitle1Color
+key: bannertitle1color
+content-length: 6
+
+FFFD01
+----field----
+field: {AD901B49-7E4F-455B-B277-27CDB31666E3}
+name: BannerTitle2
+key: bannertitle2
+content-length: 15
+
+BET £10 AND GET
+----field----
+field: {0CA2445D-2575-4CEC-BFD6-2126CF8B23CC}
+name: BannerTitle2Color
+key: bannertitle2color
+content-length: 3
+
+FFF
+----field----
+field: {4F95FF83-2B7A-46BE-B344-C231BF32836F}
+name: BannerTitle3
+key: bannertitle3
+content-length: 16
+
+£20 IN FREE BETS
+----field----
+field: {F28961BB-EE02-46C3-B97B-0278BC82CCBF}
+name: BannerTitle3Color
+key: bannertitle3color
+content-length: 6
+
+FFFD01
+----field----
+field: {12D5D5A6-EB3C-4404-BEC0-A9D40A3E2B77}
+name: BannerBackColor
+key: bannerbackcolor
+content-length: 6
+
+61BC45
+----field----
+field: {990D3B74-D189-4850-9A2A-981F69D7C1FC}
+name: BannerLink
+key: bannerlink
+content-length: 140
+
+<link text="Register Now" linktype="internal" class="" title="" target='_self' querystring="" id="{774D5D5C-61BC-4035-B0FF-9DA39F7288F4}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150326T192057Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+262f4b4b-2fce-4937-b70e-15d90690d7de
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150408T223138:635641290980271999Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

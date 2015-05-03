@@ -1,0 +1,109 @@
+----item----
+version: 1
+id: {DBA309AE-3B59-4A04-B666-468D89C638E1}
+database: master
+path: /sitecore/media library/Images/Icons/hockey2
+parent: {1B979D86-A6D5-4DCD-8574-528986C8EC1E}
+name: hockey2
+master: {00000000-0000-0000-0000-000000000000}
+template: {F1828A2C-7E5D-4BBD-98CA-320474871548}
+templatekey: Image
+
+----field----
+field: {40E50ED9-BA07-4702-992E-A912738D32DC}
+name: Blob
+key: blob
+content-length: 742
+
+iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAAAawAAAGsASG8VVcAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAu
+NWWFMmUAAAGPSURBVDhPndS7L4RBFMZh90vErZHotKISHQ0SnSiIRqNAQYECBRWJTqEUiUpEIUEk
+LoVCiBCFThRaOv+A6/i9a2Yz+zlrl5M8yXdmZ96d3Z2dAudcUIgFPOMO7Yhfz0vctOIDoe5RjHhO
+TnHThbieUIVm5B0cNxW4gko7nUO/f95ACeL5puRAGbrR4vtxhNpEzlBzMBIHqrZQDmtuijkYSQaq
+FFoEa/6/Aj/RBmv+r4GVOIFVI7DWZA0sxQ5U15iFdhZqFNa6rIErUN2gDmN414CvPwce4gwNWIR2
+JyF0CtY6M7AWp9BBX0P4qDrc69+P7gjWWjNwHgPoQKhd6Kh0pjrnXjCIH+uTAzW4hBbr+RaqV+hN
+tGu9rtLOZ5CRkdFgGkNRX49zqBQ6jGrsaYBS6Cr0l02tCQt1o+hoXCB5s+jGOYDqDZPQsdJJCNfd
+PvRG6cBlHKPX90kK0OWgUoiOjS7kCej7VG0jHagF+riNvrfopgm/+pIfkz48QptKB+rwPqDH99lo
+V01IXg6+dwVfiSAXF0bXVzwAAAAASUVORK5CYII=
+----field----
+field: {22EAC599-F13B-4607-A89D-C091763A467D}
+name: Width
+key: width
+content-length: 2
+
+20
+----field----
+field: {DE2CA9E4-C117-4C8A-A139-1FF4B199D15A}
+name: Height
+key: height
+content-length: 2
+
+20
+----field----
+field: {C06867FE-9A43-4C7D-B739-48780492D06F}
+name: Extension
+key: extension
+content-length: 3
+
+png
+----field----
+field: {6F47A0A5-9C94-4B48-ABEB-42D38DEF6054}
+name: Mime Type
+key: mime type
+content-length: 9
+
+image/png
+----field----
+field: {6954B7C7-2487-423F-8600-436CB3B6DC0E}
+name: Size
+key: size
+content-length: 3
+
+542
+----field----
+field: {CB09946F-3218-4823-87D2-D5007C199A96}
+name: Dimensions
+key: dimensions
+content-length: 7
+
+20 x 20
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 61
+
+~/media/DBA309AE3B594A04B666468D89C638E1.ashx?h=16&thn=1&w=16
+----version----
+language: en
+version: 1
+revision: dd61d2a6-b0b2-4094-b586-ed0a931edd3d
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150329T221420Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+dd61d2a6-b0b2-4094-b586-ed0a931edd3d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150329T221420:635632640609287230Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

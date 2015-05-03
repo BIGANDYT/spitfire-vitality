@@ -1,0 +1,109 @@
+----item----
+version: 1
+id: {AB6A1BA9-157C-4206-8BB7-150BA9B6BFF9}
+database: master
+path: /sitecore/media library/Images/Icons/target51
+parent: {1B979D86-A6D5-4DCD-8574-528986C8EC1E}
+name: target51
+master: {00000000-0000-0000-0000-000000000000}
+template: {F1828A2C-7E5D-4BBD-98CA-320474871548}
+templatekey: Image
+
+----field----
+field: {40E50ED9-BA07-4702-992E-A912738D32DC}
+name: Blob
+key: blob
+content-length: 738
+
+iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAAAgAAAAIAAX5+0+MAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAu
+NWWFMmUAAAGLSURBVDhPjdTNK0VBGMfx650r6W6ElP9DWXhfsBGysbWhUCRLslWKlKzkD/A3SFkS
+dgjFgighyksc31/dp+bMnXOupz5zZ54zM82cmXMzURT5qlCHcif3b26jAvO4wRsO0Q23T1FWKcM2
+LO5xiw8MITYojVXG8AtNMAltWyvuxxUaERuYRIUGX0KhyfxOHdjwcolUdEFxDG29oBM2UePlglSs
+QTGBgg55bejzckEqDvCNlnyyFCvYRa2Tm87XQ7JoRk4NnehDPql2LywWYIPGnbpLCznDJ86V0Mnq
+7tn7W4LFNfT+ZM+pu+xAdUsGQxMuwkJXxgYmTajVKTThsCa4wyNsy53QQ8UslJOkLTfhCM84UWIf
+OpRWqF2CZezAropWn3YolahHVo1VKKbgdzTt6PFyQSq0RcUpki72Fqq9XJAKfXoXUIRWqZWte7lE
+VhnFD74whxz0nzgCnXQDYgOTWEVfgq6Ane4LnvCOAcQGpXEbmnQG2v4r9EnqMNw+RYWSujY6HP2G
+nqeIMn8OowgOT98A1QAAAABJRU5ErkJggg==
+----field----
+field: {22EAC599-F13B-4607-A89D-C091763A467D}
+name: Width
+key: width
+content-length: 2
+
+20
+----field----
+field: {DE2CA9E4-C117-4C8A-A139-1FF4B199D15A}
+name: Height
+key: height
+content-length: 2
+
+20
+----field----
+field: {C06867FE-9A43-4C7D-B739-48780492D06F}
+name: Extension
+key: extension
+content-length: 3
+
+png
+----field----
+field: {6F47A0A5-9C94-4B48-ABEB-42D38DEF6054}
+name: Mime Type
+key: mime type
+content-length: 9
+
+image/png
+----field----
+field: {6954B7C7-2487-423F-8600-436CB3B6DC0E}
+name: Size
+key: size
+content-length: 3
+
+538
+----field----
+field: {CB09946F-3218-4823-87D2-D5007C199A96}
+name: Dimensions
+key: dimensions
+content-length: 7
+
+20 x 20
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 61
+
+~/media/AB6A1BA9157C42068BB7150BA9B6BFF9.ashx?h=16&thn=1&w=16
+----version----
+language: en
+version: 1
+revision: ceb85c28-2527-4f00-aa32-25ffda714ddf
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150329T221421Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ceb85c28-2527-4f00-aa32-25ffda714ddf
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150329T221421:635632640617613145Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

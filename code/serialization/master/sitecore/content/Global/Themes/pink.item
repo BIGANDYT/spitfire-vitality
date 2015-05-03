@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {492141AA-4D5A-4540-A3B3-1BB64E3AEC16}
+database: master
+path: /sitecore/content/Global/Themes/pink
+parent: {7BCE3090-7A51-4AA4-A66C-F6C576ABA2C4}
+name: pink
+master: {00000000-0000-0000-0000-000000000000}
+template: {46A639F7-DC77-4203-AC1D-0B56C710AD57}
+templatekey: Theme
+
+----version----
+language: en
+version: 1
+revision: bcce9724-fc2f-4e27-b8a3-5496386de4d5
+
+----field----
+field: {AA34E555-776C-4627-8F11-FC13C623BE16}
+name: Name
+key: name
+content-length: 4
+
+pink
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150404T210336Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bcce9724-fc2f-4e27-b8a3-5496386de4d5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150404T210336:635637782163666799Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

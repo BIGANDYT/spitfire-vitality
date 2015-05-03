@@ -1,0 +1,107 @@
+----item----
+version: 1
+id: {1E9D9322-70A0-4D4B-8649-C74466495744}
+database: master
+path: /sitecore/content/Casino/Blackjack/Blackjack Peek
+parent: {E1D79A5B-A216-417F-B34F-04979736A97C}
+name: Blackjack Peek
+master: {00000000-0000-0000-0000-000000000000}
+template: {758DB274-529F-4BE7-B5EC-4C922CB7E8A3}
+templatekey: Game
+
+----version----
+language: en
+version: 1
+revision: e751ff0a-d1b4-4822-b0b9-9cbf7cc33d76
+
+----field----
+field: {59748DFA-60AB-4A40-B920-042EAA5889FC}
+name: GameId
+key: gameid
+content-length: 1
+
+2
+----field----
+field: {AFAE0F47-26D4-4F4A-867E-80BCBE825784}
+name: Name
+key: name
+content-length: 14
+
+Blackjack Peek
+----field----
+field: {E6050944-D8D7-4F13-8157-C72B7E76B926}
+name: GameImage
+key: gameimage
+content-length: 58
+
+<image mediaid="{4BACCE3D-45DF-4755-83DD-5E2D2D1D6AFC}" />
+----field----
+field: {EA2AB9D8-1953-43AD-B740-EB473F4780E2}
+name: Title
+key: title
+content-length: 14
+
+Blackjack Peek
+----field----
+field: {B43A08BA-EBB1-478D-BD90-8DD771A41F16}
+name: Text
+key: text
+content-length: 31
+
+Blackjack Peek information here
+----field----
+field: {5C7CB243-7371-4C8E-B428-BA5EE6241728}
+name: RealPlayLink
+key: realplaylink
+content-length: 79
+
+<link linktype="external" url="http://casino.paddypower.com/download-casino" />
+----field----
+field: {86D8E74A-9C55-45CF-8BD0-EBFB906D8252}
+name: PracticePlayLink
+key: practiceplaylink
+content-length: 79
+
+<link linktype="external" url="http://casino.paddypower.com/download-casino" />
+----field----
+field: {F33314B7-2C80-4D0D-BC3C-C66E73988387}
+name: FooterLink
+key: footerlink
+content-length: 153
+
+<link text="More Information" linktype="internal" class="" title="" target='Active Browser' querystring="" id="{1849EBD8-8BB6-406B-AD32-3E766FF0FDA1}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150407T132624Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e751ff0a-d1b4-4822-b0b9-9cbf7cc33d76
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150407T143947:635640143879193650Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

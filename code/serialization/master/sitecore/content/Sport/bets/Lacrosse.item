@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {B927B220-059A-481D-846B-903894583FC5}
+database: master
+path: /sitecore/content/Sport/bets/Lacrosse
+parent: {F9CC0AC2-878B-4DDD-9BEE-EE59291DAC72}
+name: Lacrosse
+master: {00000000-0000-0000-0000-000000000000}
+template: {B2970AEE-4BC3-47F8-A7BD-02C5E970DCDA}
+templatekey: Bet
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 4
+
+1600
+----version----
+language: en
+version: 1
+revision: aeb8b218-6d3a-44a4-b055-ce01d9761f3c
+
+----field----
+field: {5F94F1FE-2039-426A-A127-6BB34D81AF70}
+name: Breadcrumb Title
+key: breadcrumb title
+content-length: 8
+
+Lacrosse
+----field----
+field: {EA2AB9D8-1953-43AD-B740-EB473F4780E2}
+name: Title
+key: title
+content-length: 8
+
+Lacrosse
+----field----
+field: {B43A08BA-EBB1-478D-BD90-8DD771A41F16}
+name: Text
+key: text
+content-length: 25
+
+Lacrosse information here
+----field----
+field: {1B058F78-A226-418E-ABFA-1CB0EEF0EBA2}
+name: Icon
+key: icon
+content-length: 58
+
+<image mediaid="{E24801C5-371A-4B18-91B4-5AEB7E627A43}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150329T201509Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+aeb8b218-6d3a-44a4-b055-ce01d9761f3c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150406T083713:635639062332687796Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

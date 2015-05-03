@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {CEFEB90B-E581-42EF-8DE2-635272422AA1}
+database: master
+path: /sitecore/content/Global/Banners/New registration
+parent: {65ACAFC4-464E-417E-964B-EDD05F889FE0}
+name: New registration
+master: {00000000-0000-0000-0000-000000000000}
+template: {1D4F3617-2957-4ACB-AA2E-731A9F775A67}
+templatekey: Banner
+
+----version----
+language: en
+version: 1
+revision: 5569e941-ebec-4fe1-b69c-2c7c62ac2fc5
+
+----field----
+field: {CA684A60-ABF4-4C8F-A48A-8232C94E205E}
+name: BannerImage
+key: bannerimage
+content-length: 58
+
+<image mediaid="{30619FE4-0F2E-463B-8ABA-6CF3B0C5FCB0}" />
+----field----
+field: {4E1E38B5-F484-43E5-93F4-78723220BDCF}
+name: BannerTitle1
+key: bannertitle1
+content-length: 22
+
+THANKS FOR REGISTERING
+----field----
+field: {AD901B49-7E4F-455B-B277-27CDB31666E3}
+name: BannerTitle2
+key: bannertitle2
+content-length: 19
+
+LET THE GAMES BEGIN
+----field----
+field: {4F95FF83-2B7A-46BE-B344-C231BF32836F}
+name: BannerTitle3
+key: bannertitle3
+content-length: 16
+
+BET ON COD NOW!!
+----field----
+field: {12D5D5A6-EB3C-4404-BEC0-A9D40A3E2B77}
+name: BannerBackColor
+key: bannerbackcolor
+content-length: 3
+
+000
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150409T113553Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5569e941-ebec-4fe1-b69c-2c7c62ac2fc5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150409T113751:635641762717722619Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

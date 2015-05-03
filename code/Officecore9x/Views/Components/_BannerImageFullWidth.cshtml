@@ -1,0 +1,39 @@
+﻿@using Sitecore.Data.Fields
+@using Sitecore.Resources.Media
+@model Sitecore.Mvc.Presentation.RenderingModel
+@{
+    var imageUrl = string.Empty;
+    var imageField = (ImageField)Model.Item.Fields["BannerImage"];
+    if (imageField != null && imageField.MediaItem != null)
+    {
+        imageUrl = MediaManager.GetMediaUrl(imageField.MediaItem);
+    }
+}
+<style type="text/css">
+    .promo_banner_left {
+        width: 373px;
+        height: 215px;
+        padding: 10px 0 0;
+        margin: 25px;
+    }
+
+    .content_highlight_bg {
+        background: url(https://c.ppstatic.com/content/newlivecasino/images/live_casino_sprite.png) -335px -155px no-repeat;
+    }
+</style>
+<div class="row" style="background: url(@imageUrl); height: 290px;">
+    <div class="promo_banner_left content_highlight_bg">
+        <div class="col-lg-12">
+            <h1 id="header1" class="fittext" style="color: #@Html.Sitecore().CurrentItem.Fields["BannerTitle1Color"].Value">@Html.Sitecore().Field("BannerTitle1")</h1>
+        </div>
+        <div class="col-lg-12">
+            <h1 id="header2" class="fittext" style="color: #@Html.Sitecore().CurrentItem.Fields["BannerTitle2Color"].Value">@Html.Sitecore().Field("BannerTitle2")</h1>
+        </div>
+        <div class="col-lg-12">
+            <h2 id="header3" class="fittext" style="color: #@Html.Sitecore().CurrentItem.Fields["BannerTitle3Color"].Value">@Html.Sitecore().Field("BannerTitle3")</h2>
+        </div>
+        <div class="col-lg-12">
+            @Html.Sitecore().Field("Link", @Model.Item, new { @class = "btn btn-success" })
+        </div>
+    </div>
+</div>

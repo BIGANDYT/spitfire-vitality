@@ -1,0 +1,110 @@
+----item----
+version: 1
+id: {05F00973-F0C8-4FFC-9FD6-46ECA63DB26C}
+database: master
+path: /sitecore/media library/Images/Icons/tennis18
+parent: {1B979D86-A6D5-4DCD-8574-528986C8EC1E}
+name: tennis18
+master: {00000000-0000-0000-0000-000000000000}
+template: {F1828A2C-7E5D-4BBD-98CA-320474871548}
+templatekey: Image
+
+----field----
+field: {40E50ED9-BA07-4702-992E-A912738D32DC}
+name: Blob
+key: blob
+content-length: 820
+
+iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAAJOoAACTqAf2dxpUAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAu
+NWWFMmUAAAHJSURBVDhPpZTNK0RhGMXHZzMLRVFKlI0FG3bCLIYisqCUr5UkykL5B5SajULJAjVL
+G9mwE4rGiqxYKimKpIxGvmf8numMmTF3FE79et/3Oeee7tzuHZeTIpFIK2xDGxxDh+blMG2zaDR6
+b7DfhW722bGLvwuzHl4JRFkn4BQ+oAXa4R3OYIvIHustmJYdSzHm4EWFD9ADGxzXWD3QyD5HcRf7
+QmabYBrUOCGG/WB3sqPSJ/CDV5E04ZXAIwQ1SojhCjzR1cV6aKUm9gFFHIW/DyEdE+LaUowL0Qmm
+cyhTxFH4OxDWMVWUFmNOQQ2McS6U5Sj8PHI3cKJRqjA8hJqsWKMfRd4L9ibMapQqimrBnptfo4wi
+lgv2+rxApcapwqhT4YxGGUVmUtl5jdKFWa3QAYvjF2Bz/HF4gyBnt6x0EWhQoT2X0eRSFVXBOkQ4
+70GRbGeR64Uw3IGV2ve8AItwBPa8nu1MWeY7i4vgKtg3+8YFX+JsuoIAVCueWYTsExqAV1gCHz0V
+4AZ74QtYnf9VkkUoi/AQ2F3ZT+yT9XupbBhiP481xJIv+/eiwO4sXmZ/V82y/iYKrpPKfBr/XZSM
+wCX8785icrk+AclQZrgLiIBMAAAAAElFTkSuQmCC
+----field----
+field: {22EAC599-F13B-4607-A89D-C091763A467D}
+name: Width
+key: width
+content-length: 2
+
+20
+----field----
+field: {DE2CA9E4-C117-4C8A-A139-1FF4B199D15A}
+name: Height
+key: height
+content-length: 2
+
+20
+----field----
+field: {C06867FE-9A43-4C7D-B739-48780492D06F}
+name: Extension
+key: extension
+content-length: 3
+
+png
+----field----
+field: {6F47A0A5-9C94-4B48-ABEB-42D38DEF6054}
+name: Mime Type
+key: mime type
+content-length: 9
+
+image/png
+----field----
+field: {6954B7C7-2487-423F-8600-436CB3B6DC0E}
+name: Size
+key: size
+content-length: 3
+
+600
+----field----
+field: {CB09946F-3218-4823-87D2-D5007C199A96}
+name: Dimensions
+key: dimensions
+content-length: 7
+
+20 x 20
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 61
+
+~/media/05F00973F0C84FFC9FD646ECA63DB26C.ashx?h=16&thn=1&w=16
+----version----
+language: en
+version: 1
+revision: a6b480b8-b034-478b-ae1e-0842b97a803f
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150329T221422Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a6b480b8-b034-478b-ae1e-0842b97a803f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150329T221422:635632640621866168Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

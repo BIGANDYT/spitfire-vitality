@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {DB33ABE8-93A1-4F07-A0B0-5FF73FD05F9B}
+database: master
+path: /sitecore/content/Sport/bets/Basketball
+parent: {F9CC0AC2-878B-4DDD-9BEE-EE59291DAC72}
+name: Basketball
+master: {00000000-0000-0000-0000-000000000000}
+template: {B2970AEE-4BC3-47F8-A7BD-02C5E970DCDA}
+templatekey: Bet
+
+----version----
+language: en
+version: 1
+revision: 6e66c27d-0538-486a-a3bc-7c0108fe738f
+
+----field----
+field: {5F94F1FE-2039-426A-A127-6BB34D81AF70}
+name: Breadcrumb Title
+key: breadcrumb title
+content-length: 10
+
+Basketball
+----field----
+field: {EA2AB9D8-1953-43AD-B740-EB473F4780E2}
+name: Title
+key: title
+content-length: 10
+
+Basketball
+----field----
+field: {B43A08BA-EBB1-478D-BD90-8DD771A41F16}
+name: Text
+key: text
+content-length: 27
+
+Basketball information here
+----field----
+field: {1B058F78-A226-418E-ABFA-1CB0EEF0EBA2}
+name: Icon
+key: icon
+content-length: 58
+
+<image mediaid="{FCD7055C-C0A8-4980-AAB5-D7CA05EE7B89}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150329T201509Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6e66c27d-0538-486a-a3bc-7c0108fe738f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150406T083712:635639062326563443Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

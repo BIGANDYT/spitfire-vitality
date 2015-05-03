@@ -1,0 +1,111 @@
+----item----
+version: 1
+id: {D71F5189-DC20-445A-AC02-1809E18B2675}
+database: master
+path: /sitecore/media library/Images/Icons/americanfootball3
+parent: {1B979D86-A6D5-4DCD-8574-528986C8EC1E}
+name: americanfootball3
+master: {00000000-0000-0000-0000-000000000000}
+template: {F1828A2C-7E5D-4BBD-98CA-320474871548}
+templatekey: Image
+
+----field----
+field: {40E50ED9-BA07-4702-992E-A912738D32DC}
+name: Blob
+key: blob
+content-length: 890
+
+iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAAHpoAAB6aAfxvKPgAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAu
+NWWFMmUAAAH8SURBVDhPjZQxTwJBEIURkPAjbAidHYYC+B1akWisLCyMrTGxsLKztICE1oaCUltj
+w3+gIXQmohEwht31m2X3GE4ghjxy9+bN292Z2cs45/6LnHrOO2eurDNDMAVz8O6cbemEdciCA+vs
+Awl9nhsqtoNpE/4TuICxTk5jH8ETkNVjwjcml8Rkoairwb+F+FwbKJhzgrMgSsOy4w66XZVTh5+A
+qTJZAPGdSt4C20NfXOaaY/jRilnY2ZrkBLLrr+W77ZJXCPlS02ttKDXbdEwPftfoyjwPlrxtw8UJ
+yEWzLEFpwIqBBqufODc/DPoS3E+IWWIXgc9EQ0ZjpZsaH+ziGU1loZ0fsdMbeJwSzYxYVeLekASZ
+M22i4M2ojx8VTM3Zep15EZ0Y5njpp4Iei2P6nYlZHu41rVnC3qNJjtyA/FaC2aIBSc0qcGIm10yZ
+JGDgXVm00RCYSwIMrRd8RYHUbMsxA+xj9JE/Lrp/odO2o4QDuFJogEr+Az4Kbi94iKG54kGKLsQu
+pj0lltHQ3UyDQpvTaCagw2YI2VRkEdNuKnEdWMjeqrzEUG7HJy81FSggbsPHmqbBMVd3FiGGcaDf
+IOoqyHUyF/D6OjIJvgFJzdIQw3eVMMHkmECsqaAK/4KRzFno/GbwZ1skjIHsVOZshKl8BPQnXy+w
+BS7zC1HJeQtW0T3VAAAAAElFTkSuQmCC
+----field----
+field: {22EAC599-F13B-4607-A89D-C091763A467D}
+name: Width
+key: width
+content-length: 2
+
+20
+----field----
+field: {DE2CA9E4-C117-4C8A-A139-1FF4B199D15A}
+name: Height
+key: height
+content-length: 2
+
+20
+----field----
+field: {C06867FE-9A43-4C7D-B739-48780492D06F}
+name: Extension
+key: extension
+content-length: 3
+
+png
+----field----
+field: {6F47A0A5-9C94-4B48-ABEB-42D38DEF6054}
+name: Mime Type
+key: mime type
+content-length: 9
+
+image/png
+----field----
+field: {6954B7C7-2487-423F-8600-436CB3B6DC0E}
+name: Size
+key: size
+content-length: 3
+
+651
+----field----
+field: {CB09946F-3218-4823-87D2-D5007C199A96}
+name: Dimensions
+key: dimensions
+content-length: 7
+
+20 x 20
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 61
+
+~/media/D71F5189DC20445AAC021809E18B2675.ashx?h=16&thn=1&w=16
+----version----
+language: en
+version: 1
+revision: c11b6771-958e-4876-ba95-c7cba1d21502
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150329T221413Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c11b6771-958e-4876-ba95-c7cba1d21502
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150329T221413:635632640538441689Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

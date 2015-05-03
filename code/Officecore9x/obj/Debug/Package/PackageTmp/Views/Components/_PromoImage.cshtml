@@ -1,0 +1,7 @@
+﻿<div class="row">
+    <div class="col-lg-12">
+        @Html.Sitecore().BeginField("PromoLink", Model.Item, new { haschildren = true })
+        @Html.Sitecore().Field("PromoImage", Model.Item, new { @class = "img-responsive" })
+        @Html.Sitecore().EndField()
+    </div>
+</div>

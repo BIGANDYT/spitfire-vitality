@@ -1,0 +1,66 @@
+.navbar {
+    border: 0;
+    background: url('/Content/themes/Pink/header-bg.png') repeat-x;
+    color: #ffffff;
+}
+
+.nav-header {
+    padding: 33px 25px;
+}
+
+body.mini-navbar .nav-header {
+    padding: 0;
+    background-color: #D874A8;
+}
+
+body {
+    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #D874A8;
+    font-size: 13px;
+    color: #676a6c;
+    overflow-x: hidden;
+}
+
+.table-bordered {
+    border: 2px solid #D874A8;
+}
+
+    .table-bordered > thead > tr > th,
+    .table-bordered > thead > tr > td {
+        background-color: #D874A8;
+        border-bottom-width: 1px;
+        color: #FFF;
+    }
+
+        .table-bordered > thead > tr > th:last-child {
+            text-align: right;
+        }
+
+.placeholderborder {
+    border-style: solid;
+    border-width: 10px;
+    border-color: #D874A8;
+}
+
+.navlist > div > div > a > span {
+    color: #fff;
+}
+
+.navlist:hover {
+    background-color: #EEC1D9;
+}
+
+.headerpanel {
+    background: url('/Content/themes/Pink/header-bg.png') repeat-x;
+}
+
+.btn-primary {
+    background-color: #fff;
+    border-color: #fff;
+    color: #D874A8;
+}
+
+    .btn-primary:hover,
+    .btn-primary:focus {
+        background-color: #EEC1D9;
+    }

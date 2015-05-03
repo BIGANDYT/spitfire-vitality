@@ -1,0 +1,75 @@
+.navbar {
+    border: 0;
+    background: url('/Content/themes/Gold/header-bg.png') repeat-x;
+    color: #ffffff;
+}
+
+.nav-header {
+    padding: 33px 25px;
+}
+
+body.mini-navbar .nav-header {
+    padding: 0;
+    background-color: #000;
+}
+
+body {
+    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #000;
+    font-size: 13px;
+    color: #676a6c;
+    overflow-x: hidden;
+}
+
+.table-bordered {
+    border: 2px solid #DFA92B;
+}
+
+    .table-bordered > thead > tr > th,
+    .table-bordered > thead > tr > td {
+        background-color: #DFA92B;
+        border-bottom-width: 1px;
+        color: #FFF;
+    }
+
+        .table-bordered > thead > tr > th:last-child {
+            text-align: right;
+        }
+
+.placeholderborder {
+    border-style: solid;
+    border-width: 10px;
+    border-color: #DFA92B;
+}
+
+.navlist > div > div > a > span {
+    color: #fff;
+}
+
+.navlist:hover {
+    background-color: #DFA92B;
+}
+
+.headerpanel {
+    background: url('/Content/themes/Gold/header-bg.png') repeat-x;
+}
+
+.btn-primary {
+  background-color: #fff;
+  border-color: #fff;
+  color: #000;
+}
+
+    .btn-primary:hover,
+    .btn-primary:focus {
+        background-color: #DFA92B;
+    }
+
+.panel-primary {
+  border-color: #DFA92B;
+}
+
+.panel-primary > .panel-heading {
+  background-color: #DFA92B;
+  border-color: #DFA92B;
+}

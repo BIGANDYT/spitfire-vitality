@@ -1,0 +1,93 @@
+----item----
+version: 1
+id: {65EB93D0-3832-4F54-9AC0-2002C58E5950}
+database: core
+path: /sitecore/content/Applications/WebEdit/Custom Experience Buttons/Manage Embedded Video
+parent: {DB662EDF-5965-4848-AD14-BA6BF0D55D1E}
+name: Manage Embedded Video
+master: {00000000-0000-0000-0000-000000000000}
+template: {1AB4F9AD-B004-413C-8924-3E07143A614B}
+templatekey: Field Editor Button
+
+----field----
+field: {4431914A-C40B-437C-8ADD-D2ED12CC8CC3}
+name: Icon
+key: icon
+content-length: 33
+
+multimedia/32x32/open_video_h.png
+----field----
+field: {CF738220-908D-4C3F-9482-32E625DAF13C}
+name: Fields
+key: fields
+content-length: 9
+
+EmbedCode
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 33
+
+Multimedia/32x32/open_video_h.png
+----version----
+language: en
+version: 1
+revision: aea5d237-c137-4cb8-9c72-a3d2d2c2318e
+
+----field----
+field: {108D3A63-BAAA-4560-86D8-3A112ED84717}
+name: Header
+key: header
+content-length: 32
+
+Manage embedded video properties
+----field----
+field: {5F0812AF-D370-4292-AFEE-F26A39B7406D}
+name: Tooltip
+key: tooltip
+content-length: 36
+
+Manage the embedded video properties
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150327T224116Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+aea5d237-c137-4cb8-9c72-a3d2d2c2318e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150403T195625:635636877851353677Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

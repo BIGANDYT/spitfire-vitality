@@ -1,0 +1,93 @@
+----item----
+version: 1
+id: {BBDDF59C-C120-47AC-A1B8-8034B9D11353}
+database: master
+path: /sitecore/content/LiveCasino
+parent: {0DE95AE4-41AB-4D01-9EB0-67441B7C2450}
+name: LiveCasino
+master: {00000000-0000-0000-0000-000000000000}
+template: {27351021-529A-498F-83B1-AE3CC3E24D7E}
+templatekey: Site
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 217
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{8762D12C-DCF6-49AF-B5CB-FEF7FDBE8988}"><p:d /></r><r uid="{21740AAE-C3DE-45DE-B80F-CC96A78E130F}" p:before="*[1=2]" /></d></r>
+----version----
+language: en
+version: 1
+revision: 3e9b6b75-b80d-44b6-8180-37236be839ef
+
+----field----
+field: {90B3B801-CFF2-432A-B8A6-B78B17781DE2}
+name: Title
+key: title
+content-length: 19
+
+Casino Andys Casino
+----field----
+field: {FD0B5915-B92F-4D3E-84A8-07B255F1181E}
+name: Text
+key: text
+content-length: 12
+
+Casino Games
+----field----
+field: {AC65A5A4-88D0-4055-921A-9560D65C23BB}
+name: NavLogo
+key: navlogo
+content-length: 58
+
+<image mediaid="{21F6219D-2596-4DEA-A955-2D81995FB345}" />
+----field----
+field: {E780709F-E80C-40F5-BB74-32EA5A8C817B}
+name: SiteStyle
+key: sitestyle
+content-length: 9
+
+greygreen
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 6519
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{58C07086-2E7D-459E-A64A-B79476E9A1E4}" p:before="r[@uid='{9A79D517-5ED0-4228-9C67-9CC31E7CFDEC}']" s:ds="{58DC726B-A41B-469E-9D53-89C15663A9B6}" s:id="{5899894D-C166-4F11-B234-66ED76FE230B}" s:ph="/content/row_7ce947d0-e2b9-4126-b1b5-16344633856d/col_3f67da60-366e-4195-9325-5bd6ac8fdeec/row_137c24d1-c551-4487-9812-53c4fb93cf5e/col_ec8e6c10-72ab-4bd6-ad8f-b70fdc98d128/right_4f3e45c6-c2f0-49cf-9e59-88b2163ff682" /><r uid="{9A79D517-5ED0-4228-9C67-9CC31E7CFDEC}" p:before="r[@uid='{B8768969-3DC9-4898-A07A-B94A8C281648}']" s:ds="{0EC907A2-8E36-498A-BFB8-9F8297C7C65A}" s:id="{5899894D-C166-4F11-B234-66ED76FE230B}" s:ph="/content/row_7ce947d0-e2b9-4126-b1b5-16344633856d/col_3f67da60-366e-4195-9325-5bd6ac8fdeec/row_137c24d1-c551-4487-9812-53c4fb93cf5e/col_ec8e6c10-72ab-4bd6-ad8f-b70fdc98d128/left_4f3e45c6-c2f0-49cf-9e59-88b2163ff682" /><r uid="{B8768969-3DC9-4898-A07A-B94A8C281648}" p:before="r[@uid='{3D5723B5-D4F9-4666-9BB3-FD900B8ED8BF}']" s:ds="{189439EC-81B6-437D-8BAC-0AAF0F1E035D}" s:id="{5899894D-C166-4F11-B234-66ED76FE230B}" s:ph="/content/row_7ce947d0-e2b9-4126-b1b5-16344633856d/col_3f67da60-366e-4195-9325-5bd6ac8fdeec/row_137c24d1-c551-4487-9812-53c4fb93cf5e/col_ec8e6c10-72ab-4bd6-ad8f-b70fdc98d128/centerright_4f3e45c6-c2f0-49cf-9e59-88b2163ff682" /><r uid="{3D5723B5-D4F9-4666-9BB3-FD900B8ED8BF}" p:before="r[@uid='{4F3E45C6-C2F0-49CF-9E59-88B2163FF682}']" s:ds="{9CDAB9D3-37AE-4082-BC7E-91EECBFB4795}" s:id="{5899894D-C166-4F11-B234-66ED76FE230B}" s:ph="/content/row_7ce947d0-e2b9-4126-b1b5-16344633856d/col_3f67da60-366e-4195-9325-5bd6ac8fdeec/row_137c24d1-c551-4487-9812-53c4fb93cf5e/col_ec8e6c10-72ab-4bd6-ad8f-b70fdc98d128/centerleft_4f3e45c6-c2f0-49cf-9e59-88b2163ff682" /><r uid="{4F3E45C6-C2F0-49CF-9E59-88B2163FF682}" p:before="r[@uid='{B6F009B1-6787-4D4C-96F4-5B59BC5B276C}']" s:ds="" s:id="{170389AD-1BD5-4AC7-AB66-8B282EAC8F1B}" s:par="BackgroundImage=col-lg-12&amp;CssStyle=background-image%3Aurl(https%3A%2F%2Fc.ppstatic.com%2Fcontent%2Fnewlivecasino%2Fimages%2Ftable_launch_bg.png)%3Bpadding%3A10px%3Bmargin-top%3A25px%3Bmargin-bottom%3A1000px" s:ph="/content/row_7ce947d0-e2b9-4126-b1b5-16344633856d/col_3f67da60-366e-4195-9325-5bd6ac8fdeec/row_137c24d1-c551-4487-9812-53c4fb93cf5e/col_ec8e6c10-72ab-4bd6-ad8f-b70fdc98d128" /><r uid="{B6F009B1-6787-4D4C-96F4-5B59BC5B276C}" p:before="r[@uid='{4136FE46-524E-496E-9B71-46680088B0EF}']" s:ds="{5993CCEE-D728-4B30-B5CA-6C8EF8B03358}" s:id="{355D970A-2022-498B-8F91-D97B715C620C}" s:par="" s:ph="/content/row_7ce947d0-e2b9-4126-b1b5-16344633856d/col_3f67da60-366e-4195-9325-5bd6ac8fdeec/row_137c24d1-c551-4487-9812-53c4fb93cf5e/col_ec8e6c10-72ab-4bd6-ad8f-b70fdc98d128/panel-column_05e811b6-6af4-4c93-b56d-36d30d44a163" /><r uid="{4136FE46-524E-496E-9B71-46680088B0EF}" p:before="r[@uid='{4136A070-DB6F-4ED9-A970-ECC67831A204}']" s:ds="{1849EBD8-8BB6-406B-AD32-3E766FF0FDA1}" s:id="{79939680-7FCE-43B0-80FA-662DDA27407C}" s:par="" s:ph="nav-left" /><r uid="{4136A070-DB6F-4ED9-A970-ECC67831A204}" p:before="r[@uid='{21B07742-5F0B-4304-9E2A-2E75B002D6D7}']" s:id="{355D970A-2022-498B-8F91-D97B715C620C}" s:ph="/content/row_7ce947d0-e2b9-4126-b1b5-16344633856d/col_3f67da60-366e-4195-9325-5bd6ac8fdeec/row_137c24d1-c551-4487-9812-53c4fb93cf5e/col_ec8e6c10-72ab-4bd6-ad8f-b70fdc98d128/panel-column_9b4fd0c5-12d1-4af0-a113-4238ae98fce0" /><r uid="{21B07742-5F0B-4304-9E2A-2E75B002D6D7}" p:before="r[@uid='{EC8E6C10-72AB-4BD6-AD8F-B70FDC98D128}']" s:ds="{F1689DE2-CB72-4BEF-8589-EA9BC302DEFD}" s:id="{D0F7D054-EFB8-476F-BAC3-C9FBB22B76BA}" s:ph="/content/row_7ce947d0-e2b9-4126-b1b5-16344633856d/col_3f67da60-366e-4195-9325-5bd6ac8fdeec/row_137c24d1-c551-4487-9812-53c4fb93cf5e/col_56010e79-4b6e-41f3-9124-aa1e6ce6efdc" /><r uid="{EC8E6C10-72AB-4BD6-AD8F-B70FDC98D128}" p:before="r[@uid='{FC943002-F300-4471-A733-D093C5586F5A}']" s:ds="" s:id="{DC79BF70-5569-4042-85B4-8F078EC5A7E7}" s:par="CssClass=col-lg-12%20nopadding&amp;CssStyle" s:ph="/content/row_7ce947d0-e2b9-4126-b1b5-16344633856d/col_3f67da60-366e-4195-9325-5bd6ac8fdeec/row_137c24d1-c551-4487-9812-53c4fb93cf5e" /><r uid="{FC943002-F300-4471-A733-D093C5586F5A}" p:before="r[@uid='{9B8E38DC-548B-4329-A27C-8C0FDDC24717}']" s:ds="{F8FAECB2-4460-4082-AC39-BA1E3232D2AB}" s:id="{AA4EE8A0-953C-4D30-9AAA-58143B777494}" s:ph="/content/row_7ce947d0-e2b9-4126-b1b5-16344633856d/col_3f67da60-366e-4195-9325-5bd6ac8fdeec/row_e67c6210-abb4-44cc-833f-9acdd657b28b/col_9b8e38dc-548b-4329-a27c-8c0fddc24717"><rls><ruleset><rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default"><conditions><condition uid="7C83340880CA4A28856BC57ACF10EAD7" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" /></conditions><actions /></rule></ruleset></rls></r><r uid="{9B8E38DC-548B-4329-A27C-8C0FDDC24717}" p:before="r[@uid='{E67C6210-ABB4-44CC-833F-9ACDD657B28B}']" s:ds="" s:id="{DC79BF70-5569-4042-85B4-8F078EC5A7E7}" s:par="CssClass=col-lg-12&amp;CssStyle=margin-top%3A25px%3Bheight%3A290px" s:ph="/content/row_7ce947d0-e2b9-4126-b1b5-16344633856d/col_3f67da60-366e-4195-9325-5bd6ac8fdeec/row_e67c6210-abb4-44cc-833f-9acdd657b28b" /><r uid="{E67C6210-ABB4-44CC-833F-9ACDD657B28B}" p:before="r[@uid='{137C24D1-C551-4487-9812-53C4FB93CF5E}']" s:id="{7D36765F-0CE3-4749-A9CF-E8CACF7207F5}" s:ph="/content/row_7ce947d0-e2b9-4126-b1b5-16344633856d/col_3f67da60-366e-4195-9325-5bd6ac8fdeec" /><r uid="{137C24D1-C551-4487-9812-53C4FB93CF5E}" p:before="r[@uid='{3F67DA60-366E-4195-9325-5BD6AC8FDEEC}']" s:id="{7D36765F-0CE3-4749-A9CF-E8CACF7207F5}" s:ph="/content/row_7ce947d0-e2b9-4126-b1b5-16344633856d/col_3f67da60-366e-4195-9325-5bd6ac8fdeec" /><r uid="{3F67DA60-366E-4195-9325-5BD6AC8FDEEC}" p:before="r[@uid='{7CE947D0-E2B9-4126-B1B5-16344633856D}']" s:ds="" s:id="{DC79BF70-5569-4042-85B4-8F078EC5A7E7}" s:par="CssClass=col-lg-8%20col-lg-offset-2&amp;CssStyle" s:ph="/content/row_7ce947d0-e2b9-4126-b1b5-16344633856d" /><r uid="{7CE947D0-E2B9-4126-B1B5-16344633856D}" p:before="r[@uid='{21740AAE-C3DE-45DE-B80F-CC96A78E130F}']" s:ds="" s:id="{7D36765F-0CE3-4749-A9CF-E8CACF7207F5}" s:par="BackgroundImage=%3Cimage%20mediaid%3D%22%7B5F5AC7AB-CDAF-45E6-9E2A-EAE2108F50F3%7D%22%20%2F%3E&amp;CssStyle=background-image%3A%20url(%27https%3A%2F%2Fi.ppstatic.com%2Fcontent%2F%2Fnewlivecasino%2FNew_Website_Imagery_2015%2FWallpaper_Main%2F1900X1200_NEW_WALLPAPER_CHIPS_updated.jpg%27)%3Bfilter%3Anone%3B&amp;CssClass=row" s:ph="content" /><r uid="{21740AAE-C3DE-45DE-B80F-CC96A78E130F}" p:before="*[1=2]" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150406T092436Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3e9b6b75-b80d-44b6-8180-37236be839ef
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150409T152532:635641899325996690Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

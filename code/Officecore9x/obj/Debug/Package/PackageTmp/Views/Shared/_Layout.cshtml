@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+@using Sitecore.Mvc
+@model Sitecore.Mvc.Presentation.RenderingModel
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaddyPower</title>
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/themes/" + @Sitecore.Context.Item.Fields["SiteStyle"].Value)
+    @Styles.Render("~/font-awesome/css")
+    @Styles.Render("~/rrsociashare/css")
+    @Scripts.Render("~/bundles/jquery")
+    <script>
+        var jQuery2 = jQuery.noConflict();
+    </script>
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/plugins/metsiMenu")
+    @Scripts.Render("~/plugins/pace")
+    @Scripts.Render("~/plugins/slimScroll")
+    @Scripts.Render("~/bundles/inspinia")
+    @Scripts.Render("~/plugins/peity")
+    @Scripts.Render("~/plugins/fittext")
+    @Scripts.Render("~/plugins/socialshare")
+
+</head>
+<body>
+
+    <!-- Wrapper-->
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        @Html.Partial("_Navigation")
+
+        <!-- Page wraper -->
+        <div id="page-wrapper" class="gray-bg">
+
+            <!-- Top Navbar -->
+            @Html.Sitecore().Placeholder("topnavbar")
+
+            <!-- Main view  -->
+            @Html.Sitecore().Placeholder("content")
+
+        </div>
+        <!-- End page wrapper-->
+
+    </div>
+    <!-- End wrapper-->
+
+    <script>
+        var updatingChart = jQuery2(".marketgraph").peity("line", { width: 64, fill: ["green"] });
+        @(Sitecore.Context.PageMode.IsPageEditorEditing ? null : Html.Raw("jQuery2(\".fittext\").fitText();"))
+    </script>
+</body>
+</html>

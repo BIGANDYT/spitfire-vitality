@@ -1,0 +1,15 @@
+﻿<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul class="nav" id="side-menu">
+            <li class="nav-header">
+                <div class="dropdown profile-element">
+                    @Html.Sitecore().Field("NavLogo", @Html.Sitecore().CurrentItem, new { @class = "img-responsive" })
+                </div>
+                <div class="logo-element">
+                    @Html.Sitecore().Field("NavLogo", @Html.Sitecore().CurrentItem, new { @class = "img-responsive" })
+                </div>
+            </li>
+            @Html.Sitecore().Placeholder("nav-left")
+        </ul>
+    </div>
+</nav>
