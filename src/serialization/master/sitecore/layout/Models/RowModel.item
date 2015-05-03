@@ -13,13 +13,13 @@ templatekey: Model
 field: {EE9E23D2-181D-4172-A929-0E0B8D10313C}
 name: Model Type
 key: model type
-content-length: 68
+content-length: 33
 
-Inspinia_MVC5_SeedProject.Models.RowModel, Inspinia_MVC5_SeedProject
+Spitfire.Models.RowModel,Spitfire
 ----version----
 language: en
 version: 1
-revision: b181dc67-5ca6-4100-a25d-4d1cee2e9273
+revision: e41d7a9c-9b06-4839-8c91-3ac2fcf768a5
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b181dc67-5ca6-4100-a25d-4d1cee2e9273
+e41d7a9c-9b06-4839-8c91-3ac2fcf768a5
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150406T172400:635639378407968692Z
+20150503T153716:635662642362560170Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

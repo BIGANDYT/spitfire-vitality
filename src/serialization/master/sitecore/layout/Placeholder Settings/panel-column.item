@@ -20,13 +20,13 @@ panel-column
 field: {E391B526-D0C5-439D-803E-17512EAE6222}
 name: Allowed Controls
 key: allowed controls
-content-length: 77
+content-length: 38
 
-{46914D6E-267A-4E0B-B9B1-66B92FF57D39}|{355D970A-2022-498B-8F91-D97B715C620C}
+{46914D6E-267A-4E0B-B9B1-66B92FF57D39}
 ----version----
 language: en
 version: 1
-revision: 7d46a76d-a9f1-40fd-a28b-744b8dff5663
+revision: 9bbb7994-12ae-436c-a392-74cf8d2605c3
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -41,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-7d46a76d-a9f1-40fd-a28b-744b8dff5663
+9bbb7994-12ae-436c-a392-74cf8d2605c3
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150406T122752:635639200726183843Z
+20150430T151719:635660038399067433Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

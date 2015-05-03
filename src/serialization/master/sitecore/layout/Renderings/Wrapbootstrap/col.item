@@ -24,13 +24,6 @@ content-length: 38
 
 {1340124B-9B0E-46BF-9141-A7BAC559234E}
 ----field----
-field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
-name: Open Properties after Add
-key: open properties after add
-content-length: 1
-
--
-----field----
 field: {A2F5D9DF-8CBA-4A1D-99EB-51ACB94CB057}
 name: Page Editor Buttons
 key: page editor buttons
@@ -40,7 +33,7 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: 3eea4f53-f9d5-49a2-86e6-0d01581e4284
+revision: a025a1b7-a51a-4a7c-8b42-4db0413d3bb7
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -55,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-3eea4f53-f9d5-49a2-86e6-0d01581e4284
+a025a1b7-a51a-4a7c-8b42-4db0413d3bb7
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150408T180709:635641132296895062Z
+20150430T143443:635660012833888258Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
