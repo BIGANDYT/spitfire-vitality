@@ -80,6 +80,13 @@ content-length: 77
 
 {76036F5E-CBCE-46D1-AF0A-4143F9B557AA}|{A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
 ----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 312
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" s:l="{A55B28C9-68C8-4194-AF81-A537995FD51B}"><r uid="{43222D12-08C9-453B-AE96-D406EBB95126}"><p:d /></r><r uid="{CF044AD9-0332-407A-ABDE-587214A2C808}"><p:d /></r><r uid="{B343725A-3A93-446E-A9C8-3A2CBD3DB489}"><p:d /></r></d></r>
+----field----
 field: {86FE4F77-4D9A-4EC3-9ED9-263D03BD1965}
 name: __Publish
 key: __publish
@@ -310,7 +317,7 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: cbaa5f73-fc0f-4417-930e-51af858b2bb9
+revision: aa2ab078-58af-4e51-b48d-5b5f6b7b49da
 
 ----field----
 field: {75577384-3C97-45DA-A847-81B00500E250}
@@ -348,6 +355,13 @@ key: __short description
 content-length: 20
 
 Welcome to Sitecore.
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 606
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{EEDECF03-1B81-4D42-B6DC-EC13D499838F}" p:before="r[@uid='{193BACA0-09D2-4422-B63D-855EFCF32528}']" s:id="{8B07173E-AC10-463B-BFE8-4AB246DD7508}" s:ph="topnavbar" /><r uid="{193BACA0-09D2-4422-B63D-855EFCF32528}" p:before="r[@uid='{4D8F2C1D-8363-4E9E-AED1-93C9E9BD2D35}']" s:id="{79939680-7FCE-43B0-80FA-662DDA27407C}" s:ph="nav-left" /><r uid="{4D8F2C1D-8363-4E9E-AED1-93C9E9BD2D35}" p:before="r[@uid='{43222D12-08C9-453B-AE96-D406EBB95126}']" s:id="{170389AD-1BD5-4AC7-AB66-8B282EAC8F1B}" s:ph="content" /></d></r>
 ----field----
 field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
 name: __Valid from
@@ -389,14 +403,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-cbaa5f73-fc0f-4417-930e-51af858b2bb9
+aa2ab078-58af-4e51-b48d-5b5f6b7b49da
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150503T162245:635662669655455036Z
+20150504T074833:635663225136238504Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -404,6 +418,13 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
 ----version----
 language: ja-JP
 version: 1

@@ -130,10 +130,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/23/2015 15:20:58</publishTime>
     </File>
     <File Include="bin/Spitfire.dll">
-      <publishTime>05/03/2015 17:09:45</publishTime>
+      <publishTime>04/05/2015 10:26:17</publishTime>
     </File>
     <File Include="bin/Spitfire.pdb">
-      <publishTime>05/03/2015 17:09:44</publishTime>
+      <publishTime>04/05/2015 10:26:17</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>03/26/2015 12:55:56</publishTime>
@@ -209,6 +209,45 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/patterns/triangular.png">
       <publishTime>12/15/2014 09:58:02</publishTime>
+    </File>
+    <File Include="Content/plugins/fontawesome/css/font-awesome.min.css">
+      <publishTime>01/22/2015 13:52:32</publishTime>
+    </File>
+    <File Include="Content/plugins/fontawesome/fonts/fontawesome-webfont.eot">
+      <publishTime>01/22/2015 13:52:32</publishTime>
+    </File>
+    <File Include="Content/plugins/fontawesome/fonts/fontawesome-webfont.svg">
+      <publishTime>01/22/2015 13:52:32</publishTime>
+    </File>
+    <File Include="Content/plugins/fontawesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>01/22/2015 13:52:32</publishTime>
+    </File>
+    <File Include="Content/plugins/fontawesome/fonts/fontawesome-webfont.woff">
+      <publishTime>01/22/2015 13:52:32</publishTime>
+    </File>
+    <File Include="Content/plugins/fontawesome/fonts/fontawesome-webfont.woff2">
+      <publishTime>01/22/2015 13:52:32</publishTime>
+    </File>
+    <File Include="Content/plugins/fontawesome/fonts/FontAwesome.otf">
+      <publishTime>01/22/2015 13:52:32</publishTime>
+    </File>
+    <File Include="Content/plugins/jquery.fs.wallpaper/jquery.fs.wallpaper.css">
+      <publishTime>04/05/2015 10:22:26</publishTime>
+    </File>
+    <File Include="Content/plugins/owl-carousel/AjaxLoader.gif">
+      <publishTime>05/04/2015 09:38:59</publishTime>
+    </File>
+    <File Include="Content/plugins/owl-carousel/grabbing.png">
+      <publishTime>05/04/2015 09:38:59</publishTime>
+    </File>
+    <File Include="Content/plugins/owl-carousel/owl.carousel.css">
+      <publishTime>05/04/2015 09:38:59</publishTime>
+    </File>
+    <File Include="Content/plugins/owl-carousel/owl.theme.css">
+      <publishTime>05/04/2015 09:38:59</publishTime>
+    </File>
+    <File Include="Content/plugins/owl-carousel/owl.transitions.css">
+      <publishTime>05/04/2015 09:38:59</publishTime>
     </File>
     <File Include="Content/plugins/rrsocialshare/rrssb.css">
       <publishTime>04/02/2015 20:26:12</publishTime>
@@ -388,7 +427,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/31/2015 11:04:20</publishTime>
     </File>
     <File Include="Scripts/app/inspinia.js">
-      <publishTime>03/26/2015 13:22:40</publishTime>
+      <publishTime>04/05/2015 08:11:08</publishTime>
     </File>
     <File Include="Scripts/app/inspinia.min.js">
       <publishTime>03/29/2015 14:33:54</publishTime>
@@ -1530,6 +1569,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Scripts/plugins/jquery-ui/jquery-ui.min.js">
       <publishTime>12/09/2014 14:46:46</publishTime>
     </File>
+    <File Include="Scripts/plugins/jquery.fs.wallpaper/jquery.fs.wallpaper.js">
+      <publishTime>04/05/2015 10:22:56</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery.magnific-popup/jquery.magnific-popup.js">
+      <publishTime>04/05/2015 08:50:18</publishTime>
+    </File>
+    <File Include="Scripts/plugins/jquery.magnific-popup/jquery.magnific-popup.min.js">
+      <publishTime>04/05/2015 08:50:18</publishTime>
+    </File>
     <File Include="Scripts/plugins/jsKnob/jquery.knob.js">
       <publishTime>12/09/2014 14:46:48</publishTime>
     </File>
@@ -1578,6 +1626,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Scripts/plugins/nouslider/jquery.nouislider.min.js">
       <publishTime>12/09/2014 14:46:48</publishTime>
     </File>
+    <File Include="Scripts/plugins/owl-carousel/owl.carousel.js">
+      <publishTime>04/05/2015 08:50:18</publishTime>
+    </File>
     <File Include="Scripts/plugins/pace/pace.min.js">
       <publishTime>04/30/2015 15:13:36</publishTime>
     </File>
@@ -1586,6 +1637,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Scripts/plugins/preetyTextDiff/jquery.pretty-text-diff.min.js">
       <publishTime>03/29/2015 14:24:50</publishTime>
+    </File>
+    <File Include="Scripts/plugins/retina/retina.js">
+      <publishTime>04/05/2015 08:50:18</publishTime>
+    </File>
+    <File Include="Scripts/plugins/retina/retina.min.js">
+      <publishTime>04/05/2015 08:50:18</publishTime>
     </File>
     <File Include="Scripts/plugins/rickshaw/rickshaw.min.js">
       <publishTime>12/09/2014 14:46:42</publishTime>
@@ -1628,6 +1685,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Scripts/plugins/video/responsible-video.js">
       <publishTime>12/09/2014 14:46:42</publishTime>
+    </File>
+    <File Include="Scripts/plugins/wow/wow.js">
+      <publishTime>04/05/2015 08:50:18</publishTime>
+    </File>
+    <File Include="Scripts/plugins/wow/wow.min.js">
+      <publishTime>04/05/2015 08:50:18</publishTime>
     </File>
     <File Include="Views/Account/ExternalLoginConfirmation.cshtml">
       <publishTime>05/03/2015 16:36:27</publishTime>
@@ -1848,6 +1911,21 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Layouts/OffCanvas.cshtml">
       <publishTime>03/29/2015 15:53:54</publishTime>
     </File>
+    <File Include="Views/Layouts/Responsive.cshtml">
+      <publishTime>05/04/2015 10:29:37</publishTime>
+    </File>
+    <File Include="Views/Layouts/_Layout.cshtml">
+      <publishTime>05/04/2015 08:43:53</publishTime>
+    </File>
+    <File Include="Views/Layouts/_LogoBar.cshtml">
+      <publishTime>03/31/2015 09:27:27</publishTime>
+    </File>
+    <File Include="Views/Layouts/_Navigation.cshtml">
+      <publishTime>03/31/2015 08:54:46</publishTime>
+    </File>
+    <File Include="Views/Layouts/_TopNavbar.cshtml">
+      <publishTime>03/31/2015 09:18:46</publishTime>
+    </File>
     <File Include="Views/Mailbox/AlertEmail.cshtml">
       <publishTime>12/11/2014 12:26:42</publishTime>
     </File>
@@ -1950,6 +2028,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Pages/SearchResults.cshtml">
       <publishTime>12/11/2014 13:42:44</publishTime>
     </File>
+    <File Include="Views/Scaffolding/col.cshtml">
+      <publishTime>04/07/2015 17:03:41</publishTime>
+    </File>
     <File Include="Views/Scaffolding/Create.cshtml">
       <publishTime>12/12/2014 12:53:44</publishTime>
     </File>
@@ -1964,6 +2045,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Views/Scaffolding/Index.cshtml">
       <publishTime>12/25/2014 20:21:50</publishTime>
+    </File>
+    <File Include="Views/Scaffolding/row.cshtml">
+      <publishTime>04/08/2015 18:39:24</publishTime>
+    </File>
+    <File Include="Views/Scaffolding/row_3_3_3_3.cshtml">
+      <publishTime>03/05/2015 16:36:27</publishTime>
+    </File>
+    <File Include="Views/Scaffolding/row_4_4_4.cshtml">
+      <publishTime>04/07/2015 17:03:41</publishTime>
     </File>
     <File Include="Views/Shared/Responsive.cshtml">
       <publishTime>05/01/2015 10:08:49</publishTime>
@@ -2029,7 +2119,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/15/2014 09:38:24</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>05/02/2015 08:18:36</publishTime>
+      <publishTime>04/05/2015 08:34:24</publishTime>
     </File>
   </ItemGroup>
 </Project>
