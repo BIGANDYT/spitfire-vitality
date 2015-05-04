@@ -13,7 +13,7 @@ namespace Spitfire
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.min.css",
                       "~/Content/wrapbootstrap.css"));
-					  
+
             // Font Awesome icons
             bundles.Add(new StyleBundle("~/font-awesome/css").Include(
                       "~/Content/plugins/font-awesome/css/font-awesome.min.css", new CssRewriteUrlTransform()));
@@ -23,11 +23,11 @@ namespace Spitfire
                         "~/Scripts/jquery-2.1.1.min.js"));
 
             // jQueryUI CSS
-            bundles.Add(new ScriptBundle("~/Scripts/plugins/jquery-ui/jqueryuiStyles").Include(
+            bundles.Add(new StyleBundle("~/Scripts/plugins/jquery-ui/jqueryuiStyles").Include(
                         "~/Scripts/plugins/jquery-ui/jquery-ui.css"));
 
             // jQueryUI 
-            bundles.Add(new StyleBundle("~/bundles/jqueryui").Include(
+            bundles.Add(new ScriptBundle("~/bundles/jqueryui").Include(
                         "~/Scripts/plugins/jquery-ui/jquery-ui.min.js"));
 
             // Bootstrap
@@ -69,7 +69,7 @@ namespace Spitfire
             // Lightbox gallery
             bundles.Add(new ScriptBundle("~/plugins/lightboxGallery").Include(
                       "~/Scripts/plugins/blueimp/jquery.blueimp-gallery.min.js"));
-            
+
             // Sparkline
             bundles.Add(new ScriptBundle("~/plugins/sparkline").Include(
                       "~/Scripts/plugins/sparkline/jquery.sparkline.min.js"));
@@ -269,7 +269,7 @@ namespace Spitfire
             // image cropper styles
             bundles.Add(new StyleBundle("~/plugins/imagecropperStyles").Include(
                       "~/Content/plugins/cropper/cropper.min.css"));
-            
+
             // jsTree
             bundles.Add(new ScriptBundle("~/plugins/jsTree").Include(
                       "~/Scripts/plugins/jsTree/jstree.min.js"));
@@ -291,7 +291,7 @@ namespace Spitfire
             bundles.Add(new ScriptBundle("~/plugins/tinycon").Include(
                       "~/Scripts/plugins/tinycon/tinycon.min.js"));
 
-			//Ridiculous Responsive Social Share
+            //Ridiculous Responsive Social Share
             bundles.Add(new ScriptBundle("~/plugins/socialshare").Include(
                       "~/Scripts/plugins/rrsociashare/rrssb.min.js"));
             bundles.Add(new StyleBundle("~/rrsociashare/css").Include(
@@ -315,11 +315,11 @@ namespace Spitfire
 
             //jquery.magnific-popup.min 
             bundles.Add(new ScriptBundle("~/plugins/magnific-popup").Include(
-                      "~/Scripts/plugins/magnific-popup/jquery.magnific-popup.min.js"));
-           
+                      "~/Scripts/plugins/jquery.magnific-popup/jquery.magnific-popup.js"));
+
             // owl-carousel styles
             bundles.Add(new StyleBundle("~/owl-carousel/css").Include(
-                      "~/Content/plugins/owl-carousel/owl.carousel.css","~/Content/plugins/owl-carousel/owl.theme.css","~/Content/plugins/owl-carousel/owl.transitions.css"));
+                      "~/Content/plugins/owl-carousel/owl.carousel.css", "~/Content/plugins/owl-carousel/owl.theme.css", "~/Content/plugins/owl-carousel/owl.transitions.css"));
 
             //owl-carousel 
             bundles.Add(new ScriptBundle("~/plugins/owl-carousel").Include(
@@ -334,12 +334,46 @@ namespace Spitfire
                       "~/Scripts/plugins/wow/wow.min.js"));
 
             //fs.wallpaper styles
-            bundles.Add(new ScriptBundle("~/plugins/fs.wallpaper").Include(
+            bundles.Add(new StyleBundle("~/fs.wallpaper/css").Include(
                       "~/Content/plugins/jquery.fs.wallpaper/jquery.fs.wallpaper.css"));
             //fs.wallpaper  
-            bundles.Add(new StyleBundle("~/fs.wallpaper/css").Include(
+            bundles.Add(new ScriptBundle("~/plugins/fs.wallpaper").Include(
                       "~/Scripts/plugins/jquery.fs.wallpaper/jquery.fs.wallpaper.js"));
-            
+
+            //animate
+            bundles.Add(new StyleBundle("~/animate/css").Include(
+                      "~/Content/plugins/animnate/animate.css"));
+
+            //vitality
+            bundles.Add(new StyleBundle("~/vitality/css").Include(
+                      "~/Content/plugins/vitality/vitality-red.css"));
+
+            //magnific-popup
+            bundles.Add(new StyleBundle("~/magnific-popup/css").Include(
+                      "~/Content/plugins/magnific-popup/magnific-popup.css"));
+            //jquery.easing 
+            bundles.Add(new ScriptBundle("~/plugins/jquery.easing").Include(
+                      "~/Scripts/plugins/jquery.easing/jquery.easing.min.js"));
+            //classie
+            bundles.Add(new ScriptBundle("~/plugins/classie").Include(
+                      "~/Scripts/plugins/classie/classie.js"));
+            //cbpAnimatedHeader
+            bundles.Add(new ScriptBundle("~/plugins/cbpAnimatedHeader").Include(
+                      "~/Scripts/plugins/cbpAnimatedHeader/cbpAnimatedHeader.js"));
+            //jquery.mixitup
+            bundles.Add(new ScriptBundle("~/plugins/jquery.mixitup").Include(
+                      "~/Scripts/plugins/jquery.mixitup/jquery.mixitup.js"));
+
+            //jqBootstrapValidation
+            bundles.Add(new ScriptBundle("~/plugins/jqBootstrapValidation").Include(
+                      "~/Scripts/plugins/jqBootstrapValidation/jqBootstrapValidation.js"));
+            //contact_me
+            bundles.Add(new ScriptBundle("~/plugins/contact_me").Include(
+                      "~/Scripts/plugins/contact_me/contact_me.js"));
+
+            // Vitality script
+            bundles.Add(new ScriptBundle("~/bundles/vitality").Include(
+                      "~/Scripts/app/vitality.js"));
         }
     }
 }
