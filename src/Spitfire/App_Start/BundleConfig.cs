@@ -8,15 +8,18 @@ namespace Spitfire
 
         public static void RegisterBundles(BundleCollection bundles)
         {
+            IItemTransform cssFixer = new CssRewriteUrlTransform();
 
             // CSS style (bootstrap/inspinia)
-            bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.min.css",
+            bundles.Add(new StyleBundle("~/inspinia/css").Include(
                       "~/Content/wrapbootstrap.css"));
+
+            bundles.Add(new StyleBundle("~/bootstrap/css").Include(
+                      "~/Content/bootstrap.min.css"));
 
             // Font Awesome icons
             bundles.Add(new StyleBundle("~/font-awesome/css").Include(
-                      "~/Content/plugins/font-awesome/css/font-awesome.min.css", new CssRewriteUrlTransform()));
+                      "~/Content/plugins/fontawesome/css/font-awesome.css", cssFixer));
 
             // jQuery
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
