@@ -2,9 +2,9 @@
 version: 1
 id: {F954AAF7-579F-4B63-9D53-532C106C2790}
 database: master
-path: /sitecore/layout/Layouts/Desktop
+path: /sitecore/layout/Layouts/Inspinia
 parent: {75CC5CE4-8979-4008-9D3C-806477D57619}
-name: Desktop
+name: Inspinia
 master: {00000000-0000-0000-0000-000000000000}
 template: {3A45A723-64EE-4919-9D41-02FD40FD1466}
 templatekey: Layout
@@ -13,13 +13,13 @@ templatekey: Layout
 field: {A036B2BC-BA04-44F6-A75F-BAE6CD242ABF}
 name: Path
 key: path
-content-length: 29
+content-length: 39
 
-/views/layouts/_layout.cshtml
+/views/layouts/Inspinia/Inspinia.cshtml
 ----version----
 language: en
 version: 1
-revision: 0eda8501-0fa1-4789-bd5e-210a73662502
+revision: 794d723c-c679-40bf-bbbb-922b34394f10
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -41,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-0eda8501-0fa1-4789-bd5e-210a73662502
+794d723c-c679-40bf-bbbb-922b34394f10
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150503T173037:635662710373646143Z
+20150505T133110:635664294703650600Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

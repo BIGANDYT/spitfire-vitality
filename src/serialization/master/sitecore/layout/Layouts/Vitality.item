@@ -2,9 +2,9 @@
 version: 1
 id: {A55B28C9-68C8-4194-AF81-A537995FD51B}
 database: master
-path: /sitecore/layout/Layouts/Responsive
+path: /sitecore/layout/Layouts/Vitality
 parent: {75CC5CE4-8979-4008-9D3C-806477D57619}
-name: Responsive
+name: Vitality
 master: {00000000-0000-0000-0000-000000000000}
 template: {3A45A723-64EE-4919-9D41-02FD40FD1466}
 templatekey: Layout
@@ -13,13 +13,13 @@ templatekey: Layout
 field: {A036B2BC-BA04-44F6-A75F-BAE6CD242ABF}
 name: Path
 key: path
-content-length: 32
+content-length: 39
 
-/Views/layouts/Responsive.cshtml
+/Views/layouts/Vitality/Vitality.cshtml
 ----version----
 language: en
 version: 1
-revision: 28df3483-6616-425d-ade1-b234c4c2e62f
+revision: 5d99b68a-6518-492f-8700-5e5b3297b4e5
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -41,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-28df3483-6616-425d-ade1-b234c4c2e62f
+5d99b68a-6518-492f-8700-5e5b3297b4e5
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150503T173044:635662710443902564Z
+20150505T133050:635664294502820416Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

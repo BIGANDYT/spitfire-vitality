@@ -130,10 +130,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/23/2015 15:20:58</publishTime>
     </File>
     <File Include="bin/Spitfire.dll">
-      <publishTime>05/05/2015 12:38:26</publishTime>
+      <publishTime>05/05/2015 15:57:14</publishTime>
     </File>
     <File Include="bin/Spitfire.pdb">
-      <publishTime>05/05/2015 12:38:26</publishTime>
+      <publishTime>05/05/2015 15:57:14</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>03/26/2015 12:55:56</publishTime>
@@ -175,13 +175,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/15/2014 09:58:02</publishTime>
     </File>
     <File Include="Content/bootstrap.css">
-      <publishTime>12/15/2014 09:58:02</publishTime>
+      <publishTime>05/05/2015 15:08:02</publishTime>
     </File>
     <File Include="Content/bootstrap.css.map">
       <publishTime>12/15/2014 09:58:02</publishTime>
     </File>
     <File Include="Content/bootstrap.min.css">
-      <publishTime>12/15/2014 09:58:02</publishTime>
+      <publishTime>05/05/2015 17:19:32</publishTime>
     </File>
     <File Include="Content/img/vitality/bg-aside.jpg">
       <publishTime>05/04/2015 16:27:04</publishTime>
@@ -439,7 +439,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/02/2015 20:26:12</publishTime>
     </File>
     <File Include="Content/plugins/vitality/vitality-red.css">
-      <publishTime>05/04/2015 15:55:23</publishTime>
+      <publishTime>05/05/2015 17:12:32</publishTime>
     </File>
     <File Include="Content/style.css">
       <publishTime>04/04/2015 17:03:41</publishTime>
@@ -485,6 +485,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/wrapbootstrap.css">
       <publishTime>04/06/2015 17:11:55</publishTime>
+    </File>
+    <File Include="Content/wrapbootstrap2.css">
+      <publishTime>05/05/2015 15:48:16</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>12/15/2014 09:38:24</publishTime>
@@ -631,7 +634,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/30/2015 18:41:48</publishTime>
     </File>
     <File Include="Scripts/app/vitality.js">
-      <publishTime>05/04/2015 18:31:15</publishTime>
+      <publishTime>05/05/2015 15:54:46</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
       <publishTime>04/30/2015 15:13:14</publishTime>
@@ -1909,22 +1912,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/05/2015 08:50:18</publishTime>
     </File>
     <File Include="Views/Account/ExternalLoginConfirmation.cshtml">
-      <publishTime>05/03/2015 16:36:27</publishTime>
+      <publishTime>03/05/2015 16:36:27</publishTime>
     </File>
     <File Include="Views/Account/ExternalLoginFailure.cshtml">
       <publishTime>12/15/2014 09:38:32</publishTime>
     </File>
     <File Include="Views/Account/Login.cshtml">
-      <publishTime>05/03/2015 16:36:27</publishTime>
+      <publishTime>03/05/2015 16:36:27</publishTime>
     </File>
     <File Include="Views/Account/Manage.cshtml">
-      <publishTime>05/03/2015 16:36:27</publishTime>
+      <publishTime>03/05/2015 16:36:27</publishTime>
     </File>
     <File Include="Views/Account/Register.cshtml">
-      <publishTime>05/03/2015 16:36:27</publishTime>
+      <publishTime>03/05/2015 16:36:27</publishTime>
     </File>
     <File Include="Views/Account/_ChangePasswordPartial.cshtml">
-      <publishTime>05/03/2015 16:36:26</publishTime>
+      <publishTime>03/05/2015 16:36:26</publishTime>
     </File>
     <File Include="Views/Account/_ExternalLoginsListPartial.cshtml">
       <publishTime>12/15/2014 09:38:32</publishTime>
@@ -1933,7 +1936,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/15/2014 09:38:32</publishTime>
     </File>
     <File Include="Views/Account/_SetPasswordPartial.cshtml">
-      <publishTime>05/03/2015 16:36:26</publishTime>
+      <publishTime>03/05/2015 16:36:26</publishTime>
     </File>
     <File Include="Views/AppViews/Article.cshtml">
       <publishTime>03/29/2015 15:17:18</publishTime>
@@ -1948,13 +1951,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/29/2015 15:31:56</publishTime>
     </File>
     <File Include="Views/AppViews/Contacts.cshtml">
-      <publishTime>12/11/2014 13:42:42</publishTime>
+      <publishTime>11/12/2014 13:42:42</publishTime>
     </File>
     <File Include="Views/AppViews/FAQ.cshtml">
-      <publishTime>12/11/2014 13:42:42</publishTime>
+      <publishTime>11/12/2014 13:42:42</publishTime>
     </File>
     <File Include="Views/AppViews/FileManager.cshtml">
-      <publishTime>12/11/2014 13:42:42</publishTime>
+      <publishTime>11/12/2014 13:42:42</publishTime>
     </File>
     <File Include="Views/AppViews/IssueTracker.cshtml">
       <publishTime>03/29/2015 15:27:42</publishTime>
@@ -1963,22 +1966,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/29/2015 15:39:56</publishTime>
     </File>
     <File Include="Views/AppViews/PinBoard.cshtml">
-      <publishTime>12/11/2014 13:42:42</publishTime>
+      <publishTime>11/12/2014 13:42:42</publishTime>
     </File>
     <File Include="Views/AppViews/Profile.cshtml">
-      <publishTime>12/11/2014 13:42:42</publishTime>
+      <publishTime>11/12/2014 13:42:42</publishTime>
     </File>
     <File Include="Views/AppViews/ProjectDetail.cshtml">
-      <publishTime>12/11/2014 13:42:42</publishTime>
+      <publishTime>11/12/2014 13:42:42</publishTime>
     </File>
     <File Include="Views/AppViews/Projects.cshtml">
-      <publishTime>12/11/2014 13:42:42</publishTime>
+      <publishTime>11/12/2014 13:42:42</publishTime>
     </File>
     <File Include="Views/AppViews/TeamsBoard.cshtml">
       <publishTime>03/29/2015 15:30:06</publishTime>
     </File>
     <File Include="Views/AppViews/Timeline.cshtml">
-      <publishTime>12/11/2014 13:42:42</publishTime>
+      <publishTime>11/12/2014 13:42:42</publishTime>
     </File>
     <File Include="Views/Components/CasinoGame.cshtml">
       <publishTime>04/08/2015 21:41:37</publishTime>
@@ -1996,13 +1999,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/27/2015 23:36:13</publishTime>
     </File>
     <File Include="Views/Components/_Banner.cshtml">
-      <publishTime>04/08/2015 22:55:26</publishTime>
+      <publishTime>05/05/2015 14:33:04</publishTime>
     </File>
     <File Include="Views/Components/_BannerImageFullWidth.cshtml">
-      <publishTime>04/08/2015 21:41:37</publishTime>
+      <publishTime>05/05/2015 14:33:04</publishTime>
     </File>
     <File Include="Views/Components/_EmbedVideo.cshtml">
-      <publishTime>04/06/2015 22:07:58</publishTime>
+      <publishTime>05/05/2015 14:33:04</publishTime>
     </File>
     <File Include="Views/Components/_HeaderPanel.cshtml">
       <publishTime>04/07/2015 16:48:33</publishTime>
@@ -2011,19 +2014,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/08/2015 17:16:42</publishTime>
     </File>
     <File Include="Views/Components/_NavList.cshtml">
-      <publishTime>04/08/2015 23:04:25</publishTime>
+      <publishTime>05/05/2015 14:33:04</publishTime>
     </File>
     <File Include="Views/Components/_PromoImage.cshtml">
       <publishTime>03/29/2015 18:40:10</publishTime>
     </File>
     <File Include="Views/Components/_SocialShare.cshtml">
-      <publishTime>04/05/2015 11:21:54</publishTime>
+      <publishTime>05/05/2015 14:33:04</publishTime>
     </File>
     <File Include="Views/Components/_TabPanel.cshtml">
       <publishTime>03/29/2015 18:04:42</publishTime>
     </File>
     <File Include="Views/CSSAnimations/Index.cshtml">
-      <publishTime>12/11/2014 13:42:42</publishTime>
+      <publishTime>11/12/2014 13:42:42</publishTime>
     </File>
     <File Include="Views/Dashboards/Dashboard_1.cshtml">
       <publishTime>03/29/2015 15:42:40</publishTime>
@@ -2059,28 +2062,28 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/30/2015 16:28:12</publishTime>
     </File>
     <File Include="Views/Gallery/BootstrapCarusela.cshtml">
-      <publishTime>12/11/2014 13:42:42</publishTime>
+      <publishTime>11/12/2014 13:42:42</publishTime>
     </File>
     <File Include="Views/Graphs/Chartjs.cshtml">
       <publishTime>12/25/2014 20:21:48</publishTime>
     </File>
     <File Include="Views/Graphs/Flot.cshtml">
-      <publishTime>12/11/2014 13:42:42</publishTime>
+      <publishTime>11/12/2014 13:42:42</publishTime>
     </File>
     <File Include="Views/Graphs/Morris.cshtml">
       <publishTime>12/13/2014 11:39:46</publishTime>
     </File>
     <File Include="Views/Graphs/Peity.cshtml">
-      <publishTime>12/11/2014 13:42:42</publishTime>
+      <publishTime>11/12/2014 13:42:42</publishTime>
     </File>
     <File Include="Views/Graphs/Rickshaw.cshtml">
-      <publishTime>12/11/2014 13:42:42</publishTime>
+      <publishTime>11/12/2014 13:42:42</publishTime>
     </File>
     <File Include="Views/Graphs/Sparkline.cshtml">
-      <publishTime>12/11/2014 13:42:42</publishTime>
+      <publishTime>11/12/2014 13:42:42</publishTime>
     </File>
     <File Include="Views/GridOptions/Index.cshtml">
-      <publishTime>12/11/2014 13:42:44</publishTime>
+      <publishTime>11/12/2014 13:42:44</publishTime>
     </File>
     <File Include="Views/Home/Banner.cshtml">
       <publishTime>03/27/2015 07:15:16</publishTime>
@@ -2124,11 +2127,32 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Layouts/Index.cshtml">
       <publishTime>03/29/2015 15:52:50</publishTime>
     </File>
+    <File Include="Views/Layouts/Inspinia/Index.cshtml">
+      <publishTime>03/29/2015 15:52:50</publishTime>
+    </File>
+    <File Include="Views/Layouts/Inspinia/Inspinia.cshtml">
+      <publishTime>05/05/2015 12:13:26</publishTime>
+    </File>
+    <File Include="Views/Layouts/Inspinia/OffCanvas.cshtml">
+      <publishTime>03/29/2015 15:53:54</publishTime>
+    </File>
+    <File Include="Views/Layouts/Inspinia/_LogoBar.cshtml">
+      <publishTime>03/31/2015 09:27:27</publishTime>
+    </File>
+    <File Include="Views/Layouts/Inspinia/_Navigation.cshtml">
+      <publishTime>03/31/2015 08:54:46</publishTime>
+    </File>
+    <File Include="Views/Layouts/Inspinia/_TopNavbar.cshtml">
+      <publishTime>03/31/2015 09:18:46</publishTime>
+    </File>
     <File Include="Views/Layouts/OffCanvas.cshtml">
       <publishTime>03/29/2015 15:53:54</publishTime>
     </File>
     <File Include="Views/Layouts/Responsive.cshtml">
       <publishTime>05/05/2015 12:15:34</publishTime>
+    </File>
+    <File Include="Views/Layouts/Vitality/Vitality.cshtml">
+      <publishTime>05/05/2015 17:12:27</publishTime>
     </File>
     <File Include="Views/Layouts/_Layout.cshtml">
       <publishTime>05/05/2015 12:13:26</publishTime>
@@ -2143,22 +2167,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/31/2015 09:18:46</publishTime>
     </File>
     <File Include="Views/Mailbox/AlertEmail.cshtml">
-      <publishTime>12/11/2014 12:26:42</publishTime>
+      <publishTime>11/12/2014 12:26:42</publishTime>
     </File>
     <File Include="Views/Mailbox/BasicActionEmail.cshtml">
-      <publishTime>12/11/2014 12:26:44</publishTime>
+      <publishTime>11/12/2014 12:26:44</publishTime>
     </File>
     <File Include="Views/Mailbox/BillingEmail.cshtml">
-      <publishTime>12/11/2014 12:26:44</publishTime>
+      <publishTime>11/12/2014 12:26:44</publishTime>
     </File>
     <File Include="Views/Mailbox/ComposeEmail.cshtml">
       <publishTime>12/13/2014 11:39:46</publishTime>
     </File>
     <File Include="Views/Mailbox/EmailTemplates.cshtml">
-      <publishTime>12/11/2014 13:42:44</publishTime>
+      <publishTime>11/12/2014 13:42:44</publishTime>
     </File>
     <File Include="Views/Mailbox/EmailView.cshtml">
-      <publishTime>12/11/2014 13:35:58</publishTime>
+      <publishTime>11/12/2014 13:35:58</publishTime>
     </File>
     <File Include="Views/Mailbox/Inbox.cshtml">
       <publishTime>01/21/2015 12:41:28</publishTime>
@@ -2182,7 +2206,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/20/2014 12:37:52</publishTime>
     </File>
     <File Include="Views/Miscellaneous/GoogleMaps.cshtml">
-      <publishTime>12/11/2014 13:42:44</publishTime>
+      <publishTime>11/12/2014 13:42:44</publishTime>
     </File>
     <File Include="Views/Miscellaneous/IdleTimer.cshtml">
       <publishTime>03/29/2015 15:02:18</publishTime>
@@ -2191,7 +2215,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/29/2015 14:57:46</publishTime>
     </File>
     <File Include="Views/Miscellaneous/ModalWindow.cshtml">
-      <publishTime>12/11/2014 13:42:44</publishTime>
+      <publishTime>11/12/2014 13:42:44</publishTime>
     </File>
     <File Include="Views/Miscellaneous/NestableList.cshtml">
       <publishTime>12/20/2014 12:34:06</publishTime>
@@ -2209,7 +2233,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/30/2015 17:23:20</publishTime>
     </File>
     <File Include="Views/Miscellaneous/Validation.cshtml">
-      <publishTime>12/11/2014 13:42:44</publishTime>
+      <publishTime>11/12/2014 13:42:44</publishTime>
     </File>
     <File Include="Views/Pages/EmptyPage.cshtml">
       <publishTime>01/21/2015 12:57:38</publishTime>
@@ -2218,31 +2242,31 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/29/2015 15:32:56</publishTime>
     </File>
     <File Include="Views/Pages/InternalServerError.cshtml">
-      <publishTime>12/11/2014 13:40:32</publishTime>
+      <publishTime>11/12/2014 13:40:32</publishTime>
     </File>
     <File Include="Views/Pages/Invoice.cshtml">
-      <publishTime>12/11/2014 13:42:44</publishTime>
+      <publishTime>11/12/2014 13:42:44</publishTime>
     </File>
     <File Include="Views/Pages/InvoicePrint.cshtml">
-      <publishTime>12/10/2014 16:44:32</publishTime>
+      <publishTime>10/12/2014 16:44:32</publishTime>
     </File>
     <File Include="Views/Pages/LockScreen.cshtml">
-      <publishTime>12/10/2014 16:47:44</publishTime>
+      <publishTime>10/12/2014 16:47:44</publishTime>
     </File>
     <File Include="Views/Pages/Login.cshtml">
-      <publishTime>12/11/2014 13:46:34</publishTime>
+      <publishTime>11/12/2014 13:46:34</publishTime>
     </File>
     <File Include="Views/Pages/Login_2.cshtml">
       <publishTime>01/31/2015 15:35:54</publishTime>
     </File>
     <File Include="Views/Pages/NotFoundError.cshtml">
-      <publishTime>12/10/2014 16:39:56</publishTime>
+      <publishTime>10/12/2014 16:39:56</publishTime>
     </File>
     <File Include="Views/Pages/Register.cshtml">
-      <publishTime>12/11/2014 13:46:34</publishTime>
+      <publishTime>11/12/2014 13:46:34</publishTime>
     </File>
     <File Include="Views/Pages/SearchResults.cshtml">
-      <publishTime>12/11/2014 13:42:44</publishTime>
+      <publishTime>11/12/2014 13:42:44</publishTime>
     </File>
     <File Include="Views/Scaffolding/col.cshtml">
       <publishTime>04/07/2015 17:03:41</publishTime>
@@ -2302,28 +2326,28 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/03/2015 16:36:27</publishTime>
     </File>
     <File Include="Views/UIElements/BadgesLabelsProgress.cshtml">
-      <publishTime>12/11/2014 13:42:44</publishTime>
+      <publishTime>11/12/2014 13:42:44</publishTime>
     </File>
     <File Include="Views/UIElements/Buttons.cshtml">
-      <publishTime>12/11/2014 13:42:44</publishTime>
+      <publishTime>11/12/2014 13:42:44</publishTime>
     </File>
     <File Include="Views/UIElements/DraggablePanels.cshtml">
-      <publishTime>12/11/2014 13:42:44</publishTime>
+      <publishTime>11/12/2014 13:42:44</publishTime>
     </File>
     <File Include="Views/UIElements/Icons.cshtml">
-      <publishTime>12/11/2014 13:42:44</publishTime>
+      <publishTime>11/12/2014 13:42:44</publishTime>
     </File>
     <File Include="Views/UIElements/NotificationsTooltips.cshtml">
-      <publishTime>12/11/2014 13:42:44</publishTime>
+      <publishTime>11/12/2014 13:42:44</publishTime>
     </File>
     <File Include="Views/UIElements/TablesPanels.cshtml">
-      <publishTime>12/11/2014 13:42:44</publishTime>
+      <publishTime>11/12/2014 13:42:44</publishTime>
     </File>
     <File Include="Views/UIElements/Typography.cshtml">
-      <publishTime>12/11/2014 13:42:44</publishTime>
+      <publishTime>11/12/2014 13:42:44</publishTime>
     </File>
     <File Include="Views/UIElements/Video.cshtml">
-      <publishTime>12/11/2014 13:42:44</publishTime>
+      <publishTime>11/12/2014 13:42:44</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>05/03/2015 16:36:27</publishTime>
