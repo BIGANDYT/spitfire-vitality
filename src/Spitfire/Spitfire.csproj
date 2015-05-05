@@ -773,6 +773,11 @@
     <Content Include="Views\Components\_EmbedVideo.cshtml" />
     <Content Include="Views\Components\_NavList.cshtml" />
     <Content Include="Views\Components\_SocialShare.cshtml" />
+    <Content Include="Views\Components\OwlCarousel.cshtml" />
+    <Content Include="Views\Components\SectionHeader.cshtml" />
+    <Content Include="Views\Layouts\Vitality\Vitality - Copy.cshtml" />
+    <Content Include="Views\Layouts\Vitality\NavBar.cshtml" />
+    <Content Include="Views\Components\VideoHeader.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

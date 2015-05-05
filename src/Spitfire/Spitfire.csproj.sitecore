@@ -3,5 +3,15 @@
   <PropertyGroup>
     <Site Server="Spitfire" UserName="sitecore\admin" IsRemoteSitecore="True" />
   </PropertyGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <File Include="Views\Components\VideoHeader.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="master">{4F8A2013-199A-4AB8-AA75-5D4469A5894B}</Item>
+    </File>
+    <File Include="Views\Components\OwlCarousel.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="master">{3B882C8A-1EAD-472F-AB38-829805C84010}</Item>
+    </File>
+    <File Include="Views\Components\SectionHeader.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="master">{737684D0-7718-42BE-AF3D-515DC8B5A9B9}</Item>
+    </File>
+  </ItemGroup>
 </Project>
