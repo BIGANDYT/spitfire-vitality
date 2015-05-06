@@ -347,10 +347,6 @@ namespace Spitfire
             bundles.Add(new StyleBundle("~/animate/css").Include(
                       "~/Content/plugins/animnate/animate.css"));
 
-            //vitality
-            bundles.Add(new StyleBundle("~/vitality/css").Include(
-                      "~/Content/plugins/vitality/vitality-red.css"));
-
             //magnific-popup
             bundles.Add(new StyleBundle("~/magnific-popup/css").Include(
                       "~/Content/plugins/magnific-popup/magnific-popup.css"));
@@ -374,6 +370,9 @@ namespace Spitfire
             bundles.Add(new ScriptBundle("~/plugins/contact_me").Include(
                       "~/Scripts/plugins/contact_me/contact_me.js"));
 
+            //vitality
+            bundles.Add(new StyleBundle("~/vitality/css").Include(
+                      "~/Content/plugins/vitality/vitality-red.css"));
             // Vitality script
             bundles.Add(new ScriptBundle("~/bundles/vitality").Include(
                       "~/Scripts/app/vitality.js"));

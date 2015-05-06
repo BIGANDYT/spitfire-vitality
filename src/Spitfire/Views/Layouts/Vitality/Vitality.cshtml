@@ -33,11 +33,12 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 </head>
-<body id="page-top" class="bg-gray">
+<body id="page-top">
     <!-- Navigation -->
     <!-- Note: navbar-default and navbar-inverse are both supported with this theme. -->
     @Html.Partial("~/Views/Layouts/Vitality/NavBar.cshtml")
     @Html.Sitecore().Placeholder("content")
+    @Html.Partial("~/Views/Layouts/Vitality/Footer.cshtml")
     <!-- Core Scripts -->
     @Scripts.Render("~/bundles/jquery")
     <script>

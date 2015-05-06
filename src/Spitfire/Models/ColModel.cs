@@ -9,11 +9,11 @@ using System.Web;
 
 namespace Spitfire.Models
 {
-    public class RowModel : StyleModel
-    { 
+    public class ColModel : StyleModel
+    {
         public override void Initialize(Rendering rendering)
         {
-            base.Initialize(rendering);            
+            base.Initialize(rendering);
         }
     }
 }

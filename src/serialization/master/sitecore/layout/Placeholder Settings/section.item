@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {E70C2927-F28E-4EB9-9A6F-10650700F7CF}
+id: {234310F9-F158-44CD-93E7-74F093C25076}
 database: master
-path: /sitecore/layout/Placeholder Settings/row
+path: /sitecore/layout/Placeholder Settings/section
 parent: {1CE3B36C-9B0C-4EB5-A996-BFCB4EAA5287}
-name: row
+name: section
 master: {00000000-0000-0000-0000-000000000000}
 template: {5C547D4E-7111-4995-95B0-6B561751BF2E}
 templatekey: Placeholder
@@ -13,20 +13,20 @@ templatekey: Placeholder
 field: {7256BDAB-1FD2-49DD-B205-CB4873D2917C}
 name: Placeholder Key
 key: placeholder key
-content-length: 3
+content-length: 7
 
-row
+section
 ----field----
 field: {E391B526-D0C5-439D-803E-17512EAE6222}
 name: Allowed Controls
 key: allowed controls
-content-length: 38
+content-length: 116
 
-{DC79BF70-5569-4042-85B4-8F078EC5A7E7}
+{7D36765F-0CE3-4749-A9CF-E8CACF7207F5}|{170389AD-1BD5-4AC7-AB66-8B282EAC8F1B}|{C6836974-C394-49AD-96FC-7693ACCCD0CD}
 ----version----
 language: en
 version: 1
-revision: ce67ddb4-ce3c-414f-991f-693bf8188241
+revision: 3ae47dfe-a3a1-4873-a000-ef2bf072d65e
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,21 +34,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20150403T192853Z
+20150506T081421Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-ce67ddb4-ce3c-414f-991f-693bf8188241
+3ae47dfe-a3a1-4873-a000-ef2bf072d65e
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150506T090406:635664998464221752Z
+20150506T081549:635664969495307688Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

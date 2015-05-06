@@ -9,11 +9,16 @@ using System.Web;
 
 namespace Spitfire.Models
 {
-    public class RowModel : StyleModel
-    { 
+    public class SectionModel : StyleModel
+    {        
+        public String Id = "";
+        public String SubCssClass = "";
+
         public override void Initialize(Rendering rendering)
         {
-            base.Initialize(rendering);            
+            base.Initialize(rendering);
+            Id = rendering.Parameters["Id"];
+            SubCssClass = rendering.Parameters["SubCssClass"];
         }
     }
 }

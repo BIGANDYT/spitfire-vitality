@@ -207,6 +207,10 @@
     <Compile Include="Handlers\SessionEnd.ashx.cs">
       <DependentUpon>SessionEnd.ashx</DependentUpon>
     </Compile>
+    <Compile Include="Models\ColModel.cs" />
+    <Compile Include="Models\AsideModel.cs" />
+    <Compile Include="Models\StyleModel.cs" />
+    <Compile Include="Models\SectionModel.cs" />
     <Compile Include="Service\Impl\AnalyticsService.cs" />
     <Compile Include="Service\Impl\HMTLHelperExtensions.cs" />
     <Compile Include="Models\NavList.cs" />
@@ -219,8 +223,10 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\img\vitality\about.jpg" />
     <Content Include="Content\img\vitality\bg-aside.jpg" />
     <Content Include="Content\img\vitality\bg-footer.jpg" />
+    <Content Include="Content\img\vitality\bg-header.jpg" />
     <Content Include="Content\img\vitality\bg-mobile-fallback.jpg" />
     <Content Include="Content\img\vitality\bg-pricing.jpg" />
     <Content Include="Content\img\vitality\client-logos\logo-1.png" />
@@ -775,9 +781,23 @@
     <Content Include="Views\Components\_SocialShare.cshtml" />
     <Content Include="Views\Components\OwlCarousel.cshtml" />
     <Content Include="Views\Components\SectionHeader.cshtml" />
-    <Content Include="Views\Layouts\Vitality\Vitality - Copy.cshtml" />
     <Content Include="Views\Layouts\Vitality\NavBar.cshtml" />
     <Content Include="Views\Components\VideoHeader.cshtml" />
+    <Content Include="Views\Components\ImageHeader.cshtml" />
+    <Content Include="Views\Scaffolding\section.cshtml" />
+    <Content Include="Views\Components\IconTeaser.cshtml" />
+    <Content Include="Views\Scaffolding\aside.cshtml" />
+    <Content Include="Views\Components\SectionHeaderButton.cshtml" />
+    <Content Include="Views\Components\IconLeftTeaser.cshtml" />
+    <Content Include="Views\Components\SectionPortfolio.cshtml" />
+    <Content Include="Views\Components\TeaserGallery.cshtml" />
+    <Content Include="Views\Components\TestimonalsCarousel.cshtml" />
+    <Content Include="Views\Components\PromoTeaser.cshtml" />
+    <Content Include="Views\Components\ContactForm.cshtml" />
+    <Content Include="Views\Components\LinkBar.cshtml" />
+    <Content Include="Views\Layouts\Vitality\Footer.cshtml" />
+    <Content Include="Views\Components\ImageLeftTextRight.cshtml" />
+    <Content Include="Views\Components\ImageRightTextLeft.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

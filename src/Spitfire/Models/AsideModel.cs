@@ -9,11 +9,14 @@ using System.Web;
 
 namespace Spitfire.Models
 {
-    public class RowModel : StyleModel
-    { 
+    public class AsideModel : StyleModel
+    {        
+        public String Id = "";
+
         public override void Initialize(Rendering rendering)
         {
-            base.Initialize(rendering);            
+            base.Initialize(rendering);
+            Id = rendering.Parameters["Id"];
         }
     }
 }
