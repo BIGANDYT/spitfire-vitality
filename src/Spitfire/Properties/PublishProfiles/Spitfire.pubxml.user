@@ -2020,7 +2020,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/06/2015 19:17:01</publishTime>
     </File>
     <File Include="Views/Components/OwlCarousel.cshtml">
-      <publishTime>05/05/2015 18:01:12</publishTime>
+      <publishTime>05/06/2015 21:28:40</publishTime>
     </File>
     <File Include="Views/Components/Panels/HeaderPanel.cshtml">
       <publishTime>03/29/2015 09:46:52</publishTime>
@@ -2212,7 +2212,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/05/2015 20:28:38</publishTime>
     </File>
     <File Include="Views/Layouts/Vitality/Vitality.cshtml">
-      <publishTime>05/06/2015 19:19:35</publishTime>
+      <publishTime>05/06/2015 21:26:42</publishTime>
     </File>
     <File Include="Views/Layouts/_Layout.cshtml">
       <publishTime>05/05/2015 12:13:26</publishTime>
