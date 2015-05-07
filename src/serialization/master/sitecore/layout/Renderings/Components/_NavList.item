@@ -2,7 +2,7 @@
 version: 1
 id: {79939680-7FCE-43B0-80FA-662DDA27407C}
 database: master
-path: /sitecore/layout/Renderings/Officecore/Components/_NavList
+path: /sitecore/layout/Renderings/Components/_NavList
 parent: {67EFB612-AB44-48B7-B151-FD2719FABD5B}
 name: _NavList
 master: {00000000-0000-0000-0000-000000000000}
