@@ -130,10 +130,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/23/2015 15:20:58</publishTime>
     </File>
     <File Include="bin/Spitfire.dll">
-      <publishTime>05/06/2015 19:31:29</publishTime>
+      <publishTime>05/07/2015 09:00:05</publishTime>
     </File>
     <File Include="bin/Spitfire.pdb">
-      <publishTime>05/06/2015 19:31:29</publishTime>
+      <publishTime>05/07/2015 09:00:05</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>03/26/2015 12:55:56</publishTime>
@@ -2046,6 +2046,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Components/TestimonalsCarousel.cshtml">
       <publishTime>05/06/2015 15:18:07</publishTime>
     </File>
+    <File Include="Views/Components/Video.cshtml">
+      <publishTime>05/07/2015 09:19:11</publishTime>
+    </File>
     <File Include="Views/Components/VideoHeader.cshtml">
       <publishTime>05/05/2015 21:39:54</publishTime>
     </File>
@@ -2212,7 +2215,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/05/2015 20:28:38</publishTime>
     </File>
     <File Include="Views/Layouts/Vitality/Vitality.cshtml">
-      <publishTime>05/06/2015 21:26:42</publishTime>
+      <publishTime>05/07/2015 08:54:13</publishTime>
     </File>
     <File Include="Views/Layouts/_Layout.cshtml">
       <publishTime>05/05/2015 12:13:26</publishTime>

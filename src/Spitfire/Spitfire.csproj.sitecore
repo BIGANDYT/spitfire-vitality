@@ -55,5 +55,8 @@
     <File Include="Views\Components\ImageRightTextLeft.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
       <Item DatabaseName="master">{EF2A5973-3AD9-4241-9AF9-52B5F64A2427}</Item>
     </File>
+    <File Include="Views\Components\Video.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="master">{45357D4D-B4E9-4856-9FFB-2C3F9979798B}</Item>
+    </File>
   </ItemGroup>
 </Project>
