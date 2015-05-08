@@ -30,10 +30,24 @@ key: parameters template
 content-length: 38
 
 {65BABA02-C72B-4757-9A30-DB768D225395}
+----field----
+field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
+name: Datasource Location
+key: datasource location
+content-length: 31
+
+/sitecore/content/Global/Videos
+----field----
+field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
+name: Datasource Template
+key: datasource template
+content-length: 54
+
+/sitecore/templates/Spitfire/Component Templates/Video
 ----version----
 language: en
 version: 1
-revision: 430ad702-fdc6-45f2-b4a0-357b71ff61a9
+revision: cafc0361-3731-4222-8b00-4a2c645630b1
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -48,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-430ad702-fdc6-45f2-b4a0-357b71ff61a9
+cafc0361-3731-4222-8b00-4a2c645630b1
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150508T113203:635666815237903298Z
+20150508T120524:635666835241819136Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
