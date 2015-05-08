@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {A28BB3E8-6B7D-4EBB-96C6-2B39378002CE}
+database: master
+path: /sitecore/content/Global/SectionHeaders/AboutUs
+parent: {2F9E1A92-A4CB-4407-B8FF-4F0E3B361BFD}
+name: AboutUs
+master: {00000000-0000-0000-0000-000000000000}
+template: {42C2E3FF-ED86-4056-BB54-B63D5A6D8DAF}
+templatekey: SectionHeader
+
+----version----
+language: en
+version: 1
+revision: 1f0bd312-db1a-4e48-9c1e-6dbb7bb67c75
+
+----field----
+field: {345FB57C-0FAE-428D-AD2B-C5C178855FAF}
+name: Header
+key: header
+content-length: 29
+
+A rapid development framework
+----field----
+field: {EE080848-7C6E-4301-A8C4-6C19E61B3002}
+name: Description
+key: description
+content-length: 58
+
+Sections, Asides, Rows, Columns, Components and that's it.
+----field----
+field: {2EF31E68-7DB7-41F0-B455-0B4277B87008}
+name: Link
+key: link
+content-length: 94
+
+<link linktype="external" text="Spitfire" url="http://www.sitecore.net" anchor="" target="" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150508T201759Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1f0bd312-db1a-4e48-9c1e-6dbb7bb67c75
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150508T203350:635667140308184877Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

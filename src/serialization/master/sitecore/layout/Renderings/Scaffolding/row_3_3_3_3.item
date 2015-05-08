@@ -30,6 +30,13 @@ key: parameters template
 content-length: 38
 
 {0D6297FE-608B-4131-ABF2-A53B14CE2CCB}
+----field----
+field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
+name: Open Properties after Add
+key: open properties after add
+content-length: 0
+
+
 ----version----
 language: en
 version: 1

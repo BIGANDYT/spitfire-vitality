@@ -16,10 +16,24 @@ key: path
 content-length: 38
 
 /Views/Components/SectionHeader.cshtml
+----field----
+field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
+name: Datasource Location
+key: datasource location
+content-length: 39
+
+/sitecore/content/Global/SectionHeaders
+----field----
+field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
+name: Datasource Template
+key: datasource template
+content-length: 49
+
+/sitecore/templates/Core/Components/SectionHeader
 ----version----
 language: en
 version: 1
-revision: c95aef40-3888-4072-8bc0-f7f4b42215a0
+revision: 08ca8bb8-ed30-449b-9f66-c23d5cff1d40
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c95aef40-3888-4072-8bc0-f7f4b42215a0
+08ca8bb8-ed30-449b-9f66-c23d5cff1d40
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150505T204835:635664557150312346Z
+20150508T200344:635667122248815446Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
