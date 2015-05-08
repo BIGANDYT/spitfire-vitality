@@ -1,3 +1,8 @@
-﻿<video controls muted autoplay="" loop="" poster="" class="img img-responsive">
-    <source src="Content/video/vitality/Orbital.mp4" type="video/mp4">
-</video>
+﻿@model Spitfire.Models.VideoModel
+
+@if (Model.Item != null)
+{
+    <video controls muted autoplay="" loop="" poster="" class="img img-responsive">
+        <source src="@Model.VideoPath" type="@Model.VideoType">
+    </video>
+}

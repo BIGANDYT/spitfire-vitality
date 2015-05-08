@@ -11,7 +11,7 @@ namespace Spitfire.Models
 {
     public class AsideModel : StyleModel
     {        
-        public String Id = "";
+        public string Id = "";
 
         public override void Initialize(Rendering rendering)
         {

@@ -211,6 +211,7 @@
     <Compile Include="Models\AsideModel.cs" />
     <Compile Include="Models\StyleModel.cs" />
     <Compile Include="Models\SectionModel.cs" />
+    <Compile Include="Models\VideoModel.cs" />
     <Compile Include="Service\Impl\AnalyticsService.cs" />
     <Compile Include="Service\Impl\HMTLHelperExtensions.cs" />
     <Compile Include="Models\NavList.cs" />

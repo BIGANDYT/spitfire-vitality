@@ -1,1 +1,7 @@
 /src/Spitfire/obj
+/src/*.suo
+/src/Spitfire/Properties/PublishProfiles/*.user
+/src/Spitfire/bin/Spitfire.pdb
+/src/Spitfire/bin/Spitfire.dll
+/src/Spitfire/bin/Spitfire.dll.config
+/src/Spitfire/*.user
