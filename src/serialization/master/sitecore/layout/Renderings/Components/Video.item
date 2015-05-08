@@ -23,10 +23,17 @@ key: model
 content-length: 43
 
 /sitecore/layout/Models/Spitfire/VideoModel
+----field----
+field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
+name: Parameters Template
+key: parameters template
+content-length: 38
+
+{65BABA02-C72B-4757-9A30-DB768D225395}
 ----version----
 language: en
 version: 1
-revision: 184770aa-5424-41ee-9ac9-c6ec595f86ab
+revision: 430ad702-fdc6-45f2-b4a0-357b71ff61a9
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -41,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-184770aa-5424-41ee-9ac9-c6ec595f86ab
+430ad702-fdc6-45f2-b4a0-357b71ff61a9
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150508T104856:635666789367270300Z
+20150508T113203:635666815237903298Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
