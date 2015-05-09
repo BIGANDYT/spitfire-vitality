@@ -1,0 +1,121 @@
+----item----
+version: 1
+id: {4B92651A-5D81-40C8-8647-3E90BDB7B825}
+database: master
+path: /sitecore/content/Global/Banners/Default
+parent: {65ACAFC4-464E-417E-964B-EDD05F889FE0}
+name: Default
+master: {00000000-0000-0000-0000-000000000000}
+template: {656FE842-C5A3-4FFC-8130-A029C713F743}
+templatekey: Banner
+
+----version----
+language: en
+version: 1
+revision: 01b5dfae-eab6-4016-9069-7a022fce5352
+
+----field----
+field: {AB3898A6-1F38-42BD-B1BD-80546723BE05}
+name: Image
+key: image
+content-length: 110
+
+<image mediaid="{371A079C-A912-4C42-BBE2-C8351567609E}" height="500" hspace="" width="450" alt="" vspace="" />
+----field----
+field: {60F7B593-2092-42CD-96C3-6A83912D2704}
+name: Background Image
+key: background image
+content-length: 58
+
+<image mediaid="{54B44F27-5EC5-4FD3-A389-F6EC998A1D11}" />
+----field----
+field: {C7C0B642-1DE8-4724-BCCC-6B1C5CF3C14C}
+name: Title
+key: title
+content-length: 8
+
+SPITFIRE
+----field----
+field: {8B50FBA2-F31C-4563-9B71-1CF7CADE180A}
+name: SubTitle
+key: subtitle
+content-length: 11
+
+by Sitecore
+----field----
+field: {967284EA-B072-4C0E-8480-156C2AAD0958}
+name: Link
+key: link
+content-length: 94
+
+<link text="Sitecore" linktype="external" url="http://www.sitecore.net" anchor="" target="" />
+----field----
+field: {EFEF5442-64FE-4C12-A981-3F2C372E28A8}
+name: Title Color
+key: title color
+content-length: 7
+
+#FFFFFF
+----field----
+field: {3A1F3132-7AA4-433B-BD18-C6B4CE37910F}
+name: Link Color
+key: link color
+content-length: 7
+
+#FFFFFF
+----field----
+field: {90F19F3A-9B1D-476A-B87E-7D14243E99A2}
+name: SubTitle Color
+key: subtitle color
+content-length: 7
+
+#FFFFFF
+----field----
+field: {9929DCFB-56F7-4EA7-9167-4B5A8299D96D}
+name: Logo Top
+key: logo top
+content-length: 3
+
+0.5
+----field----
+field: {A473ED8D-28A2-4F55-A9D6-E9779484EE53}
+name: Logo Left
+key: logo left
+content-length: 3
+
+0.5
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150509T184154Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+01b5dfae-eab6-4016-9069-7a022fce5352
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150509T223753:635668078738547877Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

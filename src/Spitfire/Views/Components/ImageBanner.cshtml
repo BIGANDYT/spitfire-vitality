@@ -1,0 +1,12 @@
+﻿<header style="background-image:url('@Model.BackgroundImageUrl')">
+    <div style="top:@Model.LogoTop%;left:@Model.LogoLeft%;" class="intro-content">
+        @Html.Sitecore().Field("Image", new { @class = "img-responsive img-centered" })
+        <div style="color:@Model.TitleColor" class="brand-name">@Html.Sitecore().Field("Title")</div>
+        <hr class="colored">
+        <div style="color:@Model.SubTitleColor" class="brand-name-subtext">@Html.Sitecore().Field("SubTitle")</div>
+        <div class="content-row">@Html.Sitecore().Field("Link", new { @class = "btn btn-outline-dark page-scroll", @style = "color:" + @Model.LinkColor + ";border: 1px solid " + @Model.LinkColor + ";" })</div>
+    </div>
+    <div class="scroll-down">
+        <a class="btn page-scroll" href="#about"><i class="fa fa-angle-down fa-fw"></i></a>
+    </div>
+</header>

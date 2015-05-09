@@ -209,6 +209,7 @@
     </Compile>
     <Compile Include="Models\ColModel.cs" />
     <Compile Include="Models\AsideModel.cs" />
+    <Compile Include="Models\BannerModel.cs" />
     <Compile Include="Models\StyleModel.cs" />
     <Compile Include="Models\SectionModel.cs" />
     <Compile Include="Models\VideoModel.cs" />
@@ -302,7 +303,9 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="App_Config\Include\DynamicPlaceholders\DynamicPlaceholders.config" />
-    <Content Include="App_Config\Include\Serialization.config" />
+    <Content Include="App_Config\Include\Serialization.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Handlers\RegisterGoal.ashx" />
     <Content Include="Handlers\SessionEnd.ashx" />
     <Content Include="Content\plugins\fontawesome\fonts\fontawesome-webfont.eot" />
@@ -336,6 +339,8 @@
     <Content Include="Content\plugins\fontawesome\scss\_rotated-flipped.scss" />
     <Content Include="Content\plugins\fontawesome\scss\_stacked.scss" />
     <Content Include="Content\plugins\fontawesome\scss\_variables.scss" />
+    <Content Include="App_Config\Include\Sitecore.SharedSource.CustomFields.ColorPicker.config" />
+    <Content Include="App_Config\Include\Outercore_fieldtypes.config" />
     <None Include="Properties\PublishProfiles\Spitfire.pubxml" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.1.js" />
@@ -757,6 +762,30 @@
     <Content Include="Scripts\plugins\video\responsible-video.js" />
     <Content Include="Scripts\plugins\wow\wow.js" />
     <Content Include="Scripts\plugins\wow\wow.min.js" />
+    <Content Include="sitecore modules\Outercore.FieldTypes\Carousel\Carousel.css" />
+    <Content Include="sitecore modules\Outercore.FieldTypes\Carousel\Carousel.Frame.xaml.xml" />
+    <Content Include="sitecore modules\Outercore.FieldTypes\Carousel\js\carousel.js" />
+    <Content Include="sitecore modules\Outercore.FieldTypes\Carousel\js\carousel.packed.js" />
+    <Content Include="sitecore modules\Outercore.FieldTypes\Carousel\js\integration.js" />
+    <Content Include="sitecore modules\Outercore.FieldTypes\Slider\img\handle.png" />
+    <Content Include="sitecore modules\Outercore.FieldTypes\Slider\img\handle_d.png" />
+    <Content Include="sitecore modules\Outercore.FieldTypes\Slider\img\track-left.png" />
+    <Content Include="sitecore modules\Outercore.FieldTypes\Slider\img\track-repeat.png" />
+    <Content Include="sitecore modules\Outercore.FieldTypes\Slider\img\track-right.png" />
+    <Content Include="sitecore modules\Outercore.FieldTypes\TextList\img\close.gif" />
+    <Content Include="sitecore modules\Outercore.FieldTypes\TextList\js\textlist.css" />
+    <Content Include="sitecore modules\Outercore.FieldTypes\TextList\js\textlist.js" />
+    <Content Include="sitecore modules\Outercore.FieldTypes\VisualList\ImageList.Frame.xaml.xml" />
+    <Content Include="sitecore modules\Outercore.FieldTypes\VisualList\js\VisualList.js" />
+    <Content Include="sitecore modules\Outercore.FieldTypes\VisualList\Visuallist.css" />
+    <Content Include="sitecore modules\Shell\Sitecore.SharedSource.CustomFields.ColorPicker\ColorPicker.aspx" />
+    <Content Include="sitecore modules\Shell\Sitecore.SharedSource.CustomFields.ColorPicker\ColorPicker.xaml.xml" />
+    <Content Include="sitecore modules\Shell\Sitecore.SharedSource.CustomFields.ColorPicker\images\checker.png" />
+    <Content Include="sitecore modules\Shell\Sitecore.SharedSource.CustomFields.ColorPicker\images\crosshair.gif" />
+    <Content Include="sitecore modules\Shell\Sitecore.SharedSource.CustomFields.ColorPicker\images\hue.png" />
+    <Content Include="sitecore modules\Shell\Sitecore.SharedSource.CustomFields.ColorPicker\images\saturation.png" />
+    <Content Include="sitecore modules\Shell\Sitecore.SharedSource.CustomFields.ColorPicker\images\slider\static.png" />
+    <Content Include="sitecore modules\Shell\Sitecore.SharedSource.CustomFields.ColorPicker\style.css" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -775,15 +804,13 @@
     <Content Include="Views\Layouts\Inspinia\Index.cshtml" />
     <Content Include="Views\Layouts\Inspinia\OffCanvas.cshtml" />
     <Content Include="Views\Layouts\Vitality\Vitality.cshtml" />
-    <Content Include="Views\Components\_Banner.cshtml" />
-    <Content Include="Views\Components\_EmbedVideo.cshtml" />
     <Content Include="Views\Components\_NavList.cshtml" />
     <Content Include="Views\Components\_SocialShare.cshtml" />
     <Content Include="Views\Components\OwlCarousel.cshtml" />
     <Content Include="Views\Components\SectionHeader.cshtml" />
     <Content Include="Views\Layouts\Vitality\NavBar.cshtml" />
-    <Content Include="Views\Components\VideoHeader.cshtml" />
-    <Content Include="Views\Components\ImageHeader.cshtml" />
+    <Content Include="Views\Components\VideoBanner.cshtml" />
+    <Content Include="Views\Components\ImageBanner.cshtml" />
     <Content Include="Views\Scaffolding\section.cshtml" />
     <Content Include="Views\Components\IconTeaser.cshtml" />
     <Content Include="Views\Scaffolding\aside.cshtml" />

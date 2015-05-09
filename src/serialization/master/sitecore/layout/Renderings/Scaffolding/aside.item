@@ -20,9 +20,9 @@ content-length: 31
 field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
 name: Model
 key: model
-content-length: 34
+content-length: 39
 
-/sitecore/layout/Models/AsideModel
+/sitecore/layout/Models/Core/AsideModel
 ----field----
 field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
 name: Parameters Template
@@ -40,7 +40,7 @@ content-length: 1
 ----version----
 language: en
 version: 1
-revision: c0e97d39-f55c-49d6-af0b-1bb09cedbf43
+revision: 86d4d74f-220a-4364-81c9-e462ed579ead
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c0e97d39-f55c-49d6-af0b-1bb09cedbf43
+86d4d74f-220a-4364-81c9-e462ed579ead
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150506T095446:635665028860975522Z
+20150509T202540:635667999400500254Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

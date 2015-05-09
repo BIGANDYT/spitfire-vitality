@@ -20,9 +20,9 @@ content-length: 37
 field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
 name: Model
 key: model
-content-length: 32
+content-length: 37
 
-/sitecore/layout/Models/RowModel
+/sitecore/layout/Models/Core/RowModel
 ----field----
 field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
 name: Parameters Template
@@ -40,7 +40,7 @@ content-length: 0
 ----version----
 language: en
 version: 1
-revision: a956b021-cbca-421a-8c65-467405778d22
+revision: 35650d39-cfe1-411a-9d84-5810d1130d38
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-a956b021-cbca-421a-8c65-467405778d22
+35650d39-cfe1-411a-9d84-5810d1130d38
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150503T191022:635662770226078980Z
+20150509T202549:635667999491273900Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

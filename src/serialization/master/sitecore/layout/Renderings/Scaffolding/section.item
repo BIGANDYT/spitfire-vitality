@@ -20,9 +20,9 @@ content-length: 33
 field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
 name: Model
 key: model
-content-length: 36
+content-length: 41
 
-/sitecore/layout/Models/SectionModel
+/sitecore/layout/Models/Core/SectionModel
 ----field----
 field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
 name: Parameters Template
@@ -40,7 +40,7 @@ content-length: 1
 ----version----
 language: en
 version: 1
-revision: cf53747a-dfb1-4d98-8de3-9661f3bef9c8
+revision: 61571948-5fde-493a-bee3-df35d64fc842
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-cf53747a-dfb1-4d98-8de3-9661f3bef9c8
+61571948-5fde-493a-bee3-df35d64fc842
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150506T095457:635665028976924404Z
+20150509T202552:635667999525969360Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -20,9 +20,9 @@ content-length: 29
 field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
 name: Model
 key: model
-content-length: 32
+content-length: 37
 
-/sitecore/layout/Models/ColModel
+/sitecore/layout/Models/Core/ColModel
 ----field----
 field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
 name: Parameters Template
@@ -41,13 +41,13 @@ content-length: 1
 field: {A2F5D9DF-8CBA-4A1D-99EB-51ACB94CB057}
 name: Page Editor Buttons
 key: page editor buttons
-content-length: 38
+content-length: 0
 
-{27B8774F-1EA4-4739-8E8D-B275026E59DA}
+
 ----version----
 language: en
 version: 1
-revision: b1ba1107-008f-4c2e-9076-8ba26b4a0e53
+revision: 978ee330-a0e5-426c-8987-91a02d6470b2
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -62,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b1ba1107-008f-4c2e-9076-8ba26b4a0e53
+978ee330-a0e5-426c-8987-91a02d6470b2
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150506T095450:635665028907083034Z
+20150509T213043:635668038431902152Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
