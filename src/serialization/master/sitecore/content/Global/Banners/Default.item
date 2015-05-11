@@ -12,7 +12,7 @@ templatekey: Banner
 ----version----
 language: en
 version: 1
-revision: 6347a52e-f199-47e1-81ee-88f92af02016
+revision: a138402d-2d32-4c9f-a44b-999a6c6ca07b
 
 ----field----
 field: {AB3898A6-1F38-42BD-B1BD-80546723BE05}
@@ -55,7 +55,7 @@ name: Title Color
 key: title color
 content-length: 7
 
-#FFFFFF
+#D44242
 ----field----
 field: {3A1F3132-7AA4-433B-BD18-C6B4CE37910F}
 name: Link Color
@@ -85,6 +85,13 @@ content-length: 3
 
 0.5
 ----field----
+field: {7D43EAA1-757D-4E76-8EB8-1CA93DE9CE17}
+name: Banner Height
+key: banner height
+content-length: 1
+
+1
+----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
@@ -97,14 +104,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-6347a52e-f199-47e1-81ee-88f92af02016
+a138402d-2d32-4c9f-a44b-999a6c6ca07b
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150511T092201:635669329218306383Z
+20150511T103320:635669372007339822Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

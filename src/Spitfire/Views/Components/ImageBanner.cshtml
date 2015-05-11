@@ -1,4 +1,4 @@
-﻿<header style="background-image:url('@Model.BackgroundImageUrl')">
+﻿<header style="background-image:url('@Model.BackgroundImageUrl');height:@Model.BannerHeight%">
     <div class="row intro-content" style="top:@Model.LogoTop%;">
         <div class="col-xs-12 col-md-4 col-md-offset-@Model.LogoLeft">
             @Html.Sitecore().Field("Image", new { @class = "img-centered" })

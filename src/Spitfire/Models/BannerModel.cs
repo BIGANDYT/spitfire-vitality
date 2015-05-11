@@ -16,6 +16,7 @@ namespace Spitfire.Models
         public String LinkColor { get; set; }
         public int LogoTop { get; set; }
         public int LogoLeft { get; set; }
+        public int BannerHeight { get; set; }
 
         public void Initialize(Rendering rendering)
         {
@@ -34,6 +35,12 @@ namespace Spitfire.Models
                 LogoTop = Convert.ToInt32(30 * y);
                 var x = double.Parse(datasource.Fields["Logo Left"].Value);
                 LogoLeft = Convert.ToInt32(8 * x);
+                var BannerHeightValue = datasource.Fields["Banner Height"].Value;
+                if (BannerHeightValue != null)
+                {
+                    var z = double.Parse(BannerHeightValue);
+                    BannerHeight = Convert.ToInt32(z * 100);
+                }
             }
         }
     }
