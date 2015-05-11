@@ -1,5 +1,6 @@
 ﻿<div class="about-content">
-    <i class="fa fa-eye fa-4x"></i>
-    <h3>Retina Ready</h3>
-    <p>This theme includes the retina.js plugin for easy retina image support so your images and graphics will look great on mobile devices!</p>
+    <!--<i class="fa fa-eye fa-4x"></i>-->
+    <div>@Html.Sitecore().Field("Thumbnail")</div>
+    <h3>@Html.Sitecore().Field("Title")</h3>
+    <p>@Html.Sitecore().Field("Details")</p>
 </div>
