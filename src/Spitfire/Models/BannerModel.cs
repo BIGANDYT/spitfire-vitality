@@ -30,8 +30,10 @@ namespace Spitfire.Models
                 TitleColor = datasource.Fields["Title Color"].Value;
                 SubTitleColor = datasource.Fields["SubTitle Color"].Value;
                 LinkColor = datasource.Fields["Link Color"].Value;
-                LogoTop = Convert.ToInt32(double.Parse(datasource.Fields["Logo Top"].Value) * 100);
-                LogoLeft = Convert.ToInt32(double.Parse(datasource.Fields["Logo Left"].Value) * 100);
+                var y = double.Parse(datasource.Fields["Logo Top"].Value);
+                LogoTop = Convert.ToInt32(30 * y);
+                var x = double.Parse(datasource.Fields["Logo Left"].Value);
+                LogoLeft = Convert.ToInt32(8 * x);
             }
         }
     }
