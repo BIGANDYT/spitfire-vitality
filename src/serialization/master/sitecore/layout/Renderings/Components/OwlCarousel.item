@@ -30,10 +30,17 @@ key: open properties after add
 content-length: 1
 
 -
+----field----
+field: {A2F5D9DF-8CBA-4A1D-99EB-51ACB94CB057}
+name: Page Editor Buttons
+key: page editor buttons
+content-length: 38
+
+{0738B540-A92A-4361-85E9-BE5CA1F0EF59}
 ----version----
 language: en
 version: 1
-revision: ed050173-4ebd-40f9-80d9-370617cd260d
+revision: a4ac0683-bdcc-4d67-b0bd-4bbfb45350a2
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -48,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ed050173-4ebd-40f9-80d9-370617cd260d
+a4ac0683-bdcc-4d67-b0bd-4bbfb45350a2
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150512T130431:635670326711820445Z
+20150513T210650:635671480101307430Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

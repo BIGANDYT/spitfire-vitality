@@ -12,7 +12,7 @@ templatekey: TeaserGroup
 ----version----
 language: en
 version: 1
-revision: cf010b21-5a6d-4803-803e-4293c27a0c01
+revision: 50943406-c0ed-4fbc-b86e-ed1efca8f429
 
 ----field----
 field: {EFEB569B-6957-4572-BA2C-79C98D55DD93}
@@ -20,7 +20,7 @@ name: source
 key: source
 content-length: 155
 
-{F34F4EE6-F1C3-4388-934C-EED26F06F60D}|{7F8B439C-7D25-4218-97B6-68F932F3BC28}|{95F95FB8-C0F5-448C-9EE3-0CFA0AD3E99C}|{92129696-BBB9-4E58-AD8A-B592CFC59A8B}
+{7F8B439C-7D25-4218-97B6-68F932F3BC28}|{95F95FB8-C0F5-448C-9EE3-0CFA0AD3E99C}|{92129696-BBB9-4E58-AD8A-B592CFC59A8B}|{F34F4EE6-F1C3-4388-934C-EED26F06F60D}
 ----field----
 field: {81FD15D3-C004-4F13-83E3-B2C6E3520CF2}
 name: GroupTitle
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-cf010b21-5a6d-4803-803e-4293c27a0c01
+50943406-c0ed-4fbc-b86e-ed1efca8f429
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150512T124258:635670313783606865Z
+20150513T210729:635671480497653802Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -70,3 +70,10 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
