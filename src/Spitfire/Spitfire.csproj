@@ -216,6 +216,8 @@
     <Compile Include="Models\ColModel.cs" />
     <Compile Include="Models\AsideModel.cs" />
     <Compile Include="Models\BannerModel.cs" />
+    <Compile Include="Models\IconTeaserModel.cs" />
+    <Compile Include="Models\OwlTeaserModel.cs" />
     <Compile Include="Models\StyleModel.cs" />
     <Compile Include="Models\SectionModel.cs" />
     <Compile Include="Models\VideoModel.cs" />

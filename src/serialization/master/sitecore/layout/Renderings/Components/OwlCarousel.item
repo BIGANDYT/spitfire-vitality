@@ -16,10 +16,24 @@ key: path
 content-length: 36
 
 /Views/Components/OwlCarousel.cshtml
+----field----
+field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
+name: Model
+key: model
+content-length: 43
+
+/sitecore/layout/Models/Core/OwlTeaserModel
+----field----
+field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
+name: Open Properties after Add
+key: open properties after add
+content-length: 1
+
+-
 ----version----
 language: en
 version: 1
-revision: 5597f39d-f0ce-4577-8d84-78507d7f717d
+revision: ed050173-4ebd-40f9-80d9-370617cd260d
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-5597f39d-f0ce-4577-8d84-78507d7f717d
+ed050173-4ebd-40f9-80d9-370617cd260d
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150505T204828:635664557089514349Z
+20150512T130431:635670326711820445Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
