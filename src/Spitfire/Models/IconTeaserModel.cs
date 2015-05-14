@@ -10,8 +10,7 @@ namespace Spitfire.Models
         public string Background { get; private set;}
          public override void Initialize(Rendering rendering)
          {
-             base.Initialize(rendering);
-             Item item = this.Item;
+             base.Initialize(rendering);          
              NameValueCollection parameters=null;
             if (!string.IsNullOrEmpty(rendering["Parameters"]))
             {
