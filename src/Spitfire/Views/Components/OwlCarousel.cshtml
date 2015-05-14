@@ -11,7 +11,7 @@
                     <h3>@Html.Sitecore().Field("Title", teaser)</h3>
                     <hr class="colored">
                     <p>@Html.Sitecore().Field("SubTitle", teaser)</p>
-                    <ul class="list-inline social">
+                    <ul class="list-inline social" style="display: @Model.socialDisplay">
                         <li>
                             <a href="#"><i class="fa fa-facebook fa-fw"></i></a>
                         </li>

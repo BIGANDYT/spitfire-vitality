@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Sitecore.Data;
@@ -12,6 +13,7 @@ namespace Spitfire.Models
     public class OwlTeaserModel :RenderingModel
     {
         public IList<Item> OwlTeasers { get; private set; }
+        public string socialDisplay { get; set; }
         public override void Initialize(Rendering rendering)
         {
             base.Initialize(rendering);
@@ -31,7 +33,23 @@ namespace Spitfire.Models
                 }
 
             }
-           
+
+            //Findout dispaly social icons or not
+            ID id = new ID("{D6303669-FBF0-46B9-836A-74AD60DB0913}");
+            socialDisplay = this.Item[id];
+            if (string.IsNullOrEmpty(socialDisplay))
+            {
+                socialDisplay = "show";
+            }
+            if (string.Equals(socialDisplay, "yes", StringComparison.CurrentCultureIgnoreCase) || string.Equals(socialDisplay, "true", StringComparison.CurrentCultureIgnoreCase))
+            {
+                socialDisplay = "show";
+            }
+            if (string.Equals(socialDisplay, "No", StringComparison.CurrentCultureIgnoreCase) || string.Equals(socialDisplay, "Hide", StringComparison.CurrentCultureIgnoreCase) || string.Equals(socialDisplay, "false", StringComparison.CurrentCultureIgnoreCase) || string.Equals(socialDisplay, "0", StringComparison.CurrentCultureIgnoreCase) || string.Equals(socialDisplay, "Not", StringComparison.CurrentCultureIgnoreCase))
+            {
+                socialDisplay = "none";
+            }
+            
         }
 
     }
