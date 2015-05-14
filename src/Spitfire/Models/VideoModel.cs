@@ -16,9 +16,6 @@
         {
             base.Initialize(rendering);
 
-            // TODO: This line needs to be removed again. Is only added to test addition of custom FxCop rule to SonarQube.
-            var x = Sitecore.Context.Database.GetItem("/sitecore/content/home");
-
             var videoItemField = (FileField)Item.Fields["Video Source"];
             if (videoItemField != null && videoItemField.MediaItem != null)
             {
