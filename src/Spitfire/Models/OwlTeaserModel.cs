@@ -33,7 +33,8 @@
                 }
             }
 
-            //Findout dispaly social icons or not
+            // Findout dispaly social icons or not
+            // TODO: This needs to be fixed. What is this ID pointing to?
             var id = new ID("{D6303669-FBF0-46B9-836A-74AD60DB0913}");
             SocialDisplay = Item[id];
             if (string.IsNullOrEmpty(SocialDisplay))
