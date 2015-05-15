@@ -1,56 +1,56 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using Sitecore.Data;
-using Sitecore.Data.Fields;
-using Sitecore.Data.Items;
-using Sitecore.Diagnostics;
-using Sitecore.Mvc.Presentation;
-
-namespace Spitfire.Models
+﻿namespace Spitfire.Models
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using Constant;
+    using Sitecore.Data;
+    using Sitecore.Data.Fields;
+    using Sitecore.Data.Items;
+    using Sitecore.Diagnostics;
+    using Sitecore.Mvc.Presentation;
+
     public class OwlTeaserModel :RenderingModel
     {
         public IList<Item> OwlTeasers { get; private set; }
-        public string socialDisplay { get; set; }
+        public String SocialDisplay { get; set; }
+
         public override void Initialize(Rendering rendering)
         {
             base.Initialize(rendering);
-            if (!string.IsNullOrEmpty(this.Item["source"]))
+            if (!string.IsNullOrEmpty(Item[SpitfireConstants.FieldConstants.TeaserGroup.Source]))
             {
-                MultilistField source = this.Item.Fields["source"];
+                MultilistField source = Item.Fields[SpitfireConstants.FieldConstants.TeaserGroup.Source];
 
                 if (source != null)
                 {
                     OwlTeasers = source.GetItems().ToList();
-                    //Iterate over all the selected items by using the property TargetIDs
+                    // Iterate over all the selected items by using the property TargetIDs
                     foreach (var item in source.GetItems())
                     {
-                        Log.Error("item" + item.Name + item["Title"], this);
+                        Log.Error("item" + item.Name + item[SpitfireConstants.FieldConstants.Teaser.Title], this);
                     }
-                   
                 }
-
             }
 
-            //Findout dispaly social icons or not
-            ID id = new ID("{D6303669-FBF0-46B9-836A-74AD60DB0913}");
-            socialDisplay = this.Item[id];
-            if (string.IsNullOrEmpty(socialDisplay))
+            // Findout dispaly social icons or not
+            // TODO: This needs to be fixed. What is this ID pointing to?
+            var id = new ID("{D6303669-FBF0-46B9-836A-74AD60DB0913}");
+            SocialDisplay = Item[id];
+            if (string.IsNullOrEmpty(SocialDisplay))
             {
-                socialDisplay = "show";
+                SocialDisplay = "show";
             }
-            if (string.Equals(socialDisplay, "yes", StringComparison.CurrentCultureIgnoreCase) || string.Equals(socialDisplay, "true", StringComparison.CurrentCultureIgnoreCase))
+
+            if (string.Equals(SocialDisplay, "yes", StringComparison.CurrentCultureIgnoreCase) || string.Equals(SocialDisplay, "true", StringComparison.CurrentCultureIgnoreCase))
             {
-                socialDisplay = "show";
+                SocialDisplay = "show";
             }
-            if (string.Equals(socialDisplay, "No", StringComparison.CurrentCultureIgnoreCase) || string.Equals(socialDisplay, "Hide", StringComparison.CurrentCultureIgnoreCase) || string.Equals(socialDisplay, "false", StringComparison.CurrentCultureIgnoreCase) || string.Equals(socialDisplay, "0", StringComparison.CurrentCultureIgnoreCase) || string.Equals(socialDisplay, "Not", StringComparison.CurrentCultureIgnoreCase))
+
+            if (string.Equals(SocialDisplay, "No", StringComparison.CurrentCultureIgnoreCase) || string.Equals(SocialDisplay, "Hide", StringComparison.CurrentCultureIgnoreCase) || string.Equals(SocialDisplay, "false", StringComparison.CurrentCultureIgnoreCase) || string.Equals(SocialDisplay, "0", StringComparison.CurrentCultureIgnoreCase) || string.Equals(SocialDisplay, "Not", StringComparison.CurrentCultureIgnoreCase))
             {
-                socialDisplay = "none";
+                SocialDisplay = "none";
             }
-            
         }
-
     }
 }

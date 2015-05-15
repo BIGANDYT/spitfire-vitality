@@ -1,28 +1,37 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
-using System.Web.Mvc.Html;
-
-namespace Spitfire
+﻿namespace Spitfire
 {
+    using System;
+    using System.Web.Mvc;
+
+    /// <summary>
+    /// Helper methods for the Html Helper class
+    /// </summary>
     public static class HMTLHelperExtensions
     {
-        public static string IsSelected(this HtmlHelper html, string controller = null, string action = null)
+        /// <summary>
+        /// Get css class when selected
+        /// </summary>
+        /// <param name="html">The HtmlHelper instance</param>
+        /// <param name="controller">The controller</param>
+        /// <param name="action">The action</param>
+        /// <returns>'active' if selected, empty string otherwise</returns>
+        public static String IsSelected(this HtmlHelper html, String controller = null, String action = null)
         {
-            string cssClass = "active";
-            string currentAction = (string)html.ViewContext.RouteData.Values["action"];
-            string currentController = (string)html.ViewContext.RouteData.Values["controller"];
+            const String cssClass = "active";
+            var currentAction = (String)html.ViewContext.RouteData.Values["action"];
+            var currentController = (String)html.ViewContext.RouteData.Values["controller"];
 
             if (String.IsNullOrEmpty(controller))
+            {
                 controller = currentController;
+            }
 
             if (String.IsNullOrEmpty(action))
+            {
                 action = currentAction;
+            }
 
-            return controller == currentController && action == currentAction ?
-                cssClass : String.Empty;
+            return controller == currentController && action == currentAction ? cssClass : String.Empty;
         }
 	}
 }
