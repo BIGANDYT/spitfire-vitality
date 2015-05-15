@@ -20,6 +20,9 @@
         /// </summary>
         public static class FieldConstants
         {
+            /// <summary>
+            /// Class to hold all fields related to the Video template
+            /// </summary>
             public static class Video
             {
                 /// <summary>
@@ -33,11 +36,30 @@
                 public const String Source = "{1EC8FCD0-F411-41A7-9B11-1C0BBF6DF9F9}";
 
                 /// <summary>
+                /// The Autoplay field id
+                /// </summary>
+                public const String Autoplay = "{2A264A35-6D98-4B60-906E-2EBBC3E9BEBE}";
+
+                /// <summary>
+                /// The Loop field id
+                /// </summary>
+                public const String Loop = "{16C8F19F-7921-4F3B-A9D3-C42EBFC9F2F3}";
+            }
+
+            /// <summary>
+            /// Class to hold all fields related to the VideoType template
+            /// </summary>
+            public static class VideoType
+            {
+                /// <summary>
                 /// The Type Name field of the Video Type item
                 /// </summary>
                 public const String TypeName = "{4C69EEE5-ED95-455D-B28B-E9581A1D8FD5}";
             }
 
+            /// <summary>
+            /// Class to hold all fields related to the Style template
+            /// </summary>
             public static class Style
             {
                 /// <summary>
@@ -105,8 +127,14 @@
                 public const String Title = "{8F835316-A8FF-411A-905B-CFC143D7950C}";
             }
 
+            /// <summary>
+            /// Class to hold all fields of the TeaserGroup template
+            /// </summary>
             public static class TeaserGroup
             {
+                /// <summary>
+                /// The field id of the Source field
+                /// </summary>
                 public const String Source = "{EFEB569B-6957-4572-BA2C-79C98D55DD93}";
             }
         }

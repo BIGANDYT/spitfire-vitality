@@ -1,4 +1,6 @@
-﻿namespace Spitfire.Models
+﻿using Sitecore;
+
+namespace Spitfire.Models
 {
     using System;
     using Constant;
@@ -27,8 +29,11 @@
             var videoTypeItemField = (LookupField) Item.Fields[SpitfireConstants.FieldConstants.Video.Type];
             if (videoTypeItemField != null && videoTypeItemField.TargetItem != null)
             {
-                VideoType = videoTypeItemField.TargetItem[SpitfireConstants.FieldConstants.Video.TypeName];
+                VideoType = videoTypeItemField.TargetItem[SpitfireConstants.FieldConstants.VideoType.TypeName];
             }
+
+            Loop = MainUtil.GetBool(Item.Fields[SpitfireConstants.FieldConstants.Video.Loop], false);
+            Autoplay = MainUtil.GetBool(Item.Fields[SpitfireConstants.FieldConstants.Video.Autoplay], false);
         }
 
         /// <summary>
@@ -40,5 +45,15 @@
         /// The path to the video in the media library
         /// </summary>
         public String VideoPath { get; private set; }
+
+        /// <summary>
+        /// Value indicating whether the video should loop
+        /// </summary>
+        public Boolean Loop { get; private set; }
+
+        /// <summary>
+        /// Value indicating whether the video should autoplay
+        /// </summary>
+        public Boolean Autoplay { get; private set; }
     }
 }
