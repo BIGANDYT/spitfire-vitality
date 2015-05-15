@@ -25,11 +25,6 @@
                 if (source != null)
                 {
                     OwlTeasers = source.GetItems().ToList();
-                    // Iterate over all the selected items by using the property TargetIDs
-                    foreach (var item in source.GetItems())
-                    {
-                        Log.Error("item" + item.Name + item[SpitfireConstants.FieldConstants.Teaser.Title], this);
-                    }
                 }
             }
 
