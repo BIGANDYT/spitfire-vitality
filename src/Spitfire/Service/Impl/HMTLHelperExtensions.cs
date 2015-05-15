@@ -3,8 +3,18 @@
     using System;
     using System.Web.Mvc;
 
+    /// <summary>
+    /// Helper methods for the Html Helper class
+    /// </summary>
     public static class HMTLHelperExtensions
     {
+        /// <summary>
+        /// Get css class when selected
+        /// </summary>
+        /// <param name="html">The HtmlHelper instance</param>
+        /// <param name="controller">The controller</param>
+        /// <param name="action">The action</param>
+        /// <returns>'active' if selected, empty string otherwise</returns>
         public static String IsSelected(this HtmlHelper html, String controller = null, String action = null)
         {
             const String cssClass = "active";
