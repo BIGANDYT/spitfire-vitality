@@ -23,12 +23,33 @@
             /// <remarks>
             /// Hardcoded to a specific ID right now. Should probably be changed eventually to use Sitecore.Search to be able to use other sites.
             /// </remarks>
-            public const String Logo = "";
+            public const String Logo = "{04E533D1-CA74-48F0-A72D-69D13F83D320}";
         }
 
         public static class TemplateIds
         {
             public const String LogoTemplate = "{A12D613D-7E9E-4392-A405-36B8A2CE659F}";
+        }
+
+        /// <summary>
+        /// Class to contain constants from Parameter templates
+        /// </summary>
+        public static class ParameterConstants
+        {
+            /// <summary>
+            /// The Autoplay field id
+            /// </summary>
+            public const String Autoplay = "Autoplay";
+
+            /// <summary>
+            /// The Loop field id
+            /// </summary>
+            public const String Loop = "Loop";
+
+            /// <summary>
+            /// The Mute field id
+            /// </summary>
+            public const String Mute = "Mute";
         }
 
         /// <summary>
@@ -51,15 +72,6 @@
                 /// </summary>
                 public const String Source = "{1EC8FCD0-F411-41A7-9B11-1C0BBF6DF9F9}";
 
-                /// <summary>
-                /// The Autoplay field id
-                /// </summary>
-                public const String Autoplay = "{2A264A35-6D98-4B60-906E-2EBBC3E9BEBE}";
-
-                /// <summary>
-                /// The Loop field id
-                /// </summary>
-                public const String Loop = "{16C8F19F-7921-4F3B-A9D3-C42EBFC9F2F3}";
             }
 
             /// <summary>

@@ -1,4 +1,5 @@
-﻿<!-- Navigation -->
+﻿@using Spitfire.Constant
+<!-- Navigation -->
 <!-- Note: navbar-default and navbar-inverse are both supported with this theme. -->
 <nav class="navbar navbar-inverse navbar-fixed-top navbar-expanded">
     <div class="container">
@@ -11,7 +12,14 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand page-scroll" href="#page-top">
-                <img src="/Content/img/vitality/logo.png" class="img-responsive" alt="">
+                @{
+                    var logoItem = Sitecore.Context.Database.GetItem(SpitfireConstants.ItemConstants.Logo);
+                    if (logoItem != null)
+                    {
+                       @Html.Sitecore().Field("Logo", logoItem, new { @class="img-responsive" })
+                    }
+                }
+             
             </a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->

@@ -37,6 +37,11 @@
         public Boolean Autoplay { get; private set; }
 
         /// <summary>
+        /// Value indicating whether the video should play muted
+        /// </summary>
+        public Boolean Mute { get; private set; }
+
+        /// <summary>
         /// Initialize the Video Model
         /// </summary>
         /// <param name="rendering">The Rendering to use</param>
@@ -63,8 +68,9 @@
                 VideoType = videoTypeItemField.TargetItem[SpitfireConstants.FieldConstants.VideoType.TypeName];
             }
 
-            Loop = Sitecore.MainUtil.GetBool(Item.Fields[SpitfireConstants.FieldConstants.Video.Loop], false);
-            Autoplay = Sitecore.MainUtil.GetBool(Item.Fields[SpitfireConstants.FieldConstants.Video.Autoplay], false);
+            Loop = Sitecore.MainUtil.GetBool(rendering.Parameters[SpitfireConstants.ParameterConstants.Loop], false);
+            Autoplay = Sitecore.MainUtil.GetBool(rendering.Parameters[SpitfireConstants.ParameterConstants.Autoplay], false);
+            Mute = Sitecore.MainUtil.GetBool(rendering.Parameters[SpitfireConstants.ParameterConstants.Mute], false);
         }
     }
 }
