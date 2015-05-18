@@ -1,54 +1,54 @@
 ----item----
 version: 1
-id: {B344D6D1-561E-4D55-B418-E0BC625BAA3D}
+id: {F4D3F672-0EA7-480B-B39A-FEEDB438DCD6}
 database: core
-path: /sitecore/content/Applications/WebEdit/Custom Experience Buttons/Edit Banner
+path: /sitecore/content/Applications/WebEdit/Custom Experience Buttons/Edit Video
 parent: {DB662EDF-5965-4848-AD14-BA6BF0D55D1E}
-name: Edit Banner
+name: Edit Video
 master: {00000000-0000-0000-0000-000000000000}
-template: {1AB4F9AD-B004-413C-8924-3E07143A614B}
-templatekey: Field Editor Button
+template: {02404208-46D4-49BF-988B-EB363A52A1C9}
+templatekey: WebEdit Button
 
 ----field----
-field: {4431914A-C40B-437C-8ADD-D2ED12CC8CC3}
+field: {E8CC41C7-C304-4282-B782-E21CA32D324C}
 name: Icon
 key: icon
-content-length: 32
+content-length: 22
 
-office/32x32/photo_landscape.png
+Office/32x32/movie.png
 ----field----
-field: {CF738220-908D-4C3F-9482-32E625DAF13C}
-name: Fields
-key: fields
-content-length: 70
+field: {1BB289D6-44D7-4FCC-AF15-DB32B841F957}
+name: Click
+key: click
+content-length: 27
 
-Title Color|SubTitle Color|Link Color|Logo Top|Logo Left|Banner Height
+chrome:rendering:properties
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
 key: __icon
-content-length: 32
+content-length: 22
 
-office/32x32/photo_landscape.png
+Office/32x32/movie.png
 ----version----
 language: en
 version: 1
-revision: 4ec80423-e77c-42f8-93fc-6e955ea15ce0
+revision: df159fb1-bc99-41f7-8be3-644b32569fc1
 
 ----field----
-field: {108D3A63-BAAA-4560-86D8-3A112ED84717}
+field: {C523ABA8-D1A1-4DCB-AEEE-52635A4AB2AE}
 name: Header
 key: header
-content-length: 11
+content-length: 10
 
-Edit Banner
+Edit Video
 ----field----
-field: {5F0812AF-D370-4292-AFEE-F26A39B7406D}
+field: {371E0D96-4F00-4B80-AD14-6284E00493BA}
 name: Tooltip
 key: tooltip
-content-length: 22
+content-length: 21
 
-Edit Banner Properties
+Edit Video Properties
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -76,14 +76,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-4ec80423-e77c-42f8-93fc-6e955ea15ce0
+df159fb1-bc99-41f7-8be3-644b32569fc1
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150518T100235:635675401557527835Z
+20150518T102449:635675414899107352Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

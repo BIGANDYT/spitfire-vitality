@@ -44,10 +44,17 @@ key: datasource template
 content-length: 41
 
 /sitecore/templates/Core/Components/Video
+----field----
+field: {A2F5D9DF-8CBA-4A1D-99EB-51ACB94CB057}
+name: Page Editor Buttons
+key: page editor buttons
+content-length: 38
+
+{F4D3F672-0EA7-480B-B39A-FEEDB438DCD6}
 ----version----
 language: en
 version: 1
-revision: c9b6a393-b435-4490-99f2-5bbd90cdbb64
+revision: 6d61a2ae-28ca-4741-978c-52d29fb9f977
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -62,14 +69,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c9b6a393-b435-4490-99f2-5bbd90cdbb64
+6d61a2ae-28ca-4741-978c-52d29fb9f977
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150518T085255:635675359755366967Z
+20150518T100759:635675404796333039Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
