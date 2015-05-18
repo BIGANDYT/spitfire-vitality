@@ -12,7 +12,23 @@
         /// </summary>
         public static class ItemConstants
         {
+            /// <summary>
+            /// The root for the Home settings root item
+            /// </summary>
+            public const String SettingsRoot = "{F143A0D0-92E4-450E-8DBE-C7378B65E24A}";
 
+            /// <summary>
+            /// The Logo item
+            /// </summary>
+            /// <remarks>
+            /// Hardcoded to a specific ID right now. Should probably be changed eventually to use Sitecore.Search to be able to use other sites.
+            /// </remarks>
+            public const String Logo = "";
+        }
+
+        public static class TemplateIds
+        {
+            public const String LogoTemplate = "{A12D613D-7E9E-4392-A405-36B8A2CE659F}";
         }
 
         /// <summary>
