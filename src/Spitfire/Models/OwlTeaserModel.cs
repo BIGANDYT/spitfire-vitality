@@ -4,27 +4,17 @@
     using System.Collections.Generic;
     using System.Linq;
     using Constant;
+    using Sitecore.Data;
     using Sitecore.Data.Fields;
     using Sitecore.Data.Items;
+    using Sitecore.Diagnostics;
     using Sitecore.Mvc.Presentation;
 
-    /// <summary>
-    /// OwlTeaser component model
-    /// </summary>
     public class OwlTeaserModel :RenderingModel
     {
-        /// <summary>
-        /// return a list of selected items for owlTeaser component
-        /// </summary>
         public IList<Item> OwlTeasers { get; private set; }
-        /// <summary>
-        /// Users can choose to display or hide the social icons with this parameter
-        /// </summary>
         public String SocialDisplay { get; set; }
-        /// <summary>
-        /// the rendering of the context page
-        /// </summary>
-        /// <param name="rendering"></param>
+
         public override void Initialize(Rendering rendering)
         {
             base.Initialize(rendering);
@@ -38,15 +28,21 @@
                 }
             }
 
-            // Findout dispaly social icons or not; this is droplist field
-           SocialDisplay = Item[SpitfireConstants.FieldConstants.TeaserGroup.Display];
-
-           if (string.IsNullOrEmpty(SocialDisplay) || string.Equals(SocialDisplay, "show", StringComparison.CurrentCultureIgnoreCase))
+            // Findout dispaly social icons or not
+            // TODO: This needs to be fixed. What is this ID pointing to?
+            var id = new ID("{D6303669-FBF0-46B9-836A-74AD60DB0913}");
+            SocialDisplay = Item[id];
+            if (string.IsNullOrEmpty(SocialDisplay))
             {
                 SocialDisplay = "show";
             }
 
-            if (string.Equals(SocialDisplay, "none", StringComparison.CurrentCultureIgnoreCase))
+            if (string.Equals(SocialDisplay, "yes", StringComparison.CurrentCultureIgnoreCase) || string.Equals(SocialDisplay, "true", StringComparison.CurrentCultureIgnoreCase))
+            {
+                SocialDisplay = "show";
+            }
+
+            if (string.Equals(SocialDisplay, "No", StringComparison.CurrentCultureIgnoreCase) || string.Equals(SocialDisplay, "Hide", StringComparison.CurrentCultureIgnoreCase) || string.Equals(SocialDisplay, "false", StringComparison.CurrentCultureIgnoreCase) || string.Equals(SocialDisplay, "0", StringComparison.CurrentCultureIgnoreCase) || string.Equals(SocialDisplay, "Not", StringComparison.CurrentCultureIgnoreCase))
             {
                 SocialDisplay = "none";
             }

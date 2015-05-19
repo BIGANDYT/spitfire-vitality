@@ -20,9 +20,9 @@ office/32x32/photo_landscape.png
 field: {CF738220-908D-4C3F-9482-32E625DAF13C}
 name: Fields
 key: fields
-content-length: 113
+content-length: 70
 
-Image|Background Image|Title|SubTitle|Link|Title Color|SubTitle Color|Link Color|Logo Top|Logo Left|Banner Height
+Title Color|SubTitle Color|Link Color|Logo Top|Logo Left|Banner Height
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
@@ -33,7 +33,7 @@ office/32x32/photo_landscape.png
 ----version----
 language: en
 version: 1
-revision: fdac0262-5995-4be8-a6b3-92b6cee32986
+revision: 4ec80423-e77c-42f8-93fc-6e955ea15ce0
 
 ----field----
 field: {108D3A63-BAAA-4560-86D8-3A112ED84717}
@@ -76,14 +76,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-fdac0262-5995-4be8-a6b3-92b6cee32986
+4ec80423-e77c-42f8-93fc-6e955ea15ce0
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150511T100731:635669356512869327Z
+20150518T100235:635675401557527835Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -2,19 +2,13 @@
 {
     using System;
     using System.Web.Mvc;
+    using Framework.Controls;
 
     /// <summary>
-    /// Helper methods for the Html Helper class
+    /// HTML Helper extensions
     /// </summary>
     public static class HMTLHelperExtensions
     {
-        /// <summary>
-        /// Get css class when selected
-        /// </summary>
-        /// <param name="html">The HtmlHelper instance</param>
-        /// <param name="controller">The controller</param>
-        /// <param name="action">The action</param>
-        /// <returns>'active' if selected, empty string otherwise</returns>
         public static String IsSelected(this HtmlHelper html, String controller = null, String action = null)
         {
             const String cssClass = "active";
@@ -32,6 +26,20 @@
             }
 
             return controller == currentController && action == currentAction ? cssClass : String.Empty;
+        }
+
+        /// <summary>
+        /// Create an EditFrame
+        /// </summary>
+        /// <typeparam name="T">The type T</typeparam>
+        /// <param name="helper">The HtmlHelper</param>
+        /// <param name="dataSource">The datasource for the item</param>
+        /// <param name="buttons">The buttons to use</param>
+        /// <returns>An EditFrame</returns>
+        public static EditFrameRendering BeginEditFrame<T>(this HtmlHelper<T> helper, String dataSource, String buttons)
+        {
+            var frame = new EditFrameRendering(helper.ViewContext.Writer, dataSource, buttons);
+            return frame;
         }
 	}
 }

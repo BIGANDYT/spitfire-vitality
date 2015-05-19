@@ -29,7 +29,7 @@ name: Parameters Template
 key: parameters template
 content-length: 38
 
-{65BABA02-C72B-4757-9A30-DB768D225395}
+{1FA1F3A2-80E2-4C83-9AF0-B392FD76317E}
 ----field----
 field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
 name: Datasource Location
@@ -41,13 +41,20 @@ content-length: 31
 field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
 name: Datasource Template
 key: datasource template
-content-length: 54
+content-length: 41
 
-/sitecore/templates/Spitfire/Component Templates/Video
+/sitecore/templates/Core/Components/Video
+----field----
+field: {A2F5D9DF-8CBA-4A1D-99EB-51ACB94CB057}
+name: Page Editor Buttons
+key: page editor buttons
+content-length: 38
+
+{F4D3F672-0EA7-480B-B39A-FEEDB438DCD6}
 ----version----
 language: en
 version: 1
-revision: f523de98-c356-492f-b9d2-26db919d28e0
+revision: 6d61a2ae-28ca-4741-978c-52d29fb9f977
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -62,14 +69,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-f523de98-c356-492f-b9d2-26db919d28e0
+6d61a2ae-28ca-4741-978c-52d29fb9f977
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150509T204340:635668010204818244Z
+20150518T100759:635675404796333039Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

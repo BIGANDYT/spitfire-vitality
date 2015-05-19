@@ -16,38 +16,10 @@ key: path
 content-length: 38
 
 /Views/Components/TeaserGallery.cshtml
-----field----
-field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
-name: Model
-key: model
-content-length: 42
-
-/sitecore/layout/Models/Core/TeaserGallery
-----field----
-field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
-name: Open Properties after Add
-key: open properties after add
-content-length: 1
-
--
-----field----
-field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
-name: Datasource Location
-key: datasource location
-content-length: 39
-
-/sitecore/content/Global/OwlTeaserGroup
-----field----
-field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
-name: Datasource Template
-key: datasource template
-content-length: 36
-
-/sitecore/templates/Core/TeaserGroup
 ----version----
 language: en
 version: 1
-revision: f477d5da-e9f8-477f-beea-d149446d0b3b
+revision: 51c05ff2-6b9e-40d9-b69f-c6e2bed5b436
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -62,14 +34,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-f477d5da-e9f8-477f-beea-d149446d0b3b
+51c05ff2-6b9e-40d9-b69f-c6e2bed5b436
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150518T144117:635675568774343168Z
+20150506T131940:635665151808368098Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

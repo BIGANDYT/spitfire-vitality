@@ -1,13 +1,13 @@
-﻿namespace Spitfire.Models
+﻿using System.Collections.Specialized;
+using Sitecore.Data.Items;
+using Sitecore.Mvc.Presentation;
+namespace Spitfire.Models
 {
-    using System.Collections.Specialized;
-    using Sitecore.Mvc.Presentation;
-    using Constant;
-    /// <summary>
-    /// Icon Teaser Model
-    /// </summary>
     public class IconTeaserModel :RenderingModel
     {
+        public string TitleColor { get; private set; }
+        public string TitleFontSize { get; private set; }
+        public string Background { get; private set;}
          public override void Initialize(Rendering rendering)
          {
              base.Initialize(rendering);          
@@ -23,20 +23,11 @@
                  TitleColor = parameters["TitleColor"];
                  TitleFontSize = parameters["TitleFontSize"];
                  Background = parameters["Background"];
+
              }
+             
+             
          }
-        /// <summary>
-        /// Get Title color setting
-        /// </summary>
-         public string TitleColor { get; private set; }
-        /// <summary>
-        /// Set Title font size
-        /// </summary>
-         public string TitleFontSize { get; private set; }
-        /// <summary>
-        /// Set background color
-        /// </summary>
-         public string Background { get; private set; }
 
     }
 
