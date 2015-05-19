@@ -2,7 +2,7 @@
 version: 1
 id: {65CCFFDE-31DE-4A7A-8742-CC75132EF665}
 database: master
-path: /sitecore/templates/Core/Components/Teaser/Data
+path: /sitecore/templates/Core/Taxonomies/Teaser/Data
 parent: {60920BFB-F0BB-4DED-BAAC-AEF1F68FE6E8}
 name: Data
 master: {00000000-0000-0000-0000-000000000000}
