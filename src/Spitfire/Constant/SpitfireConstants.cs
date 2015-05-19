@@ -16,19 +16,22 @@
             /// The root for the Home settings root item
             /// </summary>
             public const String SettingsRoot = "{F143A0D0-92E4-450E-8DBE-C7378B65E24A}";
-
-            /// <summary>
-            /// The Logo item
-            /// </summary>
-            /// <remarks>
-            /// Hardcoded to a specific ID right now. Should probably be changed eventually to use Sitecore.Search to be able to use other sites.
-            /// </remarks>
-            public const String Logo = "{04E533D1-CA74-48F0-A72D-69D13F83D320}";
         }
 
+        /// <summary>
+        /// Class to hold all template ids
+        /// </summary>
         public static class TemplateIds
         {
-            public const String LogoTemplate = "{A12D613D-7E9E-4392-A405-36B8A2CE659F}";
+            /// <summary>
+            /// The id of the NavBar template
+            /// </summary>
+            public const String NavBar = "{A12D613D-7E9E-4392-A405-36B8A2CE659F}";
+
+            /// <summary>
+            /// The ID of the NavItem template
+            /// </summary>
+            public const String NavItem = "{21FC97B7-6622-4248-AA98-F2DDEBA46895}";
         }
 
         /// <summary>
@@ -152,6 +155,9 @@
             /// </summary>
             public static class Teaser
             {
+                /// <summary>
+                /// The field id of the Title field.
+                /// </summary>
                 public const String Title = "{8F835316-A8FF-411A-905B-CFC143D7950C}";
             }
 
@@ -164,6 +170,32 @@
                 /// The field id of the Source field
                 /// </summary>
                 public const String Source = "{EFEB569B-6957-4572-BA2C-79C98D55DD93}";
+            }
+
+            /// <summary>
+            /// Class to hold all fields of the NavBar template
+            /// </summary>
+            public static class NavBar
+            {
+                /// <summary>
+                /// The field id of the background color field.
+                /// </summary>
+                public const String BackgroundColor = "{7A40C9D8-1018-44F0-A341-E47C5DFAE811}";
+
+                /// <summary>
+                /// The field id of the Logo field
+                /// </summary>
+                public const String Logo = "{4C245976-F742-4291-843F-998DAD47708A}";
+            }
+
+            /// <summary>
+            /// Class to hold all fields of the NavItem template
+            /// </summary>
+            public static class NavItem
+            {
+                public const String LinkName = "{68D478EF-F8B6-44EA-B6F3-1D4D191584CE}";
+
+                public const String LinkAnchor = "{B7A2263F-59A0-4BD5-A94C-508D35155DF5}";
             }
         }
     }

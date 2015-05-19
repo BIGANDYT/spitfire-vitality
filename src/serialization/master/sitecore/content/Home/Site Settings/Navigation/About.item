@@ -1,40 +1,47 @@
 ----item----
 version: 1
-id: {A12D613D-7E9E-4392-A405-36B8A2CE659F}
+id: {1D01C36D-CEF3-4573-AB21-F6AC75136BCF}
 database: master
-path: /sitecore/templates/Core/Components/Logo
-parent: {8DC7BCEE-FBC6-41A2-BF35-371BCA95F8D0}
-name: Logo
+path: /sitecore/content/Home/Site Settings/Navigation/About
+parent: {04E533D1-CA74-48F0-A72D-69D13F83D320}
+name: About
 master: {00000000-0000-0000-0000-000000000000}
-template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
-templatekey: Template
+template: {21FC97B7-6622-4248-AA98-F2DDEBA46895}
+templatekey: NavItem
 
-----field----
-field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
-name: __Base template
-key: __base template
-content-length: 38
-
-{1930BBEB-7805-471A-A3BE-4858AC7CF696}
-----field----
-field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
-name: __Icon
-key: __icon
-content-length: 17
-
-Apps/32x32/sc.png
 ----version----
 language: en
 version: 1
-revision: 096254c4-5b3f-45d9-9f8f-1ac1ca8b59e2
+revision: 9fc02888-cd0d-49c6-af57-62bac654044e
 
+----field----
+field: {68D478EF-F8B6-44EA-B6F3-1D4D191584CE}
+name: Link Name
+key: link name
+content-length: 5
+
+About
+----field----
+field: {B7A2263F-59A0-4BD5-A94C-508D35155DF5}
+name: Link Anchor
+key: link anchor
+content-length: 5
+
+about
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20150515T144014Z
+20150518T145803Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -48,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-096254c4-5b3f-45d9-9f8f-1ac1ca8b59e2
+9fc02888-cd0d-49c6-af57-62bac654044e
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150518T102607:635675415677705914Z
+20150518T151501:635675589015717727Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
