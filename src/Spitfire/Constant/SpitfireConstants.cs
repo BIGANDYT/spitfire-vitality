@@ -159,6 +159,10 @@
                 /// The field id of the Title field.
                 /// </summary>
                 public const String Title = "{8F835316-A8FF-411A-905B-CFC143D7950C}";
+                /// <summary>
+                /// Image teaser tag - category of the projects
+                /// </summary>
+                public const String Tag = "{B933FD9E-7E74-4D6A-950D-A50F12C5BC82}";
             }
 
             /// <summary>
@@ -170,6 +174,10 @@
                 /// The field id of the Source field
                 /// </summary>
                 public const String Source = "{EFEB569B-6957-4572-BA2C-79C98D55DD93}";
+                /// <summary>
+                /// Parameter of display/hide social icons
+                /// </summary>
+                public const String Display = "{D6303669-FBF0-46B9-836A-74AD60DB0913}";
             }
 
             /// <summary>
