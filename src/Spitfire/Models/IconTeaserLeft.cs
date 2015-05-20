@@ -1,17 +1,19 @@
 ﻿namespace Spitfire.Models
 {
-    using System.Collections.Specialized;
     using Sitecore.Mvc.Presentation;
-    using Constant;
+    using System.Collections.Specialized;
+    using Spitfire.Constant;
+
     /// <summary>
-    /// Icon Teaser Model
+    /// Icon Teaser left component
     /// </summary>
-    public class IconTeaserModel :RenderingModel
+    public class IconTeaserLeft : RenderingModel
     {
-         public override void Initialize(Rendering rendering)
-         {
-             base.Initialize(rendering);          
-             NameValueCollection parameters=null;
+        public override void Initialize(Rendering rendering)
+        {
+         base.Initialize(rendering);
+
+            NameValueCollection parameters=null;
             if (!string.IsNullOrEmpty(rendering["Parameters"]))
             {
                 string rawParameters = rendering["Parameters"];
@@ -24,20 +26,18 @@
                  TitleFontSize = parameters["TitleFontSize"];
                  Background = parameters["Background"];
              }
-         }
+        }
         /// <summary>
         /// Get Title color setting
         /// </summary>
-         public string TitleColor { get; private set; }
+        public string TitleColor { get; private set; }
         /// <summary>
         /// Set Title font size
         /// </summary>
-         public string TitleFontSize { get; private set; }
+        public string TitleFontSize { get; private set; }
         /// <summary>
         /// Set background color
         /// </summary>
-         public string Background { get; private set; }
-
+        public string Background { get; private set; }
     }
-
 }
