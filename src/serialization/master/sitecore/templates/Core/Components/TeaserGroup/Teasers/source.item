@@ -2,7 +2,7 @@
 version: 1
 id: {EFEB569B-6957-4572-BA2C-79C98D55DD93}
 database: master
-path: /sitecore/templates/Core/Components/TeaserGroup/Teasers/source
+path: /sitecore/templates/Core/TeaserGroup/Teasers/source
 parent: {B3AA0849-7C17-4F88-87D2-E0DA54BFD11E}
 name: source
 master: {00000000-0000-0000-0000-000000000000}
@@ -20,13 +20,13 @@ Multilist
 field: {1EB8AE32-E190-44A6-968D-ED904C794EBF}
 name: Source
 key: source
-content-length: 35
+content-length: 37
 
-/sitecore/content/Global/OwlTeasers
+/sitecore/content/Global/ImageTeasers
 ----version----
 language: en
 version: 1
-revision: d920f044-1fa0-4591-ad5f-9ec9658a6924
+revision: d6bab57c-28f8-4722-9b77-1b076ca1f777
 
 ----field----
 field: {19A69332-A23E-4E70-8D16-B2640CB24CC8}
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-d920f044-1fa0-4591-ad5f-9ec9658a6924
+d6bab57c-28f8-4722-9b77-1b076ca1f777
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150514T165650:635672194103994458Z
+20150518T132209:635675521299683914Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
