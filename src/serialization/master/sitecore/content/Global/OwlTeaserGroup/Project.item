@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {220B0CD6-25F9-4860-A31D-530F4AE5C01C}
+id: {4135A691-6532-453F-9E91-6DDBC6B5FED7}
 database: master
-path: /sitecore/content/Global/OwlTeaserGroup/DefaultOwl
+path: /sitecore/content/Global/OwlTeaserGroup/Project
 parent: {25E1D91A-5AC2-4901-A7D4-649B3C929AF1}
-name: DefaultOwl
+name: Project
 master: {00000000-0000-0000-0000-000000000000}
 template: {28801410-7FFD-4E61-9135-EDED72DCB247}
 templatekey: TeaserGroup
@@ -12,29 +12,15 @@ templatekey: TeaserGroup
 ----version----
 language: en
 version: 1
-revision: bcde0dab-ba30-43fd-9cbc-ade5b0867969
+revision: 01c8a6fa-4d6d-455c-adca-0b71749741a3
 
-----field----
-field: {D6303669-FBF0-46B9-836A-74AD60DB0913}
-name: Display
-key: display
-content-length: 4
-
-none
 ----field----
 field: {EFEB569B-6957-4572-BA2C-79C98D55DD93}
 name: source
 key: source
-content-length: 155
+content-length: 38
 
-{7F8B439C-7D25-4218-97B6-68F932F3BC28}|{95F95FB8-C0F5-448C-9EE3-0CFA0AD3E99C}|{92129696-BBB9-4E58-AD8A-B592CFC59A8B}|{F34F4EE6-F1C3-4388-934C-EED26F06F60D}
-----field----
-field: {81FD15D3-C004-4F13-83E3-B2C6E3520CF2}
-name: GroupTitle
-key: grouptitle
-content-length: 7
-
-Default
+{0A982124-411B-4CF4-815F-0E35CD96A548}
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -48,7 +34,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20150512T112415Z
+20150518T152445Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -62,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-bcde0dab-ba30-43fd-9cbc-ade5b0867969
+01c8a6fa-4d6d-455c-adca-0b71749741a3
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150518T100328:635675402087338854Z
+20150518T152451:635675594918224632Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -77,10 +63,3 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
-----field----
-field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
-name: __Lock
-key: __lock
-content-length: 5
-
-<r />
