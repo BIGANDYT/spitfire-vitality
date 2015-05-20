@@ -159,6 +159,10 @@
                 /// The field id of the Title field.
                 /// </summary>
                 public const String Title = "{8F835316-A8FF-411A-905B-CFC143D7950C}";
+                /// <summary>
+                /// Image teaser tag - category of the projects
+                /// </summary>
+                public const String Tag = "{B933FD9E-7E74-4D6A-950D-A50F12C5BC82}";
             }
 
             /// <summary>

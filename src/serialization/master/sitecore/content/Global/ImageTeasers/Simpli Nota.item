@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {0A982124-411B-4CF4-815F-0E35CD96A548}
+id: {D4D2DAA5-83C4-48D1-8A63-E36050A19383}
 database: master
-path: /sitecore/content/Global/ImageTeasers/Brands
+path: /sitecore/content/Global/ImageTeasers/Simpli Nota
 parent: {8A66ECAC-BCD3-402F-9FC9-BB2685033C02}
-name: Brands
+name: Simpli Nota
 master: {00000000-0000-0000-0000-000000000000}
 template: {60920BFB-F0BB-4DED-BAAC-AEF1F68FE6E8}
 templatekey: Teaser
@@ -12,57 +12,57 @@ templatekey: Teaser
 ----version----
 language: en
 version: 1
-revision: da3a1932-5dfa-4780-9382-4b3a91b189d9
+revision: abe912f4-155d-44f8-b722-107501bfa03a
 
 ----field----
 field: {8F835316-A8FF-411A-905B-CFC143D7950C}
 name: Title
 key: title
-content-length: 6
+content-length: 11
 
-Brands
+Simpli Nota
 ----field----
 field: {BF25D316-D309-4F57-A05C-F093BE9738AC}
 name: Image
 key: image
 content-length: 58
 
-<image mediaid="{1346C2C6-E393-4E46-BB65-D8000A431A25}" />
+<image mediaid="{038DAAEF-218D-4257-A6E8-1965B1CC9DA9}" />
 ----field----
 field: {E6FCC918-A5B9-445A-9976-BF65B3A2772F}
 name: SubTitle
 key: subtitle
-content-length: 15
+content-length: 14
 
-Web Development
+Brand Identity
 ----field----
 field: {B933FD9E-7E74-4D6A-950D-A50F12C5BC82}
 name: Tag
 key: tag
 content-length: 38
 
-{B99199C5-6D6B-4745-BC59-09087C06D6DB}
+{456DA958-5CC5-4932-89DA-19FF0F203283}
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20150518T140510Z
+20150520T094435Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-da3a1932-5dfa-4780-9382-4b3a91b189d9
+abe912f4-155d-44f8-b722-107501bfa03a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150520T094334:635677118148782384Z
+20150520T094534:635677119343944935Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

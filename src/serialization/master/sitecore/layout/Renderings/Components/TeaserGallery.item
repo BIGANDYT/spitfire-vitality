@@ -44,10 +44,17 @@ key: datasource template
 content-length: 36
 
 /sitecore/templates/Core/TeaserGroup
+----field----
+field: {A2F5D9DF-8CBA-4A1D-99EB-51ACB94CB057}
+name: Page Editor Buttons
+key: page editor buttons
+content-length: 38
+
+{0738B540-A92A-4361-85E9-BE5CA1F0EF59}
 ----version----
 language: en
 version: 1
-revision: f477d5da-e9f8-477f-beea-d149446d0b3b
+revision: a8d9a8bb-e4f3-4c56-9579-7c6ff69d6598
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -62,14 +69,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-f477d5da-e9f8-477f-beea-d149446d0b3b
+a8d9a8bb-e4f3-4c56-9579-7c6ff69d6598
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150518T144117:635675568774343168Z
+20150520T085759:635677090791984572Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
