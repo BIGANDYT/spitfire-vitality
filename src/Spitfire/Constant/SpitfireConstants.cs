@@ -170,6 +170,10 @@
                 /// The field id of the Source field
                 /// </summary>
                 public const String Source = "{EFEB569B-6957-4572-BA2C-79C98D55DD93}";
+                /// <summary>
+                /// Parameter of display/hide social icons
+                /// </summary>
+                public const String Display = "{D6303669-FBF0-46B9-836A-74AD60DB0913}";
             }
 
             /// <summary>
