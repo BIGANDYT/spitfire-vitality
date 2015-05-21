@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {2A849597-D249-4769-B50A-9BF3FFA95E91}
+database: core
+path: /sitecore/content/Applications/WebEdit/Edit Frame Buttons/Spitfire/Edit NavBar
+parent: {2CE823D4-E0EC-4C65-8638-838345216280}
+name: Edit NavBar
+master: {00000000-0000-0000-0000-000000000000}
+template: {1AB4F9AD-B004-413C-8924-3E07143A614B}
+templatekey: Field Editor Button
+
+----field----
+field: {4431914A-C40B-437C-8ADD-D2ED12CC8CC3}
+name: Icon
+key: icon
+content-length: 32
+
+Office/32x32/clipboard_paste.png
+----field----
+field: {CF738220-908D-4C3F-9482-32E625DAF13C}
+name: Fields
+key: fields
+content-length: 12
+
+NavBar Color
+----version----
+language: en
+version: 1
+revision: 9569a11d-5fcb-4b23-961e-bf779cb717d6
+
+----field----
+field: {108D3A63-BAAA-4560-86D8-3A112ED84717}
+name: Header
+key: header
+content-length: 11
+
+Edit NavBar
+----field----
+field: {5F0812AF-D370-4292-AFEE-F26A39B7406D}
+name: Tooltip
+key: tooltip
+content-length: 26
+
+Edit the NavBar properties
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150518T144114Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9569a11d-5fcb-4b23-961e-bf779cb717d6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150519T080642:635676196025199650Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

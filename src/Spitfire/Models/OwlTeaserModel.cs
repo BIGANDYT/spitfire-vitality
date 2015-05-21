@@ -1,38 +1,55 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using Sitecore.Data;
-using Sitecore.Data.Fields;
-using Sitecore.Data.Items;
-using Sitecore.Diagnostics;
-using Sitecore.Mvc.Presentation;
-
-namespace Spitfire.Models
+﻿namespace Spitfire.Models
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using Constant;
+    using Sitecore.Data.Fields;
+    using Sitecore.Data.Items;
+    using Sitecore.Mvc.Presentation;
+
+    /// <summary>
+    /// OwlTeaser component model
+    /// </summary>
     public class OwlTeaserModel :RenderingModel
     {
+        /// <summary>
+        /// return a list of selected items for owlTeaser component
+        /// </summary>
         public IList<Item> OwlTeasers { get; private set; }
+        /// <summary>
+        /// Users can choose to display or hide the social icons with this parameter
+        /// </summary>
+        public String SocialDisplay { get; set; }
+        /// <summary>
+        /// the rendering of the context page
+        /// </summary>
+        /// <param name="rendering"></param>
         public override void Initialize(Rendering rendering)
         {
             base.Initialize(rendering);
-            if (!string.IsNullOrEmpty(this.Item["source"]))
+            if (!string.IsNullOrEmpty(Item[SpitfireConstants.FieldConstants.TeaserGroup.Source]))
             {
-                MultilistField source = this.Item.Fields["source"];
+                MultilistField source = Item.Fields[SpitfireConstants.FieldConstants.TeaserGroup.Source];
 
                 if (source != null)
                 {
                     OwlTeasers = source.GetItems().ToList();
-                    //Iterate over all the selected items by using the property TargetIDs
-                    foreach (var item in source.GetItems())
-                    {
-                        Log.Error("item" + item.Name + item["Title"], this);
-                    }
-                   
                 }
-
             }
-           
-        }
 
+            // Findout dispaly social icons or not; this is droplist field
+           SocialDisplay = Item[SpitfireConstants.FieldConstants.TeaserGroup.Display];
+
+           if (string.IsNullOrEmpty(SocialDisplay) || string.Equals(SocialDisplay, "show", StringComparison.CurrentCultureIgnoreCase))
+            {
+                SocialDisplay = "show";
+            }
+
+            if (string.Equals(SocialDisplay, "none", StringComparison.CurrentCultureIgnoreCase))
+            {
+                SocialDisplay = "none";
+            }
+        }
     }
 }

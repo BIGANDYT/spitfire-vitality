@@ -1,32 +1,18 @@
 ----item----
 version: 1
-id: {8A66ECAC-BCD3-402F-9FC9-BB2685033C02}
+id: {FBB726CA-0D62-4661-B68D-87E7F46DC22F}
 database: master
-path: /sitecore/content/Global/OwlTeaser
-parent: {26C8446D-4AC0-4756-8737-F4B74079F03B}
-name: OwlTeaser
+path: /sitecore/templates/Core/Rendering Parameters/Video Parameters/Data
+parent: {1FA1F3A2-80E2-4C83-9AF0-B392FD76317E}
+name: Data
 master: {00000000-0000-0000-0000-000000000000}
-template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
-templatekey: Folder
+template: {E269FBB5-3750-427A-9149-7AA950B49301}
+templatekey: Template section
 
-----field----
-field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
-name: __Icon
-key: __icon
-content-length: 23
-
-apps/32x32/umbrella.png
-----field----
-field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
-name: __Masters
-key: __masters
-content-length: 77
-
-{A87A00B1-E6DB-45AB-8B54-636FEC3B5523}|{60920BFB-F0BB-4DED-BAAC-AEF1F68FE6E8}
 ----version----
 language: en
 version: 1
-revision: c8f06cb1-a85d-40e2-929b-c3b52df2acd7
+revision: 2041f4b3-2570-4ea7-90ce-2b15a0c334ef
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,7 +20,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20150512T110917Z
+20150518T084631Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -48,14 +34,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c8f06cb1-a85d-40e2-929b-c3b52df2acd7
+2041f4b3-2570-4ea7-90ce-2b15a0c334ef
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150512T111604:635670261646080345Z
+20150518T084648:635675356087960024Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

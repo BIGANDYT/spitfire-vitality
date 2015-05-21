@@ -2,7 +2,7 @@
 
 @if (Model.Item != null)
 {
-    <video controls muted autoplay="" loop="" poster="" class="img img-responsive">
+    <video controls muted="@Model.Mute" autoplay="@Model.Autoplay" loop="@Model.Loop" poster="" class="img img-responsive">
         <source src="@Model.VideoPath" type="@Model.VideoType">
     </video>
 }

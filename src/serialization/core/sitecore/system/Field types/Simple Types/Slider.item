@@ -23,13 +23,6 @@ key: __icon
 content-length: 28
 
 Control/32x32/trackbar_b.png
-----field----
-field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
-name: __Sortorder
-key: __sortorder
-content-length: 0
-
-
 ----version----
 language: da
 version: 1
