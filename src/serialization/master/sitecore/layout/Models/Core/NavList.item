@@ -13,13 +13,13 @@ templatekey: Model
 field: {EE9E23D2-181D-4172-A929-0E0B8D10313C}
 name: Model Type
 key: model type
-content-length: 32
+content-length: 48
 
-Spitfire.Models.NavList,Spitfire
+Spitfire.Library.Models.NavList,Spitfire.Library
 ----version----
 language: en
 version: 1
-revision: 773c42e7-7fa0-4318-98b7-e4d22c82d7f0
+revision: ed926ab0-f21b-4350-a406-1dbbe648ad56
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-773c42e7-7fa0-4318-98b7-e4d22c82d7f0
+ed926ab0-f21b-4350-a406-1dbbe648ad56
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150509T202545:635667999455543612Z
+20150521T124444:635678090846319455Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
