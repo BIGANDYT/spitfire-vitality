@@ -13,13 +13,13 @@ templatekey: Model
 field: {EE9E23D2-181D-4172-A929-0E0B8D10313C}
 name: Model Type
 key: model type
-content-length: 44
+content-length: 56
 
-Spitfire.Models.IconTeaserLeft, Spitfire.dll
+Spitfire.Library.Models.IconTeaserLeft, Spitfire.Library
 ----version----
 language: en
 version: 1
-revision: c66c6e0f-803a-43d3-a2ce-22daa3255b48
+revision: 119ffbdd-d829-4a1f-9850-56425a6a63a2
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c66c6e0f-803a-43d3-a2ce-22daa3255b48
+119ffbdd-d829-4a1f-9850-56425a6a63a2
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150518T102015:635675412152267202Z
+20150521T124424:635678090640428765Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
