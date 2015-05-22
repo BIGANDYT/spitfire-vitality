@@ -12,7 +12,7 @@ templatekey: Teaser
 ----version----
 language: en
 version: 1
-revision: ab8adf77-c070-4815-a698-4a4321840e8a
+revision: abe87f97-0d25-4886-9d58-4d66b5022a35
 
 ----field----
 field: {8F835316-A8FF-411A-905B-CFC143D7950C}
@@ -39,9 +39,9 @@ content-length: 352
 field: {E6FCC918-A5B9-445A-9976-BF65B3A2772F}
 name: SubTitle
 key: subtitle
-content-length: 3
+content-length: 2
 
-$25
+25
 ----field----
 field: {A35BEA66-44B1-446A-A35C-C56362E3382D}
 name: Button
@@ -62,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ab8adf77-c070-4815-a698-4a4321840e8a
+abe87f97-0d25-4886-9d58-4d66b5022a35
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150520T104723:635677156437421672Z
+20150522T152045:635679048450530883Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
