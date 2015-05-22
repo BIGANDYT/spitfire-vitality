@@ -20,9 +20,9 @@ content-length: 36
 field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
 name: Model
 key: model
-content-length: 39
+content-length: 40
 
-/sitecore/layout/Models/Core/StyleModel
+/sitecore/layout/Models/Core/PromoTeaser
 ----field----
 field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
 name: Parameters Template
@@ -40,7 +40,7 @@ content-length: 1
 ----version----
 language: en
 version: 1
-revision: fcd6ff44-34ca-4872-bcfe-d14d3ca96ef8
+revision: a4897c29-89d7-4f95-a84d-2562b05114e5
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-fcd6ff44-34ca-4872-bcfe-d14d3ca96ef8
+a4897c29-89d7-4f95-a84d-2562b05114e5
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150509T202555:635667999556910985Z
+20150522T150931:635679041717611645Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

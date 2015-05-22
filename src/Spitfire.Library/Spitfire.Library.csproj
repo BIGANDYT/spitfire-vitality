@@ -96,6 +96,7 @@
     <Compile Include="Models\NavBarModel.cs" />
     <Compile Include="Models\NavList.cs" />
     <Compile Include="Models\OwlTeaserModel.cs" />
+    <Compile Include="Models\PromoTeaser.cs" />
     <Compile Include="Models\RowModel.cs" />
     <Compile Include="Models\SectionModel.cs" />
     <Compile Include="Models\StyleModel.cs" />
