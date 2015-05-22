@@ -1,18 +1,25 @@
 ----item----
 version: 1
-id: {456DA958-5CC5-4932-89DA-19FF0F203283}
+id: {E2EAF28A-AC88-454A-8BFF-2B2790FFFF5E}
 database: master
-path: /sitecore/content/Global/Tags/Category/IDENTITY
-parent: {E2EAF28A-AC88-454A-8BFF-2B2790FFFF5E}
-name: IDENTITY
+path: /sitecore/content/Global/Tags/Category
+parent: {2CE37EA4-F3A8-4EAE-9EDA-413B67DABA60}
+name: Category
 master: {00000000-0000-0000-0000-000000000000}
-template: {A1E9A1FE-E1D0-45A6-BEC5-7954E1F56FAA}
-templatekey: SelectOption
+template: {76E517CE-D593-4EF7-BB9B-E52EB4E230C8}
+templatekey: SelectOptionFolder
 
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{A1E9A1FE-E1D0-45A6-BEC5-7954E1F56FAA}
 ----version----
 language: en
 version: 1
-revision: 7463bd64-3096-4bf1-ad3f-a54d989e8726
+revision: 7ef3c4fb-102e-4e79-bbeb-854152928a5a
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -27,7 +34,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20150518T131353Z
+20150518T130835Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -41,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-7463bd64-3096-4bf1-ad3f-a54d989e8726
+7ef3c4fb-102e-4e79-bbeb-854152928a5a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150518T131353:635675516330754927Z
+20150518T130858:635675513383795401Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

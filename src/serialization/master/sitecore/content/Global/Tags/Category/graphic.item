@@ -2,9 +2,9 @@
 version: 1
 id: {99031711-0C11-4B35-9B35-203CB52F154F}
 database: master
-path: /sitecore/content/Global/Tags/Category/graphic
+path: /sitecore/content/Global/Tags/Category/GRAPHIC
 parent: {E2EAF28A-AC88-454A-8BFF-2B2790FFFF5E}
-name: graphic
+name: GRAPHIC
 master: {00000000-0000-0000-0000-000000000000}
 template: {A1E9A1FE-E1D0-45A6-BEC5-7954E1F56FAA}
 templatekey: SelectOption
@@ -12,7 +12,7 @@ templatekey: SelectOption
 ----version----
 language: en
 version: 1
-revision: c30e9360-1137-484f-83ec-c560d07045af
+revision: ae99026d-caf6-4632-989f-e92c95f9c634
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -41,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c30e9360-1137-484f-83ec-c560d07045af
+ae99026d-caf6-4632-989f-e92c95f9c634
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150520T093223:635677111438054625Z
+20150518T131412:635675516527626652Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
