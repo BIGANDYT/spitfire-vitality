@@ -12,7 +12,7 @@ templatekey: Teaser
 ----version----
 language: en
 version: 1
-revision: abe87f97-0d25-4886-9d58-4d66b5022a35
+revision: 57e56c3f-09ef-4742-a2f1-8e966cfb7e3b
 
 ----field----
 field: {8F835316-A8FF-411A-905B-CFC143D7950C}
@@ -46,9 +46,9 @@ content-length: 2
 field: {A35BEA66-44B1-446A-A35C-C56362E3382D}
 name: Button
 key: button
-content-length: 7
+content-length: 164
 
-SIGN UP
+<link text="SIGN UP" linktype="internal" class="btn btn-outline-dark" title="" target='Active Browser' querystring="" id="{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}" />
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -62,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-abe87f97-0d25-4886-9d58-4d66b5022a35
+57e56c3f-09ef-4742-a2f1-8e966cfb7e3b
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150522T152045:635679048450530883Z
+20150522T155045:635679066456587222Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
