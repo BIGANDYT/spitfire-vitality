@@ -2,7 +2,11 @@
 call vars.cmd
 
 :: Copy SIM + installation packages to c:\SpitfireInstaller
-:: robocopy %InstallerPathRemote% %InstallerPath% /mir /Z /nfl /ndl
+chmod 600 tools\sitecoreci.key
+tools\rsync -rtvn -e 'ssh -p 65422 -i tools/sitecoreci.key' spitfireinstaller@sitecoreci.cloudapp.net:/cygdrive/c/spitfireinstaller/ /cygdrive/c/spitfireinstaller/
+
+pause
+exit /B 1
 
 IF /I NOT "%CD%" EQU "%SourceDirectory%\build" (
 	echo This repository should be checked out to %SourceDirectory% - CD is %CD%
