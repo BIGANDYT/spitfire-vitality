@@ -1,8 +1,7 @@
-﻿using System.Web;
-using System.Web.Optimization;
-
-namespace Spitfire
+﻿namespace Spitfire
 {
+    using System.Web.Optimization;
+
     public class BundleConfig
     {
 
