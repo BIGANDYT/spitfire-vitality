@@ -13,13 +13,13 @@ templatekey: Model
 field: {EE9E23D2-181D-4172-A929-0E0B8D10313C}
 name: Model Type
 key: model type
-content-length: 36
+content-length: 52
 
-Spitfire.Models.VideoModel, Spitfire
+Spitfire.Library.Models.VideoModel, Spitfire.Library
 ----version----
 language: en
 version: 1
-revision: d836793f-9d2e-47db-991c-7ba92cef8a30
+revision: ba8ed935-329a-4eee-82df-56a7e7952360
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-d836793f-9d2e-47db-991c-7ba92cef8a30
+ba8ed935-329a-4eee-82df-56a7e7952360
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150509T202542:635667999426270312Z
+20150521T124519:635678091196521391Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
