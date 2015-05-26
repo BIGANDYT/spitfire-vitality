@@ -5,7 +5,7 @@ SET InstallerPathRemote=t:\temp\smg\SpitfireInstaller
 SET InstallerPath=c:\SpitfireInstaller
 SET InstanceDirectory=c:\websites
 SET DevDirectory=c:\websites\_dev
-SET DbConnectionString=Data Source=.;User ID=sa;Password=10Philpot
+SET DbConnectionString=Data Source=.\SQLEXPRESS;User ID=sa;Password=10Philpot
 SET SourceDirectory=%DevDirectory%\%BaseSite%source
 SET BuildDirectory=%SourceDirectory%\build
 SET msbuild="C:\Program Files (x86)\MSBuild\12.0\Bin\msbuild.exe"
