@@ -12,7 +12,7 @@ templatekey: Footer
 ----version----
 language: en
 version: 1
-revision: b17858df-d26f-4bef-8119-31349c415e6d
+revision: 1b00757c-e7e5-4cca-995a-9a3bcb3d7d89
 
 ----field----
 field: {4A68E70A-5A57-412E-8B32-68D1D6557C32}
@@ -35,6 +35,63 @@ key: title1info
 content-length: 12
 
 555-213-4567
+----field----
+field: {19536E2B-5744-4655-A6E0-65EE0D54092E}
+name: Title1Icon
+key: title1icon
+content-length: 209
+
+<image mediapath="/Images/Icons/telephone" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Images/Icons/telephone" mediaid="{6B1CD30C-D875-45FC-971C-D802D0B9BA54}" />
+----field----
+field: {E2621FD4-774C-4E51-BAE0-A0643D31E5B9}
+name: Title2
+key: title2
+content-length: 5
+
+VISIT
+----field----
+field: {B67862D5-0056-461D-B6A8-9CE983E79596}
+name: Title2Info
+key: title2info
+content-length: 47
+
+3481 Melrose Place <br>
+Beverly Hills, CA 90210
+----field----
+field: {73F36C29-9858-4FA2-A5D2-589AD433CA7E}
+name: Title2Icon
+key: title2icon
+content-length: 225
+
+<image mediapath="/Images/Icons/point_marker_icon" src="~/media/Images/Icons/point_marker_icon" height="" mediaid="{64FE06BE-7BFA-4803-883C-932BEF1920B2}" hspace="" usethumbnail="" showineditor="" width="" alt="" vspace="" />
+----field----
+field: {6640065E-8D9E-4616-9142-C9DA0EA148B8}
+name: Title3
+key: title3
+content-length: 5
+
+EMAIL
+----field----
+field: {6D74C6EB-693F-4FD4-A416-AE5A06BC7AD4}
+name: Title3Info
+key: title3info
+content-length: 16
+
+example@mail.com
+----field----
+field: {C53B54CE-D93C-4902-B609-0A2A345C7CE7}
+name: Title3Icon
+key: title3icon
+content-length: 211
+
+<image mediapath="/Images/Icons/Email-icon" src="~/media/Images/Icons/Email-icon" height="" mediaid="{5E6C90E7-F4E3-4252-9249-D3B9AF6B3CEF}" hspace="" usethumbnail="" vspace="" width="" alt="" showineditor="" />
+----field----
+field: {52AD4F05-0180-4F45-B019-59FCEBBE94E5}
+name: CopyRight
+key: copyright
+content-length: 29
+
+© 2015 Start Bootstrap Themes
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -62,14 +119,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b17858df-d26f-4bef-8119-31349c415e6d
+1b00757c-e7e5-4cca-995a-9a3bcb3d7d89
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150526T111354:635682356348793948Z
+20150526T142114:635682468747674164Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -77,3 +134,10 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 0
+
+

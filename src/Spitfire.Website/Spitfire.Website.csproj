@@ -750,6 +750,7 @@
     <Content Include="Views\Components\ImageLeftTextRight.cshtml" />
     <Content Include="Views\Components\ImageRightTextLeft.cshtml" />
     <Content Include="Views\Components\Video.cshtml" />
+    <Content Include="Views\Components\SocialIcons.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
