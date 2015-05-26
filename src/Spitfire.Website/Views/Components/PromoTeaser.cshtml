@@ -5,7 +5,7 @@
 {
     <h3 style="color:@Model.TitleColor;font-size: @Model.TitleFontSize">@Html.Sitecore().Field("Title", Model.Item)</h3>
     <hr class="colored">
-    <div class="price"><span class="number"><sup>$</sup>@Html.Sitecore().Field("SubTitle", Model.Item)</span> / month
+    <div class="price"><span class="number"><sup>@Html.Sitecore().Field("Symbol", Model.Item)</sup>@Html.Sitecore().Field("Amount", Model.Item)</span> / @Html.Sitecore().Field("Period",Model.Item)
     </div>
     @Html.Sitecore().Field("Details",Model.Item);
    

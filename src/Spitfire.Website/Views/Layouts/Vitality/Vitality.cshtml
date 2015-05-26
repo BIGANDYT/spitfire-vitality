@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using Sitecore.Data
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -31,7 +32,8 @@
 <body id="page-top">
     @Html.Sitecore().Rendering("{D0214150-D6A3-428B-A9DD-5183D6245CDC}")
     @Html.Sitecore().Placeholder("content")
-    @Html.Partial("~/Views/Layouts/Vitality/Footer.cshtml")
+    <!--Rendering footer-->
+    @Html.Sitecore().Rendering("{A857A65A-6526-4613-8E66-E1FC22FCCCD5}", new { DataSource = "{7D421B5F-3EBF-4C88-AC17-D1F49DE75D9E}" })
     <!-- Core Scripts -->
     @Scripts.Render("~/bundles/jquery")
     <script>

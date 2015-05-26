@@ -90,6 +90,7 @@
     <Compile Include="Models\AsideModel.cs" />
     <Compile Include="Models\BannerModel.cs" />
     <Compile Include="Models\ColModel.cs" />
+    <Compile Include="Models\FooterModel.cs" />
     <Compile Include="Models\IconTeaserLeft.cs" />
     <Compile Include="Models\IconTeaserModel.cs" />
     <Compile Include="Models\NavBarModel.cs" />

@@ -205,6 +205,13 @@
 
                 public const String LinkAnchor = "{B7A2263F-59A0-4BD5-A94C-508D35155DF5}";
             }
+            /// <summary>
+            /// Class to hold fields of the footer component
+            /// </summary>
+            public static class Footer
+            {
+                public const String BackgroundImage = "{4A68E70A-5A57-412E-8B32-68D1D6557C32}";
+            }
         }
     }
 }
