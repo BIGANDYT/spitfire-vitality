@@ -1,4 +1,4 @@
-@echo off
+@echo on
 cd /d %0\..
 
 call vars.cmd
