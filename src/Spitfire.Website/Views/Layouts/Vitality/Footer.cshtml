@@ -1,4 +1,6 @@
-﻿<footer class="footer" style="background-image: url('Content/img/vitality/bg-footer.jpg')">
+﻿@model Spitfire.Library.Models.FooterModel
+
+<footer class="footer" style="background-image: url('@Model.BackgroundImageUrl')">
     <div class="container text-center">
         <div class="row">
             <div class="col-md-4 contact-details">
@@ -6,7 +8,9 @@
                 <p>555-213-4567</p>
             </div>
             <div class="col-md-4 contact-details">
-                <h4><i class="fa fa-map-marker"></i> Visit</h4>
+                <h4><i class="fa fa-map-marker"></i>
+                @Html.Sitecore().Field("Title2Icon", Model.Item)
+                </h4>
                 <p>
                     3481 Melrose Place
                     <br>Beverly Hills, CA 90210
