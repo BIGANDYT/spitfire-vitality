@@ -12,7 +12,7 @@ templatekey: Footer
 ----version----
 language: en
 version: 1
-revision: 1b00757c-e7e5-4cca-995a-9a3bcb3d7d89
+revision: 8a83b7cd-386a-473f-8134-78b76c875224
 
 ----field----
 field: {4A68E70A-5A57-412E-8B32-68D1D6557C32}
@@ -93,6 +93,13 @@ content-length: 29
 
 © 2015 Start Bootstrap Themes
 ----field----
+field: {61F44A61-2D07-4E92-B38C-FFB94190B745}
+name: FooterHeight
+key: footerheight
+content-length: 0
+
+
+----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
 key: __owner
@@ -119,14 +126,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1b00757c-e7e5-4cca-995a-9a3bcb3d7d89
+8a83b7cd-386a-473f-8134-78b76c875224
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150526T142114:635682468747674164Z
+20150526T151729:635682502496969375Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -138,6 +145,6 @@ sitecore\admin
 field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
 name: __Lock
 key: __lock
-content-length: 0
+content-length: 5
 
-
+<r />
