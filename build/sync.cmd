@@ -12,6 +12,7 @@ echo Deploying Unicorn items
 
 tools\curl -H "Authenticate: 0af795cd-123e-40d7-9ee4-90dda0665a7c" "http://%sitename%/unicorn.aspx?verb=Sync&configuration=Default+Configuration"
 
-:: TODO: Do a publish
+:: Publish
+tools\curl -X POST --data '' "http://%sitename%/sitecore_ship/publish/smart"
 
 :End1
