@@ -2,7 +2,6 @@
 {
     using System.Collections.Specialized;
     using Sitecore.Mvc.Presentation;
-    using Spitfire.Library.Constants;
 
     /// <summary>
     /// Icon Teaser Model

@@ -12,7 +12,7 @@ templatekey: Teaser
 ----version----
 language: en
 version: 1
-revision: 8ba305aa-3515-4a05-b27e-3837a556cf4e
+revision: 83e434e6-f176-411d-ab3b-93949d4c889b
 
 ----field----
 field: {8F835316-A8FF-411A-905B-CFC143D7950C}
@@ -25,9 +25,9 @@ Generic inc
 field: {BF25D316-D309-4F57-A05C-F093BE9738AC}
 name: Image
 key: image
-content-length: 58
+content-length: 65
 
-<image mediaid="{BD5142C4-5C6D-4595-91AC-8D1B143693DD}" />
+<image mediaid="{BD5142C4-5C6D-4595-91AC-8D1B143693DD}" ></image>
 ----field----
 field: {E6FCC918-A5B9-445A-9976-BF65B3A2772F}
 name: SubTitle
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8ba305aa-3515-4a05-b27e-3837a556cf4e
+83e434e6-f176-411d-ab3b-93949d4c889b
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150520T100354:635677130342765883Z
+20150522T151057:635679042571828237Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -70,3 +70,10 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
