@@ -6,8 +6,8 @@ path: /sitecore/content/Home
 parent: {0DE95AE4-41AB-4D01-9EB0-67441B7C2450}
 name: Home
 master: {00000000-0000-0000-0000-000000000000}
-template: {76036F5E-CBCE-46D1-AF0A-4143F9B557AA}
-templatekey: Sample Item
+template: {243AABE5-A050-42D0-A02B-570E30E1E0BC}
+templatekey: Homepage
 
 ----field----
 field: {B0A67B2A-8B07-4E0B-8809-69F751709806}
@@ -155,19 +155,12 @@ version: 1
 revision: a92fa8b5-79bc-42de-acf1-0c4aae2576ad
 
 ----field----
-field: {75577384-3C97-45DA-A847-81B00500E250}
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
 name: Title
 key: title
 content-length: 8
 
 Sitecore
-----field----
-field: {A60ACD61-A6DB-4182-8329-C957982CEC74}
-name: Text
-key: text
-content-length: 29
-
-<p>Velkommen til Sitecore</p>
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
@@ -237,20 +230,12 @@ version: 1
 revision: 8cbf5a1a-4938-4849-b70e-78375054bbab
 
 ----field----
-field: {75577384-3C97-45DA-A847-81B00500E250}
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
 name: Title
 key: title
 content-length: 29
 
 Sitecore Experience Plattform
-----field----
-field: {A60ACD61-A6DB-4182-8329-C957982CEC74}
-name: Text
-key: text
-content-length: 806
-
-<p style="line-height: 22px;">Dank einer einzelnen verbundenen Plattform, die auch mit anderen kundennahmen Plattformen verbunden ist, über eine einzelne Ansich des Kunden im Big Data Marketing Repository und einer  Eleminierung der Komplexität, die Marketer ehemals zurückgehalten hat, macht die neuste Version von Sitecore Kundenzufriedenheit absolut erreichbar. Lernen sie, wie die neuste Version von Sitecore Marketern vollständige Daten, integrierte Tools und Automatisierungsfähigkeiten zur Kundenbindung in einem interaktiven Zyklus liefert; die Technologie ist überaus wichtig zur nachhaltigen Kundengewinnung.  </p>
-<p>Für weitere Informationen begeben Sie sich bitte zur <a href="https://doc.sitecore.net/" target="_blank" title="Sitecore-Dokumentationsseite">Sitecore Documentation site</a></p>
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
@@ -317,23 +302,15 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: 8e09b6cf-35d0-4367-bd17-a2a71f1d2294
+revision: c66e6a11-8b1a-41ec-8ad5-f2cfef01ea5b
 
 ----field----
-field: {75577384-3C97-45DA-A847-81B00500E250}
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
 name: Title
 key: title
 content-length: 8
 
 Spitfire
-----field----
-field: {A60ACD61-A6DB-4182-8329-C957982CEC74}
-name: Text
-key: text
-content-length: 789
-
-<p style="line-height: 22px;">From a single connected platform that also integrates with other customer-facing platforms, to a single view of the customer in a big data marketing repository, to a completely eliminating much of the complexity that has previously held marketers back, the latest version of Sitecore makes customer experience highly achievable. Learn how the latest version of Sitecore gives marketers the complete data, integrated tools, and automation capabilities to engage customers throughout an iterative lifecycle &ndash; the technology foundation absolutely necessary to win customers for life.</p>
-<p>For further information, please go to the <a href="https://doc.sitecore.net/" target="_blank" title="Sitecore Documentation site">Sitecore Documentation site</a></p>
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
@@ -403,14 +380,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8e09b6cf-35d0-4367-bd17-a2a71f1d2294
+c66e6a11-8b1a-41ec-8ad5-f2cfef01ea5b
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150522T155324:635679068042915797Z
+20150526T124838:635682413187544550Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -431,21 +408,12 @@ version: 1
 revision: e36a3fdd-78ea-4ce2-b504-b76804b06584
 
 ----field----
-field: {75577384-3C97-45DA-A847-81B00500E250}
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
 name: Title
 key: title
 content-length: 28
 
 サイトコア エクスペリエンス プラットフォームへようこそ
-----field----
-field: {A60ACD61-A6DB-4182-8329-C957982CEC74}
-name: Text
-key: text
-content-length: 482
-
-<p>このたびはサイトコア製品をご利用いただき誠にありがとうございます。</p>
-<p style="line-height: 22px;">最新バージョンのサイトコア エクスペリエンス プラットフォームでは、お客様に関連する膨大な保存されたデータを容易に分析する機能など、マーケティングに関連する複雑な操作の解消とさまざまな機能向上により、さらに高度なカスタマー エクスペリエンスの実現が可能となりました。サイトコアにより提供される統合ツール、オートメーションやデータを使用して、コンテンツ ライフサイクルによるお客様との関係構築方法をご習得ご活用ください。</br>価値の高いお客様を獲得するためにはテクノロジーの活用が必要不可欠です。</p>
-<p>サイトコア製品をより活用するために <a href="https://doc.sitecore.net/" target="_blank" title="Sitecore Documentation site">Sitecore Documentation サイト</a>もあわせてご覧ください。</p>
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
