@@ -2,7 +2,7 @@
 version: 1
 id: {167ABA77-5172-42AF-9F9E-00299113839E}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/BaseTemplates/Content/Seo/Seo/SeoCustomMetaData
+path: /sitecore/templates/Core/Base/Seo/Seo/SeoCustomMetaData
 parent: {C6691406-A764-409A-8E4C-FFEBF2BAB41D}
 name: SeoCustomMetaData
 master: {00000000-0000-0000-0000-000000000000}

@@ -2,7 +2,7 @@
 version: 1
 id: {AEFF5C09-3409-4A02-9C02-7E8A88CEBF56}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/BaseTemplates/Content/ImageGallery/Content
+path: /sitecore/templates/Core/Base/ImageGallery/Content
 parent: {CD41BEA5-1054-4860-893D-0F6CAA643800}
 name: Content
 master: {00000000-0000-0000-0000-000000000000}

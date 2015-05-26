@@ -2,7 +2,7 @@
 version: 1
 id: {632615E6-CF12-4BDE-980E-357F9B536FEC}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/DataTemplates/TranslationRichText/Translation
+path: /sitecore/templates/Core/Data/TranslationRichText/Translation
 parent: {39B6F6C1-E197-436C-93A7-AF97DA085B78}
 name: Translation
 master: {00000000-0000-0000-0000-000000000000}

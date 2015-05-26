@@ -2,7 +2,7 @@
 version: 1
 id: {F792E657-025A-40F0-950A-0B3F2CB1850D}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/DataTemplates/Settings/Design/Images
+path: /sitecore/templates/Core/Data/Settings/Design/Images
 parent: {B481D49F-98E5-4C24-BAB9-BB302A4D0695}
 name: Images
 master: {00000000-0000-0000-0000-000000000000}

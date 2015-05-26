@@ -2,7 +2,7 @@
 version: 1
 id: {683D7237-206A-488F-9DEE-4A4E41FB161D}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/BaseTemplates/Content/Seo/Seo/SeoCanIndex
+path: /sitecore/templates/Core/Base/Seo/Seo/SeoCanIndex
 parent: {C6691406-A764-409A-8E4C-FFEBF2BAB41D}
 name: SeoCanIndex
 master: {00000000-0000-0000-0000-000000000000}

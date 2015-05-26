@@ -2,7 +2,7 @@
 version: 1
 id: {63230FB0-25EA-45C7-82A4-C37698960A69}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/DataTemplates/Email/EmailContact/Email Contact/JobTitle
+path: /sitecore/templates/Core/Data/Email/EmailContact/Email Contact/JobTitle
 parent: {D8861C05-31CC-4FD8-BA2E-DF38B2232979}
 name: JobTitle
 master: {00000000-0000-0000-0000-000000000000}

@@ -2,7 +2,7 @@
 version: 1
 id: {500045D1-7C58-47A1-BF74-3CFE5FA7E287}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/BaseTemplates/Maps/MapCoords/Maps/MapCoords
+path: /sitecore/templates/Core/Base/MapCoords/Maps/MapCoords
 parent: {B7E90905-0691-44FF-96C1-EEF5E7A34A97}
 name: MapCoords
 master: {00000000-0000-0000-0000-000000000000}

@@ -2,7 +2,7 @@
 version: 1
 id: {AC3FD4DB-8266-476D-9635-67814D91E901}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/BaseTemplates/Content/Summary/Content/Summary
+path: /sitecore/templates/Core/Base/Summary/Content/Summary
 parent: {A3A4A989-7D09-466E-92E3-81D599A74472}
 name: Summary
 master: {00000000-0000-0000-0000-000000000000}

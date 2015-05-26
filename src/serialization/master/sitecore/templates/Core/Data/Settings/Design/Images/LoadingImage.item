@@ -2,7 +2,7 @@
 version: 1
 id: {5CC45328-9F28-468F-B5FA-2A0E44484F22}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/DataTemplates/Settings/Design/Images/LoadingImage
+path: /sitecore/templates/Core/Data/Settings/Design/Images/LoadingImage
 parent: {F792E657-025A-40F0-950A-0B3F2CB1850D}
 name: LoadingImage
 master: {00000000-0000-0000-0000-000000000000}

@@ -2,7 +2,7 @@
 version: 1
 id: {ABB6594A-1750-4ED1-A47A-41851ED046DE}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/BaseTemplates/Content/Seo/Seo/SeoMetaKeywords
+path: /sitecore/templates/Core/Base/Seo/Seo/SeoMetaKeywords
 parent: {C6691406-A764-409A-8E4C-FFEBF2BAB41D}
 name: SeoMetaKeywords
 master: {00000000-0000-0000-0000-000000000000}

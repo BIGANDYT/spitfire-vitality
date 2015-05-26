@@ -2,7 +2,7 @@
 version: 1
 id: {EEBCA62C-C046-4360-8477-D588ACE4CC42}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/DataTemplates/GeneralTeaser/Override fields/Title
+path: /sitecore/templates/Core/Data/GeneralTeaser/Override fields/Title
 parent: {180E27A6-8A90-4018-8D34-26890FA5746C}
 name: Title
 master: {00000000-0000-0000-0000-000000000000}

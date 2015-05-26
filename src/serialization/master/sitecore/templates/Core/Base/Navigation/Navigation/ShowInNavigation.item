@@ -2,7 +2,7 @@
 version: 1
 id: {5585A30D-B115-4753-93CE-422C3455DEB2}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/BaseTemplates/Content/Navigation/Navigation/ShowInNavigation
+path: /sitecore/templates/Core/Base/Navigation/Navigation/ShowInNavigation
 parent: {305E411C-4A73-4406-8F35-9BE2A87A2805}
 name: ShowInNavigation
 master: {00000000-0000-0000-0000-000000000000}

@@ -2,7 +2,7 @@
 version: 1
 id: {B73B4D28-4376-4317-8949-7F7EF3C3B52B}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/DataTemplates/Settings/Design/Footer/FooterCopyright
+path: /sitecore/templates/Core/Data/Settings/Design/Footer/FooterCopyright
 parent: {F494888D-F8AB-41C4-8D50-2BF5DB6B7492}
 name: FooterCopyright
 master: {00000000-0000-0000-0000-000000000000}

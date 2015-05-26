@@ -2,7 +2,7 @@
 version: 1
 id: {DA0CF6D8-010F-4EA5-8583-9DE4D5B0CC08}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/DataTemplates/Settings/Google/Google Maps/MapsZoomLevel
+path: /sitecore/templates/Core/Data/Settings/Google/Google Maps/MapsZoomLevel
 parent: {24C2BB4B-9BB3-4344-957C-AB223ED0B0EF}
 name: MapsZoomLevel
 master: {00000000-0000-0000-0000-000000000000}

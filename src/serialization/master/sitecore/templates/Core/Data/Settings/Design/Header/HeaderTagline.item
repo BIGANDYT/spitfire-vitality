@@ -2,7 +2,7 @@
 version: 1
 id: {C293DC4D-B157-4A05-B18A-9ADA331FBF5F}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/DataTemplates/Settings/Design/Header/HeaderTagline
+path: /sitecore/templates/Core/Data/Settings/Design/Header/HeaderTagline
 parent: {60CE4EFA-94FA-40A1-B3F3-CEC1F6D6B3CF}
 name: HeaderTagline
 master: {00000000-0000-0000-0000-000000000000}

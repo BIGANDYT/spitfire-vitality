@@ -2,7 +2,7 @@
 version: 1
 id: {33C8B9FF-0A8E-4A91-BC62-C826D08208BD}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/DataTemplates/Settings/Design/Images/NoImage
+path: /sitecore/templates/Core/Data/Settings/Design/Images/NoImage
 parent: {F792E657-025A-40F0-950A-0B3F2CB1850D}
 name: NoImage
 master: {00000000-0000-0000-0000-000000000000}

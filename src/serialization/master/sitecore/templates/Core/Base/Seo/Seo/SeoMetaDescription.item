@@ -2,7 +2,7 @@
 version: 1
 id: {BB7A38C0-323C-4F81-8EB9-288ABF7C4638}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/BaseTemplates/Content/Seo/Seo/SeoMetaDescription
+path: /sitecore/templates/Core/Base/Seo/Seo/SeoMetaDescription
 parent: {C6691406-A764-409A-8E4C-FFEBF2BAB41D}
 name: SeoMetaDescription
 master: {00000000-0000-0000-0000-000000000000}

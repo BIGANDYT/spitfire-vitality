@@ -2,7 +2,7 @@
 version: 1
 id: {570A9C1E-1791-4496-9A15-B21BEAF97B0A}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/BaseTemplates/Content/Coding/Coding
+path: /sitecore/templates/Core/Base/Coding/Coding
 parent: {91962B60-25F6-428F-8D10-02AA1E49D6A5}
 name: Coding
 master: {00000000-0000-0000-0000-000000000000}

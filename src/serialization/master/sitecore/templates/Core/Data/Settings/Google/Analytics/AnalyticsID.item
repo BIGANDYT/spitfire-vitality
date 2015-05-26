@@ -2,7 +2,7 @@
 version: 1
 id: {C84098AE-395A-4470-81FE-FF64FDEBB9A6}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/DataTemplates/Settings/Google/Analytics/AnalyticsID
+path: /sitecore/templates/Core/Data/Settings/Google/Analytics/AnalyticsID
 parent: {6A5FE7EB-4460-4FE5-A1C8-4BF0A68846FF}
 name: AnalyticsID
 master: {00000000-0000-0000-0000-000000000000}

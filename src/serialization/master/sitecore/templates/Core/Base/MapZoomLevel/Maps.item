@@ -2,7 +2,7 @@
 version: 1
 id: {AC312A51-BAA6-4F57-924A-6BAC68D284DD}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/BaseTemplates/Maps/MapZoomLevel/Maps
+path: /sitecore/templates/Core/Base/MapZoomLevel/Maps
 parent: {2DBB2B7E-B47D-4D46-99E6-C07870D400C3}
 name: Maps
 master: {00000000-0000-0000-0000-000000000000}

@@ -2,7 +2,7 @@
 version: 1
 id: {988BB02F-969D-45C7-9F95-6C6637C50BB7}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/DataTemplates/GeneralTeaser/Override fields/Summary
+path: /sitecore/templates/Core/Data/GeneralTeaser/Override fields/Summary
 parent: {180E27A6-8A90-4018-8D34-26890FA5746C}
 name: Summary
 master: {00000000-0000-0000-0000-000000000000}

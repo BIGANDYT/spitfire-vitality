@@ -2,7 +2,7 @@
 version: 1
 id: {C5495452-B2A1-4697-BAEF-6602C08E7DB7}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/BaseTemplates/Content/Body/Content
+path: /sitecore/templates/Core/Base/Body/Content
 parent: {F15AFC99-281E-48DF-B333-91033622651A}
 name: Content
 master: {00000000-0000-0000-0000-000000000000}

@@ -2,7 +2,7 @@
 version: 1
 id: {06A96EFC-F2E5-45C3-A7DC-4DDDFA366CC0}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/BaseTemplates/Content/Coding/Coding/CssCode
+path: /sitecore/templates/Core/Base/Coding/Coding/CssCode
 parent: {570A9C1E-1791-4496-9A15-B21BEAF97B0A}
 name: CssCode
 master: {00000000-0000-0000-0000-000000000000}

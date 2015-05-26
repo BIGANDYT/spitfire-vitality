@@ -2,7 +2,7 @@
 version: 1
 id: {A09AA322-E4BE-431E-9F37-F71958A835AB}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/DataTemplates/Settings/Design/Header/HeaderLogo
+path: /sitecore/templates/Core/Data/Settings/Design/Header/HeaderLogo
 parent: {60CE4EFA-94FA-40A1-B3F3-CEC1F6D6B3CF}
 name: HeaderLogo
 master: {00000000-0000-0000-0000-000000000000}

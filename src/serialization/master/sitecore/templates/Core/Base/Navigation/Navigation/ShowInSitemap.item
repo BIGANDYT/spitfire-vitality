@@ -2,7 +2,7 @@
 version: 1
 id: {114BFEE8-A57E-49E7-A18D-68FFD7CA5DF8}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/BaseTemplates/Content/Navigation/Navigation/ShowInSitemap
+path: /sitecore/templates/Core/Base/Navigation/Navigation/ShowInSitemap
 parent: {305E411C-4A73-4406-8F35-9BE2A87A2805}
 name: ShowInSitemap
 master: {00000000-0000-0000-0000-000000000000}

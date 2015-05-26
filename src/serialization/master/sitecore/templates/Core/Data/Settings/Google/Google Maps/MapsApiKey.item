@@ -2,7 +2,7 @@
 version: 1
 id: {4A3749DE-14C2-4155-BFC3-3147A3755136}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/DataTemplates/Settings/Google/Google Maps/MapsApiKey
+path: /sitecore/templates/Core/Data/Settings/Google/Google Maps/MapsApiKey
 parent: {24C2BB4B-9BB3-4344-957C-AB223ED0B0EF}
 name: MapsApiKey
 master: {00000000-0000-0000-0000-000000000000}

@@ -2,7 +2,7 @@
 version: 1
 id: {F494888D-F8AB-41C4-8D50-2BF5DB6B7492}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/DataTemplates/Settings/Design/Footer
+path: /sitecore/templates/Core/Data/Settings/Design/Footer
 parent: {B481D49F-98E5-4C24-BAB9-BB302A4D0695}
 name: Footer
 master: {00000000-0000-0000-0000-000000000000}

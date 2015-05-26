@@ -2,7 +2,7 @@
 version: 1
 id: {C6691406-A764-409A-8E4C-FFEBF2BAB41D}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/BaseTemplates/Content/Seo/Seo
+path: /sitecore/templates/Core/Base/Seo/Seo
 parent: {5E5E0FEA-CCFD-4668-9BB4-63A32510CBF8}
 name: Seo
 master: {00000000-0000-0000-0000-000000000000}

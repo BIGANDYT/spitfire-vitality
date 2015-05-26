@@ -2,7 +2,7 @@
 version: 1
 id: {0DCA829C-9FCE-41F5-9990-C6182FEFE905}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/BaseTemplates/Content/Seo/Seo/SeoFollowLinks
+path: /sitecore/templates/Core/Base/Seo/Seo/SeoFollowLinks
 parent: {C6691406-A764-409A-8E4C-FFEBF2BAB41D}
 name: SeoFollowLinks
 master: {00000000-0000-0000-0000-000000000000}

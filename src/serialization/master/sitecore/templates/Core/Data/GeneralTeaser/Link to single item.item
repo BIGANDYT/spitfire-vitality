@@ -2,7 +2,7 @@
 version: 1
 id: {ADA95398-A297-4AC8-A2F8-44438CD8966B}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/DataTemplates/GeneralTeaser/Link to single item
+path: /sitecore/templates/Core/Data/GeneralTeaser/Link to single item
 parent: {B7E80F4D-2481-42F4-BCC8-AC03D9E104B5}
 name: Link to single item
 master: {00000000-0000-0000-0000-000000000000}

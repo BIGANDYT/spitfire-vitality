@@ -2,7 +2,7 @@
 version: 1
 id: {05466F0E-9494-44A1-A2D0-85ADA6457D7B}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/DataTemplates/Settings/Design/Header/HeaderPhoneNumber
+path: /sitecore/templates/Core/Data/Settings/Design/Header/HeaderPhoneNumber
 parent: {60CE4EFA-94FA-40A1-B3F3-CEC1F6D6B3CF}
 name: HeaderPhoneNumber
 master: {00000000-0000-0000-0000-000000000000}

@@ -2,7 +2,7 @@
 version: 1
 id: {497F6B71-B218-4B01-8332-2C8B599FD6C3}
 database: master
-path: /sitecore/templates/SitecoreDemo/Modules/News/NewsFolder/__Standard Values
+path: /sitecore/templates/Core/Pages/NewsFolder/__Standard Values
 parent: {52EF544D-DDF6-4952-B6C3-9129FBBD82BB}
 name: __Standard Values
 master: {00000000-0000-0000-0000-000000000000}

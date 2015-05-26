@@ -2,7 +2,7 @@
 version: 1
 id: {5B4B0AAB-61BC-402A-8B80-7175725157E4}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/DataTemplates/Settings/Google
+path: /sitecore/templates/Core/Data/Settings/Google
 parent: {F34495B7-76EE-4D6E-A204-2C13CA4C62FD}
 name: Google
 master: {00000000-0000-0000-0000-000000000000}

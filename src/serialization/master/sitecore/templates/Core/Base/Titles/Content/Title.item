@@ -2,7 +2,7 @@
 version: 1
 id: {C30A013F-3CC8-4961-9837-1C483277084A}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/BaseTemplates/Content/Titles/Content/Title
+path: /sitecore/templates/Core/Base/Titles/Content/Title
 parent: {24DD5B45-8C1E-47B9-AE47-B02CDE8A4A87}
 name: Title
 master: {00000000-0000-0000-0000-000000000000}

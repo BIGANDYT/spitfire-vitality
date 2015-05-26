@@ -2,7 +2,7 @@
 version: 1
 id: {754E2A27-0E43-45C8-BE98-85E7DC1DD0B9}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/DataTemplates/Settings/Google/Analytics/AnalyticsDomain
+path: /sitecore/templates/Core/Data/Settings/Google/Analytics/AnalyticsDomain
 parent: {6A5FE7EB-4460-4FE5-A1C8-4BF0A68846FF}
 name: AnalyticsDomain
 master: {00000000-0000-0000-0000-000000000000}

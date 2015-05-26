@@ -2,7 +2,7 @@
 version: 1
 id: {D4ACB5C0-013B-47D0-A70A-290D7251DAF0}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/DataTemplates/TranslationPlainText/__Standard Values
+path: /sitecore/templates/Core/Data/TranslationPlainText/__Standard Values
 parent: {F75C1798-81A5-46C0-9F54-F2E7DC1DA62E}
 name: __Standard Values
 master: {00000000-0000-0000-0000-000000000000}

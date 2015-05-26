@@ -2,7 +2,7 @@
 version: 1
 id: {F5529E8E-B327-4966-AD0A-FFD1BC946616}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/DataTemplates/Settings/SettingsRoot
+path: /sitecore/templates/Core/Data/Settings/SettingsRoot
 parent: {F34495B7-76EE-4D6E-A204-2C13CA4C62FD}
 name: SettingsRoot
 master: {00000000-0000-0000-0000-000000000000}

@@ -2,7 +2,7 @@
 version: 1
 id: {E43F375A-24BB-49AD-9E19-16DFDAA96825}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/BaseTemplates/Content/_BasePage/__Standard Values
+path: /sitecore/templates/Core/Base/_BasePage/__Standard Values
 parent: {99A1374E-2369-4732-BDF7-4BFC8CF6F0FA}
 name: __Standard Values
 master: {00000000-0000-0000-0000-000000000000}

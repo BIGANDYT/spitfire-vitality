@@ -2,7 +2,7 @@
 version: 1
 id: {BC24AF6B-7D06-4282-8898-4926E5F11A0D}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/DataTemplates/Email/EmailTemplate/Email/Design
+path: /sitecore/templates/Core/Data/Email/EmailTemplate/Email/Design
 parent: {53584A6C-73A6-41E8-957C-C14CC9C87582}
 name: Design
 master: {00000000-0000-0000-0000-000000000000}

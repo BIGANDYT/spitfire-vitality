@@ -2,7 +2,7 @@
 version: 1
 id: {180E27A6-8A90-4018-8D34-26890FA5746C}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/DataTemplates/GeneralTeaser/Override fields
+path: /sitecore/templates/Core/Data/GeneralTeaser/Override fields
 parent: {B7E80F4D-2481-42F4-BCC8-AC03D9E104B5}
 name: Override fields
 master: {00000000-0000-0000-0000-000000000000}

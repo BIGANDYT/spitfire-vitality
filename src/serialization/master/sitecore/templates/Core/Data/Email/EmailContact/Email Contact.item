@@ -2,7 +2,7 @@
 version: 1
 id: {D8861C05-31CC-4FD8-BA2E-DF38B2232979}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/DataTemplates/Email/EmailContact/Email Contact
+path: /sitecore/templates/Core/Data/Email/EmailContact/Email Contact
 parent: {B6BE7350-23F9-4DDB-AAD6-171F38480562}
 name: Email Contact
 master: {00000000-0000-0000-0000-000000000000}

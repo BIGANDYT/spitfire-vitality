@@ -2,7 +2,7 @@
 version: 1
 id: {11F41661-E5FE-44E7-B8DA-7CFF2D39B4B2}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/BaseTemplates/Content/OpenGraph/Facebook Open Graph/OpenGraphImage
+path: /sitecore/templates/Core/Base/OpenGraph/Facebook Open Graph/OpenGraphImage
 parent: {0E03B0C2-FD98-4729-9E95-2B3C9170685F}
 name: OpenGraphImage
 master: {00000000-0000-0000-0000-000000000000}

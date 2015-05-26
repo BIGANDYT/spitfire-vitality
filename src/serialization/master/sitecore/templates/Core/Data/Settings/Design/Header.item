@@ -2,7 +2,7 @@
 version: 1
 id: {60CE4EFA-94FA-40A1-B3F3-CEC1F6D6B3CF}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/DataTemplates/Settings/Design/Header
+path: /sitecore/templates/Core/Data/Settings/Design/Header
 parent: {B481D49F-98E5-4C24-BAB9-BB302A4D0695}
 name: Header
 master: {00000000-0000-0000-0000-000000000000}

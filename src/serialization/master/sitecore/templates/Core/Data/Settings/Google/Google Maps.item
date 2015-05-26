@@ -2,7 +2,7 @@
 version: 1
 id: {24C2BB4B-9BB3-4344-957C-AB223ED0B0EF}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/DataTemplates/Settings/Google/Google Maps
+path: /sitecore/templates/Core/Data/Settings/Google/Google Maps
 parent: {5B4B0AAB-61BC-402A-8B80-7175725157E4}
 name: Google Maps
 master: {00000000-0000-0000-0000-000000000000}

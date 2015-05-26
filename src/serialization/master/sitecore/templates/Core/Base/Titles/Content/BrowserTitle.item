@@ -2,7 +2,7 @@
 version: 1
 id: {CA0479CE-0BFE-4522-83DE-BA688B380A78}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/BaseTemplates/Content/Titles/Content/BrowserTitle
+path: /sitecore/templates/Core/Base/Titles/Content/BrowserTitle
 parent: {24DD5B45-8C1E-47B9-AE47-B02CDE8A4A87}
 name: BrowserTitle
 master: {00000000-0000-0000-0000-000000000000}

@@ -2,7 +2,7 @@
 version: 1
 id: {57C33226-F4DC-4A11-9C4F-0E9C56F88BCD}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/BaseTemplates/Content/ImageGallery/Content/ImageGallery
+path: /sitecore/templates/Core/Base/ImageGallery/Content/ImageGallery
 parent: {AEFF5C09-3409-4A02-9C02-7E8A88CEBF56}
 name: ImageGallery
 master: {00000000-0000-0000-0000-000000000000}

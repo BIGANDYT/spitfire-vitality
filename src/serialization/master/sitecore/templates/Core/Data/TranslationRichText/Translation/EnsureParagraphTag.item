@@ -2,7 +2,7 @@
 version: 1
 id: {33D79A21-3C4C-46E4-BB05-07C5EBA4DD12}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/DataTemplates/TranslationRichText/Translation/EnsureParagraphTag
+path: /sitecore/templates/Core/Data/TranslationRichText/Translation/EnsureParagraphTag
 parent: {632615E6-CF12-4BDE-980E-357F9B536FEC}
 name: EnsureParagraphTag
 master: {00000000-0000-0000-0000-000000000000}

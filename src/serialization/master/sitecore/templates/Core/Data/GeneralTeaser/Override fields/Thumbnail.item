@@ -2,7 +2,7 @@
 version: 1
 id: {3ECD792F-3794-4BF2-99ED-308E2290518C}
 database: master
-path: /sitecore/templates/SitecoreDemo/Sites/Base/DataTemplates/GeneralTeaser/Override fields/Thumbnail
+path: /sitecore/templates/Core/Data/GeneralTeaser/Override fields/Thumbnail
 parent: {180E27A6-8A90-4018-8D34-26890FA5746C}
 name: Thumbnail
 master: {00000000-0000-0000-0000-000000000000}
