@@ -1,15 +1,13 @@
-﻿namespace Spitfire.Library.Models
-{
-    using System.Collections.Specialized;
-    using Sitecore.Mvc.Presentation;
+﻿using System.Collections.Specialized;
 
-    /// <summary>
-    /// Icon Teaser Model
-    /// </summary>
-    public class IconTeaserModel : RenderingModel
+namespace Spitfire.Library.Models
+{
+    using Sitecore.Mvc.Presentation;
+    public class PromoTeaser : RenderingModel
     {
         public override void Initialize(Rendering rendering)
         {
+
             base.Initialize(rendering);
             NameValueCollection parameters = null;
             if (!string.IsNullOrEmpty(rendering["Parameters"]))
@@ -23,6 +21,7 @@
                 TitleColor = parameters["TitleColor"];
                 TitleFontSize = parameters["TitleFontSize"];
                 Background = parameters["Background"];
+                CssClassValue = parameters["CssClass"];
             }
         }
 
@@ -40,5 +39,8 @@
         /// Set background color
         /// </summary>
         public string Background { get; private set; }
+
+        public string CssClassValue { get; private set; }
+
     }
 }

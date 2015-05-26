@@ -12,7 +12,7 @@ templatekey: Teaser
 ----version----
 language: en
 version: 1
-revision: a07a99de-202d-4174-b4ea-8e82df999df0
+revision: 25d573ff-84f0-4408-8df9-2b2733845250
 
 ----field----
 field: {8F835316-A8FF-411A-905B-CFC143D7950C}
@@ -25,9 +25,9 @@ Mountain Tea
 field: {BF25D316-D309-4F57-A05C-F093BE9738AC}
 name: Image
 key: image
-content-length: 58
+content-length: 65
 
-<image mediaid="{037ED9CC-2BB4-4766-966A-8C35DFDB571D}" />
+<image mediaid="{037ED9CC-2BB4-4766-966A-8C35DFDB571D}" ></image>
 ----field----
 field: {E6FCC918-A5B9-445A-9976-BF65B3A2772F}
 name: SubTitle
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-a07a99de-202d-4174-b4ea-8e82df999df0
+25d573ff-84f0-4408-8df9-2b2733845250
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150520T095956:635677127967656589Z
+20150522T151057:635679042573169203Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -70,3 +70,10 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

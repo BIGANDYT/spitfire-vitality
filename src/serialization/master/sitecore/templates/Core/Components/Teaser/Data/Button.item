@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {4333CD3F-7A9E-44B7-B72D-803C12BEBACA}
+id: {A35BEA66-44B1-446A-A35C-C56362E3382D}
 database: master
-path: /sitecore/templates/Core/Rendering Parameters/IconTeaser/Data/TitleColor
-parent: {07F4B125-4C19-4BB5-8BE4-61FE59C7B22D}
-name: TitleColor
+path: /sitecore/templates/Core/Components/Teaser/Data/Button
+parent: {65CCFFDE-31DE-4A7A-8742-CC75132EF665}
+name: Button
 master: {00000000-0000-0000-0000-000000000000}
 template: {455A3E98-A627-4B40-8035-E683A0331AC7}
 templatekey: Template field
@@ -15,47 +15,40 @@ name: Type
 key: type
 content-length: 12
 
-Color Picker
+General Link
 ----field----
 field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
 name: __Sortorder
 key: __sortorder
 content-length: 3
 
-100
+800
 ----version----
 language: en
 version: 1
-revision: dca4d089-4509-4a7b-b07e-1000d993d4b0
+revision: 7f3877b6-f2b0-4af4-a38a-d94568851f36
 
-----field----
-field: {19A69332-A23E-4E70-8D16-B2640CB24CC8}
-name: Title
-key: title
-content-length: 11
-
-Title Color
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20150513T171903Z
+20150520T104656Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-dca4d089-4509-4a7b-b07e-1000d993d4b0
+7f3877b6-f2b0-4af4-a38a-d94568851f36
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150522T154319:635679061992008548Z
+20150522T154804:635679064840000752Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
