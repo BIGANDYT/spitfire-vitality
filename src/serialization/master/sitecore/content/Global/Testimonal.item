@@ -1,40 +1,33 @@
 ----item----
 version: 1
-id: {57A0B394-DC2E-4AFF-B4F1-71E955C790DF}
+id: {ACA0AD1E-31EA-4CDC-ABA8-E4C9A3286318}
 database: master
-path: /sitecore/templates/Core/Components/Teaser/__Standard Values
-parent: {60920BFB-F0BB-4DED-BAAC-AEF1F68FE6E8}
-name: __Standard Values
+path: /sitecore/content/Global/Testimonal
+parent: {26C8446D-4AC0-4756-8737-F4B74079F03B}
+name: Testimonal
 master: {00000000-0000-0000-0000-000000000000}
-template: {60920BFB-F0BB-4DED-BAAC-AEF1F68FE6E8}
-templatekey: Teaser
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
 
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 77
+
+{A87A00B1-E6DB-45AB-8B54-636FEC3B5523}|{60920BFB-F0BB-4DED-BAAC-AEF1F68FE6E8}
 ----version----
 language: en
 version: 1
-revision: bdeac81f-dd0c-4352-b294-5b20d13880a9
+revision: eb554a8c-6c3e-43d9-8ed1-15fe92e74160
 
-----field----
-field: {8F835316-A8FF-411A-905B-CFC143D7950C}
-name: Title
-key: title
-content-length: 5
-
-$name
-----field----
-field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
-name: __Owner
-key: __owner
-content-length: 14
-
-sitecore\admin
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20150511T154958Z
+20150526T160024Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -48,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-bdeac81f-dd0c-4352-b294-5b20d13880a9
+eb554a8c-6c3e-43d9-8ed1-15fe92e74160
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150511T155007:635669562072312116Z
+20150526T160107:635682528670524741Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

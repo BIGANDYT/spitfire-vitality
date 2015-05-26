@@ -2,7 +2,7 @@
 version: 1
 id: {EFEB569B-6957-4572-BA2C-79C98D55DD93}
 database: master
-path: /sitecore/templates/Core/TeaserGroup/Teasers/source
+path: /sitecore/templates/Core/Components/TeaserGroup/Teasers/source
 parent: {B3AA0849-7C17-4F88-87D2-E0DA54BFD11E}
 name: source
 master: {00000000-0000-0000-0000-000000000000}

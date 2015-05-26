@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {71E86EDA-A8B9-46B7-96C7-C8932C8F628E}
+database: master
+path: /sitecore/content/Global/Testimonal/Default
+parent: {ACA0AD1E-31EA-4CDC-ABA8-E4C9A3286318}
+name: Default
+master: {00000000-0000-0000-0000-000000000000}
+template: {60920BFB-F0BB-4DED-BAAC-AEF1F68FE6E8}
+templatekey: Teaser
+
+----version----
+language: en
+version: 1
+revision: 90cd299b-835b-4521-a3a1-b2b8d8e3a19f
+
+----field----
+field: {8F835316-A8FF-411A-905B-CFC143D7950C}
+name: Title
+key: title
+content-length: 68
+
+"WORKING WITH VITALITY WAS BOTH A VALUABLE AND REWARDING EXPERIENCE"
+----field----
+field: {A7A39E67-7AAF-4008-BA19-B65E21C2389E}
+name: Thumbnail
+key: thumbnail
+content-length: 219
+
+<image mediapath="/Images/Teasers/Thumbnails/1" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Images/Teasers/Thumbnails/1" mediaid="{7315EDC3-688B-4D5F-A10E-1753019BF887}" />
+----field----
+field: {18677565-989E-4FBB-BF7A-E39B4BD9029D}
+name: Details
+key: details
+content-length: 212
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris congue vulputate erat hendrerit tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris congue vulputate erat hendrerit tincidunt.
+----field----
+field: {E6FCC918-A5B9-445A-9976-BF65B3A2772F}
+name: SubTitle
+key: subtitle
+content-length: 10
+
+JIM WALKER
+----field----
+field: {9E2C5966-B182-4B70-955E-4F5D227BD924}
+name: Type
+key: type
+content-length: 18
+
+CEO of GenericCorp
+----field----
+field: {49D0CCA3-AF8F-47CC-A6FD-86E95CD8D713}
+name: Star
+key: star
+content-length: 1
+
+5
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150526T160119Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+90cd299b-835b-4521-a3a1-b2b8d8e3a19f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150526T164824:635682557046288102Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

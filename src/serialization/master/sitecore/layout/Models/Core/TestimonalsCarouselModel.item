@@ -1,26 +1,26 @@
 ----item----
 version: 1
-id: {57A0B394-DC2E-4AFF-B4F1-71E955C790DF}
+id: {922B9D9E-3E74-4B82-B517-2682F8D9DE4F}
 database: master
-path: /sitecore/templates/Core/Components/Teaser/__Standard Values
-parent: {60920BFB-F0BB-4DED-BAAC-AEF1F68FE6E8}
-name: __Standard Values
+path: /sitecore/layout/Models/Core/TestimonalsCarouselModel
+parent: {B33B9CBC-BB7A-479E-861E-A189203F9C93}
+name: TestimonalsCarouselModel
 master: {00000000-0000-0000-0000-000000000000}
-template: {60920BFB-F0BB-4DED-BAAC-AEF1F68FE6E8}
-templatekey: Teaser
+template: {FED6A14F-0D05-4E18-B160-17C0588A2005}
+templatekey: Model
 
+----field----
+field: {EE9E23D2-181D-4172-A929-0E0B8D10313C}
+name: Model Type
+key: model type
+content-length: 70
+
+Spitfire.Library.Models.TestimonalsCarouselModel, Spitfire.Library.dll
 ----version----
 language: en
 version: 1
-revision: bdeac81f-dd0c-4352-b294-5b20d13880a9
+revision: 822db94c-faa0-4ab1-bae3-e591436c6a34
 
-----field----
-field: {8F835316-A8FF-411A-905B-CFC143D7950C}
-name: Title
-key: title
-content-length: 5
-
-$name
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -34,7 +34,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20150511T154958Z
+20150526T155359Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-bdeac81f-dd0c-4352-b294-5b20d13880a9
+822db94c-faa0-4ab1-bae3-e591436c6a34
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150511T155007:635669562072312116Z
+20150526T155359:635682524395162668Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

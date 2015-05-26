@@ -16,10 +16,24 @@ key: path
 content-length: 44
 
 /Views/Components/TestimonalsCarousel.cshtml
+----field----
+field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
+name: Model
+key: model
+content-length: 53
+
+/sitecore/layout/Models/Core/TestimonalsCarouselModel
+----field----
+field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
+name: Open Properties after Add
+key: open properties after add
+content-length: 1
+
+-
 ----version----
 language: en
 version: 1
-revision: 8777f26b-bbb1-46be-9cd5-07f19ab188b2
+revision: 36081263-aee9-4693-88a5-a516c4f56dc3
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8777f26b-bbb1-46be-9cd5-07f19ab188b2
+36081263-aee9-4693-88a5-a516c4f56dc3
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150506T141804:635665186846065017Z
+20150526T165006:635682558063975047Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
