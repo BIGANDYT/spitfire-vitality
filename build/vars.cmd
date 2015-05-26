@@ -1,7 +1,6 @@
 SET appcmd=CALL %WINDIR%\system32\inetsrv\appcmd
 SET SitecoreInstallName=Sitecore 8.0 rev. 150427.zip
 SET BaseSite=spitfire
-SET InstallerPathRemote=t:\temp\smg\SpitfireInstaller
 SET InstallerPath=c:\SpitfireInstaller
 SET InstanceDirectory=c:\websites
 SET DevDirectory=c:\websites\_dev
