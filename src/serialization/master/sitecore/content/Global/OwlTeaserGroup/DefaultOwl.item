@@ -12,7 +12,7 @@ templatekey: TeaserGroup
 ----version----
 language: en
 version: 1
-revision: bcde0dab-ba30-43fd-9cbc-ade5b0867969
+revision: 9d4eca43-4f90-4838-b67a-63ed1912ddfd
 
 ----field----
 field: {D6303669-FBF0-46B9-836A-74AD60DB0913}
@@ -20,7 +20,7 @@ name: Display
 key: display
 content-length: 4
 
-none
+Show
 ----field----
 field: {EFEB569B-6957-4572-BA2C-79C98D55DD93}
 name: source
@@ -62,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-bcde0dab-ba30-43fd-9cbc-ade5b0867969
+9d4eca43-4f90-4838-b67a-63ed1912ddfd
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150518T100328:635675402087338854Z
+20150526T092631:635682291919890495Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
