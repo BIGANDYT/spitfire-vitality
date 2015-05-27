@@ -19,12 +19,15 @@
                             <div class="testimonial-author">
                                 <span class="name">@Html.Sitecore().Field("SubTitle", item)</span>
                                 <p class="small">@Html.Sitecore().Field("Type", item)</p>
-                                <div class="stars">
-                                    @for (var i = 0; i < int.Parse(item["star"]); i++)
-                                    {
-                                        <i class="fa fa-star"></i>
-                                    }
-                                </div>
+                               @using (Html.BeginEditFrame(item.Paths.Path, "/sitecore/content/Applications/WebEdit/Edit Frame Buttons/Teasers"))
+                               {
+                                   <div class="stars">
+                                       @for (var i = 0; i < int.Parse(item["star"]); i++)
+                                       {
+                                           <i class="fa fa-star"></i>
+                                       }
+                                   </div>
+                               }
                             </div>
                         </div>
                     </div>
