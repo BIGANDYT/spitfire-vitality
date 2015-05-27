@@ -94,6 +94,7 @@
     <Compile Include="Models\FooterModel.cs" />
     <Compile Include="Models\IconTeaserLeft.cs" />
     <Compile Include="Models\IconTeaserModel.cs" />
+    <Compile Include="Models\ImageLeftModel.cs" />
     <Compile Include="Models\NavBarModel.cs" />
     <Compile Include="Models\NavList.cs" />
     <Compile Include="Models\OwlTeaserModel.cs" />
