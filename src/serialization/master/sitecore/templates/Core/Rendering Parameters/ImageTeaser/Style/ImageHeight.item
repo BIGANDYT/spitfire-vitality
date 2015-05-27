@@ -26,15 +26,15 @@ content-length: 3
 ----version----
 language: en
 version: 1
-revision: cd5e0209-0705-4d13-b8a8-267f4fad0267
+revision: 673e7595-2fbb-46a2-865b-f1adad62b0f2
 
 ----field----
 field: {19A69332-A23E-4E70-8D16-B2640CB24CC8}
 name: Title
 key: title
-content-length: 26
+content-length: 24
 
-Image height (e.g., 300px)
+Image height (e.g., 300)
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-cd5e0209-0705-4d13-b8a8-267f4fad0267
+673e7595-2fbb-46a2-865b-f1adad62b0f2
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150527T172826:635683445065380452Z
+20150527T174115:635683452753584269Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
