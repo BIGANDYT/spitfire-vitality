@@ -6,6 +6,9 @@
         @Html.Sitecore().Field("Details", Model.Item)
     </div>
     <div class="col-md-6">
-        @Html.Sitecore().Field("Image", Model.Item, new { @class = "img-responsive", mw = @Model.ImageHeight, mh = @Model.ImageWidth })
+        @if (Model.Item != null)
+        {
+             @Html.Sitecore().Field("Image", Model.Item, new {@class = "img-responsive", mw = @Model.ImageWidth, mh = @Model.ImageHeight})
+        }
     </div>
 </div>

@@ -35,7 +35,7 @@
                 }
                 else
                 {
-                    ImageHeight = "auto";
+                    ImageWidth = "auto";
                 }
             }
         }
