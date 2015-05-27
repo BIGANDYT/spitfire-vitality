@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {71E86EDA-A8B9-46B7-96C7-C8932C8F628E}
+id: {0504BA28-6873-4332-901E-EF0DC3ACAF49}
 database: master
-path: /sitecore/content/Global/Testimonal/Default
+path: /sitecore/content/Global/Testimonal/TestimonalExample2
 parent: {ACA0AD1E-31EA-4CDC-ABA8-E4C9A3286318}
-name: Default
+name: TestimonalExample2
 master: {00000000-0000-0000-0000-000000000000}
 template: {60920BFB-F0BB-4DED-BAAC-AEF1F68FE6E8}
 templatekey: Teaser
@@ -12,7 +12,7 @@ templatekey: Teaser
 ----version----
 language: en
 version: 1
-revision: 90cd299b-835b-4521-a3a1-b2b8d8e3a19f
+revision: 69b85f10-d22f-414c-af9b-62aa9e01f305
 
 ----field----
 field: {8F835316-A8FF-411A-905B-CFC143D7950C}
@@ -55,7 +55,7 @@ name: Star
 key: star
 content-length: 1
 
-5
+3
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -69,14 +69,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-90cd299b-835b-4521-a3a1-b2b8d8e3a19f
+69b85f10-d22f-414c-af9b-62aa9e01f305
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150526T164824:635682557046288102Z
+20150527T130044:635683284443320303Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
