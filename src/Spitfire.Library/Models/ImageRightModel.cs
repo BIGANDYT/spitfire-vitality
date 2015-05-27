@@ -2,9 +2,8 @@
 {
     using Sitecore.Mvc.Presentation;
     using System.Collections.Specialized;
-    public class ImageLeftModel : RenderingModel
+    public class ImageRightModel : RenderingModel
     {
-       
         public override void Initialize(Rendering rendering)
         {
             base.Initialize(rendering);
@@ -47,4 +46,5 @@
         public string ImageHeight { get; private set; }
         public string ImageWidth { get; private set; }
     }
+    
 }
