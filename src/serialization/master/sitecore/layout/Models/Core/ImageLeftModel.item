@@ -13,13 +13,13 @@ templatekey: Model
 field: {EE9E23D2-181D-4172-A929-0E0B8D10313C}
 name: Model Type
 key: model type
-content-length: 60
+content-length: 56
 
-Spitfire.Library.Models.ImageLeftModel, Spitfire.Library.dll
+Spitfire.Library.Models.ImageLeftModel, Spitfire.Library
 ----version----
 language: en
 version: 1
-revision: 1f9ca1e2-b3a0-4634-9a0e-a9a3b5168273
+revision: d4b387f3-dd42-421e-8711-93c7787b1732
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1f9ca1e2-b3a0-4634-9a0e-a9a3b5168273
+d4b387f3-dd42-421e-8711-93c7787b1732
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150527T135436:635683316768363144Z
+20150528T141837:635684195177358944Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
