@@ -21,7 +21,6 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\</SolutionDir>
-    <RestorePackages>true</RestorePackages>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -280,6 +279,12 @@
     <Content Include="Content\plugins\fontawesome\scss\_stacked.scss" />
     <Content Include="Content\plugins\fontawesome\scss\_variables.scss" />
     <Content Include="App_Config\Include\zSpitfire\Sites.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Config\Include\zSpitfire\PerformanceTweaks.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Config\Include\zSpitfire\FieldFallback.config">
       <SubType>Designer</SubType>
     </Content>
     <None Include="Properties\PublishProfiles\Spitfire.pubxml" />
@@ -759,7 +764,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
   </ItemGroup>
   <ItemGroup>
@@ -824,13 +828,6 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
-  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
-    <PropertyGroup>
-      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
-    </PropertyGroup>
-    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
-  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

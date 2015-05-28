@@ -1,3 +1,5 @@
 ﻿<Project>
-  <Site Server="Spitfire" UserName="sitecore\admin" IsRemoteSitecore="False" />
+  <PropertyGroup>
+    <Site Server="Spitfire" UserName="sitecore\admin" IsRemoteSitecore="False" />
+  </PropertyGroup>
 </Project>
