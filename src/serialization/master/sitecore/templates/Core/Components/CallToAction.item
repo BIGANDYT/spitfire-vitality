@@ -1,40 +1,40 @@
 ----item----
 version: 1
-id: {B5254FA6-C200-4542-8A72-7D8205159056}
+id: {3F862067-3909-4D4A-8FFC-9269FFCB0920}
 database: master
-path: /sitecore/layout/Models/Core/ImageRightModel
-parent: {B33B9CBC-BB7A-479E-861E-A189203F9C93}
-name: ImageRightModel
+path: /sitecore/templates/Core/Components/CallToAction
+parent: {8DC7BCEE-FBC6-41A2-BF35-371BCA95F8D0}
+name: CallToAction
 master: {00000000-0000-0000-0000-000000000000}
-template: {FED6A14F-0D05-4E18-B160-17C0588A2005}
-templatekey: Model
+template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
+templatekey: Template
 
 ----field----
-field: {EE9E23D2-181D-4172-A929-0E0B8D10313C}
-name: Model Type
-key: model type
-content-length: 57
+field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
+name: __Base template
+key: __base template
+content-length: 38
 
-Spitfire.Library.Models.ImageRightModel, Spitfire.Library
+{1930BBEB-7805-471A-A3BE-4858AC7CF696}
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 35
+
+People/16x16/car_compact_orange.png
 ----version----
 language: en
 version: 1
-revision: c5836d0c-7304-4542-b0ec-1f9d0d8a8600
+revision: c5ed419d-ab14-4a73-b606-120c6347cb31
 
-----field----
-field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
-name: __Owner
-key: __owner
-content-length: 14
-
-sitecore\admin
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20150527T173112Z
+20150528T135638Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c5836d0c-7304-4542-b0ec-1f9d0d8a8600
+c5ed419d-ab14-4a73-b606-120c6347cb31
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150528T141847:635684195276214614Z
+20150528T143528:635684205284108519Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

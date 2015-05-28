@@ -96,6 +96,7 @@
     <Compile Include="Models\IconTeaserModel.cs" />
     <Compile Include="Models\ImageLeftModel.cs" />
     <Compile Include="Models\ImageRightModel.cs" />
+    <Compile Include="Models\LinkBar.cs" />
     <Compile Include="Models\NavBarModel.cs" />
     <Compile Include="Models\NavList.cs" />
     <Compile Include="Models\OwlTeaserModel.cs" />

@@ -1,40 +1,26 @@
 ----item----
 version: 1
-id: {B5254FA6-C200-4542-8A72-7D8205159056}
+id: {A2E2561E-C6E1-4D68-B3B6-65205C76B417}
 database: master
-path: /sitecore/layout/Models/Core/ImageRightModel
-parent: {B33B9CBC-BB7A-479E-861E-A189203F9C93}
-name: ImageRightModel
+path: /sitecore/templates/Core/Components/CallToAction/Action
+parent: {3F862067-3909-4D4A-8FFC-9269FFCB0920}
+name: Action
 master: {00000000-0000-0000-0000-000000000000}
-template: {FED6A14F-0D05-4E18-B160-17C0588A2005}
-templatekey: Model
+template: {E269FBB5-3750-427A-9149-7AA950B49301}
+templatekey: Template section
 
-----field----
-field: {EE9E23D2-181D-4172-A929-0E0B8D10313C}
-name: Model Type
-key: model type
-content-length: 57
-
-Spitfire.Library.Models.ImageRightModel, Spitfire.Library
 ----version----
 language: en
 version: 1
-revision: c5836d0c-7304-4542-b0ec-1f9d0d8a8600
+revision: 9ffefb7b-a321-40d0-bcf5-aa66c1e87f74
 
-----field----
-field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
-name: __Owner
-key: __owner
-content-length: 14
-
-sitecore\admin
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20150527T173112Z
+20150528T135723Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -48,14 +34,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c5836d0c-7304-4542-b0ec-1f9d0d8a8600
+9ffefb7b-a321-40d0-bcf5-aa66c1e87f74
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150528T141847:635684195276214614Z
+20150528T135723:635684182433815658Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

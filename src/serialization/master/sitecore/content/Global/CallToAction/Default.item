@@ -1,26 +1,26 @@
 ----item----
 version: 1
-id: {B5254FA6-C200-4542-8A72-7D8205159056}
+id: {4A4AE81A-5D98-4564-BD9B-994BCFAF61BC}
 database: master
-path: /sitecore/layout/Models/Core/ImageRightModel
-parent: {B33B9CBC-BB7A-479E-861E-A189203F9C93}
-name: ImageRightModel
+path: /sitecore/content/Global/CallToAction/Default
+parent: {28FADBBA-C461-4B36-9B62-623FB82F0EB0}
+name: Default
 master: {00000000-0000-0000-0000-000000000000}
-template: {FED6A14F-0D05-4E18-B160-17C0588A2005}
-templatekey: Model
+template: {3F862067-3909-4D4A-8FFC-9269FFCB0920}
+templatekey: CallToAction
 
-----field----
-field: {EE9E23D2-181D-4172-A929-0E0B8D10313C}
-name: Model Type
-key: model type
-content-length: 57
-
-Spitfire.Library.Models.ImageRightModel, Spitfire.Library
 ----version----
 language: en
 version: 1
-revision: c5836d0c-7304-4542-b0ec-1f9d0d8a8600
+revision: 1aeaf5a1-f98b-447e-be9b-c71a58d72218
 
+----field----
+field: {4472C6A0-934F-4361-A097-563E608823AA}
+name: Link
+key: link
+content-length: 181
+
+<link text="Buy Sitecore Now" linktype="internal" class="btn btn-block btn-full-width" title="" target='Active Browser' querystring="" id="{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}" />
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -34,7 +34,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20150527T173112Z
+20150528T143452Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c5836d0c-7304-4542-b0ec-1f9d0d8a8600
+1aeaf5a1-f98b-447e-be9b-c71a58d72218
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150528T141847:635684195276214614Z
+20150528T143735:635684206559126898Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
