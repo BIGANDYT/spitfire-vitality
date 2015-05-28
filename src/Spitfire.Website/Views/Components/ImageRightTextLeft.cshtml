@@ -1,11 +1,14 @@
-﻿<div class="row">
+﻿@model Spitfire.Library.Models.ImageRightModel
+<div class="row" style="background:@Model.Background;height: @Model.DivHeight">
     <div class="col-md-6 text-center">
-        <h1>Hi, I'm John Smith</h1>
+        <h1 style="font-size:@Model.TitleFontSize;color:@Model.TitleColor">@Html.Sitecore().Field("Title", Model.Item)</h1>
         <hr class="colored">
-        <p>I am a freelance web designer, developer, and photographer based in San Francisco, California. I have a professional background in graphic design, and a degree in Computer Science from the University of Central California.</p>
-        <p>Whether your next project is an online store, website for your business, or a simple brochure, I'll be ready to help!</p>
+        @Html.Sitecore().Field("Details", Model.Item)
     </div>
     <div class="col-md-6">
-        <img src="Content/img/vitality/about.jpg" class="img-responsive" alt="">
+        @if (Model.Item != null)
+        {
+             @Html.Sitecore().Field("Image", Model.Item, new {@class = "img-responsive", mw = @Model.ImageWidth, mh = @Model.ImageHeight})
+        }
     </div>
 </div>

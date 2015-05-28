@@ -211,6 +211,7 @@
             public static class Footer
             {
                 public const String BackgroundImage = "{4A68E70A-5A57-412E-8B32-68D1D6557C32}";
+                public const String FooterHeight = "{61F44A61-2D07-4E92-B38C-FFB94190B745}";
             }
         }
     }

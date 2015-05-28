@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {01BF6D08-E81B-40BD-B66C-46239CC31D76}
+database: master
+path: /sitecore/system/Settings/Validation Rules/Field Rules/Spitfire/Max value 5
+parent: {2A946B90-CF52-4818-9EB3-C3C219627734}
+name: Max value 5
+master: {00000000-0000-0000-0000-000000000000}
+template: {8F8E2549-C77F-4860-B83B-54FA31E2BEFA}
+templatekey: Validation Rule
+
+----field----
+field: {43A829D1-43DA-465C-B772-EBAA0D515E3E}
+name: Type
+key: type
+content-length: 79
+
+Sitecore.Data.Validators.FieldValidators.IntegerRangeValidator, Sitecore.Kernel
+----field----
+field: {8F9D8603-2E34-4C5F-B0BB-F0D91EB956CA}
+name: Parameters
+key: parameters
+content-length: 31
+
+Min=0&Max=5&Result=FatalError
+
+----version----
+language: en
+version: 1
+revision: 21ac9f39-7746-4197-b7b2-f5f150a56e41
+
+----field----
+field: {DA43C533-CBAE-43D0-9019-65B1E346F984}
+name: Title
+key: title
+content-length: 11
+
+Max value 5
+----field----
+field: {58014183-26FE-4568-B19F-C26745824C32}
+name: Description
+key: description
+content-length: 16
+
+For rating stars
+----field----
+field: {5DCF6FF3-41C5-466C-AD5E-991CFCD55716}
+name: Text
+key: text
+content-length: 24
+
+Value is between 0 and 5
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150526T161536Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+21ac9f39-7746-4197-b7b2-f5f150a56e41
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150526T163309:635682547891163715Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

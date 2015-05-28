@@ -9,6 +9,7 @@ namespace Spitfire.Library.Models
     public class FooterModel : RenderingModel
     {
         public String BackgroundImageUrl { get; private set; }
+        public String FooterHeight { get; private set; }
         public override void Initialize(Rendering rendering)
         {
             base.Initialize(rendering);
@@ -18,6 +19,7 @@ namespace Spitfire.Library.Models
             {
                 BackgroundImageUrl = Sitecore.Resources.Media.MediaManager.GetMediaUrl(imgField.MediaItem);
             }
+            FooterHeight = item[SpitfireConstants.FieldConstants.Footer.FooterHeight];
         }
     }
 }
