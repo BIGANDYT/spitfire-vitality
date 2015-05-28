@@ -1,9 +1,10 @@
-﻿namespace Spitfire.Framework.Controls
+﻿namespace Spitfire.SitecoreExtensions.Controls
 {
-    using Sitecore.Web.UI.WebControls;
-    using System.Web.UI;
-    using System.IO;
     using System;
+    using System.IO;
+    using System.Web.UI;
+
+    using Sitecore.Web.UI.WebControls;
 
     /// <summary>
     /// Edit frame class. 
@@ -16,12 +17,12 @@
         /// <summary>
         /// The edit frame
         /// </summary>
-        private readonly EditFrame _editFrame;
+        private readonly EditFrame editFrame;
 
         /// <summary>
         /// The html writer
         /// </summary>
-        private readonly HtmlTextWriter _htmlWriter;
+        private readonly HtmlTextWriter htmlWriter;
 
         /// <summary>
         /// Renders the first part of the frame
@@ -29,11 +30,11 @@
         /// <param name="writer">The textwriter</param>
         /// <param name="dataSource">The datasource to use</param>
         /// <param name="buttons">The buttons to use</param>
-        public EditFrameRendering(TextWriter writer, String dataSource, String buttons)
+        public EditFrameRendering(TextWriter writer, string dataSource, string buttons)
         {
-            _htmlWriter = new HtmlTextWriter(writer);
-            _editFrame = new EditFrame { DataSource = dataSource, Buttons = buttons };
-            _editFrame.RenderFirstPart(_htmlWriter);
+            this.htmlWriter = new HtmlTextWriter(writer);
+            this.editFrame = new EditFrame { DataSource = dataSource, Buttons = buttons };
+            this.editFrame.RenderFirstPart(this.htmlWriter);
         }
 
         /// <summary>
@@ -41,8 +42,8 @@
         /// </summary>
         public void Dispose()
         {
-            _editFrame.RenderLastPart(_htmlWriter);
-            _htmlWriter.Dispose();
+            this.editFrame.RenderLastPart(this.htmlWriter);
+            this.htmlWriter.Dispose();
         }
     }
 }

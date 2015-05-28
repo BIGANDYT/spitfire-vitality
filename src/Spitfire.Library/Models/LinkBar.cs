@@ -1,7 +1,10 @@
 ﻿namespace Spitfire.Library.Models
 {
-    using Sitecore.Mvc.Presentation;
     using System.Collections.Specialized;
+
+    using Sitecore.Mvc.Presentation;
+    using Sitecore.Web;
+
     public class LinkBar : RenderingModel
     {
         public override void Initialize(Rendering rendering)
@@ -11,7 +14,7 @@
             if (!string.IsNullOrEmpty(rendering["Parameters"]))
             {
                 string rawParameters = rendering["Parameters"];
-                parameters = Sitecore.Web.WebUtil.ParseUrlParameters(rawParameters);
+                parameters = WebUtil.ParseUrlParameters(rawParameters);
             }
 
             if (parameters != null && parameters.Count > 0)
@@ -24,6 +27,7 @@
                 CssClass = parameters["CssClass"];
             }
         }
+
         public string Color { get; private set; }
         public string ColorActive { get; private set; }
         public string BackgroundColor { get; private set;}

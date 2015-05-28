@@ -3,10 +3,12 @@
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using Spitfire.Library.Constants;
+
     using Sitecore.Data.Fields;
     using Sitecore.Data.Items;
     using Sitecore.Mvc.Presentation;
+
+    using Spitfire.Library.Constants;
 
     /// <summary>
     /// OwlTeaser component model
@@ -17,10 +19,12 @@
         /// return a list of selected items for owlTeaser component
         /// </summary>
         public IList<Item> OwlTeasers { get; private set; }
+
         /// <summary>
         /// Users can choose to display or hide the social icons with this parameter
         /// </summary>
-        public String SocialDisplay { get; set; }
+        public string SocialDisplay { get; set; }
+
         /// <summary>
         /// the rendering of the context page
         /// </summary>

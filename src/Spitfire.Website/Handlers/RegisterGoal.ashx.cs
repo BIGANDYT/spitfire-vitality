@@ -1,12 +1,12 @@
-﻿using System.Web;
-
-namespace Spitfire.Handlers
+﻿namespace Spitfire.Website.Handlers
 {
+    using System.Web;
     using System.Web.SessionState;
 
-    using Spitfire.Helpers;
     using Sitecore.Data;
     using Sitecore.Diagnostics;
+
+    using Spitfire.Library.Helpers;
 
     public class RegisterGoal : IHttpHandler, IRequiresSessionState
     {

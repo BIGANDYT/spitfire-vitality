@@ -1,13 +1,14 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using Sitecore.Data.Fields;
-using Sitecore.Data.Items;
-using Spitfire.Library.Constants;
-
-namespace Spitfire.Library.Models
+﻿namespace Spitfire.Library.Models
 {
+    using System.Collections.Generic;
+    using System.Linq;
+
+    using Sitecore.Data.Fields;
+    using Sitecore.Data.Items;
     using Sitecore.Mvc.Presentation;
+
+    using Spitfire.Library.Constants;
+
     public class TestimonalsCarouselModel : RenderingModel
     {
         public IList<Item> Teasers { get; private set; }

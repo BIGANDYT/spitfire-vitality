@@ -1,8 +1,9 @@
 ﻿namespace Spitfire.Library.Models
 {
-    using Sitecore.Mvc.Presentation;
     using System.Collections.Specialized;
-    using Spitfire.Library.Constants;
+
+    using Sitecore.Mvc.Presentation;
+    using Sitecore.Web;
 
     /// <summary>
     /// Icon Teaser left component
@@ -17,7 +18,7 @@
             if (!string.IsNullOrEmpty(rendering["Parameters"]))
             {
                 string rawParameters = rendering["Parameters"];
-                parameters = Sitecore.Web.WebUtil.ParseUrlParameters(rawParameters);
+                parameters = WebUtil.ParseUrlParameters(rawParameters);
             }
 
             if (parameters != null && parameters.Count > 0)
@@ -33,11 +34,13 @@
         /// </summary>
         public string TitleColor { get; private set; }
         
+
         /// <summary>
         /// Set Title font size
         /// </summary>
         public string TitleFontSize { get; private set; }
         
+
         /// <summary>
         /// Set background color
         /// </summary>

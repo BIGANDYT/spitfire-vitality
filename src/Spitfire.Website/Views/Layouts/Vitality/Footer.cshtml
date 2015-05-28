@@ -1,4 +1,5 @@
-﻿@model Spitfire.Library.Models.FooterModel
+﻿@using Spitfire.Library.Helpers
+@model Spitfire.Library.Models.FooterModel
 @using (Html.BeginEditFrame("/sitecore/content/Global/Footers/DefaultFooter", "/sitecore/content/Applications/WebEdit/Edit Frame Buttons/Footer"))
 {
     <footer class="footer" style="background-image: url('@Model.BackgroundImageUrl'); height: @Model.FooterHeight">

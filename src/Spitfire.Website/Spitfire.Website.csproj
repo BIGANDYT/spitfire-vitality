@@ -719,7 +719,6 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Views\Web.config" />
-    <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Layouts\Inspinia\Inspinia.cshtml" />
     <Content Include="Views\Layouts\Inspinia\_Navigation.cshtml" />
     <Content Include="Views\Layouts\Inspinia\_TopNavbar.cshtml" />

@@ -1,18 +1,11 @@
-﻿using Sitecore.Data.Items;
-using Sitecore.Mvc.Presentation;
-using Sitecore.Resources.Media;
-using Sitecore.Xml;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace Spitfire.Library.Models
+﻿namespace Spitfire.Library.Models
 {
+    using Sitecore.Mvc.Presentation;
+
     public class SectionModel : StyleModel
     {        
-        public String Id = "";
-        public String SubCssClass = "";
+        public string Id = string.Empty;
+        public string SubCssClass = string.Empty;
 
         public override void Initialize(Rendering rendering)
         {

@@ -1,15 +1,13 @@
-﻿using System.Linq;
-
-namespace Spitfire.Library.Models
+﻿namespace Spitfire.Library.Models
 {
     using System.Collections.Generic;
-    using Sitecore.Collections;
+    using System.Linq;
+
     using Sitecore.Data.Fields;
     using Sitecore.Data.Items;
-    using Sitecore.Syndication;
-    using Spitfire.Library.Constants;
-
     using Sitecore.Mvc.Presentation;
+
+    using Spitfire.Library.Constants;
 
     public class TeaserGallery : RenderingModel
     {
@@ -18,11 +16,11 @@ namespace Spitfire.Library.Models
             base.Initialize(rendering);
             if (!string.IsNullOrEmpty(Item[SpitfireConstants.FieldConstants.TeaserGroup.Source]))
             {
-                MultilistField Teasers = Item.Fields[SpitfireConstants.FieldConstants.TeaserGroup.Source];
+                MultilistField teasers = Item.Fields[SpitfireConstants.FieldConstants.TeaserGroup.Source];
 
-                if (Teasers != null)
+                if (teasers != null)
                 {
-                    TeaserItems = Teasers.GetItems().ToList();
+                    TeaserItems = teasers.GetItems().ToList();
                 }
             }
         }

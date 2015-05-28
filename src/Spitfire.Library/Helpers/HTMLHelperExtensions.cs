@@ -1,31 +1,32 @@
-﻿namespace Spitfire
+﻿namespace Spitfire.Library.Helpers
 {
     using System;
     using System.Web.Mvc;
-    using Framework.Controls;
+
+    using Spitfire.SitecoreExtensions.Controls;
 
     /// <summary>
     /// HTML Helper extensions
     /// </summary>
-    public static class HMTLHelperExtensions
+    public static class HtmlHelperExtensions
     {
-        public static String IsSelected(this HtmlHelper html, String controller = null, String action = null)
+        public static string IsSelected(this HtmlHelper html, string controller = null, string action = null)
         {
-            const String cssClass = "active";
+            const string CssClass = "active";
             var currentAction = (String)html.ViewContext.RouteData.Values["action"];
             var currentController = (String)html.ViewContext.RouteData.Values["controller"];
 
-            if (String.IsNullOrEmpty(controller))
+            if (string.IsNullOrEmpty(controller))
             {
                 controller = currentController;
             }
 
-            if (String.IsNullOrEmpty(action))
+            if (string.IsNullOrEmpty(action))
             {
                 action = currentAction;
             }
 
-            return controller == currentController && action == currentAction ? cssClass : String.Empty;
+            return controller == currentController && action == currentAction ? CssClass : string.Empty;
         }
 
         /// <summary>
@@ -36,7 +37,7 @@
         /// <param name="dataSource">The datasource for the item</param>
         /// <param name="buttons">The buttons to use</param>
         /// <returns>An EditFrame</returns>
-        public static EditFrameRendering BeginEditFrame<T>(this HtmlHelper<T> helper, String dataSource, String buttons)
+        public static EditFrameRendering BeginEditFrame<T>(this HtmlHelper<T> helper, string dataSource, string buttons)
         {
             var frame = new EditFrameRendering(helper.ViewContext.Writer, dataSource, buttons);
             return frame;

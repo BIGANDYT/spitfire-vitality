@@ -230,7 +230,9 @@
           </RuleSettings>
         </Rule>
       </Rules>
-      <AnalyzerSettings />
+      <AnalyzerSettings>
+        <BooleanProperty Name="GeneratedCodeElementOrder">False</BooleanProperty>
+      </AnalyzerSettings>
     </Analyzer>
     <Analyzer AnalyzerId="StyleCop.CSharp.ReadabilityRules">
       <Rules>

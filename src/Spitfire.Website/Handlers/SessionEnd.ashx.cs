@@ -1,4 +1,4 @@
-﻿namespace Spitfire.Handlers
+﻿namespace Spitfire.Website.Handlers
 {
     using System.Web;
     using System.Web.SessionState;

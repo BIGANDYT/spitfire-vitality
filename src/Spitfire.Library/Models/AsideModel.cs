@@ -1,17 +1,10 @@
-﻿using Sitecore.Data.Items;
-using Sitecore.Mvc.Presentation;
-using Sitecore.Resources.Media;
-using Sitecore.Xml;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace Spitfire.Library.Models
+﻿namespace Spitfire.Library.Models
 {
+    using Sitecore.Mvc.Presentation;
+
     public class AsideModel : StyleModel
     {        
-        public string Id = "";
+        public string Id = string.Empty;
 
         public override void Initialize(Rendering rendering)
         {

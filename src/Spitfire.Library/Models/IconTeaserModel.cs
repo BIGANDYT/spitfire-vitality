@@ -1,7 +1,9 @@
 ﻿namespace Spitfire.Library.Models
 {
     using System.Collections.Specialized;
+
     using Sitecore.Mvc.Presentation;
+    using Sitecore.Web;
 
     /// <summary>
     /// Icon Teaser Model
@@ -15,7 +17,7 @@
             if (!string.IsNullOrEmpty(rendering["Parameters"]))
             {
                 string rawParameters = rendering["Parameters"];
-                parameters = Sitecore.Web.WebUtil.ParseUrlParameters(rawParameters);
+                parameters = WebUtil.ParseUrlParameters(rawParameters);
             }
 
             if (parameters != null && parameters.Count > 0)

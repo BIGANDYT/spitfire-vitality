@@ -1,7 +1,10 @@
 ﻿namespace Spitfire.Library.Models
 {
-    using Sitecore.Mvc.Presentation;
     using System.Collections.Specialized;
+
+    using Sitecore.Mvc.Presentation;
+    using Sitecore.Web;
+
     public class ImageRightModel : RenderingModel
     {
         public override void Initialize(Rendering rendering)
@@ -11,7 +14,7 @@
             if (!string.IsNullOrEmpty(rendering["Parameters"]))
             {
                 string rawParameters = rendering["Parameters"];
-                parameters = Sitecore.Web.WebUtil.ParseUrlParameters(rawParameters);
+                parameters = WebUtil.ParseUrlParameters(rawParameters);
             }
 
             if (parameters != null && parameters.Count > 0)
@@ -39,6 +42,7 @@
                 }
             }
         }
+
         public string TitleColor { get; private set; }
         public string TitleFontSize { get; private set; }
         public string Background { get; private set; }
