@@ -72,7 +72,6 @@
                 /// The Video Source field id
                 /// </summary>
                 public const string Source = "{1EC8FCD0-F411-41A7-9B11-1C0BBF6DF9F9}";
-
             }
 
             /// <summary>

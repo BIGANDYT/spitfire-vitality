@@ -2,6 +2,6 @@
 {
     public static class ErrorConstants
     {
-        public static string NoDataDatatable = "No data in selected market, please define markettype";
+        public const string NoDataDatatable = "No data in selected market, please define markettype";
     }
 }

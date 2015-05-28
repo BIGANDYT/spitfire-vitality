@@ -3,9 +3,10 @@
     using Sitecore.Mvc.Presentation;
 
     public class SectionModel : StyleModel
-    {        
-        public string Id = string.Empty;
-        public string SubCssClass = string.Empty;
+    {
+        public string Id { get; set; }
+
+        public string SubCssClass { get; set; }
 
         public override void Initialize(Rendering rendering)
         {

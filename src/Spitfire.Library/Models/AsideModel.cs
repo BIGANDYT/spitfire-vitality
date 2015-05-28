@@ -3,8 +3,8 @@
     using Sitecore.Mvc.Presentation;
 
     public class AsideModel : StyleModel
-    {        
-        public string Id = string.Empty;
+    {
+        public string Id { get; set; }
 
         public override void Initialize(Rendering rendering)
         {

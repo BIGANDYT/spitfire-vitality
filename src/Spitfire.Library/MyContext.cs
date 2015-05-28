@@ -5,19 +5,19 @@
 
     public class MyContext
     {
-        private static readonly ItemsContext _items;
+        private static readonly ItemsContext ItemsInternal;
+
+        static MyContext()
+        {
+            ItemsInternal = new ItemsContext();
+        }
 
         public static ItemsContext Items
         {
             get
             {
-                return _items;
+                return ItemsInternal;
             }
-        }
-
-        static MyContext()
-        {
-            _items = new ItemsContext();
         }
 
         // public static IBasePage BasePage
@@ -73,7 +73,7 @@
         // .FirstOrDefault(x => x.ItemId == Sitecore.Context.Item.ID && (!IsMaster || x.IsLatestVersion));
         // }
         // }
-        // }
+        //// }
 
         public static bool IsMaster
         {

@@ -1,8 +1,6 @@
 ﻿namespace Spitfire.Library.Helpers
 {
-    using System;
     using System.Web.Mvc;
-
     using Spitfire.SitecoreExtensions.Controls;
 
     /// <summary>
@@ -13,8 +11,8 @@
         public static string IsSelected(this HtmlHelper html, string controller = null, string action = null)
         {
             const string CssClass = "active";
-            var currentAction = (String)html.ViewContext.RouteData.Values["action"];
-            var currentController = (String)html.ViewContext.RouteData.Values["controller"];
+            var currentAction = (string)html.ViewContext.RouteData.Values["action"];
+            var currentController = (string)html.ViewContext.RouteData.Values["controller"];
 
             if (string.IsNullOrEmpty(controller))
             {
@@ -42,5 +40,5 @@
             var frame = new EditFrameRendering(helper.ViewContext.Writer, dataSource, buttons);
             return frame;
         }
-	}
+    }
 }

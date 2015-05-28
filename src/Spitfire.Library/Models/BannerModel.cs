@@ -4,7 +4,6 @@
     using Sitecore.Data.Fields;
     using Sitecore.Mvc.Presentation;
     using Sitecore.Resources.Media;
-
     using Spitfire.Library.Constants;
 
     using Convert = System.Convert;
@@ -12,11 +11,17 @@
     public class BannerModel : IRenderingModel
     {
         public string BackgroundImageUrl { get; set; }
+
         public string TitleColor { get; set; }
+
         public string SubTitleColor { get; set; }
+
         public string LinkColor { get; set; }
+
         public int LogoTop { get; set; }
+
         public int LogoLeft { get; set; }
+
         public int BannerHeight { get; set; }
 
         public void Initialize(Rendering rendering)

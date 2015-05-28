@@ -2,15 +2,15 @@
 {
     using System.Collections.Generic;
     using System.Linq;
-
     using Sitecore.Data.Fields;
     using Sitecore.Data.Items;
     using Sitecore.Mvc.Presentation;
-
     using Spitfire.Library.Constants;
 
     public class TeaserGallery : RenderingModel
     {
+        public IList<Item> TeaserItems { get; private set; }
+
         public override void Initialize(Rendering rendering)
         {
             base.Initialize(rendering);
@@ -24,7 +24,5 @@
                 }
             }
         }
-
-        public IList<Item> TeaserItems { get; private set; }
     }
 }

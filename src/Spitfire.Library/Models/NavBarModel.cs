@@ -21,7 +21,6 @@
 
         public IList<Item> NavItems { get; private set; }
         
-
         /// <summary>
         /// Initialize the NavBar Model
         /// </summary>

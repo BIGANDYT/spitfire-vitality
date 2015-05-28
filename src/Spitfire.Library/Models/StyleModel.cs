@@ -1,25 +1,28 @@
 ﻿namespace Spitfire.Library.Models
 {
     using Sitecore;
-    using Sitecore.Data.Items;
     using Sitecore.Mvc.Presentation;
     using Sitecore.Resources.Media;
     using Sitecore.Xml;
 
     public class StyleModel : IRenderingModel
     {
-        public string CssStyle = string.Empty;
-        public string CssClass = string.Empty;
-        public string BackgroundImgUrl = string.Empty;
+        public string CssStyle { get; set; }
+        
+        public string CssClass { get; set; }
+
+        public string BackgroundImgUrl { get; set; }
 
         public virtual void Initialize(Rendering rendering)
         {
             CssStyle = rendering.Parameters["CssStyle"];
             CssClass = rendering.Parameters["CssClass"];
+            BackgroundImgUrl = string.Empty;
+
             if (!string.IsNullOrEmpty(rendering.Parameters["BackgroundImage"]))
             {
                 var imageId = XmlUtil.GetAttribute("mediaid", XmlUtil.LoadXml(rendering.Parameters["BackgroundImage"]));
-                MediaItem imageItem = Context.Database.GetItem(imageId);
+                var imageItem = Context.Database.GetItem(imageId);
                 if (imageItem != null)
                 {
                     BackgroundImgUrl = MediaManager.GetMediaUrl(imageItem);
