@@ -16,10 +16,45 @@ key: path
 content-length: 44
 
 /Views/Components/TestimonalsCarousel.cshtml
+----field----
+field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
+name: Model
+key: model
+content-length: 53
+
+/sitecore/layout/Models/Core/TestimonalsCarouselModel
+----field----
+field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
+name: Open Properties after Add
+key: open properties after add
+content-length: 1
+
+-
+----field----
+field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
+name: Datasource Location
+key: datasource location
+content-length: 36
+
+/sitecore/content/Global/Testimonals
+----field----
+field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
+name: Datasource Template
+key: datasource template
+content-length: 47
+
+/sitecore/templates/Core/Components/TeaserGroup
+----field----
+field: {A2F5D9DF-8CBA-4A1D-99EB-51ACB94CB057}
+name: Page Editor Buttons
+key: page editor buttons
+content-length: 38
+
+{0738B540-A92A-4361-85E9-BE5CA1F0EF59}
 ----version----
 language: en
 version: 1
-revision: 8777f26b-bbb1-46be-9cd5-07f19ab188b2
+revision: 6bfb9069-2e0c-4378-8adc-1de5ab628c64
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,14 +69,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8777f26b-bbb1-46be-9cd5-07f19ab188b2
+6bfb9069-2e0c-4378-8adc-1de5ab628c64
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150506T141804:635665186846065017Z
+20150527T125103:635683278634000522Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

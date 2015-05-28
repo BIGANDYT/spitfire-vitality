@@ -2,7 +2,7 @@
 version: 1
 id: {57A0B394-DC2E-4AFF-B4F1-71E955C790DF}
 database: master
-path: /sitecore/templates/Core/Taxonomies/Teaser/__Standard Values
+path: /sitecore/templates/Core/Components/Teaser/__Standard Values
 parent: {60920BFB-F0BB-4DED-BAAC-AEF1F68FE6E8}
 name: __Standard Values
 master: {00000000-0000-0000-0000-000000000000}

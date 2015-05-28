@@ -12,7 +12,7 @@ templatekey: Teaser
 ----version----
 language: en
 version: 1
-revision: 57e56c3f-09ef-4742-a2f1-8e966cfb7e3b
+revision: d1da5ede-097c-4743-9e38-f100f82c902e
 
 ----field----
 field: {8F835316-A8FF-411A-905B-CFC143D7950C}
@@ -50,6 +50,27 @@ content-length: 164
 
 <link text="SIGN UP" linktype="internal" class="btn btn-outline-dark" title="" target='Active Browser' querystring="" id="{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}" />
 ----field----
+field: {792D55A1-CEA1-45CA-A329-FC0170338D1D}
+name: Symbol
+key: symbol
+content-length: 1
+
+$
+----field----
+field: {2B930157-09F5-45C6-9272-8A5F99490068}
+name: Amount
+key: amount
+content-length: 2
+
+25
+----field----
+field: {301A0FBE-382D-4BB6-A008-DB2E80823D0D}
+name: Period
+key: period
+content-length: 5
+
+month
+----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
@@ -62,14 +83,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-57e56c3f-09ef-4742-a2f1-8e966cfb7e3b
+d1da5ede-097c-4743-9e38-f100f82c902e
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150522T155045:635679066456587222Z
+20150526T100027:635682312277989687Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

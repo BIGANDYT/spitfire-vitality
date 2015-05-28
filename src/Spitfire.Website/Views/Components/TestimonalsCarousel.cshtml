@@ -1,52 +1,39 @@
-﻿<div class="testimonials-carousel">
-    <div class="item">
-        <div class="row">
-            <div class="col-lg-12">
-                <p class="lead">"Working with Vitality was both a valuable and rewarding experience."</p>
-                <hr class="colored">
-                <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, temporibus, laborum, dignissimos doloremque corporis alias nostrum recusandae culpa id quisquam harum impedit sed sunt non obcaecati vero ipsam aut fugit?</p>
-                <div class="testimonial-info">
-                    <div class="testimonial-img">
-                        <img src="/Content/img/vitality/testimonials/1.jpg" class="img-circle img-responsive" alt="">
-                    </div>
-                    <div class="testimonial-author">
-                        <span class="name">Jim Walker</span>
-                        <p class="small">CEO of GeneriCorp</p>
-                        <div class="stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
+﻿@using Sitecore.Data.Items
+@model Spitfire.Library.Models.TestimonalsCarouselModel
+
+<div class="testimonials-carousel">
+    @if (Model.Teasers != null)
+    {
+        foreach (Item item in Model.Teasers)
+        {
+            <div class="item">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="lead">@Html.Sitecore().Field("Title", item)</p>
+                        <hr class="colored">
+                        <p class="quote">@Html.Sitecore().Field("Details", item)</p>
+                        <div class="testimonial-info">
+                            <div class="testimonial-img">
+                                @Html.Sitecore().Field("Thumbnail", item, new {@class = "img-circle img-responsive"})
+                            </div>
+                            <div class="testimonial-author">
+                                <span class="name">@Html.Sitecore().Field("SubTitle", item)</span>
+                                <p class="small">@Html.Sitecore().Field("Type", item)</p>
+                               @using (Html.BeginEditFrame(item.Paths.Path, "/sitecore/content/Applications/WebEdit/Edit Frame Buttons/Teasers"))
+                               {
+                                   <div class="stars">
+                                       @for (var i = 0; i < int.Parse(item["star"]); i++)
+                                       {
+                                           <i class="fa fa-star"></i>
+                                       }
+                                   </div>
+                               }
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="item">
-        <div class="row">
-            <div class="col-lg-12">
-                <p class="lead">"Working with Vitality was both a valuable and rewarding experience."</p>
-                <hr class="colored">
-                <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, temporibus, laborum, dignissimos doloremque corporis alias nostrum recusandae culpa id quisquam harum impedit sed sunt non obcaecati vero ipsam aut fugit?</p>
-                <div class="testimonial-info">
-                    <div class="testimonial-img">
-                        <img src="/Content/img/vitality/testimonials/1.jpg" class="img-circle img-responsive" alt="">
-                    </div>
-                    <div class="testimonial-author">
-                        <span class="name">Jim Walker</span>
-                        <p class="small">CEO of GeneriCorp</p>
-                        <div class="stars">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        }
+    }
+
 </div>

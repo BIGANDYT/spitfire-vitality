@@ -2,7 +2,7 @@
 version: 1
 id: {D6303669-FBF0-46B9-836A-74AD60DB0913}
 database: master
-path: /sitecore/templates/Core/TeaserGroup/Teasers/Display
+path: /sitecore/templates/Core/Components/TeaserGroup/Teasers/Display
 parent: {B3AA0849-7C17-4F88-87D2-E0DA54BFD11E}
 name: Display
 master: {00000000-0000-0000-0000-000000000000}
