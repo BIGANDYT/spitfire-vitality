@@ -10,6 +10,14 @@
 
     public class RegisterGoal : IHttpHandler, IRequiresSessionState
     {
+        public bool IsReusable
+        {
+            get
+            {
+                return false;
+            }
+        }
+
         public void ProcessRequest(HttpContext context)
         {
             ID id;
@@ -26,14 +34,6 @@
             }
 
             context.Response.Write("OK");
-        }
-
-        public bool IsReusable
-        {
-            get
-            {
-                return false;
-            }
         }
     }
 }

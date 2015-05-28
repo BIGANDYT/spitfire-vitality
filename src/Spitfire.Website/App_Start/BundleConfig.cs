@@ -4,7 +4,6 @@
 
     public class BundleConfig
     {
-
         public static void RegisterBundles(BundleCollection bundles)
         {
             IItemTransform cssFixer = new CssRewriteUrlTransform();
