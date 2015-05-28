@@ -2,7 +2,7 @@
 call vars.cmd
 
 :: Copy SIM + installation packages to c:\SpitfireInstaller
-tools\bash -c "tools/rsync --delete -zrtv -e 'tools\ssh -p 65422 -i tools/sitecoreci.key' spitfireinstaller@sitecoreci.cloudapp.net:/cygdrive/c/spitfireinstaller/ /cygdrive/c/spitfireinstaller/"
+call sync-installer.cmd
 
 IF /I NOT "%CD%" EQU "%SourceDirectory%\build" (
 	echo This repository should be checked out to %SourceDirectory% - CD is %CD%
