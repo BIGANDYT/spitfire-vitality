@@ -12,7 +12,7 @@ templatekey: Teaser
 ----version----
 language: en
 version: 1
-revision: bea13907-699a-4efc-8317-65a71f111c8f
+revision: 701d1067-412a-4f35-9930-6cc0e6efe606
 
 ----field----
 field: {8F835316-A8FF-411A-905B-CFC143D7950C}
@@ -32,9 +32,9 @@ content-length: 58
 field: {18677565-989E-4FBB-BF7A-E39B4BD9029D}
 name: Details
 key: details
-content-length: 347
+content-length: 354
 
-I am a freelance web designer, developer, and photographer based in San Francisco, California. I have a professional background in graphic design, and a degree in Computer Science from the University of Central California.
+<p>I am a freelance web designer, developer, and photographer based in San Francisco, California. I have a professional background in graphic design, and a degree in Computer Science from the University of Central California.</p>
 <p>Whether your next project is an online store, website for your business, or a simple brochure, I'll be ready to help!</p>
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -49,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-bea13907-699a-4efc-8317-65a71f111c8f
+701d1067-412a-4f35-9930-6cc0e6efe606
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150527T134018:635683308185491464Z
+20150531T144626:635686803869521617Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
