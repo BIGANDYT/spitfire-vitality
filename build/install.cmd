@@ -4,10 +4,12 @@ call vars.cmd
 :: Copy SIM + installation packages to c:\SpitfireInstaller
 IF NOT DEFINED IsBuildServer call sync-installer.cmd
 
-IF /I NOT "%CD%" EQU "%SourceDirectory%\build" (
-	echo This repository should be checked out to %SourceDirectory% - CD is %CD%
-	pause
-	EXIT /B 1
+IF NOT DEFINED IsBuildServer (
+	IF /I NOT "%CD%" EQU "%SourceDirectory%\build" (
+		echo This repository should be checked out to %SourceDirectory% - CD is %CD%
+		pause
+		EXIT /B 1
+	)
 )
 
 %appcmd% list site /name:"%BaseSite%"
@@ -31,7 +33,7 @@ call build-all.cmd
 call updates.cmd %BaseSite%
 
 :: Deploying Unicorn items
-call sync.cmd %BaseSite%
+:: call sync.cmd %BaseSite%
 
 echo Installation finished
 pause
