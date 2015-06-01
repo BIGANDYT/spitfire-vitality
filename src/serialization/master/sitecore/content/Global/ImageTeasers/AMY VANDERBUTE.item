@@ -12,7 +12,7 @@ templatekey: Teaser
 ----version----
 language: en
 version: 1
-revision: 51f85632-d583-4422-9cdf-d419609490f5
+revision: 2c19c531-8b19-420e-8a5a-e750d4c38cce
 
 ----field----
 field: {8F835316-A8FF-411A-905B-CFC143D7950C}
@@ -25,9 +25,9 @@ AMY VANDERBUTE
 field: {BF25D316-D309-4F57-A05C-F093BE9738AC}
 name: Image
 key: image
-content-length: 237
+content-length: 241
 
-<image mediapath="/Images/Teasers/Images/AMY Vanderbute" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Images/Teasers/Images/AMY Vanderbute" mediaid="{325261C7-DA15-46DC-A608-3AC873108E98}" />
+<image mediapath="/Images/Teasers/Images/AMY Vanderbute" alt="" width="" height="auto" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Images/Teasers/Images/AMY Vanderbute" mediaid="{325261C7-DA15-46DC-A608-3AC873108E98}" />
 ----field----
 field: {E6FCC918-A5B9-445A-9976-BF65B3A2772F}
 name: SubTitle
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-51f85632-d583-4422-9cdf-d419609490f5
+2c19c531-8b19-420e-8a5a-e750d4c38cce
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150513T144558:635671251585332411Z
+20150601T101916:635687507562596568Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -63,3 +63,10 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

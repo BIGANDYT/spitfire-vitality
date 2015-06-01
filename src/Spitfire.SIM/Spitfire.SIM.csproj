@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B535703F-8D07-4F23-A533-2974BB4CC7B1}</ProjectGuid>
+    <ProjectGuid>{6F85DEE3-3AF3-4598-93E0-1CE99401E519}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Spitfire.SitecoreExtensions</RootNamespace>
-    <AssemblyName>Spitfire.SitecoreExtensions</AssemblyName>
-    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <RootNamespace>Spitfire.SIMExtensions</RootNamespace>
+    <AssemblyName>Spitfire.SIM</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -31,12 +30,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Sitecore.Kernel">
-      <HintPath>..\..\lib\Sitecore\Sitecore.Kernel.dll</HintPath>
+    <Reference Include="SIM.Base">
+      <HintPath>..\..\lib\SIM\SIM.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="SIM.Kernel.Adapters">
+      <HintPath>..\..\lib\SIM\SIM.Kernel.Adapters.dll</HintPath>
+    </Reference>
+    <Reference Include="SIM.Kernel.Instances">
+      <HintPath>..\..\lib\SIM\SIM.Kernel.Instances.dll</HintPath>
+    </Reference>
+    <Reference Include="SIM.Kernel.Pipelines">
+      <HintPath>..\..\lib\SIM\SIM.Kernel.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="SIM.Pipelines">
+      <HintPath>..\..\lib\SIM\SIM.Pipelines.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,8 +54,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controls\EditFrame.cs" />
+    <Compile Include="Delete\DeleteRegistryKey.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pipelines.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
