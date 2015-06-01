@@ -33,7 +33,7 @@ call build-all.cmd
 call updates.cmd %BaseSite%
 
 :: Deploying Unicorn items
-:: call sync.cmd %BaseSite%
+call sync.cmd %BaseSite%
 
 echo Installation finished
 pause

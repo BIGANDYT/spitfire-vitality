@@ -1,7 +1,4 @@
-param (
-	[string]$config = "c:\websites\spitfire\website\web.config",
-    [string]$folder = "c:\websites\spitfire\data"
-)
+param ([string]$config, [string]$folder)
 
 [xml]$doc = Get-Content $config     
 $nodes = $doc.SelectNodes("/configuration/sitecore/sc.variable[1]") 
