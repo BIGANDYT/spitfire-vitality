@@ -12,7 +12,7 @@ templatekey: Teaser
 ----version----
 language: en
 version: 1
-revision: 42d17102-db30-4a1c-8113-bdc15d4695f6
+revision: 409a363b-482a-49f0-a224-2ba6fbf1b084
 
 ----field----
 field: {8F835316-A8FF-411A-905B-CFC143D7950C}
@@ -25,9 +25,9 @@ AMY WEST
 field: {BF25D316-D309-4F57-A05C-F093BE9738AC}
 name: Image
 key: image
-content-length: 164
+content-length: 168
 
-<image mediapath="" alt="Amy West" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{1EE9618F-7765-45D8-85DE-1EF34D409004}" />
+<image mediapath="" alt="Amy West" width="" height="auto" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{1EE9618F-7765-45D8-85DE-1EF34D409004}" />
 ----field----
 field: {E6FCC918-A5B9-445A-9976-BF65B3A2772F}
 name: SubTitle
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-42d17102-db30-4a1c-8113-bdc15d4695f6
+409a363b-482a-49f0-a224-2ba6fbf1b084
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150512T111948:635670263885066848Z
+20150601T101916:635687507561866031Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -63,3 +63,10 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
