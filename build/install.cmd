@@ -2,7 +2,7 @@
 call vars.cmd
 
 :: Copy SIM + installation packages to c:\SpitfireInstaller
-call sync-installer.cmd
+IF NOT DEFINED IsBuildServer call sync-installer.cmd
 
 IF /I NOT "%CD%" EQU "%SourceDirectory%\build" (
 	echo This repository should be checked out to %SourceDirectory% - CD is %CD%
