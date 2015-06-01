@@ -12,7 +12,7 @@ templatekey: Teaser
 ----version----
 language: en
 version: 1
-revision: 25d573ff-84f0-4408-8df9-2b2733845250
+revision: 5234baa5-9286-442c-a68f-1ab2aac0c2ad
 
 ----field----
 field: {8F835316-A8FF-411A-905B-CFC143D7950C}
@@ -25,9 +25,9 @@ Mountain Tea
 field: {BF25D316-D309-4F57-A05C-F093BE9738AC}
 name: Image
 key: image
-content-length: 65
+content-length: 114
 
-<image mediaid="{037ED9CC-2BB4-4766-966A-8C35DFDB571D}" ></image>
+<image mediaid="{037ED9CC-2BB4-4766-966A-8C35DFDB571D}" alt="" height="auto" width="" hspace="" vspace=""></image>
 ----field----
 field: {E6FCC918-A5B9-445A-9976-BF65B3A2772F}
 name: SubTitle
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-25d573ff-84f0-4408-8df9-2b2733845250
+5234baa5-9286-442c-a68f-1ab2aac0c2ad
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150522T151057:635679042573169203Z
+20150601T100958:635687501983046487Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

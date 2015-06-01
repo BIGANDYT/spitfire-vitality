@@ -12,7 +12,7 @@ templatekey: Teaser
 ----version----
 language: en
 version: 1
-revision: 0ea651b4-4754-45be-9518-333dee78d29d
+revision: 8843e4ac-e322-4f19-be79-43bc36fa81d0
 
 ----field----
 field: {8F835316-A8FF-411A-905B-CFC143D7950C}
@@ -25,9 +25,9 @@ Office supplies
 field: {BF25D316-D309-4F57-A05C-F093BE9738AC}
 name: Image
 key: image
-content-length: 65
+content-length: 114
 
-<image mediaid="{7ED4DD58-944A-47A1-9635-8FCAF4868E82}" ></image>
+<image mediaid="{7ED4DD58-944A-47A1-9635-8FCAF4868E82}" alt="" height="auto" width="" hspace="" vspace=""></image>
 ----field----
 field: {E6FCC918-A5B9-445A-9976-BF65B3A2772F}
 name: SubTitle
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-0ea651b4-4754-45be-9518-333dee78d29d
+8843e4ac-e322-4f19-be79-43bc36fa81d0
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150522T151057:635679042572028381Z
+20150601T100958:635687501981715476Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

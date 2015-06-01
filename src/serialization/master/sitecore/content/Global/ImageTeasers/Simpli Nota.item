@@ -12,7 +12,7 @@ templatekey: Teaser
 ----version----
 language: en
 version: 1
-revision: 9cf917a6-48ea-4290-b10c-57ff27c67c24
+revision: 136add84-2ca6-4b03-9d93-d3c0400062d8
 
 ----field----
 field: {8F835316-A8FF-411A-905B-CFC143D7950C}
@@ -25,9 +25,9 @@ Simpli Nota
 field: {BF25D316-D309-4F57-A05C-F093BE9738AC}
 name: Image
 key: image
-content-length: 65
+content-length: 114
 
-<image mediaid="{038DAAEF-218D-4257-A6E8-1965B1CC9DA9}" ></image>
+<image mediaid="{038DAAEF-218D-4257-A6E8-1965B1CC9DA9}" alt="" height="auto" width="" hspace="" vspace=""></image>
 ----field----
 field: {E6FCC918-A5B9-445A-9976-BF65B3A2772F}
 name: SubTitle
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-9cf917a6-48ea-4290-b10c-57ff27c67c24
+136add84-2ca6-4b03-9d93-d3c0400062d8
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150522T151057:635679042572653832Z
+20150601T100958:635687501982506068Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
