@@ -12,7 +12,7 @@ templatekey: Teaser
 ----version----
 language: en
 version: 1
-revision: dd4edda1-b23e-4408-8124-bcd849234251
+revision: c3b39ef6-e56c-4a50-a26b-5b291738c6e8
 
 ----field----
 field: {8F835316-A8FF-411A-905B-CFC143D7950C}
@@ -25,9 +25,9 @@ HOWARD SCOTT
 field: {BF25D316-D309-4F57-A05C-F093BE9738AC}
 name: Image
 key: image
-content-length: 233
+content-length: 237
 
-<image mediapath="/Images/Teasers/Images/Howard scott" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Images/Teasers/Images/Howard scott" mediaid="{CAA77710-7C32-46F2-99A9-11560996B7F8}" />
+<image mediapath="/Images/Teasers/Images/Howard scott" alt="" width="" height="auto" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Images/Teasers/Images/Howard scott" mediaid="{CAA77710-7C32-46F2-99A9-11560996B7F8}" />
 ----field----
 field: {E6FCC918-A5B9-445A-9976-BF65B3A2772F}
 name: SubTitle
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-dd4edda1-b23e-4408-8124-bcd849234251
+c3b39ef6-e56c-4a50-a26b-5b291738c6e8
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150512T112324:635670266043954109Z
+20150601T101916:635687507562116218Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -63,3 +63,10 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

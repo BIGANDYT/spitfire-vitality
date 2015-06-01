@@ -37,19 +37,19 @@
       <HintPath>..\..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Analytics">
-      <HintPath>..\..\lib\Sitecore.Analytics.dll</HintPath>
+      <HintPath>..\..\lib\Sitecore\Sitecore.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Analytics.Core">
-      <HintPath>..\..\lib\Sitecore.Analytics.Core.dll</HintPath>
+      <HintPath>..\..\lib\Sitecore\Sitecore.Analytics.Core.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Analytics.Model">
-      <HintPath>..\..\lib\Sitecore.Analytics.Model.dll</HintPath>
+      <HintPath>..\..\lib\Sitecore\Sitecore.Analytics.Model.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Kernel">
-      <HintPath>..\..\lib\Sitecore.Kernel.dll</HintPath>
+      <HintPath>..\..\lib\Sitecore\Sitecore.Kernel.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Mvc">
-      <HintPath>..\..\lib\Sitecore.Mvc.dll</HintPath>
+      <HintPath>..\..\lib\Sitecore\Sitecore.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
