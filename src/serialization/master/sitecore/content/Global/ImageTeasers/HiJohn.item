@@ -12,7 +12,7 @@ templatekey: Teaser
 ----version----
 language: en
 version: 1
-revision: 701d1067-412a-4f35-9930-6cc0e6efe606
+revision: 47d8304f-9f86-4676-b57f-4adae4877475
 
 ----field----
 field: {8F835316-A8FF-411A-905B-CFC143D7950C}
@@ -25,9 +25,9 @@ HI, I'M JOHN SMITH
 field: {BF25D316-D309-4F57-A05C-F093BE9738AC}
 name: Image
 key: image
-content-length: 58
+content-length: 108
 
-<image mediaid="{BD2D431C-6F79-4502-8948-1D050CF87583}" />
+<image mediaid="{BD2D431C-6F79-4502-8948-1D050CF87583}" alt="" height="auto" width="" hspace="" vspace="" />
 ----field----
 field: {18677565-989E-4FBB-BF7A-E39B4BD9029D}
 name: Details
@@ -49,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-701d1067-412a-4f35-9930-6cc0e6efe606
+47d8304f-9f86-4676-b57f-4adae4877475
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150531T144626:635686803869521617Z
+20150601T101424:635687504649804760Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -64,3 +64,10 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
