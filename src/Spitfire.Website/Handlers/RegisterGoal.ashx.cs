@@ -1,15 +1,23 @@
-﻿using System.Web;
-
-namespace Spitfire.Handlers
+﻿namespace Spitfire.Website.Handlers
 {
+    using System.Web;
     using System.Web.SessionState;
 
-    using Spitfire.Helpers;
     using Sitecore.Data;
     using Sitecore.Diagnostics;
 
+    using Spitfire.Library.Helpers;
+
     public class RegisterGoal : IHttpHandler, IRequiresSessionState
     {
+        public bool IsReusable
+        {
+            get
+            {
+                return false;
+            }
+        }
+
         public void ProcessRequest(HttpContext context)
         {
             ID id;
@@ -26,14 +34,6 @@ namespace Spitfire.Handlers
             }
 
             context.Response.Write("OK");
-        }
-
-        public bool IsReusable
-        {
-            get
-            {
-                return false;
-            }
         }
     }
 }

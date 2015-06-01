@@ -1,5 +1,6 @@
-﻿namespace Spitfire.Helpers
+﻿namespace Spitfire.Library.Helpers
 {
+    using Sitecore;
     using Sitecore.Analytics;
     using Sitecore.Analytics.Data.Items;
     using Sitecore.Data;
@@ -26,7 +27,7 @@
                 return false;
             }
 
-            var goalItem = Sitecore.Context.Database.GetItem(goalID);
+            var goalItem = Context.Database.GetItem(goalID);
             if (goalItem == null)
             {
                 Log.Warn("Goal Item is empty from ID: " + goalID, typeof(AnalyticsHelper));

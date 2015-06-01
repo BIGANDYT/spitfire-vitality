@@ -1,12 +1,14 @@
-﻿@model Spitfire.Library.Models.FooterModel
+﻿@using Spitfire.Library.Helpers
+@model Spitfire.Library.Models.FooterModel
 @using (Html.BeginEditFrame("/sitecore/content/Global/Footers/DefaultFooter", "/sitecore/content/Applications/WebEdit/Edit Frame Buttons/Footer"))
 {
     <footer class="footer" style="background-image: url('@Model.BackgroundImageUrl'); height: @Model.FooterHeight">
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-4 contact-details">
-                    <h4>@*<i class="fa fa-phone"></i>*@
-                        @Html.Sitecore().Field("Title1Icon", @Model.Item, new {mw = 20, mh = 20})
+                    <h4>
+                        @*<i class="fa fa-phone"></i>*@
+                        @Html.Sitecore().Field("Title1Icon", @Model.Item, new { mw = 20, mh = 20 })
                         @Html.Sitecore().Field("Title1", @Model.Item)
                     </h4>
                     <p>@Html.Sitecore().Field("Title1Info", @Model.Item)</p>
@@ -14,14 +16,15 @@
                 <div class="col-md-4 contact-details">
                     <h4>
                         @*<i class="fa fa-map-marker"></i>*@
-                        @Html.Sitecore().Field("Title2Icon", @Model.Item, new {mw = 20, mh = 20})
+                        @Html.Sitecore().Field("Title2Icon", @Model.Item, new { mw = 20, mh = 20 })
                         @Html.Sitecore().Field("Title2", @Model.Item)
                     </h4>
                     <p>@Html.Sitecore().Field("Title2Info", @Model.Item)</p>
                 </div>
                 <div class="col-md-4 contact-details">
-                    <h4>@*<i class="fa fa-envelope"></i>*@
-                        @Html.Sitecore().Field("Title3Icon", @Model.Item, new {mw = 20, mh = 20})
+                    <h4>
+                        @*<i class="fa fa-envelope"></i>*@
+                        @Html.Sitecore().Field("Title3Icon", @Model.Item, new { mw = 20, mh = 20 })
                         @Html.Sitecore().Field("Title3", @Model.Item)</h4>
                     <p>@Html.Sitecore().Field("Title3Info", @Model.Item)</p>
                 </div>
@@ -50,4 +53,4 @@
             </div>
         </div>
     </footer>
-    }
+}

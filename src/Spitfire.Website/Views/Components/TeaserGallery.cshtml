@@ -24,22 +24,23 @@
 <div class="row">
     <div class="col-lg-12">
         <div id="portfoliolist">
-            @if (Model.TeaserItems != null){
+            @if (Model.TeaserItems != null)
+            {
                 foreach (var item in Model.TeaserItems)
                 {
-                    var tags="";
+                    var tags = string.Empty;
                     if (item.Fields["Tag"] != null)
                     {
                         MultilistField treelistFiled = item.Fields["Tag"];
                         foreach (Item i in treelistFiled.GetItems())
                         {
-                            tags += " "+ i.Name;
+                            tags += " " + i.Name;
                         }
                     }
 
                     <div class="portfolio @tags" data-cat=@tags href="#portfolioModal1" data-toggle="modal">
                         <div class="portfolio-wrapper">
-                           @Html.Sitecore().Field("Image", item)
+                            @Html.Sitecore().Field("Image", item)
                             <div class="caption">
                                 <div class="caption-text">
                                     <a class="text-title">@Html.Sitecore().Field("Title", item)</a>

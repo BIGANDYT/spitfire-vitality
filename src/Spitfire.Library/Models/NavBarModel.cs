@@ -3,9 +3,12 @@
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using Constants;
+
+    using Sitecore;
     using Sitecore.Data.Items;
     using Sitecore.Mvc.Presentation;
+
+    using Spitfire.Library.Constants;
 
     public class NavBarModel : IRenderingModel
     {
@@ -14,7 +17,7 @@
         /// </summary>
         public Item NavRoot { get; private set; }
 
-        public String BackgroundColor { get; private set; }
+        public string BackgroundColor { get; private set; }
 
         public IList<Item> NavItems { get; private set; }
         
@@ -25,12 +28,12 @@
         public void Initialize(Rendering rendering)
         {
             // Todo: Possibly use Sitecore Search? 
-            NavRoot = Sitecore.Context.Database.SelectSingleItem(Sitecore.Context.Site.StartPath + "//*[@@tid='" + SpitfireConstants.TemplateIds.NavBar + "']");
+            NavRoot = Context.Database.SelectSingleItem(Context.Site.StartPath + "//*[@@tid='" + SpitfireConstants.TemplateIds.NavBar + "']");
 
             if (NavRoot != null)
             {
                 BackgroundColor = NavRoot[SpitfireConstants.FieldConstants.NavBar.BackgroundColor];
-                NavItems = NavRoot.Children.Where(item => String.Equals(item.TemplateID.ToString(), SpitfireConstants.TemplateIds.NavItem, StringComparison.InvariantCultureIgnoreCase)).ToList();
+                NavItems = NavRoot.Children.Where(item => string.Equals(item.TemplateID.ToString(), SpitfireConstants.TemplateIds.NavItem, StringComparison.InvariantCultureIgnoreCase)).ToList();
             }
         }
     }

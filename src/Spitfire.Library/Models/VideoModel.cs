@@ -1,10 +1,12 @@
 ﻿namespace Spitfire.Library.Models
 {
-    using System;
-    using Constants;
+    using Sitecore;
     using Sitecore.Data.Fields;
     using Sitecore.Data.Items;
     using Sitecore.Mvc.Presentation;
+    using Sitecore.Resources.Media;
+
+    using Spitfire.Library.Constants;
 
     /// <summary>
     /// The model for the video. 
@@ -19,27 +21,27 @@
         /// <summary>
         /// The type of video
         /// </summary>
-        public String VideoType { get; private set; }
+        public string VideoType { get; private set; }
 
         /// <summary>
         /// The path to the video in the media library
         /// </summary>
-        public String VideoPath { get; private set; }
+        public string VideoPath { get; private set; }
 
         /// <summary>
         /// Value indicating whether the video should loop
         /// </summary>
-        public Boolean Loop { get; private set; }
+        public bool Loop { get; private set; }
 
         /// <summary>
         /// Value indicating whether the video should autoplay
         /// </summary>
-        public Boolean Autoplay { get; private set; }
+        public bool Autoplay { get; private set; }
 
         /// <summary>
         /// Value indicating whether the video should play muted
         /// </summary>
-        public Boolean Mute { get; private set; }
+        public bool Mute { get; private set; }
 
         /// <summary>
         /// Initialize the Video Model
@@ -47,19 +49,19 @@
         /// <param name="rendering">The Rendering to use</param>
         public void Initialize(Rendering rendering)
         {
-            if (!String.IsNullOrWhiteSpace(rendering.DataSource))
+            if (!string.IsNullOrWhiteSpace(rendering.DataSource))
             {
-                Item = Sitecore.Context.Database.GetItem(rendering.DataSource);
+                Item = Context.Database.GetItem(rendering.DataSource);
             }
             else
             {
-                Item = Sitecore.Context.Item;
+                Item = Context.Item;
             }
 
             var videoItemField = (FileField)Item.Fields[SpitfireConstants.FieldConstants.Video.Source];
             if (videoItemField != null && videoItemField.MediaItem != null)
             {
-                VideoPath = Sitecore.Resources.Media.MediaManager.GetMediaUrl(videoItemField.MediaItem);
+                VideoPath = MediaManager.GetMediaUrl(videoItemField.MediaItem);
             }
 
             var videoTypeItemField = (LookupField)Item.Fields[SpitfireConstants.FieldConstants.Video.Type];
@@ -68,9 +70,9 @@
                 VideoType = videoTypeItemField.TargetItem[SpitfireConstants.FieldConstants.VideoType.TypeName];
             }
 
-            Loop = Sitecore.MainUtil.GetBool(rendering.Parameters[SpitfireConstants.ParameterConstants.Loop], false);
-            Autoplay = Sitecore.MainUtil.GetBool(rendering.Parameters[SpitfireConstants.ParameterConstants.Autoplay], false);
-            Mute = Sitecore.MainUtil.GetBool(rendering.Parameters[SpitfireConstants.ParameterConstants.Mute], false);
+            Loop = MainUtil.GetBool(rendering.Parameters[SpitfireConstants.ParameterConstants.Loop], false);
+            Autoplay = MainUtil.GetBool(rendering.Parameters[SpitfireConstants.ParameterConstants.Autoplay], false);
+            Mute = MainUtil.GetBool(rendering.Parameters[SpitfireConstants.ParameterConstants.Mute], false);
         }
     }
 }

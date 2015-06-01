@@ -1,16 +1,17 @@
-﻿@if (Model.Data != null)
+﻿@using Sitecore.Links
+@if (Model.Data != null)
 {
     foreach (var listitem in Model.Data)
     {
         <li class="navlist">
             <div>
                 <div>
-                    <a href="@Sitecore.Links.LinkManager.GetItemUrl(listitem)">
+                    <a href="@LinkManager.GetItemUrl(listitem)">
                         @Html.Sitecore().Field("Icon", listitem, new { @class = "img-responsive" })
                     </a>
                 </div>
                 <div>
-                    <a href="@Sitecore.Links.LinkManager.GetItemUrl(listitem)"><span class="nav-label">@listitem.Fields["Title"].Value</span> </a>
+                    <a href="@LinkManager.GetItemUrl(listitem)"><span class="nav-label">@listitem.Fields["Title"].Value</span> </a>
                 </div>
             </div>
         </li>

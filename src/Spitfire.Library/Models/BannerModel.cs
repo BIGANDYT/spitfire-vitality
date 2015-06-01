@@ -1,41 +1,51 @@
 ﻿namespace Spitfire.Library.Models
 {
-    using System;
-    using Constants;
+    using Sitecore;
+    using Sitecore.Data.Fields;
     using Sitecore.Mvc.Presentation;
+    using Sitecore.Resources.Media;
+    using Spitfire.Library.Constants;
+
+    using Convert = System.Convert;
 
     public class BannerModel : IRenderingModel
     {
-        public String BackgroundImageUrl { get; set; }
-        public String TitleColor { get; set; }
-        public String SubTitleColor { get; set; }
-        public String LinkColor { get; set; }
-        public Int32 LogoTop { get; set; }
-        public Int32 LogoLeft { get; set; }
-        public Int32 BannerHeight { get; set; }
+        public string BackgroundImageUrl { get; set; }
+
+        public string TitleColor { get; set; }
+
+        public string SubTitleColor { get; set; }
+
+        public string LinkColor { get; set; }
+
+        public int LogoTop { get; set; }
+
+        public int LogoLeft { get; set; }
+
+        public int BannerHeight { get; set; }
 
         public void Initialize(Rendering rendering)
         {
-            if (!String.IsNullOrEmpty(rendering.DataSource))
+            if (!string.IsNullOrEmpty(rendering.DataSource))
             {
-                var datasource = Sitecore.Context.Database.GetItem(rendering.DataSource);
-                var imgField = ((Sitecore.Data.Fields.ImageField)datasource.Fields[SpitfireConstants.FieldConstants.Banner.BackgroundImage]);
+                var datasource = Context.Database.GetItem(rendering.DataSource);
+                var imgField = (ImageField)datasource.Fields[SpitfireConstants.FieldConstants.Banner.BackgroundImage];
                 if (imgField != null && imgField.MediaItem != null)
                 {
-                    BackgroundImageUrl = Sitecore.Resources.Media.MediaManager.GetMediaUrl(imgField.MediaItem);
+                    BackgroundImageUrl = MediaManager.GetMediaUrl(imgField.MediaItem);
                 }
 
                 TitleColor = datasource[SpitfireConstants.FieldConstants.Banner.TitleColor];
                 SubTitleColor = datasource[SpitfireConstants.FieldConstants.Banner.SubtitleColor];
                 LinkColor = datasource[SpitfireConstants.FieldConstants.Banner.LinkColor];
-                var y = Double.Parse(datasource[SpitfireConstants.FieldConstants.Banner.LogoTop]);
+                var y = double.Parse(datasource[SpitfireConstants.FieldConstants.Banner.LogoTop]);
                 LogoTop = Convert.ToInt32(30 * y);
-                var x = Double.Parse(datasource[SpitfireConstants.FieldConstants.Banner.LogoLeft]);
+                var x = double.Parse(datasource[SpitfireConstants.FieldConstants.Banner.LogoLeft]);
                 LogoLeft = Convert.ToInt32(8 * x);
-                var BannerHeightValue = datasource[SpitfireConstants.FieldConstants.Banner.BannerHeight];
-                if (BannerHeightValue != null)
+                var bannerHeightValue = datasource[SpitfireConstants.FieldConstants.Banner.BannerHeight];
+                if (bannerHeightValue != null)
                 {
-                    var z = Double.Parse(BannerHeightValue);
+                    var z = double.Parse(bannerHeightValue);
                     BannerHeight = Convert.ToInt32(z * 100);
                 }
             }

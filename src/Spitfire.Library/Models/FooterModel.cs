@@ -1,24 +1,27 @@
-﻿using System;
-using Sitecore.Data.Items;
-using Spitfire.Library.Constants;
-
-namespace Spitfire.Library.Models
+﻿namespace Spitfire.Library.Models
 {
+    using Sitecore.Data.Fields;
     using Sitecore.Mvc.Presentation;
+    using Sitecore.Resources.Media;
+
+    using Spitfire.Library.Constants;
 
     public class FooterModel : RenderingModel
     {
-        public String BackgroundImageUrl { get; private set; }
-        public String FooterHeight { get; private set; }
+        public string BackgroundImageUrl { get; private set; }
+        
+        public string FooterHeight { get; private set; }
+
         public override void Initialize(Rendering rendering)
         {
             base.Initialize(rendering);
-            Item item = this.Item;
-            var imgField = ((Sitecore.Data.Fields.ImageField)item.Fields[SpitfireConstants.FieldConstants.Footer.BackgroundImage]);
+            var item = this.Item;
+            var imgField = (ImageField)item.Fields[SpitfireConstants.FieldConstants.Footer.BackgroundImage];
             if (imgField != null && imgField.MediaItem != null)
             {
-                BackgroundImageUrl = Sitecore.Resources.Media.MediaManager.GetMediaUrl(imgField.MediaItem);
+                BackgroundImageUrl = MediaManager.GetMediaUrl(imgField.MediaItem);
             }
+
             FooterHeight = item[SpitfireConstants.FieldConstants.Footer.FooterHeight];
         }
     }
