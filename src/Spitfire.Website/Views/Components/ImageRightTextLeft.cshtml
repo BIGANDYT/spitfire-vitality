@@ -1,5 +1,5 @@
 ﻿@model Spitfire.Library.Models.ImageRightModel
-<div style="background: @Model.Background; height: @Model.DivHeight">
+<div class="row" style="background: @Model.Background; height: @Model.DivHeight">
     <div class="col-md-6 text-center">
         <h1 style="font-size: @Model.TitleFontSize; color: @Model.TitleColor">@Html.Sitecore().Field("Title", Model.Item)</h1>
         <hr class="colored">
