@@ -1,5 +1,7 @@
 ﻿<aside d="@Model.Id" class="cta-quote" style="background-image:url('@Model.BackgroundImgUrl');@Model.CssStyle">
     <div class="@Model.CssClass">
-        @Html.Sitecore().DynamicPlaceholder("aside")
+        <div class="container wow fadeIn animated">
+            @Html.Sitecore().DynamicPlaceholder("aside")
+        </div>
     </div>
 </aside>
