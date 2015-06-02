@@ -12,7 +12,7 @@ echo Installing updates using Sitecore ship
 set sitelocation=%InstanceDirectory%\%sitename%\Website
 
 @echo on
-iisreset
+::iisreset
 tools\curl "http://%sitename%/sitecore_ship/about"
 
 if not exist "%sitelocation%\bin\ASR.dll" (
