@@ -24,6 +24,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{1E906505
 		build\build-FixUnicornFolder.ps1 = build\build-FixUnicornFolder.ps1
 		build\build.cmd = build\build.cmd
 		build\delete.cmd = build\delete.cmd
+		build\export.cmd = build\export.cmd
 		build\install.cmd = build\install.cmd
 		build\sim.cmd = build\sim.cmd
 		build\sync-installer.cmd = build\sync-installer.cmd
