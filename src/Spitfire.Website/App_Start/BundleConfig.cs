@@ -344,7 +344,7 @@
                     "~/Scripts/plugins/jquery.fs.wallpaper/jquery.fs.wallpaper.js"));
 
             // animate
-            bundles.Add(new StyleBundle("~/animate/css").Include("~/Content/plugins/animnate/animate.css"));
+            bundles.Add(new StyleBundle("~/animate/css").Include("~/Content/plugins/animate/animate.css"));
 
             // magnific-popup
             bundles.Add(
