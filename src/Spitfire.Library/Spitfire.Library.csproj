@@ -102,6 +102,7 @@
     <Compile Include="Models\PromoTeaser.cs" />
     <Compile Include="Models\RowModel.cs" />
     <Compile Include="Models\SectionModel.cs" />
+    <Compile Include="Models\SectionPortfolioModel.cs" />
     <Compile Include="Models\StyleModel.cs" />
     <Compile Include="Models\TeaserGallery.cs" />
     <Compile Include="Models\TestimonalsCarouselModel.cs" />
