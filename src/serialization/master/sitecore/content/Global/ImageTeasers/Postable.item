@@ -12,7 +12,7 @@ templatekey: Teaser
 ----version----
 language: en
 version: 1
-revision: 11b9999b-30b5-4a7f-972e-1122f9a2ac41
+revision: e0ee2b3e-961a-4e0b-a87d-91b872d3c294
 
 ----field----
 field: {8F835316-A8FF-411A-905B-CFC143D7950C}
@@ -25,9 +25,9 @@ Postable
 field: {BF25D316-D309-4F57-A05C-F093BE9738AC}
 name: Image
 key: image
-content-length: 65
+content-length: 114
 
-<image mediaid="{C9FF2B72-B200-4903-84E0-6C02DEC0ED63}" ></image>
+<image mediaid="{C9FF2B72-B200-4903-84E0-6C02DEC0ED63}" alt="" height="auto" width="" hspace="" vspace=""></image>
 ----field----
 field: {E6FCC918-A5B9-445A-9976-BF65B3A2772F}
 name: SubTitle
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-11b9999b-30b5-4a7f-972e-1122f9a2ac41
+e0ee2b3e-961a-4e0b-a87d-91b872d3c294
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150522T151057:635679042572393642Z
+20150601T100958:635687501982245875Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

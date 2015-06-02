@@ -12,7 +12,7 @@ templatekey: Teaser
 ----version----
 language: en
 version: 1
-revision: 3d1d88c6-c540-4cdb-a892-c000f272c9c4
+revision: d48f6e4d-a92f-4ef8-9921-7144523a29c0
 
 ----field----
 field: {8F835316-A8FF-411A-905B-CFC143D7950C}
@@ -25,9 +25,9 @@ YouTV
 field: {BF25D316-D309-4F57-A05C-F093BE9738AC}
 name: Image
 key: image
-content-length: 65
+content-length: 114
 
-<image mediaid="{75D5732D-2F69-4E8D-A944-D9FC83AA5EAC}" ></image>
+<image mediaid="{75D5732D-2F69-4E8D-A944-D9FC83AA5EAC}" alt="" height="auto" width="" hspace="" vspace=""></image>
 ----field----
 field: {E6FCC918-A5B9-445A-9976-BF65B3A2772F}
 name: SubTitle
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-3d1d88c6-c540-4cdb-a892-c000f272c9c4
+d48f6e4d-a92f-4ef8-9921-7144523a29c0
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150522T151057:635679042572848970Z
+20150601T100958:635687501982736240Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

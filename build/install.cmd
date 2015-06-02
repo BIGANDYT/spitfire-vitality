@@ -2,19 +2,25 @@
 call vars.cmd
 
 :: Copy SIM + installation packages to c:\SpitfireInstaller
-call sync-installer.cmd
+IF NOT DEFINED IsBuildServer call sync-installer.cmd
 
-IF /I NOT "%CD%" EQU "%SourceDirectory%\build" (
-	echo This repository should be checked out to %SourceDirectory% - CD is %CD%
-	pause
-	EXIT /B 1
+IF NOT DEFINED IsBuildServer (
+	IF /I NOT "%CD%" EQU "%SourceDirectory%\build" (
+		echo This repository should be checked out to %SourceDirectory% - CD is %CD%
+		pause
+		EXIT /B 1
+	)
 )
 
 %appcmd% list site /name:"%BaseSite%"
 IF "%ERRORLEVEL%" EQU "0" (
-	echo Site %BaseSite% already installed
-	pause
-	EXIT /B 2
+	IF DEFINED IsBuildServer (
+		call delete.cmd
+	) else (
+		echo Site %BaseSite% already installed
+		pause
+		EXIT /B 2		
+	)
 )
 
 :: Install Sitecore using SIM

@@ -46,6 +46,7 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebsiteTests", "src\Testing\WebsiteTests\WebsiteTests.csproj", "{2D494870-1DB2-4805-A0BC-A8F4D11151AA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndToEndTests", "src\Testing\EndToEndTests\EndToEndTests.csproj", "{69995715-F9E7-499C-A99F-620D5E33A11E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spitfire.SIM", "src\Spitfire.SIM\Spitfire.SIM.csproj", "{6F85DEE3-3AF3-4598-93E0-1CE99401E519}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +78,10 @@ Global
 		{69995715-F9E7-499C-A99F-620D5E33A11E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69995715-F9E7-499C-A99F-620D5E33A11E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69995715-F9E7-499C-A99F-620D5E33A11E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F85DEE3-3AF3-4598-93E0-1CE99401E519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F85DEE3-3AF3-4598-93E0-1CE99401E519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F85DEE3-3AF3-4598-93E0-1CE99401E519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F85DEE3-3AF3-4598-93E0-1CE99401E519}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

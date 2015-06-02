@@ -12,7 +12,7 @@ templatekey: Teaser
 ----version----
 language: en
 version: 1
-revision: 2ed8f2f3-6112-4719-9204-1cc192a96678
+revision: 94e6a59a-87e9-42c3-93dc-354ffdec7e8c
 
 ----field----
 field: {8F835316-A8FF-411A-905B-CFC143D7950C}
@@ -25,9 +25,9 @@ OneRepublic
 field: {BF25D316-D309-4F57-A05C-F093BE9738AC}
 name: Image
 key: image
-content-length: 65
+content-length: 114
 
-<image mediaid="{75515FC4-44A2-430E-89FF-E64780AE2E38}" ></image>
+<image mediaid="{75515FC4-44A2-430E-89FF-E64780AE2E38}" alt="" height="auto" width="" hspace="" vspace=""></image>
 ----field----
 field: {E6FCC918-A5B9-445A-9976-BF65B3A2772F}
 name: SubTitle
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-2ed8f2f3-6112-4719-9204-1cc192a96678
+94e6a59a-87e9-42c3-93dc-354ffdec7e8c
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150522T151057:635679042572228525Z
+20150601T101554:635687505547037516Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
