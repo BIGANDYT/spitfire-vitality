@@ -1,24 +1,24 @@
-﻿using System;
-using System.Net.NetworkInformation;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading;
-using System.Xml.Linq;
-
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-//using Microsoft.Expression.Encoder.ScreenCapture;
-
-using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Interactions;
-
-namespace EndToEndTests
+﻿namespace EndToEndTests
 {
+    using System;
+    using System.Collections.Generic;
+    using System.IO;
+    using System.Linq;
+    using System.Net.NetworkInformation;
+    using System.Threading;
+    using System.Xml.Linq;
+
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+    //// using Microsoft.Expression.Encoder.ScreenCapture;
+
+    using OpenQA.Selenium;
+    using OpenQA.Selenium.Chrome;
+    using OpenQA.Selenium.Interactions;
+
     public class Driver
     {
-        //TODO: get the screen recording setup so it helps with the script creation
-        //public static ScreenCaptureJob Recorder { get; set; }
+        // TODO: get the screen recording setup so it helps with the script creation
+        ////public static ScreenCaptureJob Recorder { get; set; }
 
         public static List<IWebElement> NewsNameCheck { get; set; }
         public static int NewsNameCount { get; set; }

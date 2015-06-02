@@ -1,10 +1,10 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System.Linq;
-using OpenQA.Selenium;
-using Testing.Library;
-
-namespace WebsiteTests
+﻿namespace WebsiteTests
 {
+    using System.Linq;
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+    using OpenQA.Selenium;
+    using Testing.Library;
+
     [TestClass]
     public class SmokeTests
     {
