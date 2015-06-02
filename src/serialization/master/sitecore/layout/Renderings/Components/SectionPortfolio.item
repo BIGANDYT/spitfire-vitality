@@ -16,10 +16,31 @@ key: path
 content-length: 41
 
 /Views/Components/SectionPortfolio.cshtml
+----field----
+field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
+name: Model
+key: model
+content-length: 50
+
+/sitecore/layout/Models/Core/SectionPortfolioModel
+----field----
+field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
+name: Parameters Template
+key: parameters template
+content-length: 38
+
+{21434FB2-6A79-4BAE-BF5A-7EE73E4B0F09}
+----field----
+field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
+name: Open Properties after Add
+key: open properties after add
+content-length: 1
+
+-
 ----version----
 language: en
 version: 1
-revision: 943570fd-3936-4308-ac21-7d535334290b
+revision: 74cd98ef-99de-46ae-9e20-4a62331998da
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-943570fd-3936-4308-ac21-7d535334290b
+74cd98ef-99de-46ae-9e20-4a62331998da
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150506T124620:635665131804662891Z
+20150602T101510:635688369108919333Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

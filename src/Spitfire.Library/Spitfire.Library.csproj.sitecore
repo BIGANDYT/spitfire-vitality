@@ -2,4 +2,7 @@
   <PropertyGroup>
     <Site Server="Spitfire" UserName="sitecore\admin" IsRemoteSitecore="False" />
   </PropertyGroup>
+  <File Include="Models\SectionPortfolioModel.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{6F011D0F-52AC-4874-ACCD-0D8A0169BBCB}</Item>
+  </File>
 </Project>

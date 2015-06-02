@@ -1,0 +1,100 @@
+----item----
+version: 1
+id: {EB184680-2D0F-46A5-8793-3D95EDFAB437}
+database: master
+path: /sitecore/content/Global/PortfolioItems/BasePortfolio
+parent: {014146C9-18E9-420A-9E4B-156FCEB04E94}
+name: BasePortfolio
+master: {00000000-0000-0000-0000-000000000000}
+template: {A26CBA49-1C11-455B-B9B7-9BC5E0E98581}
+templatekey: PortfolioItem
+
+----version----
+language: en
+version: 1
+revision: 037970ab-e4b8-4c62-8cee-490ccc73dab9
+
+----field----
+field: {FED88D67-75CC-453C-BCE2-7AA16E0DC146}
+name: ProjectName
+key: projectname
+content-length: 12
+
+Project Name
+----field----
+field: {9D4866C3-A828-4301-866D-96AA8CF772D1}
+name: ProjectTagline
+key: projecttagline
+content-length: 30
+
+This is this projects tag line
+----field----
+field: {5E9A763A-F60D-43B5-BD8B-514459914B9F}
+name: ProjectDescription
+key: projectdescription
+content-length: 46
+
+During this project we did this, this and this
+----field----
+field: {DCACF21C-C0E3-4E8F-A068-A99B477638E2}
+name: Client
+key: client
+content-length: 11
+
+this client
+----field----
+field: {49914D60-85A4-4A92-9F31-44B8DC70D443}
+name: Date
+key: date
+content-length: 15
+
+20150602T000000
+----field----
+field: {FCD643A7-FC7D-47A7-8791-03E3D793BF1A}
+name: Description
+key: description
+content-length: 31
+
+This is an amazing integration!
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150602T102408Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+037970ab-e4b8-4c62-8cee-490ccc73dab9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150602T102726:635688376464178559Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
