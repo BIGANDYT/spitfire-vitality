@@ -12,8 +12,15 @@ templatekey: PortfolioItem
 ----version----
 language: en
 version: 1
-revision: 037970ab-e4b8-4c62-8cee-490ccc73dab9
+revision: 5d25d0fe-54da-4416-90e7-6e62782b50e5
 
+----field----
+field: {4F867517-3914-4453-BDF9-4E2E215ADB8A}
+name: ClientLogo
+key: clientlogo
+content-length: 58
+
+<image mediaid="{226F1EB2-DFAF-4A68-A497-1E208D681D2D}" />
 ----field----
 field: {FED88D67-75CC-453C-BCE2-7AA16E0DC146}
 name: ProjectName
@@ -36,6 +43,20 @@ content-length: 46
 
 During this project we did this, this and this
 ----field----
+field: {F39127AE-FDFC-4A5F-BA4B-8419F9D2DE9D}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{7ED4DD58-944A-47A1-9635-8FCAF4868E82}" />
+----field----
+field: {30318FB5-1643-4C5E-831A-D4D51B8CC09F}
+name: BackgroundImage
+key: backgroundimage
+content-length: 58
+
+<image mediaid="{89B98A77-88D9-4A6F-9324-F032BD9EEC02}" />
+----field----
 field: {DCACF21C-C0E3-4E8F-A068-A99B477638E2}
 name: Client
 key: client
@@ -46,9 +67,9 @@ this client
 field: {49914D60-85A4-4A92-9F31-44B8DC70D443}
 name: Date
 key: date
-content-length: 15
+content-length: 16
 
-20150602T000000
+20150601T230000Z
 ----field----
 field: {FCD643A7-FC7D-47A7-8791-03E3D793BF1A}
 name: Description
@@ -56,6 +77,20 @@ key: description
 content-length: 31
 
 This is an amazing integration!
+----field----
+field: {C86BE70D-106C-4B6C-87C6-233B9DFDDF87}
+name: BackgroundImage
+key: backgroundimage
+content-length: 58
+
+<image mediaid="{89B98A77-88D9-4A6F-9324-F032BD9EEC02}" />
+----field----
+field: {C4CEACD7-AAB8-4BCE-AC0F-C300A5B1AC72}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{7ED4DD58-944A-47A1-9635-8FCAF4868E82}" />
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -83,14 +118,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-037970ab-e4b8-4c62-8cee-490ccc73dab9
+5d25d0fe-54da-4416-90e7-6e62782b50e5
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150602T102726:635688376464178559Z
+20150602T124627:635688459879719344Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
