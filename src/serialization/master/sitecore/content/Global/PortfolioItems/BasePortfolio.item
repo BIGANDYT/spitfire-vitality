@@ -12,7 +12,7 @@ templatekey: PortfolioItem
 ----version----
 language: en
 version: 1
-revision: 5d25d0fe-54da-4416-90e7-6e62782b50e5
+revision: 3881949b-fdae-4aec-915d-0c12562a995c
 
 ----field----
 field: {4F867517-3914-4453-BDF9-4E2E215ADB8A}
@@ -20,7 +20,7 @@ name: ClientLogo
 key: clientlogo
 content-length: 58
 
-<image mediaid="{226F1EB2-DFAF-4A68-A497-1E208D681D2D}" />
+<image mediaid="{0AACFD50-B597-4512-944C-B0045B866BC3}" />
 ----field----
 field: {FED88D67-75CC-453C-BCE2-7AA16E0DC146}
 name: ProjectName
@@ -48,14 +48,14 @@ name: Image
 key: image
 content-length: 58
 
-<image mediaid="{7ED4DD58-944A-47A1-9635-8FCAF4868E82}" />
+<image mediaid="{51E5EE6B-2D63-40E9-B6AD-68E1A3D68C00}" />
 ----field----
 field: {30318FB5-1643-4C5E-831A-D4D51B8CC09F}
 name: BackgroundImage
 key: backgroundimage
 content-length: 58
 
-<image mediaid="{89B98A77-88D9-4A6F-9324-F032BD9EEC02}" />
+<image mediaid="{93703AE8-B033-4F23-8EF5-13BD4AA12816}" />
 ----field----
 field: {DCACF21C-C0E3-4E8F-A068-A99B477638E2}
 name: Client
@@ -118,14 +118,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-5d25d0fe-54da-4416-90e7-6e62782b50e5
+3881949b-fdae-4aec-915d-0c12562a995c
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150602T124627:635688459879719344Z
+20150603T141211:635689375310500820Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -133,3 +133,10 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
