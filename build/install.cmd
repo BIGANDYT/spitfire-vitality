@@ -1,4 +1,5 @@
 @echo off
+cd /d %0\..
 call vars.cmd
 
 :: Copy SIM + installation packages to c:\SpitfireInstaller

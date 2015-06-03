@@ -1,15 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading;
-using System.Xml.Linq;
-
-using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
-
-namespace Testing.Library
+﻿namespace Testing.Library
 {
+    using System;
+    using System.Collections.Generic;
+    using System.IO;
+    using System.Linq;
+    using System.Threading;
+    using System.Xml.Linq;
+    using OpenQA.Selenium;
+    using OpenQA.Selenium.Chrome;
+
     public class Driver
     {
         public static IWebDriver Instance { get; set; }

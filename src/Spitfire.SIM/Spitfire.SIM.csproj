@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Ionic.Zip">
+      <HintPath>..\..\lib\SIM\Ionic.Zip.dll</HintPath>
+    </Reference>
     <Reference Include="SIM.Base">
       <HintPath>..\..\lib\SIM\SIM.Base.dll</HintPath>
     </Reference>
@@ -55,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Delete\DeleteRegistryKey.cs" />
+    <Compile Include="Export\ExportPostActions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
