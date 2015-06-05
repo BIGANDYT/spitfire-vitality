@@ -184,6 +184,7 @@
     <Content Include="App_Config\Include\zSpitfire\FieldFallback.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="webedit.css" />
     <None Include="Properties\PublishProfiles\Spitfire.pubxml" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <None Include="Scripts\jquery-1.8.0.intellisense.js" />
