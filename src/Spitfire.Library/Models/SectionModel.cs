@@ -8,11 +8,14 @@
 
         public string SubCssClass { get; set; }
 
+        public string AnimationClass { get; set; }
+
         public override void Initialize(Rendering rendering)
         {
             base.Initialize(rendering);
             Id = rendering.Parameters["Id"];
             SubCssClass = rendering.Parameters["SubCssClass"];
+            AnimationClass = rendering.Parameters["Animation"];
         }
     }
 }
