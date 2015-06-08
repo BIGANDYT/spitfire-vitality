@@ -37,7 +37,7 @@ IF "%ERRORLEVEL%" EQU "0" (
 call sim.cmd
 
 :: Build the sucker
-call build-all.cmd
+call build.cmd
 
 :: Install updates using Sitecore Ship
 call updates.cmd

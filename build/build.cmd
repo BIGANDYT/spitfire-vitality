@@ -12,14 +12,11 @@ if not exist ..\lib\Sitecore (
 
 SET DeployParameters=/p:DeployOnBuild=true /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:DeleteExistingFiles=False /p:publishUrl=%InstanceDirectory%\%sitename%\Website
 
-IF NOT DEFINED IsBuildServer (
-	del %InstanceDirectory%\%sitename%\Website\bin\Spitfire.*
-	rd /s /q c:\websites\%sitename%\Website\App_Config\Include\zSpitfire
-)
-
 %msbuild% ..\src\Spitfire.Website\Spitfire.Website.csproj %DeployParameters%
 
-IF DEFINED IsBuildServer (
-	powershell -file build-FixDataFolder.ps1 "%InstanceDirectory%\%sitename%\Website\web.config" "%InstanceDirectory%\%sitename%\Data"
-	powershell -file build-FixUnicornFolder.ps1 "%InstanceDirectory%\%sitename%\Website\App_Config\Include\Serialization.config" "%CD%"
+SET DevSettings=%InstanceDirectory%\%sitename%\Website\App_Config\Include\zSpitfire\DevSettings.config
+IF NOT EXIST %DevSettings% (
+	copy %DevSettings%.sample %DevSettings%
+	powershell -file build-FixDataFolder.ps1 "%DevSettings%" "%InstanceDirectory%\%sitename%\Data"
+	powershell -file build-FixUnicornFolder.ps1 "%DevSettings%" "%CD%"
 )

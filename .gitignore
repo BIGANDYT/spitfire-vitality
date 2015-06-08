@@ -12,3 +12,4 @@ artifacts/
 *.sln.ide
 lib/Sitecore/*
 .sonar
+vars.user.cmd

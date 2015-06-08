@@ -246,6 +246,8 @@
     <Content Include="Content\plugins\fontawesome\scss\_rotated-flipped.scss" />
     <Content Include="Content\plugins\fontawesome\scss\_stacked.scss" />
     <Content Include="Content\plugins\fontawesome\scss\_variables.scss" />
+    <Content Include="App_Config\Include\zSpitfire\ManualCoreIndexing.config" />
+    <Content Include="App_Config\Include\zSpitfire\ship.config" />
     <None Include="Properties\PublishProfiles\Spitfire.pubxml" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <None Include="Scripts\jquery-1.8.0.intellisense.js" />
