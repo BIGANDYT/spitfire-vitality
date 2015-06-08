@@ -1,18 +1,10 @@
 @echo off
 cd /d %0\..
 
-IF %1.==. (
-	echo Sitename missing
-	GOTO End1
-)
-
-SET sitename=%1
-
 echo Installing updates using Sitecore ship
 set sitelocation=%InstanceDirectory%\%sitename%\Website
 
 @echo on
-::iisreset
 tools\curl "http://%sitename%/sitecore_ship/about"
 
 if not exist "%sitelocation%\bin\ASR.dll" (
@@ -42,5 +34,3 @@ if not exist "%sitelocation%\bin\FieldFallback.Processors.dll" (
 if not exist "%sitelocation%\bin\FieldFallback.Processors.Globalization.dll" (
 	tools\curl -F "path=%InstallerPath%\Processors.Globalization.Sitecore.Master.update" "http://%sitename%/sitecore_ship/package/install"
 )
-
-:End1

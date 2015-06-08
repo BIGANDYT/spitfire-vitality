@@ -7,4 +7,4 @@ call vars.cmd
 call sync-installer.cmd
 
 :: Install updates using Sitecore Ship
-call updates.cmd %BaseSite%
+call updates.cmd

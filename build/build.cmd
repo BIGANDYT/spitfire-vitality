@@ -1,12 +1,14 @@
 @echo off
 cd /d %0\..
 
-IF %1.==. (
-	echo Sitename missing
-	GOTO End1
-)
+call vars.cmd
 
-SET sitename=%1
+.\tools\NuGet.exe restore ..\Spitfire.sln
+
+if not exist ..\lib\Sitecore (
+	mkdir ..\lib\Sitecore
+	copy c:\websites\%SiteName%\Website\bin\Sitecore.*.dll ..\lib\Sitecore
+)
 
 SET DeployParameters=/p:DeployOnBuild=true /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:DeleteExistingFiles=False /p:publishUrl=%InstanceDirectory%\%sitename%\Website
 
@@ -21,6 +23,3 @@ IF DEFINED IsBuildServer (
 	powershell -file build-FixDataFolder.ps1 "%InstanceDirectory%\%sitename%\Website\web.config" "%InstanceDirectory%\%sitename%\Data"
 	powershell -file build-FixUnicornFolder.ps1 "%InstanceDirectory%\%sitename%\Website\App_Config\Include\Serialization.config" "%CD%"
 )
-
-:End1
-cd /d %BuildDirectory%
