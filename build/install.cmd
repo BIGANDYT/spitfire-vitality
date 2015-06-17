@@ -16,14 +16,6 @@ call vars.cmd
 :: Copy SIM + installation packages to c:\SpitfireInstaller
 IF NOT DEFINED IsBuildServer call sync-installer.cmd
 
-IF NOT DEFINED IsBuildServer (
-	IF /I NOT "%CD%" EQU "%SourceDirectory%\build" (
-		echo This repository should be checked out to %SourceDirectory% - CD is %CD%
-		pause
-		EXIT /B 2
-	)
-)
-
 %appcmd% list site /name:"%SiteName%"
 IF "%ERRORLEVEL%" EQU "0" (
 	IF DEFINED IsBuildServer (
@@ -31,7 +23,7 @@ IF "%ERRORLEVEL%" EQU "0" (
 	) else (
 		echo Site %SiteName% already installed
 		pause
-		EXIT /B 3	
+		EXIT /B 2	
 	)
 )
 

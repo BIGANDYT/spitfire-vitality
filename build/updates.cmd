@@ -31,6 +31,7 @@ if not exist "%sitelocation%\bin\FieldFallback.Processors.dll" (
 	tools\curl -F "path=%InstallerPath%\Processors.Sitecore.Master.update" "http://%sitename%/sitecore_ship/package/install"
 )
 
+:: TODO: We won't need this for much longer, will be in Sitecore 8.1
 if not exist "%sitelocation%\bin\FieldFallback.Processors.Globalization.dll" (
 	tools\curl -F "path=%InstallerPath%\Processors.Globalization.Sitecore.Master.update" "http://%sitename%/sitecore_ship/package/install"
 )
