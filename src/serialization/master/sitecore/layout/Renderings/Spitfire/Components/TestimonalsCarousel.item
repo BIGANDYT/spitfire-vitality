@@ -24,13 +24,6 @@ content-length: 62
 
 /sitecore/layout/Models/Spitfire/Core/TestimonalsCarouselModel
 ----field----
-field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
-name: Open Properties after Add
-key: open properties after add
-content-length: 0
-
-
-----field----
 field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
 name: Datasource Location
 key: datasource location
@@ -81,6 +74,6 @@ content-length: 35
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 14
+content-length: 18
 
-sitecore\admin
+extranet\Anonymous

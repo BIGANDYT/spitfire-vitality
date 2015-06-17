@@ -22,13 +22,6 @@ version: 1
 revision: 70f60e0b-663b-479e-9854-bf31b655cdab
 
 ----field----
-field: {7545B38C-64BE-443B-9669-44A4B9ECE9FD}
-name: About us
-key: about us
-content-length: 0
-
-
-----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
 key: __owner

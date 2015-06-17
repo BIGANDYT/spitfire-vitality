@@ -16,13 +16,6 @@ key: __sortorder
 content-length: 3
 
 100
-----field----
-field: {9DAFCA1D-D618-4616-86B8-A8ACD6B28A63}
-name: __Bucket Parent Reference
-key: __bucket parent reference
-content-length: 0
-
-
 ----version----
 language: en
 version: 1

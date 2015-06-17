@@ -9,13 +9,6 @@ master: {00000000-0000-0000-0000-000000000000}
 template: {269FE657-09EE-4D96-955D-8CA1D1C19ADE}
 templatekey: Client
 
-----field----
-field: {9DAFCA1D-D618-4616-86B8-A8ACD6B28A63}
-name: __Bucket Parent Reference
-key: __bucket parent reference
-content-length: 0
-
-
 ----version----
 language: en
 version: 1

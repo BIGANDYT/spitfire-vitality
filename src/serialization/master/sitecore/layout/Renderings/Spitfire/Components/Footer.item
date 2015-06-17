@@ -24,13 +24,6 @@ content-length: 49
 
 /sitecore/layout/Models/Spitfire/Core/FooterModel
 ----field----
-field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
-name: Open Properties after Add
-key: open properties after add
-content-length: 0
-
-
-----field----
 field: {A2F5D9DF-8CBA-4A1D-99EB-51ACB94CB057}
 name: Page Editor Buttons
 key: page editor buttons
@@ -67,6 +60,6 @@ content-length: 35
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 14
+content-length: 18
 
-sitecore\admin
+extranet\Anonymous

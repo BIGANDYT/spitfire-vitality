@@ -22,13 +22,6 @@ version: 1
 revision: b135465f-0679-48fb-8c5e-bd927d9f7ed8
 
 ----field----
-field: {C546B60C-07BA-45C7-B4E3-6BBCFAE000A1}
-name: CSS
-key: css
-content-length: 0
-
-
-----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created

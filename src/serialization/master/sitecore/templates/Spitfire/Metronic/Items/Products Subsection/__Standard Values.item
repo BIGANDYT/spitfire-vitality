@@ -36,13 +36,6 @@ version: 1
 revision: 4041b5e3-bd4b-4e4f-bd76-790abd2d2340
 
 ----field----
-field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
-name: Menu title
-key: menu title
-content-length: 5
-
-$name
-----field----
 field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
 name: __Final Renderings
 key: __final renderings

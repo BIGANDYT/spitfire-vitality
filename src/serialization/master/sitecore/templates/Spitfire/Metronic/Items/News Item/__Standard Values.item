@@ -50,20 +50,6 @@ content-length: 5
 
 $date
 ----field----
-field: {9ACBBCAB-2484-4558-9728-28433FE2F8A1}
-name: Summary
-key: summary
-content-length: 0
-
-
-----field----
-field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
-name: Menu title
-key: menu title
-content-length: 5
-
-$name
-----field----
 field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
 name: __Final Renderings
 key: __final renderings

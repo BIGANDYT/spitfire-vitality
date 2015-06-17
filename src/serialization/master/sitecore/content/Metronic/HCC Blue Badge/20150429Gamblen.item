@@ -36,13 +36,6 @@ content-length: 9
 
 123456789
 ----field----
-field: {DDE1E60A-6C72-48D4-A43A-83DF4809AA7A}
-name: Photo
-key: photo
-content-length: 0
-
-
-----field----
 field: {9D921E5E-F101-42E8-9E68-8B63C34D9BF4}
 name: Title
 key: title

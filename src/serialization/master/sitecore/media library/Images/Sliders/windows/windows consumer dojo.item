@@ -4013,13 +4013,6 @@ content-length: 3
 
 549
 ----field----
-field: {B0145335-8735-414B-9169-A1D4E4DC9641}
-name: Software
-key: software
-content-length: 0
-
-
-----field----
 field: {C06867FE-9A43-4C7D-B739-48780492D06F}
 name: Extension
 key: extension
@@ -4084,6 +4077,6 @@ content-length: 35
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 14
+content-length: 18
 
-sitecore\admin
+extranet\Anonymous

@@ -57,13 +57,6 @@ content-length: 18
 
 Call back received
 ----field----
-field: {2CD3E702-4A51-4FAA-AA10-A6F4956E13D3}
-name: Show in menu
-key: show in menu
-content-length: 0
-
-
-----field----
 field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
 name: __Final Renderings
 key: __final renderings

@@ -23,13 +23,6 @@ key: __masters
 content-length: 38
 
 {BD1A3515-AFFE-4C13-8A19-1D372AA9753C}
-----field----
-field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
-name: __Security
-key: __security
-content-length: 0
-
-
 ----version----
 language: en
 version: 1
@@ -67,6 +60,6 @@ content-length: 35
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 14
+content-length: 18
 
-sitecore\admin
+extranet\Anonymous
