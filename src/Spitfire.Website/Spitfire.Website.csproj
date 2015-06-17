@@ -4196,11 +4196,6 @@
     <Content Include="Content\plugins\fontawesome\scss\_variables.scss" />
     <Content Include="App_Config\Include\zSpitfire\ManualCoreIndexing.config" />
     <Content Include="App_Config\Include\zSpitfire\ship.config" />
-    <Content Include="metronic\frontend\layout\img\.DS_Store" />
-    <Content Include="metronic\frontend\layout\img\icons\.DS_Store" />
-    <Content Include="metronic\frontend\pages\img\.DS_Store" />
-    <Content Include="metronic\frontend\pages\img\layerslider\.DS_Store" />
-    <Content Include="metronic\frontend\pages\img\revolutionslider\.DS_Store" />
     <Content Include="metronic\global\plugins\angularjs\plugins\angular-file-upload\upload.php" />
     <Content Include="metronic\global\plugins\backstretch\LICENSE-MIT" />
     <Content Include="metronic\global\plugins\backstretch\README.md" />
@@ -4255,13 +4250,10 @@
     <Content Include="metronic\global\plugins\bootstrap\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="metronic\global\plugins\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="metronic\global\plugins\bootstrap\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="metronic\global\plugins\carousel-owl-carousel\demos\.DS_Store" />
     <Content Include="metronic\global\plugins\carousel-owl-carousel\demos\.htaccess" />
-    <Content Include="metronic\global\plugins\carousel-owl-carousel\demos\json\.DS_Store" />
     <Content Include="metronic\global\plugins\carousel-owl-carousel\demos\json\customData.json" />
     <Content Include="metronic\global\plugins\carousel-owl-carousel\demos\json\data.json" />
     <Content Include="metronic\global\plugins\carousel-owl-carousel\LICENSE" />
-    <Content Include="metronic\global\plugins\carousel-owl-carousel\owl-carousel\.DS_Store" />
     <Content Include="metronic\global\plugins\carousel-owl-carousel\README.md" />
     <Content Include="metronic\global\plugins\ckeditor\CHANGES.md" />
     <Content Include="metronic\global\plugins\ckeditor\LICENSE.md" />
@@ -4355,7 +4347,6 @@
     <Content Include="metronic\global\plugins\icheck\demo\css\montserrat-regular.woff" />
     <Content Include="metronic\global\plugins\icheck\icheck.jquery.json" />
     <Content Include="metronic\global\plugins\icheck\README.md" />
-    <Content Include="metronic\global\plugins\ion.rangeslider\js\.DS_Store" />
     <Content Include="metronic\global\plugins\jcrop\crop-demo.php" />
     <Content Include="metronic\global\plugins\jcrop\demos\crop.php" />
     <Content Include="metronic\global\plugins\jcrop\README.md" />
@@ -4370,7 +4361,6 @@
     <Content Include="metronic\global\plugins\jquery-file-upload\server\node\.gitignore" />
     <Content Include="metronic\global\plugins\jquery-file-upload\server\node\package.json" />
     <Content Include="metronic\global\plugins\jquery-file-upload\server\node\public\files\.gitignore" />
-    <Content Include="metronic\global\plugins\jquery-file-upload\server\node\public\files\thumbnail\.gitignore" />
     <Content Include="metronic\global\plugins\jquery-file-upload\server\node\tmp\.gitignore" />
     <Content Include="metronic\global\plugins\jquery-file-upload\server\php\index.php" />
     <Content Include="metronic\global\plugins\jquery-file-upload\server\php\UploadHandler.php" />
@@ -4430,7 +4420,6 @@
     <Content Include="metronic\global\plugins\pace\LICENSE" />
     <Content Include="metronic\global\plugins\pace\README.md" />
     <Content Include="metronic\global\plugins\plupload\readme.md" />
-    <Content Include="metronic\global\plugins\rateit\.DS_Store" />
     <Content Include="metronic\global\plugins\rateit\src\jquery.rateit.min.js.map" />
     <Content Include="metronic\global\plugins\select2\bower.json" />
     <Content Include="metronic\global\plugins\select2\component.json" />
@@ -4442,15 +4431,12 @@
     <Content Include="metronic\global\plugins\simple-line-icons\fonts\Simple-Line-Icons.eot" />
     <Content Include="metronic\global\plugins\simple-line-icons\fonts\Simple-Line-Icons.ttf" />
     <Content Include="metronic\global\plugins\simple-line-icons\fonts\Simple-Line-Icons.woff" />
-    <Content Include="metronic\global\plugins\slider-layer-slider\js\.DS_Store" />
-    <Content Include="metronic\global\plugins\slider-revolution-slider\rs-plugin\.DS_Store" />
     <Content Include="metronic\global\plugins\slider-revolution-slider\rs-plugin\assets\arrows.psd" />
     <Content Include="metronic\global\plugins\slider-revolution-slider\rs-plugin\assets\bullets.psd" />
     <Content Include="metronic\global\plugins\slider-revolution-slider\rs-plugin\assets\small_arrows.psd" />
     <Content Include="metronic\global\plugins\slider-revolution-slider\rs-plugin\font\revicons.eot" />
     <Content Include="metronic\global\plugins\slider-revolution-slider\rs-plugin\font\revicons.ttf" />
     <Content Include="metronic\global\plugins\slider-revolution-slider\rs-plugin\font\revicons.woff" />
-    <Content Include="metronic\global\plugins\slider-revolution-slider\rs-plugin\js\.DS_Store" />
     <Content Include="metronic\global\plugins\typeahead\LICENSE" />
     <Content Include="metronic\global\plugins\typeahead\README.md" />
     <Content Include="metronic\global\plugins\uniform\css\uniform.default.scss" />
