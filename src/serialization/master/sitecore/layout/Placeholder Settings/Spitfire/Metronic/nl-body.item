@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {08E56F99-F6D0-4DE4-A54E-E1F1E48A8F8E}
+database: master
+path: /sitecore/layout/Placeholder Settings/Spitfire/Metronic/nl-body
+parent: {503D22FC-DFBA-4B3C-8DDE-72BF6FE9448D}
+name: nl-body
+master: {00000000-0000-0000-0000-000000000000}
+template: {5C547D4E-7111-4995-95B0-6B561751BF2E}
+templatekey: Placeholder
+
+----field----
+field: {7256BDAB-1FD2-49DD-B205-CB4873D2917C}
+name: Placeholder Key
+key: placeholder key
+content-length: 7
+
+nl-body
+----field----
+field: {E391B526-D0C5-439D-803E-17512EAE6222}
+name: Allowed Controls
+key: allowed controls
+content-length: 194
+
+{658C28C8-BD1A-45A8-A7B3-DE46111FF3BC}|{CC003124-656D-4380-AF33-1CFC703D4242}|{32887EA0-D21A-4067-97BD-DB6D71E65FE3}|{7C45DAF8-5714-4698-8FBD-CCDE3DAFF935}|{4F94DE18-0749-44B0-B73D-38F3AE784AF2}
+----version----
+language: en
+version: 1
+revision: 45431f6a-755e-4c1f-a2ef-0ec6fc6bc6b1
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 7
+
+nl-body
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20101203T155311
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+45431f6a-755e-4c1f-a2ef-0ec6fc6bc6b1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150616T145635:635700633955687763Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

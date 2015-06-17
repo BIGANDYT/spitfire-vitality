@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {517ABDF9-FD0C-4025-8A33-F6B69A0F9547}
+database: master
+path: /sitecore/content/Metronic/Home/Products/Surface/Surface for Students
+parent: {FD056149-E0F6-4E86-810A-D48D48E3880A}
+name: Surface for Students
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FD46617-A947-4964-9B92-67B3FBE68B26}
+templatekey: Product
+
+----field----
+field: {B0A67B2A-8B07-4E0B-8809-69F751709806}
+name: __Tracking
+key: __tracking
+content-length: 273
+
+<tracking>  <profile id="{B000189D-DE2F-473F-817F-7006254F047E}" name="Site Interest" presets="surface|100||">    <key name="Mobile" value="1" />    <key name="Office" value="1" />    <key name="Surface" value="10" />    <key name="Xbox" value="0" />  </profile></tracking>
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+400
+----version----
+language: en
+version: 1
+revision: 971e8a20-16a8-4bd6-8b2b-4042362adb3c
+
+----field----
+field: {B070C3CF-C82E-4A1B-8DB8-9FF99E929A0D}
+name: Title
+key: title
+content-length: 20
+
+Surface for Students
+----field----
+field: {33BD8C22-AD75-4C83-BB2E-2299F823F719}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{1BD84443-CC68-4B0C-A986-DA64904B3412}" />
+----field----
+field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
+name: Menu title
+key: menu title
+content-length: 20
+
+Surface for Students
+----field----
+field: {DEC38F42-43BD-4E9F-9C34-BAA5B57F0523}
+name: Summary
+key: summary
+content-length: 37
+
+Select your school to get great deals
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150112T170028Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+971e8a20-16a8-4bd6-8b2b-4042362adb3c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150324T121836:635627963163285234Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

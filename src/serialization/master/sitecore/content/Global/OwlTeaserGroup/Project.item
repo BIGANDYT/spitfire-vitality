@@ -15,13 +15,6 @@ version: 1
 revision: 967e79b2-90d3-41f9-aacd-775b49319896
 
 ----field----
-field: {D6303669-FBF0-46B9-836A-74AD60DB0913}
-name: Display
-key: display
-content-length: 0
-
-
-----field----
 field: {EFEB569B-6957-4572-BA2C-79C98D55DD93}
 name: source
 key: source

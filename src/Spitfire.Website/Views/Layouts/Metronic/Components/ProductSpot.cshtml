@@ -1,0 +1,20 @@
+﻿@using Spitfire.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+    var home = Model.Item.GetAncestorOfTemplate("home");
+    var colourItem = home.Database.GetItem(home["theme"]);
+}
+<div class="form-info">
+    <h2><em>@Html.Sitecore().Field("title")</em></h2>
+    <div class="margin-bottom-10">
+        @Html.Sitecore().Field("image", new { mw = 230 })
+    </div>
+    <div class="margin-bottom-10">
+        @Html.Sitecore().Field("summary")
+    </div>
+    <a href="{sc:path($sc_item)}" class="btn @colourItem["css"] btn-block">
+        Find out more
+    </a>
+</div>

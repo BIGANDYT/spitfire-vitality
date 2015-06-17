@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {99E1D719-0A28-43B3-9FAE-85F4171BFE89}
+database: master
+path: /sitecore/content/Metronic/Global/Hero/Banners/Store/Back to School
+parent: {FE7569B1-D67C-4AFD-97D9-88EB64462BB8}
+name: Back to School
+master: {00000000-0000-0000-0000-000000000000}
+template: {7CD4FB93-C30C-422B-8BA5-902C35505798}
+templatekey: Banner
+
+----version----
+language: en
+version: 1
+revision: d2492ee0-f5c8-456d-892d-d96aaf75fc56
+
+----field----
+field: {3EED451B-D15C-44A1-997F-377ADA28C11E}
+name: Background Image
+key: background image
+content-length: 58
+
+<image mediaid="{2012A608-EEA4-48B3-A681-88D1BDA798FE}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20141204T163814
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d2492ee0-f5c8-456d-892d-d96aaf75fc56
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20141204T163832:635533079120616206
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

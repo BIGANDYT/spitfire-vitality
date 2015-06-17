@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {7586EF56-83CB-486A-9EF2-5A6DDF24A851}
+database: master
+path: /sitecore/templates/Spitfire/Custom/hcc blue badge/Applicant Data/Relationship
+parent: {D13D6B7F-1A9C-4205-BFE6-71E362397BCE}
+name: Relationship
+master: {00000000-0000-0000-0000-000000000000}
+template: {455A3E98-A627-4B40-8035-E683A0331AC7}
+templatekey: Template field
+
+----field----
+field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
+name: Type
+key: type
+content-length: 16
+
+Single-Line Text
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+100
+----version----
+language: en
+version: 1
+revision: c09bfc9a-73ca-440d-83c8-4878e94d83e1
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150415T145253Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c09bfc9a-73ca-440d-83c8-4878e94d83e1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150415T150421:635647070615462443Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

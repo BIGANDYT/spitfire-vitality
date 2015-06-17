@@ -1,0 +1,248 @@
+/*   
+Template Name: Metronic - Officecore overwrite
+*/
+
+/* SITECORE OVERRIDE */
+.scInsertionHandleCenter {
+	height: 30px !important;
+}
+/* SITECORE OVERRIDE */
+
+.site-logo {
+  float: left;
+  font-size: 23px;
+  font-weight: 400;
+
+  margin-right: 67px;
+  padding-top: 11px;
+  padding-bottom: 5px;
+}
+
+/* Blockquote Box v2 - Red - OLD*/
+.quote-v2 {
+  background: #E6400C;
+  padding: 10px 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.quote-v2 a {
+  margin: 5px;
+  display: inline-block;
+}
+.quote-v2 span {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300;
+  margin: 13px 5px 8px;
+  line-height: 26px;
+  display: inline-block;
+}
+.quote-v2 a.btn-transparent {
+  color: #fff;
+  font-size: 16px;
+  padding: 8px 18px;
+  white-space: nowrap;   
+  text-decoration: none;
+  border: solid 1px #fff;
+  background: none;
+}
+.quote-v2 a.btn-transparent:hover {
+  background: #E02222;
+  color: #fff;
+  transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;      
+}
+.quote-v2 a.btn-transparent i {
+	margin-right: 10px;
+}
+
+
+/* Blockquote Box OC - Catchall*/
+.quote-oc {
+  padding: 10px 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.quote-oc a {
+  margin: 5px;
+  display: inline-block;
+}
+.quote-oc span {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300;
+  margin: 13px 5px 8px;
+  line-height: 26px;
+  display: inline-block;
+}
+.quote-oc a.btn-transparent {
+  color: #fff;
+  font-size: 16px;
+  padding: 8px 18px;
+  white-space: nowrap;   
+  text-decoration: none;
+  border: solid 1px #fff;
+  background: none;
+}
+.quote-oc a.btn-transparent:hover {
+  color: #fff;
+  transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;      
+}
+.quote-oc a.btn-transparent i {
+	margin-right: 10px;
+}
+
+/* Important Info fix */
+.form-info {
+	margin: 0 0 25px 0 !important;
+}
+
+/* Pre-Header fix 
+.pre-header {
+	padding-bottom: 10px;
+}
+*/
+
+/* SITECORE BLUE */
+.scbrandblue  {
+	background: #125687 no-repeat center !important;
+}
+.scbrandbluehover a.btn-transparent:hover {
+	background: #125687;
+}
+.portlet.box.scbrandblue {
+	border: 1px solid #125687;
+}
+.scbrandblue.btn {
+	color: #fff;
+}
+.scbrandblue.btn:hover {
+	background: #15659e;
+	color: #fff;
+}
+
+/* SITECORE GREY */
+.scbrandgrey  {
+	background: #9FA4A6 no-repeat center !important;
+}
+.scbrandgreyhover  a.btn-transparent:hover {
+	background: #9FA4A6;
+}
+.portlet.box.scbrandgrey {
+	border: 1px solid #9FA4A6;
+}
+.scbrandgrey.btn {
+	color: #fff;
+}
+.scbrandgrey.btn:hover {
+	background: #b5bbbd;
+	color: #fff;
+}
+
+/* SITECORE ORANGE */
+.scbrandorange  {
+	background: #EF8200 no-repeat center !important;
+}
+.scbrandorangehover  a.btn-transparent:hover {
+	background: #EF8200;
+}
+.portlet.box.scbrandorange {
+	border: 1px solid #EF8200;
+}
+.scbrandorange.btn {
+	color: #fff;
+}
+.scbrandorange.btn:hover {
+	background: #ff8c00;
+	color: #fff;
+}
+
+/* SITECORE PURPLE */
+.scbrandpurple  {
+	background: #651F76 no-repeat center !important;
+}
+.scbrandpurplehover a.btn-transparent:hover {
+	background: #651F76;
+}
+.portlet.box.scbrandpurple {
+	border: 1px solid #651F76;
+}
+.scbrandpurple.btn {
+	color: #fff;
+}
+.scbrandpurple.btn:hover {
+	background: #77248c;
+	color: #fff;
+}
+
+/* SITECORE RED */
+.scbrandred  {
+	background: #DC291E no-repeat center !important;
+}
+.scbrandredhover  a.btn-transparent:hover {
+	background: #DC291E;
+}
+.portlet.box.scbrandred {
+	border: 1px solid #DC291E;
+}
+.scbrandred.btn {
+	color: #fff;
+}
+.scbrandred.btn:hover {
+	background: #f22c22;
+	color: #fff;
+}
+
+/* SITECORE TEAL */
+.scbrandteal  {
+	background: #008998 no-repeat center !important;
+}
+.scbrandtealhover  a.btn-transparent:hover {
+	background: #008998;
+}
+.portlet.box.scbrandteal {
+	border: 1px solid #008998;
+}
+.scbrandteal.btn {
+	color: #fff;
+}
+.scbrandteal.btn:hover {
+	background: #009eb0;
+	color: #fff;
+}
+
+.list-group-item.active:hover, .list-group-item.active:focus   {
+	background: rgba(244,244,244,0.5) !important;
+}
+
+.header-navigation .dropdown-menu {
+	border-left: 1px solid rgba(91,91,91,0.2) !important;
+	border-right: 1px solid rgba(91,91,91,0.2) !important;
+	border-bottom: 1px solid rgba(91,91,91,0.2) !important;
+	left: 46% !important;
+	box-shadow: 5px 5px 5px rgba(91, 91, 91, 0.2) !important;
+}
+
+.content-page {
+	margin-right: 0 !important;
+}
+
+.color-panel {
+	top: 180px !important;
+}
+
+.color-panel .icon-color {
+  background-image: url("/images/sc_icon.png") !important;
+}
+
+.color-panel .icon-color-close {
+	background-image: url(../img/icon-color-close.png) !important;
+}
+video {
+	background-color: transparent;
+}

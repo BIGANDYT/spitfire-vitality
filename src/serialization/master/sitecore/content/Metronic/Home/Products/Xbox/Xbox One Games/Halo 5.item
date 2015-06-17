@@ -1,0 +1,239 @@
+----item----
+version: 1
+id: {183B994B-B72C-4DB8-91E6-FF3DB890570E}
+database: master
+path: /sitecore/content/Metronic/Home/Products/Xbox/Xbox One Games/Halo 5
+parent: {8E810B67-BFF3-4D1F-AA07-EFA0B90C345F}
+name: Halo 5
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FD46617-A947-4964-9B92-67B3FBE68B26}
+templatekey: Product
+
+----field----
+field: {B0A67B2A-8B07-4E0B-8809-69F751709806}
+name: __Tracking
+key: __tracking
+content-length: 564
+
+<tracking>  <profile id="{B000189D-DE2F-473F-817F-7006254F047E}" name="Site Interest" presets="xbox|100||">    <key name="Office" value="0" />    <key name="Xbox" value="10" />    <key name="Surface" value="0" />    <key name="Mobile" value="0" />  </profile>  <profile id="{F8013B04-E03A-4685-ACF6-F8C662215553}" name="Gaming Interest" presets="action|100||">    <key name="Action" value="10" />    <key name="Adventure" value="0" />    <key name="Fighting" value="0" />    <key name="Racing" value="0" />    <key name="Sports" value="0" />  </profile></tracking>
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{B2FD4E6E-7FE0-4A96-8669-3BA9C5498ED1}
+----version----
+language: en
+version: 1
+revision: b6bf323d-a1be-4507-b5c2-dc6b37350a36
+
+----field----
+field: {B070C3CF-C82E-4A1B-8DB8-9FF99E929A0D}
+name: Title
+key: title
+content-length: 6
+
+Halo 5
+----field----
+field: {7535D9B2-B818-4653-A65A-B7102CCD3804}
+name: Text
+key: text
+content-length: 709
+
+<p>Peace is shattered when colony worlds are unexpectedly attacked. But when humanity's greatest hero goes missing, a new Spartan is tasked with hunting the Master Chief and soldsfvgsdfving a mystery that threatens the entire galaxy.</p>
+<h3>Limited Edition</h3>
+<p>The Limited Edition** of Halo 5: Guardians delivers new digital content to enhance Spartan combat plus exclusive* items all wrapped in a uniquely designed steel book.</p>
+<h3>Limited Collector's Edition</h3>
+<p>A premium edition of Halo 5: Guardians for collectors and Halo fans alike. The Limited Collector's Edition** contains the Limited Edition as well as additional content including a commemorative statue designed by 343 Industries.</p>
+----field----
+field: {33BD8C22-AD75-4C83-BB2E-2299F823F719}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{FDE04EFF-BF7A-4745-A8FF-6B4F67BF05E4}" />
+----field----
+field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
+name: Menu title
+key: menu title
+content-length: 6
+
+Halo 5
+----field----
+field: {DEC38F42-43BD-4E9F-9C34-BAA5B57F0523}
+name: Summary
+key: summary
+content-length: 222
+
+Peace is shattered when colony worlds are unexpectedly attacked. But when humanity’s greatest hero goes missing, a new Spartan is tasked with hunting the Master Chief and solving a mystery that threatens the entire galaxy.
+----field----
+field: {8AD51C12-5704-4850-B8F3-134BDCFAFD49}
+name: Tags
+key: tags
+content-length: 38
+
+{1AA042D8-77AE-4717-8FE8-C6D4879FD6A7}
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 361
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{F62C3253-C477-4C02-B4C9-43257812D764}" s:id="{F8271E87-8557-4597-8C5D-1358B645B3B2}" /><r uid="{D39D7596-6B36-495E-85B9-5264F9FE837B}" s:ds="{43B46E8B-F87A-4D3E-BC5D-68D6992B6AA2}" s:id="{82702046-F391-4F9E-B742-0C24B8CC34E7}" s:ph="/body/maincontent/content" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150119T151914Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b6bf323d-a1be-4507-b5c2-dc6b37350a36
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150615T123755:635699686756819326Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{4AC5E48B-7A3E-462C-BF8E-1B87BF7E14B3}
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: en
+version: 2
+revision: a01cf161-c1ca-4561-9fe2-774952a46379
+
+----field----
+field: {B070C3CF-C82E-4A1B-8DB8-9FF99E929A0D}
+name: Title
+key: title
+content-length: 6
+
+Halo 5
+----field----
+field: {7535D9B2-B818-4653-A65A-B7102CCD3804}
+name: Text
+key: text
+content-length: 709
+
+<p>Peace is shattered when colony worlds are unexpectedly attacked. But when humanity's greatest hero goes missing, a new Spartan is tasked with hunting the Master Chief and soldsfvgsdfving a mystery that threatens the entire galaxy.</p>
+<h3>Limited Edition</h3>
+<p>The Limited Edition** of Halo 5: Guardians delivers new digital content to enhance Spartan combat plus exclusive* items all wrapped in a uniquely designed steel book.</p>
+<h3>Limited Collector's Edition</h3>
+<p>A premium edition of Halo 5: Guardians for collectors and Halo fans alike. The Limited Collector's Edition** contains the Limited Edition as well as additional content including a commemorative statue designed by 343 Industries.</p>
+----field----
+field: {33BD8C22-AD75-4C83-BB2E-2299F823F719}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{FDE04EFF-BF7A-4745-A8FF-6B4F67BF05E4}" />
+----field----
+field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
+name: Menu title
+key: menu title
+content-length: 6
+
+Halo 5
+----field----
+field: {DEC38F42-43BD-4E9F-9C34-BAA5B57F0523}
+name: Summary
+key: summary
+content-length: 222
+
+Peace is shattered when colony worlds are unexpectedly attacked. But when humanity’s greatest hero goes missing, a new Spartan is tasked with hunting the Master Chief and solving a mystery that threatens the entire galaxy.
+----field----
+field: {8AD51C12-5704-4850-B8F3-134BDCFAFD49}
+name: Tags
+key: tags
+content-length: 38
+
+{1AA042D8-77AE-4717-8FE8-C6D4879FD6A7}
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 421
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{73F2B336-1E03-433E-8A2D-3E7F19B43C26}" p:before="r[@uid='{77DC072C-1019-428C-99A8-83D64FD54FA7}']" s:ds="{6EC2FE61-DA54-4B5A-9C1C-A49C95733916}" s:id="{BA1B3276-594D-4134-9C32-A340BD8ABB37}" s:ph="/body/maincontent/content" /><r uid="{F62C3253-C477-4C02-B4C9-43257812D764}" s:id="{F8271E87-8557-4597-8C5D-1358B645B3B2}" /></d></r>
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20150603T104526Z
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150603T104526Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 13
+
+sitecore\mark
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a01cf161-c1ca-4561-9fe2-774952a46379
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150615T123755:635699686757519828Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{E903F29B-7B9A-4651-9BD6-854B745FAC21}
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

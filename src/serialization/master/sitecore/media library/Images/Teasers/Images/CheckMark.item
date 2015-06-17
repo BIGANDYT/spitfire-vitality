@@ -478,20 +478,6 @@ Q0vHU7TA/i94+e/j3V2V5HJbib2P8Xyj1bXres9Tntx6DS/E849Lm+jhUXmdCqxGpai9aw9T7KpS
 ZuOhJrVCG1tQAjftoAE28KAEbUhg+WgBeWgBjagBvLegBeSgQLct6Bgm300AAb0tRiHNegAxftpi
 P//Z
 ----field----
-field: {22EAC599-F13B-4607-A89D-C091763A467D}
-name: Width
-key: width
-content-length: 0
-
-
-----field----
-field: {DE2CA9E4-C117-4C8A-A139-1FF4B199D15A}
-name: Height
-key: height
-content-length: 0
-
-
-----field----
 field: {C06867FE-9A43-4C7D-B739-48780492D06F}
 name: Extension
 key: extension
@@ -556,6 +542,6 @@ content-length: 35
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 14
+content-length: 18
 
-sitecore\admin
+extranet\Anonymous

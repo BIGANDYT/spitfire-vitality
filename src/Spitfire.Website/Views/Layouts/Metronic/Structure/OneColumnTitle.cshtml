@@ -1,0 +1,13 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+<div class="row margin-bottom-40">
+    <!-- BEGIN CONTENT -->
+    <div class="col-md-12">
+        <h1>@Html.Sitecore().Field("title")</h1>
+        <div class="content-page">
+            @Html.Sitecore().Placeholder("onecontent")
+        </div>
+    </div>
+    <!-- END CONTENT -->
+</div>

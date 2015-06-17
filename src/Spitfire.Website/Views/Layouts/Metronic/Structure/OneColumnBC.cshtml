@@ -1,0 +1,13 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@Html.Sitecore().Rendering("{C2928AA1-9DFC-488D-AC3E-5E0744C4FF68}") @* Breadcrumb *@
+<div class="row margin-bottom-40">
+    <!-- BEGIN CONTENT -->
+    <div class="col-md-12">
+        <div class="content-page">
+            @Html.Sitecore().Placeholder("onecontent")
+        </div>
+    </div>
+    <!-- END CONTENT -->
+</div>

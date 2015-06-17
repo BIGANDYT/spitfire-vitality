@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {2937EAB1-3E3D-45BF-8833-A574058A7AE0}
+database: master
+path: /sitecore/content/Metronic/Microsites/Finance
+parent: {7C41C20D-C5AB-4B80-A521-F90234594842}
+name: Finance
+master: {00000000-0000-0000-0000-000000000000}
+template: {4A8822CC-B418-4452-AB0F-8BB6DF2F2114}
+templatekey: Home
+
+----version----
+language: en
+version: 1
+revision: 8b36bb8a-5889-4300-ab4a-239e13e3d3bf
+
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1054
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{76BD8BDF-0A4E-430A-84D8-B97F99028515}" p:before="r[@uid='{24E847A5-2AA5-4473-85D7-D42404C1188A}']" s:ds="{F2488EF3-B484-47FB-B6A7-5C8D60973D3A}" s:id="{82702046-F391-4F9E-B742-0C24B8CC34E7}" s:ph="/body/maincontent/rightcontent" /><r uid="{24E847A5-2AA5-4473-85D7-D42404C1188A}" p:before="r[@uid='{AF053261-A0D7-49C2-AB5C-EEEF97B31D45}']" s:id="{0DE95AE4-41AB-4D01-9EB0-67441B7C2450}" s:ph="/body/maincontent/content" /><r uid="{AF053261-A0D7-49C2-AB5C-EEEF97B31D45}" p:before="r[@uid='{E19DA30E-3C4F-4649-89E2-2ACE9B9DD2B6}']" s:id="{3B8735A7-52AF-4DDB-A8B7-63CC673D278B}" s:ph="/body/maincontent" /><r uid="{6F9D1A55-0E35-4DAF-9F6A-5F96C3B573D9}"><p:d /></r><r uid="{372ED4C7-AE7F-4B22-92F3-D490344A9D52}"><p:d /></r><r uid="{E1C3CA03-8FBA-49AB-8121-3423BFE5C81B}"><p:d /></r><r uid="{B94CA53F-F741-48B7-AF72-319DCA72021E}"><p:d /></r><r uid="{2E0E5CED-DE13-4305-99E0-576949D3363F}"><p:d /></r><r uid="{D735F39B-16A6-4F6E-BE80-877B5F4B323A}"><p:d /></r></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150310T131554Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8b36bb8a-5889-4300-ab4a-239e13e3d3bf
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150615T122211:635699677313928938Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

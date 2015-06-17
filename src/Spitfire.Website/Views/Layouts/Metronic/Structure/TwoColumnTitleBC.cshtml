@@ -1,0 +1,24 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+<div class="row margin-bottom-40">
+    <!-- BEGIN CONTENT -->
+    <div class="col-md-12 col-sm-12">
+        <h1>@Html.Sitecore().Field("title")</h1>
+        <div class="content-page">
+            <div class="row">
+                <!-- BEGIN LEFT SIDEBAR -->
+                <div class="col-md-9 col-sm-9 blog-posts">
+                    @Html.Sitecore().Placeholder("content")
+                </div>
+                <!-- END LEFT SIDEBAR -->
+                <!-- BEGIN RIGHT SIDEBAR -->
+                <div class="col-md-3 col-sm-3 blog-sidebar">
+                    @Html.Sitecore().Placeholder("rightcontent")
+                </div>
+                <!-- END RIGHT SIDEBAR -->
+            </div>
+        </div>
+    </div>
+    <!-- END CONTENT -->
+</div>

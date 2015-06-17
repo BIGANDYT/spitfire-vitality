@@ -1,0 +1,90 @@
+----item----
+version: 1
+id: {720FF680-9EE1-4D87-AFD8-D87616331C22}
+database: master
+path: /sitecore/content/Metronic/Home/Products/Credit Cards/Balance Plus Credit Card/Tabs/Is this card right for you
+parent: {D9F240D1-9823-464A-A33D-DC7B4E199337}
+name: Is this card right for you
+master: {00000000-0000-0000-0000-000000000000}
+template: {FAEDCC41-E96F-4565-84B9-397259A3B3DE}
+templatekey: Tab
+
+----version----
+language: en
+version: 1
+revision: 122c4aa7-e8d5-4e4b-9ebe-fe29c19c6cc6
+
+----field----
+field: {B070C3CF-C82E-4A1B-8DB8-9FF99E929A0D}
+name: Title
+key: title
+content-length: 27
+
+Is this card right for you?
+----field----
+field: {7535D9B2-B818-4653-A65A-B7102CCD3804}
+name: Text
+key: text
+content-length: 1219
+
+<h3 style="padding-top:0px !important">IS THIS CREDIT CARD RIGHT FOR YOU?</h3>
+<p>With our Balance Plus credit card, there's no need to worry about paying the balance transfer or annual fees. Our realistically low rate of 6.94% means it's the card you can stick with and that sticks with you in return.</p>
+<br>
+<p>Always try and pay more than your minimum payment as paying only the minimum takes longer to pay off your balance and will cost your more money in the long run.</p>
+<br>
+
+<h4 class="text-success">We're more likely to accept you if you:</h4>
+<ul class="list-unstyled margin-bottom-20">
+<li><em class="fa fa-check"></em>You've had credit cards in the past</li>
+<li><em class="fa fa-check"></em>You're aged 21 or over</li>
+<li><em class="fa fa-check"></em>You're a home owner</li>
+<li><em class="fa fa-check"></em>You have an income of more than £20,000 p.a.</li>
+</ul>
+<h4 class="text-danger">We're not likely to accept you if you:</h4>
+<ul class="list-unstyled margin-bottom-20">
+<li><em class="fa fa-check"></em>You have missed payments in the past</li>
+<li><em class="fa fa-check"></em>You've never had credit in the UK before</li>
+<li><em class="fa fa-check"></em>You've had CCJs or defaults</li>
+</ul>
+----field----
+field: {33BD8C22-AD75-4C83-BB2E-2299F823F719}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{DE936F74-5BC9-4E50-B563-23584D6B402F}" />
+----field----
+field: {D547796D-9183-45A7-9A76-70445BFBB88F}
+name: Tab name
+key: tab name
+content-length: 5
+
+tab-1
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150312T105322Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+122c4aa7-e8d5-4e4b-9ebe-fe29c19c6cc6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150312T140032:635617656329411151Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,95 @@
+----item----
+version: 1
+id: {743EA3A7-5E87-4034-8322-5FE6ACFD2FFB}
+database: master
+path: /sitecore/content/Metronic/Home/News/Sitecore Wins 2014 Microsoft Alliance ISV
+parent: {E18457F8-5889-4BA0-B0EF-2E001534DA96}
+name: Sitecore Wins 2014 Microsoft Alliance ISV
+master: {00000000-0000-0000-0000-000000000000}
+template: {824052CF-AE81-4519-AAD3-AF06A02A4C93}
+templatekey: News Item
+
+----version----
+language: en
+version: 1
+revision: 40448257-afbf-4ac8-af93-5c6e0f9d31b7
+
+----field----
+field: {D95BD7D2-2A5E-4F6C-A7C4-E5A564EB5487}
+name: Date
+key: date
+content-length: 16
+
+20141127T110300Z
+----field----
+field: {9ACBBCAB-2484-4558-9728-28433FE2F8A1}
+name: Summary
+key: summary
+content-length: 243
+
+For the second consecutive year, Microsoft recognized Sitecore as one of the top global partners for achieving exceptional sales results, supporting key Microsoft products and continuing its commitment to Microsoft's .NET development platform.
+----field----
+field: {04621054-DA72-4E54-AA5C-E545B2971819}
+name: Teaser Image
+key: teaser image
+content-length: 65
+
+<image mediaid="{DE936F74-5BC9-4E50-B563-23584D6B402F}" ></image>
+----field----
+field: {B070C3CF-C82E-4A1B-8DB8-9FF99E929A0D}
+name: Title
+key: title
+content-length: 61
+
+Sitecore Wins 2014 Microsoft Alliance ISV Partner of the Year
+----field----
+field: {7535D9B2-B818-4653-A65A-B7102CCD3804}
+name: Text
+key: text
+content-length: 2110
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel vehicula neque. Integer efficitur turpis ac nisl feugiat, sollicitudin ullamcorper nibh auctor. Maecenas semper massa elit, in rhoncus neque dictum eget. Sed tortor nisl, finibus at massa ac, tempor vestibulum metus. Vivamus tristique quam ac tempor ultrices. Vestibulum vel ex a tortor tincidunt ornare at sit amet arcu. Nulla lacinia semper diam sed condimentum. Phasellus non varius lacus, a vestibulum est. Praesent et facilisis mi. Sed vel pellentesque quam. Nulla egestas pretium iaculis. Proin efficitur sed nisl eu rutrum. Nullam quis finibus elit, a tincidunt orci.</p>
+<p>Vivamus viverra augue ac dignissim elementum. Proin consectetur massa sit amet efficitur finibus. Quisque a est vestibulum, dictum nisi vel, sagittis lacus. Aliquam interdum erat quis dui sodales, et efficitur massa gravida. Fusce non neque bibendum, tempor massa et, semper lorem. Donec euismod egestas tortor eu finibus. Integer sed luctus metus. Nullam non egestas nunc, non laoreet quam. Donec bibendum et magna at porta. Nulla facilisi. Proin volutpat ultrices dui at mollis. Pellentesque interdum nisl vel nunc pharetra, ultrices dictum sapien porttitor. Duis blandit nec ante quis gravida. Suspendisse vitae ultrices mauris. Nam convallis dolor sem.</p>
+<p>Fusce justo felis, eleifend eu lorem in, vulputate imperdiet risus. Aenean tempus rutrum nisl, in rutrum turpis condimentum nec. Nulla fermentum elit sit amet purus cursus, non feugiat ligula eleifend. In hac habitasse platea dictumst. Phasellus erat orci, vestibulum non aliquet a, auctor eget erat. Nullam venenatis tincidunt ex, sed accumsan justo egestas sagittis. Aliquam diam nibh, faucibus ornare ex ultrices, cursus maximus orci. Integer tristique hendrerit odio, id viverra lacus egestas ut. Nam rhoncus id lectus ac pulvinar. Nulla tempus sem a iaculis finibus. Donec viverra dui elementum metus consectetur, non mollis nisi vulputate. Sed pharetra laoreet bibendum. Duis posuere libero aliquam nisl semper, quis feugiat purus suscipit. Sed bibendum quis urna nec fringilla.</p>
+----field----
+field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
+name: Menu title
+key: menu title
+content-length: 67
+
+Sitecore Wins 2014 Microsoft Alliance ISV Partner of the Year Award
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20141204T110301
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+40448257-afbf-4ac8-af93-5c6e0f9d31b7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150507T073018:635665806189851707Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

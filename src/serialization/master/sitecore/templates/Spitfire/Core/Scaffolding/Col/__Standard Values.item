@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {F7968D00-4D4E-4C3C-A853-BA93E7998074}
+database: master
+path: /sitecore/templates/Spitfire/Core/Scaffolding/Col/__Standard Values
+parent: {1340124B-9B0E-46BF-9141-A7BAC559234E}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {1340124B-9B0E-46BF-9141-A7BAC559234E}
+templatekey: Col
+
+----field----
+field: {E42027F4-766D-45A7-8CF4-29E5C94326F7}
+name: Placeholder
+key: placeholder
+content-length: 94
+
+/content/section_1d6ab88d-97bf-4cf6-aeea-c75e3a64b863/row_b7e4e83d-1ebc-437f-99b7-ae4ecb48a3a2
+----field----
+field: {3094D236-5985-4C4F-AE6A-E30740885532}
+name: Caching
+key: caching
+content-length: 15
+
+0|0|0|0|0|0|0|0
+----version----
+language: en
+version: 1
+revision: 3dd003cc-d591-4158-a7d4-6831b0dca120
+
+----field----
+field: {EE10A9F1-94BF-4B6C-837D-60BB3B4F77DD}
+name: CssClass
+key: cssclass
+content-length: 9
+
+col-md-12
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150403T202124Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3dd003cc-d591-4158-a7d4-6831b0dca120
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150507T082737:635665840578935041Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 18
+
+extranet\Anonymous

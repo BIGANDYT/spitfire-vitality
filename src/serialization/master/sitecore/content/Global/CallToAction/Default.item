@@ -12,15 +12,15 @@ templatekey: CallToAction
 ----version----
 language: en
 version: 1
-revision: 1aeaf5a1-f98b-447e-be9b-c71a58d72218
+revision: c7d4bbfb-8fce-4b9f-9eae-925b9f7b9e25
 
 ----field----
 field: {4472C6A0-934F-4361-A097-563E608823AA}
 name: Link
 key: link
-content-length: 181
+content-length: 193
 
-<link text="Buy Sitecore Now" linktype="internal" class="btn btn-block btn-full-width" title="" target='Active Browser' querystring="" id="{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}" />
+<link id="{A9C39987-F641-4A00-93CC-B627D3ABCD9A}" querystring="" target="Active Browser" text="Buy Sitecore Now" title="" class="btn btn-block btn-full-width" url="/Home" linktype="internal" />
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1aeaf5a1-f98b-447e-be9b-c71a58d72218
+c7d4bbfb-8fce-4b9f-9eae-925b9f7b9e25
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150528T143735:635684206559126898Z
+20150616T143707:635700622273141935Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Mvc.Analytics.Extensions
+@model RenderingModel
+@{
+    Layout = null;
+}
+<!--
+Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.2.0
+Version: 3.4
+Author: KeenThemes
+Website: http://www.keenthemes.com/
+Contact: support@keenthemes.com
+Follow: www.twitter.com/keenthemes
+Like: www.facebook.com/keenthemes
+Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+License: You must have a valid license purchased only from themeforest (the above link) in order to legally use the theme for your project.
+-->
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<!-- Head BEGIN -->
+<head>
+    <meta charset="utf-8">
+    <title>Officecore 2015 - @Html.Sitecore().Field("title", new { DisableWebEdit = true })</title>
+
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta content="Metronic Shop UI description" name="description">
+    <meta content="Metronic Shop UI keywords" name="keywords">
+    <meta content="keenthemes" name="author">
+
+    <meta property="og:site_name" content="-CUSTOMER VALUE-">
+    <meta property="og:title" content="-CUSTOMER VALUE-">
+    <meta property="og:description" content="-CUSTOMER VALUE-">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="-CUSTOMER VALUE-"><!-- link to image for socio -->
+    <meta property="og:url" content="-CUSTOMER VALUE-">
+
+    <!-- Fonts START -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|PT+Sans+Narrow|Source+Sans+Pro:200,300,400,600,700,900&amp;subset=all" rel="stylesheet" type="text/css">
+    <!-- Fonts END -->
+    <!-- Global styles START -->
+    <link href="/metronic/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/metronic/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Global styles END -->
+    <!-- Page level plugin styles START -->
+    <link href="/metronic/global/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet">
+    <link href="/metronic/global/plugins/carousel-owl-carousel/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="/metronic/global/plugins/slider-revolution-slider/rs-plugin/css/settings.css" rel="stylesheet">
+
+    <!-- Page level plugin styles END -->
+    <!-- Theme styles START -->
+    <link href="/metronic/global/css/components.css" rel="stylesheet">
+    <link href="/metronic/global/css/plugins.css" rel="stylesheet">
+    <link href="/metronic/frontend/layout/css/style.css" rel="stylesheet">
+    <link href="/metronic/frontend/pages/css/portfolio.css" rel="stylesheet">
+    <link href="/metronic/frontend/pages/css/style-revolution-slider.css" rel="stylesheet"><!-- metronic revo slider styles -->
+    <link href="/metronic/frontend/layout/css/style-responsive.css" rel="stylesheet">
+    @Html.Sitecore().Rendering("{CE71A162-3419-4749-934F-A377C5CE52F6}") @* CssColour *@
+
+    <link href="/metronic/frontend/layout/css/custom.css" rel="stylesheet">
+    <!-- Theme styles END -->
+    <!-- Officecore styles override START -->
+    <link href="/metronic/frontend/layout/css/style-override.css" rel="stylesheet">
+    <!-- Officecore styles override  END -->
+    <!-- amCharts javascript sources -->
+    <script type="text/javascript" src="http://cdn.amcharts.com/lib/3/amcharts.js"></script>
+    <script type="text/javascript" src="http://www.amcharts.com/lib/3/pie.js"></script>
+    <script type="text/javascript" src="http://cdn.amcharts.com/lib/3/themes/light.js"></script>
+
+    @Html.Sitecore().VisitorIdentification()
+</head>
+<!-- Head END -->
+<!-- Body BEGIN -->
+<body class="corporate">
+    <!-- SC_PROFILES -->
+    @Html.Sitecore().Rendering("{09DBD9A2-577D-4A49-9232-E585B4DA3569}") @* Profiles *@
+
+    <!-- SC_HEADER -->
+    @Html.Sitecore().Rendering("{10D1031A-369A-413E-BEF9-D9DBDF28ED19}") @* TopBar *@
+    @Html.Sitecore().Rendering("{2345F632-3684-4540-A216-F65D7BD4036D}") @* Header *@
+
+    @Html.Sitecore().Placeholder("header")
+
+    <!-- SC_SLIDER -->
+    @Html.Sitecore().Placeholder("slider")
+
+    <!-- SC_BODY -->
+    @Html.Sitecore().Placeholder("body")
+
+    <!-- SC_FOOTER -->
+    @Html.Sitecore().Rendering("{7F0EA541-950B-46C9-9DF3-A8917CEFDBD5}") @* Footer *@
+    @Html.Sitecore().Rendering("{1B8DF900-CD9D-48BC-9F97-B2A09109D14C}") @* JavaScript *@
+</body>
+<!-- END BODY -->
+</html>

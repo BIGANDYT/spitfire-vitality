@@ -1,0 +1,25 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+<!-- BEGIN STEPS -->
+<div class="row margin-bottom-40 front-steps-wrapper front-steps-count-3">
+    <div class="col-md-4 col-sm-4 front-step-col">
+        <div class="front-step front-step1">
+            <h2>@Html.Sitecore().Field("one title")</h2>
+            <p>@Html.Sitecore().Field("one text")</p>
+        </div>
+    </div>
+    <div class="col-md-4 col-sm-4 front-step-col">
+        <div class="front-step front-step2">
+            <h2>@Html.Sitecore().Field("two title")</h2>
+            <p>@Html.Sitecore().Field("two text")</p>
+        </div>
+    </div>
+    <div class="col-md-4 col-sm-4 front-step-col">
+        <div class="front-step front-step3">
+            <h2>@Html.Sitecore().Field("three title")</h2>
+            <p>@Html.Sitecore().Field("three text")</p>
+        </div>
+    </div>
+</div>
+<!-- END STEPS -->

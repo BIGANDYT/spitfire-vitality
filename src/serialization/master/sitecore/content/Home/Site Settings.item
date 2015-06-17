@@ -3,7 +3,7 @@ version: 1
 id: {F143A0D0-92E4-450E-8DBE-C7378B65E24A}
 database: master
 path: /sitecore/content/Home/Site Settings
-parent: {110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}
+parent: {A9C39987-F641-4A00-93CC-B627D3ABCD9A}
 name: Site Settings
 master: {00000000-0000-0000-0000-000000000000}
 template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
@@ -19,7 +19,7 @@ Applications/32x32/gears.png
 ----version----
 language: en
 version: 1
-revision: a6896cc7-a734-400a-86df-e70706825330
+revision: db957a89-7777-4fcd-accf-d64ab82f41c3
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -41,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-a6896cc7-a734-400a-86df-e70706825330
+db957a89-7777-4fcd-accf-d64ab82f41c3
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150515T143942:635672975824134183Z
+20150616T135623:635700597830698021Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

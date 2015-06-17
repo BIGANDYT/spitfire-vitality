@@ -93,13 +93,6 @@ content-length: 29
 
 © 2015 Start Bootstrap Themes
 ----field----
-field: {61F44A61-2D07-4E92-B38C-FFB94190B745}
-name: FooterHeight
-key: footerheight
-content-length: 0
-
-
-----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
 key: __owner

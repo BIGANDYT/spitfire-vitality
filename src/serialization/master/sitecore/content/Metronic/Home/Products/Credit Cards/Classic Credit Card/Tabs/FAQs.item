@@ -1,0 +1,83 @@
+----item----
+version: 1
+id: {F78CCF88-5B36-41B1-B78C-F92D9BCF869E}
+database: master
+path: /sitecore/content/Metronic/Home/Products/Credit Cards/Classic Credit Card/Tabs/FAQs
+parent: {4988C2DE-F5F1-4F92-AC59-87DDFF81510D}
+name: FAQs
+master: {00000000-0000-0000-0000-000000000000}
+template: {FAEDCC41-E96F-4565-84B9-397259A3B3DE}
+templatekey: Tab
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+300
+----version----
+language: en
+version: 1
+revision: 44af1af5-614e-4a12-b2ce-8b8184839b19
+
+----field----
+field: {B070C3CF-C82E-4A1B-8DB8-9FF99E929A0D}
+name: Title
+key: title
+content-length: 4
+
+FAQs
+----field----
+field: {7535D9B2-B818-4653-A65A-B7102CCD3804}
+name: Text
+key: text
+content-length: 2220
+
+<h3>WHAT IS A CREDIT RATING AND WHAT IS BAD CREDIT?</h3>
+<p>A credit rating is a record of how well you've managed your finances in the past. Things like missing a credit card payment or defaulting on a bill can damage your credit rating. This is known as having bad credit, which can make it harder to borrow money, whether that's a store card, credit card, a loan or a mortgage.</p>
+
+<h3>HOW IS BAD CREDIT DECIDED?</h3>
+<p>When it comes to applying for credit, credit companies or other lenders want to know who they are lending their money to. Lenders assess your credit rating and your credit report, which is taken from credit reference agencies like Experian and Equifax. This assessment helps them to create what's called a credit score which is based on things like your income, level of debt, how you have managed your past finances (including credit cards, loans or mobile phone contracts) etc. It also takes into account other information, such as how long you've been with your bank or if you're on the Electoral Roll.</p>
+<p>The lender uses the credit score to decide whether you qualify for credit with them and if so what your credit limit and interest rates could be.</p>
+
+<h3>WHY USE BAD CREDIT CREDIT CARDS?</h3>
+<p>While repairing bad credit can be a lengthy process, there are certain things you can do to improve your credit rating. The Capital One Classic Card is a credit card for bad credit and a good way to help repair bad credit. By using your credit card regularly, always paying at least the minimum payment each month and staying within your credit limit, credit cards can work to rebuild a bad credit history or improve your current rating.</p>
+<p>As your recent credit history impacts your credit file, your credit rating will gradually improve, providing you stay on top of your future credit repayments. By getting credit, staying within the limit and not missing any payments, you can build a good credit history from scratch. Being turned down for a credit card may damage your credit rating. Safely check if you could be eligible for a Capital One credit card using our QuickCheck tool . This checks your eligibility across all of our cards without damaging your credit rating.</p>
+
+
+----field----
+field: {D547796D-9183-45A7-9A76-70445BFBB88F}
+name: Tab name
+key: tab name
+content-length: 5
+
+tab-4
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150312T105351Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+44af1af5-614e-4a12-b2ce-8b8184839b19
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150312T135630:635617653903556430Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,11 @@
+﻿@using Sitecore.Mvc.Presentation
+@model RenderingModel
+
+@{
+    // TODO: clean up
+    var home = Sitecore.Context.Database.GetItem("110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9");
+    var colourid = home["theme"];
+    var colouritem = Sitecore.Context.Database.GetItem(colourid);
+}
+
+<link href="/metronic/frontend/layout/css/themes/@colouritem["css filename"]" rel="stylesheet" id="style-color" />
