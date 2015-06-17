@@ -1,0 +1,91 @@
+----item----
+version: 1
+id: {AF7791E1-D350-48BF-BDB0-E01A392C9154}
+database: master
+path: /sitecore/system/Marketing Control Panel/FXM/GameBox/gameboxfeatured
+parent: {BEB23F5B-397B-4DEB-9A5E-DBB1E46F9BEE}
+name: gameboxfeatured
+master: {00000000-0000-0000-0000-000000000000}
+template: {10E23679-55DB-4059-B8F2-E417A2F78FCB}
+templatekey: Element Placeholder
+
+----field----
+field: {7CA4CCA5-DF09-404F-99E1-5E00EAA5584E}
+name: Selector
+key: selector
+content-length: 79
+
+#post-203 > div:not([sc-part-of]):eq(0) > div > ul > li:not([sc-part-of]):eq(2)
+----version----
+language: en
+version: 1
+revision: a0cc2a2c-0651-4141-b029-46abbc8d4ff2
+
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1394
+
+<r xmlns:p="p" xmlns:s="s" p:p="1">
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r uid="{13678EDA-CECA-4361-B0C5-42D73BB46435}" s:id="{F928CDD7-9973-4A09-AB15-0CCFDD1A1DE3}" s:ph="{af7791e1-d350-48bf-bdb0-e01a392c9154}">
+      <rls>
+        <ruleset>
+          <rule uid="{8581A9B4-B540-42B4-AAC2-F31766AA25B5}" s:name="Visitor is Action Gamer">
+            <conditions>
+              <and uid="F2A34EAE24CF42E2B6E5DDC1E7FFAB14">
+                <condition uid="51E7551904B6414197E2AC9E41E9DF64" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Site Interest" s:PatternName="Gamer" />
+                <condition uid="BC970A939F8A454BBB29AFCFB839B625" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Gaming Interest" s:PatternName="Action Gamer" />
+              </and>
+            </conditions>
+            <actions>
+              <action uid="311EDF46E6C14C909A2A25042DC3E1A5" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{2BD219B1-ADE5-4685-8308-73925DECAFAE}" />
+            </actions>
+          </rule>
+          <rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default">
+            <conditions>
+              <condition uid="DDF3E825F447492E9F119B279696768E" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+            </conditions>
+            <actions />
+          </rule>
+        </ruleset>
+      </rls>
+    </r>
+  </d>
+</r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150604T093501Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a0cc2a2c-0651-4141-b029-46abbc8d4ff2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150604T094217:635690077370006615Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

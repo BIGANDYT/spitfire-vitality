@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {D89A154E-F27C-425D-A5C7-CF3EE4913C9E}
+database: master
+path: /sitecore/system/Marketing Control Panel/Profiles/Gaming Interest/Pattern Cards/Racing Gamer
+parent: {6228C668-FCA4-4DAE-94A5-07EC54FD3B78}
+name: Racing Gamer
+master: {00000000-0000-0000-0000-000000000000}
+template: {4A6A7E36-2481-438F-A9BA-0453ECC638FA}
+templatekey: Pattern Card
+
+----field----
+field: {FE732790-2DDB-4657-A882-C2FCE1FBF0C9}
+name: Name
+key: name
+content-length: 12
+
+Racing Gamer
+----field----
+field: {98535F26-6C9D-4FD7-A7E2-392C7CB82D65}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{90531EEE-528B-4ACD-A210-D6DCDE56B257}" />
+----field----
+field: {6DA71AD3-5849-4482-9317-D21390E5A348}
+name: Pattern
+key: pattern
+content-length: 300
+
+<tracking>
+  <profile id="{F8013B04-E03A-4685-ACF6-F8C662215553}" name="Gaming Interest">
+    <key name="Action" value="2" />
+    <key name="Adventure" value="2" />
+    <key name="Fighting" value="2" />
+    <key name="Racing" value="10" />
+    <key name="Sports" value="2" />
+  </profile>
+</tracking>
+----version----
+language: en
+version: 1
+revision: 142b9848-09ce-487b-b1b0-7bd8eec66b64
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150121T170736Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+142b9848-09ce-487b-b1b0-7bd8eec66b64
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150302T140032:635609016327727127Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

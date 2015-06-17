@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {EF62C071-56E8-49D4-AC3B-A6425683BE2E}
+database: master
+path: /sitecore/system/Marketing Control Panel/Profiles/Site Interest/Profile Cards/Xbox
+parent: {53269228-0603-4DF9-86B7-1B371D8AC712}
+name: Xbox
+master: {00000000-0000-0000-0000-000000000000}
+template: {0FC09EA4-8D87-4B0E-A5C9-8076AE863D9C}
+templatekey: Profile Card
+
+----field----
+field: {709B879B-7264-49C7-8864-E254D9129302}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{4ABE0487-EE38-477C-B95A-63DCF0687A8C}" />
+----field----
+field: {85970AB7-22EA-4206-BE86-C0167178860B}
+name: Profile Card Value
+key: profile card value
+content-length: 256
+
+<tracking>
+  <profile id="{B000189D-DE2F-473F-817F-7006254F047E}" name="Site Interest">
+    <key name="Office" value="0" />
+    <key name="Xbox" value="10" />
+    <key name="Surface" value="0" />
+    <key name="Mobile" value="1" />
+  </profile>
+</tracking>
+----version----
+language: en
+version: 1
+revision: 2ab8efc0-20b6-4b89-bef3-28e2c88f7a72
+
+----field----
+field: {A26FC256-1DB0-44AA-BA3D-1C830BF882A2}
+name: Name
+key: name
+content-length: 4
+
+Xbox
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150121T164330Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2ab8efc0-20b6-4b89-bef3-28e2c88f7a72
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150218T110650:635598544100027558Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

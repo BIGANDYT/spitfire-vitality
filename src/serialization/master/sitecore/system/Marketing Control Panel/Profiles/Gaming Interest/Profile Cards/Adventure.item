@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {10910105-6AEE-46F7-8D3C-C4224413165A}
+database: master
+path: /sitecore/system/Marketing Control Panel/Profiles/Gaming Interest/Profile Cards/Adventure
+parent: {04BC28BB-581F-44D7-BB08-7BF894E19467}
+name: Adventure
+master: {00000000-0000-0000-0000-000000000000}
+template: {0FC09EA4-8D87-4B0E-A5C9-8076AE863D9C}
+templatekey: Profile Card
+
+----field----
+field: {709B879B-7264-49C7-8864-E254D9129302}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{4BE4C87F-B311-42DB-8961-D3B5D54B7881}" />
+----field----
+field: {85970AB7-22EA-4206-BE86-C0167178860B}
+name: Profile Card Value
+key: profile card value
+content-length: 300
+
+<tracking>
+  <profile id="{F8013B04-E03A-4685-ACF6-F8C662215553}" name="Gaming Interest">
+    <key name="Action" value="0" />
+    <key name="Adventure" value="10" />
+    <key name="Fighting" value="0" />
+    <key name="Racing" value="0" />
+    <key name="Sports" value="0" />
+  </profile>
+</tracking>
+----version----
+language: en
+version: 1
+revision: 273aaa16-02f7-4dab-b340-cde192f31352
+
+----field----
+field: {A26FC256-1DB0-44AA-BA3D-1C830BF882A2}
+name: Name
+key: name
+content-length: 9
+
+Adventure
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150121T170544Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+273aaa16-02f7-4dab-b340-cde192f31352
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150121T172811:635574580915428774Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
