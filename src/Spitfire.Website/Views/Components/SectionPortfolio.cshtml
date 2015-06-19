@@ -1,22 +1,14 @@
 ﻿@using Sitecore.Data.Fields
 @using Sitecore.Data.Items
 @using Sitecore.Resources.Media
+@using Spitfire.SitecoreExtensions.Extensions
 
 <section class="portfolio-carousel wow fadeIn">
     @if (Model.Data != null)
     {
         foreach (Item item in Model.Data)
         {
-            var imageUrl = string.Empty;
-            var background = (ImageField)item.Fields["BackgroundImage"];
-            if (background != null)
-            {
-                var mediaItem = background.MediaItem;
-                if (mediaItem != null)
-                {
-                    imageUrl = MediaManager.GetMediaUrl(mediaItem);
-                }
-            }
+            var imageUrl = item.ImageUrl("BackgroundImage");
 
             <div class="item" style="@(imageUrl != string.Empty ? "background-image: url('" + @imageUrl + "')}" : string.Empty)">
                 @if (Sitecore.Context.PageMode.IsPageEditor)
@@ -58,16 +50,7 @@
 {
     foreach (Item item in Model.Data)
     {
-        var imageUrl = string.Empty;
-        var background = (ImageField)item.Fields["ModalBackgroundImage"];
-        if (background != null)
-        {
-            var mediaItem = background.MediaItem;
-            if (mediaItem != null)
-            {
-                imageUrl = MediaManager.GetMediaUrl(mediaItem);
-            }
-        }
+        var imageUrl = item.ImageUrl("ModalBackgroundImage");
 
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true" style="@(imageUrl != string.Empty ? "background-image: url('" + @imageUrl + "')}" : string.Empty)">
             <div class="modal-content">

@@ -5,6 +5,7 @@
     using Sitecore.Mvc.Presentation;
     using Sitecore.Resources.Media;
     using Spitfire.Library.Constants;
+    using Spitfire.SitecoreExtensions.Extensions;
 
     using Convert = System.Convert;
 
@@ -29,11 +30,8 @@
             if (!string.IsNullOrEmpty(rendering.DataSource))
             {
                 var datasource = Context.Database.GetItem(rendering.DataSource);
-                var imgField = (ImageField)datasource.Fields[SpitfireConstants.FieldConstants.Banner.BackgroundImage];
-                if (imgField != null && imgField.MediaItem != null)
-                {
-                    BackgroundImageUrl = MediaManager.GetMediaUrl(imgField.MediaItem);
-                }
+
+                BackgroundImageUrl = datasource.ImageUrl(SpitfireConstants.FieldConstants.Banner.BackgroundImage);
 
                 TitleColor = datasource[SpitfireConstants.FieldConstants.Banner.TitleColor];
                 SubTitleColor = datasource[SpitfireConstants.FieldConstants.Banner.SubtitleColor];

@@ -1,10 +1,8 @@
 ﻿namespace Spitfire.Library.Models
 {
-    using Sitecore.Data.Fields;
     using Sitecore.Mvc.Presentation;
-    using Sitecore.Resources.Media;
-
     using Spitfire.Library.Constants;
+    using Spitfire.SitecoreExtensions.Extensions;
 
     public class FooterModel : RenderingModel
     {
@@ -16,12 +14,7 @@
         {
             base.Initialize(rendering);
             var item = this.Item;
-            var imgField = (ImageField)item.Fields[SpitfireConstants.FieldConstants.Footer.BackgroundImage];
-            if (imgField != null && imgField.MediaItem != null)
-            {
-                BackgroundImageUrl = MediaManager.GetMediaUrl(imgField.MediaItem);
-            }
-
+            BackgroundImageUrl = item.ImageUrl(SpitfireConstants.FieldConstants.Footer.BackgroundImage);
             FooterHeight = item[SpitfireConstants.FieldConstants.Footer.FooterHeight];
         }
     }

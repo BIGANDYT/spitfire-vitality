@@ -1,9 +1,7 @@
 ﻿namespace Spitfire.Library.Models
 {
-    using Sitecore;
     using Sitecore.Mvc.Presentation;
-    using Sitecore.Resources.Media;
-    using Sitecore.Xml;
+    using Spitfire.SitecoreExtensions.Extensions;
 
     public class StyleModel : IRenderingModel
     {
@@ -17,17 +15,7 @@
         {
             CssStyle = rendering.Parameters["CssStyle"];
             CssClass = rendering.Parameters["CssClass"];
-            BackgroundImgUrl = string.Empty;
-
-            if (!string.IsNullOrEmpty(rendering.Parameters["BackgroundImage"]))
-            {
-                var imageId = XmlUtil.GetAttribute("mediaid", XmlUtil.LoadXml(rendering.Parameters["BackgroundImage"]));
-                var imageItem = Context.Database.GetItem(imageId);
-                if (imageItem != null)
-                {
-                    BackgroundImgUrl = MediaManager.GetMediaUrl(imageItem);
-                }
-            }
+            BackgroundImgUrl = rendering.ImageUrl("BackgroundImage");
         }
     }
 }
