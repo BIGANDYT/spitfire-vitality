@@ -19,22 +19,15 @@ content-length: 264
 ----version----
 language: en
 version: 1
-revision: dfcf1e87-4685-4ed0-928a-9e86291b5024
+revision: 0a0c5a05-62ba-467e-9bad-71cf992688f7
 
 ----field----
-field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
-name: Menu title
-key: menu title
+field: {1B483E91-D8C4-4D19-BA03-462074B55936}
+name: ShortTitle
+key: shorttitle
 content-length: 5
 
 $name
-----field----
-field: {2CD3E702-4A51-4FAA-AA10-A6F4956E13D3}
-name: Show in menu
-key: show in menu
-content-length: 1
-
-1
 ----field----
 field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
 name: __Final Renderings
@@ -62,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-dfcf1e87-4685-4ed0-928a-9e86291b5024
+0a0c5a05-62ba-467e-9bad-71cf992688f7
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150625T131216:635708347362970186Z
+20150625T132842:635708357223909467Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

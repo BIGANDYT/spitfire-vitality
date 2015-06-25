@@ -36,26 +36,19 @@ content-length: 65
 
 <image mediaid="{D98AD7EC-D374-4A63-9A19-A6F300BB4907}" ></image>
 ----field----
+field: {1B483E91-D8C4-4D19-BA03-462074B55936}
+name: ShortTitle
+key: shorttitle
+content-length: 6
+
+Office
+----field----
 field: {C30A013F-3CC8-4961-9837-1C483277084A}
 name: Title
 key: title
 content-length: 6
 
 Office
-----field----
-field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
-name: Menu title
-key: menu title
-content-length: 6
-
-Office
-----field----
-field: {2CD3E702-4A51-4FAA-AA10-A6F4956E13D3}
-name: Show in menu
-key: show in menu
-content-length: 1
-
-1
 ----field----
 field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
 name: __Final Renderings

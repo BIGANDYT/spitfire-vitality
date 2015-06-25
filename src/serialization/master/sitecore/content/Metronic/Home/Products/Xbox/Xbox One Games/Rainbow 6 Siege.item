@@ -29,16 +29,16 @@ content-length: 58
 
 <image mediaid="{00C4A3E0-2D82-40E0-BEFE-3C4A14FDF8A6}" />
 ----field----
-field: {C30A013F-3CC8-4961-9837-1C483277084A}
-name: Title
-key: title
+field: {1B483E91-D8C4-4D19-BA03-462074B55936}
+name: ShortTitle
+key: shorttitle
 content-length: 15
 
 Rainbow 6 Siege
 ----field----
-field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
-name: Menu title
-key: menu title
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
+name: Title
+key: title
 content-length: 15
 
 Rainbow 6 Siege

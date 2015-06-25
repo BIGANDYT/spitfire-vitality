@@ -22,16 +22,16 @@ content-length: 265
 
 <image mediapath="/Images/Product Images/Xbox/Xbox 360/xb360_bioshock" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Images/Product Images/Xbox/Xbox 360/xb360_bioshock" mediaid="{11309B13-961A-4E54-987F-EE41E14C917A}" />
 ----field----
-field: {C30A013F-3CC8-4961-9837-1C483277084A}
-name: Title
-key: title
+field: {1B483E91-D8C4-4D19-BA03-462074B55936}
+name: ShortTitle
+key: shorttitle
 content-length: 8
 
 BioShock
 ----field----
-field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
-name: Menu title
-key: menu title
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
+name: Title
+key: title
 content-length: 8
 
 BioShock

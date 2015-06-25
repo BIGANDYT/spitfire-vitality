@@ -29,19 +29,19 @@ content-length: 65
 
 <image mediaid="{A98632BC-CB5E-4EA5-BEAC-406B17ED4B39}" ></image>
 ----field----
+field: {1B483E91-D8C4-4D19-BA03-462074B55936}
+name: ShortTitle
+key: shorttitle
+content-length: 11
+
+New Product
+----field----
 field: {C30A013F-3CC8-4961-9837-1C483277084A}
 name: Title
 key: title
 content-length: 16
 
 GameBox Featured
-----field----
-field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
-name: Menu title
-key: menu title
-content-length: 11
-
-New Product
 ----field----
 field: {DEC38F42-43BD-4E9F-9C34-BAA5B57F0523}
 name: Summary

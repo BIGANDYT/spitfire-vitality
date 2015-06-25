@@ -22,6 +22,13 @@ version: 1
 revision: f56039e3-4157-403a-8407-799a1413e1af
 
 ----field----
+field: {1B483E91-D8C4-4D19-BA03-462074B55936}
+name: ShortTitle
+key: shorttitle
+content-length: 9
+
+News Item
+----field----
 field: {C30A013F-3CC8-4961-9837-1C483277084A}
 name: Title
 key: title
@@ -49,13 +56,6 @@ key: teaser image
 content-length: 58
 
 <image mediaid="{7B9B4C06-FB2F-4C53-8134-2EDD16E7FAF7}" />
-----field----
-field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
-name: Menu title
-key: menu title
-content-length: 9
-
-News Item
 ----field----
 field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
 name: __Final Renderings

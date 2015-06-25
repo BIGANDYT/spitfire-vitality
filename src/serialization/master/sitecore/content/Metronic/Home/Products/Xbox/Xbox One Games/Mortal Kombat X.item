@@ -43,16 +43,16 @@ content-length: 58
 
 <image mediaid="{BB42A230-BA2B-49AA-99DA-DA9E7B575C57}" />
 ----field----
-field: {C30A013F-3CC8-4961-9837-1C483277084A}
-name: Title
-key: title
+field: {1B483E91-D8C4-4D19-BA03-462074B55936}
+name: ShortTitle
+key: shorttitle
 content-length: 15
 
 Mortal Kombat X
 ----field----
-field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
-name: Menu title
-key: menu title
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
+name: Title
+key: title
 content-length: 15
 
 Mortal Kombat X

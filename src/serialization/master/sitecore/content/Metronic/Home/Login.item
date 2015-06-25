@@ -33,19 +33,19 @@ ar|sitecore\hca demo|pe|-item:create|-item:write|-item:delete|-item:rename|pd|-i
 ----version----
 language: en
 version: 1
-revision: e0a4419b-2d69-47b5-aa03-6ed482c1dae1
+revision: eead4318-96ec-49df-8f8c-335fc21715a2
 
 ----field----
-field: {C30A013F-3CC8-4961-9837-1C483277084A}
-name: Title
-key: title
+field: {1B483E91-D8C4-4D19-BA03-462074B55936}
+name: ShortTitle
+key: shorttitle
 content-length: 5
 
 Login
 ----field----
-field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
-name: Menu title
-key: menu title
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
+name: Title
+key: title
 content-length: 5
 
 Login
@@ -69,14 +69,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-e0a4419b-2d69-47b5-aa03-6ed482c1dae1
+eead4318-96ec-49df-8f8c-335fc21715a2
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150625T131216:635708347365021654Z
+20150625T132842:635708357224549935Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

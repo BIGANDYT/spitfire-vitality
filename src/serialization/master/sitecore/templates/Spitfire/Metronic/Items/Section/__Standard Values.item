@@ -40,15 +40,8 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: 78a8135c-b876-4919-bbc5-c093a588bc8d
+revision: 88d2a9a5-36c0-4b1c-8d55-929d32b08546
 
-----field----
-field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
-name: Menu title
-key: menu title
-content-length: 5
-
-$name
 ----field----
 field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
 name: __Final Renderings
@@ -83,14 +76,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-78a8135c-b876-4919-bbc5-c093a588bc8d
+88d2a9a5-36c0-4b1c-8d55-929d32b08546
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150625T131223:635708347430846857Z
+20150625T132852:635708357329119006Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
