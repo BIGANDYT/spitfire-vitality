@@ -15,7 +15,7 @@ name: __Base template
 key: __base template
 content-length: 194
 
-{1930BBEB-7805-471A-A3BE-4858AC7CF696}|{66A43C90-5525-47E5-812A-CA0B467F968D}|{E83CC241-5816-4698-9BEA-30DBE46E8E06}|{5DD48ADD-EE8E-4FDB-A50D-1B1EA757157A}|{E2D1902A-3567-4DAC-8614-790B60013729}
+{1930BBEB-7805-471A-A3BE-4858AC7CF696}|{66A43C90-5525-47E5-812A-CA0B467F968D}|{E83CC241-5816-4698-9BEA-30DBE46E8E06}|{E2D1902A-3567-4DAC-8614-790B60013729}|{640B55DD-405B-489C-A4AF-E328588EFE05}
 ----field----
 field: {F7D48A55-2158-4F02-9356-756654404F73}
 name: __Standard values
@@ -33,7 +33,7 @@ business/32x32/pin_blue.png
 ----version----
 language: en
 version: 1
-revision: 5ff631bd-ecdd-4357-86f0-3737b44fe18c
+revision: d9f2ca53-5a76-4096-a3a7-4294145134ee
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -55,18 +55,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-5ff631bd-ecdd-4357-86f0-3737b44fe18c
+d9f2ca53-5a76-4096-a3a7-4294145134ee
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150507T073025:635665806254229660Z
+20150625T112654:635708284148891822Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 18
+content-length: 14
 
-extranet\Anonymous
+sitecore\admin

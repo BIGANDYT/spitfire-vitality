@@ -6,21 +6,14 @@ path: /sitecore/content/Metronic/Global/SEO/Robots/NOINDEX FOLLOW
 parent: {76DF2936-8564-4FDD-A5E0-064B1657A38B}
 name: NOINDEX FOLLOW
 master: {00000000-0000-0000-0000-000000000000}
-template: {4FCEE257-DB59-4AF2-8076-619BFE31F186}
-templatekey: Title
+template: {A1E9A1FE-E1D0-45A6-BEC5-7954E1F56FAA}
+templatekey: SelectOption
 
 ----version----
 language: en
 version: 1
-revision: 026d7511-c05a-44df-ad06-d151bcac89d1
+revision: f625bb99-fbf7-4925-90e1-09d2afcb93a6
 
-----field----
-field: {DA3C2706-C76B-4C51-AB0A-0EE754A1DF0F}
-name: Title
-key: title
-content-length: 15
-
-NOINDEX, FOLLOW
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
@@ -55,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-026d7511-c05a-44df-ad06-d151bcac89d1
+f625bb99-fbf7-4925-90e1-09d2afcb93a6
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150506T073910:635664947503273857Z
+20150625T105447:635708264877334840Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

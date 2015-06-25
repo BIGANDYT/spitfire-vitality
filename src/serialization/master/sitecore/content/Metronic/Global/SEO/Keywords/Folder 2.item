@@ -6,20 +6,13 @@ path: /sitecore/content/Metronic/Global/SEO/Keywords/Folder 2
 parent: {0123233B-0E51-46A1-94CB-11B8E3192487}
 name: Folder 2
 master: {00000000-0000-0000-0000-000000000000}
-template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
-templatekey: Folder
+template: {76E517CE-D593-4EF7-BB9B-E52EB4E230C8}
+templatekey: SelectOptionFolder
 
-----field----
-field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
-name: __Masters
-key: __masters
-content-length: 77
-
-{A87A00B1-E6DB-45AB-8B54-636FEC3B5523}|{4FCEE257-DB59-4AF2-8076-619BFE31F186}
 ----version----
 language: en
 version: 1
-revision: ee3c26bc-2672-4569-83d2-c98704dd915b
+revision: 0faff614-fedf-48dc-9f62-b5f3f7e75a9d
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -41,18 +34,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ee3c26bc-2672-4569-83d2-c98704dd915b
+0faff614-fedf-48dc-9f62-b5f3f7e75a9d
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150506T074537:635664951371718723Z
+20150625T105612:635708265724924551Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 18
+content-length: 14
 
-extranet\Anonymous
+sitecore\admin

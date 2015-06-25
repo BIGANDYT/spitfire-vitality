@@ -6,21 +6,14 @@ path: /sitecore/content/Metronic/Global/SEO/Keywords/Folder/Keyword 2
 parent: {151A2F84-A503-44DE-8EAF-466FA8193D9A}
 name: Keyword 2
 master: {00000000-0000-0000-0000-000000000000}
-template: {4FCEE257-DB59-4AF2-8076-619BFE31F186}
-templatekey: Title
+template: {A1E9A1FE-E1D0-45A6-BEC5-7954E1F56FAA}
+templatekey: SelectOption
 
 ----version----
 language: en
 version: 1
-revision: 04fa8550-5182-4e59-9fbf-25eb07a08909
+revision: 43315c5a-9ae3-44c5-8573-9a2f6ade3b13
 
-----field----
-field: {DA3C2706-C76B-4C51-AB0A-0EE754A1DF0F}
-name: Title
-key: title
-content-length: 9
-
-Keyword 2
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -48,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-04fa8550-5182-4e59-9fbf-25eb07a08909
+43315c5a-9ae3-44c5-8573-9a2f6ade3b13
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150506T074620:635664951809566072Z
+20150625T105335:635708264155242591Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

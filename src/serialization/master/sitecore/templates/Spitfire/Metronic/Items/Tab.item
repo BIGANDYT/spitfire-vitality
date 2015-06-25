@@ -15,7 +15,7 @@ name: __Base template
 key: __base template
 content-length: 116
 
-{1930BBEB-7805-471A-A3BE-4858AC7CF696}|{5DD48ADD-EE8E-4FDB-A50D-1B1EA757157A}|{E83CC241-5816-4698-9BEA-30DBE46E8E06}
+{1930BBEB-7805-471A-A3BE-4858AC7CF696}|{E83CC241-5816-4698-9BEA-30DBE46E8E06}|{640B55DD-405B-489C-A4AF-E328588EFE05}
 ----field----
 field: {F7D48A55-2158-4F02-9356-756654404F73}
 name: __Standard values
@@ -33,7 +33,7 @@ Business/32x32/note_plain.png
 ----version----
 language: en
 version: 1
-revision: b94fde7b-5ae8-4dd0-a296-4c184fff2fff
+revision: ca5848de-3116-4f73-9479-322bc23c4c7d
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -55,18 +55,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b94fde7b-5ae8-4dd0-a296-4c184fff2fff
+ca5848de-3116-4f73-9479-322bc23c4c7d
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150312T105219:635617543393143317Z
+20150625T112559:635708283596401401Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 18
+content-length: 14
 
-extranet\Anonymous
+sitecore\admin

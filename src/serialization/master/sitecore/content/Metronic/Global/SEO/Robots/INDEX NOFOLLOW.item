@@ -6,21 +6,14 @@ path: /sitecore/content/Metronic/Global/SEO/Robots/INDEX NOFOLLOW
 parent: {76DF2936-8564-4FDD-A5E0-064B1657A38B}
 name: INDEX NOFOLLOW
 master: {00000000-0000-0000-0000-000000000000}
-template: {4FCEE257-DB59-4AF2-8076-619BFE31F186}
-templatekey: Title
+template: {A1E9A1FE-E1D0-45A6-BEC5-7954E1F56FAA}
+templatekey: SelectOption
 
 ----version----
 language: en
 version: 1
-revision: 1c9cd442-c713-4c29-80f1-94f917b089b3
+revision: d4959a0d-95f7-4380-85a1-268af016d47f
 
-----field----
-field: {DA3C2706-C76B-4C51-AB0A-0EE754A1DF0F}
-name: Title
-key: title
-content-length: 15
-
-INDEX, NOFOLLOW
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
@@ -55,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1c9cd442-c713-4c29-80f1-94f917b089b3
+d4959a0d-95f7-4380-85a1-268af016d47f
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150506T073936:635664947762291682Z
+20150625T105447:635708264875963867Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -12,7 +12,7 @@ templatekey: Template section
 ----version----
 language: en
 version: 1
-revision: 4bfde220-8e9d-46e7-9b91-0896e34dc6c3
+revision: 606e9032-c53e-42b6-bef1-97abc6507563
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,18 +34,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-4bfde220-8e9d-46e7-9b91-0896e34dc6c3
+606e9032-c53e-42b6-bef1-97abc6507563
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150507T073024:635665806241967637Z
+20150625T112653:635708284134465397Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 18
+content-length: 14
 
-extranet\Anonymous
+sitecore\admin
