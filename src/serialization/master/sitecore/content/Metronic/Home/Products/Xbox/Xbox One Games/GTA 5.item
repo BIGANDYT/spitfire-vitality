@@ -36,6 +36,16 @@ version: 1
 revision: 3895471e-6bf1-4263-b741-b49fba526743
 
 ----field----
+field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
+name: Body
+key: body
+content-length: 1266
+
+<p>Los Santos: a sprawling sun-soaked metropolis full of self-help gurus, starlets and fading celebrities, once the envy of the Western world, now struggling to stay afloat in an era of economic uncertainty and cheap reality TV.</p>
+<p>Amidst the turmoil, three very different criminals plot their own chances of survival and success: Franklin, a street hustler looking for real opportunities and serious money; Michael, a professional ex-con whose retirement is a lot less rosy than he hoped it would be; and Trevor, a violent maniac driven by the chance of a cheap high and the next big score. Running out of options, the crew risks everything in a series of daring and dangerous heists that could set them up for life.</p>
+<p>The biggest, most dynamic and most diverse open world ever created, Grand Theft Auto V blends storytelling and gameplay in new ways as players repeatedly jump in and out of the lives of the game&rsquo;s three lead characters, playing all sides of the game&rsquo;s interwoven story.</p>
+<p>All the classic hallmarks of the groundbreaking series return, including incredible attention to detail and Grand Theft Auto&rsquo;s darkly humorous take on modern culture, alongside a brand new and ambitious approach to open world multiplayer.</p>
+----field----
 field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
 name: Image
 key: image
@@ -43,22 +53,12 @@ content-length: 58
 
 <image mediaid="{90E2D547-1BA8-4A80-92A7-169E75542910}" />
 ----field----
-field: {B070C3CF-C82E-4A1B-8DB8-9FF99E929A0D}
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
 name: Title
 key: title
 content-length: 18
 
 Grand Theft Auto V
-----field----
-field: {7535D9B2-B818-4653-A65A-B7102CCD3804}
-name: Text
-key: text
-content-length: 1266
-
-<p>Los Santos: a sprawling sun-soaked metropolis full of self-help gurus, starlets and fading celebrities, once the envy of the Western world, now struggling to stay afloat in an era of economic uncertainty and cheap reality TV.</p>
-<p>Amidst the turmoil, three very different criminals plot their own chances of survival and success: Franklin, a street hustler looking for real opportunities and serious money; Michael, a professional ex-con whose retirement is a lot less rosy than he hoped it would be; and Trevor, a violent maniac driven by the chance of a cheap high and the next big score. Running out of options, the crew risks everything in a series of daring and dangerous heists that could set them up for life.</p>
-<p>The biggest, most dynamic and most diverse open world ever created, Grand Theft Auto V blends storytelling and gameplay in new ways as players repeatedly jump in and out of the lives of the game&rsquo;s three lead characters, playing all sides of the game&rsquo;s interwoven story.</p>
-<p>All the classic hallmarks of the groundbreaking series return, including incredible attention to detail and Grand Theft Auto&rsquo;s darkly humorous take on modern culture, alongside a brand new and ambitious approach to open world multiplayer.</p>
 ----field----
 field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
 name: Menu title
@@ -135,6 +135,16 @@ version: 2
 revision: 1eb343c8-458e-4247-a771-3c6ad7b972f0
 
 ----field----
+field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
+name: Body
+key: body
+content-length: 1266
+
+<p>Los Santos: a sprawling sun-soaked metropolis full of self-help gurus, starlets and fading celebrities, once the envy of the Western world, now struggling to stay afloat in an era of economic uncertainty and cheap reality TV.</p>
+<p>Amidst the turmoil, three very different criminals plot their own chances of survival and success: Franklin, a street hustler looking for real opportunities and serious money; Michael, a professional ex-con whose retirement is a lot less rosy than he hoped it would be; and Trevor, a violent maniac driven by the chance of a cheap high and the next big score. Running out of options, the crew risks everything in a series of daring and dangerous heists that could set them up for life.</p>
+<p>The biggest, most dynamic and most diverse open world ever created, Grand Theft Auto V blends storytelling and gameplay in new ways as players repeatedly jump in and out of the lives of the game&rsquo;s three lead characters, playing all sides of the game&rsquo;s interwoven story.</p>
+<p>All the classic hallmarks of the groundbreaking series return, including incredible attention to detail and Grand Theft Auto&rsquo;s darkly humorous take on modern culture, alongside a brand new and ambitious approach to open world multiplayer.</p>
+----field----
 field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
 name: Image
 key: image
@@ -142,22 +152,12 @@ content-length: 122
 
 <image mediaid="{90E2D547-1BA8-4A80-92A7-169E75542910}" alt="Grand Theft Auto V" height="" width="" hspace="" vspace="" />
 ----field----
-field: {B070C3CF-C82E-4A1B-8DB8-9FF99E929A0D}
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
 name: Title
 key: title
 content-length: 18
 
 Grand Theft Auto V
-----field----
-field: {7535D9B2-B818-4653-A65A-B7102CCD3804}
-name: Text
-key: text
-content-length: 1266
-
-<p>Los Santos: a sprawling sun-soaked metropolis full of self-help gurus, starlets and fading celebrities, once the envy of the Western world, now struggling to stay afloat in an era of economic uncertainty and cheap reality TV.</p>
-<p>Amidst the turmoil, three very different criminals plot their own chances of survival and success: Franklin, a street hustler looking for real opportunities and serious money; Michael, a professional ex-con whose retirement is a lot less rosy than he hoped it would be; and Trevor, a violent maniac driven by the chance of a cheap high and the next big score. Running out of options, the crew risks everything in a series of daring and dangerous heists that could set them up for life.</p>
-<p>The biggest, most dynamic and most diverse open world ever created, Grand Theft Auto V blends storytelling and gameplay in new ways as players repeatedly jump in and out of the lives of the game&rsquo;s three lead characters, playing all sides of the game&rsquo;s interwoven story.</p>
-<p>All the classic hallmarks of the groundbreaking series return, including incredible attention to detail and Grand Theft Auto&rsquo;s darkly humorous take on modern culture, alongside a brand new and ambitious approach to open world multiplayer.</p>
 ----field----
 field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
 name: Menu title

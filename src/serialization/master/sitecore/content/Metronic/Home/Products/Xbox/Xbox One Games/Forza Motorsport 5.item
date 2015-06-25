@@ -22,23 +22,9 @@ version: 1
 revision: e8252006-4722-4b31-89d9-59f2ebe04da2
 
 ----field----
-field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
-name: Image
-key: image
-content-length: 58
-
-<image mediaid="{90531EEE-528B-4ACD-A210-D6DCDE56B257}" />
-----field----
-field: {B070C3CF-C82E-4A1B-8DB8-9FF99E929A0D}
-name: Title
-key: title
-content-length: 18
-
-Forza Motorsport 5
-----field----
-field: {7535D9B2-B818-4653-A65A-B7102CCD3804}
-name: Text
-key: text
+field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
+name: Body
+key: body
 content-length: 832
 
 <p>Forza Motorsport 5 is a cinematic automotive journey starring the world&rsquo;s greatest cars and tracks. Built from the ground up to take advantage of Xbox One and the vast power of the cloud, no game better delivers the wide-eyed thrill of racing.</p>
@@ -46,6 +32,20 @@ content-length: 832
 <p>By learning how you and your friends drive, the power of the cloud delivers real human behavior. Drivatar technology creates an ever-evolving network of opponents who are always ready to race. Real tendencies, real mistakes, real victories.</p>
 <h3>Astonishing Detail</h3>
 <p>A new graphics engine created exclusively for Xbox One delivers physically based material rendering that re-creates the real-life characteristics of thousands of unique materials. Surfaces such as metal, glass, leather, rubber and concrete look real enough to touch.</p>
+----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{90531EEE-528B-4ACD-A210-D6DCDE56B257}" />
+----field----
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
+name: Title
+key: title
+content-length: 18
+
+Forza Motorsport 5
 ----field----
 field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
 name: Menu title

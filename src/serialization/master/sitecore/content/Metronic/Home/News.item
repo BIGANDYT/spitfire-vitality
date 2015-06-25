@@ -40,22 +40,8 @@ ar|sitecore\hca demo|pe|+item:rename|+item:write|+item:create|+item:delete|pd|+i
 ----version----
 language: en
 version: 1
-revision: 42fbd451-6b5a-4832-b26e-500ed2877b42
+revision: f9a037fe-0a0a-4f49-9f9a-0572eb1f1a80
 
-----field----
-field: {B070C3CF-C82E-4A1B-8DB8-9FF99E929A0D}
-name: Title
-key: title
-content-length: 4
-
-News
-----field----
-field: {7535D9B2-B818-4653-A65A-B7102CCD3804}
-name: Text
-key: text
-content-length: 160
-
-<p>Lorem ipsum dolor sit amet, dolore eiusmod quis tempor incididunt ut et dolore Ut veniam unde voluptatem. Sed unde omnis iste natus error sit voluptatem.</p>
 ----field----
 field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
 name: Menu title
@@ -83,14 +69,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-42fbd451-6b5a-4832-b26e-500ed2877b42
+f9a037fe-0a0a-4f49-9f9a-0572eb1f1a80
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150625T112655:635708284150068776Z
+20150625T131223:635708347432247865Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

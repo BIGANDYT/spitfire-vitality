@@ -19,24 +19,8 @@ content-length: 3
 ----version----
 language: en
 version: 1
-revision: 2df19207-3c15-433f-b7cb-85fa40e8bda0
+revision: d8bab8af-0279-418e-9768-163f4fa1cc59
 
-----field----
-field: {B070C3CF-C82E-4A1B-8DB8-9FF99E929A0D}
-name: Title
-key: title
-content-length: 24
-
-Pre contract information
-----field----
-field: {7535D9B2-B818-4653-A65A-B7102CCD3804}
-name: Text
-key: text
-content-length: 102
-
-<h3>PRE-CONTRACT CREDIT INFORMATION</h3>
-<br>
-<h4>(Standard European Consumer Credit Information)</h4>
 ----field----
 field: {D547796D-9183-45A7-9A76-70445BFBB88F}
 name: Tab name
@@ -57,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-2df19207-3c15-433f-b7cb-85fa40e8bda0
+d8bab8af-0279-418e-9768-163f4fa1cc59
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150625T112559:635708283599443644Z
+20150625T131233:635708347534459649Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

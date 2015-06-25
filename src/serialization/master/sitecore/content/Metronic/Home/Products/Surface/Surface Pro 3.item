@@ -29,23 +29,9 @@ version: 1
 revision: d875497b-804d-4bb5-b1c2-f41459784cc4
 
 ----field----
-field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
-name: Image
-key: image
-content-length: 58
-
-<image mediaid="{3BFC73E2-753E-4DF6-9FB6-C58661054F07}" />
-----field----
-field: {B070C3CF-C82E-4A1B-8DB8-9FF99E929A0D}
-name: Title
-key: title
-content-length: 13
-
-Surface Pro 3
-----field----
-field: {7535D9B2-B818-4653-A65A-B7102CCD3804}
-name: Text
-key: text
+field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
+name: Body
+key: body
 content-length: 955
 
 <p>Barely tipping the scales at 798 grams, the new 12-inch Surface Pro 3 has all the power and performance of a premium laptop in a thin and lightweight design. It also comes with the all-new Surface Pen which delivers a natural writing and drawing experience.</p>
@@ -55,6 +41,20 @@ content-length: 955
 
 <h3>Run your favourite programs and apps</h3>
 <p>Pre-loaded with Windows 8.1 Pro, you can install your favourite desktop software, including the full Microsoft Office Suite1 and thousands of programs created for the Windows platform. Surface Pro 3 also has a 4th generation Intel Core processor which delivers blazing-fast performance.</p>
+----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{3BFC73E2-753E-4DF6-9FB6-C58661054F07}" />
+----field----
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
+name: Title
+key: title
+content-length: 13
+
+Surface Pro 3
 ----field----
 field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
 name: Menu title

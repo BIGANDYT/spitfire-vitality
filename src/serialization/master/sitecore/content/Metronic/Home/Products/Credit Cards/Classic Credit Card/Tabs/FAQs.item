@@ -19,32 +19,7 @@ content-length: 3
 ----version----
 language: en
 version: 1
-revision: 960be5f3-1fa1-4f63-9dce-b5eca9e4d456
-
-----field----
-field: {B070C3CF-C82E-4A1B-8DB8-9FF99E929A0D}
-name: Title
-key: title
-content-length: 4
-
-FAQs
-----field----
-field: {7535D9B2-B818-4653-A65A-B7102CCD3804}
-name: Text
-key: text
-content-length: 2220
-
-<h3>WHAT IS A CREDIT RATING AND WHAT IS BAD CREDIT?</h3>
-<p>A credit rating is a record of how well you've managed your finances in the past. Things like missing a credit card payment or defaulting on a bill can damage your credit rating. This is known as having bad credit, which can make it harder to borrow money, whether that's a store card, credit card, a loan or a mortgage.</p>
-
-<h3>HOW IS BAD CREDIT DECIDED?</h3>
-<p>When it comes to applying for credit, credit companies or other lenders want to know who they are lending their money to. Lenders assess your credit rating and your credit report, which is taken from credit reference agencies like Experian and Equifax. This assessment helps them to create what's called a credit score which is based on things like your income, level of debt, how you have managed your past finances (including credit cards, loans or mobile phone contracts) etc. It also takes into account other information, such as how long you've been with your bank or if you're on the Electoral Roll.</p>
-<p>The lender uses the credit score to decide whether you qualify for credit with them and if so what your credit limit and interest rates could be.</p>
-
-<h3>WHY USE BAD CREDIT CREDIT CARDS?</h3>
-<p>While repairing bad credit can be a lengthy process, there are certain things you can do to improve your credit rating. The Capital One Classic Card is a credit card for bad credit and a good way to help repair bad credit. By using your credit card regularly, always paying at least the minimum payment each month and staying within your credit limit, credit cards can work to rebuild a bad credit history or improve your current rating.</p>
-<p>As your recent credit history impacts your credit file, your credit rating will gradually improve, providing you stay on top of your future credit repayments. By getting credit, staying within the limit and not missing any payments, you can build a good credit history from scratch. Being turned down for a credit card may damage your credit rating. Safely check if you could be eligible for a Capital One credit card using our QuickCheck tool . This checks your eligibility across all of our cards without damaging your credit rating.</p>
-
+revision: 9a6f82bd-36a2-496a-b76c-357e6b1ceffb
 
 ----field----
 field: {D547796D-9183-45A7-9A76-70445BFBB88F}
@@ -66,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-960be5f3-1fa1-4f63-9dce-b5eca9e4d456
+9a6f82bd-36a2-496a-b76c-357e6b1ceffb
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150625T112559:635708283599113399Z
+20150625T131233:635708347534009320Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -22,23 +22,9 @@ version: 1
 revision: a4a3c143-d024-4bbb-9a99-9cdd9b195b2d
 
 ----field----
-field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
-name: Image
-key: image
-content-length: 58
-
-<image mediaid="{F2C68BC1-1BE6-4C2E-819F-FD2414436D3A}" />
-----field----
-field: {B070C3CF-C82E-4A1B-8DB8-9FF99E929A0D}
-name: Title
-key: title
-content-length: 24
-
-Balance Plus Credit Card
-----field----
-field: {7535D9B2-B818-4653-A65A-B7102CCD3804}
-name: Text
-key: text
+field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
+name: Body
+key: body
 content-length: 643
 
 <h2>LOW RATE BALANCE TRANSFERS.</h2>
@@ -48,6 +34,20 @@ content-length: 643
 <p><em class="fa fa-check-square-o"></em> 6.94% p.a. variable on balance transwers</p>
 <p><em class="fa fa-check-square-o"></em> If accepted, the rates you apply for are the rates you get</p>
 <p><em class="fa fa-check-square-o"></em> Transfer balances at any time for the new same low rate and no fee</p>
+----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{F2C68BC1-1BE6-4C2E-819F-FD2414436D3A}" />
+----field----
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
+name: Title
+key: title
+content-length: 24
+
+Balance Plus Credit Card
 ----field----
 field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
 name: Menu title

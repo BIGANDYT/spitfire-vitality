@@ -22,6 +22,15 @@ version: 1
 revision: a95e16ba-5674-4f9b-bd78-fc7c1554d121
 
 ----field----
+field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
+name: Body
+key: body
+content-length: 682
+
+<h3>A new era of combat</h3>
+<p>Call of Duty&reg;: Advanced Warfare, developed by Sledgehammer Games (co-developers of Call of Duty&reg;: Modern Warfare&reg; 3), harnesses the first three-year, all next-gen development cycle in franchise history. Call of Duty&reg;: Advanced Warfare envisions the powerful battlegrounds of the future, where both technology and tactic have evolved to usher in a new era of combat for the franchise. delivering a stunning performance, academy award&reg; winning actor Kevin Spacey stars as Jonathan Irons &ndash; one of the most powerful men in the world &ndash; shaping this chilling vision of the future of war.</p>
+<p>Power changes everything.</p>
+----field----
 field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
 name: Image
 key: image
@@ -29,21 +38,12 @@ content-length: 65
 
 <image mediaid="{39DAE389-DFB7-4F37-9C9B-F81E2AFBA79D}" ></image>
 ----field----
-field: {B070C3CF-C82E-4A1B-8DB8-9FF99E929A0D}
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
 name: Title
 key: title
 content-length: 29
 
 Call of Duty Advanced Warfare
-----field----
-field: {7535D9B2-B818-4653-A65A-B7102CCD3804}
-name: Text
-key: text
-content-length: 682
-
-<h3>A new era of combat</h3>
-<p>Call of Duty&reg;: Advanced Warfare, developed by Sledgehammer Games (co-developers of Call of Duty&reg;: Modern Warfare&reg; 3), harnesses the first three-year, all next-gen development cycle in franchise history. Call of Duty&reg;: Advanced Warfare envisions the powerful battlegrounds of the future, where both technology and tactic have evolved to usher in a new era of combat for the franchise. delivering a stunning performance, academy award&reg; winning actor Kevin Spacey stars as Jonathan Irons &ndash; one of the most powerful men in the world &ndash; shaping this chilling vision of the future of war.</p>
-<p>Power changes everything.</p>
 ----field----
 field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
 name: Menu title

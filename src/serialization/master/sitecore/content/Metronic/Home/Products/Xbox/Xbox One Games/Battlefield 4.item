@@ -36,23 +36,9 @@ version: 1
 revision: 57f0d309-c9d2-45db-9430-b7c8e0a90265
 
 ----field----
-field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
-name: Image
-key: image
-content-length: 58
-
-<image mediaid="{6E175AB6-9BCC-4AC3-8D72-29CCFFFF1FAF}" />
-----field----
-field: {B070C3CF-C82E-4A1B-8DB8-9FF99E929A0D}
-name: Title
-key: title
-content-length: 13
-
-Battlefield 5
-----field----
-field: {7535D9B2-B818-4653-A65A-B7102CCD3804}
-name: Text
-key: text
+field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
+name: Body
+key: body
 content-length: 897
 
 <p>Battlefield 4&trade; is out on Xbox One, powered by the advanced technology of DICE&rsquo;s proprietary Frostbite&trade; 3 engine. Blurring the line between game and glory, Battlefield 4 pushes Xbox One to the edge of gaming technology.</p>
@@ -63,6 +49,20 @@ content-length: 897
     <li>Only in Battlefield can you experience an unmatched level of all-out war that grants you the freedom to play to your strengths and your own patch to victory with up to 64 players online.</li>
     <li>Only in Battlefield do you have the power to dominate land, air and sea with all-new, intense water-based vehicle combat on the Xbox One.</li>
 </ul>
+----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{6E175AB6-9BCC-4AC3-8D72-29CCFFFF1FAF}" />
+----field----
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
+name: Title
+key: title
+content-length: 13
+
+Battlefield 5
 ----field----
 field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
 name: Menu title

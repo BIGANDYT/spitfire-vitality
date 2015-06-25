@@ -29,23 +29,9 @@ version: 1
 revision: a998cad6-7747-4c04-925b-2165d9f5117d
 
 ----field----
-field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
-name: Image
-key: image
-content-length: 58
-
-<image mediaid="{36B2326F-C564-4134-9E2E-E42693DFAF0F}" />
-----field----
-field: {B070C3CF-C82E-4A1B-8DB8-9FF99E929A0D}
-name: Title
-key: title
-content-length: 19
-
-Classic Credit Card
-----field----
-field: {7535D9B2-B818-4653-A65A-B7102CCD3804}
-name: Text
-key: text
+field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
+name: Body
+key: body
 content-length: 503
 
 <h2>WANT TO BUILD CREDIT?</h2>
@@ -54,6 +40,20 @@ content-length: 503
 <p><em class="fa fa-check-square-o"></em> £200 to £1,500 credit limit</p>
 <p><em class="fa fa-check-square-o"></em> Up to two optional credit limit increases per year, subject to eligibility</p>
 <p><em class="fa fa-check-square-o"></em> Helps you stay on top of your spending when you set up email alerts</p>
+----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{36B2326F-C564-4134-9E2E-E42693DFAF0F}" />
+----field----
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
+name: Title
+key: title
+content-length: 19
+
+Classic Credit Card
 ----field----
 field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
 name: Menu title

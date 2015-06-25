@@ -36,6 +36,14 @@ version: 1
 revision: a1d46c9d-0383-4590-97e9-0cdb2ba8b677
 
 ----field----
+field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
+name: Body
+key: body
+content-length: 557
+
+<p>For the first time ever, players will show emotion based on the context of the match. With over 600 new emotional reactions, players now respond to pivotal moments on the pitch &ndash; bad tackles, missed chances, epic goals - as they would in real life.</p>
+<p>Match Day is dynamic and immersive. Improved commentary will highlight unique fan reactions, while chants and behaviours will be relevant to your club. New bench reactions, side line character animations, 10-man goal celebrations, and more will keep you engaged in the story of the match.</p>
+----field----
 field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
 name: Image
 key: image
@@ -43,20 +51,12 @@ content-length: 58
 
 <image mediaid="{2FB0DA0C-024F-4F6D-9FBA-82AFDE575B9D}" />
 ----field----
-field: {B070C3CF-C82E-4A1B-8DB8-9FF99E929A0D}
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
 name: Title
 key: title
 content-length: 7
 
 Fifa 15
-----field----
-field: {7535D9B2-B818-4653-A65A-B7102CCD3804}
-name: Text
-key: text
-content-length: 557
-
-<p>For the first time ever, players will show emotion based on the context of the match. With over 600 new emotional reactions, players now respond to pivotal moments on the pitch &ndash; bad tackles, missed chances, epic goals - as they would in real life.</p>
-<p>Match Day is dynamic and immersive. Improved commentary will highlight unique fan reactions, while chants and behaviours will be relevant to your club. New bench reactions, side line character animations, 10-man goal celebrations, and more will keep you engaged in the story of the match.</p>
 ----field----
 field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
 name: Menu title

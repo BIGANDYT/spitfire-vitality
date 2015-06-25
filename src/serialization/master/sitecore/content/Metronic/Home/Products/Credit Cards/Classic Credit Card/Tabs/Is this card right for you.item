@@ -12,7 +12,7 @@ templatekey: Tab
 ----version----
 language: en
 version: 1
-revision: ee437f68-1d12-466d-b606-94f16d6b94ec
+revision: 057b16e4-2ccf-4aed-a93a-8a81b9c0e2b0
 
 ----field----
 field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
@@ -21,36 +21,6 @@ key: image
 content-length: 58
 
 <image mediaid="{DE936F74-5BC9-4E50-B563-23584D6B402F}" />
-----field----
-field: {B070C3CF-C82E-4A1B-8DB8-9FF99E929A0D}
-name: Title
-key: title
-content-length: 27
-
-Is this card right for you?
-----field----
-field: {7535D9B2-B818-4653-A65A-B7102CCD3804}
-name: Text
-key: text
-content-length: 1120
-
-<h3 style="padding-top:0px !important">IS THIS CREDIT CARD RIGHT FOR YOU?</h3>
-<p>Our Classic Card could help you turn bad credit into a thing of the past by building your credit.</p>
-<br>
-<p>To build your credit rating and potentially be eligible for credit limit increases, use your card sensibly by making your monthly minimum payment on time About your minimum payment. Tooltip image and staying below your credit limit. Not doing so could harm your credit rating.</p>
-<br>
-
-<h4 class="text-success">We're more likely to accept you if you:</h4>
-<ul class="list-unstyled margin-bottom-20">
-<li><em class="fa fa-check"></em>Are over 18</li>
-<li><em class="fa fa-check"></em>Have some history of managing your credit even if you have had CCJs or defaults in the past</li>
-<li><em class="fa fa-check"></em>Are on the electoral roll</li>
-</ul>
-<h4 class="text-danger">We're not likely to accept you if you:</h4>
-<ul class="list-unstyled margin-bottom-20">
-<li><em class="fa fa-check"></em>Have not had credit in the UK before</li>
-<li><em class="fa fa-check"></em>Have declared bankruptcy in the last 12 months</li>
-</ul>
 ----field----
 field: {D547796D-9183-45A7-9A76-70445BFBB88F}
 name: Tab name
@@ -71,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ee437f68-1d12-466d-b606-94f16d6b94ec
+057b16e4-2ccf-4aed-a93a-8a81b9c0e2b0
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150625T112559:635708283599283529Z
+20150625T131233:635708347534289525Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

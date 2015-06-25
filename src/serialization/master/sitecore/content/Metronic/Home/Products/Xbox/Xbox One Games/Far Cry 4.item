@@ -22,6 +22,15 @@ version: 1
 revision: cf3b7db4-42e5-4a4c-9e5d-08a8484ef534
 
 ----field----
+field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
+name: Body
+key: body
+content-length: 887
+
+<p>Hidden in the towering Himalayas lies Kyrat, a mountainous paradise steeped in tradition and violence...</p>
+<p>You are Ajay Ghale, a young man returning to the country of your birth in the Himalayas to fulfill your mother&rsquo;s final wish. She had fled from civil war in Kyrat 25 years ago and has asked you to return to scatter her ashes. What she hasn&rsquo;t told you is that your family, the Ghales, founded a rebellion that is struggling, fighting a war against a despotic, self-appointed King, Pagan Min.</p>
+<p>As you explore and discover more about Kyrat, you will become involved in the Rebellion and The Golden Path, following your parents&rsquo; footsteps. The rebels are willing and able but their leadership is divided and, through your actions, you will begin to make choices which will steer the Golden Path towards the liberation of Kyrat, one way or another...</p>
+----field----
 field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
 name: Image
 key: image
@@ -29,21 +38,12 @@ content-length: 58
 
 <image mediaid="{16EB27C3-D10B-43F7-8113-F513AD1810B8}" />
 ----field----
-field: {B070C3CF-C82E-4A1B-8DB8-9FF99E929A0D}
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
 name: Title
 key: title
 content-length: 9
 
 Far Cry 4
-----field----
-field: {7535D9B2-B818-4653-A65A-B7102CCD3804}
-name: Text
-key: text
-content-length: 887
-
-<p>Hidden in the towering Himalayas lies Kyrat, a mountainous paradise steeped in tradition and violence...</p>
-<p>You are Ajay Ghale, a young man returning to the country of your birth in the Himalayas to fulfill your mother&rsquo;s final wish. She had fled from civil war in Kyrat 25 years ago and has asked you to return to scatter her ashes. What she hasn&rsquo;t told you is that your family, the Ghales, founded a rebellion that is struggling, fighting a war against a despotic, self-appointed King, Pagan Min.</p>
-<p>As you explore and discover more about Kyrat, you will become involved in the Rebellion and The Golden Path, following your parents&rsquo; footsteps. The rebels are willing and able but their leadership is divided and, through your actions, you will begin to make choices which will steer the Golden Path towards the liberation of Kyrat, one way or another...</p>
 ----field----
 field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
 name: Menu title
