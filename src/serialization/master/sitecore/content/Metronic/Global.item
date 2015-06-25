@@ -27,13 +27,13 @@ content-length: 38
 field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
 name: __Masters
 key: __masters
-content-length: 77
+content-length: 38
 
-{A87A00B1-E6DB-45AB-8B54-636FEC3B5523}|{CF3F6959-B193-4EA4-BD3F-7C3BDED037DC}
+{A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
 ----version----
 language: en
 version: 1
-revision: 5617fd7e-fccc-4a8e-ac77-90bbab6897d3
+revision: f941102e-83e7-479d-9b3f-533e4dad10ac
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -55,18 +55,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-5617fd7e-fccc-4a8e-ac77-90bbab6897d3
+f941102e-83e7-479d-9b3f-533e4dad10ac
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150616T134915:635700593557092704Z
+20150625T130310:635708341902329739Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 18
+content-length: 14
 
-extranet\Anonymous
+sitecore\admin
