@@ -29,6 +29,13 @@ version: 1
 revision: 33c02d78-929c-4bad-9f97-53993313be28
 
 ----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{CF7230AC-17BC-43B6-99DB-A1301F35F05F}" />
+----field----
 field: {B070C3CF-C82E-4A1B-8DB8-9FF99E929A0D}
 name: Title
 key: title
@@ -42,13 +49,6 @@ key: text
 content-length: 488
 
 <p>At less than 1.5 pounds and just 8.9 mm thick, Surface 2 lets you carry less while you do more. It runs Windows RT 8.1 and comes pre-installed with Microsoft Office 2013 RT, so you get Outlook, Word, Excel, PowerPoint, and OneNote—right out of the box. Surface 2 ups the ante with a more powerful, always-on processor, so it's ready to go when you need it. With an up to 10-hour battery that keeps you charged through the day, Surface 2 is powerful, yet ultra-thin and lightweight.</p>
-----field----
-field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
-name: Image
-key: image
-content-length: 58
-
-<image mediaid="{CF7230AC-17BC-43B6-99DB-A1301F35F05F}" />
 ----field----
 field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
 name: Menu title

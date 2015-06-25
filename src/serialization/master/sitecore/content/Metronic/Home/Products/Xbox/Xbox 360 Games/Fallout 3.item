@@ -15,19 +15,19 @@ version: 1
 revision: 86d65c27-7e8e-4339-894e-ecefb526e0da
 
 ----field----
-field: {B070C3CF-C82E-4A1B-8DB8-9FF99E929A0D}
-name: Title
-key: title
-content-length: 9
-
-Fallout 3
-----field----
 field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
 name: Image
 key: image
 content-length: 58
 
 <image mediaid="{7B115160-88D5-4E82-B55E-1D4D5AA3EE04}" />
+----field----
+field: {B070C3CF-C82E-4A1B-8DB8-9FF99E929A0D}
+name: Title
+key: title
+content-length: 9
+
+Fallout 3
 ----field----
 field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
 name: Menu title

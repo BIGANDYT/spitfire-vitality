@@ -22,19 +22,19 @@ version: 1
 revision: 88e65480-7118-41f4-bd0a-27ba606d6308
 
 ----field----
-field: {B070C3CF-C82E-4A1B-8DB8-9FF99E929A0D}
-name: Title
-key: title
-content-length: 16
-
-GameBox Featured
-----field----
 field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
 name: Image
 key: image
 content-length: 65
 
 <image mediaid="{A98632BC-CB5E-4EA5-BEAC-406B17ED4B39}" ></image>
+----field----
+field: {B070C3CF-C82E-4A1B-8DB8-9FF99E929A0D}
+name: Title
+key: title
+content-length: 16
+
+GameBox Featured
 ----field----
 field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
 name: Menu title

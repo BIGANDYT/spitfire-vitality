@@ -36,19 +36,19 @@ version: 1
 revision: 134cf8a3-3b5a-4662-a007-511040f3fcbe
 
 ----field----
-field: {B070C3CF-C82E-4A1B-8DB8-9FF99E929A0D}
-name: Title
-key: title
-content-length: 15
-
-Mortal Kombat X
-----field----
 field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
 name: Image
 key: image
 content-length: 58
 
 <image mediaid="{BB42A230-BA2B-49AA-99DA-DA9E7B575C57}" />
+----field----
+field: {B070C3CF-C82E-4A1B-8DB8-9FF99E929A0D}
+name: Title
+key: title
+content-length: 15
+
+Mortal Kombat X
 ----field----
 field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
 name: Menu title

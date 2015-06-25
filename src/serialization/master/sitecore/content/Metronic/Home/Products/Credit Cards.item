@@ -15,19 +15,19 @@ version: 1
 revision: 48dd1f62-cd7c-487d-add7-e213095dea28
 
 ----field----
-field: {B070C3CF-C82E-4A1B-8DB8-9FF99E929A0D}
-name: Title
-key: title
-content-length: 12
-
-Credit Cards
-----field----
 field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
 name: Image
 key: image
 content-length: 121
 
 <image mediaid="{C81BB533-04BB-4381-91E4-904EFE28E102}" alt="Capital One Cards" height="" width="" hspace="" vspace="" />
+----field----
+field: {B070C3CF-C82E-4A1B-8DB8-9FF99E929A0D}
+name: Title
+key: title
+content-length: 12
+
+Credit Cards
 ----field----
 field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
 name: Menu title

@@ -29,6 +29,13 @@ version: 1
 revision: b6bf323d-a1be-4507-b5c2-dc6b37350a36
 
 ----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{FDE04EFF-BF7A-4745-A8FF-6B4F67BF05E4}" />
+----field----
 field: {B070C3CF-C82E-4A1B-8DB8-9FF99E929A0D}
 name: Title
 key: title
@@ -46,13 +53,6 @@ content-length: 709
 <p>The Limited Edition** of Halo 5: Guardians delivers new digital content to enhance Spartan combat plus exclusive* items all wrapped in a uniquely designed steel book.</p>
 <h3>Limited Collector's Edition</h3>
 <p>A premium edition of Halo 5: Guardians for collectors and Halo fans alike. The Limited Collector's Edition** contains the Limited Edition as well as additional content including a commemorative statue designed by 343 Industries.</p>
-----field----
-field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
-name: Image
-key: image
-content-length: 58
-
-<image mediaid="{FDE04EFF-BF7A-4745-A8FF-6B4F67BF05E4}" />
 ----field----
 field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
 name: Menu title
@@ -129,6 +129,13 @@ version: 2
 revision: a01cf161-c1ca-4561-9fe2-774952a46379
 
 ----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{FDE04EFF-BF7A-4745-A8FF-6B4F67BF05E4}" />
+----field----
 field: {B070C3CF-C82E-4A1B-8DB8-9FF99E929A0D}
 name: Title
 key: title
@@ -146,13 +153,6 @@ content-length: 709
 <p>The Limited Edition** of Halo 5: Guardians delivers new digital content to enhance Spartan combat plus exclusive* items all wrapped in a uniquely designed steel book.</p>
 <h3>Limited Collector's Edition</h3>
 <p>A premium edition of Halo 5: Guardians for collectors and Halo fans alike. The Limited Collector's Edition** contains the Limited Edition as well as additional content including a commemorative statue designed by 343 Industries.</p>
-----field----
-field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
-name: Image
-key: image
-content-length: 58
-
-<image mediaid="{FDE04EFF-BF7A-4745-A8FF-6B4F67BF05E4}" />
 ----field----
 field: {F10F740D-A6E9-4EB3-88BF-F2DE3136934F}
 name: Menu title

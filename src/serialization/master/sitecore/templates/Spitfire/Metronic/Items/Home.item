@@ -13,9 +13,9 @@ templatekey: Template
 field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
 name: __Base template
 key: __base template
-content-length: 155
+content-length: 233
 
-{1930BBEB-7805-471A-A3BE-4858AC7CF696}|{1CFFF83E-245E-4A0A-AA16-DF34DBC14561}|{66A43C90-5525-47E5-812A-CA0B467F968D}|{B0419F11-AB75-4266-84C4-E1FEF57D51F5}
+{1930BBEB-7805-471A-A3BE-4858AC7CF696}|{66A43C90-5525-47E5-812A-CA0B467F968D}|{B0419F11-AB75-4266-84C4-E1FEF57D51F5}|{F15AFC99-281E-48DF-B333-91033622651A}|{AF74A00B-8CA7-4C9A-A5C1-156A68590EE2}|{A28A44A6-0DF1-49BF-83AD-CD21ABB9AF7E}
 ----field----
 field: {F7D48A55-2158-4F02-9356-756654404F73}
 name: __Standard values
@@ -40,7 +40,7 @@ content-length: 3
 ----version----
 language: en
 version: 1
-revision: 705aaf83-d5aa-485f-ac05-3d1c001900e6
+revision: 34bc1f6d-1882-45cd-b663-55efd3f2b2ac
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -62,18 +62,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-705aaf83-d5aa-485f-ac05-3d1c001900e6
+34bc1f6d-1882-45cd-b663-55efd3f2b2ac
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150310T135139:635615922998815067Z
+20150625T125305:635708335850745147Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 18
+content-length: 14
 
-extranet\Anonymous
+sitecore\admin
