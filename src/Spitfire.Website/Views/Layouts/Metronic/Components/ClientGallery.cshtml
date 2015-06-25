@@ -9,10 +9,10 @@
 <div class="filter-v1">
     <ul class="mix-filter">
         <li data-filter="all" class="filter active">All</li>
-        @foreach (var tagItem in tagSource.Children.Where(x => x.TemplateName == "Tag"))
+        @foreach (var tagItem in tagSource.Children.Where(x => x.TemplateName == "SelectOption"))
         {
-            <li data-filter="@tagItem["tag"]" class="filter">
-                @Html.Sitecore().Field("tag", tagItem, new { DisableWebEdit = true })
+            <li data-filter="@tagItem.Name" class="filter">
+                @tagItem.Name
             </li>
         }
     </ul>
@@ -21,7 +21,7 @@
         {
             var tags = tagItem.Database.GetItem(tagItem["tags"]);
 
-            <div class="col-md-3 col-sm-3 mix action mix_all @(tags == null ? null : @tags["tag"]) " style="display: block; opacity: 1;">
+            <div class="col-md-3 col-sm-3 mix action mix_all @(tags == null ? null : @tags.Name) " style="display: block; opacity: 1;">
                 <div class="mix-inner">
                     @Html.Sitecore().BeginField("website", tagItem, new { haschildren = true })
                     @Html.Sitecore().Field("logo on", tagItem, new { @class = "img-responsive" })

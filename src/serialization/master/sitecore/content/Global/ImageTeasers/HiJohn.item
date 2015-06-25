@@ -12,7 +12,7 @@ templatekey: Teaser
 ----version----
 language: en
 version: 1
-revision: 47d8304f-9f86-4676-b57f-4adae4877475
+revision: 44e05eeb-32e7-4c81-b160-a4d65cb1aa77
 
 ----field----
 field: {8F835316-A8FF-411A-905B-CFC143D7950C}
@@ -49,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-47d8304f-9f86-4676-b57f-4adae4877475
+44e05eeb-32e7-4c81-b160-a4d65cb1aa77
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150601T101424:635687504649804760Z
+20150625T155426:635708444664421342Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

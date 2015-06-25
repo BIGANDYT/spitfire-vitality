@@ -59,33 +59,6 @@
         public static class FieldConstants
         {
             /// <summary>
-            /// Class to hold all fields related to the Video template
-            /// </summary>
-            public static class Video
-            {
-                /// <summary>
-                /// The Video Type field id
-                /// </summary>
-                public const string Type = "{A9713045-A435-4641-9140-4631B8FCABAE}";
-
-                /// <summary>
-                /// The Video Source field id
-                /// </summary>
-                public const string Source = "{1EC8FCD0-F411-41A7-9B11-1C0BBF6DF9F9}";
-            }
-
-            /// <summary>
-            /// Class to hold all fields related to the VideoType template
-            /// </summary>
-            public static class VideoType
-            {
-                /// <summary>
-                /// The Type Name field of the Video Type item
-                /// </summary>
-                public const string TypeName = "{4C69EEE5-ED95-455D-B28B-E9581A1D8FD5}";
-            }
-
-            /// <summary>
             /// Class to hold all fields related to the Style template
             /// </summary>
             public static class Style

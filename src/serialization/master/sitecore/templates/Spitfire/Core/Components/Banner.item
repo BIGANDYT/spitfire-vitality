@@ -1,6 +1,6 @@
 ----item----
 version: 1
-id: {656FE842-C5A3-4FFC-8130-A029C713F743}
+id: {7CD4FB93-C30C-422B-8BA5-902C35505798}
 database: master
 path: /sitecore/templates/Spitfire/Core/Components/Banner
 parent: {8DC7BCEE-FBC6-41A2-BF35-371BCA95F8D0}
@@ -22,26 +22,26 @@ name: __Standard values
 key: __standard values
 content-length: 38
 
-{8B15A3E8-D471-4E38-AF7B-257F3828EC98}
+{9E37A7FA-13F8-4BC2-BA83-8D0F5C5B9B3B}
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
 key: __icon
-content-length: 30
+content-length: 36
 
-office/32x32/window_dialog.png
+applications/32x32/photo_scenery.png
 ----version----
 language: en
 version: 1
-revision: 260682f1-686b-47b9-9376-93b5834e99c8
+revision: fcf0f123-2d93-414c-a160-1eaef56c644e
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
-content-length: 16
+content-length: 15
 
-20150509T173221Z
+20141203T153706
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -55,18 +55,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-260682f1-686b-47b9-9376-93b5834e99c8
+fcf0f123-2d93-414c-a160-1eaef56c644e
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150509T180330:635667914107044899Z
+20150625T151536:635708421366110108Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 18
+content-length: 14
 
-extranet\Anonymous
+sitecore\admin
