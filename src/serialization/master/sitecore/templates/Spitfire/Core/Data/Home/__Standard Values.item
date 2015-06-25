@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {551174D0-3ADB-41CD-8CE5-7088C1FB652D}
+database: master
+path: /sitecore/templates/Spitfire/Core/Data/Home/__Standard Values
+parent: {4A8822CC-B418-4452-AB0F-8BB6DF2F2114}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {4A8822CC-B418-4452-AB0F-8BB6DF2F2114}
+templatekey: Home
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{F76F859A-F34F-45AF-AD50-FE74CCA41D25}
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1203
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{C8F9EF84-39E2-4E07-A5DB-61B0FFF2849B}"><r ds="" id="{C8987D0B-1FB9-403C-9746-41D56DEF5FF6}" par="" ph="slider" uid="{2C63C7C6-9D57-4B82-81A7-79693E4AF085}" /><r ds="" id="{84AEE9C8-B394-478C-AB3F-6572424009A6}" par="" ph="body" uid="{E19DA30E-3C4F-4649-89E2-2ACE9B9DD2B6}" /><r ds="{8CBDA387-0FFE-4258-ACD9-AA7CE0ABF10A}" id="{0FA0546B-78EF-4F37-9E5C-E069DA2A1DDC}" par="" ph="maincontent" uid="{6F9D1A55-0E35-4DAF-9F6A-5F96C3B573D9}" /><r ds="{E18457F8-5889-4BA0-B0EF-2E001534DA96}" id="{208E616B-08B5-4225-B510-2113602D2C5E}" par="" ph="maincontent" uid="{372ED4C7-AE7F-4B22-92F3-D490344A9D52}" /><r ds="" id="{674FEB80-6C8F-44AF-88F1-CBE3CBBC1702}" par="" ph="maincontent" uid="{E1C3CA03-8FBA-49AB-8121-3423BFE5C81B}" /><r ds="" id="{0DE95AE4-41AB-4D01-9EB0-67441B7C2450}" par="" ph="maincontent" uid="{2E0E5CED-DE13-4305-99E0-576949D3363F}" /><r ds="" id="{EC29CA89-3AAE-4AAB-AF30-CE56F2218981}" par="" ph="maincontent" uid="{D735F39B-16A6-4F6E-BE80-877B5F4B323A}" /><r ds="" id="{248F4829-F144-4BB8-AA5E-DAA30D02008E}" par="" ph="maincontent" uid="{B94CA53F-F741-48B7-AF72-319DCA72021E}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 49b76bf3-2007-4683-af4b-766cfbe0ff41
+
+----field----
+field: {0582109B-9D24-4347-A969-8E59297C548D}
+name: Theme
+key: theme
+content-length: 38
+
+{4A25DCB6-A365-42D1-9EDC-636B94E8A923}
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 2888
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{2C63C7C6-9D57-4B82-81A7-79693E4AF085}" p:before="r[@uid='{6F9D1A55-0E35-4DAF-9F6A-5F96C3B573D9}']" s:ds="{E610CD62-4C69-45BF-AFCC-E75F5D484090}"><rls><ruleset><rule uid="{6C175EEA-7EF1-4EB7-9BFA-F958E39A9DC2}" s:name="Visitor is Action Gamer"><conditions><condition uid="E5BA7E34F98C4939B4D89AB19DC52845" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Gaming Interest" s:PatternName="Action Gamer" /></conditions><actions><action uid="CA71204E05C542ACB95B3983DD37B515" s:id="{7B578B65-BD2F-4C7C-9A24-DAE3E98B4F23}" s:RenderingItem="{7459A72C-8DC8-4CBE-8AE3-D90BF25CD48E}" /><action uid="630396B57B4E4CB99F8FD5FFC7E622B6" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{0D40E2E5-0E68-491F-83B1-18DB82E9E052}" /></actions></rule><rule uid="{0FDB8C37-3D7B-4B2E-A01C-A2CE12D31A71}" s:name="Search term 'xbox'"><conditions><condition uid="00578AFD4EFE4F3599EADE194FEA70D0" s:id="{B2E953D3-688F-45B8-BCD2-1E480503706B}" s:CampaignId="{DB623302-7EB2-4ABA-A4A9-8CE8E9DCD2D3}" /></conditions><actions><action uid="4C6F0516A9B74777A84F8FA07FF40B1F" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{757DC5CF-69A5-4FC9-AF63-57FEE3195E21}" /><action uid="795C1B1DB48946B1A31D7C44AA43515D" s:id="{7B578B65-BD2F-4C7C-9A24-DAE3E98B4F23}" s:RenderingItem="{5F1C2796-7DCA-4C19-BC82-3F7293555C23}" /></actions></rule><rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default"><conditions><condition uid="01D1F113DF8C47DFBC8C349B18442F06" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" /></conditions><actions /></rule></ruleset></rls></r><r uid="{6F9D1A55-0E35-4DAF-9F6A-5F96C3B573D9}" s:ds="{E5D8E853-9D51-4658-9719-743911D30377}"><rls><ruleset><rule uid="{74DA5848-6D98-4746-9D1C-0C3DD75B6AAE}" s:name="Condition Name"><actions><action uid="98F7102FF0924B6FA86B5E63ADEC79D6" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{E5D8E853-9D51-4658-9719-743911D30377}" /></actions><conditions><condition uid="234F958BAE744CB89BDE32D7B536E124" s:id="{B2E953D3-688F-45B8-BCD2-1E480503706B}" s:CampaignId="{DB623302-7EB2-4ABA-A4A9-8CE8E9DCD2D3}" /></conditions></rule><rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default"><conditions><condition uid="6A81CB55E9AE4638B0A53FF91092864E" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" /></conditions><actions><action uid="833A2C020EE14DDE8A6512BC027789CB" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{8CBDA387-0FFE-4258-ACD9-AA7CE0ABF10A}" /></actions></rule></ruleset></rls></r><r uid="{E1C3CA03-8FBA-49AB-8121-3423BFE5C81B}" s:ds="{FCA2DEED-D107-4267-BBA6-B3063A82F2AB}" /><r uid="{B94CA53F-F741-48B7-AF72-319DCA72021E}" p:before="r[@uid='{2E0E5CED-DE13-4305-99E0-576949D3363F}']" /><r uid="{D735F39B-16A6-4F6E-BE80-877B5F4B323A}" s:id="{EC29CA89-3AAE-4AAB-AF30-CE56F2218981}" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20141119T151742
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 18
+
+extranet\Anonymous
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+49b76bf3-2007-4683-af4b-766cfbe0ff41
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150625T132902:635708357425543011Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

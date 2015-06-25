@@ -7,7 +7,7 @@ parent: {8EA508DB-5BA2-428E-B78E-DD99ADAE59C7}
 name: Videos
 master: {00000000-0000-0000-0000-000000000000}
 template: {4C758B7D-17F9-470B-B403-E6CB207D8182}
-templatekey: Video Folder
+templatekey: Videos Folder
 
 ----version----
 language: en

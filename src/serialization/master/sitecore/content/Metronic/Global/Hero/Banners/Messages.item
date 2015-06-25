@@ -7,7 +7,7 @@ parent: {E4FB81DC-D78F-4E5D-8653-EE035E666853}
 name: Messages
 master: {00000000-0000-0000-0000-000000000000}
 template: {8C283CB2-204B-4C43-BCE0-A37FC2D161C9}
-templatekey: Banner Folders
+templatekey: Banners Folder
 
 ----version----
 language: en

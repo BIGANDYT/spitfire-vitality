@@ -7,7 +7,7 @@ parent: {F3826046-A939-4395-B3BC-D6E68BA9B8DE}
 name: Media Tabs
 master: {00000000-0000-0000-0000-000000000000}
 template: {4C758B7D-17F9-470B-B403-E6CB207D8182}
-templatekey: Video Folder
+templatekey: Videos Folder
 
 ----field----
 field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
