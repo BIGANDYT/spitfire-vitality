@@ -1,0 +1,100 @@
+----item----
+version: 1
+id: {AA575E58-912B-4AD5-9B49-F637FB4752A7}
+database: master
+path: /sitecore/content/Microsoft/Home/Products/Surface/Surface 2
+parent: {FD056149-E0F6-4E86-810A-D48D48E3880A}
+name: Surface 2
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FD46617-A947-4964-9B92-67B3FBE68B26}
+templatekey: Product
+
+----field----
+field: {B0A67B2A-8B07-4E0B-8809-69F751709806}
+name: __Tracking
+key: __tracking
+content-length: 273
+
+<tracking>  <profile id="{B000189D-DE2F-473F-817F-7006254F047E}" name="Site Interest" presets="surface|100||">    <key name="Mobile" value="1" />    <key name="Office" value="1" />    <key name="Surface" value="10" />    <key name="Xbox" value="0" />  </profile></tracking>
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+200
+----version----
+language: en
+version: 1
+revision: ffb1ba09-b52d-4bb3-a154-f624e333881c
+
+----field----
+field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
+name: Body
+key: body
+content-length: 488
+
+<p>At less than 1.5 pounds and just 8.9 mm thick, Surface 2 lets you carry less while you do more. It runs Windows RT 8.1 and comes pre-installed with Microsoft Office 2013 RT, so you get Outlook, Word, Excel, PowerPoint, and OneNote—right out of the box. Surface 2 ups the ante with a more powerful, always-on processor, so it's ready to go when you need it. With an up to 10-hour battery that keeps you charged through the day, Surface 2 is powerful, yet ultra-thin and lightweight.</p>
+----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{CF7230AC-17BC-43B6-99DB-A1301F35F05F}" />
+----field----
+field: {1B483E91-D8C4-4D19-BA03-462074B55936}
+name: ShortTitle
+key: shorttitle
+content-length: 9
+
+Surface 2
+----field----
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
+name: Title
+key: title
+content-length: 9
+
+Surface 2
+----field----
+field: {DEC38F42-43BD-4E9F-9C34-BAA5B57F0523}
+name: Summary
+key: summary
+content-length: 50
+
+Thin, light tablet with up to 10-hour battery life
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150112T170003Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ffb1ba09-b52d-4bb3-a154-f624e333881c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150625T204053:635708616536267083Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

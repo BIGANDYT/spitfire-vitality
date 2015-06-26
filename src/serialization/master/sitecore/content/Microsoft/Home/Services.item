@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {ADB3922D-1A0B-490F-BD0D-7359B05B3573}
+database: master
+path: /sitecore/content/Microsoft/Home/Services
+parent: {110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}
+name: Services
+master: {00000000-0000-0000-0000-000000000000}
+template: {F76F859A-F34F-45AF-AD50-FE74CCA41D25}
+templatekey: Section
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 31
+
+business/32x32/address_book.png
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+300
+----field----
+field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
+name: __Security
+key: __security
+content-length: 129
+
+ar|sitecore\hca demo|pe|-item:create|-item:write|-item:delete|-item:rename|pd|-item:create|-item:write|-item:delete|-item:rename|
+----version----
+language: en
+version: 1
+revision: 11275347-c124-43e0-b1f8-bded9d97ed16
+
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 575
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{1BAB6100-7A2B-4709-AED2-EF63DAB88211}" p:before="r[@uid='{FF217017-A618-43C1-AA59-BFE43418D828}']" s:ds="{FCA2DEED-D107-4267-BBA6-B3063A82F2AB}" s:id="{674FEB80-6C8F-44AF-88F1-CBE3CBBC1702}" s:par="" s:ph="/body/maincontent/onecontent" /><r uid="{FF217017-A618-43C1-AA59-BFE43418D828}" p:before="r[@uid='{E19DA30E-3C4F-4649-89E2-2ACE9B9DD2B6}']" s:ds="{44841A90-CB6D-4F0B-9139-94FB25C4E9E8}" s:id="{0FA0546B-78EF-4F37-9E5C-E069DA2A1DDC}" s:ph="/body/maincontent/onecontent" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20141120T112324
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+11275347-c124-43e0-b1f8-bded9d97ed16
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150625T204515:635708619156155794Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

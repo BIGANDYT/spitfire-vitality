@@ -2,7 +2,7 @@
 version: 1
 id: {D09BE2AD-6FD2-4165-8643-0C001ACDEE13}
 database: master
-path: /sitecore/templates/Spitfire/Core/Data/Section/Navigation/Dropdown
+path: /sitecore/templates/Spitfire/Core/Pages/Section/Navigation/Dropdown
 parent: {93A0E2E4-F257-4AF8-92D2-A81BDCBB35FE}
 name: Dropdown
 master: {00000000-0000-0000-0000-000000000000}

@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {D95474A0-52AC-45A2-BE03-987895C5CA00}
+database: master
+path: /sitecore/content/Microsoft/Home/Products/Xbox/Xbox 360 Games/Batman Arkham City
+parent: {3C77AF3D-DC32-468A-9A79-6198B462BDB1}
+name: Batman Arkham City
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FD46617-A947-4964-9B92-67B3FBE68B26}
+templatekey: Product
+
+----version----
+language: en
+version: 1
+revision: 92c58b86-ab69-442c-8f78-bd09abf7dd4e
+
+----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{471895BB-4A19-4668-928A-6764C2C3013F}" />
+----field----
+field: {1B483E91-D8C4-4D19-BA03-462074B55936}
+name: ShortTitle
+key: shorttitle
+content-length: 18
+
+Batman Arkham City
+----field----
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
+name: Title
+key: title
+content-length: 18
+
+Batman Arkham City
+----field----
+field: {8AD51C12-5704-4850-B8F3-134BDCFAFD49}
+name: Tags
+key: tags
+content-length: 38
+
+{E950F1A8-CDD8-408C-83F7-669260FDB79E}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150305T120144Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+92c58b86-ab69-442c-8f78-bd09abf7dd4e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150625T204053:635708616539009022Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
