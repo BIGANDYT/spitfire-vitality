@@ -1,0 +1,331 @@
+----item----
+version: 1
+id: {21C0652C-3C31-4D96-B23D-D1FF9F9E1393}
+database: master
+path: /sitecore/content/Microsoft/Home/Products/Xbox/Xbox One Games/GTA 5
+parent: {8E810B67-BFF3-4D1F-AA07-EFA0B90C345F}
+name: GTA 5
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FD46617-A947-4964-9B92-67B3FBE68B26}
+templatekey: Product
+
+----field----
+field: {B0A67B2A-8B07-4E0B-8809-69F751709806}
+name: __Tracking
+key: __tracking
+content-length: 564
+
+<tracking>  <profile id="{B000189D-DE2F-473F-817F-7006254F047E}" name="Site Interest" presets="xbox|100||">    <key name="Office" value="0" />    <key name="Xbox" value="10" />    <key name="Surface" value="0" />    <key name="Mobile" value="0" />  </profile>  <profile id="{F8013B04-E03A-4685-ACF6-F8C662215553}" name="Gaming Interest" presets="action|100||">    <key name="Action" value="10" />    <key name="Adventure" value="0" />    <key name="Fighting" value="0" />    <key name="Racing" value="0" />    <key name="Sports" value="0" />  </profile></tracking>
+----field----
+field: {8546D6E6-0749-4591-90F3-CEC033D6E8D8}
+name: __Page Level Test Set Definition
+key: __page level test set definition
+content-length: 0
+
+
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{B2FD4E6E-7FE0-4A96-8669-3BA9C5498ED1}
+----version----
+language: en
+version: 1
+revision: 3ee8ee88-e4f2-42fe-bb78-aa353c961f4f
+
+----field----
+field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
+name: Body
+key: body
+content-length: 1266
+
+<p>Los Santos: a sprawling sun-soaked metropolis full of self-help gurus, starlets and fading celebrities, once the envy of the Western world, now struggling to stay afloat in an era of economic uncertainty and cheap reality TV.</p>
+<p>Amidst the turmoil, three very different criminals plot their own chances of survival and success: Franklin, a street hustler looking for real opportunities and serious money; Michael, a professional ex-con whose retirement is a lot less rosy than he hoped it would be; and Trevor, a violent maniac driven by the chance of a cheap high and the next big score. Running out of options, the crew risks everything in a series of daring and dangerous heists that could set them up for life.</p>
+<p>The biggest, most dynamic and most diverse open world ever created, Grand Theft Auto V blends storytelling and gameplay in new ways as players repeatedly jump in and out of the lives of the game&rsquo;s three lead characters, playing all sides of the game&rsquo;s interwoven story.</p>
+<p>All the classic hallmarks of the groundbreaking series return, including incredible attention to detail and Grand Theft Auto&rsquo;s darkly humorous take on modern culture, alongside a brand new and ambitious approach to open world multiplayer.</p>
+----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{90E2D547-1BA8-4A80-92A7-169E75542910}" />
+----field----
+field: {1B483E91-D8C4-4D19-BA03-462074B55936}
+name: ShortTitle
+key: shorttitle
+content-length: 18
+
+Grand Theft Auto V
+----field----
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
+name: Title
+key: title
+content-length: 18
+
+Grand Theft Auto V
+----field----
+field: {DEC38F42-43BD-4E9F-9C34-BAA5B57F0523}
+name: Summary
+key: summary
+content-length: 180
+
+Enter the lives of three very different criminals, Michael, Franklin and Trevor, as they risk everything in a series of daring and dangerous heists that could set them up for life.
+----field----
+field: {8AD51C12-5704-4850-B8F3-134BDCFAFD49}
+name: Tags
+key: tags
+content-length: 38
+
+{1AA042D8-77AE-4717-8FE8-C6D4879FD6A7}
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 361
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{F62C3253-C477-4C02-B4C9-43257812D764}" s:id="{F8271E87-8557-4597-8C5D-1358B645B3B2}" /><r uid="{C3507D7D-D811-420F-BA49-D9F8290F0A2F}" s:ds="{4581927E-184D-43AF-BC81-079138BB4CB4}" s:id="{82702046-F391-4F9E-B742-0C24B8CC34E7}" s:ph="/body/maincontent/content" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150119T151922Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3ee8ee88-e4f2-42fe-bb78-aa353c961f4f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150625T204054:635708616547810565Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{4AC5E48B-7A3E-462C-BF8E-1B87BF7E14B3}
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: en
+version: 2
+revision: a492b65f-a472-42ed-98c1-4bbce231bc51
+
+----field----
+field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
+name: Body
+key: body
+content-length: 1266
+
+<p>Los Santos: a sprawling sun-soaked metropolis full of self-help gurus, starlets and fading celebrities, once the envy of the Western world, now struggling to stay afloat in an era of economic uncertainty and cheap reality TV.</p>
+<p>Amidst the turmoil, three very different criminals plot their own chances of survival and success: Franklin, a street hustler looking for real opportunities and serious money; Michael, a professional ex-con whose retirement is a lot less rosy than he hoped it would be; and Trevor, a violent maniac driven by the chance of a cheap high and the next big score. Running out of options, the crew risks everything in a series of daring and dangerous heists that could set them up for life.</p>
+<p>The biggest, most dynamic and most diverse open world ever created, Grand Theft Auto V blends storytelling and gameplay in new ways as players repeatedly jump in and out of the lives of the game&rsquo;s three lead characters, playing all sides of the game&rsquo;s interwoven story.</p>
+<p>All the classic hallmarks of the groundbreaking series return, including incredible attention to detail and Grand Theft Auto&rsquo;s darkly humorous take on modern culture, alongside a brand new and ambitious approach to open world multiplayer.</p>
+----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 122
+
+<image mediaid="{90E2D547-1BA8-4A80-92A7-169E75542910}" alt="Grand Theft Auto V" height="" width="" hspace="" vspace="" />
+----field----
+field: {1B483E91-D8C4-4D19-BA03-462074B55936}
+name: ShortTitle
+key: shorttitle
+content-length: 18
+
+Grand Theft Auto V
+----field----
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
+name: Title
+key: title
+content-length: 18
+
+Grand Theft Auto V
+----field----
+field: {DEC38F42-43BD-4E9F-9C34-BAA5B57F0523}
+name: Summary
+key: summary
+content-length: 180
+
+Enter the lives of three very different criminals, Michael, Franklin and Trevor, as they risk everything in a series of daring and dangerous heists that could set them up for life.
+----field----
+field: {8AD51C12-5704-4850-B8F3-134BDCFAFD49}
+name: Tags
+key: tags
+content-length: 38
+
+{1AA042D8-77AE-4717-8FE8-C6D4879FD6A7}
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1008
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{6083CC74-17A7-4B0E-B48D-F04FCF392172}" p:before="r[@uid='{70286582-FBC4-427D-B132-550F34C1A161}']" s:ds="{0979C117-1A06-4048-9362-581E574DEBC5}" s:id="{BA1B3276-594D-4134-9C32-A340BD8ABB37}" s:ph="/body/maincontent/onecontent" /><r uid="{70286582-FBC4-427D-B132-550F34C1A161}" p:before="r[@uid='{6486BDB0-2E25-4BC5-80E1-5D7D7A5D0F6C}']" s:ds="{0002572E-89D5-4DF7-8786-833B7BED657B}" s:id="{0FA0546B-78EF-4F37-9E5C-E069DA2A1DDC}" s:ph="/body/maincontent/onecontent" /><r uid="{6486BDB0-2E25-4BC5-80E1-5D7D7A5D0F6C}" p:before="r[@uid='{77DC072C-1019-428C-99A8-83D64FD54FA7}']" s:id="{F8271E87-8557-4597-8C5D-1358B645B3B2}" s:ph="/body/maincontent/onecontent" /><r uid="{B4A479AC-7AC7-4B96-A221-6DF21BBAA7C7}"><p:d /></r><r uid="{AF9244AC-BBBF-468C-9BC4-149C3140DFDE}" s:ds="" s:id="{E61FECF4-D727-4549-B6EC-DDAC7AC61555}" s:par="" s:ph="maincontent" /><r uid="{F62C3253-C477-4C02-B4C9-43257812D764}"><p:d /></r></d></r>
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20150309T135527Z
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150309T135527Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a492b65f-a472-42ed-98c1-4bbce231bc51
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150625T204054:635708616548436008Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{4AC5E48B-7A3E-462C-BF8E-1B87BF7E14B3}
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: en
+version: 3
+revision: ee2093e5-34fb-41c2-b0a4-a3d4189e310c
+
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 186
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{F62C3253-C477-4C02-B4C9-43257812D764}" s:id="{F8271E87-8557-4597-8C5D-1358B645B3B2}" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 35
+
+20150612T121516:635697081168961412Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ee2093e5-34fb-41c2-b0a4-a3d4189e310c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150625T204054:635708616548971385Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 4
+revision: 9ec9d21b-4c14-4371-83e0-d8ec558e9790
+
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 186
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{F62C3253-C477-4C02-B4C9-43257812D764}" s:id="{F8271E87-8557-4597-8C5D-1358B645B3B2}" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150612T121516Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9ec9d21b-4c14-4371-83e0-d8ec558e9790
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150625T204055:635708616550002119Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

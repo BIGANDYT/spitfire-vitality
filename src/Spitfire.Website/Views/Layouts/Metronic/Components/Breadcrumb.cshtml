@@ -19,13 +19,13 @@
             {
                 @:<a href="@bcItem.Value.Url()">
                     }
-            @if (bcItem.Value["menu title"] == string.Empty)
+            @if (bcItem.Value["ShortTitle"] == string.Empty)
             {
                 @bcItem.Value.DisplayName
             }
             else
             {
-                @Html.Sitecore().Field("menu title", bcItem.Value)
+                @Html.Sitecore().Field("ShortTitle", bcItem.Value)
             }
             @if (!bcItem.IsLast)
             {

@@ -16,7 +16,7 @@
         /// <summary>
         /// The item to use for the model
         /// </summary>
-        public Item Item { get; private set; }
+        public MediaItem Item { get; private set; }
 
         /// <summary>
         /// The type of video
@@ -49,26 +49,17 @@
         /// <param name="rendering">The Rendering to use</param>
         public void Initialize(Rendering rendering)
         {
-            if (!string.IsNullOrWhiteSpace(rendering.DataSource))
+            this.Item = !string.IsNullOrWhiteSpace(rendering.DataSource)
+                ? Context.Database.GetItem(rendering.DataSource)
+                : Context.Item;
+
+            if (this.Item == null)
             {
-                Item = Context.Database.GetItem(rendering.DataSource);
-            }
-            else
-            {
-                Item = Context.Item;
+                return;
             }
 
-            var videoItemField = (FileField)Item.Fields[SpitfireConstants.FieldConstants.Video.Source];
-            if (videoItemField != null && videoItemField.MediaItem != null)
-            {
-                VideoPath = MediaManager.GetMediaUrl(videoItemField.MediaItem);
-            }
-
-            var videoTypeItemField = (LookupField)Item.Fields[SpitfireConstants.FieldConstants.Video.Type];
-            if (videoTypeItemField != null && videoTypeItemField.TargetItem != null)
-            {
-                VideoType = videoTypeItemField.TargetItem[SpitfireConstants.FieldConstants.VideoType.TypeName];
-            }
+            VideoPath = MediaManager.GetMediaUrl(Item);
+            VideoType = Item.MimeType;
 
             Loop = MainUtil.GetBool(rendering.Parameters[SpitfireConstants.ParameterConstants.Loop], false);
             Autoplay = MainUtil.GetBool(rendering.Parameters[SpitfireConstants.ParameterConstants.Autoplay], false);

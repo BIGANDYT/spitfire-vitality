@@ -27,9 +27,9 @@ People/16x16/cubes_blue.png
 field: {9C6106EA-7A5A-48E2-8CAD-F0F693B1E2D4}
 name: __Read Only
 key: __read only
-content-length: 1
+content-length: 0
 
-1
+
 ----field----
 field: {21F74F6E-42D4-42A2-A4B4-4CEFBCFBD2BB}
 name: __Facets
@@ -43,7 +43,7 @@ name: __Masters
 key: __masters
 content-length: 38
 
-{27351021-529A-498F-83B1-AE3CC3E24D7E}
+{0643D9D4-F30B-4B07-91D0-289CC324C9CF}
 ----field----
 field: {F2DB8BA1-E477-41F5-8EF5-22EEFA8D2F6E}
 name: __Enabled Views
@@ -197,7 +197,7 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: 8b7489f5-835e-45d9-96c0-a9f660b4a580
+revision: 94cb36fa-2445-48aa-b891-5ca7b2385caf
 
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
@@ -247,14 +247,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8b7489f5-835e-45d9-96c0-a9f660b4a580
+94cb36fa-2445-48aa-b891-5ca7b2385caf
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150329T192453:635632538934199164Z
+20150626T103452:635709116925255981Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -12,7 +12,7 @@ templatekey: Teaser
 ----version----
 language: en
 version: 1
-revision: 136add84-2ca6-4b03-9d93-d3c0400062d8
+revision: ca436d0c-f424-42f1-a617-81c0a7ec7382
 
 ----field----
 field: {8F835316-A8FF-411A-905B-CFC143D7950C}
@@ -36,13 +36,6 @@ content-length: 14
 
 Brand Identity
 ----field----
-field: {B933FD9E-7E74-4D6A-950D-A50F12C5BC82}
-name: Tag
-key: tag
-content-length: 38
-
-{456DA958-5CC5-4932-89DA-19FF0F203283}
-----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
@@ -55,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-136add84-2ca6-4b03-9d93-d3c0400062d8
+ca436d0c-f424-42f1-a617-81c0a7ec7382
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150601T100958:635687501982506068Z
+20150625T155426:635708444665922413Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

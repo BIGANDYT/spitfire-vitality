@@ -9,10 +9,10 @@
 <div class="filter-v1">
     <ul class="mix-filter">
         <li data-filter="all" class="filter active">All</li>
-        @foreach (Item item in tagsource.Children.Where(x => x.TemplateName == "Tag"))
+        @foreach (Item item in tagsource.Children.Where(x => x.TemplateName == "SelectOption"))
         {
-            <li data-filter="@item["tag"]" class="filter">
-                @item["tag"]
+            <li data-filter="@item.Name" class="filter">
+                @item.Name
             </li>
         }
     </ul>
@@ -21,7 +21,7 @@
         {
             var tags = item.Database.GetItem(item["tags"]);
 
-            <div class="col-md-6 col-sm-6 mix action mix_all @(tags == null ? null : tags["tag"])" style="display: block; opacity: 1;">
+            <div class="col-md-6 col-sm-6 mix action mix_all @(tags == null ? null : tags.Name)" style="display: block; opacity: 1;">
                 <div class="mix-inner">
                     @Html.Sitecore().Field("image", item, new { w = 555, @as = 1, @class = "img-responsive" })
                     <div class="mix-details">

@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {0101FF2A-FCA8-423E-AE7C-1B258D1ECA5C}
+database: master
+path: /sitecore/content/Microsoft/Global/Banners/Custom/Capital One PPC
+parent: {31899A85-946E-4232-AF64-2A6356377DCF}
+name: Capital One PPC
+master: {00000000-0000-0000-0000-000000000000}
+template: {7CD4FB93-C30C-422B-8BA5-902C35505798}
+templatekey: Banner
+
+----version----
+language: en
+version: 1
+revision: bc39faae-9593-499b-85dc-9e9bcb6ceda7
+
+----field----
+field: {3EED451B-D15C-44A1-997F-377ADA28C11E}
+name: Background Image
+key: background image
+content-length: 58
+
+<image mediaid="{E0DBDF29-65F3-44C9-8F36-D35BF8EBDF1B}" />
+----field----
+field: {76F3F31B-7F3E-4B92-8B56-D9B091A6F632}
+name: Content
+key: content
+content-length: 222
+
+<a class="caption lft btn scbrandred slide_btn slide_item_right" href="/en/Products/Credit-Cards/Balance-Plus-Credit-Card" data-x="0" data-y="390" data-speed="400" data-start="1300" data-easing="easeOutExpo">Learn more</a>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150316T145208Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bc39faae-9593-499b-85dc-9e9bcb6ceda7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150316T154421:635621174617413147Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

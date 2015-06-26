@@ -8,11 +8,11 @@
         @foreach (Item item in Model.Item.Parent.Children
             .Where(x => x.TemplateName != "Section"
             && x.TemplateName != "Manager Root"
-            && x["show in menu"] == "1"))
+            && x["ShowInNavigation"] == "1"))
         {
             <li class="list-group-item clearfix @(item.ID == Model.Item.ID ? "active" : string.Empty)">
                 <a href="@item.Url()">
-                    <i class="fa fa-angle-right"></i>@Html.Sitecore().Field("menu title", item)
+                    <i class="fa fa-angle-right"></i>@Html.Sitecore().Field("ShortTitle", item)
                 </a>
             </li>
         }

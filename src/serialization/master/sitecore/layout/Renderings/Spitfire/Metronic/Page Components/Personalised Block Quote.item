@@ -20,9 +20,9 @@ content-length: 64
 field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
 name: Datasource Location
 key: datasource location
-content-length: 45
+content-length: 46
 
-/sitecore/content/Metronic/Global/Blockquotes
+/sitecore/content/Microsoft/Global/Blockquotes
 ----field----
 field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
 name: Datasource Template
@@ -33,7 +33,7 @@ content-length: 54
 ----version----
 language: en
 version: 1
-revision: b31b35c5-fb24-4a9d-a48b-143804369994
+revision: 5eab14c6-fcd0-41bc-9ec8-a2a5f13d90d4
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -48,18 +48,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b31b35c5-fb24-4a9d-a48b-143804369994
+5eab14c6-fcd0-41bc-9ec8-a2a5f13d90d4
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150617T105923:635701355637565000Z
+20150626T103612:635709117724676565Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 18
+content-length: 14
 
-extranet\Anonymous
+sitecore\admin

@@ -1,0 +1,44 @@
+----item----
+version: 1
+id: {4988C2DE-F5F1-4F92-AC59-87DDFF81510D}
+database: master
+path: /sitecore/content/Microsoft/Home/Products/Credit Cards/Classic Credit Card/Tabs
+parent: {CCA6F162-4F6E-45B7-9903-B7EA8E2DC304}
+name: Tabs
+master: {00000000-0000-0000-0000-000000000000}
+template: {7B39F0D2-512E-4DC2-A478-E22E95FDBD9C}
+templatekey: Tabs Folder
+
+----version----
+language: en
+version: 1
+revision: 542b8e40-6827-4065-a519-369a363d4f02
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150312T105306Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+542b8e40-6827-4065-a519-369a363d4f02
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150312T105306:635617543862220932Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

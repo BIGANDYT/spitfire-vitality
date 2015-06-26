@@ -12,7 +12,7 @@ templatekey: Teaser
 ----version----
 language: en
 version: 1
-revision: e0ee2b3e-961a-4e0b-a87d-91b872d3c294
+revision: b2e9da90-92ce-467f-9d2b-0a6418a954cf
 
 ----field----
 field: {8F835316-A8FF-411A-905B-CFC143D7950C}
@@ -36,13 +36,6 @@ content-length: 14
 
 Graphic Design
 ----field----
-field: {B933FD9E-7E74-4D6A-950D-A50F12C5BC82}
-name: Tag
-key: tag
-content-length: 38
-
-{99031711-0C11-4B35-9B35-203CB52F154F}
-----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
@@ -55,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-e0ee2b3e-961a-4e0b-a87d-91b872d3c294
+b2e9da90-92ce-467f-9d2b-0a6418a954cf
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150601T100958:635687501982245875Z
+20150625T155426:635708444665652222Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

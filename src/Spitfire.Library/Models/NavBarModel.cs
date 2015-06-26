@@ -28,7 +28,7 @@
         public void Initialize(Rendering rendering)
         {
             // Todo: Possibly use Sitecore Search? 
-            NavRoot = Context.Database.SelectSingleItem(Context.Site.StartPath + "//*[@@tid='" + SpitfireConstants.TemplateIds.NavBar + "']");
+            NavRoot = Context.Database.SelectSingleItem(Context.Site.ContentStartPath + "/*/*[@@tid='" + SpitfireConstants.TemplateIds.NavBar + "']");
 
             if (NavRoot != null)
             {

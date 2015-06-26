@@ -24,7 +24,7 @@
             <ul>
                 <li class="@(Model.Item.ID == home.ID ? "active" : string.Empty)">
                     <a href="@home.Url()">
-                        <span>@Html.Sitecore().Field("menu title", home, new { DisableWebEdit = true })</span>
+                        <span>@Html.Sitecore().Field("ShortTitle", home, new { DisableWebEdit = true })</span>
                     </a>
                 </li>
 
@@ -34,21 +34,21 @@
                     {
                         <li class="@(item1.ID == home.ID ? "active" : string.Empty)">
                             <a href="@item1.Url()">
-                                <span>@Html.Sitecore().Field("menu title", item1, new { DisableWebEdit = true })</span>
+                                <span>@Html.Sitecore().Field("ShortTitle", item1, new { DisableWebEdit = true })</span>
                             </a>
 
                             <ul class="dropdown-menu">
                                 <li>
                                     <div class="header-navigation-content">
                                         <div class="row">
-                                            @foreach (var item2 in item1.Children.Where(x => x["show in menu"] == "1"))
+                                            @foreach (var item2 in item1.Children.Where(x => x["ShowInNavigation"] == "1"))
                                             {
                                                 <div class="col-md-4 header-navigation-col">
-                                                    <a href="@item2.Url()"><h4 style="color: #3e4d5c !important;">@Html.Sitecore().Field("menu title", item2, new { DisableWebEdit = true })</h4></a>
+                                                    <a href="@item2.Url()"><h4 style="color: #3e4d5c !important;">@Html.Sitecore().Field("ShortTitle", item2, new { DisableWebEdit = true })</h4></a>
                                                     <ul>
-                                                        @foreach (var item3 in item2.Children.Where(x => x["show in menu"] == "1"))
+                                                        @foreach (var item3 in item2.Children.Where(x => x["ShowInNavigation"] == "1"))
                                                         {
-                                                            <li><a href="@item3.Url()">@Html.Sitecore().Field("menu title", item3, new { DisableWebEdit = true })</a></li>
+                                                            <li><a href="@item3.Url()">@Html.Sitecore().Field("ShortTitle", item3, new { DisableWebEdit = true })</a></li>
                                                         }
                                                     </ul>
                                                 </div>
@@ -63,7 +63,7 @@
                     {
                         <li class="@(item1.ID == home.ID ? " active" : string.Empty)">
                             <a href="@item1.Url()">
-                                <span>@Html.Sitecore().Field("menu title", item1, new { DisableWebEdit = true })</span>
+                                <span>@Html.Sitecore().Field("ShortTitle", item1, new { DisableWebEdit = true })</span>
                             </a>
                         </li>
                     }
