@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {A26CBA49-1C11-455B-B9B7-9BC5E0E98581}
+id: {048267B7-8EC7-46C5-BC94-0E6487C015D9}
 database: master
-path: /sitecore/templates/Spitfire/Core/Components/PortfolioItem
+path: /sitecore/templates/Spitfire/Core/Components/Portfolio
 parent: {8DC7BCEE-FBC6-41A2-BF35-371BCA95F8D0}
-name: PortfolioItem
+name: Portfolio
 master: {00000000-0000-0000-0000-000000000000}
 template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
 templatekey: Template
@@ -22,18 +22,11 @@ name: __Standard values
 key: __standard values
 content-length: 38
 
-{BF9E4933-3576-4F2A-886A-7F6C86C976F5}
-----field----
-field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
-name: __Icon
-key: __icon
-content-length: 32
-
-Applications/32x32/form_blue.png
+{1027BC43-C04A-4C6F-87A2-7B64E4E20F73}
 ----version----
 language: en
 version: 1
-revision: dca53a48-0d55-4221-bf46-b1f63de22f4d
+revision: 91631de2-560a-4429-ae32-73f259b33752
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -41,7 +34,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20150602T101710Z
+20150626T082035Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -55,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-dca53a48-0d55-4221-bf46-b1f63de22f4d
+91631de2-560a-4429-ae32-73f259b33752
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150626T150355:635709278357450765Z
+20150626T150350:635709278306277326Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

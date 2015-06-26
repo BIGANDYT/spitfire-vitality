@@ -6,17 +6,24 @@
     using Sitecore;
     using Sitecore.Data.Items;
     using Sitecore.Mvc.Presentation;
+    using Spitfire.Library.Constants;
+    using Sitecore.Data.Fields;
 
-    public class SectionPortfolioModel: IRenderingModel
+    public class SectionPortfolioModel: RenderingModel
     {
-        public List<Item> Data { get; set; }
+        public List<Item> PortfolioItems { get; set; }
 
-        public void Initialize(Rendering rendering)
+        public override void Initialize(Rendering rendering)
         {
-            if (!string.IsNullOrEmpty(rendering.DataSource))
+            base.Initialize(rendering);
+            if (!string.IsNullOrEmpty(Item[SpitfireConstants.FieldConstants.PortfolioGroup.Source]))
             {
-                Item datasource = Context.Database.GetItem(rendering.DataSource);
-                Data = datasource.Children.OrderBy(x => x.Name).ToList();
+                MultilistField teasers = Item.Fields[SpitfireConstants.FieldConstants.PortfolioGroup.Source];
+
+                if (teasers != null)
+                {
+                    PortfolioItems = teasers.GetItems().ToList();
+                }
             }
         }
     }

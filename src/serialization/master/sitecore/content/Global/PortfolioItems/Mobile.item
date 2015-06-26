@@ -1,0 +1,128 @@
+----item----
+version: 1
+id: {3DDA7112-5A5B-4563-8266-5E36104E4031}
+database: master
+path: /sitecore/content/Global/PortfolioItems/Mobile
+parent: {014146C9-18E9-420A-9E4B-156FCEB04E94}
+name: Mobile
+master: {00000000-0000-0000-0000-000000000000}
+template: {A26CBA49-1C11-455B-B9B7-9BC5E0E98581}
+templatekey: PortfolioItem
+
+----version----
+language: en
+version: 1
+revision: 15868639-e632-4ce4-b7a0-234eee1ddd94
+
+----field----
+field: {4F867517-3914-4453-BDF9-4E2E215ADB8A}
+name: ClientLogo
+key: clientlogo
+content-length: 65
+
+<image mediaid="{44F02FA5-3E29-481F-A961-6E9B2153CA9D}" ></image>
+----field----
+field: {FED88D67-75CC-453C-BCE2-7AA16E0DC146}
+name: ProjectName
+key: projectname
+content-length: 8
+
+Spitfire
+----field----
+field: {9D4866C3-A828-4301-866D-96AA8CF772D1}
+name: ProjectTagline
+key: projecttagline
+content-length: 29
+
+A rapid development framework
+----field----
+field: {5E9A763A-F60D-43B5-BD8B-514459914B9F}
+name: ProjectDescription
+key: projectdescription
+content-length: 4
+
+test
+----field----
+field: {F39127AE-FDFC-4A5F-BA4B-8419F9D2DE9D}
+name: Image
+key: image
+content-length: 65
+
+<image mediaid="{A28AFB27-DEE6-451E-985E-1A5566873CCC}" ></image>
+----field----
+field: {30318FB5-1643-4C5E-831A-D4D51B8CC09F}
+name: BackgroundImage
+key: backgroundimage
+content-length: 65
+
+<image mediaid="{5F79CF46-B05E-4934-9A13-915BB5295276}" ></image>
+----field----
+field: {49914D60-85A4-4A92-9F31-44B8DC70D443}
+name: Date
+key: date
+content-length: 16
+
+20150625T230000Z
+----field----
+field: {C86BE70D-106C-4B6C-87C6-233B9DFDDF87}
+name: ModalBackgroundImage
+key: modalbackgroundimage
+content-length: 58
+
+<image mediaid="{89B98A77-88D9-4A6F-9324-F032BD9EEC02}" />
+----field----
+field: {C4CEACD7-AAB8-4BCE-AC0F-C300A5B1AC72}
+name: ModalImage
+key: modalimage
+content-length: 58
+
+<image mediaid="{371A079C-A912-4C42-BBE2-C8351567609E}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150626T075143Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+15868639-e632-4ce4-b7a0-234eee1ddd94
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150626T142852:635709257323592436Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

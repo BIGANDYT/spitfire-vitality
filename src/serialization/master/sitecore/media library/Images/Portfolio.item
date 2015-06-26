@@ -1,18 +1,18 @@
 ----item----
 version: 1
-id: {B3AA0849-7C17-4F88-87D2-E0DA54BFD11E}
+id: {B2736899-0E29-425E-9391-14981BAD92ED}
 database: master
-path: /sitecore/templates/Spitfire/Core/Components/TeaserGroup/Teasers
-parent: {28801410-7FFD-4E61-9135-EDED72DCB247}
-name: Teasers
+path: /sitecore/media library/Images/Portfolio
+parent: {15451229-7534-44EF-815D-D93D6170BFCB}
+name: Portfolio
 master: {00000000-0000-0000-0000-000000000000}
-template: {E269FBB5-3750-427A-9149-7AA950B49301}
-templatekey: Template section
+template: {FE5DD826-48C6-436D-B87A-7C4210C7413B}
+templatekey: Media folder
 
 ----version----
 language: en
 version: 1
-revision: ee375d6b-a51a-445c-bdab-99677875560f
+revision: 2747609c-267d-48c9-9d26-b66abe7f9181
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -20,7 +20,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20150512T111204Z
+20150626T104153Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -34,14 +34,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ee375d6b-a51a-445c-bdab-99677875560f
+2747609c-267d-48c9-9d26-b66abe7f9181
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150626T082102:635709036625810497Z
+20150626T104153:635709121136608792Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
