@@ -2,7 +2,7 @@
 version: 1
 id: {0D40E2E5-0E68-491F-83B1-18DB82E9E052}
 database: master
-path: /sitecore/content/Metronic/Global/Hero/Videos/Call of Duty Advanced Warfare
+path: /sitecore/content/Metronic/Global/Videos/Call of Duty Advanced Warfare
 parent: {DA1B9BCB-DEFA-4F4D-AD0B-331A7C923874}
 name: Call of Duty Advanced Warfare
 master: {00000000-0000-0000-0000-000000000000}

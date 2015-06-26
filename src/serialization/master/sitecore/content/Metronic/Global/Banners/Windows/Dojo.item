@@ -2,7 +2,7 @@
 version: 1
 id: {F2FE7C3A-A39C-43DA-86CC-7E0919BB734A}
 database: master
-path: /sitecore/content/Metronic/Global/Hero/Banners/Windows/Dojo
+path: /sitecore/content/Metronic/Global/Banners/Windows/Dojo
 parent: {A4DEE81E-AF05-4556-917A-9F8126835442}
 name: Dojo
 master: {00000000-0000-0000-0000-000000000000}

@@ -7,7 +7,7 @@ parent: {7B39F0D2-512E-4DC2-A478-E22E95FDBD9C}
 name: __Standard Values
 master: {00000000-0000-0000-0000-000000000000}
 template: {7B39F0D2-512E-4DC2-A478-E22E95FDBD9C}
-templatekey: Tabs
+templatekey: Tabs Folder
 
 ----field----
 field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}

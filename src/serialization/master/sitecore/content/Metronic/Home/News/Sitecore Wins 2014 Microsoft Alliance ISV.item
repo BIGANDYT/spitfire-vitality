@@ -12,7 +12,7 @@ templatekey: News Item
 ----version----
 language: en
 version: 1
-revision: f1fb9b86-a1e8-4a8f-bb57-4456dee1fb41
+revision: a66a80ce-041f-479a-a48a-64c0c18936c4
 
 ----field----
 field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
@@ -71,14 +71,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-f1fb9b86-a1e8-4a8f-bb57-4456dee1fb41
+a66a80ce-041f-479a-a48a-64c0c18936c4
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150625T134752:635708368724035781Z
+20150625T204542:635708619424672888Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

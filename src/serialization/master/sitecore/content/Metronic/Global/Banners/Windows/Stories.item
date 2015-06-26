@@ -2,7 +2,7 @@
 version: 1
 id: {E69F1258-8AE2-4305-8440-BB1589D58CFE}
 database: master
-path: /sitecore/content/Metronic/Global/Hero/Banners/Windows/Stories
+path: /sitecore/content/Metronic/Global/Banners/Windows/Stories
 parent: {A4DEE81E-AF05-4556-917A-9F8126835442}
 name: Stories
 master: {00000000-0000-0000-0000-000000000000}

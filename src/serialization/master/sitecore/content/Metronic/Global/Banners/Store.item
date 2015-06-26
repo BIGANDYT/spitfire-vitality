@@ -2,7 +2,7 @@
 version: 1
 id: {FE7569B1-D67C-4AFD-97D9-88EB64462BB8}
 database: master
-path: /sitecore/content/Metronic/Global/Hero/Banners/Store
+path: /sitecore/content/Metronic/Global/Banners/Store
 parent: {E4FB81DC-D78F-4E5D-8653-EE035E666853}
 name: Store
 master: {00000000-0000-0000-0000-000000000000}

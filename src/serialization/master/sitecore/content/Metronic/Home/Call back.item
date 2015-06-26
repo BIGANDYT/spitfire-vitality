@@ -6,8 +6,8 @@ path: /sitecore/content/Metronic/Home/Call back
 parent: {110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}
 name: Call back
 master: {00000000-0000-0000-0000-000000000000}
-template: {EEA526F2-DA89-43FE-8DAA-E76710B67F85}
-templatekey: Page
+template: {99A1374E-2369-4732-BDF7-4BFC8CF6F0FA}
+templatekey: _BasePage
 
 ----field----
 field: {B0A67B2A-8B07-4E0B-8809-69F751709806}
@@ -40,7 +40,7 @@ ar|sitecore\hca demo|pe|-item:create|-item:write|-item:delete|-item:rename|pd|-i
 ----version----
 language: en
 version: 1
-revision: d3b2209c-c23b-427c-9de1-015567b83937
+revision: 8428b762-779f-4fe4-97ca-21a53372b8af
 
 ----field----
 field: {1B483E91-D8C4-4D19-BA03-462074B55936}
@@ -76,14 +76,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-d3b2209c-c23b-427c-9de1-015567b83937
+8428b762-779f-4fe4-97ca-21a53372b8af
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150625T132842:635708357224189670Z
+20150625T203907:635708615476758121Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

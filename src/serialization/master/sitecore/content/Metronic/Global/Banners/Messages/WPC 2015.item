@@ -2,7 +2,7 @@
 version: 1
 id: {4595F7F2-5EE8-4BE1-8C7D-E2C611502785}
 database: master
-path: /sitecore/content/Metronic/Global/Hero/Banners/Messages/WPC 2015
+path: /sitecore/content/Metronic/Global/Banners/Messages/WPC 2015
 parent: {785A238F-727A-46D2-B9C6-8D1A02670D88}
 name: WPC 2015
 master: {00000000-0000-0000-0000-000000000000}

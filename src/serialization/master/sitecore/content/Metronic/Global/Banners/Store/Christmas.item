@@ -2,7 +2,7 @@
 version: 1
 id: {72CD9317-52C1-480A-AFC1-6B9E2EAE16C3}
 database: master
-path: /sitecore/content/Metronic/Global/Hero/Banners/Store/Christmas
+path: /sitecore/content/Metronic/Global/Banners/Store/Christmas
 parent: {FE7569B1-D67C-4AFD-97D9-88EB64462BB8}
 name: Christmas
 master: {00000000-0000-0000-0000-000000000000}

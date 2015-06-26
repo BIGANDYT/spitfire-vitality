@@ -2,7 +2,7 @@
 version: 1
 id: {1AB9ABE8-8DEE-4D15-A5AA-BEB52C9730B8}
 database: master
-path: /sitecore/content/Metronic/Global/Hero/Banners/Surface
+path: /sitecore/content/Metronic/Global/Banners/Surface
 parent: {E4FB81DC-D78F-4E5D-8653-EE035E666853}
 name: Surface
 master: {00000000-0000-0000-0000-000000000000}

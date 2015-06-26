@@ -2,7 +2,7 @@
 version: 1
 id: {46EFBE91-5848-4E6C-9BC1-2F959EA1A24F}
 database: master
-path: /sitecore/content/Metronic/Global/Hero/Banners/Messages/Call back submitted
+path: /sitecore/content/Metronic/Global/Banners/Messages/Call back submitted
 parent: {785A238F-727A-46D2-B9C6-8D1A02670D88}
 name: Call back submitted
 master: {00000000-0000-0000-0000-000000000000}

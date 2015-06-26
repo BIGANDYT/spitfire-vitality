@@ -2,7 +2,7 @@
 version: 1
 id: {9A322841-FAED-4CF7-B4B3-A69891FD60F8}
 database: master
-path: /sitecore/content/Metronic/Global/Hero/Banners/Windows/Traveller
+path: /sitecore/content/Metronic/Global/Banners/Windows/Traveller
 parent: {A4DEE81E-AF05-4556-917A-9F8126835442}
 name: Traveller
 master: {00000000-0000-0000-0000-000000000000}

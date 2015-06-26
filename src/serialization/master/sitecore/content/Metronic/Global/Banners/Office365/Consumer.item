@@ -2,7 +2,7 @@
 version: 1
 id: {29687772-2E46-4E70-A79F-9729323788EB}
 database: master
-path: /sitecore/content/Metronic/Global/Hero/Banners/Office365/Consumer
+path: /sitecore/content/Metronic/Global/Banners/Office365/Consumer
 parent: {B90EC2A5-FCF5-4ADA-9391-D8753B8AF594}
 name: Consumer
 master: {00000000-0000-0000-0000-000000000000}

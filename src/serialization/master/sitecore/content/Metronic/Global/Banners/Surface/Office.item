@@ -2,7 +2,7 @@
 version: 1
 id: {DB33B177-A6E3-48ED-ABB9-25B38AEBBFF4}
 database: master
-path: /sitecore/content/Metronic/Global/Hero/Banners/Surface/Office
+path: /sitecore/content/Metronic/Global/Banners/Surface/Office
 parent: {1AB9ABE8-8DEE-4D15-A5AA-BEB52C9730B8}
 name: Office
 master: {00000000-0000-0000-0000-000000000000}

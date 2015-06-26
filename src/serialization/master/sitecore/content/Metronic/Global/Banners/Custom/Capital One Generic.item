@@ -2,7 +2,7 @@
 version: 1
 id: {106D7BF3-A081-4724-875A-78BF4963183E}
 database: master
-path: /sitecore/content/Metronic/Global/Hero/Banners/Custom/Capital One Generic
+path: /sitecore/content/Metronic/Global/Banners/Custom/Capital One Generic
 parent: {31899A85-946E-4232-AF64-2A6356377DCF}
 name: Capital One Generic
 master: {00000000-0000-0000-0000-000000000000}

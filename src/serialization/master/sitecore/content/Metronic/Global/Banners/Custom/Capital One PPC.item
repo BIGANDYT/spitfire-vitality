@@ -2,7 +2,7 @@
 version: 1
 id: {0101FF2A-FCA8-423E-AE7C-1B258D1ECA5C}
 database: master
-path: /sitecore/content/Metronic/Global/Hero/Banners/Custom/Capital One PPC
+path: /sitecore/content/Metronic/Global/Banners/Custom/Capital One PPC
 parent: {31899A85-946E-4232-AF64-2A6356377DCF}
 name: Capital One PPC
 master: {00000000-0000-0000-0000-000000000000}

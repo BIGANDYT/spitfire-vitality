@@ -6,13 +6,13 @@ path: /sitecore/content/Metronic/Home/Services/Blue Badge
 parent: {ADB3922D-1A0B-490F-BD0D-7359B05B3573}
 name: Blue Badge
 master: {00000000-0000-0000-0000-000000000000}
-template: {EEA526F2-DA89-43FE-8DAA-E76710B67F85}
-templatekey: Page
+template: {99A1374E-2369-4732-BDF7-4BFC8CF6F0FA}
+templatekey: _BasePage
 
 ----version----
 language: en
 version: 1
-revision: 56b2df39-dc8c-49fd-b522-f68e04e053e4
+revision: 9b95eccb-d235-49e7-ab1a-ddd697673be0
 
 ----field----
 field: {1B483E91-D8C4-4D19-BA03-462074B55936}
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-56b2df39-dc8c-49fd-b522-f68e04e053e4
+9b95eccb-d235-49e7-ab1a-ddd697673be0
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150625T132842:635708357225560680Z
+20150625T180136:635708520962021909Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

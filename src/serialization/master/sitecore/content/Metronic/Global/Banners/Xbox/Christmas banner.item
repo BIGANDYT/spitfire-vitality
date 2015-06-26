@@ -2,7 +2,7 @@
 version: 1
 id: {7B5D3FD5-5A83-4832-B6B0-7778F8EE0AA9}
 database: master
-path: /sitecore/content/Metronic/Global/Hero/Banners/Xbox/Christmas banner
+path: /sitecore/content/Metronic/Global/Banners/Xbox/Christmas banner
 parent: {810AFACB-5BE7-4FA2-ABAC-7612B062F0DD}
 name: Christmas banner
 master: {00000000-0000-0000-0000-000000000000}

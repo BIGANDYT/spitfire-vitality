@@ -2,7 +2,7 @@
 version: 1
 id: {1359FDF3-AB9C-48AD-8C5B-FF2A70C64855}
 database: master
-path: /sitecore/content/Metronic/Global/Hero/Banners/Messages/Microsoft UK
+path: /sitecore/content/Metronic/Global/Banners/Messages/Microsoft UK
 parent: {785A238F-727A-46D2-B9C6-8D1A02670D88}
 name: Microsoft UK
 master: {00000000-0000-0000-0000-000000000000}

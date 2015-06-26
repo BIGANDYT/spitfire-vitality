@@ -2,7 +2,7 @@
 version: 1
 id: {0FA3ED12-4666-467C-BC8B-331E91F100FC}
 database: master
-path: /sitecore/content/Metronic/Global/Hero/Banners/Office365/Devices
+path: /sitecore/content/Metronic/Global/Banners/Office365/Devices
 parent: {B90EC2A5-FCF5-4ADA-9391-D8753B8AF594}
 name: Devices
 master: {00000000-0000-0000-0000-000000000000}

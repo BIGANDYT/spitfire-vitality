@@ -2,7 +2,7 @@
 version: 1
 id: {ED92A97D-196C-42EB-8EDF-1E6AA220A6E7}
 database: master
-path: /sitecore/content/Metronic/Global/Hero/Banners/Mobile/Cortana
+path: /sitecore/content/Metronic/Global/Banners/Mobile/Cortana
 parent: {A5C62F4E-55C5-4254-89CD-645BDB58BAAF}
 name: Cortana
 master: {00000000-0000-0000-0000-000000000000}

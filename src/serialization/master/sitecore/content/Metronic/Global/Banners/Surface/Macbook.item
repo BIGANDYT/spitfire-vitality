@@ -2,7 +2,7 @@
 version: 1
 id: {0362F7F8-20F4-4849-901B-4A3557A9347A}
 database: master
-path: /sitecore/content/Metronic/Global/Hero/Banners/Surface/Macbook
+path: /sitecore/content/Metronic/Global/Banners/Surface/Macbook
 parent: {1AB9ABE8-8DEE-4D15-A5AA-BEB52C9730B8}
 name: Macbook
 master: {00000000-0000-0000-0000-000000000000}

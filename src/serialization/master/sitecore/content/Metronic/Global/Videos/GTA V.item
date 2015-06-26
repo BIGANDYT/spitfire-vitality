@@ -2,7 +2,7 @@
 version: 1
 id: {A847757D-929B-4633-9BB9-8E3A3BBA3AAF}
 database: master
-path: /sitecore/content/Metronic/Global/Hero/Videos/GTA V
+path: /sitecore/content/Metronic/Global/Videos/GTA V
 parent: {DA1B9BCB-DEFA-4F4D-AD0B-331A7C923874}
 name: GTA V
 master: {00000000-0000-0000-0000-000000000000}

@@ -2,7 +2,7 @@
 version: 1
 id: {810AFACB-5BE7-4FA2-ABAC-7612B062F0DD}
 database: master
-path: /sitecore/content/Metronic/Global/Hero/Banners/Xbox
+path: /sitecore/content/Metronic/Global/Banners/Xbox
 parent: {E4FB81DC-D78F-4E5D-8653-EE035E666853}
 name: Xbox
 master: {00000000-0000-0000-0000-000000000000}

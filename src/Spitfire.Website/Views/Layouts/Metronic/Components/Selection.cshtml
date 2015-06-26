@@ -7,7 +7,7 @@
 <div class="row recent-work margin-bottom-40">
     <div class="col-md-12">
         <div class="owl-carousel owl-carousel3">
-            @foreach (Item item in Model.Item.Children.Where(x => x["show in menu"] == "1"))
+            @foreach (Item item in Model.Item.Children.Where(x => x["ShowInNavigation"] == "1"))
             {
                 <div class="recent-work-item">
                     <em>
@@ -16,7 +16,7 @@
                         </a>
                     </em>
                     <a href="@item.Url()" class="recent-work-description">
-                        <strong style="text-align: center;">@Html.Sitecore().Field("title", item)</strong>
+                        <strong style="text-align: center;">@Html.Sitecore().Field("Title", item)</strong>
                     </a>
                 </div>
             }

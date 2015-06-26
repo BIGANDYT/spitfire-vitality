@@ -26,7 +26,7 @@ Applications/16x16/bullet_triangle_yellow.png
 ----version----
 language: en
 version: 1
-revision: b8fe961f-794b-4edb-8e4d-de4d35245c68
+revision: b99ef6b3-0517-45e6-9dc2-8296ca1f8e60
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -48,18 +48,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b8fe961f-794b-4edb-8e4d-de4d35245c68
+b99ef6b3-0517-45e6-9dc2-8296ca1f8e60
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150518T130504:635675511040708446Z
+20150625T153311:635708431919417685Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 18
+content-length: 14
 
-extranet\Anonymous
+sitecore\admin

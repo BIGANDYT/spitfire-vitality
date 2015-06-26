@@ -2,7 +2,7 @@
 version: 1
 id: {A67596A2-3004-4C5D-96C1-900DB6BFDE60}
 database: master
-path: /sitecore/content/Metronic/Global/Hero/Banners/Xbox/Halo 5
+path: /sitecore/content/Metronic/Global/Banners/Xbox/Halo 5
 parent: {810AFACB-5BE7-4FA2-ABAC-7612B062F0DD}
 name: Halo 5
 master: {00000000-0000-0000-0000-000000000000}

@@ -2,7 +2,7 @@
 version: 1
 id: {A4DEE81E-AF05-4556-917A-9F8126835442}
 database: master
-path: /sitecore/content/Metronic/Global/Hero/Banners/Windows
+path: /sitecore/content/Metronic/Global/Banners/Windows
 parent: {E4FB81DC-D78F-4E5D-8653-EE035E666853}
 name: Windows
 master: {00000000-0000-0000-0000-000000000000}

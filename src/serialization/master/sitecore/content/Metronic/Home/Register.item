@@ -6,8 +6,8 @@ path: /sitecore/content/Metronic/Home/Register
 parent: {110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}
 name: Register
 master: {00000000-0000-0000-0000-000000000000}
-template: {EEA526F2-DA89-43FE-8DAA-E76710B67F85}
-templatekey: Page
+template: {99A1374E-2369-4732-BDF7-4BFC8CF6F0FA}
+templatekey: _BasePage
 
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
@@ -33,7 +33,7 @@ ar|sitecore\hca demo|pe|-item:create|-item:write|-item:delete|-item:rename|pd|-i
 ----version----
 language: en
 version: 1
-revision: d5e76565-10b8-4023-b054-5a05d652124d
+revision: 48f7c52f-0c54-49fa-8fd0-25abfb6268ce
 
 ----field----
 field: {1B483E91-D8C4-4D19-BA03-462074B55936}
@@ -69,14 +69,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-d5e76565-10b8-4023-b054-5a05d652124d
+48f7c52f-0c54-49fa-8fd0-25abfb6268ce
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150625T132842:635708357225200412Z
+20150625T180304:635708521848389442Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

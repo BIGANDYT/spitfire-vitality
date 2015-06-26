@@ -2,7 +2,7 @@
 version: 1
 id: {CA8BC7CC-C22C-48A1-B559-D83856FB90D5}
 database: master
-path: /sitecore/content/Metronic/Global/Hero/Banners/Xbox/Default
+path: /sitecore/content/Metronic/Global/Banners/Xbox/Default
 parent: {810AFACB-5BE7-4FA2-ABAC-7612B062F0DD}
 name: Default
 master: {00000000-0000-0000-0000-000000000000}

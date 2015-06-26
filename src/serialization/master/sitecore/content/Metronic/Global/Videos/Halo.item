@@ -2,7 +2,7 @@
 version: 1
 id: {6E50C013-4D59-483D-9E41-9DE1C6340398}
 database: master
-path: /sitecore/content/Metronic/Global/Hero/Videos/Halo
+path: /sitecore/content/Metronic/Global/Videos/Halo
 parent: {DA1B9BCB-DEFA-4F4D-AD0B-331A7C923874}
 name: Halo
 master: {00000000-0000-0000-0000-000000000000}

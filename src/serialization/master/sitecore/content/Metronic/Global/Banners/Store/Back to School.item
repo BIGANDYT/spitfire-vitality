@@ -2,7 +2,7 @@
 version: 1
 id: {99E1D719-0A28-43B3-9FAE-85F4171BFE89}
 database: master
-path: /sitecore/content/Metronic/Global/Hero/Banners/Store/Back to School
+path: /sitecore/content/Metronic/Global/Banners/Store/Back to School
 parent: {FE7569B1-D67C-4AFD-97D9-88EB64462BB8}
 name: Back to School
 master: {00000000-0000-0000-0000-000000000000}

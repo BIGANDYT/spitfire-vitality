@@ -2,7 +2,7 @@
 version: 1
 id: {E1D827DF-1B07-4340-AD45-9EEF1B693C10}
 database: master
-path: /sitecore/content/Metronic/Global/Hero/Banners/Surface/Surface 3 Launch
+path: /sitecore/content/Metronic/Global/Banners/Surface/Surface 3 Launch
 parent: {1AB9ABE8-8DEE-4D15-A5AA-BEB52C9730B8}
 name: Surface 3 Launch
 master: {00000000-0000-0000-0000-000000000000}
