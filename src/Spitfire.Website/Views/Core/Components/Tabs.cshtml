@@ -1,0 +1,60 @@
+﻿@using Spitfire.SitecoreExtensions.Extensions
+@using Sitecore.Data.Items
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+    Item tabsItem;
+    if (Model.Item.TemplateName == "Tabs")
+    {
+        tabsItem = Model.Item;
+    }
+    else
+    {
+        tabsItem = Model.Item.Children.FirstOrDefault(x => x.TemplateName == "Tabs");
+
+        if (tabsItem == null)
+        {
+            return;
+        }
+    }
+}
+<!-- BEGIN TABS AND TESTIMONIALS -->
+<div class="row margin-bottom-40">
+    <!-- TABS -->
+    <div class="col-md-12 tab-style-2">
+        <ul class="nav nav-tabs">
+            @foreach (var item in tabsItem.Children.AsSmartEnumerable())
+            {
+                <li class="@(item.IsFirst ? "active" : null)"><a href="#@item.Value["tab name"]" data-toggle="tab">@Html.Sitecore().Field("title", item.Value)</a></li>
+            }
+        </ul>
+        <div class="tab-content">
+            @foreach (var item in tabsItem.Children.AsSmartEnumerable())
+            {
+                <div class="tab-pane row fade in @(item.IsFirst ? "active" : string.Empty)" id="@item.Value["tab name"]">
+
+                    @if (item.Value["image"] == string.Empty)
+                    {
+                        <div class="col-md-12 col-sm-12">
+                            @Html.Sitecore().Field("Body", item.Value)
+                            <!-- <p><a class="more" href="#">Read more <i class="icon-angle-right"></i></a></p> -->
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="col-md-3 col-sm-3">
+                            @Html.Sitecore().Field("image", item.Value, new { w = 200, @class = "img-responsive" })
+                        </div>
+                        <div class="col-md-9 col-sm-9">
+                            @Html.Sitecore().Field("Body", item.Value)
+                            <!-- <p><a class="more" href="#">Read more <i class="icon-angle-right"></i></a></p> -->
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+    <!-- END TABS -->
+
+</div>     

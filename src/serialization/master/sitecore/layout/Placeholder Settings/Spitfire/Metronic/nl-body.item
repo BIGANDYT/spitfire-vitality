@@ -20,13 +20,20 @@ nl-body
 field: {E391B526-D0C5-439D-803E-17512EAE6222}
 name: Allowed Controls
 key: allowed controls
-content-length: 194
+content-length: 0
 
-{658C28C8-BD1A-45A8-A7B3-DE46111FF3BC}|{CC003124-656D-4380-AF33-1CFC703D4242}|{32887EA0-D21A-4067-97BD-DB6D71E65FE3}|{7C45DAF8-5714-4698-8FBD-CCDE3DAFF935}|{4F94DE18-0749-44B0-B73D-38F3AE784AF2}
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+800
 ----version----
 language: en
 version: 1
-revision: 45431f6a-755e-4c1f-a2ef-0ec6fc6bc6b1
+revision: 30e6702f-ad72-42e8-aafb-2d57a880918a
 
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
@@ -48,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-45431f6a-755e-4c1f-a2ef-0ec6fc6bc6b1
+30e6702f-ad72-42e8-aafb-2d57a880918a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150616T145635:635700633955687763Z
+20150629T143909:635711855496193895Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

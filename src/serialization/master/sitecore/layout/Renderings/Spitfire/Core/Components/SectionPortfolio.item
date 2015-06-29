@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {A34D4648-4B09-446F-853D-681DA8FED900}
+database: master
+path: /sitecore/layout/Renderings/Spitfire/Core/Components/SectionPortfolio
+parent: {67EFB612-AB44-48B7-B151-FD2719FABD5B}
+name: SectionPortfolio
+master: {00000000-0000-0000-0000-000000000000}
+template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
+templatekey: View rendering
+
+----field----
+field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
+name: Path
+key: path
+content-length: 46
+
+/Views/Core/Components/SectionPortfolio.cshtml
+----field----
+field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
+name: Model
+key: model
+content-length: 59
+
+/sitecore/layout/Models/Spitfire/Core/SectionPortfolioModel
+----field----
+field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
+name: Open Properties after Add
+key: open properties after add
+content-length: 1
+
+-
+----field----
+field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
+name: Datasource Location
+key: datasource location
+content-length: 35
+
+/sitecore/content/Global/Portfolios
+----field----
+field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
+name: Datasource Template
+key: datasource template
+content-length: 54
+
+/sitecore/templates/Spitfire/Core/Components/Portfolio
+----field----
+field: {A2F5D9DF-8CBA-4A1D-99EB-51ACB94CB057}
+name: Page Editor Buttons
+key: page editor buttons
+content-length: 38
+
+{0738B540-A92A-4361-85E9-BE5CA1F0EF59}
+----version----
+language: en
+version: 1
+revision: dfd52f54-f186-46ce-9361-f9cd5e75b162
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150506T124620Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+dfd52f54-f186-46ce-9361-f9cd5e75b162
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150629T105930:635711723705892294Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

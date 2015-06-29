@@ -70,17 +70,17 @@
     <Reference Include="Sitecore.Analytics, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\lib\Sitecore\Sitecore.Analytics.dll</HintPath>
-      <Private>False</Private>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Analytics.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\lib\Sitecore\Sitecore.Analytics.Core.dll</HintPath>
-      <Private>False</Private>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Analytics.Model, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\lib\Sitecore\Sitecore.Analytics.Model.dll</HintPath>
-      <Private>False</Private>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Kernel">
       <HintPath>..\..\lib\Sitecore\Sitecore.Kernel.dll</HintPath>
@@ -4881,103 +4881,82 @@
     <Content Include="Views\Layouts\Inspinia\_Navigation.cshtml" />
     <Content Include="Views\Layouts\Inspinia\_TopNavbar.cshtml" />
     <Content Include="Views\Layouts\Inspinia\_LogoBar.cshtml" />
-    <Content Include="Views\Scaffolding\row.cshtml" />
-    <Content Include="Views\Scaffolding\col.cshtml" />
-    <Content Include="Views\Scaffolding\row_4_4_4.cshtml" />
-    <Content Include="Views\Scaffolding\row_3_3_3_3.cshtml" />
+    <Content Include="Views\Core\Scaffolding\row.cshtml" />
+    <Content Include="Views\Core\Scaffolding\col.cshtml" />
+    <Content Include="Views\Core\Scaffolding\row_4_4_4.cshtml" />
+    <Content Include="Views\Core\Scaffolding\row_3_3_3_3.cshtml" />
     <Content Include="Scripts\plugins\diff_match_patch\COPYING" />
     <Content Include="Scripts\plugins\justified-gallery\README.md" />
     <Content Include="Views\Layouts\Inspinia\Index.cshtml" />
     <Content Include="Views\Layouts\Inspinia\OffCanvas.cshtml" />
     <Content Include="Views\Layouts\Vitality\Vitality.cshtml" />
-    <Content Include="Views\Components\_NavList.cshtml" />
-    <Content Include="Views\Components\_SocialShare.cshtml" />
-    <Content Include="Views\Components\OwlCarousel.cshtml" />
-    <Content Include="Views\Components\SectionHeader.cshtml" />
+    <Content Include="Views\Core\Components\_NavList.cshtml" />
+    <Content Include="Views\Core\Components\_SocialShare.cshtml" />
+    <Content Include="Views\Core\Components\OwlCarousel.cshtml" />
+    <Content Include="Views\Core\Components\SectionHeader.cshtml" />
     <Content Include="Views\Layouts\Vitality\NavBar.cshtml" />
-    <Content Include="Views\Components\VideoBanner.cshtml" />
-    <Content Include="Views\Components\ImageBanner.cshtml" />
-    <Content Include="Views\Scaffolding\section.cshtml" />
-    <Content Include="Views\Components\IconTeaser.cshtml" />
-    <Content Include="Views\Scaffolding\aside.cshtml" />
-    <Content Include="Views\Components\SectionHeaderButton.cshtml" />
-    <Content Include="Views\Components\IconLeftTeaser.cshtml" />
-    <Content Include="Views\Components\SectionPortfolio.cshtml" />
-    <Content Include="Views\Components\TeaserGallery.cshtml" />
-    <Content Include="Views\Components\TestimonalsCarousel.cshtml" />
-    <Content Include="Views\Components\PromoTeaser.cshtml" />
-    <Content Include="Views\Components\ContactForm.cshtml" />
-    <Content Include="Views\Components\LinkBar.cshtml" />
+    <Content Include="Views\Core\Components\VideoBanner.cshtml" />
+    <Content Include="Views\Core\Components\ImageBanner.cshtml" />
+    <Content Include="Views\Core\Scaffolding\section.cshtml" />
+    <Content Include="Views\Core\Components\IconTeaser.cshtml" />
+    <Content Include="Views\Core\Scaffolding\aside.cshtml" />
+    <Content Include="Views\Core\Components\SectionHeaderButton.cshtml" />
+    <Content Include="Views\Core\Components\IconLeftTeaser.cshtml" />
+    <Content Include="Views\Core\Components\SectionPortfolio.cshtml" />
+    <Content Include="Views\Core\Components\TeaserGallery.cshtml" />
+    <Content Include="Views\Core\Components\TestimonalsCarousel.cshtml" />
+    <Content Include="Views\Core\Components\PromoTeaser.cshtml" />
+    <Content Include="Views\Core\Components\ContactForm.cshtml" />
+    <Content Include="Views\Core\Components\LinkBar.cshtml" />
     <Content Include="Views\Layouts\Vitality\Footer.cshtml" />
-    <Content Include="Views\Components\ImageLeftTextRight.cshtml" />
-    <Content Include="Views\Components\ImageRightTextLeft.cshtml" />
-    <Content Include="Views\Components\Video.cshtml" />
-    <Content Include="Views\Components\SocialIcons.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\Banner.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\BlockQuote.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\Breadcrumb.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\ClientGallery.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\Clients.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\Contact.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\FxmFeatured.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\HomeNews.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\HomeOps.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\HomeWhat.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\ImportantInfo.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\ItemList.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\LeftMenu.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\Map.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\NewsItem.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\NewsList.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\PersonalisedBlockQuote.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\PhotoStream.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\ProductGallery.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\ProductItem.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\ProductSpot.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\Profiles.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\RecentItems.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\Selection.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\Seo.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\ServiceBox.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\Slider.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\Steps.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\Tabs.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\Testimonials.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\UserProfiles.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\VideoBanner.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\VideoResponsive.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\VideoSidebar.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Components\XboxGamesLeftMenu.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Structure\OneColumn.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Structure\OneColumnBC.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Structure\OneColumnTitle.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Structure\OneColumnTitleBC.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Structure\PageContent.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Structure\ThreeColumn.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Structure\ThreeColumnBC.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Structure\ThreeColumnNarrow.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Structure\ThreeColumnNarrowBC.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Structure\ThreeColumnTitle.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Structure\ThreeColumnTitleBC.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Structure\ThreeColumnWideTitleBC.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Structure\TopContent.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Structure\TwoColumn.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Structure\TwoColumnBC.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Structure\TwoColumnLeft.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Structure\TwoColumnLeftBC.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Structure\TwoColumnLeftTitle.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Structure\TwoColumnLeftTitleBC.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Structure\TwoColumnTitle.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Structure\TwoColumnTitleBC.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Structure\TwoColumn_6-6.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Structure\TwoColumn_7-5.cshtml" />
-    <Content Include="Views\Layouts\Metronic\Structure\TwoColumn_8-4.cshtml" />
+    <Content Include="Views\Core\Components\ImageLeftTextRight.cshtml" />
+    <Content Include="Views\Core\Components\ImageRightTextLeft.cshtml" />
+    <Content Include="Views\Core\Components\Video.cshtml" />
+    <Content Include="Views\Core\Components\SocialIcons.cshtml" />
+    <Content Include="Views\Core\Components\Banner.cshtml" />
+    <Content Include="Views\Core\Components\BlockQuote.cshtml" />
+    <Content Include="Views\Core\Components\Breadcrumb.cshtml" />
+    <Content Include="Views\Core\Components\ClientGallery.cshtml" />
+    <Content Include="Views\Core\Components\Clients.cshtml" />
+    <Content Include="Views\Core\Components\Contact.cshtml" />
+    <Content Include="Views\Core\Components\FxmFeatured.cshtml" />
+    <Content Include="Views\Core\Components\HomeNews.cshtml" />
+    <Content Include="Views\Core\Components\HomeOps.cshtml" />
+    <Content Include="Views\Core\Components\HomeWhat.cshtml" />
+    <Content Include="Views\Core\Components\ImportantInfo.cshtml" />
+    <Content Include="Views\Core\Components\ItemList.cshtml" />
+    <Content Include="Views\Core\Components\LeftMenu.cshtml" />
+    <Content Include="Views\Core\Components\Map.cshtml" />
+    <Content Include="Views\Core\Components\NewsItem.cshtml" />
+    <Content Include="Views\Core\Components\NewsList.cshtml" />
+    <Content Include="Views\Core\Components\PersonalisedBlockQuote.cshtml" />
+    <Content Include="Views\Core\Components\PhotoStream.cshtml" />
+    <Content Include="Views\Core\Components\ProductGallery.cshtml" />
+    <Content Include="Views\Core\Components\ProductItem.cshtml" />
+    <Content Include="Views\Core\Components\ProductSpot.cshtml" />
+    <Content Include="Views\Core\Components\Profiles.cshtml" />
+    <Content Include="Views\Core\Components\RecentItems.cshtml" />
+    <Content Include="Views\Core\Components\Selection.cshtml" />
+    <Content Include="Views\Core\Components\Seo.cshtml" />
+    <Content Include="Views\Core\Components\ServiceBox.cshtml" />
+    <Content Include="Views\Core\Components\Slider.cshtml" />
+    <Content Include="Views\Core\Components\Steps.cshtml" />
+    <Content Include="Views\Core\Components\Tabs.cshtml" />
+    <Content Include="Views\Core\Components\Testimonials.cshtml" />
+    <Content Include="Views\Core\Components\UserProfiles.cshtml" />
+    <Content Include="Views\Core\Components\VideoBanner2.cshtml" />
+    <Content Include="Views\Core\Components\VideoResponsive.cshtml" />
+    <Content Include="Views\Core\Components\VideoSidebar.cshtml" />
+    <Content Include="Views\Core\Components\XboxGamesLeftMenu.cshtml" />
     <Content Include="Views\Layouts\Metronic\Template\CssColour.cshtml" />
     <Content Include="Views\Layouts\Metronic\Template\Footer.cshtml" />
     <Content Include="Views\Layouts\Metronic\Template\Header.cshtml" />
     <Content Include="Views\Layouts\Metronic\Template\JavaScript.cshtml" />
     <Content Include="Views\Layouts\Metronic\Template\Main.cshtml" />
     <Content Include="Views\Layouts\Metronic\Template\TopBar.cshtml" />
+    <Content Include="Views\Core\Scaffolding\Presets\OneColumnRow.cshtml" />
+    <Content Include="Views\Core\Scaffolding\Presets\TwoColumnRow.cshtml" />
+    <Content Include="Views\Core\Scaffolding\Presets\ThreeColumnRow.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -4989,6 +4968,7 @@
     <Folder Include="Controllers\" />
     <Folder Include="metronic\global\plugins\angularjs\plugins\angular-file-upload\uploads\" />
     <Folder Include="metronic\global\plugins\jquery-file-upload\server\php\files\thumbnail\" />
+    <Folder Include="Views\Layouts\Metronic\Components\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

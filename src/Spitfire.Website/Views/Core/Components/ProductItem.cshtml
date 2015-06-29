@@ -1,0 +1,27 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+<div class="row margin-bottom-30">
+    <!-- BEGIN CAROUSEL -->
+    <div class="col-md-5 front-carousel">
+        <div class="carousel slide" id="myCarousel">
+            <!-- Carousel items -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    @Html.Sitecore().Field("image", new { w = 450, @as = 1 })
+                    <!-- <div class="carousel-caption">
+                        <p>Excepturi sint occaecati cupiditate non provident</p>
+                    </div>
+                    -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END CAROUSEL -->
+    <!-- BEGIN PORTFOLIO DESCRIPTION -->
+    <div class="col-md-7">
+        <h1>@Html.Sitecore().Field("title")</h1>
+        @Html.Sitecore().Field("Body")
+    </div>
+    <!-- END PORTFOLIO DESCRIPTION -->
+</div>

@@ -16,10 +16,17 @@ key: path
 content-length: 46
 
 /Views/Layouts/Metronic/Template/TopBar.cshtml
+----field----
+field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
+name: Open Properties after Add
+key: open properties after add
+content-length: 1
+
+-
 ----version----
 language: en
 version: 1
-revision: 02b27d2a-9cda-4e8a-b62d-9ce1b17053dc
+revision: 7172108f-c288-4128-9920-f79ae31e588d
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,18 +41,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-02b27d2a-9cda-4e8a-b62d-9ce1b17053dc
+7172108f-c288-4128-9920-f79ae31e588d
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150616T144926:635700629664195593Z
+20150629T110907:635711729478480273Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 18
+content-length: 14
 
-extranet\Anonymous
+sitecore\admin

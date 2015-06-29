@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {43B46E8B-F87A-4D3E-BC5D-68D6992B6AA2}
+database: master
+path: /sitecore/content/Global/Media Tabs/Halo 5
+parent: {F58DC5F0-5315-4981-9A2B-0388A245516E}
+name: Halo 5
+master: {00000000-0000-0000-0000-000000000000}
+template: {0A3823B0-3200-4C40-8056-DA295D05EFCC}
+templatekey: Media Tabs
+
+----version----
+language: en
+version: 1
+revision: 47fc7976-6569-4f9d-88ca-08c635aa1fbf
+
+----field----
+field: {E9EF37CE-12CE-4DAC-ADF1-B1FAEB2D14C9}
+name: Video
+key: video
+content-length: 38
+
+{6EC2FE61-DA54-4B5A-9C1C-A49C95733916}
+----field----
+field: {4862CDF7-1513-4AD3-BA69-3983C98CCFBC}
+name: Images
+key: images
+content-length: 467
+
+{FDE04EFF-BF7A-4745-A8FF-6B4F67BF05E4}|{70F1FCDE-0362-4642-A282-F3D41FFFBF1C}|{F7A4C448-1946-4EA8-B5A0-C1CB0C9FF670}|{260B842A-3839-4342-B5D4-186300926918}|{010F5A78-AB85-428E-A11D-374CD34EE86F}|{ADFC7F93-E824-4DFB-8D32-03F50E629D31}|{F838E6DF-5145-4093-B43A-BEEFB26CA58C}|{6C3BD278-EEE6-4F2C-99B5-D4A12A2D994C}|{3CF92F1F-BA65-45E3-BA57-B8CBE7F6D958}|{D7802375-CC5D-4E1C-9449-E2B6F3D6E9EB}|{543E5999-1D42-498C-88E0-2DC707C4BE00}|{F3E60C9C-6829-4D45-8B3A-824911387866}
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150309T134041Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+47fc7976-6569-4f9d-88ca-08c635aa1fbf
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150309T134106:635615052665004246Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

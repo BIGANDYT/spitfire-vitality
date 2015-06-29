@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {283DA439-5B36-4C1C-872D-0FF14C3F104A}
+database: master
+path: /sitecore/content/Global/Social/Twitter
+parent: {7839B152-B098-43E8-9AA0-A6808D195404}
+name: Twitter
+master: {00000000-0000-0000-0000-000000000000}
+template: {66AC1B0D-4D2E-446A-8A3C-1DFDEC3206A2}
+templatekey: Social Network
+
+----version----
+language: en
+version: 1
+revision: c8404a0f-2c49-41c4-819d-f9c54394e546
+
+----field----
+field: {14C68DC5-AC79-4DD5-986A-C13A05DFD93E}
+name: Title
+key: title
+content-length: 7
+
+Twitter
+----field----
+field: {4299A22F-59F6-4583-B505-6D182E100AE9}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{FDDB0B5C-B12F-4E49-BD49-FCC04B781C42}" />
+----field----
+field: {58C3128A-9980-4EAC-B390-DEDABF5C26EB}
+name: Link
+key: link
+content-length: 109
+
+<link text="Twitter" linktype="external" url="http://www.twitter.com/SitecoreUK" anchor="" target="_blank" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20141119T160613
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c8404a0f-2c49-41c4-819d-f9c54394e546
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20141119T160640:635520100003124628
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

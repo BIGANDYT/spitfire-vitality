@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {8508D608-6793-42B8-B7E7-B20F32BFDEA5}
+database: master
+path: /sitecore/content/Global/Clients/City and Guilds
+parent: {7E3CFDC4-6FF3-48ED-A474-D8F6B2E7ABE4}
+name: City and Guilds
+master: {00000000-0000-0000-0000-000000000000}
+template: {269FE657-09EE-4D96-955D-8CA1D1C19ADE}
+templatekey: Client
+
+----version----
+language: en
+version: 1
+revision: 0d60b431-5121-462b-b65a-df7559422fe0
+
+----field----
+field: {46FDB2EF-D6C6-46F7-A2B1-93B9910FEBB8}
+name: Website
+key: website
+content-length: 115
+
+<link text="City &amp; Guilds" linktype="external" url="http://www.cityandguilds.com/" anchor="" target="_blank" />
+----field----
+field: {165F0491-CDA3-408A-BA9A-E73740D65DAD}
+name: Logo On
+key: logo on
+content-length: 65
+
+<image mediaid="{FACA6118-578F-4829-93AC-634B08914C1B}" ></image>
+----field----
+field: {50881F1E-7324-412C-9FBB-DE9AD64BCFF8}
+name: Logo Off
+key: logo off
+content-length: 65
+
+<image mediaid="{5B71E5F2-9F43-49B4-B65C-40674F4CDC50}" ></image>
+----field----
+field: {17429EE7-6264-46AA-A7CA-6C1106417700}
+name: Tags
+key: tags
+content-length: 38
+
+{A63AA953-9EC9-4234-9992-DE483927CCEE}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150313T143540Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0d60b431-5121-462b-b65a-df7559422fe0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150507T143307:635666059874882924Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 13
+
+sitecore\mark
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

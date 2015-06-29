@@ -13,13 +13,20 @@ templatekey: View rendering
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
 name: Path
 key: path
-content-length: 50
+content-length: 38
 
-/Views/Layouts/Metronic/Components/NewsItem.cshtml
+/Views/Core/Components/NewsItem.cshtml
+----field----
+field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
+name: Open Properties after Add
+key: open properties after add
+content-length: 1
+
+-
 ----version----
 language: en
 version: 1
-revision: f138dff8-1ae1-481a-beab-d6e78000a08f
+revision: ba593379-2d38-46c5-829f-c548873db773
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,18 +41,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-f138dff8-1ae1-481a-beab-d6e78000a08f
+ba593379-2d38-46c5-829f-c548873db773
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150616T144818:635700628984475544Z
+20150629T110431:635711726715760408Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 18
+content-length: 14
 
-extranet\Anonymous
+sitecore\admin

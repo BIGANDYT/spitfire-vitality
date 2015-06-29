@@ -26,7 +26,7 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: a9b06891-c8eb-49b5-aa2b-3b68ef16e524
+revision: 762b84c2-82bb-431f-909e-fb68fa2f7dc7
 
 ----field----
 field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
@@ -75,13 +75,6 @@ content-length: 38
 
 {1AA042D8-77AE-4717-8FE8-C6D4879FD6A7}
 ----field----
-field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
-name: __Final Renderings
-key: __final renderings
-content-length: 361
-
-<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{F62C3253-C477-4C02-B4C9-43257812D764}" s:id="{F8271E87-8557-4597-8C5D-1358B645B3B2}" /><r uid="{D39D7596-6B36-495E-85B9-5264F9FE837B}" s:ds="{43B46E8B-F87A-4D3E-BC5D-68D6992B6AA2}" s:id="{82702046-F391-4F9E-B742-0C24B8CC34E7}" s:ph="/body/maincontent/content" /></d></r>
-----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
@@ -94,14 +87,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-a9b06891-c8eb-49b5-aa2b-3b68ef16e524
+762b84c2-82bb-431f-909e-fb68fa2f7dc7
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150625T204055:635708616550522488Z
+20150629T115836:635711759168500889Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -126,7 +119,7 @@ content-length: 5
 ----version----
 language: en
 version: 2
-revision: 1609e40c-69c6-4994-ad5c-c1a64375c5f2
+revision: 9cda131c-e590-4624-9a95-170d95acb047
 
 ----field----
 field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
@@ -143,9 +136,9 @@ content-length: 709
 field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
 name: Image
 key: image
-content-length: 58
+content-length: 65
 
-<image mediaid="{FDE04EFF-BF7A-4745-A8FF-6B4F67BF05E4}" />
+<image mediaid="{FDE04EFF-BF7A-4745-A8FF-6B4F67BF05E4}" ></image>
 ----field----
 field: {1B483E91-D8C4-4D19-BA03-462074B55936}
 name: ShortTitle
@@ -174,13 +167,6 @@ key: tags
 content-length: 38
 
 {1AA042D8-77AE-4717-8FE8-C6D4879FD6A7}
-----field----
-field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
-name: __Final Renderings
-key: __final renderings
-content-length: 421
-
-<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{73F2B336-1E03-433E-8A2D-3E7F19B43C26}" p:before="r[@uid='{77DC072C-1019-428C-99A8-83D64FD54FA7}']" s:ds="{6EC2FE61-DA54-4B5A-9C1C-A49C95733916}" s:id="{BA1B3276-594D-4134-9C32-A340BD8ABB37}" s:ph="/body/maincontent/content" /><r uid="{F62C3253-C477-4C02-B4C9-43257812D764}" s:id="{F8271E87-8557-4597-8C5D-1358B645B3B2}" /></d></r>
 ----field----
 field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
 name: __Valid from
@@ -208,14 +194,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1609e40c-69c6-4994-ad5c-c1a64375c5f2
+9cda131c-e590-4624-9a95-170d95acb047
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150625T204055:635708616551192966Z
+20150629T155948:635711903887857336Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

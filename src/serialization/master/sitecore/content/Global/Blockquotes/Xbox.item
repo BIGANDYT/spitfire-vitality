@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {E5D8E853-9D51-4658-9719-743911D30377}
+database: master
+path: /sitecore/content/Global/Blockquotes/Xbox
+parent: {197AD351-B577-4AEE-8269-EF276C9CF795}
+name: Xbox
+master: {00000000-0000-0000-0000-000000000000}
+template: {451A7B31-E1E6-4145-B1AB-EE9152172A0E}
+templatekey: Blockquote
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+200
+----version----
+language: en
+version: 1
+revision: 6240ce41-e523-47ab-b652-edd1e071d1a1
+
+----field----
+field: {880B22DD-E04F-4A7E-A3A3-DCA5AFB723EE}
+name: Quote
+key: quote
+content-length: 30
+
+Great deals on Xbox One Games!
+----field----
+field: {9407998A-8AC1-46AA-9CAB-005C715F3FD2}
+name: Link
+key: link
+content-length: 188
+
+<link id="{8E810B67-BFF3-4D1F-AA07-EFA0B90C345F}" querystring="" text="" linktype="internal" url="/Microsoft/Home/Products/Xbox/Xbox One Games" title="" class="" target="Active Browser" />
+----field----
+field: {27A9C845-F70A-42F9-A5D5-6BCDB28060DF}
+name: Link Text
+key: link text
+content-length: 13
+
+Browse Titles
+----field----
+field: {FC382C03-7BE6-4C9E-BEE3-BB7A5C83599A}
+name: Colour
+key: colour
+content-length: 38
+
+{BB014AE2-CC6E-4BCA-A542-5C907E960700}
+----field----
+field: {75EEC381-2D7D-41C4-A950-77564469A91E}
+name: Hover Colour
+key: hover colour
+content-length: 38
+
+{4A25DCB6-A365-42D1-9EDC-636B94E8A923}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150121T163125Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6240ce41-e523-47ab-b652-edd1e071d1a1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150626T103612:635709117723050104Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,29 @@
+﻿@using Spitfire.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+    var items = Model.Item.Axes.SelectItems("ancestor-or-self::*")
+        .Reverse()
+        .Skip(2)
+        .Where(x => x.TemplateName != "Folder")
+        .ToList()
+        .AsSmartEnumerable();
+}
+
+<ul class="breadcrumb">
+    @foreach (var bcItem in items)
+    {
+        <li class="@(bcItem.IsLast ? "active" : null)">
+            @if (!bcItem.IsLast)
+            {
+                @:<a href="@bcItem.Value.Url()">
+                }
+            @Html.Sitecore().Field("ShortTitle", bcItem.Value)
+            @if (!bcItem.IsLast)
+            {
+                @:</a>
+                }
+        </li>
+    }
+</ul>

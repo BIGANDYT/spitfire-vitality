@@ -13,13 +13,20 @@ templatekey: View rendering
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
 name: Path
 key: path
-content-length: 49
+content-length: 37
 
-/Views/Layouts/Metronic/Components/Clients.cshtml
+/Views/Core/Components/Clients.cshtml
+----field----
+field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
+name: Open Properties after Add
+key: open properties after add
+content-length: 1
+
+-
 ----version----
 language: en
 version: 1
-revision: e0ccfd10-989d-4954-adfa-bef62e0ef847
+revision: 8d0e7fbd-415a-4f9c-b6d0-9392210ae6fc
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,18 +41,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-e0ccfd10-989d-4954-adfa-bef62e0ef847
+8d0e7fbd-415a-4f9c-b6d0-9392210ae6fc
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150616T145302:635700631824272203Z
+20150629T110614:635711727746869382Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 18
+content-length: 14
 
-extranet\Anonymous
+sitecore\admin

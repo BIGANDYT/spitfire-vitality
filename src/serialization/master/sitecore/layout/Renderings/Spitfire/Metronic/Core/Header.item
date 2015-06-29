@@ -16,10 +16,17 @@ key: path
 content-length: 46
 
 /Views/Layouts/Metronic/Template/Header.cshtml
+----field----
+field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
+name: Open Properties after Add
+key: open properties after add
+content-length: 1
+
+-
 ----version----
 language: en
 version: 1
-revision: 9ee2bcf9-8f9b-437c-81eb-a2f6bbdfc05a
+revision: 1b2d8e2f-cf5b-4d55-a4c9-3a170ea1bd88
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,18 +41,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-9ee2bcf9-8f9b-437c-81eb-a2f6bbdfc05a
+1b2d8e2f-cf5b-4d55-a4c9-3a170ea1bd88
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150616T144854:635700629342343656Z
+20150629T110915:635711729550061476Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 18
+content-length: 14
 
-extranet\Anonymous
+sitecore\admin

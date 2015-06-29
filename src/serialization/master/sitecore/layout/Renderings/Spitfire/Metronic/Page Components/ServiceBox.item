@@ -13,13 +13,20 @@ templatekey: View rendering
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
 name: Path
 key: path
-content-length: 52
+content-length: 40
 
-/Views/Layouts/Metronic/Components/ServiceBox.cshtml
+/Views/Core/Components/ServiceBox.cshtml
+----field----
+field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
+name: Open Properties after Add
+key: open properties after add
+content-length: 1
+
+-
 ----version----
 language: en
 version: 1
-revision: 8de035e5-4cd1-4c39-96ec-770f9cc26e96
+revision: 4f0dbdc9-33ce-4330-8ecb-8c67a23bda0d
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,18 +41,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8de035e5-4cd1-4c39-96ec-770f9cc26e96
+4f0dbdc9-33ce-4330-8ecb-8c67a23bda0d
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150616T145336:635700632160587763Z
+20150629T110707:635711728270697430Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 18
+content-length: 14
 
-extranet\Anonymous
+sitecore\admin

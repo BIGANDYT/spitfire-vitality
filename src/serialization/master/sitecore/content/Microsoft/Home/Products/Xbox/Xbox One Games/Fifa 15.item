@@ -33,7 +33,7 @@ content-length: 578
 ----version----
 language: en
 version: 1
-revision: c8b3b472-a579-4984-b698-5dc28ec28c3c
+revision: 42907469-cd8d-4dd3-8e69-b529111a7e46
 
 ----field----
 field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
@@ -47,9 +47,9 @@ content-length: 557
 field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
 name: Image
 key: image
-content-length: 58
+content-length: 65
 
-<image mediaid="{2FB0DA0C-024F-4F6D-9FBA-82AFDE575B9D}" />
+<image mediaid="{2FB0DA0C-024F-4F6D-9FBA-82AFDE575B9D}" ></image>
 ----field----
 field: {1B483E91-D8C4-4D19-BA03-462074B55936}
 name: ShortTitle
@@ -79,13 +79,6 @@ content-length: 38
 
 {A8662AEB-187D-46E2-BB6F-386F419C168B}
 ----field----
-field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
-name: __Final Renderings
-key: __final renderings
-content-length: 561
-
-<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{706942A9-5DD5-45A8-9B4B-C3CA0FFBA147}" p:before="r[@uid='{77DC072C-1019-428C-99A8-83D64FD54FA7}']" s:ds="{20C2E790-159E-4027-9707-7B1B23E24151}" s:id="{82702046-F391-4F9E-B742-0C24B8CC34E7}" s:ph="/body/maincontent/content/onecontent" /><r uid="{F62C3253-C477-4C02-B4C9-43257812D764}" s:id="{F8271E87-8557-4597-8C5D-1358B645B3B2}" /><r uid="{8A631C59-C28B-4805-B4C0-8EAB6D4D2A68}" s:id="{026B4B2F-241B-4773-85DA-259D1AC3676A}" s:ph="/body/maincontent/content" /></d></r>
-----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
@@ -98,14 +91,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c8b3b472-a579-4984-b698-5dc28ec28c3c
+42907469-cd8d-4dd3-8e69-b529111a7e46
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150625T204054:635708616545764109Z
+20150629T155948:635711903885735670Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

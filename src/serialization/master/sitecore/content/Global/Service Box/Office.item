@@ -1,0 +1,114 @@
+----item----
+version: 1
+id: {8B60AB49-1D60-4CAF-9D02-77AFF885ADCF}
+database: master
+path: /sitecore/content/Global/Service Box/Office
+parent: {6B13F1ED-DC83-4081-8F53-BCBD30D1A0F0}
+name: Office
+master: {00000000-0000-0000-0000-000000000000}
+template: {D975A75C-CD7C-4D5C-A14F-B90F36BC4B2E}
+templatekey: Service Box
+
+----version----
+language: en
+version: 1
+revision: 37d9a3f1-defe-4c00-acb6-4502133e58d7
+
+----field----
+field: {1EA1660A-68B2-48C6-B234-999309F672D8}
+name: Icon 1
+key: icon 1
+content-length: 17
+
+fa fa-wrench blue
+----field----
+field: {DA84C425-174C-4DAC-8A5A-1A3F2F8B1058}
+name: Title 1
+key: title 1
+content-length: 28
+
+We'll get you up and running
+----field----
+field: {24D13288-687D-4FD4-90CA-E6D2348A0E55}
+name: Text 1
+key: text 1
+content-length: 82
+
+Get started with Office by connection with one of our experts - at no extra charge
+----field----
+field: {7E0C088F-6AB5-44C6-A6E2-68824F0E25CF}
+name: Icon 2
+key: icon 2
+content-length: 18
+
+fa fa-download red
+----field----
+field: {E78B3BE0-1D4A-474D-BB0B-87A9072605BD}
+name: Title 2
+key: title 2
+content-length: 23
+
+Download from Microsoft
+----field----
+field: {13C8C491-7109-44DE-9513-645FF75F7378}
+name: Text 2
+key: text 2
+content-length: 141
+
+Select from our wide range of Office software and download direct to your PC. And when you purchase Office from us, we save your product keys
+----field----
+field: {AFCBF17C-4B3C-4DA6-9B81-37192E42F6E8}
+name: Icon 3
+key: icon 3
+content-length: 20
+
+fa fa-question green
+----field----
+field: {52252547-7DCE-49DF-8EB1-BF57D2164860}
+name: Title 3
+key: title 3
+content-length: 27
+
+Ongoing support and service
+----field----
+field: {31FACD78-F0CB-4105-85E9-491EB08C90B5}
+name: Text 3
+key: text 3
+content-length: 86
+
+Our customer service team are here to help with all of your Office questions and needs
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150119T141541Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+37d9a3f1-defe-4c00-acb6-4502133e58d7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150119T142411:635572742515796727Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

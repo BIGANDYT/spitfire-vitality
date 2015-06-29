@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {4581927E-184D-43AF-BC81-079138BB4CB4}
+database: master
+path: /sitecore/content/Global/Media Tabs/GTA V
+parent: {F58DC5F0-5315-4981-9A2B-0388A245516E}
+name: GTA V
+master: {00000000-0000-0000-0000-000000000000}
+template: {0A3823B0-3200-4C40-8056-DA295D05EFCC}
+templatekey: Media Tabs
+
+----version----
+language: en
+version: 1
+revision: 0681c6c7-aa1b-44cb-8c25-4db84c8f2bfe
+
+----field----
+field: {E9EF37CE-12CE-4DAC-ADF1-B1FAEB2D14C9}
+name: Video
+key: video
+content-length: 38
+
+{0979C117-1A06-4048-9362-581E574DEBC5}
+----field----
+field: {4862CDF7-1513-4AD3-BA69-3983C98CCFBC}
+name: Images
+key: images
+content-length: 428
+
+{8233AAEB-00AA-43BE-B055-C577F1D8C3F0}|{D3025660-EC7F-487A-B880-11E52CAA463B}|{F2C69116-9FC9-471C-B4E5-0D7069C1D3DC}|{5908733F-C27A-4E56-90DD-447E8F721EFF}|{F6EE7995-3B38-4644-96B7-BAFE8AE4A6C1}|{2CAA2A63-2A33-4CCD-BAA5-21D7FD03CD04}|{88A93717-6314-4814-9BC0-F76E2A15DF1F}|{E49BC7DB-A4A2-4AC2-9C5B-97A0467668D3}|{45A7E6D2-6421-4848-ABCE-978AE16DA060}|{66C94AB9-6431-4D9E-9E5D-831574129E17}|{0E506792-DBD3-4AF3-9E65-5704722983D8}
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150309T134736Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0681c6c7-aa1b-44cb-8c25-4db84c8f2bfe
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150309T135259:635615059794909233Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

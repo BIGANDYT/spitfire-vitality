@@ -1,0 +1,93 @@
+----item----
+version: 1
+id: {0002572E-89D5-4DF7-8786-833B7BED657B}
+database: master
+path: /sitecore/content/Global/Blockquotes/GTA V Promo
+parent: {197AD351-B577-4AEE-8269-EF276C9CF795}
+name: GTA V Promo
+master: {00000000-0000-0000-0000-000000000000}
+template: {451A7B31-E1E6-4145-B1AB-EE9152172A0E}
+templatekey: Blockquote
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+525
+----version----
+language: en
+version: 1
+revision: 00e4807f-3c62-4c86-863d-8f96940f277e
+
+----field----
+field: {880B22DD-E04F-4A7E-A3A3-DCA5AFB723EE}
+name: Quote
+key: quote
+content-length: 11
+
+GTA V Promo
+----field----
+field: {27A9C845-F70A-42F9-A5D5-6BCDB28060DF}
+name: Link Text
+key: link text
+content-length: 8
+
+Buy Now!
+----field----
+field: {8F8ED436-DB8A-48F2-83FC-961EC66ED947}
+name: Icon
+key: icon
+content-length: 35
+
+fa fa-shopping-cart margin-right-10
+----field----
+field: {FC382C03-7BE6-4C9E-BEE3-BB7A5C83599A}
+name: Colour
+key: colour
+content-length: 38
+
+{4A25DCB6-A365-42D1-9EDC-636B94E8A923}
+----field----
+field: {75EEC381-2D7D-41C4-A950-77564469A91E}
+name: Hover Colour
+key: hover colour
+content-length: 38
+
+{BB014AE2-CC6E-4BCA-A542-5C907E960700}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150309T135709Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+00e4807f-3c62-4c86-863d-8f96940f277e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150521T093818:635677978981132279Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

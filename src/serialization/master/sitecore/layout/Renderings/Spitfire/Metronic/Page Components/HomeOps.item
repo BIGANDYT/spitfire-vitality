@@ -13,13 +13,20 @@ templatekey: View rendering
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
 name: Path
 key: path
-content-length: 49
+content-length: 37
 
-/Views/Layouts/Metronic/Components/HomeOps.cshtml
+/Views/Core/Components/HomeOps.cshtml
+----field----
+field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
+name: Open Properties after Add
+key: open properties after add
+content-length: 1
+
+-
 ----version----
 language: en
 version: 1
-revision: 4fde3e84-49c4-4a7f-a9ae-41f6fc69bf59
+revision: 30c1e20c-a25b-44a5-bd50-764b5a0da393
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,18 +41,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-4fde3e84-49c4-4a7f-a9ae-41f6fc69bf59
+30c1e20c-a25b-44a5-bd50-764b5a0da393
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150616T145309:635700631895127111Z
+20150629T110626:635711727860230350Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 18
+content-length: 14
 
-extranet\Anonymous
+sitecore\admin

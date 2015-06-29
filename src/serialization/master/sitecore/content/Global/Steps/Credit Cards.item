@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {2A2B0DA2-2E56-44AC-B1F3-8E98E9E94D40}
+database: master
+path: /sitecore/content/Global/Steps/Credit Cards
+parent: {A57D2AD0-6630-458F-B06E-734DA0ABD027}
+name: Credit Cards
+master: {00000000-0000-0000-0000-000000000000}
+template: {F9A15236-6C31-4086-9BA8-5EFAE77EB7CC}
+templatekey: Steps
+
+----version----
+language: en
+version: 1
+revision: bf178d91-c316-4289-b57a-7578bd6e6855
+
+----field----
+field: {1443A761-637C-4886-8DD9-5F5156EE229E}
+name: One Title
+key: one title
+content-length: 5
+
+Check
+----field----
+field: {D4BBDD78-2172-44A3-9538-2B8662B4F1F4}
+name: One Text
+key: one text
+content-length: 55
+
+See if you're likely to get this card before you apply.
+----field----
+field: {5C0F33F1-7BC3-48E8-88DF-4482F4D7F34B}
+name: Two Title
+key: two title
+content-length: 5
+
+Apply
+----field----
+field: {E4D29C2B-2A67-44FA-935C-433D9CBA599A}
+name: Two Text
+key: two text
+content-length: 46
+
+Apply and you'll get a response in 60 seconds.
+----field----
+field: {B3BC5932-FCF7-4780-A44F-788C4D8FA599}
+name: Three Title
+key: three title
+content-length: 6
+
+Manage
+----field----
+field: {E3A34BC6-B50E-4069-8A6C-6F2BDB7CC1EA}
+name: Three Text
+key: three text
+content-length: 52
+
+Easily manage your finances and build better credit.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150310T162853Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bf178d91-c316-4289-b57a-7578bd6e6855
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150506T075615:635664957757829809Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

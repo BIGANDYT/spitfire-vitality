@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {38EBA01F-11C7-4E0A-A1FE-9DDBBBD51ED3}
+database: master
+path: /sitecore/content/Global/Social/Google
+parent: {7839B152-B098-43E8-9AA0-A6808D195404}
+name: Google
+master: {00000000-0000-0000-0000-000000000000}
+template: {66AC1B0D-4D2E-446A-8A3C-1DFDEC3206A2}
+templatekey: Social Network
+
+----version----
+language: en
+version: 1
+revision: a8a647e9-f3eb-440c-97ae-cb0f355f2b96
+
+----field----
+field: {14C68DC5-AC79-4DD5-986A-C13A05DFD93E}
+name: Title
+key: title
+content-length: 6
+
+Google
+----field----
+field: {4299A22F-59F6-4583-B505-6D182E100AE9}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{E7F424EA-811E-48A4-84EC-645FE1D5CAF1}" />
+----field----
+field: {58C3128A-9980-4EAC-B390-DEDABF5C26EB}
+name: Link
+key: link
+content-length: 131
+
+<link text="Google Plus" linktype="external" url="https://plus.google.com/103876845586720087284/posts" anchor="" target="_blank" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20141119T160718
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a8a647e9-f3eb-440c-97ae-cb0f355f2b96
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20141119T160819:635520100997501392
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

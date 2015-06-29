@@ -20,9 +20,9 @@ network/32x32/news.png
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 633
+content-length: 392
 
-<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{C8F9EF84-39E2-4E07-A5DB-61B0FFF2849B}"><r ds="" id="{84AEE9C8-B394-478C-AB3F-6572424009A6}" par="" ph="body" uid="{E19DA30E-3C4F-4649-89E2-2ACE9B9DD2B6}" /><r ds="" id="{3D909B2A-F29C-4470-AEEA-4F2661BEC529}" par="" ph="maincontent" uid="{DEB73903-7496-44C3-8BB3-E493DD26D5BB}" /><r ds="" id="{A973B47E-48F6-4345-B984-7126677DD8A6}" par="" ph="content" uid="{0BF8D751-4624-4334-98BB-BC928E53F3B4}" /><r ds="" id="{B569EE1E-10E6-480B-996D-F484EF0AED4A}" par="" ph="rightcontent" uid="{98B42645-B616-4DF2-A02E-19E5E21A8425}" /></d></r>
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{C8F9EF84-39E2-4E07-A5DB-61B0FFF2849B}"><r ds="" id="{A973B47E-48F6-4345-B984-7126677DD8A6}" par="" ph="content" uid="{0BF8D751-4624-4334-98BB-BC928E53F3B4}" /><r ds="" id="{B569EE1E-10E6-480B-996D-F484EF0AED4A}" par="" ph="rightcontent" uid="{98B42645-B616-4DF2-A02E-19E5E21A8425}" /></d></r>
 ----field----
 field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
 name: __Workflow
@@ -40,7 +40,7 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: 31071b62-23a0-4a24-8be3-39964673a7ee
+revision: 0fe02dff-2756-4f53-be07-f7c75430eb31
 
 ----field----
 field: {D95BD7D2-2A5E-4F6C-A7C4-E5A564EB5487}
@@ -53,9 +53,9 @@ $date
 field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
 name: __Final Renderings
 key: __final renderings
-content-length: 186
+content-length: 149
 
-<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{0BF8D751-4624-4334-98BB-BC928E53F3B4}" s:id="{A973B47E-48F6-4345-B984-7126677DD8A6}" /></d></r>
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{DEB73903-7496-44C3-8BB3-E493DD26D5BB}"><p:d /></r></d></r>
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -69,14 +69,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-31071b62-23a0-4a24-8be3-39964673a7ee
+0fe02dff-2756-4f53-be07-f7c75430eb31
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150625T204542:635708619422481334Z
+20150629T152552:635711883524154931Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

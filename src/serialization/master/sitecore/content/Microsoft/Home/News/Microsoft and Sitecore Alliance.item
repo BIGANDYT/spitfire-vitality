@@ -10,6 +10,13 @@ template: {824052CF-AE81-4519-AAD3-AF06A02A4C93}
 templatekey: News Item
 
 ----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 267
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{DEB73903-7496-44C3-8BB3-E493DD26D5BB}"><p:d /></r><r uid="{0BF8D751-4624-4334-98BB-BC928E53F3B4}"><p:d /></r><r uid="{98B42645-B616-4DF2-A02E-19E5E21A8425}"><p:d /></r></d></r>
+----field----
 field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
 name: __Workflow
 key: __workflow
@@ -19,7 +26,7 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: 87013b6c-b5d1-4a91-b99e-aa305be427d1
+revision: 6decfed9-cb8d-4228-85ef-d023880f7f4f
 
 ----field----
 field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
@@ -57,9 +64,9 @@ content-length: 16
 field: {9ACBBCAB-2484-4558-9728-28433FE2F8A1}
 name: Summary
 key: summary
-content-length: 57
+content-length: 45
 
-Microsoft and Sitecore announce key alliance. Hello world
+Microsoft and Sitecore announce key alliance.
 ----field----
 field: {04621054-DA72-4E54-AA5C-E545B2971819}
 name: Teaser Image
@@ -71,9 +78,9 @@ content-length: 64
 field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
 name: __Final Renderings
 key: __final renderings
-content-length: 186
+content-length: 1699
 
-<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{0BF8D751-4624-4334-98BB-BC928E53F3B4}" s:id="{A973B47E-48F6-4345-B984-7126677DD8A6}" /></d></r>
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{FDC5F624-3FEE-47EA-A06F-C3700BEF8977}" p:before="r[@uid='{EA0E7840-2BC3-45EB-ABE2-B3F6480524B6}']" s:id="{B569EE1E-10E6-480B-996D-F484EF0AED4A}" s:ph="/content_00000000-0000-0000-0000-000000000000/column1_7e0c1acd-ec5f-4e8c-a1f1-9cb559426aa1/column2_09b3ea5d-8cd8-430e-b4a4-fdbfe1c25a4c" /><r uid="{EA0E7840-2BC3-45EB-ABE2-B3F6480524B6}" p:before="r[@uid='{09B3EA5D-8CD8-430E-B4A4-FDBFE1C25A4C}']" s:id="{A973B47E-48F6-4345-B984-7126677DD8A6}" s:ph="/content_00000000-0000-0000-0000-000000000000/column1_7e0c1acd-ec5f-4e8c-a1f1-9cb559426aa1/column1_09b3ea5d-8cd8-430e-b4a4-fdbfe1c25a4c" /><r uid="{09B3EA5D-8CD8-430E-B4A4-FDBFE1C25A4C}" p:before="r[@uid='{7E0C1ACD-EC5F-4E8C-A1F1-9CB559426AA1}']" s:ds="" s:id="{FEDC3E28-2559-40F8-A08B-76BC7B42BB61}" s:par="FullWidth&amp;ShowTitle=1&amp;ShowBreadcrumb=1&amp;Column1Width=9&amp;Column2Width=3" s:ph="/content_00000000-0000-0000-0000-000000000000/column1_7e0c1acd-ec5f-4e8c-a1f1-9cb559426aa1" /><r uid="{7E0C1ACD-EC5F-4E8C-A1F1-9CB559426AA1}" p:before="r[@uid='{8A027868-10CF-45D1-833B-52831C8729E0}']" s:id="{53C4C7C6-98E3-49B8-9FF8-39AC963228C2}" s:ph="content_00000000-0000-0000-0000-000000000000" /><r uid="{8A027868-10CF-45D1-833B-52831C8729E0}" p:before="r[@uid='{0645998C-C2BF-4845-91CC-BE1CA1ED4F51}']" s:id="{B569EE1E-10E6-480B-996D-F484EF0AED4A}" s:ph="/content_00000000-0000-0000-0000-000000000000/column2_07ac14b8-414b-4c4f-9040-fa90c68f1160" /><r uid="{0645998C-C2BF-4845-91CC-BE1CA1ED4F51}" s:id="{A973B47E-48F6-4345-B984-7126677DD8A6}" s:ph="/content_00000000-0000-0000-0000-000000000000/column1_07ac14b8-414b-4c4f-9040-fa90c68f1160" /></d></r>
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -87,14 +94,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-87013b6c-b5d1-4a91-b99e-aa305be427d1
+6decfed9-cb8d-4228-85ef-d023880f7f4f
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150625T204542:635708619423091765Z
+20150629T151028:635711874282118088Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

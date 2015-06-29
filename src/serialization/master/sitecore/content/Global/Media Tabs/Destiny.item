@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {93504CCD-DBDF-457D-AAC6-38B6FE19EA19}
+database: master
+path: /sitecore/content/Global/Media Tabs/Destiny
+parent: {F58DC5F0-5315-4981-9A2B-0388A245516E}
+name: Destiny
+master: {00000000-0000-0000-0000-000000000000}
+template: {0A3823B0-3200-4C40-8056-DA295D05EFCC}
+templatekey: Media Tabs
+
+----version----
+language: en
+version: 1
+revision: d36450bf-02fe-4861-b800-4a72f8bf033c
+
+----field----
+field: {4862CDF7-1513-4AD3-BA69-3983C98CCFBC}
+name: Images
+key: images
+content-length: 467
+
+{BBC5CAAD-5E36-4C79-868C-2A6904357C4D}|{FDBED9A8-F655-4EE4-9004-9D631A826782}|{D9D3C411-8E6E-4E99-A017-0E19D63C0184}|{433A73C6-BDD6-4C4E-A237-B47CB31F3D5B}|{7160F47F-F0E4-4723-8BE1-EB5A9B39B8FC}|{576470FE-B781-4992-A260-25A9A72C8CD9}|{AB81E825-408C-4D98-83A3-74144A8A4814}|{6D62B1D8-3F41-46C1-B6A3-55CC50691267}|{EEEE0417-04E0-4AB1-85EE-2428A92A96B9}|{381B7DF1-F112-46D9-B70E-C79046FFA4AF}|{B599D620-B272-4130-983A-F1CAA0BCE697}|{B3B3EFBA-B764-43B5-BB3C-02E706FF33AF}
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150219T151221Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d36450bf-02fe-4861-b800-4a72f8bf033c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150219T151235:635599555558930561Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

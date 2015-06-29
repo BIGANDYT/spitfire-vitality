@@ -1,0 +1,12 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+    @*<xsl:variable name="colour" select="sc:fld('button colour',.)" />
+        <xsl:variable name="home" select="sc:item($colour,.)" />*@
+}
+<div class="form-info">
+    <h2><em>Important</em> Information</h2>
+    @Html.Sitecore().Field("Body")
+    <!-- <button type="button" class="btn btn-default {sc:fld('css',$home)}hover"><sc:text field="button text" /></button> -->
+</div>

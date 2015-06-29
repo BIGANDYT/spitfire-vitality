@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {16BD74C7-F7F4-48DD-A9B6-8F2815E08CC8}
+database: master
+path: /sitecore/content/Global/Media Tabs/Battlefield 4
+parent: {F58DC5F0-5315-4981-9A2B-0388A245516E}
+name: Battlefield 4
+master: {00000000-0000-0000-0000-000000000000}
+template: {0A3823B0-3200-4C40-8056-DA295D05EFCC}
+templatekey: Media Tabs
+
+----version----
+language: en
+version: 1
+revision: e3efe56e-0bee-4d36-8111-e622e0604986
+
+----field----
+field: {E9EF37CE-12CE-4DAC-ADF1-B1FAEB2D14C9}
+name: Video
+key: video
+content-length: 38
+
+{E051477A-0FFC-4CF0-A522-142B96B19698}
+----field----
+field: {4862CDF7-1513-4AD3-BA69-3983C98CCFBC}
+name: Images
+key: images
+content-length: 389
+
+{6E175AB6-9BCC-4AC3-8D72-29CCFFFF1FAF}|{816B9C89-C39D-4A5E-9CBE-7FA45AAC2124}|{51F7A586-8CE4-4422-8CAF-9EED157C225A}|{078C96F9-B551-4543-A3A4-FE2D3980864F}|{5D262470-F9F4-49CB-9667-DE7D6E936902}|{F4F22887-E8C2-412D-8D78-3D13655D4398}|{26446644-F56A-4B24-9390-476924B70400}|{86477E74-F2BB-4251-BD5B-49367605D45E}|{ECFDC034-B57F-4D88-9D35-2077BBE49D75}|{616D2D80-8A31-451F-9374-126168D00F16}
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150217T140922Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e3efe56e-0bee-4d36-8111-e622e0604986
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150217T141928:635597795683988012Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

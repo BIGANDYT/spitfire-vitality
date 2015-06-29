@@ -20,9 +20,9 @@ Droplink
 field: {1EB8AE32-E190-44A6-968D-ED904C794EBF}
 name: Source
 key: source
-content-length: 42
+content-length: 32
 
-/sitecore/content/Microsoft/Global/Colours
+/sitecore/content/Global/Colours
 ----field----
 field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
 name: __Sortorder
@@ -33,7 +33,7 @@ content-length: 3
 ----version----
 language: en
 version: 1
-revision: 5e61af4b-8ada-45ea-9a79-21b2f423fa53
+revision: 294ca97c-7bb9-48af-ae34-c7356927fb19
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-5e61af4b-8ada-45ea-9a79-21b2f423fa53
+294ca97c-7bb9-48af-ae34-c7356927fb19
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150626T103612:635709117725982499Z
+20150629T102609:635711703690113564Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

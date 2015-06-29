@@ -22,11 +22,18 @@ name: __Sortorder
 key: __sortorder
 content-length: 3
 
-300
+200
+----field----
+field: {6FD695E7-7F6D-4CA5-8B49-A829E5950AE9}
+name: __Subitems Sorting
+key: __subitems sorting
+content-length: 38
+
+{44D1A0D2-E17B-4DAA-ADDF-53F2E8F58525}
 ----version----
 language: en
 version: 1
-revision: 7cd476f0-e982-4b5d-ac5c-d95810c9dbf6
+revision: a81df73d-5359-4927-98f6-899b3dd93643
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -48,18 +55,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-7cd476f0-e982-4b5d-ac5c-d95810c9dbf6
+a81df73d-5359-4927-98f6-899b3dd93643
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150408T110027:635640876275769244Z
+20150629T120155:635711761151369124Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 18
+content-length: 14
 
-extranet\Anonymous
+sitecore\admin

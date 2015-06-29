@@ -16,10 +16,17 @@ key: path
 content-length: 46
 
 /Views/Layouts/Metronic/Template/Footer.cshtml
+----field----
+field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
+name: Open Properties after Add
+key: open properties after add
+content-length: 1
+
+-
 ----version----
 language: en
 version: 1
-revision: a3a134a8-05c4-44a4-ac78-d135e3fba08a
+revision: 5cceb82c-b87f-4fbd-a1d2-ad9e6b1811ba
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,18 +41,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-a3a134a8-05c4-44a4-ac78-d135e3fba08a
+5cceb82c-b87f-4fbd-a1d2-ad9e6b1811ba
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150616T144850:635700629302381568Z
+20150629T110931:635711729717930995Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 18
+content-length: 14
 
-extranet\Anonymous
+sitecore\admin

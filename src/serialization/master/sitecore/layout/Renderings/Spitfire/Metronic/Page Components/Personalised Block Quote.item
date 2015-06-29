@@ -13,27 +13,34 @@ templatekey: View rendering
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
 name: Path
 key: path
-content-length: 64
+content-length: 52
 
-/Views/Layouts/Metronic/Components/PersonalisedBlockQuote.cshtml
+/Views/Core/Components/PersonalisedBlockQuote.cshtml
+----field----
+field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
+name: Open Properties after Add
+key: open properties after add
+content-length: 1
+
+-
 ----field----
 field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
 name: Datasource Location
 key: datasource location
-content-length: 46
+content-length: 36
 
-/sitecore/content/Microsoft/Global/Blockquotes
+/sitecore/content/Global/Blockquotes
 ----field----
 field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
 name: Datasource Template
 key: datasource template
-content-length: 54
+content-length: 55
 
-/sitecore/templates/Spitfire/Metronic/Items/Blockquote
+/sitecore/templates/Spitfire/Core/Components/Blockquote
 ----version----
 language: en
 version: 1
-revision: 5eab14c6-fcd0-41bc-9ec8-a2a5f13d90d4
+revision: 715ece41-a148-4fac-a4fc-2136c6d61b63
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -48,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-5eab14c6-fcd0-41bc-9ec8-a2a5f13d90d4
+715ece41-a148-4fac-a4fc-2136c6d61b63
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150626T103612:635709117724676565Z
+20150629T110645:635711728051477586Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

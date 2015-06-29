@@ -6,17 +6,6 @@
 @{
     Layout = null;
 }
-<!--
-Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.2.0
-Version: 3.4
-Author: KeenThemes
-Website: http://www.keenthemes.com/
-Contact: support@keenthemes.com
-Follow: www.twitter.com/keenthemes
-Like: www.facebook.com/keenthemes
-Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
-License: You must have a valid license purchased only from themeforest (the above link) in order to legally use the theme for your project.
--->
 <!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
 <!--[if !IE]><!-->
@@ -32,7 +21,6 @@ License: You must have a valid license purchased only from themeforest (the abov
 
     <meta content="Metronic Shop UI description" name="description">
     <meta content="Metronic Shop UI keywords" name="keywords">
-    <meta content="keenthemes" name="author">
 
     <meta property="og:site_name" content="-CUSTOMER VALUE-">
     <meta property="og:title" content="-CUSTOMER VALUE-">
@@ -91,7 +79,9 @@ License: You must have a valid license purchased only from themeforest (the abov
     @Html.Sitecore().Placeholder("slider")
 
     <!-- SC_BODY -->
-    @Html.Sitecore().Placeholder("body")
+    <div class="main">
+        @Html.Sitecore().DynamicPlaceholder("content")
+    </div>
 
     <!-- SC_FOOTER -->
     @Html.Sitecore().Rendering("{7F0EA541-950B-46C9-9DF3-A8917CEFDBD5}") @* Footer *@

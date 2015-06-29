@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {7811AD29-CDCE-49A2-9511-348DC94D40B0}
+database: master
+path: /sitecore/content/Global/Banners2/Surface/Stylus
+parent: {1AB9ABE8-8DEE-4D15-A5AA-BEB52C9730B8}
+name: Stylus
+master: {00000000-0000-0000-0000-000000000000}
+template: {7CD4FB93-C30C-422B-8BA5-902C35505798}
+templatekey: Banner
+
+----version----
+language: en
+version: 1
+revision: c7e6b659-2f99-4b4e-8354-2313f2d7544a
+
+----field----
+field: {3EED451B-D15C-44A1-997F-377ADA28C11E}
+name: Background Image
+key: background image
+content-length: 58
+
+<image mediaid="{68EA2065-A982-4F60-9794-DF67DD68BDB9}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20141204T163603
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c7e6b659-2f99-4b4e-8354-2313f2d7544a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20141204T163706:635533078263098589
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

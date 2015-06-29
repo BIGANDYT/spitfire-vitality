@@ -16,10 +16,17 @@ key: path
 content-length: 50
 
 /Views/Layouts/Metronic/Template/JavaScript.cshtml
+----field----
+field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
+name: Open Properties after Add
+key: open properties after add
+content-length: 1
+
+-
 ----version----
 language: en
 version: 1
-revision: 268f3fb0-b90e-4d77-8fdf-a5480b777483
+revision: e44bb18a-4f1d-4141-b369-bffe053340a6
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,18 +41,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-268f3fb0-b90e-4d77-8fdf-a5480b777483
+e44bb18a-4f1d-4141-b369-bffe053340a6
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150616T144858:635700629387238924Z
+20150629T110939:635711729799778557Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 18
+content-length: 14
 
-extranet\Anonymous
+sitecore\admin
