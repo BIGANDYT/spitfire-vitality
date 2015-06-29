@@ -38,8 +38,9 @@
         /// </summary>
         /// <param name="rendering">Rendering to initialize
         /// </param>
-        public void Initialize(Rendering rendering)
+        public override void Initialize(Rendering rendering)
         {
+            base.Initialize(rendering);
             NameValueCollection parameters = null;
             if (!string.IsNullOrEmpty(rendering["Parameters"]))
             {
