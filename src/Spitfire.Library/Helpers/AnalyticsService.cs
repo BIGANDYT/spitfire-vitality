@@ -5,9 +5,17 @@
     using Sitecore.Analytics.Data.Items;
     using Sitecore.Data;
     using Sitecore.Diagnostics;
-
+    
+    /// <summary>
+    /// Helper for goal settings. 
+    /// </summary>
     public static class AnalyticsHelper
     {
+        /// <summary>
+        /// Analytics Helper for checking Marketing related features e.g. goals, events
+        /// </summary>
+        /// <param name="goalID">Id of the goal</param>
+        /// <returns>True passed checking or False invalid</returns>
         public static bool TriggerGoal(ID goalID)
         {
             if (goalID == (ID)null)

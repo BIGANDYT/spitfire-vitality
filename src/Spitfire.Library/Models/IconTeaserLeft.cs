@@ -10,17 +10,17 @@
     public class IconTeaserLeft : RenderingModel
     {
         /// <summary>
-        /// Get Title color setting
+        /// Gets the Title color setting
         /// </summary>
         public string TitleColor { get; private set; }
 
         /// <summary>
-        /// Set Title font size
+        /// Gets Title font size
         /// </summary>
         public string TitleFontSize { get; private set; }
 
         /// <summary>
-        /// Set background color
+        /// Gets background color
         /// </summary>
         public string Background { get; private set; }
 

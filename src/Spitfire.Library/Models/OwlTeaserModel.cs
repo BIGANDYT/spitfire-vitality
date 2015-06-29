@@ -3,18 +3,22 @@
     using System;
     using System.Collections.Generic;
     using System.Linq;
-
+    using Sitecore;
     using Sitecore.Data.Fields;
     using Sitecore.Data.Items;
     using Sitecore.Mvc.Presentation;
-
     using Spitfire.Library.Constants;
 
     /// <summary>
     /// OwlTeaser component model
     /// </summary>
-    public class OwlTeaserModel : RenderingModel
+    public class OwlTeaserModel : IRenderingModel
     {
+        /// <summary>
+        /// Datasource Item
+        /// </summary>
+        public Item Item { get; private set; }
+
         /// <summary>
         /// return a list of selected items for owlTeaser component
         /// </summary>
@@ -26,33 +30,36 @@
         public string SocialDisplay { get; set; }
 
         /// <summary>
-        /// the rendering of the context page
+        /// The rendering of the context page
         /// </summary>
-        /// <param name="rendering"></param>
-        public override void Initialize(Rendering rendering)
+        /// <param name="rendering">Rendering to initialize</param>
+        public void Initialize(Rendering rendering)
         {
-            base.Initialize(rendering);
-            if (!string.IsNullOrEmpty(Item[SpitfireConstants.FieldConstants.TeaserGroup.Source]))
+            this.Item = !string.IsNullOrWhiteSpace(rendering.DataSource)
+               ? Context.Database.GetItem(rendering.DataSource)
+               : Context.Item;
+
+            if (!string.IsNullOrEmpty(this.Item[SpitfireConstants.FieldConstants.TeaserGroup.Source]))
             {
-                MultilistField source = Item.Fields[SpitfireConstants.FieldConstants.TeaserGroup.Source];
+                MultilistField source = this.Item.Fields[SpitfireConstants.FieldConstants.TeaserGroup.Source];
 
                 if (source != null)
                 {
-                    OwlTeasers = source.GetItems().ToList();
+                   this.OwlTeasers = source.GetItems().ToList();
                 }
             }
 
             // Findout dispaly social icons or not; this is droplist field
-            SocialDisplay = Item[SpitfireConstants.FieldConstants.TeaserGroup.Display];
+           this.SocialDisplay = this.Item[SpitfireConstants.FieldConstants.TeaserGroup.Display];
 
-            if (string.IsNullOrEmpty(SocialDisplay) || string.Equals(SocialDisplay, "show", StringComparison.CurrentCultureIgnoreCase))
+            if (string.IsNullOrEmpty(this.SocialDisplay) || string.Equals(this.SocialDisplay, "show", StringComparison.CurrentCultureIgnoreCase))
             {
-                SocialDisplay = "show";
+                this.SocialDisplay = "show";
             }
 
-            if (string.Equals(SocialDisplay, "none", StringComparison.CurrentCultureIgnoreCase))
+            if (string.Equals(this.SocialDisplay, "none", StringComparison.CurrentCultureIgnoreCase))
             {
-                SocialDisplay = "none";
+               this.SocialDisplay = "none";
             }
         }
     }

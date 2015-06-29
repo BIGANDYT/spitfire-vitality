@@ -7,7 +7,7 @@
     using Sitecore.Data.Items;
     using Sitecore.Mvc.Presentation;
 
-    public class SectionPortfolioModel: IRenderingModel
+    public class SectionPortfolioModel : IRenderingModel
     {
         public List<Item> Data { get; set; }
 

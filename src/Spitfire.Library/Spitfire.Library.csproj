@@ -85,7 +85,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Constants\ErrorConstants.cs" />
     <Compile Include="Constants\SpitfireConstants.cs" />
     <Compile Include="Models\AsideModel.cs" />
     <Compile Include="Models\BannerModel.cs" />
