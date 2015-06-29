@@ -3,11 +3,8 @@
     using System;
     using System.Collections.Generic;
     using System.Linq;
-
-    using Sitecore;
     using Sitecore.Data.Items;
     using Sitecore.Mvc.Presentation;
-
     using Spitfire.Library.Constants;
 
     public class NavBarModel : IRenderingModel
@@ -28,7 +25,7 @@
         public void Initialize(Rendering rendering)
         {
             // Todo: Possibly use Sitecore Search? 
-            NavRoot = Context.Database.SelectSingleItem(Context.Site.ContentStartPath + "/*/*[@@tid='" + SpitfireConstants.TemplateIds.NavBar + "']");
+            NavRoot = MyContext.SiteRoot.Axes.SelectSingleItem("./*/*[@@tid='" + SpitfireConstants.TemplateIds.NavBar + "']");
 
             if (NavRoot != null)
             {

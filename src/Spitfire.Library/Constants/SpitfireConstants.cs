@@ -30,6 +30,11 @@
             /// The ID of the NavItem template
             /// </summary>
             public const string NavItem = "{21FC97B7-6622-4248-AA98-F2DDEBA46895}";
+
+            /// <summary>
+            /// The ID of the SiteRoot template
+            /// </summary>
+            public const string SiteRoot = "{0643D9D4-F30B-4B07-91D0-289CC324C9CF}";
         }
 
         /// <summary>
