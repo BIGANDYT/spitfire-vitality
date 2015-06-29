@@ -4,20 +4,64 @@
     using Sitecore.Mvc.Presentation;
     using Sitecore.Web;
 
+    /// <summary>
+    /// Image Left Component
+    /// </summary>
     public class ImageLeftModel : RenderingModel
     {
+       /// <summary>
+       /// Gets Title Color
+       /// </summary>
+       /// <value>
+       /// Title color value
+       /// </value>
         public string TitleColor { get; private set; }
 
+        /// <summary>
+        /// Gets Tilte Font Size
+        /// </summary>
+        /// <value>
+        /// Title Font size value
+        /// </value>
         public string TitleFontSize { get; private set; }
 
+        /// <summary>
+        /// Gets Background color value
+        /// </summary>
+        /// <value>
+        /// Background color value
+        /// </value>
         public string Background { get; private set; }
 
+        /// <summary>
+        /// Gets div height value
+        /// </summary>
+        /// <value>
+        /// Div height value
+        /// </value>
         public string DivHeight { get; private set; }
 
+        /// <summary>
+        /// Gets Image height value
+        /// </summary>
+        /// <value>
+        /// Image height value
+        /// </value>
         public string ImageHeight { get; private set; }
 
+        /// <summary>
+        /// Gets Image width value
+        /// </summary>
+        /// <value>
+        /// Image Width value
+        /// </value>
         public string ImageWidth { get; private set; }
 
+        /// <summary>
+        /// Initialize Rendering
+        /// </summary>
+        /// <param name="rendering">Rendering to intialize
+        /// </param>
         public override void Initialize(Rendering rendering)
         {
             base.Initialize(rendering);
@@ -28,29 +72,24 @@
                 parameters = WebUtil.ParseUrlParameters(rawParameters);
             }
 
-            if (parameters != null && parameters.Count > 0)
+            if (parameters == null || parameters.Count <= 0)
             {
-                TitleColor = parameters["TitleColor"];
-                TitleFontSize = parameters["TitleFontSize"];
-                Background = parameters["Background"];
-                DivHeight = parameters["CompHeight"];
-                if (!string.IsNullOrEmpty(parameters["ImageHeight"]))
-                {
-                    ImageHeight = parameters["ImageHeight"];
-                }
-                else
-                {
-                    ImageHeight = "auto";
-                }
+                return;
+            }
 
-                if (!string.IsNullOrEmpty(parameters["ImageWidth"]))
-                {
-                    ImageWidth = parameters["ImageWidth"];
-                }
-                else
-                {
-                    ImageHeight = "auto";
-                }
+            this.TitleColor = parameters["TitleColor"];
+            this.TitleFontSize = parameters["TitleFontSize"];
+            this.Background = parameters["Background"];
+            this.DivHeight = parameters["CompHeight"];
+            this.ImageHeight = !string.IsNullOrEmpty(parameters["ImageHeight"]) ? parameters["ImageHeight"] : "auto";
+
+            if (!string.IsNullOrEmpty(parameters["ImageWidth"]))
+            {
+                this.ImageWidth = parameters["ImageWidth"];
+            }
+            else
+            {
+                this.ImageHeight = "auto";
             }
         }
     }

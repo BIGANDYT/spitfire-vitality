@@ -7,20 +7,34 @@
     using Sitecore.Mvc.Presentation;
     using Spitfire.Library.Constants;
 
+    /// <summary>
+    /// Teaser gallery component
+    /// </summary>
     public class TeaserGallery : RenderingModel
     {
+        /// <summary>
+        /// Gets the list of selected teaser items.
+        /// </summary>
+        /// <value>
+        /// List of selected teaser items.
+        /// </value>
         public IList<Item> TeaserItems { get; private set; }
 
+        /// <summary>
+        /// Initialize the rendering
+        /// </summary>
+        /// <param name="rendering">Rendering to initialize
+        /// </param>
         public override void Initialize(Rendering rendering)
         {
             base.Initialize(rendering);
-            if (!string.IsNullOrEmpty(Item[SpitfireConstants.FieldConstants.TeaserGroup.Source]))
+            if (!string.IsNullOrEmpty(this.Item[SpitfireConstants.FieldConstants.TeaserGroup.Source]))
             {
-                MultilistField teasers = Item.Fields[SpitfireConstants.FieldConstants.TeaserGroup.Source];
+                MultilistField teasers = this.Item.Fields[SpitfireConstants.FieldConstants.TeaserGroup.Source];
 
                 if (teasers != null)
                 {
-                    TeaserItems = teasers.GetItems().ToList();
+                    this.TeaserItems = teasers.GetItems().ToList();
                 }
             }
         }

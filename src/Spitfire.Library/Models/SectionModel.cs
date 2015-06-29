@@ -2,20 +2,46 @@
 {
     using Sitecore.Mvc.Presentation;
 
+    /// <summary>
+    /// Section component inhireted Style model
+    /// </summary>
     public class SectionModel : StyleModel
     {
-        public string Id { get; set; }
+        /// <summary>
+        /// Gets id of the section rendering
+        /// </summary>
+        /// <value>
+        /// Section rendering Id value
+        /// </value>
+        public string Id { get; private set; }
 
-        public string SubCssClass { get; set; }
+        /// <summary>
+        /// Gets css class value of the child of Section dom
+        /// </summary>
+        /// <value>
+        /// Sub Css class value of the child of section dom
+        /// </value>
+        public string SubCssClass { get; private set; }
 
-        public string AnimationClass { get; set; }
+        /// <summary>
+        /// Gets Animcation class value; animiation class is set on child div of section
+        /// </summary>
+        /// <value>
+        /// Animation class value
+        /// </value>
+        public string AnimationClass { get; private set; }
 
+        /// <summary>
+        /// Initialize the rendering
+        /// </summary>
+        /// <param name="rendering">Rendering to initialize
+        /// </param>
         public override void Initialize(Rendering rendering)
         {
             base.Initialize(rendering);
-            Id = rendering.Parameters["Id"];
-            SubCssClass = rendering.Parameters["SubCssClass"];
-            AnimationClass = rendering.Parameters["Animation"];
+            this.Id = rendering.Parameters["Id"];
+            this.SubCssClass = rendering.Parameters["SubCssClass"];
+            this.AnimationClass = rendering.Parameters["Animation"];
         }
     }
 }
