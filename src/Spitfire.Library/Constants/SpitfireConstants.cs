@@ -186,6 +186,18 @@
                 public const string BackgroundImage = "{4A68E70A-5A57-412E-8B32-68D1D6557C32}";
                 public const string FooterHeight = "{61F44A61-2D07-4E92-B38C-FFB94190B745}";
             }
+
+            /// <summary>
+            /// Class to hold all fields of the PortfolioGroup template
+            /// </summary>
+            public static class PortfolioGroup
+            {
+                /// <summary>
+                /// The field id of the Source field
+                /// </summary>
+                public const string Source = "{50B0A8D5-91BA-4B02-AA4C-CDC8AA682052}";
+
+            }
         }
     }
 }

@@ -1,0 +1,44 @@
+----item----
+version: 1
+id: {CE3126B9-BAE9-41E4-B7CE-29324825BE11}
+database: master
+path: /sitecore/content/Finance
+parent: {0DE95AE4-41AB-4D01-9EB0-67441B7C2450}
+name: Finance
+master: {00000000-0000-0000-0000-000000000000}
+template: {0643D9D4-F30B-4B07-91D0-289CC324C9CF}
+templatekey: SiteRoot
+
+----version----
+language: en
+version: 1
+revision: bd10c9cc-f9a4-4856-8006-5373bef2b369
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150626T103501Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bd10c9cc-f9a4-4856-8006-5373bef2b369
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150626T103501:635709117017651570Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

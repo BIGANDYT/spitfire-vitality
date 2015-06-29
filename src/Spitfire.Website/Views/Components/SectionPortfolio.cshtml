@@ -2,11 +2,11 @@
 @using Sitecore.Data.Items
 @using Sitecore.Resources.Media
 @using Spitfire.SitecoreExtensions.Extensions
-
+@model Spitfire.Library.Models.SectionPortfolioModel
 <section class="portfolio-carousel wow fadeIn">
-    @if (Model.Data != null)
+    @if (Model.PortfolioItems != null)
     {
-        foreach (Item item in Model.Data)
+        foreach (Item item in Model.PortfolioItems)
         {
             var imageUrl = item.ImageUrl("BackgroundImage");
 
@@ -30,7 +30,7 @@
                             </div>
                         </div>
                         <div class="col-md-8 col-md-pull-4 hidden-xs">
-                            @Html.Sitecore().Field("Image", item)
+                            @Html.Sitecore().Field("Image", item, new { @class = "img-responsive"})
                         </div>
                     </div>
                 </div>
@@ -46,9 +46,9 @@
 </section>
 
 <!-- Portfolio Modals -->
-@if (Model.Data != null)
+@if (Model.PortfolioItems != null)
 {
-    foreach (Item item in Model.Data)
+    foreach (Item item in Model.PortfolioItems)
     {
         var imageUrl = item.ImageUrl("ModalBackgroundImage");
 

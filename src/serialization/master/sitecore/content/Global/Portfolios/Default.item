@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {F398B159-1041-43E4-825B-FCD85239E13C}
+database: master
+path: /sitecore/content/Global/Portfolios/Default
+parent: {C9FEF16B-1B52-4217-8611-117F3B4A28EA}
+name: Default
+master: {00000000-0000-0000-0000-000000000000}
+template: {048267B7-8EC7-46C5-BC94-0E6487C015D9}
+templatekey: Portfolio
+
+----version----
+language: en
+version: 1
+revision: b8d31a78-75df-4614-9b7d-0b8450ea0f48
+
+----field----
+field: {50B0A8D5-91BA-4B02-AA4C-CDC8AA682052}
+name: Source
+key: source
+content-length: 77
+
+{3DDA7112-5A5B-4563-8266-5E36104E4031}|{A2F9C5E7-6B8D-4BAB-88FA-635FA73D5F27}
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150626T082318Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b8d31a78-75df-4614-9b7d-0b8450ea0f48
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150626T120754:635709172742536386Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

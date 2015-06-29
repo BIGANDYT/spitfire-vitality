@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {5C3102C0-A7E9-4FD7-86A3-2D51654DAC27}
+database: master
+path: /sitecore/content/Microsoft/Home/Products/Xbox/Xbox 360 Games/BioShock
+parent: {3C77AF3D-DC32-468A-9A79-6198B462BDB1}
+name: BioShock
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FD46617-A947-4964-9B92-67B3FBE68B26}
+templatekey: Product
+
+----version----
+language: en
+version: 1
+revision: 52ce0973-b1e3-492d-ace9-c1402c30fdd6
+
+----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 265
+
+<image mediapath="/Images/Product Images/Xbox/Xbox 360/xb360_bioshock" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Images/Product Images/Xbox/Xbox 360/xb360_bioshock" mediaid="{11309B13-961A-4E54-987F-EE41E14C917A}" />
+----field----
+field: {1B483E91-D8C4-4D19-BA03-462074B55936}
+name: ShortTitle
+key: shorttitle
+content-length: 8
+
+BioShock
+----field----
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
+name: Title
+key: title
+content-length: 8
+
+BioShock
+----field----
+field: {8AD51C12-5704-4850-B8F3-134BDCFAFD49}
+name: Tags
+key: tags
+content-length: 38
+
+{E950F1A8-CDD8-408C-83F7-669260FDB79E}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150305T120404Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+52ce0973-b1e3-492d-ace9-c1402c30fdd6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150625T204053:635708616539369282Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

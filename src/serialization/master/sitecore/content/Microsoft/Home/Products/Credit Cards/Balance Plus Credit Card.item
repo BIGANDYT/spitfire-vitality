@@ -1,0 +1,113 @@
+----item----
+version: 1
+id: {35E1A622-C5D0-4DD2-982D-9E036DF2DD11}
+database: master
+path: /sitecore/content/Microsoft/Home/Products/Credit Cards/Balance Plus Credit Card
+parent: {0B4A7DD7-1D2C-48F7-8350-18A3A75FE019}
+name: Balance Plus Credit Card
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FD46617-A947-4964-9B92-67B3FBE68B26}
+templatekey: Product
+
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{B2FD4E6E-7FE0-4A96-8669-3BA9C5498ED1}
+----version----
+language: en
+version: 1
+revision: 74699f0c-1fd2-40f3-8852-2131a6316561
+
+----field----
+field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
+name: Body
+key: body
+content-length: 643
+
+<h2>LOW RATE BALANCE TRANSFERS.</h2>
+<h3>The clear and simple way to save money. Pay down higher rate balances with a low 6.94% p.a. variable on balance transfers.</h3><br>
+<p><em class="fa fa-check-square-o"></em> For people with an excellent credit rating</p>
+<p><em class="fa fa-check-square-o"></em> £2,000 to £12,000 credit limit</p>
+<p><em class="fa fa-check-square-o"></em> 6.94% p.a. variable on balance transwers</p>
+<p><em class="fa fa-check-square-o"></em> If accepted, the rates you apply for are the rates you get</p>
+<p><em class="fa fa-check-square-o"></em> Transfer balances at any time for the new same low rate and no fee</p>
+----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{F2C68BC1-1BE6-4C2E-819F-FD2414436D3A}" />
+----field----
+field: {1B483E91-D8C4-4D19-BA03-462074B55936}
+name: ShortTitle
+key: shorttitle
+content-length: 24
+
+Balance Plus Credit Card
+----field----
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
+name: Title
+key: title
+content-length: 24
+
+Balance Plus Credit Card
+----field----
+field: {DEC38F42-43BD-4E9F-9C34-BAA5B57F0523}
+name: Summary
+key: summary
+content-length: 122
+
+The clear and simple way to save money. Pay down higher rate balances with a low 6.94% p.a. variable on balance transfers.
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 920
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{77DC072C-1019-428C-99A8-83D64FD54FA7}"><p:d /></r><r uid="{7D3D17B8-0250-4E44-A7EC-BC9F97D96CC6}" p:before="r[@uid='{E19DA30E-3C4F-4649-89E2-2ACE9B9DD2B6}']" s:ds="" s:id="{6025E71B-360F-4C6E-A2CA-8F47F30CEDD6}" s:par="" s:ph="/body/maincontent/content" /><r uid="{B4A479AC-7AC7-4B96-A221-6DF21BBAA7C7}"><p:d /></r><r uid="{B6785A2B-B2C7-4908-82D3-4EC03864D632}" p:before="r[@uid='{F62C3253-C477-4C02-B4C9-43257812D764}']" s:ds="" s:id="{E61FECF4-D727-4549-B6EC-DDAC7AC61555}" s:par="" s:ph="maincontent" /><r uid="{F62C3253-C477-4C02-B4C9-43257812D764}" s:id="{F8271E87-8557-4597-8C5D-1358B645B3B2}" s:ph="onecontent" /><r uid="{1F39581D-7CBD-4663-A6DE-4E162FD3A464}" s:ds="" s:id="{6D3B4E7D-FEF8-4110-804A-B56605688830}" s:par="FormID=%7bF8271E87-8557-4597-8C5D-1358B645B3B2%7d" s:ph="/body/maincontent/rightcontent" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150310T155051Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+74699f0c-1fd2-40f3-8852-2131a6316561
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150625T204053:635708616533775316Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{4AC5E48B-7A3E-462C-BF8E-1B87BF7E14B3}
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

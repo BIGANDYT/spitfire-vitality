@@ -2,7 +2,7 @@
 version: 1
 id: {93A0E2E4-F257-4AF8-92D2-A81BDCBB35FE}
 database: master
-path: /sitecore/templates/Spitfire/Core/Data/Section/Navigation
+path: /sitecore/templates/Spitfire/Core/Pages/Section/Navigation
 parent: {F76F859A-F34F-45AF-AD50-FE74CCA41D25}
 name: Navigation
 master: {00000000-0000-0000-0000-000000000000}
