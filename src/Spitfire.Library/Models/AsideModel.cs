@@ -30,8 +30,8 @@
         public override void Initialize(Rendering rendering)
         {
             base.Initialize(rendering);
-            Id = rendering.Parameters["Id"];
-            SubCssClass = rendering.Parameters["SubCssClass"];
+            this.Id = rendering.Parameters["Id"];
+            this.SubCssClass = rendering.Parameters["SubCssClass"];
         }
     }
 }

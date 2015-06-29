@@ -12,21 +12,32 @@
         /// <summary>
         /// Get Title color setting
         /// </summary>
+        /// <value>
+        /// </value>
         public string TitleColor { get; private set; }
 
         /// <summary>
         /// Set Title font size
         /// </summary>
+        /// <value>
+        /// </value>
         public string TitleFontSize { get; private set; }
 
         /// <summary>
-        /// Set background color
+        /// Gets background color
         /// </summary>
+        /// <value>
+        /// Background Color value
+        /// </value>
         public string Background { get; private set; }
 
-        public override void Initialize(Rendering rendering)
+        /// <summary>
+        /// Rendering Initialize
+        /// </summary>
+        /// <param name="rendering">rendering to intialize
+        /// </param>
+        public void Initialize(Rendering rendering)
         {
-            base.Initialize(rendering);
             NameValueCollection parameters = null;
             if (!string.IsNullOrEmpty(rendering["Parameters"]))
             {
