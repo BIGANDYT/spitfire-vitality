@@ -15,19 +15,28 @@
     public class OwlTeaserModel : IRenderingModel
     {
         /// <summary>
-        /// Datasource Item
+        /// Gets Datasource Item
         /// </summary>
+        /// <value>
+        /// Datasource Item
+        /// </value>
         public Item Item { get; private set; }
 
         /// <summary>
-        /// return a list of selected items for owlTeaser component
+        /// Gets the list of selected items for owlTeaser component
         /// </summary>
+        /// <value>
+        /// OwlTeaser Seleted Items
+        /// </value>
         public IList<Item> OwlTeasers { get; private set; }
 
         /// <summary>
-        /// Users can choose to display or hide the social icons with this parameter
+        /// Gets display value hide or show: Users can choose to display or hide the social icons with this parameter
         /// </summary>
-        public string SocialDisplay { get; set; }
+        /// <value>
+        /// Hide or show for Social icons
+        /// </value>
+        public string SocialDisplay { get; private set; }
 
         /// <summary>
         /// The rendering of the context page

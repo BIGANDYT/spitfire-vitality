@@ -1,51 +1,99 @@
 ﻿namespace Spitfire.Library.Models
 {
     using Sitecore;
-    using Sitecore.Data.Fields;
     using Sitecore.Mvc.Presentation;
-    using Sitecore.Resources.Media;
     using Spitfire.Library.Constants;
     using Spitfire.SitecoreExtensions.Extensions;
-
     using Convert = System.Convert;
 
+    /// <summary>
+    /// Banner Model
+    /// </summary>
     public class BannerModel : IRenderingModel
     {
-        public string BackgroundImageUrl { get; set; }
+        /// <summary>
+        /// Gets Background Image Url value
+        /// </summary>
+        /// <value>
+        /// Background Image Url value
+        /// </value>
+        public string BackgroundImageUrl { get; private set; }
 
-        public string TitleColor { get; set; }
+        /// <summary>
+        /// Gets Title Color value
+        /// </summary>
+        /// <value>
+        /// Title Color value
+        /// </value>
+        public string TitleColor { get; private set; }
 
-        public string SubTitleColor { get; set; }
+        /// <summary>
+        /// Gets SubTitle Color value
+        /// </summary>
+        /// <value>
+        /// SubTitle color value
+        /// </value>
+        public string SubTitleColor { get; private set; }
 
-        public string LinkColor { get; set; }
+        /// <summary>
+        /// Gets Link Color value
+        /// </summary>
+        /// <value>
+        /// Link color value
+        /// </value>
+        public string LinkColor { get; private set; }
 
-        public int LogoTop { get; set; }
+        /// <summary>
+        /// Gets Logo position to Top
+        /// </summary>
+        /// <value>
+        /// Logo to top css style value
+        /// </value>
+        public int LogoTop { get; private set; }
 
-        public int LogoLeft { get; set; }
+        /// <summary>
+        /// Gets Logo position to Left
+        /// </summary>
+        /// <value>
+        /// Logo to left css sytle value
+        /// </value>
+        public int LogoLeft { get; private set; }
 
-        public int BannerHeight { get; set; }
+        /// <summary>
+        /// Gets Banner height value
+        /// </summary>
+        /// <value>
+        /// Banner height value
+        /// </value>
+        public int BannerHeight { get; private set; }
 
+        /// <summary>
+        /// Initilze Rendering              
+        /// </summary>
+        /// <param name="rendering">Rendering to Initialze
+        /// </param>
         public void Initialize(Rendering rendering)
         {
             if (!string.IsNullOrEmpty(rendering.DataSource))
             {
                 var datasource = Context.Database.GetItem(rendering.DataSource);
 
-                BackgroundImageUrl = datasource.ImageUrl(SpitfireConstants.FieldConstants.Banner.BackgroundImage);
+                this.BackgroundImageUrl = datasource.ImageUrl(SpitfireConstants.FieldConstants.Banner.BackgroundImage);
 
-                TitleColor = datasource[SpitfireConstants.FieldConstants.Banner.TitleColor];
-                SubTitleColor = datasource[SpitfireConstants.FieldConstants.Banner.SubtitleColor];
-                LinkColor = datasource[SpitfireConstants.FieldConstants.Banner.LinkColor];
+                this.TitleColor = datasource[SpitfireConstants.FieldConstants.Banner.TitleColor];
+                this.SubTitleColor = datasource[SpitfireConstants.FieldConstants.Banner.SubtitleColor];
+                this.LinkColor = datasource[SpitfireConstants.FieldConstants.Banner.LinkColor];
                 var y = double.Parse(datasource[SpitfireConstants.FieldConstants.Banner.LogoTop]);
-                LogoTop = Convert.ToInt32(30 * y);
+                this.LogoTop = Convert.ToInt32(30 * y);
                 var x = double.Parse(datasource[SpitfireConstants.FieldConstants.Banner.LogoLeft]);
-                LogoLeft = Convert.ToInt32(8 * x);
+                this.LogoLeft = Convert.ToInt32(8 * x);
                 var bannerHeightValue = datasource[SpitfireConstants.FieldConstants.Banner.BannerHeight];
-                if (bannerHeightValue != null)
+                if (bannerHeightValue == null)
                 {
-                    var z = double.Parse(bannerHeightValue);
-                    BannerHeight = Convert.ToInt32(z * 100);
+                    return;
                 }
+                var z = double.Parse(bannerHeightValue);
+                this.BannerHeight = Convert.ToInt32(z * 100);
             }
         }
     }

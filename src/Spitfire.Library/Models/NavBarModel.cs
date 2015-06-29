@@ -7,15 +7,33 @@
     using Sitecore.Mvc.Presentation;
     using Spitfire.Library.Constants;
 
+    /// <summary>
+    /// Nav bar component
+    /// </summary>
     public class NavBarModel : IRenderingModel
     {
         /// <summary>
-        /// The item containing the logo
+        /// Gets The item containing the logo
         /// </summary>
+        /// <value>
+        /// Root item which contains navigation items.
+        /// </value>
         public Item NavRoot { get; private set; }
 
+        /// <summary>
+        /// Gets Background color value
+        /// </summary>
+        /// <value>
+        /// Background color value
+        /// </value>
         public string BackgroundColor { get; private set; }
 
+        /// <summary>
+        /// Gets all Navigation items as a list of Sitecore items.
+        /// </summary>
+        /// <value>
+        /// Navigation items
+        /// </value>
         public IList<Item> NavItems { get; private set; }
         
         /// <summary>

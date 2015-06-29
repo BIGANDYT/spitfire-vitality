@@ -12,22 +12,35 @@
         /// <summary>
         /// Gets the Title color setting
         /// </summary>
+        /// <value>
+        /// Title Color value
+        /// </value>
         public string TitleColor { get; private set; }
 
         /// <summary>
         /// Gets Title font size
         /// </summary>
+        /// <value>
+        /// Font size of the Title
+        /// </value>
         public string TitleFontSize { get; private set; }
 
         /// <summary>
         /// Gets background color
         /// </summary>
+        /// <value>
+        /// Background color
+        /// </value>
         public string Background { get; private set; }
 
+        /// <summary>
+        /// Intalize Rendering
+        /// </summary>
+        /// <param name="rendering">Rendering to initialize
+        /// </param>
         public override void Initialize(Rendering rendering)
         {
             base.Initialize(rendering);
-
             NameValueCollection parameters = null;
             if (!string.IsNullOrEmpty(rendering["Parameters"]))
             {
@@ -37,9 +50,9 @@
 
             if (parameters != null && parameters.Count > 0)
             {
-                TitleColor = parameters["TitleColor"];
-                TitleFontSize = parameters["TitleFontSize"];
-                Background = parameters["Background"];
+                this.TitleColor = parameters["TitleColor"];
+                this.TitleFontSize = parameters["TitleFontSize"];
+                this.Background = parameters["Background"];
             }
         }
     }

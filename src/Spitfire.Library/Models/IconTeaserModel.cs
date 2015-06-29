@@ -10,20 +10,34 @@
     public class IconTeaserModel : RenderingModel
     {
         /// <summary>
-        /// Get Title color setting
+        /// Gets Title color setting
         /// </summary>
+        /// <value>
+        /// Title Color value
+        /// </value>
         public string TitleColor { get; private set; }
 
         /// <summary>
-        /// Set Title font size
+        /// Gets Title font size
         /// </summary>
+        /// <value>
+        /// Title Font Size value
+        /// </value>
         public string TitleFontSize { get; private set; }
 
         /// <summary>
-        /// Set background color
+        /// Gets background color
         /// </summary>
+        /// <value>
+        /// Background Color value
+        /// </value>
         public string Background { get; private set; }
 
+        /// <summary>
+        /// Rendering Initialize
+        /// </summary>
+        /// <param name="rendering">Rendering to intialize
+        /// </param>
         public override void Initialize(Rendering rendering)
         {
             base.Initialize(rendering);
@@ -36,9 +50,9 @@
 
             if (parameters != null && parameters.Count > 0)
             {
-                TitleColor = parameters["TitleColor"];
-                TitleFontSize = parameters["TitleFontSize"];
-                Background = parameters["Background"];
+                this.TitleColor = parameters["TitleColor"];
+                this.TitleFontSize = parameters["TitleFontSize"];
+                this.Background = parameters["Background"];
             }
         }
     }

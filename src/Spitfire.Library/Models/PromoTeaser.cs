@@ -4,25 +4,48 @@
     using Sitecore.Mvc.Presentation;
     using Sitecore.Web;
 
+    /// <summary>
+    /// Promotion Teaser component
+    /// </summary>
     public class PromoTeaser : RenderingModel
     {
         /// <summary>
-        /// Get Title color setting
+        /// Gets Title color setting
         /// </summary>
+        /// <value>
+        /// Title color value
+        /// </value>
         public string TitleColor { get; private set; }
 
         /// <summary>
-        /// Set Title font size
+        /// Gets Title font size
         /// </summary>
+        /// <value>
+        /// Title Font size value
+        /// </value>
         public string TitleFontSize { get; private set; }
 
         /// <summary>
-        /// Set background color
+        /// Gets background color
         /// </summary>
+        /// <value>
+        /// Background color value
+        /// </value>
         public string Background { get; private set; }
 
+        /// <summary>
+        /// Gets css class
+        /// </summary>
+        /// <value>
+        /// Css class value
+        /// </value>
         public string CssClassValue { get; private set; }
 
+        /// <summary>
+        /// Initialize rendering
+        /// </summary>
+        /// <param name="rendering">Rendering to intialze
+        /// </param>
         public override void Initialize(Rendering rendering)
         {
             base.Initialize(rendering);
@@ -34,13 +57,14 @@
                 parameters = WebUtil.ParseUrlParameters(rawParameters);
             }
 
-            if (parameters != null && parameters.Count > 0)
+            if (parameters == null || parameters.Count <= 0)
             {
-                TitleColor = parameters["TitleColor"];
-                TitleFontSize = parameters["TitleFontSize"];
-                Background = parameters["Background"];
-                CssClassValue = parameters["CssClass"];
+                return;
             }
+            this.TitleColor = parameters["TitleColor"];
+            this.TitleFontSize = parameters["TitleFontSize"];
+            this.Background = parameters["Background"];
+            this.CssClassValue = parameters["CssClass"];
         }
     }
 }
