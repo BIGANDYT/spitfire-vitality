@@ -20,13 +20,13 @@ aside
 field: {E391B526-D0C5-439D-803E-17512EAE6222}
 name: Allowed Controls
 key: allowed controls
-content-length: 116
+content-length: 38
 
-{7D36765F-0CE3-4749-A9CF-E8CACF7207F5}|{170389AD-1BD5-4AC7-AB66-8B282EAC8F1B}|{C6836974-C394-49AD-96FC-7693ACCCD0CD}
+{7D36765F-0CE3-4749-A9CF-E8CACF7207F5}
 ----version----
 language: en
 version: 1
-revision: fede6494-f690-4449-8c4f-4269bb7490e7
+revision: 1f233ede-05b4-4dc4-bb50-e2b1769fa4c1
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -41,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-fede6494-f690-4449-8c4f-4269bb7490e7
+1f233ede-05b4-4dc4-bb50-e2b1769fa4c1
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150509T202631:635667999914652292Z
+20150630T141338:635712704188899148Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
