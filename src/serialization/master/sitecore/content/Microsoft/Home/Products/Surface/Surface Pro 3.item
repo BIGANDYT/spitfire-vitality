@@ -26,7 +26,7 @@ content-length: 280
 ----version----
 language: en
 version: 1
-revision: df103680-c948-4e96-99db-93a72748d5e7
+revision: 4fce8338-adff-4958-8237-aa1700741c68
 
 ----field----
 field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
@@ -70,13 +70,6 @@ content-length: 65
 
 The new 12-inch Pro 3 is the best of a laptop, best of a tablet. 
 ----field----
-field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
-name: __Final Renderings
-key: __final renderings
-content-length: 898
-
-<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{DAD517FC-7E29-4974-9EAF-828511333B60}" p:before="r[@uid='{A2136CA2-997A-43DF-BD8C-64D80D04DE70}']" s:ds="{737EA584-6528-41D0-B59A-0C87E38C5E12}" s:id="{82702046-F391-4F9E-B742-0C24B8CC34E7}" s:ph="/body/maincontent/content" /><r uid="{A2136CA2-997A-43DF-BD8C-64D80D04DE70}" p:before="r[@uid='{7CF707C6-E6F2-4AF1-82E2-568363E505C4}']" s:ds="" s:id="{6D3B4E7D-FEF8-4110-804A-B56605688830}" s:par="FormID=%7bF8271E87-8557-4597-8C5D-1358B645B3B2%7d" s:ph="/body/maincontent/rightcontent" /><r uid="{7CF707C6-E6F2-4AF1-82E2-568363E505C4}" p:before="r[@uid='{F8272418-B868-4112-8693-9567626E647C}']" s:ds="" s:id="{53C4C7C6-98E3-49B8-9FF8-39AC963228C2}" s:par="" s:ph="maincontent" /><r uid="{F8272418-B868-4112-8693-9567626E647C}" s:id="{FEDC3E28-2559-40F8-A08B-76BC7B42BB61}" s:ph="/body/maincontent" /></d></r>
-----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
@@ -89,14 +82,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-df103680-c948-4e96-99db-93a72748d5e7
+4fce8338-adff-4958-8237-aa1700741c68
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150629T160410:635711906501828121Z
+20150630T100310:635712553908566555Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

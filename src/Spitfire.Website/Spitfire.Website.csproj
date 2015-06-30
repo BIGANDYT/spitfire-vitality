@@ -4947,7 +4947,6 @@
     <Content Include="Views\Core\Components\VideoBanner2.cshtml" />
     <Content Include="Views\Core\Components\VideoResponsive.cshtml" />
     <Content Include="Views\Core\Components\VideoSidebar.cshtml" />
-    <Content Include="Views\Core\Components\XboxGamesLeftMenu.cshtml" />
     <Content Include="Views\Layouts\Metronic\Template\CssColour.cshtml" />
     <Content Include="Views\Layouts\Metronic\Template\Footer.cshtml" />
     <Content Include="Views\Layouts\Metronic\Template\Header.cshtml" />

@@ -136,15 +136,15 @@ content-length: 5
 ----version----
 language: en
 version: 2
-revision: 74f7b008-7858-4e71-9aa0-930e0a0f6de9
+revision: dd540975-dd8f-4387-a4b7-6adb918986ba
 
 ----field----
 field: {7545B38C-64BE-443B-9669-44A4B9ECE9FD}
 name: About us
 key: about us
-content-length: 155
+content-length: 153
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam sit nonummy nibh euismod tincidunt ut laoreet dolore magna aliquarm erat sit volutpat. 2
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam sit nonummy nibh euismod tincidunt ut laoreet dolore magna aliquarm erat sit volutpat.
 ----field----
 field: {9BEB07A6-CD1B-46FA-ACC5-13E58241D6C2}
 name: Twitter feed
@@ -235,14 +235,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-74f7b008-7858-4e71-9aa0-930e0a0f6de9
+dd540975-dd8f-4387-a4b7-6adb918986ba
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150616T134852:635700593325305749Z
+20150630T105208:635712583287779472Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

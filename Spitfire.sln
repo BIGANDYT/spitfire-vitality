@@ -33,14 +33,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{1E906505
 		build\vars.cmd = build\vars.cmd
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{91562E17-20FD-4E73-9F84-FE1F0EA1896B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing.Library", "src\Testing\Testing.Library\Testing.Library.csproj", "{A914B898-9193-49AB-9321-5E0A28C9A4AA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebsiteTests", "src\Testing\WebsiteTests\WebsiteTests.csproj", "{2D494870-1DB2-4805-A0BC-A8F4D11151AA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndToEndTests", "src\Testing\EndToEndTests\EndToEndTests.csproj", "{69995715-F9E7-499C-A99F-620D5E33A11E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spitfire.SIM", "src\Spitfire.SIM\Spitfire.SIM.csproj", "{6F85DEE3-3AF3-4598-93E0-1CE99401E519}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spitfire.Website.Microsoft", "src\Spitfire.Website\Spitfire.Website.Microsoft.csproj", "{B5A44974-D74C-4EFE-8008-20744546F664}"
@@ -63,18 +55,6 @@ Global
 		{3CE5C5A8-C7B1-4D88-B487-6A3BED1891DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CE5C5A8-C7B1-4D88-B487-6A3BED1891DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CE5C5A8-C7B1-4D88-B487-6A3BED1891DF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A914B898-9193-49AB-9321-5E0A28C9A4AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A914B898-9193-49AB-9321-5E0A28C9A4AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A914B898-9193-49AB-9321-5E0A28C9A4AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A914B898-9193-49AB-9321-5E0A28C9A4AA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2D494870-1DB2-4805-A0BC-A8F4D11151AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2D494870-1DB2-4805-A0BC-A8F4D11151AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2D494870-1DB2-4805-A0BC-A8F4D11151AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2D494870-1DB2-4805-A0BC-A8F4D11151AA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{69995715-F9E7-499C-A99F-620D5E33A11E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{69995715-F9E7-499C-A99F-620D5E33A11E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{69995715-F9E7-499C-A99F-620D5E33A11E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{69995715-F9E7-499C-A99F-620D5E33A11E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6F85DEE3-3AF3-4598-93E0-1CE99401E519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6F85DEE3-3AF3-4598-93E0-1CE99401E519}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F85DEE3-3AF3-4598-93E0-1CE99401E519}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -86,10 +66,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{A914B898-9193-49AB-9321-5E0A28C9A4AA} = {91562E17-20FD-4E73-9F84-FE1F0EA1896B}
-		{2D494870-1DB2-4805-A0BC-A8F4D11151AA} = {91562E17-20FD-4E73-9F84-FE1F0EA1896B}
-		{69995715-F9E7-499C-A99F-620D5E33A11E} = {91562E17-20FD-4E73-9F84-FE1F0EA1896B}
 	EndGlobalSection
 EndGlobal

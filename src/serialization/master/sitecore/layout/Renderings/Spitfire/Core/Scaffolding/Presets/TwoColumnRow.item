@@ -30,10 +30,17 @@ key: open properties after add
 content-length: 1
 
 1
+----field----
+field: {E441ABE7-2CA3-4640-AE26-3789967925D7}
+name: Compatible Renderings
+key: compatible renderings
+content-length: 77
+
+{53C4C7C6-98E3-49B8-9FF8-39AC963228C2}|{01B234F0-4EC9-408C-9C5F-2319D1465678}
 ----version----
 language: en
 version: 1
-revision: 85b62806-b48f-4163-852d-b6efb85eaca5
+revision: e17fc552-36e4-46f6-9638-23a1b09acc07
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -48,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-85b62806-b48f-4163-852d-b6efb85eaca5
+e17fc552-36e4-46f6-9638-23a1b09acc07
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150629T150917:635711873576484364Z
+20150630T101044:635712558449558812Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
