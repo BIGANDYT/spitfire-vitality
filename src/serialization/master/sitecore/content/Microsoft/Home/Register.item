@@ -24,6 +24,13 @@ content-length: 3
 
 800
 ----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 145
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{C8F9EF84-39E2-4E07-A5DB-61B0FFF2849B}" /></r>
+----field----
 field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
 name: __Security
 key: __security
@@ -33,7 +40,7 @@ ar|sitecore\hca demo|pe|-item:create|-item:write|-item:delete|-item:rename|pd|-i
 ----version----
 language: en
 version: 1
-revision: 48f7c52f-0c54-49fa-8fd0-25abfb6268ce
+revision: b151577d-179c-4eb4-9e2d-00de0d407019
 
 ----field----
 field: {1B483E91-D8C4-4D19-BA03-462074B55936}
@@ -53,9 +60,9 @@ Register
 field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
 name: __Final Renderings
 key: __final renderings
-content-length: 890
+content-length: 301
 
-<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{FFE79BBD-1985-415C-B331-7A0EB52B4646}" p:before="r[@uid='{1AE17AAD-70C8-4EE6-820D-8782C9D6DF65}']" s:id="{8447FCB0-B824-4841-993D-D2C1F4F0B248}" s:ph="/body/maincontent/leftcontent" /><r uid="{1AE17AAD-70C8-4EE6-820D-8782C9D6DF65}" p:before="r[@uid='{E19DA30E-3C4F-4649-89E2-2ACE9B9DD2B6}']" s:ds="{69CEAF5F-1976-443C-B246-F64807B6C49B}" s:id="{3F602243-773C-4961-9521-06B8F99E4E1E}" s:par="" s:ph="/body/maincontent/rightcontent" /><r uid="{FC4C647D-C412-4C43-BD57-70E24BD6EAB7}" p:before="r[@uid='{0FC14CA1-5BE9-41D7-B23C-39268C1BB05D}']" s:id="{84206C22-9482-4716-BBEC-A3B152D0A457}" s:ph="/body/maincontent" /><r uid="{0FC14CA1-5BE9-41D7-B23C-39268C1BB05D}" s:ds="" s:id="{6D3B4E7D-FEF8-4110-804A-B56605688830}" s:par="FormID=%7b8447FCB0-B824-4841-993D-D2C1F4F0B248%7d" s:ph="content" /></d></r>
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{9B18B319-4067-41FE-B00B-89C77531C46D}" s:ds="" s:id="{53C4C7C6-98E3-49B8-9FF8-39AC963228C2}" s:par="FullWidth&amp;ShowTitle=1&amp;ShowBreadcrumb=1" s:ph="content_00000000-0000-0000-0000-000000000000" /></d></r>
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -69,14 +76,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-48f7c52f-0c54-49fa-8fd0-25abfb6268ce
+b151577d-179c-4eb4-9e2d-00de0d407019
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150625T180304:635708521848389442Z
+20150630T171617:635712813775635015Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
