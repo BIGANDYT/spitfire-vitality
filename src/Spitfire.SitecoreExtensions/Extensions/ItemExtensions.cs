@@ -8,8 +8,22 @@
     using Sitecore.Resources.Media;
     using Sitecore.Xml;
 
+    /// <summary>
+    /// Extension of Sitecore iems. A few common used fields of Sitecore Items. Make life slightly easier.
+    /// </summary>
     public static class ItemExtensions
     {
+        /// <summary>
+        /// Url of Link items.
+        /// </summary>
+        /// <param name="item">
+        /// Sitecore item.
+        /// </param>
+        /// <returns>
+        /// Link Item Url value.
+        /// </returns>
+        /// <exception cref="ArgumentNullException">Item does not exist excpetion.
+        /// </exception>
         public static string Url(this Item item)
         {
             if (item == null)
@@ -20,6 +34,21 @@
             return LinkManager.GetItemUrl(item);
         }
 
+        /// <summary>
+        /// Sitecore Image item Url value.
+        /// </summary>
+        /// <param name="item">Sitecore Image item
+        /// </param>
+        /// <param name="imageFieldName">Image Item field name
+        /// </param>
+        /// <param name="options">Image options value
+        /// </param>
+        /// <returns>
+        /// Image item Url.
+        /// </returns>
+        /// <exception cref="ArgumentNullException">
+        /// Throw item does not exist excpetion
+        /// </exception>
         public static string ImageUrl(this Item item, string imageFieldName, MediaUrlOptions options = null)
         {
             if (item == null)
@@ -41,6 +70,18 @@
             return imageField.ImageUrl(options);
         }
 
+        /// <summary>
+        /// Get Image Url
+        /// </summary>
+        /// <param name="imageField">Item imagefield information
+        /// </param>
+        /// <param name="options">Image item options value
+        /// </param>
+        /// <returns>
+        /// Image url value of Imagefield
+        /// </returns>
+        /// <exception cref="ArgumentNullException">Item does not exist exception.
+        /// </exception>
         public static string ImageUrl(this ImageField imageField, MediaUrlOptions options = null)
         {
             if (imageField == null || imageField.MediaItem == null)
@@ -67,6 +108,20 @@
             return HashingUtils.ProtectAssetUrl(MediaManager.GetMediaUrl(imageField.MediaItem, options));
         }
 
+        /// <summary>
+        /// Image Url value of the rendering image item.
+        /// </summary>
+        /// <param name="rendering"> Rendering which contains the image item.
+        /// </param>
+        /// <param name="fieldName"> Image item field name
+        /// </param>
+        /// <param name="options"> Image item options value
+        /// </param>
+        /// <returns>
+        /// Image item Image url
+        /// </returns>
+        /// <exception cref="ArgumentNullException">Item does not exist exception
+        /// </exception>
         public static string ImageUrl(this Rendering rendering, string fieldName, MediaUrlOptions options = null)
         {
             if (rendering == null)
@@ -123,6 +178,18 @@
             return HashingUtils.ProtectAssetUrl(MediaManager.GetMediaUrl(imageItem, options));
         }
 
+        /// <summary>
+        /// Get attached items on a Sitecore item.
+        /// </summary>
+        /// <param name="item">Parent item.
+        /// </param>
+        /// <param name="fieldName"> Field name string value.
+        /// </param>
+        /// <returns>
+        /// Attached items as Item array.
+        /// </returns>
+        /// <exception cref="ArgumentNullException">Item does not exist exception
+        /// </exception>
         public static Item[] TargetItems(this Item item, string fieldName)
         {
             if (item == null)
@@ -139,6 +206,18 @@
             return mf == null ? new Item[0] : mf.GetItems();
         }
 
+        /// <summary>
+        /// Get item's ancestor with defined template.
+        /// </summary>
+        /// <param name="item">Parent item.
+        /// </param>
+        /// <param name="templateKey">Template id value
+        /// </param>
+        /// <returns>
+        /// Ancestor of the Item
+        /// </returns>
+        /// <exception cref="ArgumentNullException">Item does not exit exception
+        /// </exception>
         public static Item GetAncestorOfTemplate(this Item item, string templateKey)
         {
             if (item == null)

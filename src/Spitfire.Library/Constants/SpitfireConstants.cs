@@ -178,8 +178,14 @@
             /// </summary>
             public static class NavItem
             {
+                /// <summary>
+                /// Navigation item linkname field id
+                /// </summary>
                 public const string LinkName = "{68D478EF-F8B6-44EA-B6F3-1D4D191584CE}";
 
+                /// <summary>
+                /// Navigation item link anchor for # value of the link
+                /// </summary>
                 public const string LinkAnchor = "{B7A2263F-59A0-4BD5-A94C-508D35155DF5}";
             }
 
@@ -188,7 +194,14 @@
             /// </summary>
             public static class Footer
             {
+                /// <summary>
+                /// Footer background image field id
+                /// </summary>
                 public const string BackgroundImage = "{4A68E70A-5A57-412E-8B32-68D1D6557C32}";
+
+                /// <summary>
+                /// Footer height field
+                /// </summary>
                 public const string FooterHeight = "{61F44A61-2D07-4E92-B38C-FFB94190B745}";
             }
 
@@ -201,7 +214,6 @@
                 /// The field id of the Source field
                 /// </summary>
                 public const string Source = "{50B0A8D5-91BA-4B02-AA4C-CDC8AA682052}";
-
             }
         }
     }

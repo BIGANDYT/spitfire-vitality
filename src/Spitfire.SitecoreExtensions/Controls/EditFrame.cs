@@ -25,7 +25,7 @@
         private readonly HtmlTextWriter htmlWriter;
 
         /// <summary>
-        /// Renders the first part of the frame
+        /// Initializes a new instance of the <see cref="EditFrameRendering"/> class. Renders the first part of the frame
         /// </summary>
         /// <param name="writer">The textwriter</param>
         /// <param name="dataSource">The datasource to use</param>

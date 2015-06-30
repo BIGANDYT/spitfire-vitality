@@ -2,8 +2,16 @@
 {
     using System.Web.Optimization;
 
+    /// <summary>
+    /// Bundle javascripts and css files
+    /// </summary>
     public class BundleConfig
     {
+        /// <summary>
+        /// Register all js and css files need to be bundled and minified
+        /// </summary>
+        /// <param name="bundles">Bundel collection bundles.
+        /// </param>
         public static void RegisterBundles(BundleCollection bundles)
         {
             IItemTransform cssFixer = new CssRewriteUrlTransform();

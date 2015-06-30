@@ -32,7 +32,7 @@
         /// <summary>
         /// Enumerable we proxy to
         /// </summary>
-        readonly IEnumerable<T> enumerable;
+        private readonly IEnumerable<T> enumerable;
 
         /// <summary>
         /// Constructor.
@@ -52,6 +52,8 @@
         /// whether it is the first/last of the enumeration, as well as the
         /// current value.
         /// </summary>
+        /// <returns>
+        /// </returns>
         public IEnumerator<Entry> GetEnumerator()
         {
             using (IEnumerator<T> enumerator = this.enumerable.GetEnumerator())

@@ -43,12 +43,12 @@
         public void Initialize(Rendering rendering)
         {
             // Todo: Possibly use Sitecore Search? 
-            NavRoot = MyContext.SiteRoot.Axes.SelectSingleItem("./*/*[@@tid='" + SpitfireConstants.TemplateIds.NavBar + "']");
+            this.NavRoot = MyContext.SiteRoot.Axes.SelectSingleItem("./*/*[@@tid='" + SpitfireConstants.TemplateIds.NavBar + "']");
 
-            if (NavRoot != null)
+            if (this.NavRoot != null)
             {
-                BackgroundColor = NavRoot[SpitfireConstants.FieldConstants.NavBar.BackgroundColor];
-                NavItems = NavRoot.Children.Where(item => string.Equals(item.TemplateID.ToString(), SpitfireConstants.TemplateIds.NavItem, StringComparison.InvariantCultureIgnoreCase)).ToList();
+                this.BackgroundColor = NavRoot[SpitfireConstants.FieldConstants.NavBar.BackgroundColor];
+                this.NavItems = NavRoot.Children.Where(item => string.Equals(item.TemplateID.ToString(), SpitfireConstants.TemplateIds.NavItem, StringComparison.InvariantCultureIgnoreCase)).ToList();
             }
         }
     }

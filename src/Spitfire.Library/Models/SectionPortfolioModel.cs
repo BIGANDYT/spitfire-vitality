@@ -12,7 +12,7 @@
     /// <summary>
     /// Section Portfolio Component
     /// </summary>
-    public class SectionPortfolioModel: RenderingModel
+    public class SectionPortfolioModel : RenderingModel
     {
         /// <summary>
         /// Gets Seleted Portfoilo items.
