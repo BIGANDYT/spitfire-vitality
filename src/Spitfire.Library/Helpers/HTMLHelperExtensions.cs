@@ -8,6 +8,18 @@
     /// </summary>
     public static class HtmlHelperExtensions
     {
+        /// <summary>
+        /// Check whether the Frame is selected. Not in use yet.
+        /// </summary>
+        /// <param name="html"> Htmlhelper html
+        /// </param>
+        /// <param name="controller"> With controller = null
+        /// </param>
+        /// <param name="action">With action = null
+        /// </param>
+        /// <returns>
+        /// IsSelected value
+        /// </returns>
         public static string IsSelected(this HtmlHelper html, string controller = null, string action = null)
         {
             const string CssClass = "active";

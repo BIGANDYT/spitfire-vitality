@@ -61,6 +61,7 @@
             {
                 return;
             }
+
             this.TitleColor = parameters["TitleColor"];
             this.TitleFontSize = parameters["TitleFontSize"];
             this.Background = parameters["Background"];

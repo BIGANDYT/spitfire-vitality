@@ -2,6 +2,9 @@
 {
     using System.Collections.Generic;
 
+    /// <summary>
+    /// Extension methods to make life easier
+    /// </summary>
     public static class CollectionExtensions
     {
         /// <summary>

@@ -74,27 +74,30 @@
         /// </param>
         public void Initialize(Rendering rendering)
         {
-            if (!string.IsNullOrEmpty(rendering.DataSource))
+            if (string.IsNullOrEmpty(rendering.DataSource))
             {
-                var datasource = Context.Database.GetItem(rendering.DataSource);
-
-                this.BackgroundImageUrl = datasource.ImageUrl(SpitfireConstants.FieldConstants.Banner.BackgroundImage);
-
-                this.TitleColor = datasource[SpitfireConstants.FieldConstants.Banner.TitleColor];
-                this.SubTitleColor = datasource[SpitfireConstants.FieldConstants.Banner.SubtitleColor];
-                this.LinkColor = datasource[SpitfireConstants.FieldConstants.Banner.LinkColor];
-                var y = double.Parse(datasource[SpitfireConstants.FieldConstants.Banner.LogoTop]);
-                this.LogoTop = Convert.ToInt32(30 * y);
-                var x = double.Parse(datasource[SpitfireConstants.FieldConstants.Banner.LogoLeft]);
-                this.LogoLeft = Convert.ToInt32(8 * x);
-                var bannerHeightValue = datasource[SpitfireConstants.FieldConstants.Banner.BannerHeight];
-                if (bannerHeightValue == null)
-                {
-                    return;
-                }
-                var z = double.Parse(bannerHeightValue);
-                this.BannerHeight = Convert.ToInt32(z * 100);
+                return;
             }
+
+            var datasource = Context.Database.GetItem(rendering.DataSource);
+
+            this.BackgroundImageUrl = datasource.ImageUrl(SpitfireConstants.FieldConstants.Banner.BackgroundImage);
+
+            this.TitleColor = datasource[SpitfireConstants.FieldConstants.Banner.TitleColor];
+            this.SubTitleColor = datasource[SpitfireConstants.FieldConstants.Banner.SubtitleColor];
+            this.LinkColor = datasource[SpitfireConstants.FieldConstants.Banner.LinkColor];
+            var y = double.Parse(datasource[SpitfireConstants.FieldConstants.Banner.LogoTop]);
+            this.LogoTop = Convert.ToInt32(30 * y);
+            var x = double.Parse(datasource[SpitfireConstants.FieldConstants.Banner.LogoLeft]);
+            this.LogoLeft = Convert.ToInt32(8 * x);
+            var bannerHeightValue = datasource[SpitfireConstants.FieldConstants.Banner.BannerHeight];
+            if (bannerHeightValue == null)
+            {
+                return;
+            }
+
+            var z = double.Parse(bannerHeightValue);
+            this.BannerHeight = Convert.ToInt32(z * 100);
         }
     }
 }
