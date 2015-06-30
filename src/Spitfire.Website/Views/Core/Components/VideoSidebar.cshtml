@@ -10,6 +10,11 @@
 
     if (!images.Any() && !videos.Any())
     {
+        if (Sitecore.Context.PageMode.IsPageEditor)
+        {
+            <div>No images or videos found.</div>
+        }
+        
         return;
     }
 }

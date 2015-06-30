@@ -7,6 +7,10 @@ set sitelocation=%InstanceDirectory%\%sitename%\Website
 @echo on
 tools\curl "http://%sitename%/sitecore_ship/about"
 
+::if not exist "%sitelocation%\bin\Sitecore.WFFM.dll" (
+::	tools\curl -F "path=%InstallerPath%\Web Forms for Marketers 8.0 rev. 150625.zip" "http://%sitename%/sitecore_ship/package/install"
+::)
+
 if not exist "%sitelocation%\bin\ASR.dll" (
 	tools\curl -F "path=%InstallerPath%\Advanced System Reporter 1.7.1 rev. 000000.zip" "http://%sitename%/sitecore_ship/package/install"
 )

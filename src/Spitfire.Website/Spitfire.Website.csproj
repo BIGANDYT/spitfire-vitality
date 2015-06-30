@@ -4883,8 +4883,6 @@
     <Content Include="Views\Layouts\Inspinia\_LogoBar.cshtml" />
     <Content Include="Views\Core\Scaffolding\row.cshtml" />
     <Content Include="Views\Core\Scaffolding\col.cshtml" />
-    <Content Include="Views\Core\Scaffolding\row_4_4_4.cshtml" />
-    <Content Include="Views\Core\Scaffolding\row_3_3_3_3.cshtml" />
     <Content Include="Scripts\plugins\diff_match_patch\COPYING" />
     <Content Include="Scripts\plugins\justified-gallery\README.md" />
     <Content Include="Views\Layouts\Inspinia\Index.cshtml" />

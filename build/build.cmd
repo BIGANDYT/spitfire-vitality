@@ -17,6 +17,7 @@ SET DeployParameters=/p:DeployOnBuild=true /p:DeployDefaultTarget=WebPublish /p:
 SET DevSettings=%InstanceDirectory%\%sitename%\Website\App_Config\Include\zSpitfire\DevSettings.config
 IF NOT EXIST %DevSettings% (
 	copy %DevSettings%.sample %DevSettings%
+	>nul powershell.exe -executionpolicy unrestricted -command set-executionpolicy unrestricted
 	powershell -file build-FixDataFolder.ps1 "%DevSettings%" "%InstanceDirectory%\%sitename%\Data"
 	powershell -file build-FixUnicornFolder.ps1 "%DevSettings%" "%CD%"
 )
