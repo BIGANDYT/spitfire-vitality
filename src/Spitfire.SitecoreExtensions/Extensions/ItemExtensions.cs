@@ -71,14 +71,14 @@
         }
 
         /// <summary>
-        /// Get Image Url
+        /// Gets a hash-protected imageUrl of the specified imageField, optionally with specific MediaUrlOptions
         /// </summary>
-        /// <param name="imageField">Item imagefield information
+        /// <param name="imageField">The ImageField
         /// </param>
-        /// <param name="options">Image item options value
+        /// <param name="options">MediaUrlOptions to supply width/height etc.
         /// </param>
         /// <returns>
-        /// Image url value of Imagefield
+        /// Hash-protected URL of the resized image
         /// </returns>
         /// <exception cref="ArgumentNullException">Item does not exist exception.
         /// </exception>
@@ -130,8 +130,9 @@
             }
 
             // Check if this rendering parameter exists
+            // Also crude check to guess if this is actually XML.
             var parameters = rendering.Parameters[fieldName];
-            if (string.IsNullOrEmpty(parameters))
+            if (string.IsNullOrEmpty(parameters) || !parameters.StartsWith("<"))
             {
                 return string.Empty;
             }
