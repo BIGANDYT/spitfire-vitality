@@ -1,0 +1,153 @@
+----item----
+version: 1
+id: {71D4E316-16DE-4642-8468-F9E92B9F608F}
+database: master
+path: /sitecore/system/Modules/Web Forms for Marketers/Website/Login CRM
+parent: {F1F7AAB6-C8CE-422F-A214-F610C109FA63}
+name: Login CRM
+master: {00000000-0000-0000-0000-000000000000}
+template: {FFB1DA32-2764-47DB-83B0-95B843546A7E}
+templatekey: Form
+
+----field----
+field: {A42052F7-6C18-424A-A2A1-7A72054CB1A6}
+name: Show Title
+key: show title
+content-length: 1
+
+1
+----field----
+field: {46FB324A-9741-43BD-A0C9-5081A39D40AA}
+name: Show Introduction
+key: show introduction
+content-length: 1
+
+0
+----field----
+field: {FAEACD39-B059-4F46-BEC4-74BA468A97B8}
+name: Show Footer
+key: show footer
+content-length: 1
+
+0
+----field----
+field: {A7F779B9-5FCF-45CC-866B-7C973F5C4FAC}
+name: Save Actions
+key: save actions
+content-length: 740
+
+<?xml version="1.0" encoding="utf-16"?>
+<li xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <g id="{E5EABB1F-40BC-45BB-8D87-3B6C239B521B}" displayName="Actions" onclick="javascript:return scForm.postEvent(this,event,'forms:addaction')">
+    <li id="{64017682-D88A-44F4-8790-7FED3A583843}" unicid="4A639EAA951D42B4B8DF7D9D5BCE8ACB">
+      <parameters>&amp;lt;usernamefield&amp;gt;{19A011CE-9638-44B5-BECD-76A8101AC8A0}&amp;lt;/usernamefield&amp;gt;&amp;lt;domainfield&amp;gt;crm&amp;lt;/domainfield&amp;gt;&amp;lt;auditfield&amp;gt;NoAudit&amp;lt;/auditfield&amp;gt;&amp;lt;associateuserwithvisitor&amp;gt;True&amp;lt;/associateuserwithvisitor&amp;gt;</parameters>
+    </li>
+  </g>
+</li>
+----field----
+field: {AF08C32B-F101-44A4-BAAE-677383E8EB02}
+name: Check Actions
+key: check actions
+content-length: 360
+
+<?xml version="1.0" encoding="utf-16"?>
+<li xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <g id="{10FE9225-5E6C-4896-9CD2-880D6D48C4CC}" displayName="Check Actions">
+    <li id="{2D5B5061-747A-4477-BD41-E746EAFEB231}" unicid="89F18F7C96F4469A9470057CE421A115">
+      <parameters />
+    </li>
+  </g>
+</li>
+----field----
+field: {D755DE87-9C62-4EB3-83DC-2293784A3A3F}
+name: Success Mode
+key: success mode
+content-length: 38
+
+{F4D50806-6B89-4F2D-89FE-F77FC0A07D48}
+----field----
+field: {87B37B02-BA9E-4464-AB4E-50737BB1D06E}
+name: User Profile
+key: user profile
+content-length: 38
+
+{047A978A-8E8B-4F08-AFB4-7D24748EFB17}
+----field----
+field: {B0A67B2A-8B07-4E0B-8809-69F751709806}
+name: __Tracking
+key: __tracking
+content-length: 250
+
+<tracking>
+  <event name="Submit Success Event" id="{2FF08489-2A47-4F04-8D8E-0C25A294B2C4}" />
+  <event name="Form Submit" id="{A2C2CF51-9360-4084-9BA0-1A15F1A41096}" />
+  <event name="Login" id="{66722F52-2D13-4DCC-90FC-EA7117CF2298}" />
+</tracking>
+----version----
+language: en
+version: 1
+revision: 5d294bcb-8604-441a-b8a4-3b21817a7ce5
+
+----field----
+field: {86D6A401-5A20-49C9-A2F8-0312398EE946}
+name: Title
+key: title
+content-length: 9
+
+Login CRM
+----field----
+field: {B71296B6-32B9-4703-A8CB-FB7437271103}
+name: Name
+key: name
+content-length: 5
+
+Login
+----field----
+field: {9C4C1994-5140-49D3-BAD7-DB997816F816}
+name: Success Page
+key: success page
+content-length: 92
+
+<link url="/sitecore/content/Home/My Account" id="{C29CB32F-6648-4EBD-852A-707D84D3DEF5}" />
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 9
+
+Login CRM
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 35
+
+20150128T163520:635580597201188671Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5d294bcb-8604-441a-b8a4-3b21817a7ce5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150303T111530:635609781306449138Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -2,8 +2,8 @@
 version: 1
 id: {A0591E7A-2B0A-41C5-99B6-F6CC62331EC2}
 database: master
-path: /sitecore/layout/Placeholder Settings/Spitfire/Core/content
-parent: {BFE83F11-02E0-4D16-B2E8-F1D6C4949F7D}
+path: /sitecore/layout/Placeholder Settings/content
+parent: {1CE3B36C-9B0C-4EB5-A996-BFCB4EAA5287}
 name: content
 master: {00000000-0000-0000-0000-000000000000}
 template: {5C547D4E-7111-4995-95B0-6B561751BF2E}
@@ -16,17 +16,10 @@ key: placeholder key
 content-length: 7
 
 content
-----field----
-field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
-name: __Workflow
-key: __workflow
-content-length: 0
-
-
 ----version----
 language: en
 version: 1
-revision: bbe19111-607b-46ac-8de1-7c476ca959be
+revision: 1e7e7f27-49ef-4f50-a8bf-1d7169289810
 
 ----field----
 field: {1B86697D-60CA-4D80-83FB-7555A2E6CE1C}
@@ -48,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-bbe19111-607b-46ac-8de1-7c476ca959be
+1e7e7f27-49ef-4f50-a8bf-1d7169289810
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20150630T153846:635712755263055500Z
+20150701T091019:635713386190242997Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -63,17 +56,3 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
-----field----
-field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
-name: __Workflow state
-key: __workflow state
-content-length: 0
-
-
-----field----
-field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
-name: __Lock
-key: __lock
-content-length: 0
-
-

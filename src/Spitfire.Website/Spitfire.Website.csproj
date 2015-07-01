@@ -4161,6 +4161,7 @@
     <Content Include="App_Config\Include\zSpitfire\FieldFallback.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="sitecore modules\shell\Web Forms for Marketers\themes\metronic.css" />
     <Content Include="webedit.css" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
