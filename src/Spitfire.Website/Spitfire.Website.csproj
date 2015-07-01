@@ -156,6 +156,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Handlers\Logout.ashx.cs">
+      <DependentUpon>Logout.ashx</DependentUpon>
+    </Compile>
     <Compile Include="Handlers\RegisterGoal.ashx.cs">
       <DependentUpon>RegisterGoal.ashx</DependentUpon>
     </Compile>
@@ -4446,6 +4449,7 @@
     <Content Include="App_Config\Include\zSpitfire\Spitfire.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Handlers\Logout.ashx" />
     <None Include="Properties\PublishProfiles\Spitfire.pubxml" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <None Include="Scripts\jquery-1.8.0.intellisense.js" />

@@ -136,7 +136,7 @@ content-length: 5
 ----version----
 language: en
 version: 2
-revision: dd540975-dd8f-4387-a4b7-6adb918986ba
+revision: ef1fde34-2d7c-4e9b-9ecd-1f008134e02b
 
 ----field----
 field: {7545B38C-64BE-443B-9669-44A4B9ECE9FD}
@@ -158,7 +158,7 @@ name: Copyright
 key: copyright
 content-length: 52
 
-2015 © Sitecore UK Ltd. [Sitecore 8.0 (rev. 150223)]
+2015 © Sitecore UK Ltd. [Sitecore 8.0 (rev. 150625)]
 ----field----
 field: {800B1462-5DA6-44E5-8CED-BF9AED236AE4}
 name: Company
@@ -235,14 +235,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-dd540975-dd8f-4387-a4b7-6adb918986ba
+ef1fde34-2d7c-4e9b-9ecd-1f008134e02b
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150630T105208:635712583287779472Z
+20150701T140854Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
