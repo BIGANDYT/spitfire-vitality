@@ -10,12 +10,19 @@ template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
 templatekey: Template
 
 ----field----
+field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
+name: __Base template
+key: __base template
+content-length: 38
+
+{1930BBEB-7805-471A-A3BE-4858AC7CF696}
+----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
 key: __icon
 content-length: 22
 
-People/16x16/user1.png
+People/32x32/user1.png
 ----version----
 language: da
 version: 1
@@ -66,7 +73,7 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: 1ec63d73-81e5-485a-be76-26782acb14dc
+revision: 097dc38e-2256-4649-9f17-368721ec8f35
 
 ----field----
 field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
@@ -102,14 +109,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1ec63d73-81e5-485a-be76-26782acb14dc
+097dc38e-2256-4649-9f17-368721ec8f35
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150701T105636:635713449961834708Z
+20150702T153246Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

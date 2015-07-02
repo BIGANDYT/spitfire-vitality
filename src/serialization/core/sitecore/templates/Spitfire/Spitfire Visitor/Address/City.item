@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {A1006552-1817-4F0D-8C9F-D996EEAAFC5B}
+id: {BAB69930-5CCC-4C57-BC63-FFF741C04AAD}
 database: core
-path: /sitecore/templates/Spitfire/Spitfire Visitor/Data/Company
-parent: {40F89E14-B7B3-4161-B3EA-DA238C4F58E3}
-name: Company
+path: /sitecore/templates/Spitfire/Spitfire Visitor/Address/City
+parent: {D1A68AAB-140B-4D22-8E23-E1DA04CF6020}
+name: City
 master: {00000000-0000-0000-0000-000000000000}
 template: {455A3E98-A627-4B40-8035-E683A0331AC7}
 templatekey: Template field
@@ -29,11 +29,11 @@ name: __Sortorder
 key: __sortorder
 content-length: 3
 
-600
+700
 ----version----
 language: en
 version: 1
-revision: ca7e93ec-7ad6-42e2-8fdc-9102d7be43b8
+revision: 2ef2e012-efca-4f32-a804-fd085b14d5f1
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -46,9 +46,9 @@ sitecore\admin
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
-content-length: 15
+content-length: 16
 
-20080806T160059
+20150702T153246Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -62,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ca7e93ec-7ad6-42e2-8fdc-9102d7be43b8
+2ef2e012-efca-4f32-a804-fd085b14d5f1
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150129T091439:635581196791743634Z
+20150702T153356Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

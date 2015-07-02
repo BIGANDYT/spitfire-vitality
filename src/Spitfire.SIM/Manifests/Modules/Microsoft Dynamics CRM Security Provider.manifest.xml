@@ -15,7 +15,7 @@
                     </config>
                     <config path="App_Config\Security\Domains.config">
                         <append xpath="/domains">
-                            <domain name="crm" ensureAnonymousUser="false" defaultProfileItemID="{DDEDA46F-169B-4A70-8732-DBD3F407AF2E}"/>
+                            <domain name="crm" ensureAnonymousUser="false" defaultProfileItemID="{047A978A-8E8B-4F08-AFB4-7D24748EFB17}"/>
                         </append>
                     </config>
                 </actions>

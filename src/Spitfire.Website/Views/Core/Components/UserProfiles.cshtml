@@ -135,17 +135,13 @@
                                 foreach (var pageEvent in page.PageEvents.Where(x => x.IsGoal))
                                 {
                                     <dd>
-                                        @pageEvent.Name (@page.Url) - @DateUtil.ToIsoDate(pageEvent.DateTime)
+                                        @pageEvent.Name (@page.Url) - @pageEvent.DateTime
                                     </dd>
                                 }
                             }
                         </dl>
-                        }
-                        }
                         <hr />
                         <i class="fa fa-flag-checkered"></i> Campaigns
-                        }
-                        }
 
                         @*<xsl:choose>
                               <xsl:when test="xdb:Campaign()">

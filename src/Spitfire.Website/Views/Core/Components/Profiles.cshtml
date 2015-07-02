@@ -1,9 +1,9 @@
 ﻿@using Sitecore.Mvc
 @using Sitecore.Mvc.Presentation
+@using Spitfire.SitecoreExtensions.Extensions
 @model RenderingModel
 @{
-    // TODO: clean up
-    var home = Sitecore.Context.Database.GetItem("110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9");
+    var home = Model.PageItem.GetAncestorOfTemplate("home");
     var colourid = home["theme"];
     var colouritem = Sitecore.Context.Database.GetItem(colourid);
     var css = colouritem["css"];

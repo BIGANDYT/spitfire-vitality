@@ -2,9 +2,9 @@
 version: 1
 id: {40F89E14-B7B3-4161-B3EA-DA238C4F58E3}
 database: core
-path: /sitecore/templates/Spitfire/Spitfire Visitor/Data
+path: /sitecore/templates/Spitfire/Spitfire Visitor/Personal
 parent: {D1E06B96-C081-44B8-B8C2-60CF27C43C30}
-name: Data
+name: Personal
 master: {00000000-0000-0000-0000-000000000000}
 template: {E269FBB5-3750-427A-9149-7AA950B49301}
 templatekey: Template section
@@ -15,7 +15,7 @@ name: __Sortorder
 key: __sortorder
 content-length: 3
 
-100
+200
 ----version----
 language: da
 version: 1
@@ -66,7 +66,7 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: 92b757ed-a5db-46cf-a0ed-feb498041e04
+revision: 3c8e4977-3cd6-401d-b7cf-f470fd037bbf
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -95,14 +95,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-92b757ed-a5db-46cf-a0ed-feb498041e04
+3c8e4977-3cd6-401d-b7cf-f470fd037bbf
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150129T091439:635581196790776041Z
+20150702T153332Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

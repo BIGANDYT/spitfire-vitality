@@ -4,7 +4,7 @@
 @using Spitfire.SitecoreExtensions.Extensions
 @model RenderingModel
 @{
-    var home = Sitecore.Context.Database.GetItem("110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9");
+    var home = Model.PageItem.GetAncestorOfTemplate("home");
     var vertical = home["vertical"];
     var about = Sitecore.Context.Database.GetItem("E6EE5E01-D3B1-4225-AC07-D8368398947E");
     var clients = Sitecore.Context.Database.GetItem("7E3CFDC4-6FF3-48ED-A474-D8F6B2E7ABE4");

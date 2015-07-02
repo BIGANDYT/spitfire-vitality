@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {82169F00-105A-4C06-AFFB-0DE69255B8A5}
+id: {70EF721C-DB73-45DA-9D57-C5B905541856}
 database: core
-path: /sitecore/templates/Spitfire/Spitfire Visitor/Data/Email
-parent: {40F89E14-B7B3-4161-B3EA-DA238C4F58E3}
-name: Email
+path: /sitecore/templates/Spitfire/Spitfire Visitor/Address/Address1
+parent: {D1A68AAB-140B-4D22-8E23-E1DA04CF6020}
+name: Address1
 master: {00000000-0000-0000-0000-000000000000}
 template: {455A3E98-A627-4B40-8035-E683A0331AC7}
 templatekey: Template field
@@ -29,11 +29,11 @@ name: __Sortorder
 key: __sortorder
 content-length: 3
 
-800
+400
 ----version----
 language: en
 version: 1
-revision: 92b0e811-b7c6-4add-a84d-db9af6dd651e
+revision: 323a98ac-5b4c-43ba-b7c9-103b20141613
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -48,7 +48,7 @@ name: __Created
 key: __created
 content-length: 15
 
-20081024T114122
+20081024T114120
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -62,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-92b0e811-b7c6-4add-a84d-db9af6dd651e
+323a98ac-5b4c-43ba-b7c9-103b20141613
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150129T091439:635581196791813701Z
+20150702T153356Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
