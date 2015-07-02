@@ -1,11 +1,17 @@
 @echo off
 cd /d %0\..
+call vars.cmd
 
 echo Installing updates using Sitecore ship
 set sitelocation=%InstanceDirectory%\%sitename%\Website
 
 @echo on
 tools\curl "http://%sitename%/sitecore_ship/about"
+
+:: Note: We won't need this for much longer, will be in Sitecore 8.1
+if not exist "%sitelocation%\bin\Sitecore.Marketing.Campaigns.Client.dll" (
+	tools\curl -F "path=%InstallerPath%\Sitecore Campaign Manager 1.0 rev. 150423.zip" "http://%sitename%/sitecore_ship/package/install"
+)
 
 if not exist "%sitelocation%\bin\ASR.dll" (
 	tools\curl -F "path=%InstallerPath%\Advanced System Reporter 1.7.1 rev. 000000.zip" "http://%sitename%/sitecore_ship/package/install"
@@ -31,7 +37,7 @@ if not exist "%sitelocation%\bin\FieldFallback.Processors.dll" (
 	tools\curl -F "path=%InstallerPath%\Processors.Sitecore.Master.update" "http://%sitename%/sitecore_ship/package/install"
 )
 
-:: TODO: We won't need this for much longer, will be in Sitecore 8.1
+:: Note: We won't need this for much longer, will be in Sitecore 8.1
 if not exist "%sitelocation%\bin\FieldFallback.Processors.Globalization.dll" (
 	tools\curl -F "path=%InstallerPath%\Processors.Globalization.Sitecore.Master.update" "http://%sitename%/sitecore_ship/package/install"
 )
