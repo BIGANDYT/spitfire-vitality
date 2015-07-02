@@ -3,7 +3,7 @@ version: 1
 id: {ADB3922D-1A0B-490F-BD0D-7359B05B3573}
 database: master
 path: /sitecore/content/Microsoft/Home/Services
-parent: {110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}
+parent: {C18F6604-15E8-4445-89B8-DEE8EF597440}
 name: Services
 master: {00000000-0000-0000-0000-000000000000}
 template: {F76F859A-F34F-45AF-AD50-FE74CCA41D25}

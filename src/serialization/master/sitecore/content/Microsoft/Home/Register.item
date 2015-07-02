@@ -3,7 +3,7 @@ version: 1
 id: {139BC657-1A49-4082-BEFD-477C56898857}
 database: master
 path: /sitecore/content/Microsoft/Home/Register
-parent: {110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}
+parent: {C18F6604-15E8-4445-89B8-DEE8EF597440}
 name: Register
 master: {00000000-0000-0000-0000-000000000000}
 template: {99A1374E-2369-4732-BDF7-4BFC8CF6F0FA}

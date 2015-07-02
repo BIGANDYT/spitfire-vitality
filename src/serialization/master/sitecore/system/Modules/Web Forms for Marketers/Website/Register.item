@@ -117,7 +117,7 @@ name: Success Page
 key: success page
 content-length: 176
 
-<link id="{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}" querystring="" target="Active Browser" text="" url="/sitecore/content/Microsoft/Home" title="" class="" linktype="internal" />
+<link id="{C18F6604-15E8-4445-89B8-DEE8EF597440}" querystring="" target="Active Browser" text="" url="/sitecore/content/Microsoft/Home" title="" class="" linktype="internal" />
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name

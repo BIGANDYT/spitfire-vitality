@@ -3,7 +3,7 @@ version: 1
 id: {E18457F8-5889-4BA0-B0EF-2E001534DA96}
 database: master
 path: /sitecore/content/Microsoft/Home/News
-parent: {110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}
+parent: {C18F6604-15E8-4445-89B8-DEE8EF597440}
 name: News
 master: {00000000-0000-0000-0000-000000000000}
 template: {F76F859A-F34F-45AF-AD50-FE74CCA41D25}
