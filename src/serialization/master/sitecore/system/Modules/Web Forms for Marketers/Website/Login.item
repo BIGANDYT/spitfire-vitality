@@ -34,7 +34,7 @@ content-length: 1
 field: {A7F779B9-5FCF-45CC-866B-7C973F5C4FAC}
 name: Save Actions
 key: save actions
-content-length: 745
+content-length: 752
 
 <?xml version="1.0" encoding="utf-16"?>
 <li xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
@@ -48,7 +48,7 @@ content-length: 745
 field: {AF08C32B-F101-44A4-BAAE-677383E8EB02}
 name: Check Actions
 key: check actions
-content-length: 360
+content-length: 367
 
 <?xml version="1.0" encoding="utf-16"?>
 <li xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
@@ -76,7 +76,7 @@ content-length: 38
 field: {B0A67B2A-8B07-4E0B-8809-69F751709806}
 name: __Tracking
 key: __tracking
-content-length: 250
+content-length: 254
 
 <tracking>
   <event name="Submit Success Event" id="{2FF08489-2A47-4F04-8D8E-0C25A294B2C4}" />
@@ -86,7 +86,7 @@ content-length: 250
 ----version----
 language: en
 version: 1
-revision: 78e61e38-ef23-4ab9-b6b8-85b87063a5d2
+revision: bf785476-0ea1-47a3-8dd6-ab02d44caa47
 
 ----field----
 field: {86D6A401-5A20-49C9-A2F8-0312398EE946}
@@ -103,12 +103,19 @@ content-length: 5
 
 Login
 ----field----
+field: {4E2DC894-59A2-49BB-A49C-562F611169A2}
+name: Success Message
+key: success message
+content-length: 38
+
+Thank you for filling in the form. Hi!
+----field----
 field: {9C4C1994-5140-49D3-BAD7-DB997816F816}
 name: Success Page
 key: success page
-content-length: 92
+content-length: 102
 
-<link url="/sitecore/content/Home/My Account" id="{C29CB32F-6648-4EBD-852A-707D84D3DEF5}" />
+<link url="/sitecore/content/Microsoft/Home/My Account" id="{C29CB32F-6648-4EBD-852A-707D84D3DEF5}" />
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
@@ -136,14 +143,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-78e61e38-ef23-4ab9-b6b8-85b87063a5d2
+bf785476-0ea1-47a3-8dd6-ab02d44caa47
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150303T111511:635609781117032614Z
+20150701T144631Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

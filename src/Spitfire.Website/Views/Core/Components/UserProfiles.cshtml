@@ -1,13 +1,24 @@
-﻿@using Sitecore.Mvc
+﻿@using Sitecore
+@using Sitecore.Analytics
+@using Sitecore.Analytics.Tracking
+@using Sitecore.Mvc
 @using Sitecore.Mvc.Presentation
 @model RenderingModel
+@{
+    var tracker = Tracker.Current;
+    CurrentInteraction interaction = null;
+    if (tracker != null && tracker.Interaction != null)
+    {
+        interaction = tracker.Interaction;
+    }
+}
 <div class="col-md-12">
     <div class="row">
         <div class="col-md-6">
             <div class="portlet box scbrandorange">
                 <div class="portlet-title">
                     <div class="caption">
-                        <i class="fa fa-save" style="color:#fff;"></i>Explicit Data
+                        <i class="fa fa-save" style="color: #fff;"></i>Explicit Data
                     </div>
                 </div>
                 <div class="portlet-body">
@@ -106,69 +117,78 @@
                 </div>
             </div>
         </div>
-        @*
-    <div class="col-md-6">
-        <div class="portlet box scbrandpurple">
-            <div class="portlet-title">
-                <div class="caption">
-                    <i class="fa fa-bar-chart-o" style="color:#fff;"></i>xDB Data
+        @if (interaction != null)
+        {
+            <div class="col-md-6">
+                <div class="portlet box scbrandpurple">
+                    <div class="portlet-title">
+                        <div class="caption">
+                            <i class="fa fa-bar-chart-o" style="color:#fff;"></i>xDB Data
+                        </div>
+                    </div>
+                    <div class="portlet-body">
+
+                        <i class="fa fa-trophy" style="margin-bottom: 10px; margin-right: 2px;"></i> Goals
+                        <dl>
+                            @foreach (var page in tracker.Interaction.Pages)
+                            {
+                                foreach (var pageEvent in page.PageEvents.Where(x => x.IsGoal))
+                                {
+                                    <dd>
+                                        @pageEvent.Name (@page.Url) - @DateUtil.ToIsoDate(pageEvent.DateTime)
+                                    </dd>
+                                }
+                            }
+                        </dl>
+                        }
+                        }
+                        <hr />
+                        <i class="fa fa-flag-checkered"></i> Campaigns
+                        }
+                        }
+
+                        @*<xsl:choose>
+                              <xsl:when test="xdb:Campaign()">
+                                <xsl:value-of select="sc:item(xdb:Campaign(),.)/@name"/>
+                              </xsl:when>
+                              <xsl:otherwise>
+                                No campaign
+                              </xsl:otherwise>
+                            </xsl:choose>*@
+                        <hr />
+                        <i class="fa fa-users" style="margin-bottom: 10px; margin-right:2px;"></i> Profiles
+                        @*<xsl:for-each select="xdb:Profiles()">
+                                <h4>
+                                    <xsl:value-of select="@name" />
+                                </h4>
+                                <xsl:for-each select="./key">
+                                    <xsl:value-of select="@name" />: <xsl:value-of select="." /><br />
+                                </xsl:for-each>
+                            </xsl:for-each>*@
+                        <hr />
+
+                        <i class="fa fa-users" style="margin-bottom: 10px; margin-right:2px;"></i> Contact
+                        @*<xsl:variable name="contact" select="xdb:Contact()" />*@
+                        <ul>
+                            <li>
+                                Visit Count: @*<xsl:value-of select="$contact/@visitcount" />*@
+                            </li>
+                            <li>
+                                Tags:
+                                <dl>
+                                    @*<xsl:for-each select="$contact/tags/tag">
+                                            <dd>
+                                                <xsl:value-of select="@key" />: <xsl:value-of select="." /> (<xsl:value-of select="sc:formatdate(@datetime)" />)
+                                            </dd>
+                                        </xsl:for-each>*@
+                                </dl>
+                            </li>
+                        </ul>
+
+                        <a href="About" class="btn scbrandpurple btn-block">Update Profile</a>
+                    </div>
                 </div>
             </div>
-            <div class="portlet-body">
-
-                <i class="fa fa-trophy" style="margin-bottom: 10px; margin-right:2px;"></i> Goals
-                <dl>
-                    <xsl:for-each select="xdb:Goals()[@isgoal='1']">
-                        <dd>
-                            <xsl:value-of select="." /> (<xsl:value-of select="@url" />) - <xsl:value-of select="sc:formatdate(@datetime)" />
-                        </dd>
-                    </xsl:for-each>
-                </dl>
-                <hr />
-                <i class="fa fa-flag-checkered"></i> Campaigns
-                <!--
-                      <xsl:choose>
-                        <xsl:when test="xdb:Campaign()">
-                          <xsl:value-of select="sc:item(xdb:Campaign(),.)/@name"/>
-                        </xsl:when>
-                        <xsl:otherwise>
-                          No campaign
-                        </xsl:otherwise>
-                      </xsl:choose>
-                -->
-                <hr />
-                <i class="fa fa-users" style="margin-bottom: 10px; margin-right:2px;"></i> Profiles
-                <xsl:for-each select="xdb:Profiles()">
-                    <h4>
-                        <xsl:value-of select="@name" />
-                    </h4>
-                    <xsl:for-each select="./key">
-                        <xsl:value-of select="@name" />: <xsl:value-of select="." /><br />
-                    </xsl:for-each>
-                </xsl:for-each>
-                <hr />
-
-                <i class="fa fa-users" style="margin-bottom: 10px; margin-right:2px;"></i> Contact
-                <xsl:variable name="contact" select="xdb:Contact()" />
-                <ul>
-                    <li>
-                        Visit Count: <xsl:value-of select="$contact/@visitcount" />
-                    </li>
-                    <li>
-                        Tags:
-                        <dl>
-                            <xsl:for-each select="$contact/tags/tag">
-                                <dd>
-                                    <xsl:value-of select="@key" />: <xsl:value-of select="." /> (<xsl:value-of select="sc:formatdate(@datetime)" />)
-                                </dd>
-                            </xsl:for-each>
-                        </dl>
-                    </li>
-                </ul>
-
-                <a href="About" class="btn scbrandpurple btn-block">Update Profile</a>
-            </div>
-        </div>
-    </div>*@
+        }
     </div>
 </div>

@@ -4959,6 +4959,7 @@
     <Content Include="Views\Core\Scaffolding\Presets\OneColumnRow.cshtml" />
     <Content Include="Views\Core\Scaffolding\Presets\TwoColumnRow.cshtml" />
     <Content Include="Views\Core\Scaffolding\Presets\ThreeColumnRow.cshtml" />
+    <Content Include="Views\Core\System\EndSession.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
