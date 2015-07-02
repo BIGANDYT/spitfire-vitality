@@ -14,6 +14,6 @@ IF NOT DEFINED IsBuildServer (
 call vars.cmd
 
 cd /D %InstallerPath%\SIM
-Hedgehog.Tds.Build.Sim.Console.exe delete "InstanceName:%SiteName%" "InstanceDirectory:%InstanceDirectory%" "ConnectionString:%DbConnectionString%"
+Spitfire.Sim.Console delete "InstanceName:%SiteName%" "InstanceDirectory:%InstanceDirectory%" "ConnectionString:%DbConnectionString%"
 
 cd /d %BuildDirectory%

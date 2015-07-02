@@ -16,7 +16,7 @@ sqlcmd -S .\ -U "sa" -P "%DbSaPassword%" -d "master" -Q "DBCC SHRINKDATABASE(%Si
 sqlcmd -S .\ -U "sa" -P "%DbSaPassword%" -d "master" -Q "DBCC SHRINKDATABASE(%SiteName%_Sitecore_reporting)"
 
 echo Exporting instance using SIM...
-Hedgehog.Tds.Build.Sim.Console.exe export "InstanceName:%SiteName%" "ExportFilePath:%1"
+Spitfire.Sim.Console.exe export "InstanceName:%SiteName%" "ExportFilePath:%1"
 cd %BuildDirectory%
 
 pause
