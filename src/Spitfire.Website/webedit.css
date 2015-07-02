@@ -1,6 +1,9 @@
-﻿body{
+﻿/* Spitfire edits start */
+body{
     overflow-x:hidden;
 }
+/* Spitfire edits end */
+
 iframe.scWebEditRibbon {
   width:100%;
   display:block;

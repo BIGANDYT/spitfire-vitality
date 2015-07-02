@@ -13,6 +13,10 @@ if not exist "%sitelocation%\bin\Sitecore.Marketing.Campaigns.Client.dll" (
 	tools\curl -F "path=%InstallerPath%\Sitecore Campaign Manager 1.0 rev. 150423.zip" "http://%sitename%/sitecore_ship/package/install"
 )
 
+if not exist "%sitelocation%\bin\Sitecore.CrmCampaignIntegration.dll" (
+	tools\curl -F "path=%InstallerPath%\Dynamics CRM Campaign Integration for WFFM 2.1 rev. 150403.zip" "http://%sitename%/sitecore_ship/package/install"
+)
+
 if not exist "%sitelocation%\bin\ASR.dll" (
 	tools\curl -F "path=%InstallerPath%\Advanced System Reporter 1.7.1 rev. 000000.zip" "http://%sitename%/sitecore_ship/package/install"
 )
