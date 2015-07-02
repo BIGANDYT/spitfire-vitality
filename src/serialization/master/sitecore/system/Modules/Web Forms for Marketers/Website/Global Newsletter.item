@@ -24,13 +24,6 @@ content-length: 1
 
 1
 ----field----
-field: {FAEACD39-B059-4F46-BEC4-74BA468A97B8}
-name: Show Footer
-key: show footer
-content-length: 0
-
-
-----field----
 field: {A7F779B9-5FCF-45CC-866B-7C973F5C4FAC}
 name: Save Actions
 key: save actions

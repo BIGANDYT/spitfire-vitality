@@ -16,39 +16,11 @@ key: initial state
 content-length: 38
 
 {E903F29B-7B9A-4651-9BD6-854B745FAC21}
-----field----
-field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
-name: __Masters
-key: __masters
-content-length: 38
-
-{4B7E2DA9-DE43-4C83-88C3-02F042031D04}
-----field----
-field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
-name: __Security
-key: __security
-content-length: 0
-
-
 ----version----
 language: en
 version: 1
 revision: 99d38223-0529-4ddc-a897-cf6a401274db
 
-----field----
-field: {591F16DA-4020-4FFD-9560-EF4996FC2A61}
-name: Default Comment Dialog Height
-key: default comment dialog height
-content-length: 3
-
-250
-----field----
-field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
-name: __Owner
-key: __owner
-content-length: 14
-
-sitecore\admin
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created

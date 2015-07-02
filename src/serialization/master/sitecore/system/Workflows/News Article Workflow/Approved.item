@@ -31,13 +31,6 @@ content-length: 2
 
 40
 ----field----
-field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
-name: __Masters
-key: __masters
-content-length: 38
-
-{CB01F9FC-C187-46B3-AB0B-97A8468D8303}
-----field----
 field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
 name: __Security
 key: __security
@@ -49,13 +42,6 @@ language: en
 version: 1
 revision: 924abdb3-2738-49e3-860d-ee991b2f87e0
 
-----field----
-field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
-name: __Owner
-key: __owner
-content-length: 14
-
-sitecore\admin
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created

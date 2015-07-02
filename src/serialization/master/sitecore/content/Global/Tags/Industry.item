@@ -9,13 +9,6 @@ master: {00000000-0000-0000-0000-000000000000}
 template: {76E517CE-D593-4EF7-BB9B-E52EB4E230C8}
 templatekey: SelectOptionFolder
 
-----field----
-field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
-name: __Masters
-key: __masters
-content-length: 0
-
-
 ----version----
 language: en
 version: 1

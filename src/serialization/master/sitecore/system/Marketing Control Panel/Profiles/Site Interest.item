@@ -16,13 +16,6 @@ key: name
 content-length: 8
 
 Interest
-----field----
-field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
-name: __Originator
-key: __originator
-content-length: 0
-
-
 ----version----
 language: en
 version: 1

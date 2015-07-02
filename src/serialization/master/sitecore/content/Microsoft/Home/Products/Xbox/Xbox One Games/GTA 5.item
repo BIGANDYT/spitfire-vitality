@@ -17,13 +17,6 @@ content-length: 564
 
 <tracking>  <profile id="{B000189D-DE2F-473F-817F-7006254F047E}" name="Site Interest" presets="xbox|100||">    <key name="Office" value="0" />    <key name="Xbox" value="10" />    <key name="Surface" value="0" />    <key name="Mobile" value="0" />  </profile>  <profile id="{F8013B04-E03A-4685-ACF6-F8C662215553}" name="Gaming Interest" presets="action|100||">    <key name="Action" value="10" />    <key name="Adventure" value="0" />    <key name="Fighting" value="0" />    <key name="Racing" value="0" />    <key name="Sports" value="0" />  </profile></tracking>
 ----field----
-field: {8546D6E6-0749-4591-90F3-CEC033D6E8D8}
-name: __Page Level Test Set Definition
-key: __page level test set definition
-content-length: 0
-
-
-----field----
 field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
 name: __Workflow
 key: __workflow

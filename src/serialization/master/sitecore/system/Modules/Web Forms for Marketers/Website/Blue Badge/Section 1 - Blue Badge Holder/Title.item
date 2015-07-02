@@ -24,13 +24,6 @@ content-length: 1
 
 1
 ----field----
-field: {E312BDFA-DDBA-4ACC-907A-89A0B59638D4}
-name: Rules
-key: rules
-content-length: 0
-
-
-----field----
 field: {358E7AA0-E3E6-4EF6-92DF-EC1301737B50}
 name: Parameters
 key: parameters
