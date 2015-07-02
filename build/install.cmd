@@ -30,6 +30,9 @@ IF "%ERRORLEVEL%" EQU "0" (
 :: Install Sitecore using SIM
 call sim.cmd
 
+:: Add extra hostnames to IIS and c:\windows\system32\drivers\etc\hosts file
+powershell -file add-extra-hosts.ps1
+
 :: Build the sucker
 call build.cmd
 
