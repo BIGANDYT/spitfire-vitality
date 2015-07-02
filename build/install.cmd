@@ -42,5 +42,16 @@ call updates.cmd
 :: Deploying Unicorn items
 call sync.cmd
 
+:: Smart publish
+call publish.cmd
+
+:: Remove the hack of disabling indexing during install
+del %InstanceDirectory%\%sitename%\Website\App_Config\Include\zSpitfire\DisableIndexing.config
+
+:: Remove Unicorn serialization in preparation for zipping on the build server
+IF DEFINED IsBuildServer (
+	del %InstanceDirectory%\%sitename%\Website\App_Config\Include\Serialization.config	
+)
+
 echo Installation finished
 pause

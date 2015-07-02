@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {E7A6908E-80D1-424E-942F-7CD3AA67EA34}
+database: master
+path: /sitecore/content/Home-Default/Email Campaign/Recipient Lists
+parent: {86AC8D13-55F9-4699-B48C-BD9D3EC69C75}
+name: Recipient Lists
+master: {F8FAE92A-4F10-470C-AD5C-7ED9E6B636AF}
+template: {EFC3A4B6-6C05-45F4-8220-2D0291359DD5}
+templatekey: Recipient Lists Container
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----field----
+field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
+name: __Security
+key: __security
+content-length: 182
+
+ar|sitecore\ECM Users|pd|+item:delete|^*|+item:admin|+item:create|+item:rename|+item:read|+item:write|pe|+item:delete|^*|+item:admin|+item:create|+item:rename|+item:read|+item:write|
+----version----
+language: en
+version: 1
+revision: 8922039b-21dd-49db-a954-3bb2c1f94a27
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150702T121535Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8922039b-21dd-49db-a954-3bb2c1f94a27
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150702T121535Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

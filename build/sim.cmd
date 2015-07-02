@@ -1,4 +1,6 @@
 @echo off
+cd /d %0\..
+call vars.cmd
 
 echo Installing %sitename% using SIM...
 cd /D %InstallerPath%\SIM
