@@ -15,6 +15,6 @@ function UpdateBindings($sitename) {
 
 $hosts = @("microsoft.demo", "finance.demo")
 foreach($hostName in $hosts) {
-    UpdateHosts $host
-    UpdateBindings $host
+    UpdateHosts $hostName
+    UpdateBindings $hostName
 }
