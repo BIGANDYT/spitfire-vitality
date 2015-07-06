@@ -11,5 +11,6 @@ artifacts/
 *DS_Store
 *.sln.ide
 lib/Sitecore/*
+lib/System/*
 .sonar
 vars.user.cmd

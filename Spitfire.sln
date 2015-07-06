@@ -36,8 +36,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{1E906505
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spitfire.SIM", "src\Spitfire.SIM\Spitfire.SIM.csproj", "{6F85DEE3-3AF3-4598-93E0-1CE99401E519}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spitfire.Website.Microsoft", "src\Spitfire.Website\Spitfire.Website.Microsoft.csproj", "{B5A44974-D74C-4EFE-8008-20744546F664}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CI", "CI", "{CFA36180-16F1-4456-B18C-2057ABA18D03}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spitfire.SIM.Console", "src\Spitfire.SIM.Console\Spitfire.SIM.Console.csproj", "{E45940F3-DFAE-45C5-AFDB-3B578D257B9B}"
@@ -64,10 +62,6 @@ Global
 		{6F85DEE3-3AF3-4598-93E0-1CE99401E519}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F85DEE3-3AF3-4598-93E0-1CE99401E519}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F85DEE3-3AF3-4598-93E0-1CE99401E519}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B5A44974-D74C-4EFE-8008-20744546F664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B5A44974-D74C-4EFE-8008-20744546F664}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B5A44974-D74C-4EFE-8008-20744546F664}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B5A44974-D74C-4EFE-8008-20744546F664}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E45940F3-DFAE-45C5-AFDB-3B578D257B9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E45940F3-DFAE-45C5-AFDB-3B578D257B9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E45940F3-DFAE-45C5-AFDB-3B578D257B9B}.Release|Any CPU.ActiveCfg = Release|Any CPU

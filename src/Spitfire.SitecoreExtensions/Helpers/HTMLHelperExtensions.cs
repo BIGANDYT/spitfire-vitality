@@ -1,6 +1,7 @@
-﻿namespace Spitfire.Library.Helpers
+﻿namespace Spitfire.SitecoreExtensions.Helpers
 {
     using System.Web.Mvc;
+
     using Spitfire.SitecoreExtensions.Controls;
 
     /// <summary>

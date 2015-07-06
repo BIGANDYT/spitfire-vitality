@@ -1,1 +1,1 @@
-﻿<%@ WebHandler Language="C#" CodeBehind="RegisterGoal.ashx.cs" Class="Spitfire.Handlers.RegisterGoal" %>
+﻿<%@ WebHandler Language="C#" CodeBehind="RegisterGoal.ashx.cs" Class="Spitfire.Website.Handlers.RegisterGoal" %>

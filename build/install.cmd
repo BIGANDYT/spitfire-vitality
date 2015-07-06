@@ -1,5 +1,6 @@
 @echo off
 cd /d %0\..
+>nul powershell.exe -executionpolicy unrestricted -command set-executionpolicy unrestricted
 
 IF NOT DEFINED IsBuildServer (
 	:: Checking for administrator permissions...

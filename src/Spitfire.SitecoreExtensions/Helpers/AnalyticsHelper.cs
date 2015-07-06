@@ -1,11 +1,11 @@
-﻿namespace Spitfire.Library.Helpers
+﻿namespace Spitfire.SitecoreExtensions.Helpers
 {
     using Sitecore;
     using Sitecore.Analytics;
     using Sitecore.Analytics.Data.Items;
     using Sitecore.Data;
     using Sitecore.Diagnostics;
-    
+
     /// <summary>
     /// Helper for goal settings. 
     /// </summary>

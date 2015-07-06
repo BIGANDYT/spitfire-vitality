@@ -6,7 +6,7 @@
     using Sitecore.Data;
     using Sitecore.Diagnostics;
 
-    using Spitfire.Library.Helpers;
+    using Spitfire.SitecoreExtensions.Helpers;
 
     public class RegisterGoal : IHttpHandler, IRequiresSessionState
     {
