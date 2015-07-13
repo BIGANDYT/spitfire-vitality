@@ -20,9 +20,9 @@ content-length: 42
 field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
 name: Model
 key: model
-content-length: 49
+content-length: 60
 
-/sitecore/layout/Models/Spitfire/Core/NavBarModel
+/sitecore/layout/Models/Spitfire/Core/Navigation/NavBarModel
 ----field----
 field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
 name: Open Properties after Add
@@ -47,7 +47,7 @@ content-length: 4
 ----version----
 language: en
 version: 1
-revision: ff70e89a-4e34-4325-9ca2-edce2d346386
+revision: 37a44fc9-db0b-4c05-8684-11cc52728cfb
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -62,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ff70e89a-4e34-4325-9ca2-edce2d346386
+37a44fc9-db0b-4c05-8684-11cc52728cfb
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150709T104806Z
+20150713T125013Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

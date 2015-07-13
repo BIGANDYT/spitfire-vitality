@@ -1,6 +1,5 @@
-﻿namespace Spitfire.Library.Models
+﻿namespace Spitfire.Library.Models.Navigation
 {
-    using System;
     using System.Collections.Generic;
     using System.Linq;
     using Sitecore.Data.Items;
@@ -10,7 +9,7 @@
     /// <summary>
     /// Nav bar component
     /// </summary>
-    public class NavBarModel : IRenderingModel
+    public class NavBarModel : RenderingModel
     {
         /// <summary>
         /// Gets The item containing the logo
@@ -40,8 +39,10 @@
         /// Initialize the NavBar Model
         /// </summary>
         /// <param name="rendering">The Rendering to use</param>
-        public void Initialize(Rendering rendering)
+        public override void Initialize(Rendering rendering)
         {
+            base.Initialize(rendering);
+
             // Todo: Possibly use Sitecore Search? 
             this.NavRoot = MyContext.SiteRoot.Axes.SelectSingleItem("./*/*[@@tid='" + TemplateIds.NavBar + "']");
 
