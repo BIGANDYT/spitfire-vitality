@@ -9,13 +9,6 @@ master: {F8FAE92A-4F10-470C-AD5C-7ED9E6B636AF}
 template: {9F353948-ACC9-4DB2-9033-CCD810BA9628}
 templatekey: Trickle Type Folder
 
-----field----
-field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
-name: __Originator
-key: __originator
-content-length: 0
-
-
 ----version----
 language: en
 version: 1

@@ -6,9 +6,16 @@ path: /sitecore/content/Microsoft/Home/News/Sitecore delivers strong growth
 parent: {E18457F8-5889-4BA0-B0EF-2E001534DA96}
 name: Sitecore delivers strong growth
 master: {00000000-0000-0000-0000-000000000000}
-template: {824052CF-AE81-4519-AAD3-AF06A02A4C93}
-templatekey: News Item
+template: {2F75C8AF-35FC-4A88-B585-7595203F442C}
+templatekey: News Article
 
+----field----
+field: {148746F5-2342-4547-ACAC-A9065F6B7ED5}
+name: Date
+key: date
+content-length: 16
+
+20141201T105500Z
 ----field----
 field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
 name: __Workflow
@@ -19,8 +26,15 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: fe776a3f-28b9-4cb6-b543-93343f823392
+revision: c3c0285a-3d43-4d55-9c5b-6be1eeb84962
 
+----field----
+field: {AC3FD4DB-8266-476D-9635-67814D91E901}
+name: Summary
+key: summary
+content-length: 189
+
+Sitecore, the global leader in customer experience management solutions, today announced another year of significant topline growth and profitability in its fiscal year ending June 30, 2014
 ----field----
 field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
 name: Body
@@ -30,6 +44,13 @@ content-length: 2110
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel vehicula neque. Integer efficitur turpis ac nisl feugiat, sollicitudin ullamcorper nibh auctor. Maecenas semper massa elit, in rhoncus neque dictum eget. Sed tortor nisl, finibus at massa ac, tempor vestibulum metus. Vivamus tristique quam ac tempor ultrices. Vestibulum vel ex a tortor tincidunt ornare at sit amet arcu. Nulla lacinia semper diam sed condimentum. Phasellus non varius lacus, a vestibulum est. Praesent et facilisis mi. Sed vel pellentesque quam. Nulla egestas pretium iaculis. Proin efficitur sed nisl eu rutrum. Nullam quis finibus elit, a tincidunt orci.</p>
 <p>Vivamus viverra augue ac dignissim elementum. Proin consectetur massa sit amet efficitur finibus. Quisque a est vestibulum, dictum nisi vel, sagittis lacus. Aliquam interdum erat quis dui sodales, et efficitur massa gravida. Fusce non neque bibendum, tempor massa et, semper lorem. Donec euismod egestas tortor eu finibus. Integer sed luctus metus. Nullam non egestas nunc, non laoreet quam. Donec bibendum et magna at porta. Nulla facilisi. Proin volutpat ultrices dui at mollis. Pellentesque interdum nisl vel nunc pharetra, ultrices dictum sapien porttitor. Duis blandit nec ante quis gravida. Suspendisse vitae ultrices mauris. Nam convallis dolor sem.</p>
 <p>Fusce justo felis, eleifend eu lorem in, vulputate imperdiet risus. Aenean tempus rutrum nisl, in rutrum turpis condimentum nec. Nulla fermentum elit sit amet purus cursus, non feugiat ligula eleifend. In hac habitasse platea dictumst. Phasellus erat orci, vestibulum non aliquet a, auctor eget erat. Nullam venenatis tincidunt ex, sed accumsan justo egestas sagittis. Aliquam diam nibh, faucibus ornare ex ultrices, cursus maximus orci. Integer tristique hendrerit odio, id viverra lacus egestas ut. Nam rhoncus id lectus ac pulvinar. Nulla tempus sem a iaculis finibus. Donec viverra dui elementum metus consectetur, non mollis nisi vulputate. Sed pharetra laoreet bibendum. Duis posuere libero aliquam nisl semper, quis feugiat purus suscipit. Sed bibendum quis urna nec fringilla.</p>
+----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{46F173BA-46BD-4BDB-9A0F-7FC7E709E0B2}" />
 ----field----
 field: {1B483E91-D8C4-4D19-BA03-462074B55936}
 name: ShortTitle
@@ -45,27 +66,6 @@ content-length: 31
 
 Sitecore delivers strong growth
 ----field----
-field: {D95BD7D2-2A5E-4F6C-A7C4-E5A564EB5487}
-name: Date
-key: date
-content-length: 16
-
-20141201T105500Z
-----field----
-field: {9ACBBCAB-2484-4558-9728-28433FE2F8A1}
-name: Summary
-key: summary
-content-length: 189
-
-Sitecore, the global leader in customer experience management solutions, today announced another year of significant topline growth and profitability in its fiscal year ending June 30, 2014
-----field----
-field: {04621054-DA72-4E54-AA5C-E545B2971819}
-name: Teaser Image
-key: teaser image
-content-length: 65
-
-<image mediaid="{46F173BA-46BD-4BDB-9A0F-7FC7E709E0B2}" ></image>
-----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
@@ -78,14 +78,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-fe776a3f-28b9-4cb6-b543-93343f823392
+c3c0285a-3d43-4d55-9c5b-6be1eeb84962
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150625T204542:635708619424182545Z
+20150708T114513Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

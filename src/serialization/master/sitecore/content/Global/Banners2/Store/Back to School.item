@@ -7,7 +7,7 @@ parent: {FE7569B1-D67C-4AFD-97D9-88EB64462BB8}
 name: Back to School
 master: {00000000-0000-0000-0000-000000000000}
 template: {7CD4FB93-C30C-422B-8BA5-902C35505798}
-templatekey: Banner
+templatekey: Banner2
 
 ----version----
 language: en

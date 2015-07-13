@@ -6,9 +6,16 @@ path: /sitecore/content/Microsoft/Home/News/Cloud Computing with Microsoft Windo
 parent: {E18457F8-5889-4BA0-B0EF-2E001534DA96}
 name: Cloud Computing with Microsoft Windows Azure and Sitecore
 master: {00000000-0000-0000-0000-000000000000}
-template: {824052CF-AE81-4519-AAD3-AF06A02A4C93}
-templatekey: News Item
+template: {2F75C8AF-35FC-4A88-B585-7595203F442C}
+templatekey: News Article
 
+----field----
+field: {148746F5-2342-4547-ACAC-A9065F6B7ED5}
+name: Date
+key: date
+content-length: 16
+
+20141101T111100Z
 ----field----
 field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
 name: __Sortorder
@@ -19,8 +26,15 @@ content-length: 3
 ----version----
 language: en
 version: 1
-revision: 93639858-0440-4130-bbe5-46ec60e522e5
+revision: ad6edd51-bf0e-4619-9776-7f9b1836b6be
 
+----field----
+field: {AC3FD4DB-8266-476D-9635-67814D91E901}
+name: Summary
+key: summary
+content-length: 216
+
+Many organizations are starting to consider moving their applications to a cloud platform. For those interested in how to work in the Windows Azure cloud using web content management platform Sitecore, here's a look.
 ----field----
 field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
 name: Body
@@ -30,6 +44,13 @@ content-length: 2110
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel vehicula neque. Integer efficitur turpis ac nisl feugiat, sollicitudin ullamcorper nibh auctor. Maecenas semper massa elit, in rhoncus neque dictum eget. Sed tortor nisl, finibus at massa ac, tempor vestibulum metus. Vivamus tristique quam ac tempor ultrices. Vestibulum vel ex a tortor tincidunt ornare at sit amet arcu. Nulla lacinia semper diam sed condimentum. Phasellus non varius lacus, a vestibulum est. Praesent et facilisis mi. Sed vel pellentesque quam. Nulla egestas pretium iaculis. Proin efficitur sed nisl eu rutrum. Nullam quis finibus elit, a tincidunt orci.</p>
 <p>Vivamus viverra augue ac dignissim elementum. Proin consectetur massa sit amet efficitur finibus. Quisque a est vestibulum, dictum nisi vel, sagittis lacus. Aliquam interdum erat quis dui sodales, et efficitur massa gravida. Fusce non neque bibendum, tempor massa et, semper lorem. Donec euismod egestas tortor eu finibus. Integer sed luctus metus. Nullam non egestas nunc, non laoreet quam. Donec bibendum et magna at porta. Nulla facilisi. Proin volutpat ultrices dui at mollis. Pellentesque interdum nisl vel nunc pharetra, ultrices dictum sapien porttitor. Duis blandit nec ante quis gravida. Suspendisse vitae ultrices mauris. Nam convallis dolor sem.</p>
 <p>Fusce justo felis, eleifend eu lorem in, vulputate imperdiet risus. Aenean tempus rutrum nisl, in rutrum turpis condimentum nec. Nulla fermentum elit sit amet purus cursus, non feugiat ligula eleifend. In hac habitasse platea dictumst. Phasellus erat orci, vestibulum non aliquet a, auctor eget erat. Nullam venenatis tincidunt ex, sed accumsan justo egestas sagittis. Aliquam diam nibh, faucibus ornare ex ultrices, cursus maximus orci. Integer tristique hendrerit odio, id viverra lacus egestas ut. Nam rhoncus id lectus ac pulvinar. Nulla tempus sem a iaculis finibus. Donec viverra dui elementum metus consectetur, non mollis nisi vulputate. Sed pharetra laoreet bibendum. Duis posuere libero aliquam nisl semper, quis feugiat purus suscipit. Sed bibendum quis urna nec fringilla.</p>
+----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{74BF49D2-3804-4BDF-A49B-CF3836208BB3}" />
 ----field----
 field: {1B483E91-D8C4-4D19-BA03-462074B55936}
 name: ShortTitle
@@ -45,26 +66,12 @@ content-length: 57
 
 Cloud Computing with Microsoft Windows Azure and Sitecore
 ----field----
-field: {D95BD7D2-2A5E-4F6C-A7C4-E5A564EB5487}
-name: Date
-key: date
-content-length: 16
+field: {11F41661-E5FE-44E7-B8DA-7CFF2D39B4B2}
+name: OpenGraphImage
+key: opengraphimage
+content-length: 0
 
-20141101T111100Z
-----field----
-field: {9ACBBCAB-2484-4558-9728-28433FE2F8A1}
-name: Summary
-key: summary
-content-length: 216
 
-Many organizations are starting to consider moving their applications to a cloud platform. For those interested in how to work in the Windows Azure cloud using web content management platform Sitecore, here's a look.
-----field----
-field: {04621054-DA72-4E54-AA5C-E545B2971819}
-name: Teaser Image
-key: teaser image
-content-length: 65
-
-<image mediaid="{74BF49D2-3804-4BDF-A49B-CF3836208BB3}" ></image>
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -78,14 +85,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-93639858-0440-4130-bbe5-46ec60e522e5
+ad6edd51-bf0e-4619-9776-7f9b1836b6be
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150625T204542:635708619422871609Z
+20150708T114845Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

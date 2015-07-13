@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {4135A691-6532-453F-9E91-6DDBC6B5FED7}
+database: master
+path: /sitecore/content/Global/Teasers/OwlTeaserGroup/Project
+parent: {25E1D91A-5AC2-4901-A7D4-649B3C929AF1}
+name: Project
+master: {00000000-0000-0000-0000-000000000000}
+template: {28801410-7FFD-4E61-9135-EDED72DCB247}
+templatekey: TeaserGroup
+
+----field----
+field: {EFEB569B-6957-4572-BA2C-79C98D55DD93}
+name: Source
+key: source
+content-length: 467
+
+{0A982124-411B-4CF4-815F-0E35CD96A548}|{F8E747D3-33CB-420D-860D-FED2EB6EC185}|{EEFED8BA-9867-4FA4-8624-8F9A4009DE24}|{715B8A1B-78B1-4528-A0D5-B586494345B4}|{A4A72A0E-FFAB-493F-81BF-D47D1A4EB2B3}|{F8922478-8037-4EB3-B593-46D462C76E35}|{F3BA178D-5939-43F0-BAA6-58E87400E0D1}|{5F091CAE-DBDB-4D5B-953C-DEFC4859BC8A}|{223BFEFC-8B10-4A49-B896-5FBCA1A183DE}|{D4D2DAA5-83C4-48D1-8A63-E36050A19383}|{26DF09CC-DDC4-4BAE-BA78-CE63D46526B8}|{BF3CA68A-311F-4792-8087-6921DAB4F6A9}
+----version----
+language: en
+version: 1
+revision: 967e79b2-90d3-41f9-aacd-775b49319896
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150518T152445Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+967e79b2-90d3-41f9-aacd-775b49319896
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150526T093411:635682296515786438Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

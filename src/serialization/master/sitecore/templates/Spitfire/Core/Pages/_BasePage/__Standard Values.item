@@ -10,6 +10,20 @@ template: {99A1374E-2369-4732-BDF7-4BFC8CF6F0FA}
 templatekey: _BasePage
 
 ----field----
+field: {A1816D65-769A-4B09-89F6-B20665024CBF}
+name: ShowInSideNavigation
+key: showinsidenavigation
+content-length: 1
+
+1
+----field----
+field: {114BFEE8-A57E-49E7-A18D-68FFD7CA5DF8}
+name: ShowInSitemap
+key: showinsitemap
+content-length: 1
+
+1
+----field----
 field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
 name: __Masters
 key: __masters
@@ -19,7 +33,7 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: f06ac55c-0272-40c0-86af-fc321e3dce8e
+revision: de4a5608-1d40-45b4-bc3b-97f79341f655
 
 ----field----
 field: {8A826BE2-C878-49DA-A0F7-32DB6718E2FB}
@@ -41,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-f06ac55c-0272-40c0-86af-fc321e3dce8e
+de4a5608-1d40-45b4-bc3b-97f79341f655
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150526T140117:635682456773361466Z
+20150708T124040Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

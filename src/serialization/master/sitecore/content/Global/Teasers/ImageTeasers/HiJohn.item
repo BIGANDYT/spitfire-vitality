@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {65D2646F-F1E7-47E7-9CF6-7D603D2B09A1}
+database: master
+path: /sitecore/content/Global/Teasers/ImageTeasers/HiJohn
+parent: {8A66ECAC-BCD3-402F-9FC9-BB2685033C02}
+name: HiJohn
+master: {00000000-0000-0000-0000-000000000000}
+template: {60920BFB-F0BB-4DED-BAAC-AEF1F68FE6E8}
+templatekey: Teaser
+
+----version----
+language: en
+version: 1
+revision: 44e05eeb-32e7-4c81-b160-a4d65cb1aa77
+
+----field----
+field: {8F835316-A8FF-411A-905B-CFC143D7950C}
+name: Title
+key: title
+content-length: 18
+
+HI, I'M JOHN SMITH
+----field----
+field: {BF25D316-D309-4F57-A05C-F093BE9738AC}
+name: Image
+key: image
+content-length: 108
+
+<image mediaid="{BD2D431C-6F79-4502-8948-1D050CF87583}" alt="" height="auto" width="" hspace="" vspace="" />
+----field----
+field: {18677565-989E-4FBB-BF7A-E39B4BD9029D}
+name: Details
+key: details
+content-length: 354
+
+<p>I am a freelance web designer, developer, and photographer based in San Francisco, California. I have a professional background in graphic design, and a degree in Computer Science from the University of Central California.</p>
+<p>Whether your next project is an online store, website for your business, or a simple brochure, I'll be ready to help!</p>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150527T133843Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+44e05eeb-32e7-4c81-b160-a4d65cb1aa77
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150625T155426:635708444664421342Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

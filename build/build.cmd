@@ -18,6 +18,7 @@ if not exist ..\lib\System (
 SET DeployParameters=/p:DeployOnBuild=true /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:DeleteExistingFiles=False /p:publishUrl=%InstanceDirectory%\%sitename%\Website
 
 %msbuild% ..\src\Spitfire.Website\Spitfire.Website.csproj %DeployParameters%
+%msbuild% ..\src\Spitfire.Website\Spitfire.Website.Static.csproj %DeployParameters%
 
 SET DevSettings=%InstanceDirectory%\%sitename%\Website\App_Config\Include\zSpitfire\DevSettings.config
 IF NOT EXIST %DevSettings% (

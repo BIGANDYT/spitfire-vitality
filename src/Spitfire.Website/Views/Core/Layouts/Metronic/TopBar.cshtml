@@ -1,0 +1,48 @@
+﻿@using Sitecore.Mvc.Presentation
+@using Spitfire.Library
+@model RenderingModel
+@{
+    var footer = MyContext.Footer;
+    if (footer == null)
+    {
+        return;
+    }
+}
+
+<!-- BEGIN TOP BAR -->
+<div class="pre-header">
+    <div class="container">
+        <div class="row">
+            <!-- BEGIN TOP BAR LEFT PART -->
+            <div class="col-md-6 col-sm-6 additional-shop-info">
+                <ul class="list-unstyled list-inline">
+                    <li><i class="fa fa-phone"></i><span>@footer["phone"]</span></li>
+                    <li><i class="fa fa-envelope-o"></i><span>@Html.Sitecore().Field("email", footer)</span></li>
+                </ul>
+            </div>
+            <!-- END TOP BAR LEFT PART -->
+            <!-- BEGIN TOP BAR MENU -->
+            <div class="col-md-6 col-sm-6 additional-nav">
+                <ul class="list-unstyled list-inline pull-right">
+                    @if (Sitecore.Context.IsLoggedIn)
+                    {
+                        <li><a href="/my-account">My Account</a></li>
+                        <li><a href="/Handlers/Logout.ashx">Log out</a></li>
+                        if (Sitecore.Context.PageMode.IsPageEditor)
+                        {
+                            <li><a href="/login">Log In</a></li>
+                            <li><a href="/register">Registration</a></li>
+                        }
+                    }
+                    else
+                    {
+                        <li><a href="/login">Log In</a></li>
+                        <li><a href="/register">Registration</a></li>
+                    }
+                </ul>
+            </div>
+            <!-- END TOP BAR MENU -->
+        </div>
+    </div>
+</div>
+<!-- END TOP BAR -->

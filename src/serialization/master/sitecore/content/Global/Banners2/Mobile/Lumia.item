@@ -7,7 +7,7 @@ parent: {A5C62F4E-55C5-4254-89CD-645BDB58BAAF}
 name: Lumia
 master: {00000000-0000-0000-0000-000000000000}
 template: {7CD4FB93-C30C-422B-8BA5-902C35505798}
-templatekey: Banner
+templatekey: Banner2
 
 ----version----
 language: en

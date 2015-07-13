@@ -10,13 +10,6 @@ template: {EFC3A4B6-6C05-45F4-8220-2D0291359DD5}
 templatekey: Recipient Lists Container
 
 ----field----
-field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
-name: __Originator
-key: __originator
-content-length: 0
-
-
-----field----
 field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
 name: __Security
 key: __security

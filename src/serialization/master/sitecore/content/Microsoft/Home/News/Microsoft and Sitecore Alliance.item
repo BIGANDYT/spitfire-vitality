@@ -6,16 +6,16 @@ path: /sitecore/content/Microsoft/Home/News/Microsoft and Sitecore Alliance
 parent: {E18457F8-5889-4BA0-B0EF-2E001534DA96}
 name: Microsoft and Sitecore Alliance
 master: {00000000-0000-0000-0000-000000000000}
-template: {824052CF-AE81-4519-AAD3-AF06A02A4C93}
-templatekey: News Item
+template: {2F75C8AF-35FC-4A88-B585-7595203F442C}
+templatekey: News Article
 
 ----field----
-field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
-name: __Renderings
-key: __renderings
-content-length: 267
+field: {148746F5-2342-4547-ACAC-A9065F6B7ED5}
+name: Date
+key: date
+content-length: 16
 
-<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{DEB73903-7496-44C3-8BB3-E493DD26D5BB}"><p:d /></r><r uid="{0BF8D751-4624-4334-98BB-BC928E53F3B4}"><p:d /></r><r uid="{98B42645-B616-4DF2-A02E-19E5E21A8425}"><p:d /></r></d></r>
+20150211T000000Z
 ----field----
 field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
 name: __Workflow
@@ -26,8 +26,15 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: 6decfed9-cb8d-4228-85ef-d023880f7f4f
+revision: f72da0fd-6885-4446-98dd-b6c00e7562ba
 
+----field----
+field: {AC3FD4DB-8266-476D-9635-67814D91E901}
+name: Summary
+key: summary
+content-length: 45
+
+Microsoft and Sitecore announce key alliance.
 ----field----
 field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
 name: Body
@@ -39,6 +46,13 @@ content-length: 2112
 <p>Vivamus viverra augue ac dignissim elementum. Proin consectetur massa sit amet efficitur finibus. Quisque a est vestibulum, dictum nisi vel, sagittis lacus. Aliquam interdum erat quis dui sodales, et efficitur massa gravida. Fusce non neque bibendum, tempor massa et, semper lorem. Donec euismod egestas tortor eu finibus. Integer sed luctus metus. Nullam non egestas nunc, non laoreet quam. Donec bibendum et magna at porta. Nulla facilisi. Proin volutpat ultrices dui at mollis. Pellentesque interdum nisl vel nunc pharetra, ultrices dictum sapien porttitor. Duis blandit nec ante quis gravida. Suspendisse vitae ultrices mauris. Nam convallis dolor sem.</p>
 
 <p>Fusce justo felis, eleifend eu lorem in, vulputate imperdiet risus. Aenean tempus rutrum nisl, in rutrum turpis condimentum nec. Nulla fermentum elit sit amet purus cursus, non feugiat ligula eleifend. In hac habitasse platea dictumst. Phasellus erat orci, vestibulum non aliquet a, auctor eget erat. Nullam venenatis tincidunt ex, sed accumsan justo egestas sagittis. Aliquam diam nibh, faucibus ornare ex ultrices, cursus maximus orci. Integer tristique hendrerit odio, id viverra lacus egestas ut. Nam rhoncus id lectus ac pulvinar. Nulla tempus sem a iaculis finibus. Donec viverra dui elementum metus consectetur, non mollis nisi vulputate. Sed pharetra laoreet bibendum. Duis posuere libero aliquam nisl semper, quis feugiat purus suscipit. Sed bibendum quis urna nec fringilla.</p>
+----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 65
+
+<image mediaid="{C30E1636-2FB8-451D-AEE8-D1A5368FBF74}" ></image>
 ----field----
 field: {1B483E91-D8C4-4D19-BA03-462074B55936}
 name: ShortTitle
@@ -54,34 +68,6 @@ content-length: 44
 
 Microsoft and Sitecore announce key alliance
 ----field----
-field: {D95BD7D2-2A5E-4F6C-A7C4-E5A564EB5487}
-name: Date
-key: date
-content-length: 16
-
-20150211T000000Z
-----field----
-field: {9ACBBCAB-2484-4558-9728-28433FE2F8A1}
-name: Summary
-key: summary
-content-length: 45
-
-Microsoft and Sitecore announce key alliance.
-----field----
-field: {04621054-DA72-4E54-AA5C-E545B2971819}
-name: Teaser Image
-key: teaser image
-content-length: 64
-
-<image mediaid="{C30E1636-2FB8-451D-AEE8-D1A5368FBF74}"></image>
-----field----
-field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
-name: __Final Renderings
-key: __final renderings
-content-length: 1699
-
-<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{FDC5F624-3FEE-47EA-A06F-C3700BEF8977}" p:before="r[@uid='{EA0E7840-2BC3-45EB-ABE2-B3F6480524B6}']" s:id="{B569EE1E-10E6-480B-996D-F484EF0AED4A}" s:ph="/content_00000000-0000-0000-0000-000000000000/column1_7e0c1acd-ec5f-4e8c-a1f1-9cb559426aa1/column2_09b3ea5d-8cd8-430e-b4a4-fdbfe1c25a4c" /><r uid="{EA0E7840-2BC3-45EB-ABE2-B3F6480524B6}" p:before="r[@uid='{09B3EA5D-8CD8-430E-B4A4-FDBFE1C25A4C}']" s:id="{A973B47E-48F6-4345-B984-7126677DD8A6}" s:ph="/content_00000000-0000-0000-0000-000000000000/column1_7e0c1acd-ec5f-4e8c-a1f1-9cb559426aa1/column1_09b3ea5d-8cd8-430e-b4a4-fdbfe1c25a4c" /><r uid="{09B3EA5D-8CD8-430E-B4A4-FDBFE1C25A4C}" p:before="r[@uid='{7E0C1ACD-EC5F-4E8C-A1F1-9CB559426AA1}']" s:ds="" s:id="{FEDC3E28-2559-40F8-A08B-76BC7B42BB61}" s:par="FullWidth&amp;ShowTitle=1&amp;ShowBreadcrumb=1&amp;Column1Width=9&amp;Column2Width=3" s:ph="/content_00000000-0000-0000-0000-000000000000/column1_7e0c1acd-ec5f-4e8c-a1f1-9cb559426aa1" /><r uid="{7E0C1ACD-EC5F-4E8C-A1F1-9CB559426AA1}" p:before="r[@uid='{8A027868-10CF-45D1-833B-52831C8729E0}']" s:id="{53C4C7C6-98E3-49B8-9FF8-39AC963228C2}" s:ph="content_00000000-0000-0000-0000-000000000000" /><r uid="{8A027868-10CF-45D1-833B-52831C8729E0}" p:before="r[@uid='{0645998C-C2BF-4845-91CC-BE1CA1ED4F51}']" s:id="{B569EE1E-10E6-480B-996D-F484EF0AED4A}" s:ph="/content_00000000-0000-0000-0000-000000000000/column2_07ac14b8-414b-4c4f-9040-fa90c68f1160" /><r uid="{0645998C-C2BF-4845-91CC-BE1CA1ED4F51}" s:id="{A973B47E-48F6-4345-B984-7126677DD8A6}" s:ph="/content_00000000-0000-0000-0000-000000000000/column1_07ac14b8-414b-4c4f-9040-fa90c68f1160" /></d></r>
-----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
@@ -94,14 +80,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-6decfed9-cb8d-4228-85ef-d023880f7f4f
+f72da0fd-6885-4446-98dd-b6c00e7562ba
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150629T151028:635711874282118088Z
+20150708T130648Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

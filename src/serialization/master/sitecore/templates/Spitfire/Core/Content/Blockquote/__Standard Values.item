@@ -1,0 +1,100 @@
+----item----
+version: 1
+id: {5EA48441-86CB-463E-9626-F3C1BB85E5BB}
+database: master
+path: /sitecore/templates/Spitfire/Core/Content/Blockquote/__Standard Values
+parent: {451A7B31-E1E6-4145-B1AB-EE9152172A0E}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {451A7B31-E1E6-4145-B1AB-EE9152172A0E}
+templatekey: Blockquote
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 35
+
+WordProcessing/32x32/bold_red_a.png
+----version----
+language: en
+version: 1
+revision: 27ededa7-b290-4dd8-9792-0dad44bb070a
+
+----field----
+field: {880B22DD-E04F-4A7E-A3A3-DCA5AFB723EE}
+name: Quote
+key: quote
+content-length: 5
+
+$name
+----field----
+field: {27A9C845-F70A-42F9-A5D5-6BCDB28060DF}
+name: Link Text
+key: link text
+content-length: 10
+
+Learn more
+----field----
+field: {8F8ED436-DB8A-48F2-83FC-961EC66ED947}
+name: Icon
+key: icon
+content-length: 28
+
+fa fa-rocket margin-right-10
+----field----
+field: {FC382C03-7BE6-4C9E-BEE3-BB7A5C83599A}
+name: Colour
+key: colour
+content-length: 38
+
+{C4679974-E93C-4F31-A002-E3039EF67FF9}
+----field----
+field: {75EEC381-2D7D-41C4-A950-77564469A91E}
+name: Hover Colour
+key: hover colour
+content-length: 38
+
+{F3485060-3C97-4957-BC1C-13E2083B9061}
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20141211T152918
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+27ededa7-b290-4dd8-9792-0dad44bb070a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150121T163237:635574547573042756Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

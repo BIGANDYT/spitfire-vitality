@@ -1,0 +1,33 @@
+﻿@using Sitecore.Data.Items
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+    var tagSource = Sitecore.Context.Database.GetItem("460630BC-83B5-4F7C-B8BF-9D962AA5AE07");
+}
+@*<h2>Some of our clients...</h2>*@
+<div class="filter-v1">
+    <ul class="mix-filter">
+        <li data-filter="all" class="filter active">All</li>
+        @foreach (var tagItem in tagSource.Children.Where(x => x.TemplateName == "Tag"))
+        {
+            <li data-filter="@tagItem.Name" class="filter">
+                @tagItem.Name
+            </li>
+        }
+    </ul>
+    <div class="row mix-grid thumbnails">
+        @foreach (Item tagItem in Model.Item.Children)
+        {
+            var tags = tagItem.Database.GetItem(tagItem["tags"]);
+
+            <div class="col-md-3 col-sm-3 mix action mix_all @(tags == null ? null : @tags.Name) " style="display: block; opacity: 1;">
+                <div class="mix-inner">
+                    @Html.Sitecore().BeginField("website", tagItem, new { haschildren = true })
+                    @Html.Sitecore().Field("logo on", tagItem, new { @class = "img-responsive" })
+                    @Html.Sitecore().EndField()
+                </div>
+            </div>
+        }
+    </div>
+</div>

@@ -1,0 +1,15 @@
+﻿@using Sitecore.Mvc.Presentation
+@using Spitfire.SitecoreExtensions.Extensions
+@model RenderingModel
+@{
+    var home = Model.PageItem.GetAncestorOfTemplate("home");
+    if (home == null)
+    {
+        return;
+    }
+    
+    var colourid = home["theme"];
+    var colouritem = Sitecore.Context.Database.GetItem(colourid);
+}
+
+<link href="/metronic/frontend/layout/css/themes/@colouritem["css filename"]" rel="stylesheet" id="style-color" />

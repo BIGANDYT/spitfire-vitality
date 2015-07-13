@@ -47,8 +47,15 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: 511aa377-55a7-405e-b6f2-59da37638f27
+revision: 0c942891-bcf1-4661-9b0e-e47faa28cdba
 
+----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{F0872AC9-5471-42C2-B4AA-076E24F4A9AF}" />
 ----field----
 field: {1B483E91-D8C4-4D19-BA03-462074B55936}
 name: ShortTitle
@@ -63,13 +70,6 @@ key: title
 content-length: 15
 
 Officecore Demo
-----field----
-field: {79357B7C-4D56-4B3B-B75D-6B713D7DBEA0}
-name: Logo
-key: logo
-content-length: 58
-
-<image mediaid="{F0872AC9-5471-42C2-B4AA-076E24F4A9AF}" />
 ----field----
 field: {577F1689-7DE4-4AD2-A15F-7FDC1759285F}
 name: __Long description
@@ -111,14 +111,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-511aa377-55a7-405e-b6f2-59da37638f27
+0c942891-bcf1-4661-9b0e-e47faa28cdba
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150630T142603:635712711637524563Z
+20150708T120422Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

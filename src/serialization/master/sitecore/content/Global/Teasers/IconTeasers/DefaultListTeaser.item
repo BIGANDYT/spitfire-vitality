@@ -1,0 +1,77 @@
+----item----
+version: 1
+id: {20F6DA7B-5652-4309-A025-94AB9AA4D0AC}
+database: master
+path: /sitecore/content/Global/Teasers/IconTeasers/DefaultListTeaser
+parent: {EFDF4935-EF7F-44D1-B5B8-9236488517DC}
+name: DefaultListTeaser
+master: {00000000-0000-0000-0000-000000000000}
+template: {60920BFB-F0BB-4DED-BAAC-AEF1F68FE6E8}
+templatekey: Teaser
+
+----version----
+language: en
+version: 1
+revision: b9451178-0760-4ae6-a473-66bbfd5e9427
+
+----field----
+field: {8F835316-A8FF-411A-905B-CFC143D7950C}
+name: Title
+key: title
+content-length: 4
+
+PLAN
+----field----
+field: {A7A39E67-7AAF-4008-BA19-B65E21C2389E}
+name: Thumbnail
+key: thumbnail
+content-length: 65
+
+<image mediaid="{ABEB1973-D5D1-4011-A6D6-7C5488A67760}" ></image>
+----field----
+field: {18677565-989E-4FBB-BF7A-E39B4BD9029D}
+name: Details
+key: details
+content-length: 141
+
+<ul>
+    <li>Client interview</li>
+    <li>Gather consumer data</li>
+    <li>Create content strategy</li>
+    <li>Analyze research</li>
+</ul>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150518T100633Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b9451178-0760-4ae6-a473-66bbfd5e9427
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150709T074809Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

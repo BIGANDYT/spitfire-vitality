@@ -1,0 +1,44 @@
+----item----
+version: 1
+id: {A1F36BC1-E55A-45D3-A860-863EC04B6DDA}
+database: master
+path: /sitecore/content/Global/Metadata/Tags/Xbox Games/Racing
+parent: {B9118115-4D06-49D0-8F52-0C950C4D2899}
+name: Racing
+master: {00000000-0000-0000-0000-000000000000}
+template: {A1E9A1FE-E1D0-45A6-BEC5-7954E1F56FAA}
+templatekey: Tag
+
+----version----
+language: en
+version: 1
+revision: f5036e48-134f-44c5-af91-5bab8135d3e3
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150119T153613Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f5036e48-134f-44c5-af91-5bab8135d3e3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150625T153417:635708432579438224Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

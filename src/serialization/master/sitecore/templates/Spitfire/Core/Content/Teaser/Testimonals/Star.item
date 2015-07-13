@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {49D0CCA3-AF8F-47CC-A6FD-86E95CD8D713}
+database: master
+path: /sitecore/templates/Spitfire/Core/Content/Teaser/Testimonals/Star
+parent: {BDBEC556-D999-4704-BCD9-1DC442CD6F0E}
+name: Star
+master: {00000000-0000-0000-0000-000000000000}
+template: {455A3E98-A627-4B40-8035-E683A0331AC7}
+templatekey: Template field
+
+----field----
+field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
+name: Type
+key: type
+content-length: 7
+
+Integer
+----field----
+field: {337E20E1-999A-4EEA-85AD-B58A03AE75CC}
+name: Quick Action Bar
+key: quick action bar
+content-length: 38
+
+{01BF6D08-E81B-40BD-B66C-46239CC31D76}
+----field----
+field: {9C903E29-650D-4AF2-B9BD-526D5C14A1A5}
+name: Validator Bar
+key: validator bar
+content-length: 38
+
+{01BF6D08-E81B-40BD-B66C-46239CC31D76}
+----version----
+language: en
+version: 1
+revision: 6fb70b6d-3d02-431c-a9f5-26a3b888030e
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150526T160752Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6fb70b6d-3d02-431c-a9f5-26a3b888030e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150526T164750:635682556705354295Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 18
+
+extranet\Anonymous

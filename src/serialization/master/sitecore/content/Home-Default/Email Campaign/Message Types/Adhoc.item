@@ -9,13 +9,6 @@ master: {F8FAE92A-4F10-470C-AD5C-7ED9E6B636AF}
 template: {FA257176-AA15-4999-91C5-C03F3BDA5027}
 templatekey: Ad-hoc Type Folder
 
-----field----
-field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
-name: __Originator
-key: __originator
-content-length: 0
-
-
 ----version----
 language: en
 version: 1

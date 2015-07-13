@@ -1,0 +1,93 @@
+﻿@using Spitfire.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+    var home = Model.PageItem.GetAncestorOfTemplate("home");
+    if (home == null)
+    {
+        // TODO: Throw an error here? We shouldn't really be here, with a layout at least.
+        return;
+    }
+}
+<!-- BEGIN HEADER -->
+<div class="header">
+    <div class="container">
+        <a href="@home.Url()" class="site-logo">
+            @Html.Sitecore().Field("Image", home)
+        </a>
+
+        <a href="javascript:void(0);" class="mobi-toggler"><i class="fa fa-bars"></i></a>
+
+        <!-- BEGIN NAVIGATION -->
+        <div class="header-navigation pull-right font-transform-inherit">
+            <ul>
+                <li class="@(Model.Item.ID == home.ID ? "active" : string.Empty)">
+                    <a href="@home.Url()">
+                        <span>@Html.Sitecore().Field("ShortTitle", home, new { DisableWebEdit = true })</span>
+                    </a>
+                </li>
+
+                @foreach (var item1 in home.Children.Where(x => x["ShowInNavigation"] == "1"))
+                {
+                    if (item1["dropdown"] == "1")
+                    {
+                        <li class="@(item1.ID == home.ID ? "active" : string.Empty)">
+                            <a href="@item1.Url()">
+                                <span>@Html.Sitecore().Field("ShortTitle", item1, new { DisableWebEdit = true })</span>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <div class="header-navigation-content">
+                                        <div class="row">
+                                            @foreach (var item2 in item1.Children.Where(x => x["ShowInNavigation"] == "1"))
+                                            {
+                                                <div class="col-md-4 header-navigation-col">
+                                                    <a href="@item2.Url()"><h4 style="color: #3e4d5c !important;">@Html.Sitecore().Field("ShortTitle", item2, new { DisableWebEdit = true })</h4></a>
+                                                    <ul>
+                                                        @foreach (var item3 in item2.Children.Where(x => x["ShowInNavigation"] == "1"))
+                                                        {
+                                                            <li><a href="@item3.Url()">@Html.Sitecore().Field("ShortTitle", item3, new { DisableWebEdit = true })</a></li>
+                                                        }
+                                                    </ul>
+                                                </div>
+                                            }
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="@(item1.ID == home.ID ? " active" : string.Empty)">
+                            <a href="@item1.Url()">
+                                <span>@Html.Sitecore().Field("ShortTitle", item1, new { DisableWebEdit = true })</span>
+                            </a>
+                        </li>
+                    }
+                }
+
+                <!-- BEGIN TOP SEARCH -->
+                <li class="menu-search">
+                    <span class="sep"></span>
+                    <i class="fa fa-search search-btn"></i>
+                    <div class="search-box">
+                        <form action="#">
+                            <div class="input-group">
+                                <input type="text" placeholder="Search" class="form-control" />
+                                <span class="input-group-btn">
+                                    <button class="btn btn-primary" type="submit">Search</button>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </li>
+                <!-- END TOP SEARCH -->
+            </ul>
+        </div>
+        <!-- END NAVIGATION -->
+    </div>
+</div>
+<!-- Header END -->

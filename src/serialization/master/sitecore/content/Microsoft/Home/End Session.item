@@ -10,6 +10,13 @@ template: {99A1374E-2369-4732-BDF7-4BFC8CF6F0FA}
 templatekey: _BasePage
 
 ----field----
+field: {5585A30D-B115-4753-93CE-422C3455DEB2}
+name: ShowInNavigation
+key: showinnavigation
+content-length: 0
+
+
+----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
 key: __icon
@@ -40,7 +47,7 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: 4a14b834-142e-453c-9e6c-2182ab088e4b
+revision: ca2efadc-8075-41ce-9d43-49d3a2217af4
 
 ----field----
 field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
@@ -76,14 +83,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-4a14b834-142e-453c-9e6c-2182ab088e4b
+ca2efadc-8075-41ce-9d43-49d3a2217af4
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150702T080356Z
+20150708T124348Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

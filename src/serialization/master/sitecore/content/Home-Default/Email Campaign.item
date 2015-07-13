@@ -24,13 +24,6 @@ content-length: 36
 
 576c9a0b-7dbd-4fee-86ee-54dfd2ce6fe6
 ----field----
-field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
-name: __Originator
-key: __originator
-content-length: 0
-
-
-----field----
 field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
 name: __Security
 key: __security

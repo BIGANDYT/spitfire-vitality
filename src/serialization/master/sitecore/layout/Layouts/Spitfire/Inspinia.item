@@ -13,13 +13,13 @@ templatekey: Layout
 field: {A036B2BC-BA04-44F6-A75F-BAE6CD242ABF}
 name: Path
 key: path
-content-length: 39
+content-length: 44
 
-/views/layouts/Inspinia/Inspinia.cshtml
+/views/core/layouts/Inspinia/Inspinia.cshtml
 ----version----
 language: en
 version: 1
-revision: 6566a8a8-9bf1-4dd7-b47e-7e7f44624852
+revision: 7f8a99e6-4c53-4d87-a16b-41f5c70e0832
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -41,18 +41,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-6566a8a8-9bf1-4dd7-b47e-7e7f44624852
+7f8a99e6-4c53-4d87-a16b-41f5c70e0832
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150617T105513:635701353138393414Z
+20150709T103916Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 18
+content-length: 14
 
-extranet\Anonymous
+sitecore\admin

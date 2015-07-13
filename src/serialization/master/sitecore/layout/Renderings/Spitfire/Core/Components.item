@@ -9,10 +9,17 @@ master: {00000000-0000-0000-0000-000000000000}
 template: {7EE0975B-0698-493E-B3A2-0B2EF33D0522}
 templatekey: Rendering Folder
 
+----field----
+field: {6FD695E7-7F6D-4CA5-8B49-A829E5950AE9}
+name: __Subitems Sorting
+key: __subitems sorting
+content-length: 0
+
+
 ----version----
 language: en
 version: 1
-revision: 76799570-b2f1-415a-8018-1b49e272140d
+revision: 10b8c066-13bb-48b3-ae48-c7c974f8fdd7
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-76799570-b2f1-415a-8018-1b49e272140d
+10b8c066-13bb-48b3-ae48-c7c974f8fdd7
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150629T123431:635711780717746213Z
+20150709T093758Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

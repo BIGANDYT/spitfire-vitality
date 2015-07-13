@@ -7,7 +7,7 @@ parent: {A4DEE81E-AF05-4556-917A-9F8126835442}
 name: Restaurant
 master: {00000000-0000-0000-0000-000000000000}
 template: {7CD4FB93-C30C-422B-8BA5-902C35505798}
-templatekey: Banner
+templatekey: Banner2
 
 ----version----
 language: en

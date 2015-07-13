@@ -10,6 +10,13 @@ template: {F76F859A-F34F-45AF-AD50-FE74CCA41D25}
 templatekey: Section
 
 ----field----
+field: {A1816D65-769A-4B09-89F6-B20665024CBF}
+name: ShowInSideNavigation
+key: showinsidenavigation
+content-length: 0
+
+
+----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
 key: __icon
@@ -40,7 +47,7 @@ ar|sitecore\hca demo|pe|-item:create|-item:write|-item:delete|-item:rename|pd|-i
 ----version----
 language: en
 version: 1
-revision: 333a2a93-b017-4bfb-a2c1-bdbcf841f2b7
+revision: 2d6b47a2-4519-48ae-9b6c-f50fe2c90a60
 
 ----field----
 field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
@@ -69,14 +76,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-333a2a93-b017-4bfb-a2c1-bdbcf841f2b7
+2d6b47a2-4519-48ae-9b6c-f50fe2c90a60
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150630T142236:635712709562877869Z
+20150709T072249Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

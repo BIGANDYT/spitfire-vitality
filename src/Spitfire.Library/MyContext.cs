@@ -1,6 +1,8 @@
 ﻿namespace Spitfire.Library
 {
     using System;
+    using System.Linq;
+
     using Sitecore;
     using Sitecore.Caching;
     using Sitecore.ContentSearch;
@@ -56,6 +58,31 @@
                     var current = Context.Item;
                     var root = current.Axes.SelectSingleItem("ancestor-or-self::*[@@templateid='" + SpitfireConstants.TemplateIds.SiteRoot + "']");
                     Items[Key] = root ?? Context.Database.GetItem(Context.Site.StartPath);
+                }
+
+                return (Item)Items[Key];
+            }
+        }
+
+        /// <summary>
+        /// Gets current context item's site root item.
+        /// </summary>
+        /// <value>
+        /// Site Root item
+        /// </value>
+        public static Item Footer
+        {
+            get
+            {
+                const string Key = "FooterItem";
+                if (Items[Key] == null)
+                {
+                    var siteRoot = SiteRoot;
+                    if (siteRoot != null)
+                    {
+                        var footerItem = siteRoot.Children.FirstOrDefault(x => x.TemplateName == "Footer");
+                        Items[Key] = footerItem;
+                    }
                 }
 
                 return (Item)Items[Key];

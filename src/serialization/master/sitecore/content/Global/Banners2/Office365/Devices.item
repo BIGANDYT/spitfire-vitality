@@ -7,7 +7,7 @@ parent: {B90EC2A5-FCF5-4ADA-9391-D8753B8AF594}
 name: Devices
 master: {00000000-0000-0000-0000-000000000000}
 template: {7CD4FB93-C30C-422B-8BA5-902C35505798}
-templatekey: Banner
+templatekey: Banner2
 
 ----version----
 language: en

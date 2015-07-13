@@ -1,0 +1,100 @@
+----item----
+version: 1
+id: {8B15A3E8-D471-4E38-AF7B-257F3828EC98}
+database: master
+path: /sitecore/templates/Spitfire/Core/Content/Banner/__Standard Values
+parent: {656FE842-C5A3-4FFC-8130-A029C713F743}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {656FE842-C5A3-4FFC-8130-A029C713F743}
+templatekey: Banner
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 30
+
+Office/32x32/window_dialog.png
+----version----
+language: en
+version: 1
+revision: 6ed1b415-d9f5-4b3c-a77b-095d39396213
+
+----field----
+field: {C7C0B642-1DE8-4724-BCCC-6B1C5CF3C14C}
+name: Title
+key: title
+content-length: 12
+
+Insert Title
+----field----
+field: {8B50FBA2-F31C-4563-9B71-1CF7CADE180A}
+name: SubTitle
+key: subtitle
+content-length: 15
+
+Insert SubTitle
+----field----
+field: {EFEF5442-64FE-4C12-A981-3F2C372E28A8}
+name: Title Color
+key: title color
+content-length: 7
+
+#FFFFFF
+----field----
+field: {3A1F3132-7AA4-433B-BD18-C6B4CE37910F}
+name: Link Color
+key: link color
+content-length: 7
+
+#FFFFFF
+----field----
+field: {90F19F3A-9B1D-476A-B87E-7D14243E99A2}
+name: SubTitle Color
+key: subtitle color
+content-length: 7
+
+#FFFFFF
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150509T180014Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6ed1b415-d9f5-4b3c-a77b-095d39396213
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150509T212832:635668037121170745Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

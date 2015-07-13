@@ -26,7 +26,7 @@ content-length: 277
 ----version----
 language: en
 version: 1
-revision: 406714fe-11f5-43a4-b125-b7ceb7a2de38
+revision: 2271bc64-8de0-4ad0-9c64-2dd8cd68959f
 
 ----field----
 field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
@@ -53,9 +53,9 @@ Xbox One Games
 field: {EE01377C-F818-424D-A68E-5691DB0AE841}
 name: Tag Source
 key: tag source
-content-length: 167
+content-length: 176
 
-<link id="{B9118115-4D06-49D0-8F52-0C950C4D2899}" querystring="" target="Active Browser" text="" url="/Global/Tags/Xbox Games" title="" class="" linktype="internal" />
+<link id="{B9118115-4D06-49D0-8F52-0C950C4D2899}" querystring="" text="" linktype="internal" url="/Global/Metadata/Tags/Xbox Games" title="" class="" target="Active Browser" />
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -69,14 +69,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-406714fe-11f5-43a4-b125-b7ceb7a2de38
+2271bc64-8de0-4ad0-9c64-2dd8cd68959f
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150630T101323:635712560038588727Z
+20150709T074127Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

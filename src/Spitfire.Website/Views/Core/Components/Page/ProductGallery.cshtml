@@ -1,0 +1,39 @@
+﻿@using Spitfire.SitecoreExtensions.Extensions
+@using Sitecore.Data.Items
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+    var tagsource = Sitecore.Context.Database.GetItem("B9118115-4D06-49D0-8F52-0C950C4D2899");
+}
+<div class="filter-v1">
+    <ul class="mix-filter">
+        <li data-filter="all" class="filter active">All</li>
+        @foreach (Item item in tagsource.Children.Where(x => x.TemplateName == "Tag"))
+        {
+            <li data-filter="@item.Name" class="filter">
+                @item.Name
+            </li>
+        }
+    </ul>
+    <div class="row mix-grid thumbnails">
+        @foreach (Item item in Model.Item.Children)
+        {
+            var tags = item.Database.GetItem(item["tags"]);
+
+            <div class="col-md-6 col-sm-6 mix action mix_all @(tags == null ? null : tags.Name)" style="display: block; opacity: 1;">
+                <div class="mix-inner">
+                    @Html.Sitecore().Field("image", item, new { w = 555, @as = 1, @class = "img-responsive" })
+                    <div class="mix-details">
+                        <h4>@Html.Sitecore().Field("title", item)</h4>
+                        <p>
+                            @Html.Sitecore().Field("summary", item)
+                        </p>
+                        <a href="@item.Url()" class="mix-link"><i class="fa fa-link"></i></a>
+                        <a data-rel="fancybox-button" title="Project Name" href="@item.ImageUrl("image")" class="mix-preview fancybox-button"><i class="fa fa-search"></i></a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

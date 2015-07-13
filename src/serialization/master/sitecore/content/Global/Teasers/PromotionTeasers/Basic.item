@@ -1,0 +1,100 @@
+----item----
+version: 1
+id: {3B2C837B-F154-4F04-8C4D-E822EA94754D}
+database: master
+path: /sitecore/content/Global/Teasers/PromotionTeasers/Basic
+parent: {CBAFABB1-1AA5-4786-9C36-19DEDFCF926F}
+name: Basic
+master: {00000000-0000-0000-0000-000000000000}
+template: {60920BFB-F0BB-4DED-BAAC-AEF1F68FE6E8}
+templatekey: Teaser
+
+----version----
+language: en
+version: 1
+revision: 41bf184a-8b32-49e6-9b82-e517d0a5d0c2
+
+----field----
+field: {8F835316-A8FF-411A-905B-CFC143D7950C}
+name: Title
+key: title
+content-length: 5
+
+Basic
+----field----
+field: {18677565-989E-4FBB-BF7A-E39B4BD9029D}
+name: Details
+key: details
+content-length: 352
+
+<ul class="list-group">
+    <li class="list-group-item">60 Users</li>
+    <li class="list-group-item">Unlimited Forums</li>
+    <li class="list-group-item">Unlimited Reports</li>
+    <li class="list-group-item">3,000 Entries per Month</li>
+    <li class="list-group-item">200 MB Storage</li>
+    <li class="list-group-item">Unlimited Support</li>
+</ul>
+----field----
+field: {E6FCC918-A5B9-445A-9976-BF65B3A2772F}
+name: SubTitle
+key: subtitle
+content-length: 2
+
+25
+----field----
+field: {A35BEA66-44B1-446A-A35C-C56362E3382D}
+name: Button
+key: button
+content-length: 184
+
+<link id="{EB6FF566-7288-4003-BED4-929F15769C82}" querystring="" text="SIGN UP" linktype="internal" url="/Finance/Home" title="" class="btn btn-outline-dark" target="Active Browser" />
+----field----
+field: {792D55A1-CEA1-45CA-A329-FC0170338D1D}
+name: Symbol
+key: symbol
+content-length: 1
+
+$
+----field----
+field: {2B930157-09F5-45C6-9272-8A5F99490068}
+name: Amount
+key: amount
+content-length: 2
+
+25
+----field----
+field: {301A0FBE-382D-4BB6-A008-DB2E80823D0D}
+name: Period
+key: period
+content-length: 5
+
+month
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150520T104430Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+41bf184a-8b32-49e6-9b82-e517d0a5d0c2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150708T113254Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -7,7 +7,7 @@ parent: {31899A85-946E-4232-AF64-2A6356377DCF}
 name: Capital One PPC
 master: {00000000-0000-0000-0000-000000000000}
 template: {7CD4FB93-C30C-422B-8BA5-902C35505798}
-templatekey: Banner
+templatekey: Banner2
 
 ----version----
 language: en

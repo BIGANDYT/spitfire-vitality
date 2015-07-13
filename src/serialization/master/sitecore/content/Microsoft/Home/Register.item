@@ -10,6 +10,13 @@ template: {99A1374E-2369-4732-BDF7-4BFC8CF6F0FA}
 templatekey: _BasePage
 
 ----field----
+field: {5585A30D-B115-4753-93CE-422C3455DEB2}
+name: ShowInNavigation
+key: showinnavigation
+content-length: 0
+
+
+----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
 key: __icon
@@ -40,7 +47,7 @@ ar|sitecore\hca demo|pe|-item:create|-item:write|-item:delete|-item:rename|pd|-i
 ----version----
 language: en
 version: 1
-revision: 5c61052f-a70f-4273-9dfc-8718c358038c
+revision: 92951a11-f3e3-408e-bf21-9dc40f62a99e
 
 ----field----
 field: {1B483E91-D8C4-4D19-BA03-462074B55936}
@@ -76,14 +83,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-5c61052f-a70f-4273-9dfc-8718c358038c
+92951a11-f3e3-408e-bf21-9dc40f62a99e
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150701T092925:635713397651784415Z
+20150708T124401Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

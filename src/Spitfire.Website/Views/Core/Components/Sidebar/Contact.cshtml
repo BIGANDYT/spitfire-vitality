@@ -1,0 +1,26 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Spitfire.Library
+@model RenderingModel
+@{
+    var footer = MyContext.Footer;
+    if (footer == null)
+    {
+        return;
+    }
+}
+<!-- BEGIN CONTACT -->
+<h2>Our Contacts</h2>
+<address>
+    <strong>@Html.Sitecore().Field("company", footer)</strong><br />
+    @Html.Sitecore().Field("address", footer)<br />
+    @Html.Sitecore().Field("address 2", footer)<br />
+    @Html.Sitecore().Field("address 3", footer)<br />
+    <abbr title="Phone">P:</abbr>&#160;@Html.Sitecore().Field("phone", footer)<br />
+    <abbr title="Fax">F:</abbr>&#160;@Html.Sitecore().Field("fax", footer)<br/>
+</address>
+<address>
+    <strong>Email</strong><br/>
+    @Html.Sitecore().Field("email", footer)
+</address>
+<!-- END CONTACT -->	

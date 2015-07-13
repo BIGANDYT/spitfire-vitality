@@ -1,0 +1,42 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+<div class="content-page">
+    <!-- BEGIN CAROUSEL -->
+    <div class="front-carousel margin-bottom-20">
+        <div id="myCarousel" class="carousel slide">
+            <!-- Carousel items -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    @Html.Sitecore().Field("image", new { mw = 700 })
+                </div>
+            </div>
+            <!-- Carousel nav
+             <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+              <i class="fa fa-angle-left"></i>
+            </a>
+            <a class="carousel-control right" href="#myCarousel" data-slide="next">
+              <i class="fa fa-angle-right"></i>
+            </a>
+            -->
+        </div>
+    </div>
+    <!-- END CAROUSEL -->
+    <!-- BEGIN INFO BLOCK -->
+    <h4>
+        @Html.Sitecore().Field("date", new { format = "MMMM dd, yyyy" })
+    </h4>
+
+    @if (Sitecore.Context.PageMode.IsPageEditor)
+    {
+        <br />
+        <div style="border: 1px solid #f00; padding: 5px;">
+            <strong>Summary:</strong><br />
+            @Html.Sitecore().Field("summary")
+        </div>
+        <br />
+        <strong>Main text:</strong><br />
+    }
+
+    @Html.Sitecore().Field("Body")
+</div>

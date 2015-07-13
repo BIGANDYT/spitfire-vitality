@@ -1,0 +1,32 @@
+﻿@using Sitecore.Data.Items
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Spitfire.SitecoreExtensions.Extensions
+@model RenderingModel
+<!-- BEGIN RECENT WORKS -->
+<div class="row recent-work margin-bottom-40">
+    <div class="col-md-3">
+        <h2><a href="@Model.Item.Url()">Recent @Model.Item["title"]</a></h2>
+        @Html.Sitecore().Field("Body")
+    </div>
+    <div class="col-md-9">
+        <div class="owl-carousel owl-carousel3">
+            @foreach (Item item in Model.Item.Children.OrderByDescending(x => x["Date"]))
+            {
+                <div class="recent-work-item">
+                    <em>
+                        <a href="@item.Url()">
+                            @Html.Sitecore().Field("Image", item, new { mw = 273, mh = 152, @as = 1, @class = "img-responsive" })
+                        </a>
+                    </em>
+                    <a href="@item.Url()" class="recent-work-description">
+                        <strong>@Html.Sitecore().Field("title", item)</strong>
+                        <b>@Html.Sitecore().Field("date", item, new { format = "MMMM dd, yyyy" })</b>
+                    </a>
+                </div>
+            }
+
+        </div>
+    </div>
+</div>
+<!-- END RECENT WORKS -->	
