@@ -11,6 +11,9 @@ tools\curl "http://%sitename%/sitecore_ship/about"
 :: Note: We won't need this for much longer, will be in Sitecore 8.1
 if not exist "%sitelocation%\bin\Sitecore.Marketing.Campaigns.Client.dll" (
 	tools\curl -F "path=%InstallerPath%\Sitecore Campaign Manager 1.0 rev. 150423.zip" "http://%sitename%/sitecore_ship/package/install"
+
+	:: Wrapped this in here to make sure it only runs once, temporary.
+	tools\curl -F "path=%InstallerPath%\Microsoft Dynamics CRM Security Provider 2.1 rev. 150403 Hotfix 438309.zip" "http://%sitename%/sitecore_ship/package/install"
 )
 
 if not exist "%sitelocation%\bin\Sitecore.CrmCampaignIntegration.dll" (
