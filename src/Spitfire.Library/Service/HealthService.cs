@@ -89,26 +89,26 @@
                                     renderingItem));
                         }
 
-                        //// Check Datasource Template/Location set.
-                        //if (renderingItem["Datasource Location"] == string.Empty
-                        //    || renderingItem["Datasource Template"] == string.Empty)
-                        //{
-                        //    AddRenderingIssue(
-                        //        new HealthIssueRendering(
-                        //            HealthIssueSeverity.Info,
-                        //            "Datasource Location or Datasource Template not set",
-                        //            renderingItem));
-                        //}
+                        // Check Datasource Template/Location set.
+                        if (renderingItem["Datasource Location"] == string.Empty
+                            || renderingItem["Datasource Template"] == string.Empty)
+                        {
+                            AddRenderingIssue(
+                                new HealthIssueRendering(
+                                    HealthIssueSeverity.Info,
+                                    "Datasource Location or Datasource Template not set",
+                                    renderingItem));
+                        }
 
-                        //// Check caching enabled
-                        //if (!IsRenderingCacheable(renderingItem))
-                        //{
-                        //    AddRenderingIssue(
-                        //        new HealthIssueRendering(
-                        //            HealthIssueSeverity.Info,
-                        //            "No caching enabled",
-                        //            renderingItem));
-                        //}
+                        // Check caching enabled
+                        if (!IsRenderingCacheable(renderingItem))
+                        {
+                            AddRenderingIssue(
+                                new HealthIssueRendering(
+                                    HealthIssueSeverity.Info,
+                                    "No caching enabled",
+                                    renderingItem));
+                        }
 
                         var modelPath = renderingItem["Model"].ToLower();
                         if (!string.IsNullOrEmpty(modelPath))
