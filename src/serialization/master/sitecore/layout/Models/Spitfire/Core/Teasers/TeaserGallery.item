@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {DF7C294D-B847-4E72-AC86-48D2211BD55D}
+id: {F9E22FEF-5EBF-4624-A768-D00753A255CF}
 database: master
-path: /sitecore/layout/Models/Spitfire/Core/PromoTeaser
-parent: {B33B9CBC-BB7A-479E-861E-A189203F9C93}
-name: PromoTeaser
+path: /sitecore/layout/Models/Spitfire/Core/Teasers/TeaserGallery
+parent: {35B38B93-7D52-4589-B1F2-89E604DABCA7}
+name: TeaserGallery
 master: {00000000-0000-0000-0000-000000000000}
 template: {FED6A14F-0D05-4E18-B160-17C0588A2005}
 templatekey: Model
@@ -13,13 +13,13 @@ templatekey: Model
 field: {EE9E23D2-181D-4172-A929-0E0B8D10313C}
 name: Model Type
 key: model type
-content-length: 52
+content-length: 63
 
-Spitfire.Library.Models.PromoTeaser,Spitfire.Library
+Spitfire.Library.Models.Teasers.TeaserGallery, Spitfire.Library
 ----version----
 language: en
 version: 1
-revision: a47606a4-322c-47d2-937f-7894db0fea9e
+revision: f72110e5-e33d-4dcf-b03f-abd332cd7ed3
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -34,7 +34,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20150520T104957Z
+20150518T132257Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-a47606a4-322c-47d2-937f-7894db0fea9e
+f72110e5-e33d-4dcf-b03f-abd332cd7ed3
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150522T145333:635679032136850864Z
+20150713T125132Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -20,9 +20,9 @@ content-length: 52
 field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
 name: Model
 key: model
-content-length: 53
+content-length: 61
 
-/sitecore/layout/Models/Spitfire/Core/IconTeaserModel
+/sitecore/layout/Models/Spitfire/Core/Teasers/IconTeaserModel
 ----field----
 field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
 name: Parameters Template
@@ -61,7 +61,7 @@ content-length: 3
 ----version----
 language: en
 version: 1
-revision: bd57869d-691b-43ee-a84e-96376a094e1b
+revision: f08c9b9b-cfb7-48b8-8176-4ec4bd7f3b57
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -76,14 +76,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-bd57869d-691b-43ee-a84e-96376a094e1b
+f08c9b9b-cfb7-48b8-8176-4ec4bd7f3b57
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150713T115111Z
+20150713T125050Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

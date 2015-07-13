@@ -20,9 +20,9 @@ content-length: 49
 field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
 name: Model
 key: model
-content-length: 49
+content-length: 57
 
-/sitecore/layout/Models/Spitfire/Core/PromoTeaser
+/sitecore/layout/Models/Spitfire/Core/Teasers/PromoTeaser
 ----field----
 field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
 name: Parameters Template
@@ -61,7 +61,7 @@ content-length: 4
 ----version----
 language: en
 version: 1
-revision: 7c918ff1-dc6e-4eaf-965f-01fe1658c0ca
+revision: ea4cd9fa-ae89-4655-828b-b7151b30fe49
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -76,14 +76,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-7c918ff1-dc6e-4eaf-965f-01fe1658c0ca
+ea4cd9fa-ae89-4655-828b-b7151b30fe49
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150709T104435Z
+20150713T125119Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

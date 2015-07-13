@@ -2,8 +2,8 @@
 version: 1
 id: {0B1D08A3-6C98-4236-9E75-413E87EA66BD}
 database: master
-path: /sitecore/layout/Models/Spitfire/Core/IconTeaserModel
-parent: {B33B9CBC-BB7A-479E-861E-A189203F9C93}
+path: /sitecore/layout/Models/Spitfire/Core/Teasers/IconTeaserModel
+parent: {35B38B93-7D52-4589-B1F2-89E604DABCA7}
 name: IconTeaserModel
 master: {00000000-0000-0000-0000-000000000000}
 template: {FED6A14F-0D05-4E18-B160-17C0588A2005}
@@ -13,13 +13,13 @@ templatekey: Model
 field: {EE9E23D2-181D-4172-A929-0E0B8D10313C}
 name: Model Type
 key: model type
-content-length: 57
+content-length: 65
 
-Spitfire.Library.Models.IconTeaserModel, Spitfire.Library
+Spitfire.Library.Models.Teasers.IconTeaserModel, Spitfire.Library
 ----version----
 language: en
 version: 1
-revision: dc61befd-e218-4d50-a3a8-66ce94fc9311
+revision: b0f0282c-2c96-4efe-ae82-9f362ab4656a
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-dc61befd-e218-4d50-a3a8-66ce94fc9311
+b0f0282c-2c96-4efe-ae82-9f362ab4656a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150521T124435:635678090752122579Z
+20150713T125102Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

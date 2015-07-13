@@ -1,16 +1,15 @@
-﻿namespace Spitfire.Library.Models
+﻿namespace Spitfire.Library.Models.Navigation
 {
     using System.Collections.Generic;
     using System.Linq;
 
-    using Sitecore;
     using Sitecore.Data.Items;
     using Sitecore.Mvc.Presentation;
 
     /// <summary>
     /// Model for Navigation list
     /// </summary>
-    public class NavList : IRenderingModel
+    public class NavList : RenderingModel
     {
         /// <summary>
         /// Gets Ordered list of items
@@ -24,12 +23,12 @@
         /// </summary>
         /// <param name="rendering">Rendering to initialize
         /// </param>
-        public void Initialize(Rendering rendering)
+        public override void Initialize(Rendering rendering)
         {
-            if (!string.IsNullOrEmpty(rendering.DataSource))
+            base.Initialize(rendering);
+            if (this.Item != null)
             {
-                Item datasource = Context.Database.GetItem(rendering.DataSource);
-                this.Data = datasource.Children.OrderBy(x => x.Name).ToList();
+                this.Data = this.Item.Children.OrderBy(x => x.Name).ToList();
             }
         }
     }

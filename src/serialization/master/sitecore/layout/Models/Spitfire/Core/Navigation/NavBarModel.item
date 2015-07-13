@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {F3C45A66-AE8B-437F-8C48-BE6DB5471B5D}
+id: {ADDC96B7-F9B5-4C52-8EC9-E91EC61DC998}
 database: master
-path: /sitecore/layout/Models/Spitfire/Core/OwlTeaserModel
-parent: {B33B9CBC-BB7A-479E-861E-A189203F9C93}
-name: OwlTeaserModel
+path: /sitecore/layout/Models/Spitfire/Core/Navigation/NavBarModel
+parent: {E7B16112-C5D9-46D1-AF3D-0A04805095AD}
+name: NavBarModel
 master: {00000000-0000-0000-0000-000000000000}
 template: {FED6A14F-0D05-4E18-B160-17C0588A2005}
 templatekey: Model
@@ -13,13 +13,13 @@ templatekey: Model
 field: {EE9E23D2-181D-4172-A929-0E0B8D10313C}
 name: Model Type
 key: model type
-content-length: 56
+content-length: 64
 
-Spitfire.Library.Models.OwlTeaserModel, Spitfire.Library
+Spitfire.Library.Models.Navigation.NavBarModel, Spitfire.Library
 ----version----
 language: en
 version: 1
-revision: 1e5cd552-4481-4b16-9135-6c508357b903
+revision: 6401e5ec-812e-4d62-861c-5607e3b1d5b5
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -34,7 +34,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20150512T125737Z
+20150518T140608Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1e5cd552-4481-4b16-9135-6c508357b903
+6401e5ec-812e-4d62-861c-5607e3b1d5b5
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150521T124450:635678090908910867Z
+20150713T125020Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

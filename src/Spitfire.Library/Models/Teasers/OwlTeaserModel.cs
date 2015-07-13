@@ -1,9 +1,8 @@
-﻿namespace Spitfire.Library.Models
+﻿namespace Spitfire.Library.Models.Teasers
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using Sitecore;
     using Sitecore.Data.Fields;
     using Sitecore.Data.Items;
     using Sitecore.Mvc.Presentation;
@@ -12,16 +11,8 @@
     /// <summary>
     /// OwlTeaser component model
     /// </summary>
-    public class OwlTeaserModel : IRenderingModel
+    public class OwlTeaserModel : RenderingModel
     {
-        /// <summary>
-        /// Gets Datasource Item
-        /// </summary>
-        /// <value>
-        /// Datasource Item
-        /// </value>
-        public Item Item { get; private set; }
-
         /// <summary>
         /// Gets the list of selected items for owlTeaser component
         /// </summary>
@@ -42,11 +33,9 @@
         /// The rendering of the context page
         /// </summary>
         /// <param name="rendering">Rendering to initialize</param>
-        public void Initialize(Rendering rendering)
+        public override void Initialize(Rendering rendering)
         {
-            this.Item = !string.IsNullOrWhiteSpace(rendering.DataSource)
-               ? Context.Database.GetItem(rendering.DataSource)
-               : Context.Item;
+            base.Initialize(rendering);
 
             if (!string.IsNullOrEmpty(this.Item[FieldConstants.TeaserGroup.Source]))
             {
