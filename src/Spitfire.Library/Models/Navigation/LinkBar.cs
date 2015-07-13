@@ -1,4 +1,4 @@
-﻿namespace Spitfire.Library.Models
+﻿namespace Spitfire.Library.Models.Navigation
 {
     using System.Collections.Specialized;
     using Sitecore.Mvc.Presentation;
