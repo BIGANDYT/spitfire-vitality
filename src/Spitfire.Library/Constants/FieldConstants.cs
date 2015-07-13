@@ -284,5 +284,16 @@
                 }
             }
         }
+
+        /// <summary>
+        /// Naughty field name class
+        /// </summary>
+        public static class FieldNames
+        {
+            /// <summary>
+            /// The name of the source field
+            /// </summary>
+            public const string SourceField = "Source";
+        }
     }
 }

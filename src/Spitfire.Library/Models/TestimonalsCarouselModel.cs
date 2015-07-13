@@ -1,16 +1,14 @@
 ﻿namespace Spitfire.Library.Models
 {
     using System.Collections.Generic;
-    using System.Linq;
-    using Sitecore.Data.Fields;
     using Sitecore.Data.Items;
     using Sitecore.Mvc.Presentation;
-    using Spitfire.Library.Constants;
+    using Spitfire.Library.Models.Multilists;
 
     /// <summary>
     /// Model for TestimonalsCarousel rendering
     /// </summary>
-    public class TestimonalsCarouselModel : RenderingModel
+    public class TestimonalsCarouselModel : MultiListModel
     {
         /// <summary>
         /// Gets list of teasers selected
@@ -28,15 +26,8 @@
         public override void Initialize(Rendering rendering)
         {
             base.Initialize(rendering);
-            if (!string.IsNullOrEmpty(this.Item[FieldConstants.TeaserGroup.Source]))
-            {
-                MultilistField source = this.Item.Fields[FieldConstants.TeaserGroup.Source];
 
-                if (source != null)
-                {
-                    this.Teasers = source.GetItems().ToList();
-                }
-            }
+            Teasers = Items;
         }
     }
 }

@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {2FB98A43-9B74-4653-817D-C2C0563B14BA}
+id: {3BD1AA80-C53C-444D-8E70-FA5F6B2694BD}
 database: master
-path: /sitecore/layout/Models/Spitfire/Core/TableData
-parent: {B33B9CBC-BB7A-479E-861E-A189203F9C93}
-name: TableData
+path: /sitecore/layout/Models/Spitfire/Core/Navigation/LinkBar
+parent: {E7B16112-C5D9-46D1-AF3D-0A04805095AD}
+name: LinkBar
 master: {00000000-0000-0000-0000-000000000000}
 template: {FED6A14F-0D05-4E18-B160-17C0588A2005}
 templatekey: Model
@@ -13,13 +13,13 @@ templatekey: Model
 field: {EE9E23D2-181D-4172-A929-0E0B8D10313C}
 name: Model Type
 key: model type
-content-length: 51
+content-length: 60
 
-Spitfire.Library.Models.TableData, Spitfire.Library
+Spitfire.Library.Models.Navigation.LinkBar, Spitfire.Library
 ----version----
 language: en
 version: 1
-revision: 8b881733-dedd-4f8f-b2c1-64b7171651a0
+revision: 9a05dc17-67d1-43f8-8bd7-4c8730a5bf18
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -34,7 +34,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20150326T142928Z
+20150528T141121Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8b881733-dedd-4f8f-b2c1-64b7171651a0
+9a05dc17-67d1-43f8-8bd7-4c8730a5bf18
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150521T124509:635678091097898718Z
+20150713T133835Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

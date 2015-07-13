@@ -1,18 +1,14 @@
 ﻿namespace Spitfire.Library.Models
 {
     using System.Collections.Generic;
-    using System.Linq;
-
-    using Sitecore.Data.Fields;
     using Sitecore.Data.Items;
     using Sitecore.Mvc.Presentation;
-
-    using Spitfire.Library.Constants;
+    using Spitfire.Library.Models.Multilists;
 
     /// <summary>
     /// Section Portfolio Component
     /// </summary>
-    public class SectionPortfolioModel : RenderingModel
+    public class SectionPortfolioModel : MultiListModel
     {
         /// <summary>
         /// Gets Seleted Portfoilo items.
@@ -25,22 +21,12 @@
         /// <summary>
         /// Initialize rendering
         /// </summary>
-        /// <param name="rendering">Rendering to Initialize
-        /// </param>
+        /// <param name="rendering">Rendering to Initialize</param>
         public override void Initialize(Rendering rendering)
         {
             base.Initialize(rendering);
-            if (string.IsNullOrEmpty(this.Item[FieldConstants.PortfolioGroup.Source]))
-            {
-                return;
-            }
 
-            MultilistField teasers = this.Item.Fields[FieldConstants.PortfolioGroup.Source];
-
-            if (teasers != null)
-            {
-                this.PortfolioItems = teasers.GetItems().ToList();
-            }
+            PortfolioItems = Items;
         }
     }
 }
