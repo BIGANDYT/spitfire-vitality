@@ -84,6 +84,10 @@
       <HintPath>..\..\lib\Sitecore\Sitecore.Analytics.Model.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Sitecore.ContentSearch, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Sitecore\Sitecore.ContentSearch.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.Kernel">
       <HintPath>..\..\lib\Sitecore\Sitecore.Kernel.dll</HintPath>
       <Private>True</Private>
@@ -173,6 +177,15 @@
     <Compile Include="Controllers\HealthController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\Build\DeployMarketingAssets.ashx.cs">
+      <DependentUpon>DeployMarketingAssets.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\Build\RebuildLinkDatabases.ashx.cs">
+      <DependentUpon>RebuildLinkDatabases.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\Build\RebuildSearchIndexes.ashx.cs">
+      <DependentUpon>RebuildSearchIndexes.ashx</DependentUpon>
     </Compile>
     <Compile Include="Handlers\Logout.ashx.cs">
       <DependentUpon>Logout.ashx</DependentUpon>
@@ -278,6 +291,9 @@
     </Content>
     <Content Include="Handlers\Logout.ashx" />
     <Content Include="App_Config\Include\zSpitfire\WebApi.config" />
+    <Content Include="Handlers\Build\DeployMarketingAssets.ashx" />
+    <Content Include="Handlers\Build\RebuildLinkDatabases.ashx" />
+    <Content Include="Handlers\Build\RebuildSearchIndexes.ashx" />
     <None Include="Properties\PublishProfiles\Spitfire.pubxml" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <None Include="Scripts\jquery-1.8.0.intellisense.js" />

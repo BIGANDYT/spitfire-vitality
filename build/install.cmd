@@ -43,11 +43,22 @@ call updates.cmd
 :: Deploying Unicorn items
 call sync.cmd
 
-:: Smart publish
-call publish.cmd
+:: Rebuild link databases
+tools\curl "http://%sitename%/handlers/build/RebuildLinkDatabases.ashx"
+
+:: Deploy marketing assets
+tools\curl "http://%sitename%/handlers/build/DeployMarketingAssets.ashx"
 
 :: Remove the hack of disabling indexing during install
 del %InstanceDirectory%\%sitename%\Website\App_Config\Include\zSpitfire\DisableIndexing.config
+
+:: Rebuild search indexes
+tools\curl "http://%sitename%/handlers/build/RebuildSearchIndexes.ashx?index=system"
+tools\curl "http://%sitename%/handlers/build/RebuildSearchIndexes.ashx?index=sitecore_core_index"
+tools\curl "http://%sitename%/handlers/build/RebuildSearchIndexes.ashx?index=sitecore_master_index"
+
+:: Smart publish
+call publish.cmd
 
 :: Remove Unicorn serialization in preparation for zipping on the build server
 IF DEFINED IsBuildServer (
