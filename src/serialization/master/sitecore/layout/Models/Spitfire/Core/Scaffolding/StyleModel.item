@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {B5254FA6-C200-4542-8A72-7D8205159056}
+id: {324EB3E9-8F59-48CE-B910-EBBF39BB08DA}
 database: master
-path: /sitecore/layout/Models/Spitfire/Core/ImageRightModel
-parent: {B33B9CBC-BB7A-479E-861E-A189203F9C93}
-name: ImageRightModel
+path: /sitecore/layout/Models/Spitfire/Core/Scaffolding/StyleModel
+parent: {71D73426-6906-493D-AD59-8483EED150FD}
+name: StyleModel
 master: {00000000-0000-0000-0000-000000000000}
 template: {FED6A14F-0D05-4E18-B160-17C0588A2005}
 templatekey: Model
@@ -13,13 +13,13 @@ templatekey: Model
 field: {EE9E23D2-181D-4172-A929-0E0B8D10313C}
 name: Model Type
 key: model type
-content-length: 57
+content-length: 63
 
-Spitfire.Library.Models.ImageRightModel, Spitfire.Library
+Spitfire.Library.Models.Scaffolding.StyleModel,Spitfire.Library
 ----version----
 language: en
 version: 1
-revision: c5836d0c-7304-4542-b0ec-1f9d0d8a8600
+revision: 548231db-1440-497d-beaf-04ce2d36fc7e
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -34,7 +34,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20150527T173112Z
+20150506T170412Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c5836d0c-7304-4542-b0ec-1f9d0d8a8600
+548231db-1440-497d-beaf-04ce2d36fc7e
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150528T141847:635684195276214614Z
+20150713T113631Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

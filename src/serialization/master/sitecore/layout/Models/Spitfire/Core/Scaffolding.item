@@ -1,40 +1,33 @@
 ----item----
 version: 1
-id: {89968DAD-9F4F-46B0-89D5-BD0C90C6CD14}
+id: {71D73426-6906-493D-AD59-8483EED150FD}
 database: master
-path: /sitecore/layout/Models/Spitfire/Core/RowModel
+path: /sitecore/layout/Models/Spitfire/Core/Scaffolding
 parent: {B33B9CBC-BB7A-479E-861E-A189203F9C93}
-name: RowModel
+name: Scaffolding
 master: {00000000-0000-0000-0000-000000000000}
-template: {FED6A14F-0D05-4E18-B160-17C0588A2005}
-templatekey: Model
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
 
 ----field----
-field: {EE9E23D2-181D-4172-A929-0E0B8D10313C}
-name: Model Type
-key: model type
-content-length: 49
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
 
-Spitfire.Library.Models.RowModel,Spitfire.Library
+50
 ----version----
 language: en
 version: 1
-revision: 36ab8f86-e081-4600-b412-a0b5c18538b3
+revision: 0bc2a32f-50ef-4e7e-bb74-b95fa277488d
 
-----field----
-field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
-name: __Owner
-key: __owner
-content-length: 14
-
-sitecore\admin
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20150406T172349Z
+20150713T113641Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -48,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-36ab8f86-e081-4600-b412-a0b5c18538b3
+0bc2a32f-50ef-4e7e-bb74-b95fa277488d
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150521T124455:635678090955633672Z
+20150713T113656Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

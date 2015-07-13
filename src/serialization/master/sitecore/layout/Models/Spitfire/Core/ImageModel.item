@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {B9E56D43-337C-4918-963E-20464921D6DC}
+id: {1891C14A-D9E5-4F89-BFEC-738AC1673631}
 database: master
-path: /sitecore/layout/Models/Spitfire/Core/ColModel
+path: /sitecore/layout/Models/Spitfire/Core/ImageModel
 parent: {B33B9CBC-BB7A-479E-861E-A189203F9C93}
-name: ColModel
+name: ImageModel
 master: {00000000-0000-0000-0000-000000000000}
 template: {FED6A14F-0D05-4E18-B160-17C0588A2005}
 templatekey: Model
@@ -13,13 +13,13 @@ templatekey: Model
 field: {EE9E23D2-181D-4172-A929-0E0B8D10313C}
 name: Model Type
 key: model type
-content-length: 49
+content-length: 52
 
-Spitfire.Library.Models.ColModel,Spitfire.Library
+Spitfire.Library.Models.ImageModel, Spitfire.Library
 ----version----
 language: en
 version: 1
-revision: 8bcefdb5-099c-4337-9e04-59717439abe4
+revision: b0c931c7-f1c3-443f-bbae-462b9f805df5
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -34,7 +34,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20150506T081210Z
+20150527T135436Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8bcefdb5-099c-4337-9e04-59717439abe4
+b0c931c7-f1c3-443f-bbae-462b9f805df5
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150521T124418:635678090583761635Z
+20150713T111943Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

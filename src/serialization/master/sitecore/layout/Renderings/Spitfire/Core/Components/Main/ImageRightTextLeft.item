@@ -20,9 +20,9 @@ content-length: 53
 field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
 name: Model
 key: model
-content-length: 53
+content-length: 48
 
-/sitecore/layout/Models/Spitfire/Core/ImageRightModel
+/sitecore/layout/Models/Spitfire/Core/ImageModel
 ----field----
 field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
 name: Parameters Template
@@ -34,9 +34,9 @@ content-length: 38
 field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
 name: Open Properties after Add
 key: open properties after add
-content-length: 1
+content-length: 0
 
--
+
 ----field----
 field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
 name: Datasource Location
@@ -61,7 +61,7 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: 175eb8f4-4a6f-429f-aea6-aee66c5f405a
+revision: fcaeb6e3-80bc-4fdc-aaf6-81a8b22fa5f5
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -76,14 +76,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-175eb8f4-4a6f-429f-aea6-aee66c5f405a
+fcaeb6e3-80bc-4fdc-aaf6-81a8b22fa5f5
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150709T104137Z
+20150713T112034Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

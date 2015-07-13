@@ -1,4 +1,4 @@
-﻿namespace Spitfire.Library.Models
+﻿namespace Spitfire.Library.Models.Scaffolding
 {
     /// <summary>
     /// The model for Col component
