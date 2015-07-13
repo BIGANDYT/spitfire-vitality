@@ -30,12 +30,12 @@
         public override void Initialize(Rendering rendering)
         {
             base.Initialize(rendering);
-            if (string.IsNullOrEmpty(this.Item[SpitfireConstants.FieldConstants.PortfolioGroup.Source]))
+            if (string.IsNullOrEmpty(this.Item[FieldConstants.PortfolioGroup.Source]))
             {
                 return;
             }
 
-            MultilistField teasers = this.Item.Fields[SpitfireConstants.FieldConstants.PortfolioGroup.Source];
+            MultilistField teasers = this.Item.Fields[FieldConstants.PortfolioGroup.Source];
 
             if (teasers != null)
             {

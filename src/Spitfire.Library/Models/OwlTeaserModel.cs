@@ -48,9 +48,9 @@
                ? Context.Database.GetItem(rendering.DataSource)
                : Context.Item;
 
-            if (!string.IsNullOrEmpty(this.Item[SpitfireConstants.FieldConstants.TeaserGroup.Source]))
+            if (!string.IsNullOrEmpty(this.Item[FieldConstants.TeaserGroup.Source]))
             {
-                MultilistField source = this.Item.Fields[SpitfireConstants.FieldConstants.TeaserGroup.Source];
+                MultilistField source = this.Item.Fields[FieldConstants.TeaserGroup.Source];
 
                 if (source != null)
                 {
@@ -59,7 +59,7 @@
             }
 
             // Findout dispaly social icons or not; this is droplist field
-           this.SocialDisplay = this.Item[SpitfireConstants.FieldConstants.TeaserGroup.Display];
+           this.SocialDisplay = this.Item[FieldConstants.TeaserGroup.Display];
 
             if (string.IsNullOrEmpty(this.SocialDisplay) || string.Equals(this.SocialDisplay, "show", StringComparison.CurrentCultureIgnoreCase))
             {

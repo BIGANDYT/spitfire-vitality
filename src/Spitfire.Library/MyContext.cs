@@ -56,7 +56,7 @@
                 if (Items[Key] == null)
                 {
                     var current = Context.Item;
-                    var root = current.Axes.SelectSingleItem("ancestor-or-self::*[@@templateid='" + SpitfireConstants.TemplateIds.SiteRoot + "']");
+                    var root = current.Axes.SelectSingleItem("ancestor-or-self::*[@@templateid='" + TemplateIds.SiteRoot + "']");
                     Items[Key] = root ?? Context.Database.GetItem(Context.Site.StartPath);
                 }
 

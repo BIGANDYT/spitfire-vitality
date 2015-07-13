@@ -81,16 +81,16 @@
 
             var datasource = Context.Database.GetItem(rendering.DataSource);
 
-            this.BackgroundImageUrl = datasource.ImageUrl(SpitfireConstants.FieldConstants.Banner.BackgroundImage);
+            this.BackgroundImageUrl = datasource.ImageUrl(FieldConstants.Banner.BackgroundImage.ToString());
 
-            this.TitleColor = datasource[SpitfireConstants.FieldConstants.Banner.TitleColor];
-            this.SubTitleColor = datasource[SpitfireConstants.FieldConstants.Banner.SubtitleColor];
-            this.LinkColor = datasource[SpitfireConstants.FieldConstants.Banner.LinkColor];
-            var y = double.Parse(datasource[SpitfireConstants.FieldConstants.Banner.LogoTop]);
+            this.TitleColor = datasource[FieldConstants.Banner.TitleColor];
+            this.SubTitleColor = datasource[FieldConstants.Banner.SubtitleColor];
+            this.LinkColor = datasource[FieldConstants.Banner.LinkColor];
+            var y = double.Parse(datasource[FieldConstants.Banner.LogoTop]);
             this.LogoTop = Convert.ToInt32(30 * y);
-            var x = double.Parse(datasource[SpitfireConstants.FieldConstants.Banner.LogoLeft]);
+            var x = double.Parse(datasource[FieldConstants.Banner.LogoLeft]);
             this.LogoLeft = Convert.ToInt32(8 * x);
-            var bannerHeightValue = datasource[SpitfireConstants.FieldConstants.Banner.BannerHeight];
+            var bannerHeightValue = datasource[FieldConstants.Banner.BannerHeight];
             if (bannerHeightValue == null)
             {
                 return;

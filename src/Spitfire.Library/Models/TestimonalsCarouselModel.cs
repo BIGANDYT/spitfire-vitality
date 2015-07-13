@@ -28,9 +28,9 @@
         public override void Initialize(Rendering rendering)
         {
             base.Initialize(rendering);
-            if (!string.IsNullOrEmpty(this.Item[SpitfireConstants.FieldConstants.TeaserGroup.Source]))
+            if (!string.IsNullOrEmpty(this.Item[FieldConstants.TeaserGroup.Source]))
             {
-                MultilistField source = this.Item.Fields[SpitfireConstants.FieldConstants.TeaserGroup.Source];
+                MultilistField source = this.Item.Fields[FieldConstants.TeaserGroup.Source];
 
                 if (source != null)
                 {

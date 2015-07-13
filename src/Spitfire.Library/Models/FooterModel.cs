@@ -45,8 +45,8 @@
             this.Item = !string.IsNullOrEmpty(rendering.DataSource)
                             ? Context.Database.GetItem(rendering.DataSource)
                             : Context.Item;
-            this.BackgroundImageUrl = this.Item.ImageUrl(SpitfireConstants.FieldConstants.Footer.BackgroundImage);
-            this.FooterHeight = this.Item[SpitfireConstants.FieldConstants.Footer.FooterHeight];
+            this.BackgroundImageUrl = this.Item.ImageUrl(FieldConstants.Footer.BackgroundImage.ToString());
+            this.FooterHeight = this.Item[FieldConstants.Footer.FooterHeight];
         }
     }
 }
