@@ -8,7 +8,7 @@
     /// <summary>
     /// Model for TestimonalsCarousel rendering
     /// </summary>
-    public class TestimonalsCarouselModel : MultiListModel
+    public class TestimonialsCarouselModel : MultiListModel
     {
         /// <summary>
         /// Gets list of teasers selected
