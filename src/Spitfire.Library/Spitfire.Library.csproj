@@ -80,7 +80,6 @@
     <Compile Include="Models\Health\HealthIssue.cs" />
     <Compile Include="Models\Health\HealthTotals.cs" />
     <Compile Include="Models\Health\HealthRenderings.cs" />
-    <Compile Include="Models\IconTeaserLeft.cs" />
     <Compile Include="Models\IconTeaserModel.cs" />
     <Compile Include="Models\ImageModel.cs" />
     <Compile Include="Models\LinkBar.cs" />
