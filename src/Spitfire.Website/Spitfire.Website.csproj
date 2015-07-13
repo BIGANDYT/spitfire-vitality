@@ -235,9 +235,9 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="App_Config\Include\DynamicPlaceholders\DynamicPlaceholders.config" />
     <None Include="App_Config\Include\zSpitfire\Readme.md" />
-    <None Include="App_Config\Include\Serialization.config">
+    <Compile Include="App_Config\Include\Serialization.config">
       <SubType>Designer</SubType>
-    </None>
+    </Compile>
     <Content Include="Handlers\RegisterGoal.ashx" />
     <Content Include="Handlers\SessionEnd.ashx" />
     <Content Include="App_Config\Include\zSpitfire\Sites.config">
