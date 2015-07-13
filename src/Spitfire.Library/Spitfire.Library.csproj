@@ -69,9 +69,9 @@
     <Compile Include="Constants\ParameterConstants.cs" />
     <Compile Include="Constants\SpitfireConstants.cs" />
     <Compile Include="Constants\TemplateConstants.cs" />
-    <Compile Include="Models\AsideModel.cs" />
+    <Compile Include="Models\Scaffolding\AsideModel.cs" />
     <Compile Include="Models\BannerModel.cs" />
-    <Compile Include="Models\ColModel.cs" />
+    <Compile Include="Models\Scaffolding\ColModel.cs" />
     <Compile Include="Models\FooterModel.cs" />
     <Compile Include="Models\Health\HealthIssueItem.cs" />
     <Compile Include="Models\Health\HealthIssueRendering.cs" />
@@ -88,10 +88,10 @@
     <Compile Include="Models\NavList.cs" />
     <Compile Include="Models\OwlTeaserModel.cs" />
     <Compile Include="Models\PromoTeaser.cs" />
-    <Compile Include="Models\RowModel.cs" />
-    <Compile Include="Models\SectionModel.cs" />
+    <Compile Include="Models\Scaffolding\RowModel.cs" />
+    <Compile Include="Models\Scaffolding\SectionModel.cs" />
     <Compile Include="Models\SectionPortfolioModel.cs" />
-    <Compile Include="Models\StyleModel.cs" />
+    <Compile Include="Models\Scaffolding\StyleModel.cs" />
     <Compile Include="Models\TeaserGallery.cs" />
     <Compile Include="Models\TestimonalsCarouselModel.cs" />
     <Compile Include="Models\VideoModel.cs" />

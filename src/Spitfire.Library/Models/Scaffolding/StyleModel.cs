@@ -1,4 +1,4 @@
-﻿namespace Spitfire.Library.Models
+﻿namespace Spitfire.Library.Models.Scaffolding
 {
     using Sitecore.Mvc.Presentation;
     using Spitfire.SitecoreExtensions.Extensions;
