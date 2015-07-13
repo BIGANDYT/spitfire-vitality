@@ -47,7 +47,7 @@ ar|sitecore\hca demo|pe|-item:create|-item:write|-item:delete|-item:rename|pd|-i
 ----version----
 language: en
 version: 1
-revision: fc8baf50-0156-43a9-a97a-cad05fc8182d
+revision: 98d6ae84-c675-4eb3-8f8a-f8baa6470cfc
 
 ----field----
 field: {1B483E91-D8C4-4D19-BA03-462074B55936}
@@ -67,9 +67,9 @@ My Account
 field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
 name: __Final Renderings
 key: __final renderings
-content-length: 1386
+content-length: 1438
 
-<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{D28D4A9D-C88A-41B3-83BC-7191D0C0BD18}" p:before="r[@uid='{80899BA5-894F-42F6-98E4-F62B601943B0}']" s:id="{5E4104BB-E995-47B7-B9EA-A4D082E6648B}" s:ph="/content_00000000-0000-0000-0000-000000000000/column2_d2709d8c-0e6b-477d-b90a-6995ec9f5aac" /><r uid="{80899BA5-894F-42F6-98E4-F62B601943B0}" p:before="r[@uid='{D2709D8C-0E6B-477D-B90A-6995EC9F5AAC}']" s:id="{8447FCB0-B824-4841-993D-D2C1F4F0B248}" s:ph="/content_00000000-0000-0000-0000-000000000000/column1_d2709d8c-0e6b-477d-b90a-6995ec9f5aac" /><r uid="{D2709D8C-0E6B-477D-B90A-6995EC9F5AAC}" p:before="r[@uid='{D802C7A5-7083-4128-B02A-A861A8226ED7}']" s:ds="" s:id="{FEDC3E28-2559-40F8-A08B-76BC7B42BB61}" s:par="ShowBreadcrumb=1&amp;ShowTitle=1" s:ph="content_00000000-0000-0000-0000-000000000000" /><r uid="{D802C7A5-7083-4128-B02A-A861A8226ED7}" p:before="r[@uid='{F72EB688-E9E4-480C-97DB-FFDA39EBDC0D}']" s:id="{5E4104BB-E995-47B7-B9EA-A4D082E6648B}" s:ph="content" /><r uid="{F72EB688-E9E4-480C-97DB-FFDA39EBDC0D}" p:before="r[@uid='{1046CEB2-4E42-4F3C-878B-A659DB1179F3}']" s:id="{8447FCB0-B824-4841-993D-D2C1F4F0B248}" s:ph="/body/maincontent/leftcontent" /><r uid="{1046CEB2-4E42-4F3C-878B-A659DB1179F3}" s:ds="{8CBDA387-0FFE-4258-ACD9-AA7CE0ABF10A}" s:id="{0FA0546B-78EF-4F37-9E5C-E069DA2A1DDC}" s:ph="/body/maincontent" /></d></r>
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{D28D4A9D-C88A-41B3-83BC-7191D0C0BD18}" p:before="r[@uid='{80899BA5-894F-42F6-98E4-F62B601943B0}']" s:id="{5E4104BB-E995-47B7-B9EA-A4D082E6648B}" s:ph="/content_00000000-0000-0000-0000-000000000000/column2_d2709d8c-0e6b-477d-b90a-6995ec9f5aac" /><r uid="{80899BA5-894F-42F6-98E4-F62B601943B0}" p:before="r[@uid='{D2709D8C-0E6B-477D-B90A-6995EC9F5AAC}']" s:id="{8447FCB0-B824-4841-993D-D2C1F4F0B248}" s:ph="/content_00000000-0000-0000-0000-000000000000/column1_d2709d8c-0e6b-477d-b90a-6995ec9f5aac" /><r uid="{D2709D8C-0E6B-477D-B90A-6995EC9F5AAC}" p:before="r[@uid='{D802C7A5-7083-4128-B02A-A861A8226ED7}']" s:ds="" s:id="{FEDC3E28-2559-40F8-A08B-76BC7B42BB61}" s:par="FullWidth&amp;ShowTitle=1&amp;ShowBreadcrumb=1&amp;Column1Width=3&amp;Column2Width=9" s:ph="content_00000000-0000-0000-0000-000000000000" /><r uid="{D802C7A5-7083-4128-B02A-A861A8226ED7}" p:before="r[@uid='{F72EB688-E9E4-480C-97DB-FFDA39EBDC0D}']" s:id="{5E4104BB-E995-47B7-B9EA-A4D082E6648B}" s:ph="content" /><r uid="{F72EB688-E9E4-480C-97DB-FFDA39EBDC0D}" p:before="r[@uid='{1046CEB2-4E42-4F3C-878B-A659DB1179F3}']" s:id="{8447FCB0-B824-4841-993D-D2C1F4F0B248}" s:ph="/body/maincontent/leftcontent" /><r uid="{1046CEB2-4E42-4F3C-878B-A659DB1179F3}" s:ds="{8CBDA387-0FFE-4258-ACD9-AA7CE0ABF10A}" s:id="{0FA0546B-78EF-4F37-9E5C-E069DA2A1DDC}" s:ph="/body/maincontent" /></d></r>
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -83,14 +83,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-fc8baf50-0156-43a9-a97a-cad05fc8182d
+98d6ae84-c675-4eb3-8f8a-f8baa6470cfc
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150709T074423Z
+20150713T123141Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
