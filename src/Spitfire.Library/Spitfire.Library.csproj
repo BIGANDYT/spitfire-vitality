@@ -67,7 +67,7 @@
   <ItemGroup>
     <Compile Include="Constants\FieldConstants.cs" />
     <Compile Include="Constants\ParameterConstants.cs" />
-    <Compile Include="Constants\SpitfireConstants.cs" />
+    <Compile Include="Constants\ItemConstants.cs" />
     <Compile Include="Constants\TemplateConstants.cs" />
     <Compile Include="Models\AsideModel.cs" />
     <Compile Include="Models\BannerModel.cs" />

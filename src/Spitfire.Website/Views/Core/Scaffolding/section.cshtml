@@ -1,5 +1,6 @@
-﻿<section id="@Model.Id" class="@Model.CssClass" style="background-image: url('@Model.BackgroundImgUrl'); @Model.CssStyle">
-   @{ var animation = ""; }
+﻿@model Spitfire.Library.Models.SectionModel
+<section id="@Model.Id" class="@Model.CssClass" style="background-image: url('@Model.BackgroundImgUrl'); @Model.CssStyle">
+    @{ var animation = ""; }
     @if (!string.IsNullOrEmpty(@Model.AnimationClass))
     {
         animation = "wow " + @Model.AnimationClass;

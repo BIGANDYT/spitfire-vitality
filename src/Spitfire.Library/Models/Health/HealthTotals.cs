@@ -5,5 +5,7 @@
         public int NumErrors { get; set; }
 
         public int NumWarnings { get; set; }
+
+        public int NumInfo { get; set; }
     }
 }
