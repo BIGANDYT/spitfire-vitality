@@ -7,7 +7,7 @@
     /// <summary>
     /// Image Left Component
     /// </summary>
-    public class ImageLeftModel : RenderingModel
+    public class ImageModel : RenderingModel
     {
        /// <summary>
        /// Gets Title Color

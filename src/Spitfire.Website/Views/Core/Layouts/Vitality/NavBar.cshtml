@@ -32,7 +32,7 @@
                     @foreach (var item in Model.NavItems)
                     {
                         <li>
-                            <a class="page-scroll" href="#@item[SpitfireConstants.FieldConstants.NavItem.LinkAnchor]">
+                            <a class="page-scroll" href="#@item[FieldConstants.NavItem.LinkAnchor]">
                                 @{
                                     @Html.Sitecore().Field("Link Name", item)
                                 }
