@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {EF2A5973-3AD9-4241-9AF9-52B5F64A2427}
+id: {03B593B2-BA6D-498E-9D13-370846E7EFBB}
 database: master
-path: /sitecore/layout/Renderings/Spitfire/Core/Components/Snippets/ImageRightTextLeft
+path: /sitecore/layout/Renderings/Spitfire/Core/Components/Snippets/ImageText
 parent: {C0C7BF01-2EAD-4790-A550-76EC036DCA7E}
-name: ImageRightTextLeft
+name: ImageText
 master: {00000000-0000-0000-0000-000000000000}
 template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
 templatekey: View rendering
@@ -13,9 +13,9 @@ templatekey: View rendering
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
 name: Path
 key: path
-content-length: 57
+content-length: 48
 
-/Views/Core/Components/Snippets/ImageRightTextLeft.cshtml
+/Views/Core/Components/Snippets/ImageText.cshtml
 ----field----
 field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
 name: Model
@@ -55,13 +55,13 @@ content-length: 48
 field: {E441ABE7-2CA3-4640-AE26-3789967925D7}
 name: Compatible Renderings
 key: compatible renderings
-content-length: 38
+content-length: 0
 
-{03B593B2-BA6D-498E-9D13-370846E7EFBB}
+
 ----version----
 language: en
 version: 1
-revision: 6701e01b-e653-4409-999c-ef9f1c3571d1
+revision: f835780c-d897-49b4-99fc-3e3da80e1534
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -69,21 +69,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20150506T182817Z
+20150506T182812Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-6701e01b-e653-4409-999c-ef9f1c3571d1
+f835780c-d897-49b4-99fc-3e3da80e1534
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150714T093622Z
+20150714T132157Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

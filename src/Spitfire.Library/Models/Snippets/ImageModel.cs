@@ -1,6 +1,8 @@
 ﻿namespace Spitfire.Library.Models.Snippets
 {
     using System.Collections.Specialized;
+
+    using Sitecore;
     using Sitecore.Mvc.Presentation;
     using Sitecore.Web;
 
@@ -58,6 +60,11 @@
         public string ImageWidth { get; private set; }
 
         /// <summary>
+        /// Gets the css class
+        /// </summary>
+        public string CssClass { get; private set; }
+
+        /// <summary>
         /// Initialize Rendering
         /// </summary>
         /// <param name="rendering">Rendering to intialize
@@ -68,8 +75,7 @@
             NameValueCollection parameters = null;
             if (!string.IsNullOrEmpty(rendering["Parameters"]))
             {
-                string rawParameters = rendering["Parameters"];
-                parameters = WebUtil.ParseUrlParameters(rawParameters);
+                parameters = WebUtil.ParseUrlParameters(rendering["Parameters"]);
             }
 
             if (parameters == null || parameters.Count <= 0)
@@ -82,6 +88,7 @@
             this.Background = parameters["Background"];
             this.DivHeight = parameters["CompHeight"];
             this.ImageHeight = !string.IsNullOrEmpty(parameters["ImageHeight"]) ? parameters["ImageHeight"] : "auto";
+            this.CssClass = MainUtil.GetBool(parameters["Image Left"], false) ? string.Empty : "image-right";
 
             if (!string.IsNullOrEmpty(parameters["ImageWidth"]))
             {

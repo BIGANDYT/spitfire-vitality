@@ -204,6 +204,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\finance.css" />
     <Content Include="Content\plugins\animate\animate.css" />
     <Content Include="Content\plugins\fontawesome\css\font-awesome.css" />
     <Content Include="Content\plugins\fontawesome\fonts\fontawesome-webfont.svg" />
@@ -337,8 +338,7 @@
     <Content Include="Views\Core\Components\Contact\ContactForm.cshtml" />
     <Content Include="Views\Core\Components\Navigation\LinkBar.cshtml" />
     <Content Include="Views\Core\Layouts\Vitality\Footer.cshtml" />
-    <Content Include="Views\Core\Components\Snippets\ImageLeftTextRight.cshtml" />
-    <Content Include="Views\Core\Components\Snippets\ImageRightTextLeft.cshtml" />
+    <Content Include="Views\Core\Components\Snippets\ImageText.cshtml" />
     <Content Include="Views\Core\Components\Video\Video.cshtml" />
     <Content Include="Views\Core\Components\Social\SocialIcons.cshtml" />
     <Content Include="Views\Core\Components\Images\Banner.cshtml" />
