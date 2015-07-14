@@ -20,9 +20,9 @@ content-length: 55
 field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
 name: Model
 key: model
-content-length: 63
+content-length: 68
 
-/sitecore/layout/Models/Spitfire/Core/TestimonialsCarouselModel
+/sitecore/layout/Models/Spitfire/Core/Text/TestimonialsCarouselModel
 ----field----
 field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
 name: Open Properties after Add
@@ -54,7 +54,7 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: 0cb24478-b2c3-4b22-846a-cae43f564cb9
+revision: 5f529fa4-b97b-4272-a3a8-c060e47295e6
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -69,14 +69,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-0cb24478-b2c3-4b22-846a-cae43f564cb9
+5f529fa4-b97b-4272-a3a8-c060e47295e6
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150714T090901Z
+20150714T094912Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

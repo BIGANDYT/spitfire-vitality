@@ -1,11 +1,9 @@
-﻿namespace Spitfire.Library.Models
+﻿namespace Spitfire.Library.Models.Video
 {
     using Sitecore;
-    using Sitecore.Data.Fields;
     using Sitecore.Data.Items;
     using Sitecore.Mvc.Presentation;
     using Sitecore.Resources.Media;
-
     using Spitfire.Library.Constants;
 
     /// <summary>

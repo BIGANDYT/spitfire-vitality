@@ -1,4 +1,4 @@
-﻿namespace Spitfire.Library.Models
+﻿namespace Spitfire.Library.Models.Text
 {
     using System.Collections.Generic;
     using Sitecore.Data.Items;
@@ -6,27 +6,28 @@
     using Spitfire.Library.Models.Multilists;
 
     /// <summary>
-    /// Section Portfolio Component
+    /// Model for TestimonalsCarousel rendering
     /// </summary>
-    public class SectionPortfolioModel : MultiListModel
+    public class TestimonialsCarouselModel : MultiListModel
     {
         /// <summary>
-        /// Gets Seleted Portfoilo items.
+        /// Gets list of teasers selected
         /// </summary>
         /// <value>
-        /// Selected Portfoilo items
+        /// Selected list of teasers
         /// </value>
-        public List<Item> PortfolioItems { get; private set; }
+        public IList<Item> Teasers { get; private set; }
 
         /// <summary>
-        /// Initialize rendering
+        /// Override Initialize rendering method
         /// </summary>
-        /// <param name="rendering">Rendering to Initialize</param>
+        /// <param name="rendering">Rendering to Initialize
+        /// </param>
         public override void Initialize(Rendering rendering)
         {
             base.Initialize(rendering);
 
-            PortfolioItems = Items;
+            Teasers = Items;
         }
     }
 }

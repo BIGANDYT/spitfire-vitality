@@ -2,8 +2,8 @@
 version: 1
 id: {EC29CA89-3AAE-4AAB-AF30-CE56F2218981}
 database: master
-path: /sitecore/layout/Renderings/Spitfire/Core/Components/Main/Clients
-parent: {9406A25B-D58B-4A27-9110-209640E100F0}
+path: /sitecore/layout/Renderings/Spitfire/Core/Components/Portfolio/Clients
+parent: {A7DE017C-D58F-4AE4-8638-7178843D6E4A}
 name: Clients
 master: {00000000-0000-0000-0000-000000000000}
 template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
@@ -13,20 +13,20 @@ templatekey: View rendering
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
 name: Path
 key: path
-content-length: 42
+content-length: 47
 
-/Views/Core/Components/Main/Clients.cshtml
+/Views/Core/Components/Portfolio/Clients.cshtml
 ----field----
 field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
 name: Open Properties after Add
 key: open properties after add
-content-length: 1
+content-length: 0
 
--
+
 ----version----
 language: en
 version: 1
-revision: 46c7aa28-2db8-41cc-be30-1606b4970bf2
+revision: 7b21809c-d13a-4101-bbc3-75fe1a0cff70
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -41,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-46c7aa28-2db8-41cc-be30-1606b4970bf2
+7b21809c-d13a-4101-bbc3-75fe1a0cff70
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150709T104118Z
+20150714T095016Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

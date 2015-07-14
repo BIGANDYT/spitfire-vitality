@@ -1,47 +1,26 @@
 ----item----
 version: 1
-id: {AB2EFB82-2F9B-46D9-82D9-EA8699E431BF}
+id: {3726917F-553D-472B-864B-EB8C75656C24}
 database: master
-path: /sitecore/layout/Models/Spitfire/Core/SectionPortfolioModel
+path: /sitecore/layout/Models/Spitfire/Core/Portfolio
 parent: {B33B9CBC-BB7A-479E-861E-A189203F9C93}
-name: SectionPortfolioModel
+name: Portfolio
 master: {00000000-0000-0000-0000-000000000000}
-template: {FED6A14F-0D05-4E18-B160-17C0588A2005}
-templatekey: Model
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
 
-----field----
-field: {EE9E23D2-181D-4172-A929-0E0B8D10313C}
-name: Model Type
-key: model type
-content-length: 62
-
-Spitfire.Library.Models.SectionPortfolioModel,Spitfire.Library
-----field----
-field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
-name: __Sortorder
-key: __sortorder
-content-length: 3
-
-800
 ----version----
 language: en
 version: 1
-revision: 4d5d1487-91ae-49b7-9f0f-bc568e46dfa6
+revision: 6336a581-aa89-4022-b314-35dcd28a8bdc
 
-----field----
-field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
-name: __Owner
-key: __owner
-content-length: 14
-
-sitecore\admin
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20150602T091507Z
+20150714T094847Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -55,14 +34,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-4d5d1487-91ae-49b7-9f0f-bc568e46dfa6
+6336a581-aa89-4022-b314-35dcd28a8bdc
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150713T155940Z
+20150714T094847Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

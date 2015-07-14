@@ -330,7 +330,7 @@
     <Content Include="Views\Core\Components\Snippets\IconTeaser.cshtml" />
     <Content Include="Views\Core\Scaffolding\aside.cshtml" />
     <Content Include="Views\Core\Components\Snippets\IconLeftTeaser.cshtml" />
-    <Content Include="Views\Core\Components\Main\SectionPortfolio.cshtml" />
+    <Content Include="Views\Core\Components\Portfolio\SectionPortfolio.cshtml" />
     <Content Include="Views\Core\Components\Snippets\TeaserGallery.cshtml" />
     <Content Include="Views\Core\Components\Text\TestimonialsCarousel.cshtml" />
     <Content Include="Views\Core\Components\Snippets\PromoTeaser.cshtml" />
@@ -345,7 +345,7 @@
     <Content Include="Views\Core\Components\Text\BlockQuote.cshtml" />
     <Content Include="Views\Core\Layouts\Metronic\Breadcrumb.cshtml" />
     <Content Include="Views\Core\Components\Page\ClientGallery.cshtml" />
-    <Content Include="Views\Core\Components\Main\Clients.cshtml" />
+    <Content Include="Views\Core\Components\Portfolio\Clients.cshtml" />
     <Content Include="Views\Core\Components\Sidebar\Contact.cshtml" />
     <Content Include="Views\Core\Components\Fxm\FxmFeatured.cshtml" />
     <Content Include="Views\Core\Components\News\HomeNews.cshtml" />
