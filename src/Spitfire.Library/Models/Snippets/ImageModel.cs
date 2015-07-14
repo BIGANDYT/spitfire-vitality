@@ -1,4 +1,4 @@
-﻿namespace Spitfire.Library.Models
+﻿namespace Spitfire.Library.Models.Snippets
 {
     using System.Collections.Specialized;
     using Sitecore.Mvc.Presentation;

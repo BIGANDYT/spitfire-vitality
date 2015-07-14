@@ -1,19 +1,21 @@
-﻿namespace Spitfire.Library.Models.Teasers
+﻿namespace Spitfire.Library.Models.Snippets
 {
     using System.Collections.Specialized;
     using Sitecore.Mvc.Presentation;
     using Sitecore.Web;
 
+    using Spitfire.Library.Constants;
+
     /// <summary>
-    /// Icon Teaser Model
+    /// Promotion Teaser component
     /// </summary>
-    public class IconTeaserModel : RenderingModel
+    public class PromoTeaser : RenderingModel
     {
         /// <summary>
         /// Gets Title color setting
         /// </summary>
         /// <value>
-        /// Title Color value
+        /// Title color value
         /// </value>
         public string TitleColor { get; private set; }
 
@@ -21,7 +23,7 @@
         /// Gets Title font size
         /// </summary>
         /// <value>
-        /// Title Font Size value
+        /// Title Font size value
         /// </value>
         public string TitleFontSize { get; private set; }
 
@@ -29,18 +31,27 @@
         /// Gets background color
         /// </summary>
         /// <value>
-        /// Background Color value
+        /// Background color value
         /// </value>
         public string Background { get; private set; }
 
         /// <summary>
-        /// Rendering Initialize
+        /// Gets css class
         /// </summary>
-        /// <param name="rendering">Rendering to intialize
+        /// <value>
+        /// Css class value
+        /// </value>
+        public string CssClassValue { get; private set; }
+
+        /// <summary>
+        /// Initialize rendering
+        /// </summary>
+        /// <param name="rendering">Rendering to intialze
         /// </param>
         public override void Initialize(Rendering rendering)
         {
             base.Initialize(rendering);
+
             NameValueCollection parameters = null;
             if (!string.IsNullOrEmpty(rendering["Parameters"]))
             {
@@ -48,12 +59,15 @@
                 parameters = WebUtil.ParseUrlParameters(rawParameters);
             }
 
-            if (parameters != null && parameters.Count > 0)
+            if (parameters == null || parameters.Count <= 0)
             {
-                this.TitleColor = parameters["TitleColor"];
-                this.TitleFontSize = parameters["TitleFontSize"];
-                this.Background = parameters["Background"];
+                return;
             }
+
+            this.TitleColor = parameters["TitleColor"];
+            this.TitleFontSize = parameters["TitleFontSize"];
+            this.Background = parameters["Background"];
+            this.CssClassValue = parameters[ParameterConstants.Style.CssClass];
         }
     }
 }

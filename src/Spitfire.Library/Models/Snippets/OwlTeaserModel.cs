@@ -1,4 +1,4 @@
-﻿namespace Spitfire.Library.Models.Teasers
+﻿namespace Spitfire.Library.Models.Snippets
 {
     using System;
     using System.Collections.Generic;
