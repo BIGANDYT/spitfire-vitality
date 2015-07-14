@@ -2,8 +2,8 @@
 version: 1
 id: {208E616B-08B5-4225-B510-2113602D2C5E}
 database: master
-path: /sitecore/layout/Renderings/Spitfire/Core/Components/Main/RecentItems
-parent: {9406A25B-D58B-4A27-9110-209640E100F0}
+path: /sitecore/layout/Renderings/Spitfire/Core/Components/Overview/RecentItems
+parent: {6ABF8071-BB34-4244-B3BA-120EC24066F5}
 name: RecentItems
 master: {00000000-0000-0000-0000-000000000000}
 template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
@@ -13,20 +13,20 @@ templatekey: View rendering
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
 name: Path
 key: path
-content-length: 46
+content-length: 50
 
-/Views/Core/Components/Main/RecentItems.cshtml
+/Views/Core/Components/Overview/RecentItems.cshtml
 ----field----
 field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
 name: Open Properties after Add
 key: open properties after add
-content-length: 1
+content-length: 0
 
--
+
 ----version----
 language: en
 version: 1
-revision: 87689855-61f2-4619-9d47-f77fec47bf6b
+revision: 2d1fb614-e6c2-4ae9-af90-c5288baa108f
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -41,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-87689855-61f2-4619-9d47-f77fec47bf6b
+2d1fb614-e6c2-4ae9-af90-c5288baa108f
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150709T104204Z
+20150714T085806Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

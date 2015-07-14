@@ -352,11 +352,11 @@
     <Content Include="Views\Core\Components\Page\HomeOps.cshtml" />
     <Content Include="Views\Core\Components\Page\HomeWhat.cshtml" />
     <Content Include="Views\Core\Components\Sidebar\ImportantInfo.cshtml" />
-    <Content Include="Views\Core\Components\Main\ItemList.cshtml" />
+    <Content Include="Views\Core\Components\Overview\ItemList.cshtml" />
     <Content Include="Views\Core\Components\Sidebar\LeftMenu.cshtml" />
     <Content Include="Views\Core\Components\Page\Map.cshtml" />
     <Content Include="Views\Core\Components\Page\NewsItem.cshtml" />
-    <Content Include="Views\Core\Components\Page\NewsList.cshtml" />
+    <Content Include="Views\Core\Components\Overview\NewsList.cshtml" />
     <Content Include="Views\Core\Components\Main\PersonalisedBlockQuote.cshtml" />
     <Content Include="Views\Core\Components\Sidebar\PhotoStream.cshtml" />
     <Content Include="Views\Core\Components\Page\ProductGallery.cshtml" />

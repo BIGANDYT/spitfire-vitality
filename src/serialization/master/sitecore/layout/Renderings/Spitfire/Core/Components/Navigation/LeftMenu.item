@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {FF19D5CE-E16E-41F7-B9AF-1CFA92358D40}
+id: {8447FCB0-B824-4841-993D-D2C1F4F0B248}
 database: master
-path: /sitecore/layout/Renderings/Spitfire/Core/Components/Page/HomeNews
-parent: {CF1484D0-15D7-4B0D-9279-E52EE408F193}
-name: HomeNews
+path: /sitecore/layout/Renderings/Spitfire/Core/Components/Navigation/LeftMenu
+parent: {80D2AD1D-67D4-4796-B602-798D386A7F25}
+name: LeftMenu
 master: {00000000-0000-0000-0000-000000000000}
 template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
 templatekey: View rendering
@@ -13,20 +13,20 @@ templatekey: View rendering
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
 name: Path
 key: path
-content-length: 43
+content-length: 49
 
-/Views/Core/Components/Page/HomeNews.cshtml
+/Views/Core/Components/Navigation/LeftMenu.cshtml
 ----field----
 field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
 name: Open Properties after Add
 key: open properties after add
-content-length: 1
+content-length: 0
 
--
+
 ----version----
 language: en
 version: 1
-revision: 35a8ba18-5054-4087-a765-0e4624db4225
+revision: 782b4110-0b6a-4617-a573-3d49172c708b
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,21 +34,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20150612T134513Z
+20150615T090414Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-35a8ba18-5054-4087-a765-0e4624db4225
+782b4110-0b6a-4617-a573-3d49172c708b
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150709T104509Z
+20150714T090207Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
