@@ -205,7 +205,9 @@
             var leftoverViewRenderings = viewRenderingFiles.Except(foundViewRenderings);
             foreach (var leftoverViewRendering in leftoverViewRenderings)
             {
-                if (leftoverViewRendering.Contains("/shared/") || leftoverViewRendering.Contains("/layouts/"))
+                if (leftoverViewRendering.Contains("/shared/") 
+                    || leftoverViewRendering.Contains("/layouts/")
+                    || leftoverViewRendering.Contains("/form/"))
                 {
                     continue;
                 }
