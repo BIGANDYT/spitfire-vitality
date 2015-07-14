@@ -69,6 +69,7 @@
     <Compile Include="Constants\ParameterConstants.cs" />
     <Compile Include="Constants\ItemConstants.cs" />
     <Compile Include="Constants\TemplateConstants.cs" />
+    <Compile Include="Models\Headers\SectionHeaderModel.cs" />
     <Compile Include="Models\Multilists\MultiListModel.cs" />
     <Compile Include="Models\Scaffolding\AsideModel.cs" />
     <Compile Include="Models\BannerModel.cs" />
@@ -83,7 +84,7 @@
     <Compile Include="Models\Health\HealthRenderings.cs" />
     <Compile Include="Models\Teasers\IconTeaserModel.cs" />
     <Compile Include="Models\ImageModel.cs" />
-    <Compile Include="Models\LinkBar.cs" />
+    <Compile Include="Models\Navigation\LinkBar.cs" />
     <Compile Include="Models\Navigation\NavBarModel.cs" />
     <Compile Include="Models\Navigation\NavList.cs" />
     <Compile Include="Models\Teasers\OwlTeaserModel.cs" />
@@ -93,7 +94,7 @@
     <Compile Include="Models\SectionPortfolioModel.cs" />
     <Compile Include="Models\Scaffolding\StyleModel.cs" />
     <Compile Include="Models\Teasers\TeaserGallery.cs" />
-    <Compile Include="Models\TestimonalsCarouselModel.cs" />
+    <Compile Include="Models\TestimonialsCarouselModel.cs" />
     <Compile Include="Models\VideoModel.cs" />
     <Compile Include="MyContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

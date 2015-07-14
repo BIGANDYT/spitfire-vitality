@@ -2,6 +2,8 @@
 {
     using Sitecore.Mvc.Presentation;
 
+    using Spitfire.Library.Constants;
+
     /// <summary>
     /// Section component inhireted Style model
     /// </summary>
@@ -39,9 +41,9 @@
         public override void Initialize(Rendering rendering)
         {
             base.Initialize(rendering);
-            this.Id = rendering.Parameters["Id"];
-            this.SubCssClass = rendering.Parameters["SubCssClass"];
-            this.AnimationClass = rendering.Parameters["Animation"];
+            this.Id = rendering.Parameters[ParameterConstants.Id];
+            this.SubCssClass = rendering.Parameters[ParameterConstants.Style.SubCssClass];
+            this.AnimationClass = rendering.Parameters[ParameterConstants.Style.Animation];
         }
     }
 }

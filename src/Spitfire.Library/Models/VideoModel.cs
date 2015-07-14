@@ -79,9 +79,9 @@
             this.VideoPath = MediaManager.GetMediaUrl(this.Item);
             this.VideoType = this.Item.MimeType;
 
-            this.Loop = MainUtil.GetBool(rendering.Parameters[ParameterConstants.Loop], false);
-            this.Autoplay = MainUtil.GetBool(rendering.Parameters[ParameterConstants.Autoplay], false);
-            this.Mute = MainUtil.GetBool(rendering.Parameters[ParameterConstants.Mute], false);
+            this.Loop = MainUtil.GetBool(rendering.Parameters[ParameterConstants.Video.Loop], false);
+            this.Autoplay = MainUtil.GetBool(rendering.Parameters[ParameterConstants.Video.Autoplay], false);
+            this.Mute = MainUtil.GetBool(rendering.Parameters[ParameterConstants.Video.Mute], false);
         }
     }
 }

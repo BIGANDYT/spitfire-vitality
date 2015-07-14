@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {BA1B3276-594D-4134-9C32-A340BD8ABB37}
+id: {82702046-F391-4F9E-B742-0C24B8CC34E7}
 database: master
-path: /sitecore/layout/Renderings/Spitfire/Core/Components/Main/VideoResponsive
-parent: {9406A25B-D58B-4A27-9110-209640E100F0}
-name: VideoResponsive
+path: /sitecore/layout/Renderings/Spitfire/Core/Components/Video/VideoSidebar
+parent: {1349ECA3-48A8-4F13-83EE-5229D1CED626}
+name: VideoSidebar
 master: {00000000-0000-0000-0000-000000000000}
 template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
 templatekey: View rendering
@@ -13,20 +13,20 @@ templatekey: View rendering
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
 name: Path
 key: path
-content-length: 50
+content-length: 48
 
-/Views/Core/Components/Main/VideoResponsive.cshtml
+/Views/Core/Components/Video/VideoSidebar.cshtml
 ----field----
 field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
 name: Open Properties after Add
 key: open properties after add
-content-length: 1
+content-length: 0
 
--
+
 ----version----
 language: en
 version: 1
-revision: aef12684-e9b9-40d4-8b3e-775426119020
+revision: 73379e4a-ab74-4408-a81b-e95c06b7da75
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,21 +34,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20150615T110912Z
+20150615T111125Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-aef12684-e9b9-40d4-8b3e-775426119020
+73379e4a-ab74-4408-a81b-e95c06b7da75
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150709T104324Z
+20150713T152359Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

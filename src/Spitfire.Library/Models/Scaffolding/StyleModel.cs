@@ -1,6 +1,8 @@
 ﻿namespace Spitfire.Library.Models.Scaffolding
 {
     using Sitecore.Mvc.Presentation;
+
+    using Spitfire.Library.Constants;
     using Spitfire.SitecoreExtensions.Extensions;
 
     /// <summary>
@@ -39,9 +41,9 @@
         /// </param>
         public virtual void Initialize(Rendering rendering)
         {
-            this.CssStyle = rendering.Parameters["CssStyle"];
-            this.CssClass = rendering.Parameters["CssClass"];
-            this.BackgroundImgUrl = rendering.ImageUrl("BackgroundImage");
+            this.CssStyle = rendering.Parameters[ParameterConstants.Style.CssStyle];
+            this.CssClass = rendering.Parameters[ParameterConstants.Style.CssClass];
+            this.BackgroundImgUrl = rendering.ImageUrl(ParameterConstants.Style.BackgroundImageUrl);
         }
     }
 }

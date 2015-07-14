@@ -4,6 +4,8 @@
     using Sitecore.Mvc.Presentation;
     using Sitecore.Web;
 
+    using Spitfire.Library.Constants;
+
     /// <summary>
     /// Model for Linkbar component redering
     /// </summary>
@@ -79,7 +81,7 @@
                 this.BackgroundColor = parameters["Background"];
                 this.BackgroundColorActive = parameters["BackgroundActive"];
                 this.FontSize = parameters["FontSize"];
-                this.CssClass = parameters["CssClass"];
+                this.CssClass = parameters[ParameterConstants.Style.CssClass];
             }
         }
     }

@@ -1,0 +1,18 @@
+﻿@model Spitfire.Library.Models.Headers.SectionHeaderModel
+
+<div class="wow fadeInDown">
+    <h1>@Html.Sitecore().Field("Header", Model.Item)</h1>
+
+    @{
+        if (Model.ShowButton)
+        {
+            <hr class=" colored">
+            @Html.Sitecore().Field("Link", Model.Item, new { @class = "btn btn-outline-light page-scroll" })
+        }
+        else
+        {
+            <p>@Html.Sitecore().Field("Description", Model.Item)</p>
+            <hr class="colored">
+        }
+    }
+</div>

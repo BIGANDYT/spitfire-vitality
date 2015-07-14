@@ -13,13 +13,13 @@ templatekey: Model
 field: {EE9E23D2-181D-4172-A929-0E0B8D10313C}
 name: Model Type
 key: model type
-content-length: 65
+content-length: 66
 
-Spitfire.Library.Models.Scaffolding.SectionModel,Spitfire.Library
+Spitfire.Library.Models.Scaffolding.SectionModel, Spitfire.Library
 ----version----
 language: en
 version: 1
-revision: dac9f00f-9531-4b6f-a0cb-b9537fde8c01
+revision: 02535715-e23b-41ab-a38c-ec8e0fd3c9fc
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-dac9f00f-9531-4b6f-a0cb-b9537fde8c01
+02535715-e23b-41ab-a38c-ec8e0fd3c9fc
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150713T113626Z
+20150713T154835Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

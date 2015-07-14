@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {45357D4D-B4E9-4856-9FFB-2C3F9979798B}
+id: {737684D0-7718-42BE-AF3D-515DC8B5A9B9}
 database: master
-path: /sitecore/layout/Renderings/Spitfire/Core/Components/Main/Video
-parent: {9406A25B-D58B-4A27-9110-209640E100F0}
-name: Video
+path: /sitecore/layout/Renderings/Spitfire/Core/Components/Headers/SectionHeader
+parent: {0BC2B250-8358-4371-A3FF-298F341942AF}
+name: SectionHeader
 master: {00000000-0000-0000-0000-000000000000}
 template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
 templatekey: View rendering
@@ -13,48 +13,48 @@ templatekey: View rendering
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
 name: Path
 key: path
-content-length: 40
+content-length: 51
 
-/Views/Core/Components/Main/Video.cshtml
+/Views/Core/Components/Headers/SectionHeader.cshtml
 ----field----
 field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
 name: Model
 key: model
-content-length: 48
+content-length: 64
 
-/sitecore/layout/Models/Spitfire/Core/VideoModel
+/sitecore/layout/Models/Spitfire/Core/Headers/SectionHeaderModel
 ----field----
 field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
 name: Parameters Template
 key: parameters template
 content-length: 38
 
-{1FA1F3A2-80E2-4C83-9AF0-B392FD76317E}
+{D666BE4E-7599-49B7-BFC5-CA3DD8D7B590}
 ----field----
 field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
 name: Open Properties after Add
 key: open properties after add
-content-length: 1
+content-length: 0
 
--
+
 ----field----
 field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
 name: Datasource Location
 key: datasource location
-content-length: 30
+content-length: 39
 
-/sitecore/media library/Videos
+/sitecore/content/Global/SectionHeaders
 ----field----
-field: {A2F5D9DF-8CBA-4A1D-99EB-51ACB94CB057}
-name: Page Editor Buttons
-key: page editor buttons
-content-length: 38
+field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
+name: Datasource Template
+key: datasource template
+content-length: 55
 
-{F4D3F672-0EA7-480B-B39A-FEEDB438DCD6}
+/sitecore/templates/Spitfire/Core/Content/SectionHeader
 ----version----
 language: en
 version: 1
-revision: c79fc26f-88c1-40f8-821e-02bf49fc5514
+revision: 9b08daf8-c176-4f13-897e-af1e75747efc
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -62,21 +62,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20150507T075721Z
+20150505T204834Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-c79fc26f-88c1-40f8-821e-02bf49fc5514
+9b08daf8-c176-4f13-897e-af1e75747efc
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150709T104310Z
+20150714T082039Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

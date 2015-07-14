@@ -1,1 +1,9 @@
 /* here you can put your own css to customize and override the theme */
+.video-error {
+    width:100%; 
+    height:300px; 
+    padding: 20px;
+    text-align:center;
+    background-color:#000000;
+    color:#ffffff;
+}

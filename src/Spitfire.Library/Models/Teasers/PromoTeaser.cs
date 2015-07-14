@@ -4,6 +4,8 @@
     using Sitecore.Mvc.Presentation;
     using Sitecore.Web;
 
+    using Spitfire.Library.Constants;
+
     /// <summary>
     /// Promotion Teaser component
     /// </summary>
@@ -65,7 +67,7 @@
             this.TitleColor = parameters["TitleColor"];
             this.TitleFontSize = parameters["TitleFontSize"];
             this.Background = parameters["Background"];
-            this.CssClassValue = parameters["CssClass"];
+            this.CssClassValue = parameters[ParameterConstants.Style.CssClass];
         }
     }
 }
