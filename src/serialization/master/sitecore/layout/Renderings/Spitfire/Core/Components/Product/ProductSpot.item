@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {0FA0546B-78EF-4F37-9E5C-E069DA2A1DDC}
+id: {5F669A41-870C-42FE-962F-0A7193A9D89D}
 database: master
-path: /sitecore/layout/Renderings/Spitfire/Core/Components/Main/BlockQuote
-parent: {9406A25B-D58B-4A27-9110-209640E100F0}
-name: BlockQuote
+path: /sitecore/layout/Renderings/Spitfire/Core/Components/Product/ProductSpot
+parent: {361C1487-574D-4040-ABDA-5416E6EC9ACF}
+name: ProductSpot
 master: {00000000-0000-0000-0000-000000000000}
 template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
 templatekey: View rendering
@@ -13,34 +13,20 @@ templatekey: View rendering
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
 name: Path
 key: path
-content-length: 45
+content-length: 49
 
-/Views/Core/Components/Main/BlockQuote.cshtml
+/Views/Core/Components/Product/ProductSpot.cshtml
 ----field----
 field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
 name: Open Properties after Add
 key: open properties after add
-content-length: 1
+content-length: 0
 
--
-----field----
-field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
-name: Datasource Location
-key: datasource location
-content-length: 36
 
-/sitecore/content/Global/Blockquotes
-----field----
-field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
-name: Datasource Template
-key: datasource template
-content-length: 52
-
-/sitecore/templates/Spitfire/Core/Content/Blockquote
 ----version----
 language: en
 version: 1
-revision: f46a86fe-18b2-4c8e-9e0f-96962101224d
+revision: 6aee6d45-07ea-4195-b7d4-4241687d74f0
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -48,21 +34,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20150611T214055Z
+20150615T094020Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-f46a86fe-18b2-4c8e-9e0f-96962101224d
+6aee6d45-07ea-4195-b7d4-4241687d74f0
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150709T104113Z
+20150714T091326Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

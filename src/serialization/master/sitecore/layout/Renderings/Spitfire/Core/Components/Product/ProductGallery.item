@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {5F669A41-870C-42FE-962F-0A7193A9D89D}
+id: {5563BE75-004C-4991-A8C5-968467ED7063}
 database: master
-path: /sitecore/layout/Renderings/Spitfire/Core/Components/Sidebar/ProductSpot
-parent: {151503ED-8C61-4307-8F87-A5C2A334B614}
-name: ProductSpot
+path: /sitecore/layout/Renderings/Spitfire/Core/Components/Product/ProductGallery
+parent: {361C1487-574D-4040-ABDA-5416E6EC9ACF}
+name: ProductGallery
 master: {00000000-0000-0000-0000-000000000000}
 template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
 templatekey: View rendering
@@ -13,20 +13,20 @@ templatekey: View rendering
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
 name: Path
 key: path
-content-length: 49
+content-length: 52
 
-/Views/Core/Components/Sidebar/ProductSpot.cshtml
+/Views/Core/Components/Product/ProductGallery.cshtml
 ----field----
 field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
 name: Open Properties after Add
 key: open properties after add
-content-length: 1
+content-length: 0
 
--
+
 ----version----
 language: en
 version: 1
-revision: f6468299-33d6-49d3-80cf-49230517480d
+revision: 1aec2d64-7596-40c3-95bc-0f6d57075952
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,21 +34,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20150615T094020Z
+20150615T092459Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-f6468299-33d6-49d3-80cf-49230517480d
+1aec2d64-7596-40c3-95bc-0f6d57075952
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150709T104641Z
+20150714T091340Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
