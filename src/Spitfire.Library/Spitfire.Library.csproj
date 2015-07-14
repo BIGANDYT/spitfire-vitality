@@ -71,6 +71,7 @@
     <Compile Include="Constants\TemplateConstants.cs" />
     <Compile Include="Models\Headers\SectionHeaderModel.cs" />
     <Compile Include="Models\Multilists\MultiListModel.cs" />
+    <Compile Include="Models\Navigation\LinkBar.cs" />
     <Compile Include="Models\Scaffolding\AsideModel.cs" />
     <Compile Include="Models\BannerModel.cs" />
     <Compile Include="Models\Scaffolding\ColModel.cs" />
