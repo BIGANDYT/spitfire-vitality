@@ -2,8 +2,8 @@
 version: 1
 id: {AB7383B2-9B49-4A05-BA95-365950207084}
 database: master
-path: /sitecore/layout/Renderings/Spitfire/Core/Components/Main/Selection
-parent: {9406A25B-D58B-4A27-9110-209640E100F0}
+path: /sitecore/layout/Renderings/Spitfire/Core/Components/Overview/Selection
+parent: {6ABF8071-BB34-4244-B3BA-120EC24066F5}
 name: Selection
 master: {00000000-0000-0000-0000-000000000000}
 template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
@@ -13,20 +13,20 @@ templatekey: View rendering
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
 name: Path
 key: path
-content-length: 44
+content-length: 48
 
-/Views/Core/Components/Main/Selection.cshtml
+/Views/Core/Components/Overview/Selection.cshtml
 ----field----
 field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
 name: Open Properties after Add
 key: open properties after add
-content-length: 1
+content-length: 0
 
--
+
 ----version----
 language: en
 version: 1
-revision: 55836ca7-2210-45d9-ae72-03186ec8a5c5
+revision: ec465df7-56bd-403c-b9fc-d0efed33b4b0
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -41,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-55836ca7-2210-45d9-ae72-03186ec8a5c5
+ec465df7-56bd-403c-b9fc-d0efed33b4b0
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150709T104229Z
+20150714T102913Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

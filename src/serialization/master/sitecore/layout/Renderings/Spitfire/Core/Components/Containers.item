@@ -1,32 +1,18 @@
 ----item----
 version: 1
-id: {151503ED-8C61-4307-8F87-A5C2A334B614}
+id: {BCEB0E59-CC80-4AC9-B808-2B8691EE3FC2}
 database: master
-path: /sitecore/layout/Renderings/Spitfire/Core/Components/Sidebar
+path: /sitecore/layout/Renderings/Spitfire/Core/Components/Containers
 parent: {67EFB612-AB44-48B7-B151-FD2719FABD5B}
-name: Sidebar
+name: Containers
 master: {00000000-0000-0000-0000-000000000000}
 template: {7EE0975B-0698-493E-B3A2-0B2EF33D0522}
 templatekey: Rendering Folder
 
-----field----
-field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
-name: __Icon
-key: __icon
-content-length: 30
-
-Software/32x32/layout_east.png
-----field----
-field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
-name: __Sortorder
-key: __sortorder
-content-length: 3
-
-500
 ----version----
 language: en
 version: 1
-revision: cc678caa-4ac7-4ebf-b8cc-ae27141c6c99
+revision: 623b8b6a-50d2-42ef-acb9-6b8d08f5ff6c
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,21 +20,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20150119T101821Z
+20150714T101828Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-cc678caa-4ac7-4ebf-b8cc-ae27141c6c99
+623b8b6a-50d2-42ef-acb9-6b8d08f5ff6c
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150709T093823Z
+20150714T101828Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

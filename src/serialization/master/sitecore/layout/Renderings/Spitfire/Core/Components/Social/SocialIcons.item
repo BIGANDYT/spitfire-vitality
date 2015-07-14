@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {3F602243-773C-4961-9521-06B8F99E4E1E}
+id: {C30BCB15-9AFF-4241-9C74-C419C7C2B46A}
 database: master
-path: /sitecore/layout/Renderings/Spitfire/Core/Components/Sidebar/ImportantInfo
-parent: {151503ED-8C61-4307-8F87-A5C2A334B614}
-name: ImportantInfo
+path: /sitecore/layout/Renderings/Spitfire/Core/Components/Social/SocialIcons
+parent: {F772ECE1-2584-4853-AE0E-B5D55F508982}
+name: SocialIcons
 master: {00000000-0000-0000-0000-000000000000}
 template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
 templatekey: View rendering
@@ -13,20 +13,20 @@ templatekey: View rendering
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
 name: Path
 key: path
-content-length: 51
+content-length: 48
 
-/Views/Core/Components/Sidebar/ImportantInfo.cshtml
+/Views/Core/Components/Social/SocialIcons.cshtml
 ----field----
 field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
 name: Open Properties after Add
 key: open properties after add
-content-length: 1
+content-length: 0
 
--
+
 ----version----
 language: en
 version: 1
-revision: 64397ca3-bd65-4c62-9569-c673d356f196
+revision: 5bc040ae-2b0f-40f4-bd15-10d4c886dc5a
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,21 +34,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20150615T084833Z
+20150526T141421Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-64397ca3-bd65-4c62-9569-c673d356f196
+5bc040ae-2b0f-40f4-bd15-10d4c886dc5a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150709T104623Z
+20150714T101902Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
