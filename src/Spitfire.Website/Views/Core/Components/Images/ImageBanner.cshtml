@@ -1,4 +1,6 @@
-﻿<header style="background-image:url('@Model.BackgroundImageUrl');height:@Model.BannerHeight%">
+﻿@model Spitfire.Library.Models.BannerModel
+
+<header style="background-image:url('@Model.BackgroundImageUrl');height:@Model.BannerHeight%">
     <div class="intro-content" style="top:@Model.LogoTop%;">
         <div class="col-xs-12 col-md-4 col-md-offset-@Model.LogoLeft">
             @Html.Sitecore().Field("Image", new { @class = "img-centered" })

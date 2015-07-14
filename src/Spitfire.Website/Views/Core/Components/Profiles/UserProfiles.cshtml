@@ -1,0 +1,188 @@
+﻿@using Sitecore.Analytics
+@using Sitecore.Analytics.Tracking
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+    var tracker = Tracker.Current;
+    CurrentInteraction interaction = null;
+    if (tracker != null && tracker.Interaction != null)
+    {
+        interaction = tracker.Interaction;
+    }
+}
+<div class="col-md-12">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="portlet box scbrandorange">
+                <div class="portlet-title">
+                    <div class="caption">
+                        <i class="fa fa-save" style="color: #fff;"></i>Explicit Data
+                    </div>
+                </div>
+                <div class="portlet-body">
+                    <div class="row margin-bottom-10">
+                        <div class="col-md-3">
+                            Firstname:
+                        </div>
+                        <div class="col-md-9">
+                            <strong>
+                                @Sitecore.Context.User.Profile["Firstname"]
+                            </strong>
+                        </div>
+                    </div>
+                    <div class="row margin-bottom-10">
+                        <div class="col-md-3">
+                            Surname:
+                        </div>
+                        <div class="col-md-9">
+                            <strong>
+                                @Sitecore.Context.User.Profile["Surname"]
+                            </strong>
+                        </div>
+                    </div>
+                    <div class="row margin-bottom-10">
+                        <div class="col-md-3">
+                            Job title:
+                        </div>
+                        <div class="col-md-9">
+                            <strong>
+                                @Sitecore.Context.User.Profile["JobTitle"]
+                            </strong>
+                        </div>
+                    </div>
+                    <div class="row margin-bottom-10">
+                        <div class="col-md-3">
+                            E-mail:
+                        </div>
+                        <div class="col-md-9">
+                            <strong>
+                                @Sitecore.Context.User.Profile["Email"]
+                            </strong>
+                        </div>
+                    </div>
+                    <div class="row margin-bottom-10">
+                        <div class="col-md-3">
+                            Phone:
+                        </div>
+                        <div class="col-md-9">
+                            <strong>
+                                @Sitecore.Context.User.Profile["Phone"]
+                            </strong>
+                        </div>
+                    </div>
+                    <div class="row margin-bottom-10">
+                        <div class="col-md-3">
+                            Address:
+                        </div>
+                        <div class="col-md-9">
+                            <strong>
+                                @Sitecore.Context.User.Profile["Address1"]
+                            </strong>
+                            <br />
+                            <strong>
+                                @Sitecore.Context.User.Profile["Address2"]
+                            </strong>
+                            <br />
+                            <strong>
+                                @Sitecore.Context.User.Profile["Address3"]
+                            </strong>
+                            <br />
+                            <strong>
+                                @Sitecore.Context.User.Profile["City"]
+                            </strong>
+                            <br />
+                            <strong>
+                                @Sitecore.Context.User.Profile["Postcode"]
+                            </strong>
+                            <br />
+                            <strong>
+                                @Sitecore.Context.User.Profile["Country"]
+                            </strong>
+                            <br />
+                        </div>
+                    </div>
+                    <div class="row margin-bottom-10">
+                        <div class="col-md-3">
+                            Call-back received?
+                        </div>
+                        <div class="col-md-9">
+                            <strong>
+                                @Sitecore.Context.User.Profile["Callback"]
+                            </strong>
+                        </div>
+                    </div>
+                    <a href="/layouts/cache/Clear.aspx?cache=CRM[Users]::" class="btn scbrandorange btn-block">Sync with CRM</a>
+                </div>
+            </div>
+        </div>
+        @if (interaction != null)
+        {
+            <div class="col-md-6">
+                <div class="portlet box scbrandpurple">
+                    <div class="portlet-title">
+                        <div class="caption">
+                            <i class="fa fa-bar-chart-o" style="color:#fff;"></i>xDB Data
+                        </div>
+                    </div>
+                    <div class="portlet-body">
+
+                        <i class="fa fa-trophy" style="margin-bottom: 10px; margin-right: 2px;"></i> Goals
+                        <dl>
+                            @foreach (var page in tracker.Interaction.Pages)
+                            {
+                                foreach (var pageEvent in page.PageEvents.Where(x => x.IsGoal))
+                                {
+                                    <dd>
+                                        @pageEvent.Name (@page.Url) - @pageEvent.DateTime
+                                    </dd>
+                                }
+                            }
+                        </dl>
+                        <hr />
+                        <i class="fa fa-flag-checkered"></i> Campaigns
+
+                        @*<xsl:choose>
+                              <xsl:when test="xdb:Campaign()">
+                                <xsl:value-of select="sc:item(xdb:Campaign(),.)/@name"/>
+                              </xsl:when>
+                              <xsl:otherwise>
+                                No campaign
+                              </xsl:otherwise>
+                            </xsl:choose>*@
+                        <hr />
+                        <i class="fa fa-users" style="margin-bottom: 10px; margin-right:2px;"></i> Profiles
+                        @*<xsl:for-each select="xdb:Profiles()">
+                                <h4>
+                                    <xsl:value-of select="@name" />
+                                </h4>
+                                <xsl:for-each select="./key">
+                                    <xsl:value-of select="@name" />: <xsl:value-of select="." /><br />
+                                </xsl:for-each>
+                            </xsl:for-each>*@
+                        <hr />
+
+                        <i class="fa fa-users" style="margin-bottom: 10px; margin-right:2px;"></i> Contact
+                        @*<xsl:variable name="contact" select="xdb:Contact()" />*@
+                        <ul>
+                            <li>
+                                Visit Count: @*<xsl:value-of select="$contact/@visitcount" />*@
+                            </li>
+                            <li>
+                                Tags:
+                                <dl>
+                                    @*<xsl:for-each select="$contact/tags/tag">
+                                            <dd>
+                                                <xsl:value-of select="@key" />: <xsl:value-of select="." /> (<xsl:value-of select="sc:formatdate(@datetime)" />)
+                                            </dd>
+                                        </xsl:for-each>*@
+                                </dl>
+                            </li>
+                        </ul>
+
+                        <a href="About" class="btn scbrandpurple btn-block">Update Profile</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
