@@ -365,7 +365,7 @@
     <Content Include="Views\Core\Components\Overview\Selection.cshtml" />
     <Content Include="Views\Core\Components\Meta\Seo.cshtml" />
     <Content Include="Views\Core\Components\Snippets\ServiceBox.cshtml" />
-    <Content Include="Views\Core\Components\Main\Slider.cshtml" />
+    <Content Include="Views\Core\Components\Images\Slider.cshtml" />
     <Content Include="Views\Core\Components\Snippets\Steps.cshtml" />
     <Content Include="Views\Core\Components\Containers\Tabs.cshtml" />
     <Content Include="Views\Core\Components\Text\Testimonials.cshtml" />
