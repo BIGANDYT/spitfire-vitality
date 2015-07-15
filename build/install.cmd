@@ -37,6 +37,8 @@ IF "%ERRORLEVEL%" NEQ "0" (
 	exit /B %ERRORLEVEL%
 )
 
+call fix-file-permissions.cmd
+
 :: Add extra hostnames to IIS and c:\windows\system32\drivers\etc\hosts file
 powershell -file add-extra-hosts.ps1
 IF "%ERRORLEVEL%" NEQ "0" (
