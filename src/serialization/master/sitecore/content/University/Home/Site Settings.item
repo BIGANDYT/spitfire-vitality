@@ -1,11 +1,11 @@
 ----item----
 version: 1
-id: {26C8446D-4AC0-4756-8737-F4B74079F03B}
+id: {DB163D60-29FC-46A6-AC57-B6007AD810A8}
 database: master
-path: /sitecore/content/Global
-parent: {0DE95AE4-41AB-4D01-9EB0-67441B7C2450}
-name: Global
-master: {00000000-0000-0000-0000-000000000000}
+path: /sitecore/content/University/Home/Site Settings
+parent: {45B45978-CEB8-4743-8EDD-64BE212C4B38}
+name: Site Settings
+master: {A538A6B5-0D6F-46F6-945C-6D426065208A}
 template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
 templatekey: Folder
 
@@ -13,27 +13,20 @@ templatekey: Folder
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
 key: __icon
-content-length: 22
+content-length: 28
 
-Office/32x32/earth.png
+Applications/16x16/gears.png
 ----field----
-field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
-name: __Sortorder
-key: __sortorder
-content-length: 3
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
 
-600
-----field----
-field: {6FD695E7-7F6D-4CA5-8B49-A829E5950AE9}
-name: __Subitems Sorting
-key: __subitems sorting
-content-length: 38
 
-{44D1A0D2-E17B-4DAA-ADDF-53F2E8F58525}
 ----version----
 language: en
 version: 1
-revision: 915221dd-ef3f-47b0-bb2a-7b4d5e7cb56e
+revision: 0c0882d1-eba2-4b31-aa8e-d39a2d458671
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -41,7 +34,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20150326T183958Z
+20150715T085209Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -55,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-915221dd-ef3f-47b0-bb2a-7b4d5e7cb56e
+0c0882d1-eba2-4b31-aa8e-d39a2d458671
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150715T085213Z
+20150715T085209Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

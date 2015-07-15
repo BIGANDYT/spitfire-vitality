@@ -2,8 +2,8 @@
 version: 1
 id: {C8987D0B-1FB9-403C-9746-41D56DEF5FF6}
 database: master
-path: /sitecore/layout/Renderings/Spitfire/Core/Components/Main/Slider
-parent: {9406A25B-D58B-4A27-9110-209640E100F0}
+path: /sitecore/layout/Renderings/Spitfire/Core/Components/Images/Slider
+parent: {730A79D1-F97D-429E-B1AD-7EC6DC41CB74}
 name: Slider
 master: {00000000-0000-0000-0000-000000000000}
 template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
@@ -13,20 +13,34 @@ templatekey: View rendering
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
 name: Path
 key: path
-content-length: 41
+content-length: 43
 
-/Views/Core/Components/Main/Slider.cshtml
+/Views/Core/Components/Images/Slider.cshtml
 ----field----
 field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
 name: Open Properties after Add
 key: open properties after add
-content-length: 1
+content-length: 0
 
--
+
+----field----
+field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
+name: Datasource Location
+key: datasource location
+content-length: 32
+
+/sitecore/content/Global/Sliders
+----field----
+field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
+name: Datasource Template
+key: datasource template
+content-length: 49
+
+/sitecore/templates/Spitfire/Core/Content/Sliders
 ----version----
 language: en
 version: 1
-revision: d93258b4-da1c-4721-baee-ebad1c6aa3c7
+revision: 57478144-6e5c-419e-98ff-8c57547c2952
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -41,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-d93258b4-da1c-4721-baee-ebad1c6aa3c7
+57478144-6e5c-419e-98ff-8c57547c2952
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150709T104234Z
+20150715T093920Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

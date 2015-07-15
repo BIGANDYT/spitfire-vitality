@@ -1,11 +1,11 @@
 ----item----
 version: 1
-id: {CE3126B9-BAE9-41E4-B7CE-29324825BE11}
+id: {4434317F-D3AC-416C-8447-A22F96C620EE}
 database: master
-path: /sitecore/content/Finance
+path: /sitecore/content/University
 parent: {0DE95AE4-41AB-4D01-9EB0-67441B7C2450}
-name: Finance
-master: {00000000-0000-0000-0000-000000000000}
+name: University
+master: {A538A6B5-0D6F-46F6-945C-6D426065208A}
 template: {0643D9D4-F30B-4B07-91D0-289CC324C9CF}
 templatekey: SiteRoot
 
@@ -15,11 +15,18 @@ name: __Sortorder
 key: __sortorder
 content-length: 3
 
-200
+400
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
 ----version----
 language: en
 version: 1
-revision: 47f7e5b3-c345-448b-b1a5-a0f15059cd2a
+revision: 63b246e8-a55c-4ee7-90da-9d12c946f952
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -27,14 +34,14 @@ name: __Created
 key: __created
 content-length: 16
 
-20150626T103501Z
+20150715T085209Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-47f7e5b3-c345-448b-b1a5-a0f15059cd2a
+63b246e8-a55c-4ee7-90da-9d12c946f952
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated

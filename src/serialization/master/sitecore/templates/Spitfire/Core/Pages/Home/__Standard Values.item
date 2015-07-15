@@ -26,8 +26,29 @@ content-length: 1086
 ----version----
 language: en
 version: 1
-revision: eb3266fa-e556-454d-885f-2d7711ca47d5
+revision: 194e73f6-b281-4beb-9345-274dd5d73cfe
 
+----field----
+field: {CA0479CE-0BFE-4522-83DE-BA688B380A78}
+name: BrowserTitle
+key: browsertitle
+content-length: 5
+
+$name
+----field----
+field: {1B483E91-D8C4-4D19-BA03-462074B55936}
+name: ShortTitle
+key: shorttitle
+content-length: 5
+
+$name
+----field----
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
+name: Title
+key: title
+content-length: 5
+
+$name
 ----field----
 field: {0582109B-9D24-4347-A969-8E59297C548D}
 name: Theme
@@ -62,14 +83,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-eb3266fa-e556-454d-885f-2d7711ca47d5
+194e73f6-b281-4beb-9345-274dd5d73cfe
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150708T115101Z
+20150715T091504Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

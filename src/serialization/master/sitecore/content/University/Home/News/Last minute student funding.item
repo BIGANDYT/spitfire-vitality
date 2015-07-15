@@ -1,0 +1,136 @@
+----item----
+version: 1
+id: {2853C994-91AE-4E82-A6B2-B7B3A5B0405F}
+database: master
+path: /sitecore/content/University/Home/News/Last minute student funding
+parent: {3C3CC607-1192-45CD-979A-749B37C7448A}
+name: Last minute student funding
+master: {00000000-0000-0000-0000-000000000000}
+template: {2F75C8AF-35FC-4A88-B585-7595203F442C}
+templatekey: News Article
+
+----field----
+field: {148746F5-2342-4547-ACAC-A9065F6B7ED5}
+name: Date
+key: date
+content-length: 9
+
+20150715Z
+----version----
+language: en
+version: 1
+revision: 126c6366-df92-4b2a-96f8-0df67a3cf938
+
+----field----
+field: {AC3FD4DB-8266-476D-9635-67814D91E901}
+name: Summary
+key: summary
+content-length: 119
+
+If you're thinking of applying for university this September, it's time to turn your attention to funding, say experts.
+----field----
+field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
+name: Body
+key: body
+content-length: 14875
+
+<div class="firstPar" style="color: #282828; font-family: georgia, 'times new roman', times, serif; font-size: 10px;">
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">With<a href="http://www.telegraph.co.uk/education/universityeducation/clearing/11025551/Results-Day-2015-a-step-by-step-guide.html" target="_blank" style="color: #234b7b; padding: 0px; font-weight: bold;">&nbsp;A-level Results Day&nbsp;</a>and&nbsp;<a href="http://www.telegraph.co.uk/education/universityeducation/clearing/" target="_blank" style="color: #234b7b; padding: 0px; font-weight: bold;">Clearing</a>&nbsp;just around the corner and weeks to go until university term starts, the Student Loans Company is busy getting student finances ready.</p>
+</div>
+<div class="secondPar" style="color: #282828; font-family: georgia, 'times new roman', times, serif; font-size: 10px;">
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">This year, a record number of students have applied early for finance. But if you&rsquo;re not quite as organised, there's still time to get your application in.</p>
+</div>
+<div class="thirdPar" style="color: #282828; font-family: georgia, 'times new roman', times, serif; font-size: 10px;">
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;"><span style="font-weight: lighter;">You can update your course or university details later but it&rsquo;s best to get the application in as early as possible as it can take six weeks to process an application, if we&rsquo;ve received all the correct evidence.</span></p>
+</div>
+<div class="fifthPar" style="color: #282828; font-family: georgia, 'times new roman', times, serif; font-size: 10px;">
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;"><a href="http://www.telegraph.co.uk/education/universityeducation/student-finance/" target="_blank" style="color: #234b7b; padding: 0px; font-weight: bold;">Student finance&nbsp;</a>is essential for most people attending university or college, to assist with everyday living costs. Many young people will be moving into rented accommodation and having to deal with their own finances for the first time and some students have their own families to support alongside their studies.</p>
+</div>
+<div class="body" style="color: #282828; font-family: georgia, 'times new roman', times, serif; font-size: 10px;">
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">Where you apply for student finance depends on where you are planning to study. The Student Loans Company processes all applications for students in England and has also taking over the processing of applications for new students in Wales.</p>
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">Students in Scotland apply to the Student Awards Agency for Scotland (SAAS) and Northern Ireland students should apply to the Education and Library Board (ELB).</p>
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">Students need to reapply for their student finance for each year of funding.</p>
+<h3 class="was-h3" style="margin-top: 16px; margin-bottom: 10px; padding: 0px; border-top-width: 0px; color: #cc0000; font-size: 24px; font-family: Georgia; font-stretch: normal; line-height: 29px;"><strong>Student finance &ndash; what&rsquo;s available?</strong></h3>
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">Universities and colleges are able to charge different fees for their different courses, up to a maximum amount of &pound;9,000 per year, which is set by the Government.</p>
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">Tuition fee loans are available to cover the costs of university fees and these are paid directly to the university or college.</p>
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">Maintenance loans are paid directly to the student to help with living costs while you&rsquo;re studying; such as food, accommodation and travel. For example, if you&rsquo;re an English student living away from home in London you could get a maintenance loan of up to &pound;8,009.</p>
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">In Wales, the maximum amount of tuition fee loan available is &pound;3,810. However, Welsh students can apply for a Fee Grant of up to &pound;5,190 to cover the difference between the loan and the fee charged.</p>
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">You can choose to just take the Fee Grant, but will then have to cover the difference yourself.</p>
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">Tuition fee and maintenance loans are available to most students. Maintenance grants, which are based on your household income and do not have to be repaid, may also be available.</p>
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">Part-time students can also apply for student support.</p>
+<h3 class="was-h3" style="margin-top: 16px; margin-bottom: 10px; padding: 0px; border-top-width: 0px; color: #cc0000; font-size: 24px; font-family: Georgia; font-stretch: normal; line-height: 29px;"><strong>Students with special circumstances</strong></h3>
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">If you have dependants or if you have a disability, you may qualify for extra help on top of your main student finance package, depending on your circumstances.</p>
+<h3 class="was-h3" style="margin-top: 16px; margin-bottom: 10px; padding: 0px; border-top-width: 0px; color: #cc0000; font-size: 24px; font-family: Georgia; font-stretch: normal; line-height: 29px;"><strong>What do you need to apply?</strong></h3>
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">If you&rsquo;re applying for finance you should have the following information to hand to ensure your application is processed as quickly as possible:<strong></strong></p>
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">&bull; UK Passport number</p>
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">&bull; Bank Account details</p>
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">&bull; National insurance number, which can be found on your national insurance card or letter, a payslip or tax document such as a P45 or P60</p>
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">&bull; The university or college course details &ndash; you should choose the course you&rsquo;re most likely to start as it&rsquo;s easy to update your details online at a later date</p>
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">There is a section for parents or partner to complete so it may also be helpful for them to have their National Insurance number to hand, if you&rsquo;re applying for student finance based on the household income.</p>
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">Should any evidence be requested, send it straight away.</p>
+<h3 class="was-h3" style="margin-top: 16px; margin-bottom: 10px; padding: 0px; border-top-width: 0px; color: #cc0000; font-size: 24px; font-family: Georgia; font-stretch: normal; line-height: 29px;"><strong>How much you pay back</strong></h3>
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">You must pay back Tuition Fee Loans and Maintenance Loans. You pay interest on these. You don&rsquo;t have to pay back other student finance, eg grants and bursaries.</p>
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">Your repayments are linked to your income and you only make repayments when your income is over &pound;21,000 a year.</p>
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">Visit&nbsp;<a target="_blank" href="http://www.studentloanrepayment.co.uk/portal/page?_pageid=93,3866794&amp;_dad=portal&amp;_schema=PORTAL/" rel="nofollow" style="color: #234b7b; padding: 0px; font-weight: bold;">studentloanrepayment.co.uk</a>&nbsp;for more information on repayment for full and part-time students.</p>
+<h3 class="was-h3" style="margin-top: 16px; margin-bottom: 10px; padding: 0px; border-top-width: 0px; color: #cc0000; font-size: 24px; font-family: Georgia; font-stretch: normal; line-height: 29px;"><strong>Useful websites</strong></h3>
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">English students:&nbsp;<a target="_blank" href="https://www.gov.uk/student-finance/" rel="nofollow" style="color: #234b7b; padding: 0px; font-weight: bold;">gov.uk/studentfinance</a></p>
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">Welsh students:&nbsp;<a target="_blank" href="http://www.studentfinancewales.co.uk/portal/page?_pageid=616,6200699&amp;_dad=portal&amp;_schema=PORTAL/" rel="nofollow" style="color: #234b7b; padding: 0px; font-weight: bold;">studentfinancewales.co.uk</a>&nbsp;/<a target="_blank" href="http://www.cyllidmyfyrwyrcymru.co.uk/portal/page?_pageid=273,6202538&amp;_dad=portal&amp;_schema=PORTAL/" rel="nofollow" style="color: #234b7b; padding: 0px; font-weight: bold;">cyllidmyfyrwyrcymru.co.uk</a></p>
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">Scottish students:&nbsp;<a target="_blank" href="http://www.saas.gov.uk/" rel="nofollow" style="color: #234b7b; padding: 0px; font-weight: bold;">saas.gov.uk</a></p>
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">Northern Ireland students:&nbsp;<a target="_blank" href="http://www.studentfinanceni.co.uk/portal/page?_pageid=54,1265897&amp;_dad=portal&amp;_schema=PORTAL/" rel="nofollow" style="color: #234b7b; padding: 0px; font-weight: bold;">studentfinanceni.co.uk</a></p>
+<h3 class="was-h3" style="margin-top: 16px; margin-bottom: 10px; padding: 0px; border-top-width: 0px; color: #cc0000; font-size: 24px; font-family: Georgia; font-stretch: normal; line-height: 29px;"><strong>&lrm;Top tips to be student finance savvy</strong></h3>
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">- Apply online now and send any requested evidence straight away.</p>
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">- If you&rsquo;ve applied for support based on your household income, remind your parents or partner to send their details too.</p>
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">- If you need to update your course, university or tuition fee loan amount, do it online by logging into your online account.</p>
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">- You need to sign and return your online declaration form if you apply online. Log into your online account and follow the instructions on your &lsquo;To-do&rsquo; list.</p>
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">- Remember, you won&rsquo;t be paid your student finance until you register and attend your university course. We&rsquo;ll send you details of your instalments and when you&rsquo;ll be paid.</p>
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: #333333;">- If you need help with your application, contact us. You can call us &ndash; students in England should call 0300 100 0607 and students in Wales should call 0300 200 4050. Our dedicated customer advisors also answer your student finance questions regularly on our social media channels &ndash;<a target="_blank" href="https://www.facebook.com/SFEngland" style="color: #234b7b; padding: 0px; font-weight: bold;">facebook.com/SFEngland&nbsp;</a>and&nbsp;<a target="_blank" href="https://twitter.com/sf_england" style="color: #234b7b; padding: 0px; font-weight: bold;">Twitter.com/sf_england</a>&nbsp;and Student Finance Wales:&nbsp;<a target="_blank" href="https://www.facebook.com/SFWales" style="color: #234b7b; padding: 0px; font-weight: bold;">facebook/SFWales</a>&nbsp;and&nbsp;<a target="_blank" href="https://twitter.com/sf_wales" style="color: #234b7b; padding: 0px; font-weight: bold;">Twitter.com/sf_wales</a>.</p>
+</div>
+----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{0EB91F52-911C-4C33-A513-EE853B3D9146}" />
+----field----
+field: {1B483E91-D8C4-4D19-BA03-462074B55936}
+name: ShortTitle
+key: shorttitle
+content-length: 27
+
+Last minute student finance
+----field----
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
+name: Title
+key: title
+content-length: 53
+
+Student finance: How to apply for last minute funding
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150715T102800Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+126c6366-df92-4b2a-96f8-0df67a3cf938
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150715T103333Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

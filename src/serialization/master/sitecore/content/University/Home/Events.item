@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {075019F2-DD34-42F4-A43A-4BCFC618F0AA}
+database: master
+path: /sitecore/content/University/Home/Events
+parent: {45B45978-CEB8-4743-8EDD-64BE212C4B38}
+name: Events
+master: {00000000-0000-0000-0000-000000000000}
+template: {F76F859A-F34F-45AF-AD50-FE74CCA41D25}
+templatekey: Section
+
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}
+----version----
+language: en
+version: 1
+revision: cfe6b0ac-fe0e-49b6-9d0b-fe6d14b43c4a
+
+----field----
+field: {AC3FD4DB-8266-476D-9635-67814D91E901}
+name: Summary
+key: summary
+content-length: 37
+
+Register for our open day here!&nbsp;
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 865
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{D2C64191-6B84-4B7E-8F48-8F2D1D3CF654}" p:before="r[@uid='{E75E02D5-B45D-4868-8BA5-CA55FFF55801}']" s:id="{B11D11C1-21EC-4076-8B15-F3BC45A16E0D}" s:ph="/content_00000000-0000-0000-0000-000000000000/column1_f026a075-8586-437d-9a49-36cce1bc665a" /><r uid="{E75E02D5-B45D-4868-8BA5-CA55FFF55801}" p:before="r[@uid='{F026A075-8586-437D-9A49-36CCE1BC665A}']" s:ds="{4B92651A-5D81-40C8-8647-3E90BDB7B825}" s:id="{98990B57-BF3E-4859-B7D9-052235B2AC7F}" s:ph="content_00000000-0000-0000-0000-000000000000" /><r uid="{F026A075-8586-437D-9A49-36CCE1BC665A}" p:before="r[@uid='{289321C0-C84E-4101-B119-A5E00AAE79B8}']" s:ds="" s:id="{53C4C7C6-98E3-49B8-9FF8-39AC963228C2}" s:par="FullWidth&amp;ShowTitle&amp;ShowBreadcrumb" s:ph="content_00000000-0000-0000-0000-000000000000" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150715T100752Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cfe6b0ac-fe0e-49b6-9d0b-fe6d14b43c4a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150715T101954Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

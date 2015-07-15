@@ -12,15 +12,15 @@ templatekey: Banner
 ----version----
 language: en
 version: 1
-revision: a138402d-2d32-4c9f-a44b-999a6c6ca07b
+revision: 1831c78b-a40a-48d2-856d-3b3f2e73d824
 
 ----field----
 field: {AB3898A6-1F38-42BD-B1BD-80546723BE05}
 name: Image
 key: image
-content-length: 110
+content-length: 117
 
-<image mediaid="{371A079C-A912-4C42-BBE2-C8351567609E}" height="350" hspace="" width="350" alt="" vspace="" />
+<image mediaid="{371A079C-A912-4C42-BBE2-C8351567609E}" height="350" hspace="" width="350" alt="" vspace="" ></image>
 ----field----
 field: {60F7B593-2092-42CD-96C3-6A83912D2704}
 name: Background Image
@@ -104,14 +104,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-a138402d-2d32-4c9f-a44b-999a6c6ca07b
+1831c78b-a40a-48d2-856d-3b3f2e73d824
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150511T103320:635669372007339822Z
+20150715T101538Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

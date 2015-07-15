@@ -1,25 +1,18 @@
 ----item----
 version: 1
-id: {CE3126B9-BAE9-41E4-B7CE-29324825BE11}
+id: {35AC0C9E-361D-4522-A688-8AB54A539690}
 database: master
-path: /sitecore/content/Finance
-parent: {0DE95AE4-41AB-4D01-9EB0-67441B7C2450}
-name: Finance
+path: /sitecore/content/Global/Banners/Eventsbanner
+parent: {65ACAFC4-464E-417E-964B-EDD05F889FE0}
+name: Eventsbanner
 master: {00000000-0000-0000-0000-000000000000}
-template: {0643D9D4-F30B-4B07-91D0-289CC324C9CF}
-templatekey: SiteRoot
+template: {656FE842-C5A3-4FFC-8130-A029C713F743}
+templatekey: Banner
 
-----field----
-field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
-name: __Sortorder
-key: __sortorder
-content-length: 3
-
-200
 ----version----
 language: en
 version: 1
-revision: 47f7e5b3-c345-448b-b1a5-a0f15059cd2a
+revision: f6ebd49a-b6c4-45f7-ab28-e0faa8d63c72
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -27,21 +20,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20150626T103501Z
+20150715T100858Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-47f7e5b3-c345-448b-b1a5-a0f15059cd2a
+f6ebd49a-b6c4-45f7-ab28-e0faa8d63c72
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150715T085213Z
+20150715T100858Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

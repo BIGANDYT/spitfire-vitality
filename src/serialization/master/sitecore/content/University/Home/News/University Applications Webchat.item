@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {CBF1DDCC-2EC5-4D47-B24E-59C2CEC2A30E}
+database: master
+path: /sitecore/content/University/Home/News/University Applications Webchat
+parent: {3C3CC607-1192-45CD-979A-749B37C7448A}
+name: University Applications Webchat
+master: {00000000-0000-0000-0000-000000000000}
+template: {2F75C8AF-35FC-4A88-B585-7595203F442C}
+templatekey: News Article
+
+----field----
+field: {148746F5-2342-4547-ACAC-A9065F6B7ED5}
+name: Date
+key: date
+content-length: 9
+
+20150715Z
+----version----
+language: en
+version: 1
+revision: a9acc7b2-42a0-4a8d-a984-01f39c35e7f6
+
+----field----
+field: {AC3FD4DB-8266-476D-9635-67814D91E901}
+name: Summary
+key: summary
+content-length: 816
+
+<span>Do you have questions regarding&nbsp;<a target="_blank" href="http://www.telegraph.co.uk/education/universityeducation/clearing/11025551/Results-Day-2015-a-step-by-step-guide.html">A-level Results Day</a>,&nbsp;<a target="_blank" href="http://www.telegraph.co.uk/education/universityeducation/clearing/">Clearing</a>,<a target="_blank" href="http://www.telegraph.co.uk/education/universityeducation/clearing/11711175/University-applications-dates-for-your-diary.html">university applications</a>&nbsp;or&nbsp;<a target="_blank" href="http://www.telegraph.co.uk/education/universityeducation/student-finance/">student finance</a>? Join us on Wednesday 22nd July between 1pm and 3pm for your chance to put questions to Ross Sanger (1pm to 2pm) and Mark Lee Kelly from Student Finance England (2pm to 3pm).</span>
+----field----
+field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
+name: Body
+key: body
+content-length: 2101
+
+<p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: rgb(51, 51, 51);">With A-level Results Day approaching on August 13, it's understandable if doubts are beginning to creep in about exam performance. As has been written many times before, if you are worried about your results,&nbsp;<a target="_blank" href="http://www.telegraph.co.uk/education/universityeducation/clearing/11722722/How-to-research-for-Ucas-Clearing.html" style="color: rgb(35, 75, 123); padding: 0px; font-weight: bold;">your best solution now is research</a>.</p><p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: rgb(51, 51, 51);">Get on the internet and make sure you have a viable 'Plan B' that you are happy with. Look into alternative courses, alternative universities, or simply consider taking a year out to evaluate your options.</p><p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: rgb(51, 51, 51);">If you're still stuck, or are worried about some aspect of your current application, take part in our webchat. You'll be able to put your questions to the experts and hopefully alliviate some of your worries in the process.</p><p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: rgb(51, 51, 51);">Can't take part on the day? Then email your questions to j.gurney-read@telegraph.co.uk in advance and we will put them to Ross and Mark on your behalf. Do remember though, for obvious reasons we won't be able to answer any questions regarding your personal information, including passwords.</p><p style="margin-bottom: 0px; padding: 0px 0px 0.8em; font-family: arial, helvetica, sans-serif; font-size: 16px; line-height: 23px; color: rgb(51, 51, 51);">Check back here at 1pm on July 22 and make sure you are confident about your options when you wake on Results Day.</p>
+----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{CC9E9719-D1B9-4F17-B5BF-4865BB9120EC}" />
+----field----
+field: {1B483E91-D8C4-4D19-BA03-462074B55936}
+name: ShortTitle
+key: shorttitle
+content-length: 15
+
+Ask the Experts
+----field----
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
+name: Title
+key: title
+content-length: 48
+
+University applications webchat: Ask the experts
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150715T102243Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a9acc7b2-42a0-4a8d-a984-01f39c35e7f6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150715T103754Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
