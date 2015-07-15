@@ -1,0 +1,44 @@
+----item----
+version: 1
+id: {73CD5F30-DE54-47D6-812B-EC00D0AB4AC6}
+database: master
+path: /sitecore/system/Marketing Control Panel/Campaigns/Spitfire/Offline
+parent: {F489CD8C-549D-4A7A-9F10-9482F36D27FA}
+name: Offline
+master: {00000000-0000-0000-0000-000000000000}
+template: {56682FE6-9679-4B69-9589-60C99AA08BEC}
+templatekey: Campaign Category
+
+----version----
+language: en
+version: 1
+revision: 04061cd1-1892-4d1a-8cf4-fd42d4a63d91
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150216T125959Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+04061cd1-1892-4d1a-8cf4-fd42d4a63d91
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150715T150941Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
