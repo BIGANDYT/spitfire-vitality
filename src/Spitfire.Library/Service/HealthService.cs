@@ -8,10 +8,21 @@
     using Sitecore.Data;
     using Sitecore.Data.Items;
 
+    using Spitfire.Library.Constants;
     using Spitfire.Library.Models.Health;
 
     public class HealthService
     {
+        /// <summary>
+        /// Root location of views
+        /// </summary>
+        private const string ViewRootPath = "/sitecore/layout/renderings/spitfire/";
+
+        /// <summary>
+        /// Root location of models
+        /// </summary>
+        private const string ModelRootPath = "/sitecore/layout/models/spitfire/";
+
         private HealthResult result;
 
         private Database db;
@@ -27,7 +38,7 @@
 
         private void DoRenderings()
         {
-            var renderingsRootItem = db.GetItem("/sitecore/layout/Renderings/Spitfire");
+            var renderingsRootItem = db.GetItem(ItemConstants.SpitfireRenderingsRoot);
             if (renderingsRootItem == null)
             {
                 this.AddRenderingIssue(new HealthIssue(HealthIssueSeverity.Error, "RenderingRootItem not found"));
@@ -75,7 +86,7 @@
                         // Check the location on filesystem mirrors the location in content tree
                         var expectedFile =
                             renderingItem.Paths.Path.ToLower()
-                                .Replace("/sitecore/layout/renderings/spitfire/", string.Empty)
+                                .Replace(ViewRootPath, string.Empty)
                                 .Replace(" ", string.Empty);
 
                         var expectedPath = string.Format("/views/{0}.cshtml", expectedFile);
@@ -127,7 +138,7 @@
 
                             var expectedModelPath = 
                                 renderingItem.Paths.Path.ToLower()
-                                    .Replace("/sitecore/layout/renderings/spitfire/", "/sitecore/layout/models/spitfire/");
+                                    .Replace(ViewRootPath, ModelRootPath);
 
                             // Check the model item's location in the content tree
                             if (!string.Equals(modelPath, expectedModelPath, StringComparison.InvariantCultureIgnoreCase))
@@ -160,7 +171,7 @@
                             // Check the namespaces match the structure of the content tree
                             var expectedNamespace =
                                 renderingItem.Paths.Path.ToLower()
-                                    .Replace("/sitecore/layout/renderings/spitfire/", string.Empty)
+                                    .Replace(ViewRootPath, string.Empty)
                                     .Replace("/", ".");
 
                             var expectedModelType = string.Format("Spitfire.Library.Models.{0},Spitfire.Library", expectedNamespace);

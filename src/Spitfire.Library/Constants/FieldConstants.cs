@@ -54,7 +54,8 @@
             /// <summary>
             /// Gets the subtitle field id
             /// </summary>
-            public static ID Subtitle{
+            public static ID Subtitle
+            {
                 get
                 {
                     return new ID("{8B50FBA2-F31C-4563-9B71-1CF7CADE180A}");
@@ -201,7 +202,7 @@
             }
 
             /// <summary>
-            /// gets the field id of the Logo field
+            /// Gets the field id of the Logo field
             /// </summary>
             public static ID Logo
             {

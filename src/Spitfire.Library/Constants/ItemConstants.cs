@@ -17,5 +17,16 @@
                 return new ID("{F143A0D0-92E4-450E-8DBE-C7378B65E24A}");
             }
         }
+
+        /// <summary>
+        /// Gets the ID for the root of the Spitfire folder in renderings
+        /// </summary>
+        public static ID SpitfireRenderingsRoot
+        {
+            get
+            {
+                return new ID("{324F31CB-6D56-49F2-996E-A617691A9929}");
+            }
+        }
     }
 }
