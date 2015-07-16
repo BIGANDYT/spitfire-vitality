@@ -67,6 +67,8 @@ IF "%ERRORLEVEL%" NEQ "0" (
 	exit /B %ERRORLEVEL%
 )
 
+ren %InstanceDirectory%\%sitename%\Website\App_Config\Include\Serialization.config Serialization.config.bak
+
 :: Rebuild link databases
 tools\curl -f "http://%sitename%/handlers/build/RebuildLinkDatabases.ashx"
 IF "%ERRORLEVEL%" NEQ "0" (
@@ -74,12 +76,12 @@ IF "%ERRORLEVEL%" NEQ "0" (
 	exit /B %ERRORLEVEL%
 )
 
-:: Deploy marketing assets
-tools\curl -f "http://%sitename%/handlers/build/DeployMarketingAssets.ashx"
-IF "%ERRORLEVEL%" NEQ "0" (
-	echo Deploying marketing assets failed
-	exit /B %ERRORLEVEL%
-)
+:: Deploy marketing assets - Disabled for now until we fix bug 438833
+::tools\curl -f "http://%sitename%/handlers/build/DeployMarketingAssets.ashx"
+::IF "%ERRORLEVEL%" NEQ "0" (
+::	echo Deploying marketing assets failed
+::	exit /B %ERRORLEVEL%
+::)
 
 :: Remove the hack of disabling indexing during install
 del %InstanceDirectory%\%sitename%\Website\App_Config\Include\zSpitfire\DisableIndexing.config
@@ -112,7 +114,9 @@ IF "%ERRORLEVEL%" NEQ "0" (
 
 :: Remove Unicorn serialization in preparation for zipping on the build server
 IF DEFINED IsBuildServer (
-	del %InstanceDirectory%\%sitename%\Website\App_Config\Include\Serialization.config	
+	del %InstanceDirectory%\%sitename%\Website\App_Config\Include\Serialization.config.bak
+) else (
+	ren %InstanceDirectory%\%sitename%\Website\App_Config\Include\Serialization.config.bak Serialization.config
 )
 
 echo Installation finished
