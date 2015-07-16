@@ -9,13 +9,6 @@ master: {A538A6B5-0D6F-46F6-945C-6D426065208A}
 template: {4A8822CC-B418-4452-AB0F-8BB6DF2F2114}
 templatekey: Home
 
-----field----
-field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
-name: __Originator
-key: __originator
-content-length: 0
-
-
 ----version----
 language: en
 version: 1

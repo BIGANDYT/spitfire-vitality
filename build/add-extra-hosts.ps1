@@ -13,7 +13,7 @@ function UpdateBindings($sitename) {
     New-WebBinding -Name $env:SiteName -IP "*" -Port 80 -Protocol http -HostHeader $sitename
 }
 
-$hosts = @("microsoft.demo", "finance.demo")
+$hosts = @("microsoft.demo", "finance.demo", "university.demo")
 foreach($hostName in $hosts) {
     UpdateHosts $hostName
     UpdateBindings $hostName

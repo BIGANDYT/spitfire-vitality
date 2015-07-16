@@ -13,9 +13,9 @@ templatekey: View rendering
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
 name: Path
 key: path
-content-length: 44
+content-length: 43
 
-/Views/Core/Layouts/Inspinia/_LogoBar.cshtml
+/Views/Core/Layouts/Inspinia/LogoBar.cshtml
 ----field----
 field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
 name: Open Properties after Add
@@ -33,7 +33,7 @@ content-length: 4
 ----version----
 language: en
 version: 1
-revision: 68586747-78b8-4dbd-af89-38bf62027207
+revision: b6c78fc5-e182-4523-bd53-0bce05c4bcad
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-68586747-78b8-4dbd-af89-38bf62027207
+b6c78fc5-e182-4523-bd53-0bce05c4bcad
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150709T105256Z
+20150716T110949Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

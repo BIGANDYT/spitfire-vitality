@@ -195,7 +195,7 @@
                             {
                                 var renderingContents = File.ReadAllText(renderingLocation);
 
-                                var namespaceWithoutAssembly = modelType.Replace(",Spitfire.Library", string.Empty);
+                                var namespaceWithoutAssembly = modelType.Replace(" ", string.Empty).Replace(",Spitfire.Library", string.Empty);
                                 var expectedModelDeclaration = "@model " + namespaceWithoutAssembly;
 
                                 if (!renderingContents.Contains(expectedModelDeclaration))
