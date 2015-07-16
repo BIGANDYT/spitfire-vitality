@@ -70,6 +70,7 @@ IF "%ERRORLEVEL%" NEQ "0" (
 ren %InstanceDirectory%\%sitename%\Website\App_Config\Include\Serialization.config Serialization.config.bak
 
 :: Rebuild link databases
+echo Rebuilding link databases...
 tools\curl -f "http://%sitename%/handlers/build/RebuildLinkDatabases.ashx"
 IF "%ERRORLEVEL%" NEQ "0" (
 	echo Rebuilding link databases failed
@@ -77,6 +78,7 @@ IF "%ERRORLEVEL%" NEQ "0" (
 )
 
 :: Deploy marketing assets - Disabled for now until we fix bug 438833
+::echo Deploying marketing assets...
 ::tools\curl -f "http://%sitename%/handlers/build/DeployMarketingAssets.ashx"
 ::IF "%ERRORLEVEL%" NEQ "0" (
 ::	echo Deploying marketing assets failed
@@ -87,18 +89,21 @@ IF "%ERRORLEVEL%" NEQ "0" (
 del %InstanceDirectory%\%sitename%\Website\App_Config\Include\zSpitfire\DisableIndexing.config
 
 :: Rebuild search indexes
+echo Rebuilding system search index...
 tools\curl -f "http://%sitename%/handlers/build/RebuildSearchIndexes.ashx?index=system"
 IF "%ERRORLEVEL%" NEQ "0" (
 	echo Rebuild system index failed
 	exit /B %ERRORLEVEL%
 )
 
+echo Rebuilding sitecore_core_index search index...
 tools\curl -f "http://%sitename%/handlers/build/RebuildSearchIndexes.ashx?index=sitecore_core_index"
 IF "%ERRORLEVEL%" NEQ "0" (
 	echo Rebuild core search index failed
 	exit /B %ERRORLEVEL%
 )
 
+echo Rebuilding sitecore_master_index search index...
 tools\curl -f "http://%sitename%/handlers/build/RebuildSearchIndexes.ashx?index=sitecore_master_index"
 IF "%ERRORLEVEL%" NEQ "0" (
 	echo Rebuild master search index failed
