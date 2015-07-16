@@ -1,0 +1,29 @@
+﻿@model Spitfire.Library.Models.Text.TestimonialModel
+@{
+
+}
+<div>
+    <div class="testimonials-v1">
+        <div id="myCarousel" class="carousel slide">
+            <!-- Carousel items -->
+            <div class="carousel-inner">
+                @foreach (var testimonial in Model.Testimonials)
+                {
+                    <div class="item">
+                        <blockquote><p>Denim you probably haven't heard of. Lorem ipsum dolor met consectetur adipisicing sit amet, consectetur adipisicing elit, of them jean shorts sed magna aliqua. Lorem ipsum dolor met.</p></blockquote>
+                        <div class="carousel-info">
+                            <img class="pull-left" src="/metronic/frontend/pages/img/people/img1-small.jpg" alt="" />
+                            <div class="pull-left">
+                                <span class="testimonials-name">Lina Mars</span>
+                                <span class="testimonials-post">Commercial Director</span>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            <!-- Carousel nav -->
+            <a class="left-btn" href="#myCarousel" data-slide="prev"></a>
+            <a class="right-btn" href="#myCarousel" data-slide="next"></a>
+        </div>
+    </div>
+</div>

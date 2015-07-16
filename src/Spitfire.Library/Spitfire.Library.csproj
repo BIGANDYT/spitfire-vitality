@@ -94,6 +94,7 @@
     <Compile Include="Models\Portfolio\SectionPortfolioModel.cs" />
     <Compile Include="Models\Scaffolding\StyleModel.cs" />
     <Compile Include="Models\Snippets\TeaserGallery.cs" />
+    <Compile Include="Models\Text\Testimonial.cs" />
     <Compile Include="Models\Text\TestimonialsCarouselModel.cs" />
     <Compile Include="Models\Video\VideoModel.cs" />
     <Compile Include="MyContext.cs" />

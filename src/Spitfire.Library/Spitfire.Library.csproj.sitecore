@@ -5,4 +5,7 @@
   <File Include="Models\Portfolio\SectionPortfolioModel.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{6F011D0F-52AC-4874-ACCD-0D8A0169BBCB}</Item>
   </File>
+  <File Include="Models\Text\Testimonial.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{0560B124-DE51-46D3-96C2-9175FBDB676F}</Item>
+  </File>
 </Project>

@@ -216,6 +216,7 @@
     <Content Include="Content\plugins\owl-carousel\owl.theme.css" />
     <Content Include="Content\plugins\owl-carousel\owl.transitions.css" />
     <Content Include="Content\plugins\rrsocialshare\rrssb.css" />
+    <Content Include="Content\plugins\vitality\vitality-custom.css" />
     <Content Include="Content\plugins\vitality\vitality-red.css" />
     <Content Include="Content\themes\Blue\Blue.css" />
     <Content Include="Content\themes\Blue\header-bg.png" />
@@ -382,6 +383,7 @@
     <Content Include="Views\Core\Scaffolding\Presets\TwoColumnRow.cshtml" />
     <Content Include="Views\Core\Scaffolding\Presets\ThreeColumnRow.cshtml" />
     <Content Include="Views\Core\System\EndSession.cshtml" />
+    <Content Include="Views\Core\Components\Text\Testimonial.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

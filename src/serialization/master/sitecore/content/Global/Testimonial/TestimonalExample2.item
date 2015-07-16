@@ -6,53 +6,60 @@ path: /sitecore/content/Global/Testimonial/TestimonalExample2
 parent: {ACA0AD1E-31EA-4CDC-ABA8-E4C9A3286318}
 name: TestimonalExample2
 master: {00000000-0000-0000-0000-000000000000}
-template: {60920BFB-F0BB-4DED-BAAC-AEF1F68FE6E8}
-templatekey: Teaser
+template: {259E8671-B16D-4D9E-821A-6C6027BEB8DB}
+templatekey: Testimonial
 
+----field----
+field: {148746F5-2342-4547-ACAC-A9065F6B7ED5}
+name: Date
+key: date
+content-length: 16
+
+20150714T230000Z
 ----version----
 language: en
 version: 1
-revision: fad81494-b891-4070-8944-3296108b0d46
+revision: 942e3dbb-5b70-4470-be48-83abc235cdbb
 
 ----field----
-field: {8F835316-A8FF-411A-905B-CFC143D7950C}
+field: {AC3FD4DB-8266-476D-9635-67814D91E901}
+name: Summary
+key: summary
+content-length: 216
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris congue vulputate erat hendrerit tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris congue vulputate erat hendrerit tincidunt.<br>
+----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{7315EDC3-688B-4D5F-A10E-1753019BF887}" />
+----field----
+field: {4863953D-7013-4483-AB6C-1DB0B258874B}
 name: Title
 key: title
 content-length: 68
 
 "WORKING WITH VITALITY WAS BOTH A VALUABLE AND REWARDING EXPERIENCE"
 ----field----
-field: {A7A39E67-7AAF-4008-BA19-B65E21C2389E}
-name: Thumbnail
-key: thumbnail
-content-length: 219
-
-<image mediapath="/Images/Teasers/Thumbnails/1" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Images/Teasers/Thumbnails/1" mediaid="{7315EDC3-688B-4D5F-A10E-1753019BF887}" />
-----field----
-field: {18677565-989E-4FBB-BF7A-E39B4BD9029D}
-name: Details
-key: details
-content-length: 212
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris congue vulputate erat hendrerit tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris congue vulputate erat hendrerit tincidunt.
-----field----
-field: {E6FCC918-A5B9-445A-9976-BF65B3A2772F}
-name: SubTitle
-key: subtitle
+field: {417EE8D2-2BDC-41D0-84E6-AF232406A30D}
+name: Name
+key: name
 content-length: 10
 
-JIM WALKER
+Jim Walker
 ----field----
-field: {9E2C5966-B182-4B70-955E-4F5D227BD924}
-name: Type
-key: type
+field: {0ABB68D1-DA62-487A-9AC4-AE4A842BB14D}
+name: Job Title
+key: job title
 content-length: 18
 
 CEO of GenericCorp
 ----field----
-field: {49D0CCA3-AF8F-47CC-A6FD-86E95CD8D713}
-name: Star
-key: star
+field: {DED46CAA-6155-4631-AA8A-B29B3FA41B2C}
+name: Rating
+key: rating
 content-length: 1
 
 3
@@ -69,14 +76,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-fad81494-b891-4070-8944-3296108b0d46
+942e3dbb-5b70-4470-be48-83abc235cdbb
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150625T155426:635708444666793039Z
+20150715T150252Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
