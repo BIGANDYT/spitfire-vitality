@@ -22,13 +22,6 @@ content-length: 58
 
 <image mediaid="{4AB5EC8B-EB8D-4806-B5CA-78825BF92B78}" />
 ----field----
-field: {C30A013F-3CC8-4961-9837-1C483277084A}
-name: Title
-key: title
-content-length: 8
-
-Open Day
-----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
 key: __owner

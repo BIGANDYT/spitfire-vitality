@@ -13,16 +13,16 @@ templatekey: View rendering
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
 name: Path
 key: path
-content-length: 44
+content-length: 43
 
-/Views/Core/Layouts/Vitality/_NavList.cshtml
+/Views/Core/Layouts/Vitality/NavList.cshtml
 ----field----
 field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
 name: Model
 key: model
-content-length: 56
+content-length: 62
 
-/sitecore/layout/Models/Spitfire/Core/Navigation/NavList
+/sitecore/layout/Models/Spitfire/Core/Layouts/Vitality/NavList
 ----field----
 field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
 name: Open Properties after Add
@@ -40,7 +40,7 @@ content-length: 4
 ----version----
 language: en
 version: 1
-revision: 0ddcfd26-47c9-43fa-9981-ec9b8e551c6b
+revision: 65e12304-803f-4bc8-8cc3-81b45a0e64f0
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-0ddcfd26-47c9-43fa-9981-ec9b8e551c6b
+65e12304-803f-4bc8-8cc3-81b45a0e64f0
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150713T125002Z
+20150716T111953Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
