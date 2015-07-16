@@ -4,16 +4,16 @@ call vars.cmd
 cd /D %InstallerPath%\SIM
 
 echo Purging EventQueue from Core...
-sqlcmd -S .\ -U "sa" -P "%DbSaPassword%" -d "%SiteName%_Sitecore_core" -Q "DELETE FROM EventQueue"
+sqlcmd -S .\ -U "sa" -P "%DbSaPassword%" -d "%SiteName%Sitecore_core" -Q "DELETE FROM EventQueue"
 
 echo Purging History from Core...
-sqlcmd -S .\ -U "sa" -P "%DbSaPassword%" -d "%SiteName%_Sitecore_core" -Q "DELETE FROM History"
+sqlcmd -S .\ -U "sa" -P "%DbSaPassword%" -d "%SiteName%Sitecore_core" -Q "DELETE FROM History"
 
 echo Shrinking databases...
-sqlcmd -S .\ -U "sa" -P "%DbSaPassword%" -d "master" -Q "DBCC SHRINKDATABASE(%SiteName%_Sitecore_core)"
-sqlcmd -S .\ -U "sa" -P "%DbSaPassword%" -d "master" -Q "DBCC SHRINKDATABASE(%SiteName%_Sitecore_master)"
-sqlcmd -S .\ -U "sa" -P "%DbSaPassword%" -d "master" -Q "DBCC SHRINKDATABASE(%SiteName%_Sitecore_web)"
-sqlcmd -S .\ -U "sa" -P "%DbSaPassword%" -d "master" -Q "DBCC SHRINKDATABASE(%SiteName%_Sitecore_reporting)"
+sqlcmd -S .\ -U "sa" -P "%DbSaPassword%" -d "master" -Q "DBCC SHRINKDATABASE(%SiteName%Sitecore_core)"
+sqlcmd -S .\ -U "sa" -P "%DbSaPassword%" -d "master" -Q "DBCC SHRINKDATABASE(%SiteName%Sitecore_master)"
+sqlcmd -S .\ -U "sa" -P "%DbSaPassword%" -d "master" -Q "DBCC SHRINKDATABASE(%SiteName%Sitecore_web)"
+sqlcmd -S .\ -U "sa" -P "%DbSaPassword%" -d "master" -Q "DBCC SHRINKDATABASE(%SiteName%Sitecore_reporting)"
 
 echo Exporting instance using SIM...
 Spitfire.Sim.Console.exe export "InstanceName:%SiteName%" "ExportFilePath:%1"
