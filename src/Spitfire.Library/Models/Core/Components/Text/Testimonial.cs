@@ -1,4 +1,4 @@
-﻿namespace Spitfire.Library.Models.Text
+﻿namespace Spitfire.Library.Models.Core.Components.Text
 {
     using System.Collections.Generic;
     using System.Collections.Specialized;
