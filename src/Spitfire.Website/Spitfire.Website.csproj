@@ -199,6 +199,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\images\Google\chrome-48.png" />
+    <Content Include="assets\images\Google\close_sm.gif" />
+    <Content Include="assets\images\Google\google-favicon-logo-vector-400x400.png" />
+    <Content Include="assets\images\Google\logo3w.png" />
+    <Content Include="assets\images\Google\map.gif" />
+    <Content Include="assets\images\Google\mgyhp_sm.png" />
+    <Content Include="assets\images\Google\nav_logo170.png" />
+    <Content Include="assets\images\Google\nav_logo170_hr.png" />
+    <Content Include="assets\images\Google\nav_logo83.png" />
     <Content Include="Content\animate.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -382,6 +391,10 @@
     <Content Include="Views\Core\Scaffolding\Presets\TwoColumnRow.cshtml" />
     <Content Include="Views\Core\Scaffolding\Presets\ThreeColumnRow.cshtml" />
     <Content Include="Views\Core\System\EndSession.cshtml" />
+    <Content Include="Views\Core\Layouts\Search\Google.cshtml" />
+    <Content Include="Views\Core\Layouts\Search\Google search results.cshtml" />
+    <Content Include="Views\Core\Layouts\Search\Bing.cshtml" />
+    <Content Include="Views\Core\Layouts\Search\Bing search results.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

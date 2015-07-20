@@ -1,6 +1,8 @@
 ﻿namespace Spitfire.SitecoreExtensions.Extensions
 {
     using System;
+
+    using Sitecore.Data;
     using Sitecore.Data.Fields;
     using Sitecore.Data.Items;
     using Sitecore.Links;
@@ -17,14 +19,15 @@
         /// Url of Link items.
         /// </summary>
         /// <param name="item">
-        /// Sitecore item.
+        ///     Sitecore item.
         /// </param>
+        /// <param name="link">?? Never used</param>
         /// <returns>
         /// Link Item Url value.
         /// </returns>
         /// <exception cref="ArgumentNullException">Item does not exist excpetion.
         /// </exception>
-        public static string Url(this Item item)
+        public static string Url(this Item item, ID link)
         {
             if (item == null)
             {

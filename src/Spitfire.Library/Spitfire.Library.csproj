@@ -82,6 +82,7 @@
     <Compile Include="Models\Health\HealthIssue.cs" />
     <Compile Include="Models\Health\HealthTotals.cs" />
     <Compile Include="Models\Health\HealthRenderings.cs" />
+    <Compile Include="Models\Search\SearcheEngineResults.cs" />
     <Compile Include="Models\Snippets\IconTeaserModel.cs" />
     <Compile Include="Models\Snippets\ImageModel.cs" />
     <Compile Include="Models\Navigation\LinkBar.cs" />

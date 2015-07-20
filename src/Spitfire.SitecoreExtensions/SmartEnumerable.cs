@@ -35,7 +35,7 @@
         private readonly IEnumerable<T> enumerable;
 
         /// <summary>
-        /// Constructor.
+        /// Initializes a new instance of the <see cref="{T}"/> class
         /// </summary>
         /// <param name="enumerable">Collection to enumerate. Must not be null.</param>
         public SmartEnumerable(IEnumerable<T> enumerable)

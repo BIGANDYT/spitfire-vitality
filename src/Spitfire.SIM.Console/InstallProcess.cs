@@ -23,14 +23,14 @@
                 Instance instance = InstanceManager.GetInstance(args.InstanceName);
                 if (instance != null)
                 {
-                    System.Console.WriteLine("SIM: Warning! The instance with the same ({0}) name already exists",
+                    Console.WriteLine("SIM: Warning! The instance with the same ({0}) name already exists",
                         args.InstanceName);
                 }
 
                 // Next lets check the rootDirectoryPath folder for uniqueness
                 if (Directory.Exists(instanceRootDirectoryPath))
                 {
-                    System.Console.WriteLine("SIM: Warning! The folder {0} already exists", instanceRootDirectoryPath);
+                    Console.WriteLine("SIM: Warning! The folder {0} already exists", instanceRootDirectoryPath);
                 }
 
                 Product product;
@@ -58,10 +58,10 @@
                             modules.Add(module);
                         }
                     }
-
                 }
 
-                SIM.Pipelines.Install.InstallArgs installArgs = new SIM.Pipelines.Install.InstallArgs(args.InstanceName,
+                SIM.Pipelines.Install.InstallArgs installArgs = new SIM.Pipelines.Install.InstallArgs(
+                    args.InstanceName,
                     args.InstanceName,
                     product,
                     instanceRootDirectoryPath,
