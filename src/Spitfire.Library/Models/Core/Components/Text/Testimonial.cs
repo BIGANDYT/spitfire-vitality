@@ -4,9 +4,12 @@
     using System.Collections.Specialized;
 
     using Sitecore;
+    using Sitecore.Data.Fields;
     using Sitecore.Data.Items;
     using Sitecore.Mvc.Presentation;
     using Sitecore.Web;
+
+    using Spitfire.Library.Constants;
 
     /// <summary>
     /// The model for the testimonial component
@@ -33,6 +36,8 @@
         {
             base.Initialize(rendering);
 
+            Testimonials = new List<Item>();
+
             if (!string.IsNullOrEmpty(rendering["Parameters"]))
             {
                 NameValueCollection parameters = WebUtil.ParseUrlParameters(rendering["Parameters"]);
@@ -44,6 +49,15 @@
 
                 this.DisplayStars = MainUtil.GetBool(parameters["Show Star Rating"], false);
                 this.TextBalloonVariant = MainUtil.GetBool(parameters["TitleFontSize"], false);
+            }
+
+            if (Item != null)
+            {
+                MultilistField field = Item.Fields[FieldConstants.TeaserGroup.Source];
+                if (field != null)
+                {
+                    Testimonials = field.GetItems();
+                }
             }
         }
     }

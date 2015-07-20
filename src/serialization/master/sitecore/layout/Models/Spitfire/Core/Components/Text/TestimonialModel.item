@@ -2,7 +2,7 @@
 version: 1
 id: {0560B124-DE51-46D3-96C2-9175FBDB676F}
 database: master
-path: /sitecore/layout/Models/Spitfire/Core/Text/TestimonialModel
+path: /sitecore/layout/Models/Spitfire/Core/Components/Text/TestimonialModel
 parent: {23616BEA-0DC6-4C75-8C85-1CB8A2B5B616}
 name: TestimonialModel
 master: {00000000-0000-0000-0000-000000000000}
@@ -13,13 +13,13 @@ templatekey: Model
 field: {EE9E23D2-181D-4172-A929-0E0B8D10313C}
 name: Model Type
 key: model type
-content-length: 67
+content-length: 79
 
-Spitfire.Library.Models.Text.TestimonialModel, Spitfire.Library.dll
+Spitfire.Library.Models.Core.Components.Text.TestimonialModel, Spitfire.Library
 ----version----
 language: en
 version: 1
-revision: d1c17c0a-ab4c-4349-846a-39d14fce7f7e
+revision: 3a0c3c24-195c-4497-8179-0598b5a66054
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-d1c17c0a-ab4c-4349-846a-39d14fce7f7e
+3a0c3c24-195c-4497-8179-0598b5a66054
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150715T141326Z
+20150720T122101Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -16,10 +16,17 @@ key: path
 content-length: 46
 
 /Views/Core/Components/Text/Testimonial.cshtml
+----field----
+field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
+name: Model
+key: model
+content-length: 70
+
+/sitecore/layout/Models/Spitfire/Core/Components/Text/TestimonialModel
 ----version----
 language: en
 version: 1
-revision: 53258a50-02ff-4d47-ac24-3265ca952753
+revision: 9df3ddf5-8437-4108-9dc3-65be8dd7252a
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-53258a50-02ff-4d47-ac24-3265ca952753
+9df3ddf5-8437-4108-9dc3-65be8dd7252a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150715T141139Z
+20150720T111940Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

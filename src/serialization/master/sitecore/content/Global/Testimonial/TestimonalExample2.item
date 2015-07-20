@@ -19,7 +19,7 @@ content-length: 16
 ----version----
 language: en
 version: 1
-revision: 942e3dbb-5b70-4470-be48-83abc235cdbb
+revision: e5863949-3865-4081-a53a-e19d3246f273
 
 ----field----
 field: {AC3FD4DB-8266-476D-9635-67814D91E901}
@@ -32,9 +32,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris congue vulputate
 field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
 name: Image
 key: image
-content-length: 58
+content-length: 65
 
-<image mediaid="{7315EDC3-688B-4D5F-A10E-1753019BF887}" />
+<image mediaid="{7315EDC3-688B-4D5F-A10E-1753019BF887}" ></image>
 ----field----
 field: {4863953D-7013-4483-AB6C-1DB0B258874B}
 name: Title
@@ -76,14 +76,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-942e3dbb-5b70-4470-be48-83abc235cdbb
+e5863949-3865-4081-a53a-e19d3246f273
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150715T150252Z
+20150720T122747Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -91,3 +91,10 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
