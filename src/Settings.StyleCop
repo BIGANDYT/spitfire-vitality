@@ -44,16 +44,6 @@
             <BooleanProperty Name="Enabled">False</BooleanProperty>
           </RuleSettings>
         </Rule>
-        <Rule Name="PropertyDocumentationMustHaveValue">
-          <RuleSettings>
-            <BooleanProperty Name="Enabled">True</BooleanProperty>
-          </RuleSettings>
-        </Rule>
-        <Rule Name="PropertyDocumentationMustHaveValueText">
-          <RuleSettings>
-            <BooleanProperty Name="Enabled">True</BooleanProperty>
-          </RuleSettings>
-        </Rule>
         <Rule Name="DocumentationTextMustBeginWithACapitalLetter">
           <RuleSettings>
             <BooleanProperty Name="Enabled">True</BooleanProperty>
@@ -73,13 +63,6 @@
       <AnalyzerSettings />
     </Analyzer>
     <Analyzer AnalyzerId="StyleCop.CSharp.OrderingRules">
-      <Rules>
-        <Rule Name="UsingDirectivesMustBePlacedWithinNamespace">
-          <RuleSettings>
-            <BooleanProperty Name="Enabled">True</BooleanProperty>
-          </RuleSettings>
-        </Rule>
-      </Rules>
       <AnalyzerSettings>
         <BooleanProperty Name="GeneratedCodeElementOrder">False</BooleanProperty>
       </AnalyzerSettings>
