@@ -6,6 +6,9 @@
   <File Include="/Views/Components/SocialShare.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{43679FF6-9A83-410B-B417-B6D89E690097}</Item>
   </File>
+  <File Include="Views\Core\Components\Text\Testimonial.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{DC3BECB9-4202-4997-B8C2-CB4918F095C5}</Item>
+  </File>
   <File Include="Views\Core\Layouts\Search\Google.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{170A47CB-AF2A-4361-B2AE-0BD7BB97DAD4}</Item>
   </File>
@@ -27,5 +30,7 @@
   <File Include="Views\Core\Layouts\Search\Bing search results.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0" />
   <File Include="/Views/Core/Layouts/Search/Bing search results.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{DC35570D-51F4-4227-8689-C8E6FD496128}</Item>
+  <File Include="Views\Core\Components\Text\Testimonial.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{DC3BECB9-4202-4997-B8C2-CB4918F095C5}</Item>
   </File>
 </Project>

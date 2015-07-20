@@ -20,9 +20,9 @@ content-length: 34
 field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
 name: Model
 key: model
-content-length: 58
+content-length: 53
 
-/sitecore/layout/Models/Spitfire/Core/Scaffolding/ColModel
+/sitecore/layout/Models/Spitfire/Core/Scaffolding/Col
 ----field----
 field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
 name: Parameters Template
@@ -40,7 +40,7 @@ content-length: 1
 ----version----
 language: en
 version: 1
-revision: 4963c77d-ea2a-45cf-b0f7-28066b5cab3e
+revision: 0b04c383-9115-41d6-bff1-e240a4c2e168
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-4963c77d-ea2a-45cf-b0f7-28066b5cab3e
+0b04c383-9115-41d6-bff1-e240a4c2e168
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150713T113706Z
+20150716T104449Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

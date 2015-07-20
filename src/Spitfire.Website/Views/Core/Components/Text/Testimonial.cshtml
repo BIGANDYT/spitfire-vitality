@@ -1,0 +1,36 @@
+﻿@model Spitfire.Library.Models.Core.Components.Text.TestimonialModel
+@{
+    var firstClass = "active";
+}
+
+
+<div class="testimonials-v1">
+    <div id="myCarousel" class="carousel slide">
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+            @{
+                if (Model.Testimonials.Count > 0)
+                {
+                    foreach (var testimonial in Model.Testimonials)
+                    {
+                        <div class="@firstClass item">
+                            <blockquote><p>@Html.Sitecore().Field("Summary", testimonial)</p></blockquote>
+                            <div class="carousel-info">
+                                @Html.Sitecore().Field("Image", testimonial, new { @class = "pull-left img-circle img-responsive" })
+                                <div class="pull-left">
+                                    <span class="testimonials-name">@Html.Sitecore().Field("Name", testimonial)</span>
+                                    <span class="testimonials-post">@Html.Sitecore().Field("Job Title", testimonial)</span>
+                                </div>
+                            </div>
+                        </div>
+                
+                        firstClass = string.Empty;
+                    }
+                }
+            }
+        </div>
+        <!-- Carousel nav -->
+        <a class="left-btn" href="#myCarousel" data-slide="prev"></a>
+        <a class="right-btn" href="#myCarousel" data-slide="next"></a>
+    </div>
+</div>

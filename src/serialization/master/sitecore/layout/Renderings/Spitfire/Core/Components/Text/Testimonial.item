@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {DC3BECB9-4202-4997-B8C2-CB4918F095C5}
+database: master
+path: /sitecore/layout/Renderings/Spitfire/Core/Components/Text/Testimonial
+parent: {A7FA5398-59CE-4D18-BD87-917F9C3C3382}
+name: Testimonial
+master: {00000000-0000-0000-0000-000000000000}
+template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
+templatekey: View rendering
+
+----field----
+field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
+name: Path
+key: path
+content-length: 46
+
+/Views/Core/Components/Text/Testimonial.cshtml
+----field----
+field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
+name: Model
+key: model
+content-length: 70
+
+/sitecore/layout/Models/Spitfire/Core/Components/Text/TestimonialModel
+----version----
+language: en
+version: 1
+revision: 9df3ddf5-8437-4108-9dc3-65be8dd7252a
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150715T141139Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9df3ddf5-8437-4108-9dc3-65be8dd7252a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150720T111940Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

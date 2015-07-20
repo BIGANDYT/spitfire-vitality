@@ -11,6 +11,11 @@
     using Spitfire.Library.Constants;
     using Spitfire.Library.Models.Health;
 
+    /// <summary>
+    /// Health Service responsible for preparing and returning a "HealthResult" analysis
+    /// of the relationship between renderings, templates and models, their location in the content tree
+    /// and also on the file system.
+    /// </summary>
     public class HealthService
     {
         /// <summary>
@@ -23,10 +28,20 @@
         /// </summary>
         private const string ModelRootPath = "/sitecore/layout/models/spitfire/";
 
+        /// <summary>
+        /// The HealthResult to be returned
+        /// </summary>
         private HealthResult result;
 
+        /// <summary>
+        /// The Sitecore Database
+        /// </summary>
         private Database db;
 
+        /// <summary>
+        /// Gets the HealthResult analysis of this Sitecore instance
+        /// </summary>
+        /// <returns>The HealthResult analysis</returns>
         public HealthResult GetHealthResult()
         {
             result = new HealthResult();
@@ -36,9 +51,14 @@
             return result;
         }
 
+        /// <summary>
+        /// Analyze all Renderings and their relationships with models.
+        /// </summary>
         private void DoRenderings()
         {
             var renderingsRootItem = db.GetItem(ItemConstants.SpitfireRenderingsRoot);
+
+            // Check if the renderings root item exists
             if (renderingsRootItem == null)
             {
                 this.AddRenderingIssue(new HealthIssue(HealthIssueSeverity.Error, "RenderingRootItem not found"));
@@ -46,11 +66,14 @@
             }
 
             var viewsFolder = HttpContext.Current.Server.MapPath("~/Views/");
+
+            // Prepares a list of all the view renderings on the filesystem.
             var viewRenderingFiles =
                 Directory.GetFiles(viewsFolder, "*.cshtml", SearchOption.AllDirectories)
                     .Select(x => ("/views/" + x.Replace(viewsFolder, string.Empty).Replace("\\", "/")).ToLower())
                     .ToList();
 
+            // Initialize a list of "found" view renderings so that we can deduce later which are not used.
             var foundViewRenderings = new List<string>();
 
             foreach (var renderingItem in renderingsRootItem.Axes.GetDescendants())
@@ -81,6 +104,7 @@
                             continue;
                         }
 
+                        // We found a view rendering so make sure it doesn't show up in the list of "unused" renderings later.
                         foundViewRenderings.Add(path);
 
                         // Check the location on filesystem mirrors the location in content tree
@@ -100,19 +124,8 @@
                                     renderingItem));
                         }
 
-                        // Check Datasource Template/Location set.
-                        if (renderingItem["Datasource Location"] == string.Empty
-                            || renderingItem["Datasource Template"] == string.Empty)
-                        {
-                            AddRenderingIssue(
-                                new HealthIssueRendering(
-                                    HealthIssueSeverity.Info,
-                                    "Datasource Location or Datasource Template not set",
-                                    renderingItem));
-                        }
-
                         // Check caching enabled
-                        if (!IsRenderingCacheable(renderingItem))
+                        if (renderingItem["Cacheable"] != "1")
                         {
                             AddRenderingIssue(
                                 new HealthIssueRendering(
@@ -125,6 +138,8 @@
                         if (!string.IsNullOrEmpty(modelPath))
                         {
                             var modelItem = db.GetItem(modelPath);
+
+                            // Check if the model item actually exists.
                             if (modelItem == null)
                             {
                                 AddRenderingIssue(
@@ -136,7 +151,7 @@
                                 continue;
                             }
 
-                            var expectedModelPath = 
+                            var expectedModelPath =
                                 renderingItem.Paths.Path.ToLower()
                                     .Replace(ViewRootPath, ModelRootPath);
 
@@ -156,15 +171,15 @@
                             }
 
                             // Check the model type actually exists in the code
-                            var modelType = modelItem["Model Type"];
+                            var modelTypeString = modelItem["Model Type"];
 
-                            var modelType2 = Type.GetType(modelType, false);
-                            if (modelType2 == null)
+                            var modelType = Type.GetType(modelTypeString, false);
+                            if (modelType == null)
                             {
                                 AddRenderingIssue(
                                     new HealthIssueRendering(
                                         HealthIssueSeverity.Error,
-                                        "Type not found on model: " + modelType,
+                                        "Type not found on model: " + modelTypeString,
                                         renderingItem));
                             }
 
@@ -175,7 +190,7 @@
                                     .Replace("/", ".");
 
                             var expectedModelType = string.Format("Spitfire.Library.Models.{0},Spitfire.Library", expectedNamespace);
-                            if (!string.Equals(modelType, expectedModelType, StringComparison.InvariantCultureIgnoreCase))
+                            if (!string.Equals(modelTypeString, expectedModelType, StringComparison.InvariantCultureIgnoreCase))
                             {
                                 var message = string.Format(
                                     "Expected Model Type: {0} - Actual: {1}",
@@ -195,7 +210,7 @@
                             {
                                 var renderingContents = File.ReadAllText(renderingLocation);
 
-                                var namespaceWithoutAssembly = modelType.Replace(",Spitfire.Library", string.Empty);
+                                var namespaceWithoutAssembly = modelTypeString.Replace(" ", string.Empty).Replace(",Spitfire.Library", string.Empty);
                                 var expectedModelDeclaration = "@model " + namespaceWithoutAssembly;
 
                                 if (!renderingContents.Contains(expectedModelDeclaration))
@@ -206,6 +221,17 @@
                                             "Model declaration missing: " + expectedModelDeclaration,
                                             renderingItem));
                                 }
+
+                                // Check Datasource Template/Location set
+                                if (renderingItem["Datasource Location"] == string.Empty
+                                    || renderingItem["Datasource Template"] == string.Empty)
+                                {
+                                    AddRenderingIssue(
+                                    new HealthIssueRendering(
+                                        HealthIssueSeverity.Warning,
+                                        "Datasource Location or Datasource Template not set",
+                                        renderingItem));
+                                }
                             }
                         }
 
@@ -213,10 +239,12 @@
                 }
             }
 
+            // Now that we have our list of renderings on the filesystem and the ones which have been defined in Sitecore,
+            // deduce which files are not being used.
             var leftoverViewRenderings = viewRenderingFiles.Except(foundViewRenderings);
             foreach (var leftoverViewRendering in leftoverViewRenderings)
             {
-                if (leftoverViewRendering.Contains("/shared/") 
+                if (leftoverViewRendering.Contains("/shared/")
                     || leftoverViewRendering.Contains("/layouts/")
                     || leftoverViewRendering.Contains("/form/"))
                 {
@@ -227,21 +255,11 @@
             }
         }
 
-        private bool IsRenderingCacheable(Item renderingItem)
-        {
-            if (renderingItem["Cacheable"] != "1")
-            {
-                return false;
-            }
-
-            return renderingItem["VaryByLogin"] == "1"
-                || renderingItem["VaryByData"] == "1"
-                || renderingItem["VaryByQueryString"] == "1"
-                || renderingItem["VaryByDevice"] == "1"
-                || renderingItem["VaryByParm"] == "1"
-                || renderingItem["VaryByUser"] == "1";
-        }
-
+        /// <summary>
+        /// Adds the rendering issue to the list of issues and updates the totals
+        /// depending on the issue's severity.
+        /// </summary>
+        /// <param name="issue">The issue to add to the list</param>
         private void AddRenderingIssue(HealthIssue issue)
         {
             if (issue.Severity == HealthIssueSeverity.Error)

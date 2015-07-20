@@ -225,6 +225,7 @@
     <Content Include="Content\plugins\owl-carousel\owl.theme.css" />
     <Content Include="Content\plugins\owl-carousel\owl.transitions.css" />
     <Content Include="Content\plugins\rrsocialshare\rrssb.css" />
+    <Content Include="Content\plugins\vitality\vitality-custom.css" />
     <Content Include="Content\plugins\vitality\vitality-red.css" />
     <Content Include="Content\themes\Blue\Blue.css" />
     <Content Include="Content\themes\Blue\header-bg.png" />
@@ -321,16 +322,16 @@
     </Content>
     <Content Include="Views\Web.config" />
     <Content Include="Views\Core\Layouts\Inspinia\Inspinia.cshtml" />
-    <Content Include="Views\Core\Layouts\Inspinia\_Navigation.cshtml" />
-    <Content Include="Views\Core\Layouts\Inspinia\_TopNavbar.cshtml" />
-    <Content Include="Views\Core\Layouts\Inspinia\_LogoBar.cshtml" />
+    <Content Include="Views\Core\Layouts\Inspinia\Navigation.cshtml" />
+    <Content Include="Views\Core\Layouts\Inspinia\TopNavbar.cshtml" />
+    <Content Include="Views\Core\Layouts\Inspinia\LogoBar.cshtml" />
     <Content Include="Views\Core\Scaffolding\row.cshtml" />
     <Content Include="Views\Core\Scaffolding\col.cshtml" />
     <Content Include="Views\Core\Layouts\Inspinia\Index.cshtml" />
     <Content Include="Views\Core\Layouts\Inspinia\OffCanvas.cshtml" />
     <Content Include="Views\Core\Layouts\Vitality\Vitality.cshtml" />
-    <Content Include="Views\Core\Layouts\Vitality\_NavList.cshtml" />
-    <Content Include="Views\Core\Layouts\Vitality\_SocialShare.cshtml" />
+    <Content Include="Views\Core\Layouts\Vitality\NavList.cshtml" />
+    <Content Include="Views\Core\Layouts\Vitality\SocialShare.cshtml" />
     <Content Include="Views\Core\Components\Snippets\OwlCarousel.cshtml" />
     <Content Include="Views\Core\Components\Headers\SectionHeader.cshtml" />
     <Content Include="Views\Core\Layouts\Vitality\NavBar.cshtml" />
@@ -350,7 +351,6 @@
     <Content Include="Views\Core\Components\Snippets\ImageText.cshtml" />
     <Content Include="Views\Core\Components\Video\Video.cshtml" />
     <Content Include="Views\Core\Components\Social\SocialIcons.cshtml" />
-    <Content Include="Views\Core\Components\Images\Banner.cshtml" />
     <Content Include="Views\Core\Components\Text\BlockQuote.cshtml" />
     <Content Include="Views\Core\Layouts\Metronic\Breadcrumb.cshtml" />
     <Content Include="Views\Core\Components\Portfolio\ClientGallery.cshtml" />
@@ -395,6 +395,7 @@
     <Content Include="Views\Core\Layouts\Search\Google search results.cshtml" />
     <Content Include="Views\Core\Layouts\Search\Bing.cshtml" />
     <Content Include="Views\Core\Layouts\Search\Bing search results.cshtml" />
+    <Content Include="Views\Core\Components\Text\Testimonial.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

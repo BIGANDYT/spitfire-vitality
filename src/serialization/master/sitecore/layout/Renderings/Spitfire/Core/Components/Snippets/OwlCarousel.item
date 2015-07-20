@@ -20,16 +20,9 @@ content-length: 50
 field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
 name: Model
 key: model
-content-length: 61
+content-length: 69
 
-/sitecore/layout/Models/Spitfire/Core/Snippets/OwlTeaserModel
-----field----
-field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
-name: Open Properties after Add
-key: open properties after add
-content-length: 0
-
-
+/sitecore/layout/Models/Spitfire/Core/Components/Snippets/OwlCarousel
 ----field----
 field: {A2F5D9DF-8CBA-4A1D-99EB-51ACB94CB057}
 name: Page Editor Buttons
@@ -47,7 +40,7 @@ content-length: 4
 ----version----
 language: en
 version: 1
-revision: 49738aeb-7b5c-4241-ad39-0f05a69be4cd
+revision: 445e119b-4b79-4c6a-8c31-40b1ab401bff
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -62,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-49738aeb-7b5c-4241-ad39-0f05a69be4cd
+445e119b-4b79-4c6a-8c31-40b1ab401bff
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150714T093419Z
+20150716T132445Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

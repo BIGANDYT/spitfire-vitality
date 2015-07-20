@@ -1,0 +1,28 @@
+﻿@using Sitecore.Data.Items
+@using Sitecore.Links
+@model Spitfire.Library.Models.Core.Layouts.Vitality.NavList
+
+@if (Model.Data != null)
+{
+    foreach (Item listitem in Model.Data)
+    {
+        <li class="navlist">
+            <div>
+                <div>
+                    <a href="@LinkManager.GetItemUrl(listitem)">
+                        @Html.Sitecore().Field("Icon", listitem, new { @class = "img-responsive" })
+                    </a>
+                </div>
+                <div>
+                    <a href="@LinkManager.GetItemUrl(listitem)"><span class="nav-label">@listitem.Fields["Title"].Value</span> </a>
+                </div>
+            </div>
+        </li>
+    }
+}
+else
+{
+    <div class="row">
+        <div class="col-lg-12">Please select a datasource</div>
+    </div>
+}

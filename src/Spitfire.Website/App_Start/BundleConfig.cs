@@ -385,7 +385,7 @@
             bundles.Add(new ScriptBundle("~/plugins/contact_me").Include("~/Scripts/plugins/contact_me/contact_me.js"));
 
             // vitality
-            bundles.Add(new StyleBundle("~/vitality/css").Include("~/Content/plugins/vitality/vitality-red.css"));
+            bundles.Add(new StyleBundle("~/vitality/css").Include("~/Content/plugins/vitality/vitality-red.css", "~/Content/plugins/vitality/vitality-custom.css"));
 
             bundles.Add(new StyleBundle("~/finance/css").Include("~/Content/finance.css"));
 
