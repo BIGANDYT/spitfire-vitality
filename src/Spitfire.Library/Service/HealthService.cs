@@ -124,19 +124,8 @@
                                     renderingItem));
                         }
 
-                        // Check Datasource Template/Location set.
-                        if (renderingItem["Datasource Location"] == string.Empty
-                            || renderingItem["Datasource Template"] == string.Empty)
-                        {
-                            AddRenderingIssue(
-                                new HealthIssueRendering(
-                                    HealthIssueSeverity.Info,
-                                    "Datasource Location or Datasource Template not set",
-                                    renderingItem));
-                        }
-
                         // Check caching enabled
-                        if (!IsRenderingCacheable(renderingItem))
+                        if (renderingItem["Cacheable"] != "1")
                         {
                             AddRenderingIssue(
                                 new HealthIssueRendering(
@@ -149,7 +138,7 @@
                         if (!string.IsNullOrEmpty(modelPath))
                         {
                             var modelItem = db.GetItem(modelPath);
-                            
+
                             // Check if the model item actually exists.
                             if (modelItem == null)
                             {
@@ -162,7 +151,7 @@
                                 continue;
                             }
 
-                            var expectedModelPath = 
+                            var expectedModelPath =
                                 renderingItem.Paths.Path.ToLower()
                                     .Replace(ViewRootPath, ModelRootPath);
 
@@ -232,6 +221,17 @@
                                             "Model declaration missing: " + expectedModelDeclaration,
                                             renderingItem));
                                 }
+
+                                // Check Datasource Template/Location set
+                                if (renderingItem["Datasource Location"] == string.Empty
+                                    || renderingItem["Datasource Template"] == string.Empty)
+                                {
+                                    AddRenderingIssue(
+                                    new HealthIssueRendering(
+                                        HealthIssueSeverity.Warning,
+                                        "Datasource Location or Datasource Template not set",
+                                        renderingItem));
+                                }
                             }
                         }
 
@@ -244,7 +244,7 @@
             var leftoverViewRenderings = viewRenderingFiles.Except(foundViewRenderings);
             foreach (var leftoverViewRendering in leftoverViewRenderings)
             {
-                if (leftoverViewRendering.Contains("/shared/") 
+                if (leftoverViewRendering.Contains("/shared/")
                     || leftoverViewRendering.Contains("/layouts/")
                     || leftoverViewRendering.Contains("/form/"))
                 {
@@ -253,26 +253,6 @@
 
                 AddRenderingIssue(new HealthIssue(HealthIssueSeverity.Warning, "Unused view: " + leftoverViewRendering));
             }
-        }
-
-        /// <summary>
-        /// Analyzes whether the renderItem has some caching set.
-        /// </summary>
-        /// <param name="renderingItem">The rendering item</param>
-        /// <returns>Is the rendering cacheable?</returns>
-        private bool IsRenderingCacheable(Item renderingItem)
-        {
-            if (renderingItem["Cacheable"] != "1")
-            {
-                return false;
-            }
-
-            return renderingItem["VaryByLogin"] == "1"
-                || renderingItem["VaryByData"] == "1"
-                || renderingItem["VaryByQueryString"] == "1"
-                || renderingItem["VaryByDevice"] == "1"
-                || renderingItem["VaryByParm"] == "1"
-                || renderingItem["VaryByUser"] == "1";
         }
 
         /// <summary>
