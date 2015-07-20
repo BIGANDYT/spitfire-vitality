@@ -49,8 +49,6 @@ Getting started
 Automated installation
 ----------------------
 
--   install.cmd is also run on the build server.
-
 -   Pulls down Sitecore and necessary packages from the build server to
     c:\\SpitfireInstaller on your local machine.
 
