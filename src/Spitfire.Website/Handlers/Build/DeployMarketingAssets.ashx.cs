@@ -15,11 +15,22 @@
     using Sitecore.SecurityModel;
     using Sitecore.Workflows;
     using Sitecore.Workflows.Simple;
+    using Spitfire.Library.Constants;
 
+    /// <summary>
+    /// Deploy the marketing assets from a CI environment
+    /// </summary>
     public class DeployMarketingAssets : IHttpHandler
     {
-        private readonly Database masterDb = Factory.GetDatabase("master");
+        /// <summary>
+        /// The master database
+        /// </summary>
+        private readonly Database _masterDb = Factory.GetDatabase("master");
     
+        /// <summary>
+        /// Log in as admin user and deploy all marketing assets
+        /// </summary>
+        /// <param name="context">The </param>
         public void ProcessRequest(HttpContext context)
         {
             var user = User.FromName(@"sitecore\admin", false);
@@ -32,50 +43,67 @@
             }
         }
 
+        /// <summary>
+        /// Select all items based on the Goal and Page Event templates and run them through workflow
+        /// </summary>
         private void DeployGoals()
         {
-            Item[] goals = masterDb.SelectItems("fast:/sitecore/system/Marketing Control Panel/Goals//*[@@templateid='{475E9026-333F-432D-A4DC-52E03B75CB6B}' or @@templateid='{059CFBDF-49FC-4F14-A4E5-B63E1E1AFB1E}']");
+            Item[] goals = _masterDb.SelectItems("fast:/sitecore/system/Marketing Control Panel/Goals//*[@@templateid='" + TemplateIds.Goal + "' or @@templateid='" + TemplateIds.PageEvent + "']");
             foreach (Item goal in goals)
             {
                 Log.Info("Deploying Goal: " + goal.Name, this);
-                this.MoveToStateAndExecuteActions(goal, new ID("{39156DC0-21C6-4F64-B641-31E85C8F5DFE}"));
-                this.MoveToStateAndExecuteActions(goal, new ID("{EDCBB550-BED3-490F-82B8-7B2F14CCD26E}"));
+                this.MoveToStateAndExecuteActions(goal, new ID(ItemConstants.WorkflowAnalyticsDraft));
+                this.MoveToStateAndExecuteActions(goal, new ID(ItemConstants.WorkflowAnalyticsDeployed));
             }
         }
 
+        /// <summary>
+        /// Select all items based on the Campaign Category and Campaign templates and run them through workflow
+        /// </summary>
         private void DeployCampaigns()
         {
-            Item[] campaigns = masterDb.SelectItems("fast:/sitecore/system/Marketing Control Panel/Campaigns//*[@@templateid='{56682FE6-9679-4B69-9589-60C99AA08BEC}' or @@templateid='{94FD1606-139E-46EE-86FF-BC5BF3C79804}']");
+            Item[] campaigns = _masterDb.SelectItems("fast:/sitecore/system/Marketing Control Panel/Campaigns//*[@@templateid='" + TemplateIds.CampaignCategory + "' or @@templateid='" + TemplateIds.Campaign + "']");
             foreach (Item campaign in campaigns)
             {
                 Log.Info("Deploying Campaign: " + campaign.Name, this);
-                this.MoveToStateAndExecuteActions(campaign, new ID("{39156DC0-21C6-4F64-B641-31E85C8F5DFE}"));
-                this.MoveToStateAndExecuteActions(campaign, new ID("{EDCBB550-BED3-490F-82B8-7B2F14CCD26E}"));
+                this.MoveToStateAndExecuteActions(campaign, new ID(ItemConstants.WorkflowAnalyticsDraft));
+                this.MoveToStateAndExecuteActions(campaign, new ID(ItemConstants.WorkflowAnalyticsDeployed));
             }
         }
 
+        /// <summary>
+        /// Select all items based on the Visit Map templates and run them through workflow
+        /// </summary>
         private void DeployPathExperienceMaps()
         {
-            Item[] campaigns = masterDb.SelectItems("fast:/sitecore/system/Marketing Control Panel/Path Analyzer/Maps/Path Experience Maps//*[@@templateid='{1A0C1FE0-7956-4020-981B-4CEA3C4F114A}']");
+            Item[] campaigns = _masterDb.SelectItems("fast:/sitecore/system/Marketing Control Panel/Path Analyzer/Maps/Path Experience Maps//*[@@templateid='" + TemplateIds.VisitMap + "']");
             foreach (Item map in campaigns)
             {
                 Log.Info("Deploying Path Experience Map: " + map.Name, this);
-                this.MoveToStateAndExecuteActions(map, new ID("{C0DA66F8-4371-412B-B716-648DA4657459}"));
-                this.MoveToStateAndExecuteActions(map, new ID("{D86A72B4-7C3D-447E-9622-66B0DC1243F8}"));
+                this.MoveToStateAndExecuteActions(map, new ID(ItemConstants.WorkflowPathAnalyzerInitializing));
+                this.MoveToStateAndExecuteActions(map, new ID(ItemConstants.WorkflowPathAnalyzerDeployed));
             }
         }
 
+        /// <summary>
+        /// Select all items based on the Segment template and run them through workflow
+        /// </summary>
         private void DeploySegments()
         {
-            Item[] campaigns = masterDb.SelectItems("fast:/sitecore/system/Marketing Control Panel/Experience Analytics/Dimensions//*[@@templateid='{A87EE256-044E-450D-A73C-9A464AA773EF}']");
+            Item[] campaigns = _masterDb.SelectItems("fast:/sitecore/system/Marketing Control Panel/Experience Analytics/Dimensions//*[@@templateid='" + TemplateIds.Segment + "']");
             foreach (Item segment in campaigns)
             {
                 Log.Info("Deploying Segment: " + segment.Name, this);
-                this.MoveToStateAndExecuteActions(segment, new ID("{E39E0ADC-9487-4BA4-950D-1993D5614B8E}"));
-                this.MoveToStateAndExecuteActions(segment, new ID("{3C70E8B1-D6D2-42CC-8E21-1AE8EC72A0FB}"));
+                this.MoveToStateAndExecuteActions(segment, new ID(ItemConstants.WorkflowSegmentInitializing));
+                this.MoveToStateAndExecuteActions(segment, new ID(ItemConstants.WorkflowSegmentDeployed));
             }
         }
 
+        /// <summary>
+        /// Move an item to a particular workflow state
+        /// </summary>
+        /// <param name="item">The item to go through workflow</param>
+        /// <param name="workflowStateId">The ID of the workflow state</param>
         public void MoveToStateAndExecuteActions(Item item, ID workflowStateId)
         {
             IWorkflowProvider workflowProvider = item.Database.WorkflowProvider;
@@ -107,6 +135,9 @@
             }
         }
 
+        /// <summary>
+        /// Required sillyness because of generic handler
+        /// </summary>
         public bool IsReusable
         {
             get
