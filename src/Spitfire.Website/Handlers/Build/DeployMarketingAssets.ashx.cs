@@ -26,11 +26,11 @@
         /// The master database
         /// </summary>
         private readonly Database _masterDb = Factory.GetDatabase("master");
-    
+
         /// <summary>
         /// Log in as admin user and deploy all marketing assets
         /// </summary>
-        /// <param name="context">The </param>
+        /// <param name="context">The Http Context</param>
         public void ProcessRequest(HttpContext context)
         {
             var user = User.FromName(@"sitecore\admin", false);
@@ -52,8 +52,8 @@
             foreach (Item goal in goals)
             {
                 Log.Info("Deploying Goal: " + goal.Name, this);
-                this.MoveToStateAndExecuteActions(goal, new ID(ItemConstants.WorkflowAnalyticsDraft));
-                this.MoveToStateAndExecuteActions(goal, new ID(ItemConstants.WorkflowAnalyticsDeployed));
+                this.MoveToStateAndExecuteActions(goal, ItemConstants.WorkflowAnalyticsDraft);
+                this.MoveToStateAndExecuteActions(goal, ItemConstants.WorkflowAnalyticsDeployed);
             }
         }
 
@@ -66,8 +66,8 @@
             foreach (Item campaign in campaigns)
             {
                 Log.Info("Deploying Campaign: " + campaign.Name, this);
-                this.MoveToStateAndExecuteActions(campaign, new ID(ItemConstants.WorkflowAnalyticsDraft));
-                this.MoveToStateAndExecuteActions(campaign, new ID(ItemConstants.WorkflowAnalyticsDeployed));
+                this.MoveToStateAndExecuteActions(campaign, ItemConstants.WorkflowAnalyticsDraft);
+                this.MoveToStateAndExecuteActions(campaign, ItemConstants.WorkflowAnalyticsDeployed);
             }
         }
 
@@ -80,8 +80,8 @@
             foreach (Item map in campaigns)
             {
                 Log.Info("Deploying Path Experience Map: " + map.Name, this);
-                this.MoveToStateAndExecuteActions(map, new ID(ItemConstants.WorkflowPathAnalyzerInitializing));
-                this.MoveToStateAndExecuteActions(map, new ID(ItemConstants.WorkflowPathAnalyzerDeployed));
+                this.MoveToStateAndExecuteActions(map, ItemConstants.WorkflowPathAnalyzerInitializing);
+                this.MoveToStateAndExecuteActions(map, ItemConstants.WorkflowPathAnalyzerDeployed);
             }
         }
 
@@ -94,8 +94,8 @@
             foreach (Item segment in campaigns)
             {
                 Log.Info("Deploying Segment: " + segment.Name, this);
-                this.MoveToStateAndExecuteActions(segment, new ID(ItemConstants.WorkflowSegmentInitializing));
-                this.MoveToStateAndExecuteActions(segment, new ID(ItemConstants.WorkflowSegmentDeployed));
+                this.MoveToStateAndExecuteActions(segment, ItemConstants.WorkflowSegmentInitializing);
+                this.MoveToStateAndExecuteActions(segment, ItemConstants.WorkflowSegmentDeployed);
             }
         }
 
@@ -124,13 +124,15 @@
                 if (!stateItem.HasChildren)
                     return;
 
-                WorkflowPipelineArgs workflowPipelineArgs = new WorkflowPipelineArgs(item, string.Empty, null);
+                // TODO: Obsolete constructor
+                var workflowPipelineArgs = new WorkflowPipelineArgs(item, string.Empty, null);
 
                 // start executing the actions
                 Pipeline pipeline = Pipeline.Start(stateItem, workflowPipelineArgs);
                 if (pipeline == null)
                     return;
 
+                // TODO: Obsolete class
                 WorkflowCounters.ActionsExecuted.IncrementBy(pipeline.Processors.Count);
             }
         }
