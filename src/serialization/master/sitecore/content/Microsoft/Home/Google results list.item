@@ -6,8 +6,8 @@ path: /sitecore/content/Microsoft/Home/Google results list
 parent: {C18F6604-15E8-4445-89B8-DEE8EF597440}
 name: Google results list
 master: {00000000-0000-0000-0000-000000000000}
-template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
-templatekey: Folder
+template: {5486240C-02A1-41D8-B4E3-D871E1F2040A}
+templatekey: Search results list
 
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
@@ -35,8 +35,15 @@ content-length: 105
 ----version----
 language: en
 version: 1
-revision: b0f16f3f-4f8c-4bf0-a42d-fb0fc602bda7
+revision: 73083cdf-ce69-4dde-a28f-e7905b6c8c61
 
+----field----
+field: {C970470D-B7CA-4BD5-893F-675BBAA1F730}
+name: Campaign
+key: campaign
+content-length: 40
+
+sc_camp=D361252B841B49B69EF615CC9944AC47
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -57,14 +64,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b0f16f3f-4f8c-4bf0-a42d-fb0fc602bda7
+73083cdf-ce69-4dde-a28f-e7905b6c8c61
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150721T094935Z
+20150721T110528Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -7,7 +7,16 @@
 @using Spitfire.SitecoreExtensions.Extensions;
 
 @model Spitfire.Library.Models.Search.SearcheEngineResults
-
+@{
+    //Google Campaign product
+    LinkField lf = (LinkField)Model.PromoteItem.Fields["Title"];
+    string url = Sitecore.Links.LinkManager.GetItemUrl(lf.TargetItem);
+    string lf_campaignId = Model.PageItem["Campaign"];
+    url += lf_campaignId;
+    string titleText = lf.Text;
+    string shortTitle = string.Join(" ",titleText.Split(' ').Take(6));
+    string tel = Model.PromoteItem["Telephone"];
+}
 
 <html lang="en">
 <head>
@@ -9137,33 +9146,29 @@
                                             {
                                                 <li class="ads-ad" data-hveid="45">
                                                     <h3>
-                                                        @Html.Sitecore().Field("Title", @Model.PromoteItem)
+                                                        <a href="@url">@titleText</a>
                                                     </h3>
                                                     <div class="kv _IH ads-visurl">
                                                         <span class="_Wu">Ad</span>
                                                         <cite>
-                                                            @{
-                                                            LinkField lf = (LinkField)Model.PromoteItem.Fields["Title"];
-                                                            string url = Sitecore.Links.LinkManager.GetItemUrl(lf.TargetItem);
                                                             @url
-                                                            }
-                                                    </cite>
+                                                        </cite>
 
-                                                    <div class="action-menu ab_ctl">
-                                                        <a class="clickable-dropdown-arrow ab_button" href="@Model.PromoteItem.Url(@Model.PromoteItem.ID)" id="am-b1036527074" aria-label="Result details" jsaction="ab.tdd;keydown:ab.hbke;keypress:ab.mskpe" aria-expanded="false" aria-haspopup="true" role="button" data-ved="0CC8Q7B0"><span class="mn-dwn-arw"></span></a>
-                                                        <div class="action-menu-panel ab_dropdown" jsaction="keydown:ab.hdke;mouseover:ab.hdhne;mouseout:ab.hdhue" role="menu" tabindex="-1" data-ved="0CDAQqR8">
-                                                            <ul>
-                                                                <li class="action-menu-item ab_dropdownitem" role="menuitem" data-type="why_this_ad">
-                                                                    <div class="action-menu-button" jsaction="am.itemclk" role="menuitem" tabindex="-1" data-ved="0CDEQgRM">Why this ad?</div>
-                                                                </li>
-                                                            </ul>
+                                                        <div class="action-menu ab_ctl">
+                                                            <a class="clickable-dropdown-arrow ab_button" href="@Model.PromoteItem.Url(@Model.PromoteItem.ID)" id="am-b1036527074" aria-label="Result details" jsaction="ab.tdd;keydown:ab.hbke;keypress:ab.mskpe" aria-expanded="false" aria-haspopup="true" role="button" data-ved="0CC8Q7B0"><span class="mn-dwn-arw"></span></a>
+                                                            <div class="action-menu-panel ab_dropdown" jsaction="keydown:ab.hdke;mouseover:ab.hdhne;mouseout:ab.hdhue" role="menu" tabindex="-1" data-ved="0CDAQqR8">
+                                                                <ul>
+                                                                    <li class="action-menu-item ab_dropdownitem" role="menuitem" data-type="why_this_ad">
+                                                                        <div class="action-menu-button" jsaction="am.itemclk" role="menuitem" tabindex="-1" data-ved="0CDEQgRM">Why this ad?</div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div class="ads-creative">
-                                                    @Html.Sitecore().Field("Abstract", @Model.PromoteItem)
-                                                </div>
-                                            </li>
+                                                    <div class="ads-creative">
+                                                        @Html.Sitecore().Field("Abstract", @Model.PromoteItem)
+                                                    </div>
+                                                </li>
                                             }
                                             @if (Model.ChildrenAdsItems != null)
                                             {
@@ -9179,10 +9184,10 @@
                                                         <div class="kv _IH ads-visurl">
                                                             <span class="_Wu">Ad</span>
                                                             <cite>
-                                                            @{
-                                                                LinkField lf = (LinkField)item.Fields["Title"];
-                                                                @lf.Url
-                                                            }
+                                                                @{
+                                                    LinkField lf_f = (LinkField)item.Fields["Title"];
+                                                    @lf_f.Url
+                                                                }
                                                             </cite>‎
                                                             <div class="action-menu ab_ctl">
                                                                 <a class="clickable-dropdown-arrow ab_button" href="@item.Url(item.ID)" id="am-b1036527074" aria-label="Result details" jsaction="ab.tdd;keydown:ab.hbke;keypress:ab.mskpe" aria-expanded="false" aria-haspopup="true" role="button" data-ved="0CC8Q7B0"><span class="mn-dwn-arw"></span></a>
@@ -9215,6 +9220,38 @@
                                     <div data-async-econtext="query:office%20supplies" data-async-context="query:office%20supplies" id="ires">
                                         <ol eid="g7ohU8dptJHsBuvigKAO" id="rso">
                                             <div class="srg">
+                                                @if (Model.PromoteItem != null)
+                                                {
+                                                    <li class="g">
+                                                        <!--m-->
+                                                        <div class="rc" data-hveid="73">
+                                                            <h3 class="r">
+                                                                <a href="@url">@titleText</a>
+                                                            </h3>
+                                                            <div class="s">
+                                                                <div>
+                                                                    <div class="f kv _Cu" style="white-space: nowrap">
+                                                                        <cite class="_md">
+                                                                            @url
+                                                                        </cite>‎
+                                                                        <div class="action-menu ab_ctl">
+                                                                            <a class="clickable-dropdown-arrow ab_button" href="https://www.google.co.uk/search?q=office+supplies&oq=office+supplies&aqs=chrome..69i57j69i61j0l4.3032j0j4&sourceid=chrome&espv=210&es_sm=93&ie=UTF-8#" id="am-b0" aria-label="Result details" jsaction="ab.tdd;keydown:ab.hbke;keypress:ab.mskpe" aria-expanded="false" aria-haspopup="true" role="button" data-ved="0CEsQ7B0wAA"><span class="mn-dwn-arw"></span></a>
+                                                                            <div class="action-menu-panel ab_dropdown" jsaction="keydown:ab.hdke;mouseover:ab.hdhne;mouseout:ab.hdhue" role="menu" tabindex="-1" data-ved="0CEwQqR8wAA">
+                                                                                <ul>
+                                                                                    <li class="action-menu-item ab_dropdownitem" role="menuitem"><a class="fl" href="http://webcache.googleusercontent.com/search?q=cache:AHN3YAdASJwJ:www.staples.co.uk/+&cd=1&hl=en&ct=clnk&gl=uk" onmousedown=" return rwt(this, &#39;&#39;, &#39;&#39;, &#39;&#39;, &#39;1&#39;, &#39;AFQjCNH8XUUVrfcFQwkICw5W90FOijl3vg&#39;, &#39;&#39;, &#39;0CE0QIDAA&#39;, &#39;&#39;, &#39;&#39;, event) ">Cached</a></li>
+                                                                                    <li class="action-menu-item ab_dropdownitem" role="menuitem"><a class="fl" href="https://www.google.co.uk/search?espv=210&es_sm=93&q=related:www.staples.co.uk/+office+supplies&tbo=1&sa=X&ei=g7ohU8dptJHsBuvigKAO&ved=0CE4QHzAA">Similar</a></li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="f slp"></div>
+                                                                    <span class="st">@Html.Sitecore().Field("Abstract", Model.PromoteItem)<b>...</b></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--n-->
+                                                    </li>
+                                                }
                                                 @if (Model.ChildrenNoAdsItems != null)
                                                 {
                                                     foreach (Item item in Model.ChildrenNoAdsItems.Take(3))
@@ -9229,10 +9266,7 @@
                                                                     <div>
                                                                         <div class="f kv _Cu" style="white-space: nowrap">
                                                                             <cite class="_md">
-                                                                                @{
-                                                                                         LinkField lf = (LinkField)item.Fields["Title"];
-                                                                                         @lf.Url
-                                                                                     }
+                                                                                @url
                                                                             </cite>‎
                                                                             <div class="action-menu ab_ctl">
                                                                                 <a class="clickable-dropdown-arrow ab_button" href="https://www.google.co.uk/search?q=office+supplies&oq=office+supplies&aqs=chrome..69i57j69i61j0l4.3032j0j4&sourceid=chrome&espv=210&es_sm=93&ie=UTF-8#" id="am-b0" aria-label="Result details" jsaction="ab.tdd;keydown:ab.hbke;keypress:ab.mskpe" aria-expanded="false" aria-haspopup="true" role="button" data-ved="0CEsQ7B0wAA"><span class="mn-dwn-arw"></span></a>
@@ -9245,79 +9279,8 @@
                                                                             </div>
                                                                         </div>
                                                                         <div class="f slp"></div>
-                                                                        <span class="st">@Html.Sitecore().Field("Abstract", item)&nbsp;<b>...</b></span><div class="osl">
-                                                                            ‎<a class="fl" href="http://www.staples.co.uk/StoreLocator.aspx" onmousedown=" return rwt(this, &#39;&#39;, &#39;&#39;, &#39;&#39;, &#39;1&#39;, &#39;AFQjCNHM75jTau7FCFdSelKHzQJ2DlzxtA&#39;, &#39;&#39;, &#39;0CFAQ0gIoADAA&#39;, &#39;&#39;, &#39;&#39;, event) ">Find a Store</a> -&nbsp;‎<a class="fl" href="http://www.staples.co.uk/computers-drives-accessories" onmousedown=" return rwt(this, &#39;&#39;, &#39;&#39;, &#39;&#39;, &#39;1&#39;, &#39;AFQjCNE9dJ5OLlnzakDBwVP8bo2YrwB8CQ&#39;, &#39;&#39;, &#39;0CFEQ0gIoATAA&#39;, &#39;&#39;, &#39;&#39;, event) ">Computers | Drives | Accessories</a> -&nbsp;‎<a class="fl" href="http://www.staples.co.uk/furniture-chairs-cabinets" onmousedown=" return rwt(this, &#39;&#39;, &#39;&#39;, &#39;&#39;, &#39;1&#39;, &#39;AFQjCNF66f3bqcXFt9ihT4gjYKTbktG6UA&#39;, &#39;&#39;, &#39;0CFIQ0gIoAjAA&#39;, &#39;&#39;, &#39;&#39;, event) ">Furniture | Chairs | Cabinets</a> -&nbsp;‎<a class="fl" href="http://www.staples.co.uk/pens-tape-desk-supplies/pens" onmousedown=" return rwt(this, &#39;&#39;, &#39;&#39;, &#39;&#39;, &#39;1&#39;, &#39;AFQjCNHKCDAnzGEkPStIDZDDythTkBB_9Q&#39;, &#39;&#39;, &#39;0CFMQ0gIoAzAA&#39;, &#39;&#39;, &#39;&#39;, event) ">Pens</a>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <!--n-->
-                                                        </li>
-                                                    }
-                                                }
-                                            </div>
-                                            <div class="srg">
-                                                @if (Model.PromoteItem != null)
-                                                {
-                                                    <li class="g">
-                                                        <!--m-->
-                                                        <div class="rc" data-hveid="147">
-                                                            <h3 class="r">
-                                                                <a href="" onmousedown=" return rwt(this, &#39;&#39;, &#39;&#39;, &#39;&#39;, &#39;10&#39;, &#39;AFQjCNGeAppOJCky4WarIHUoKxulaY-xoA&#39;, &#39;&#39;, &#39;0CJQBEBYwCQ&#39;, &#39;&#39;, &#39;&#39;, event) "><em>Office Supplies</em> UK, Office Products, <em>Office Equipment</em>, Paper <b>...</b></a>
-                                                            </h3>
-                                                            <div class="s">
-                                                                <div>
-                                                                    <div class="f kv _Cu" style="white-space: nowrap">
-                                                                        <cite class="_md">www.easycrane.co.uk/</cite>‎
-                                                                        <div class="action-menu ab_ctl">
-                                                                            <a class="clickable-dropdown-arrow ab_button" href="https://www.google.co.uk/search?q=office+supplies&oq=office+supplies&aqs=chrome..69i57j69i61j0l4.3032j0j4&sourceid=chrome&espv=210&es_sm=93&ie=UTF-8#" id="am-b9" aria-label="Result details" jsaction="ab.tdd;keydown:ab.hbke;keypress:ab.mskpe" aria-expanded="false" aria-haspopup="true" role="button" data-ved="0CJUBEOwdMAk"><span class="mn-dwn-arw"></span></a>
-                                                                            <div class="action-menu-panel ab_dropdown" jsaction="keydown:ab.hdke;mouseover:ab.hdhne;mouseout:ab.hdhue" role="menu" tabindex="-1" data-ved="0CJYBEKkfMAk">
-                                                                                <ul>
-                                                                                    <li class="action-menu-item ab_dropdownitem" role="menuitem"><a class="fl" href="http://webcache.googleusercontent.com/search?q=cache:ZimYGkxByD8J:www.easycrane.co.uk/+&cd=10&hl=en&ct=clnk&gl=uk" onmousedown=" return rwt(this, &#39;&#39;, &#39;&#39;, &#39;&#39;, &#39;10&#39;, &#39;AFQjCNFuHtjUqlhCidlaaw7lQLnjrsoT8g&#39;, &#39;&#39;, &#39;0CJcBECAwCQ&#39;, &#39;&#39;, &#39;&#39;, event) ">Cached</a></li>
-                                                                                    <li class="action-menu-item ab_dropdownitem" role="menuitem"><a class="fl" href="https://www.google.co.uk/search?espv=210&es_sm=93&q=related:www.easycrane.co.uk/+office+supplies&tbo=1&sa=X&ei=g7ohU8dptJHsBuvigKAO&ved=0CJgBEB8wCQ">Similar</a></li>
-                                                                                </ul>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="f slp"></div>
-                                                                    <span class="st">The easy way to obtain <em>office supplies</em>, stationery &amp; <em>office furniture</em> for your business. Delivered with 100% Guarantee of satisfaction or your money back.</span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <!--n-->
-                                                    </li>
-                                                }
-                                                @if (Model.ChildrenNoAdsItems != null)
-                                                {
-                                                    foreach (Item item in Model.ChildrenNoAdsItems.Take(5))
-                                                    {
-                                                        <li class="g">
-                                                            <!--m-->
-                                                            <div class="rc" data-hveid="147">
-                                                                <h3 class="r">
-                                                                    <a href="http://www.easycrane.co.uk/" onmousedown=" return rwt(this, &#39;&#39;, &#39;&#39;, &#39;&#39;, &#39;10&#39;, &#39;AFQjCNGeAppOJCky4WarIHUoKxulaY-xoA&#39;, &#39;&#39;, &#39;0CJQBEBYwCQ&#39;, &#39;&#39;, &#39;&#39;, event) "><em>Office Supplies</em> UK, Office Products, <em>Office Equipment</em>, Paper <b>...</b></a>
-                                                                </h3>
-                                                                <div class="s">
-                                                                    <div>
-                                                                        <div class="f kv _Cu" style="white-space: nowrap">
-                                                                            <cite class="_md">
-                                                                                @{
-                                                                                         LinkField lf = (LinkField)item.Fields["Title"];
-                                                                                         @lf.Url
-                                                                                     }
-                                                                            </cite>‎
-                                                                            <div class="action-menu ab_ctl">
-                                                                                <a class="clickable-dropdown-arrow ab_button" href="https://www.google.co.uk/search?q=office+supplies&oq=office+supplies&aqs=chrome..69i57j69i61j0l4.3032j0j4&sourceid=chrome&espv=210&es_sm=93&ie=UTF-8#" id="am-b9" aria-label="Result details" jsaction="ab.tdd;keydown:ab.hbke;keypress:ab.mskpe" aria-expanded="false" aria-haspopup="true" role="button" data-ved="0CJUBEOwdMAk"><span class="mn-dwn-arw"></span></a>
-                                                                                <div class="action-menu-panel ab_dropdown" jsaction="keydown:ab.hdke;mouseover:ab.hdhne;mouseout:ab.hdhue" role="menu" tabindex="-1" data-ved="0CJYBEKkfMAk">
-                                                                                    <ul>
-                                                                                        <li class="action-menu-item ab_dropdownitem" role="menuitem"><a class="fl" href="http://webcache.googleusercontent.com/search?q=cache:ZimYGkxByD8J:www.easycrane.co.uk/+&cd=10&hl=en&ct=clnk&gl=uk" onmousedown=" return rwt(this, &#39;&#39;, &#39;&#39;, &#39;&#39;, &#39;10&#39;, &#39;AFQjCNFuHtjUqlhCidlaaw7lQLnjrsoT8g&#39;, &#39;&#39;, &#39;0CJcBECAwCQ&#39;, &#39;&#39;, &#39;&#39;, event) ">Cached</a></li>
-                                                                                        <li class="action-menu-item ab_dropdownitem" role="menuitem"><a class="fl" href="https://www.google.co.uk/search?espv=210&es_sm=93&q=related:www.easycrane.co.uk/+office+supplies&tbo=1&sa=X&ei=g7ohU8dptJHsBuvigKAO&ved=0CJgBEB8wCQ">Similar</a></li>
-                                                                                    </ul>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="f slp"></div>
-                                                                        <span class="st">The easy way to obtain <em>office supplies</em>, stationery &amp; <em>office furniture</em> for your business. Delivered with 100% Guarantee of satisfaction or your money back.</span>
+                                                                        <span class="st">@Html.Sitecore().Field("Abstract", item)<b>...</b></span>
+
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -9420,207 +9383,64 @@
                                                 </div>
                                             </div>
 
-                                            <div class="vsc vsra" sig="kcD">
-                                                <h3>
-                                                    <a id="an1" href="http://<%= SITE_URL%>/?sc_camp=6EB3D7B6-2FCB-4BD3-8458-826B21C2D721">
-                                                        Discount
-                                                        <b>Office Supplies </b>
-                                                    </a><nobr style="margin-left: -5px;">
-                                                        &nbsp;<button class="vspib"></button>
-                                                    </nobr>
-                                                </h3>
-                                                <div class="kv"><cite><%= SITE_URL%></cite></div>
-                                                <div style="color: rgb(102, 102, 102);">
-                                                    officecore is <a class="fl" href="">rated</a>
-
-                                                    <table style="top: 2px; position: relative;" class="ti" border="0"
-                                                           cellspacing="0" cellpadding="0">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>
-                                                                    <p style="margin: 0px; padding: 0px; width: 13px; height: 13px; overflow: hidden; position: relative;">
-                                                                        <img style="left: -110px; top: -230px; position: absolute;" alt="Rated 4.7 out of 5.0"
-                                                                             src="/assets/images/Google/nav_logo83.png">
-                                                                    </p>
-                                                                <td>
-                                                                    <p style="margin: 0px; padding: 0px; width: 13px; height: 13px; overflow: hidden; position: relative;">
-                                                                        <img style="left: -110px; top: -230px; position: absolute;" alt="" src="/assets/images/Google/nav_logo83.png">
-                                                                    </p>
-                                                                <td>
-                                                                    <p style="margin: 0px; padding: 0px; width: 13px; height: 13px; overflow: hidden; position: relative;">
-                                                                        <img style="left: -110px; top: -230px; position: absolute;" alt="" src="/assets/images/Google/nav_logo83.png">
-                                                                    </p>
-                                                                <td>
-                                                                    <p style="margin: 0px; padding: 0px; width: 13px; height: 13px; overflow: hidden; position: relative;">
-                                                                        <img style="left: -110px; top: -230px; position: absolute;" alt="" src="/assets/images/Google/nav_logo83.png">
-                                                                    </p>
-                                                                <td>
-                                                                    <p style="margin: 0px; padding: 0px; width: 13px; height: 13px; overflow: hidden; position: relative;">
-                                                                        <img style="left: -82px; top: -230px; position: absolute;" alt="" src="/assets/images/Google/nav_logo83.png">
-                                                                    </p>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
+                                            @if (Model.PromoteItem != null)
+                                            {
+                                                <div class="vsc vsra" sig="kcD">
+                                                    <h3>
+                                                        <a href="@url">@shortTitle</a>
+                                                        <nobr style="margin-left: -5px;">
+                                                            &nbsp;<button class="vspib"></button>
+                                                        </nobr>
+                                                    </h3>
+                                                    <div class="kv"><cite>@url</cite></div>
+                                                    <div style="color: rgb(102, 102, 102);">
+                                                        @* Insert Rating here *@
+                                                    </div>
+                                                    <span class="ac">
+                                                        Save up to 85%. Free Delivery<br>
+                                                        @if (string.IsNullOrEmpty(Model.PromoteItem["Telephone"]))
+                                                        {
+                                                            <span> Tel: @Html.Sitecore().Field("Telephone", Model.PromoteItem) </span>
+                                                        }
+                                                    </span>
                                                 </div>
-                                                <span class="ac">
-                                                    Save up to 85%. Free Delivery<br>
-                                                    Tel 020 3327 0630
-                                                </span>
-                                            </div>
+                                            }
 
-                                            <li class="ads-ad" data-hveid="191">
-                                                <h3><a href="http://officecore.dev/?sc_camp=6EB3D7B6-2FCB-4BD3-8458-826B21C2D721" id="s1p1" style="display: none"></a><a href="http://officecore.dev/?sc_camp=6EB3D7B6-2FCB-4BD3-8458-826B21C2D721" id="vs1p1" onmousedown="return google.arwt(this)">Discount <b>Office Supplies</b>‎</a></h3>
-                                                <div class="kv _IH ads-visurl">
-                                                    <cite>www.uk<b>office</b>direct.co.uk/</cite>‎<div class="action-menu ab_ctl">
-                                                        <a class="clickable-dropdown-arrow ab_button" href="https://www.google.co.uk/search?q=office+supplies&oq=office+supplies&aqs=chrome..69i57j69i61j0l4.3032j0j4&sourceid=chrome&espv=210&es_sm=93&ie=UTF-8#" id="am-b1009423552" aria-label="Result details" jsaction="ab.tdd;keydown:ab.hbke;keypress:ab.mskpe" aria-expanded="false" aria-haspopup="true" role="button" data-ved="0CMEBEOwd"><span class="mn-dwn-arw"></span></a>
-                                                        <div class="action-menu-panel ab_dropdown" jsaction="keydown:ab.hdke;mouseover:ab.hdhne;mouseout:ab.hdhue" role="menu" tabindex="-1" data-ved="0CMIBEKkf">
-                                                            <ul>
-                                                                <div class="action-menu-button" jsaction="am.itemclk" role="menuitem" tabindex="-1" data-ved="0CMMBEIET">Why this ad?</div>
-                                            </li>
-                                            </ul>
 
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ads-creative">
-                                Huge Savings Free Next Day Delivery<br>
-                                UK Lowest Prices Guaranteed!
-                            </div>
-                            </li><li class="ads-ad" data-hveid="198">
-                                <h3><a href="http://www.google.co.uk/aclk?sa=l&ai=CSM00g7ohU92SAuP77Qa5-oDYBZvZjZICy-3l0yD4188JEAIoCFCgw7muB2C7vq6D0AqgAc3bjOQDyAEBqQJFEiZM3fy7PqoEIk_QR__hkFQLSMa3bvIqq3q9lHC2s_A3vO_CNKTLwyNdVeCAB5uk8xuQBwM&num=5&sig=AOD64_1AkJMwM7WaRTyobmy2V-XVCJh5mQ&rct=j&q=office+supplies&ved=0CMcBENEM&adurl=http://www.officesupplies.org.uk/storefront/home" id="s1p2" style="display: none"></a><a href="http://www.officesupplies.org.uk/" id="vs1p2" onmousedown="return google.arwt(this)"><b>Office Supplies</b>‎</a></h3>
-                                <div class="kv _IH ads-visurl">
-                                    <cite>www.<b>officesupplies</b>.org.uk/</cite>‎<div class="action-menu ab_ctl">
-                                        <a class="clickable-dropdown-arrow ab_button" href="https://www.google.co.uk/search?q=office+supplies&oq=office+supplies&aqs=chrome..69i57j69i61j0l4.3032j0j4&sourceid=chrome&espv=210&es_sm=93&ie=UTF-8#" id="am-b175732427" aria-label="Result details" jsaction="ab.tdd;keydown:ab.hbke;keypress:ab.mskpe" aria-expanded="false" aria-haspopup="true" role="button" data-ved="0CMgBEOwd"><span class="mn-dwn-arw"></span></a>
-                                        <div class="action-menu-panel ab_dropdown" jsaction="keydown:ab.hdke;mouseover:ab.hdhne;mouseout:ab.hdhue" role="menu" tabindex="-1" data-ved="0CMkBEKkf">
-                                            <ul>
-                                                <li class="action-menu-item ab_dropdownitem" role="menuitem" data-type="why_this_ad">
-                                                    <div class="action-menu-button" jsaction="am.itemclk" role="menuitem" tabindex="-1" data-ved="0CMoBEIET">Why this ad?</div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="_Yu"><span>0333 256 3662</span></div>
-                                <div class="ads-creative">
-                                    Huge Savings, Easy Returns, Free<br>
-                                    Delivery. Great Service. Buy Online
-                                </div>
-                            </li>
-                            <li class="ads-ad" data-hveid="204">
-                                <h3><a href="http://www.google.co.uk/aclk?sa=l&ai=CqISQg7ohU92SAuP77Qa5-oDYBcj8g9gDyKOgxn34188JEAMoCFDe7Z0mYLu-roPQCqABuM3S-QPIAQGpAkUSJkzd_Ls-qgQjT9BX1iuJSTVwRjVtO-AyVddSgGzcv6oHsOgttFIl3j4xR_mAB7CyrQaQBwM&num=6&sig=AOD64_0TQB5yzBHGLNOfPgUzE40VHEvARw&rct=j&q=office+supplies&ved=0CM0BENEM&adurl=http://www.monkeyoffice.co.uk" id="s1p3" style="display: none"></a><a href="http://www.monkeyoffice.co.uk/OfficeSupplies" id="vs1p3" onmousedown="return google.arwt(this)"><b>Office Supplies</b>.‎</a></h3>
-                                <div class="kv _IH ads-visurl">
-                                    <cite>www.monkey<b>office</b>.co.uk/<b>OfficeSupplies</b></cite>‎<div class="action-menu ab_ctl">
-                                        <a class="clickable-dropdown-arrow ab_button" href="https://www.google.co.uk/search?q=office+supplies&oq=office+supplies&aqs=chrome..69i57j69i61j0l4.3032j0j4&sourceid=chrome&espv=210&es_sm=93&ie=UTF-8#" id="am-b-657976888" aria-label="Result details" jsaction="ab.tdd;keydown:ab.hbke;keypress:ab.mskpe" aria-expanded="false" aria-haspopup="true" role="button" data-ved="0CM4BEOwd"><span class="mn-dwn-arw"></span></a>
-                                        <div class="action-menu-panel ab_dropdown" jsaction="keydown:ab.hdke;mouseover:ab.hdhne;mouseout:ab.hdhue" role="menu" tabindex="-1" data-ved="0CM8BEKkf">
-                                            <ul>
-                                                <li class="action-menu-item ab_dropdownitem" role="menuitem" data-type="why_this_ad">
-                                                    <div class="action-menu-button" jsaction="am.itemclk" role="menuitem" tabindex="-1" data-ved="0CNABEIET">Why this ad?</div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ads-creative">
-                                    Save Up To 92%, Massive Savings !<br>
-                                    Huge Range &amp; Free Next Day Delivery
-                                </div>
-                            </li>
-                            <li class="ads-ad" data-hveid="209">
-                                <h3><a href="http://www.google.co.uk/aclk?sa=l&ai=CNUZIg7ohU92SAuP77Qa5-oDYBZX-v6wEtcGg83D4188JEAQoCFCKjoenAmC7vq6D0AqgAZuKiN8DyAEBqQJFEiZM3fy7PqoEI0_QN9Mwikk0cEY1bTvgMjDMd5hs3L-qB7DoLbRSJd4PDxrfgAfN9fcgkAcD&num=7&sig=AOD64_1MTFpzecdblmc41e4l3l9Z0l0yMg&rct=j&q=office+supplies&ved=0CNIBENEM&adurl=http://www.postofficeshop.co.uk/office-supplies/" id="s1p4" style="display: none"></a><a href="http://www.postofficeshop.co.uk/OfficeSupplies" id="vs1p4" onmousedown="return google.arwt(this)">Buy Your <b>Office Supplies</b>‎</a></h3>
-                                <div class="kv _IH ads-visurl">
-                                    <cite>www.post<b>offices</b>hop.co.uk/<b>OfficeSupplies</b></cite>‎<div class="action-menu ab_ctl">
-                                        <a class="clickable-dropdown-arrow ab_button" href="https://www.google.co.uk/search?q=office+supplies&oq=office+supplies&aqs=chrome..69i57j69i61j0l4.3032j0j4&sourceid=chrome&espv=210&es_sm=93&ie=UTF-8#" id="am-b241705141" aria-label="Result details" jsaction="ab.tdd;keydown:ab.hbke;keypress:ab.mskpe" aria-expanded="false" aria-haspopup="true" role="button" data-ved="0CNMBEOwd"><span class="mn-dwn-arw"></span></a>
-                                        <div class="action-menu-panel ab_dropdown" jsaction="keydown:ab.hdke;mouseover:ab.hdhne;mouseout:ab.hdhue" role="menu" tabindex="-1" data-ved="0CNQBEKkf">
-                                            <ul>
-                                                <li class="action-menu-item ab_dropdownitem" role="menuitem" data-type="why_this_ad">
-                                                    <div class="action-menu-button" jsaction="am.itemclk" role="menuitem" tabindex="-1" data-ved="0CNUBEIET">Why this ad?</div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ads-creative">
-                                    Save On <b>Office Supplies</b> &amp; <b>Equipment</b><br>
-                                    Free Delivery, All Orders Over £30
-                                </div>
-                            </li>
-                            <li class="ads-ad" data-hveid="214">
-                                <h3><a href="http://www.google.co.uk/aclk?sa=L&ai=CxU4Cg7ohU92SAuP77Qa5-oDYBbqvgoQB7vPGkXDWsIPxOhAFKAhQgOWStQVgu76ug9AKyAEBqgQkT9AXl_WQWQNJfrSnONb8YSxlqtn8bYzjxdskPSjXOJRtIxTjgAeiiucPkAcD&num=8&sig=AOD64_2Nlt-nc8sIIvz1LtdVphlhTjjrlQ&rct=j&q=office+supplies&ved=0CNcBENEM&adurl=http://www.amazon.co.uk/b/%3Fie%3DUTF8%26node%3D192413031%26tag%3Dgooghydr-21%26hvadid%3D30061307206%26hvpos%3D1s5%26hvexid%3D%26hvnetw%3Dg%26hvrand%3D902361307363057262%26hvpone%3D%26hvptwo%3D%26hvqmt%3Db%26hvdev%3Dc%26ref%3Dpd_sl_5v8f2k01ck_b" id="s1p5" style="display: none"></a><a href="http://www.amazon.co.uk/Office" id="vs1p5" onmousedown="return google.arwt(this)"><b>Office Supplies</b> at Amazon‎</a></h3>
-                                <div class="kv _IH ads-visurl">
-                                    <cite>www.amazon.co.uk/<b>Office</b></cite>‎<div class="action-menu ab_ctl">
-                                        <a class="clickable-dropdown-arrow ab_button" href="https://www.google.co.uk/search?q=office+supplies&oq=office+supplies&aqs=chrome..69i57j69i61j0l4.3032j0j4&sourceid=chrome&espv=210&es_sm=93&ie=UTF-8#" id="am-b36813294" aria-label="Result details" jsaction="ab.tdd;keydown:ab.hbke;keypress:ab.mskpe" aria-expanded="false" aria-haspopup="true" role="button" data-ved="0CNgBEOwd"><span class="mn-dwn-arw"></span></a>
-                                        <div class="action-menu-panel ab_dropdown" jsaction="keydown:ab.hdke;mouseover:ab.hdhne;mouseout:ab.hdhue" role="menu" tabindex="-1" data-ved="0CNkBEKkf">
-                                            <ul>
-                                                <li class="action-menu-item ab_dropdownitem" role="menuitem" data-type="why_this_ad">
-                                                    <div class="action-menu-button" jsaction="am.itemclk" role="menuitem" tabindex="-1" data-ved="0CNoBEIET">Why this ad?</div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ads-creative">
-                                    Large selection and low prices.<br>
-                                    Free UK Delivery on Eligible Orders
-                                </div>
-                            </li>
-                            <li class="ads-ad" data-hveid="221">
-                                <h3><a href="http://www.google.co.uk/aclk?sa=l&ai=C4UUHg7ohU92SAuP77Qa5-oDYBaHVvKgE-YSB4IUB-NfPCRAGKAhQ0d34pAFgu76ug9AKoAHjtd39A8gBAakCRRImTN38uz6qBCJP0CfIvZBYC0jGt27yKpkhvqBwtrPwN7zvwjSky8MpUUX_gAeFyqICkAcD&num=9&sig=AOD64_3Ka6Qy3nsHJmZjseeeb5UK0jEeEg&rct=j&q=office+supplies&ved=0CN4BENEM&adurl=http://2110.xg4ken.com/media/redir.php%3Fprof%3D3%26camp%3D4378%26affcode%3Dkw767553%26cid%3D35864723897%26networkType%3Dsearch%26kdv%3Dc%26url%5B%5D%3Dhttp%253A%252F%252Fad.doubleclick.net%252Fclk%253B261980678%253B85985812%253Bg%253Fhttp:%252F%252Fwww.staples.co.uk%252FHome.aspx" id="s1p6" style="display: none"></a><a href="http://www.staples.co.uk/office_supplies" id="vs1p6" onmousedown="return google.arwt(this)">Staples <b>Office Supplies</b>‎</a></h3>
-                                <div class="kv _IH ads-visurl">
-                                    <cite>www.staples.co.uk/<b>office</b>_<b>supplies</b></cite>‎<div class="action-menu ab_ctl">
-                                        <a class="clickable-dropdown-arrow ab_button" href="https://www.google.co.uk/search?q=office+supplies&oq=office+supplies&aqs=chrome..69i57j69i61j0l4.3032j0j4&sourceid=chrome&espv=210&es_sm=93&ie=UTF-8#" id="am-b1543520889" aria-label="Result details" jsaction="ab.tdd;keydown:ab.hbke;keypress:ab.mskpe" aria-expanded="false" aria-haspopup="true" role="button" data-ved="0CN8BEOwd"><span class="mn-dwn-arw"></span></a>
-                                        <div class="action-menu-panel ab_dropdown" jsaction="keydown:ab.hdke;mouseover:ab.hdhne;mouseout:ab.hdhue" role="menu" tabindex="-1" data-ved="0COABEKkf">
-                                            <ul>
-                                                <li class="action-menu-item ab_dropdownitem" role="menuitem" data-type="why_this_ad">
-                                                    <div class="action-menu-button" jsaction="am.itemclk" role="menuitem" tabindex="-1" data-ved="0COEBEIET">Why this ad?</div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ads-creative">
-                                    Free UK Delivery On <b>Office Supplies</b><br>
-                                    Over £30. Don’t Miss Out. Order Now
-                                </div>
-                            </li>
-                            <li class="ads-ad" data-hveid="226">
-                                <h3><a href="http://www.google.co.uk/aclk?sa=l&ai=C8SXGg7ohU92SAuP77Qa5-oDYBfu2hrwCxdLW5BGiv9kIEAcoCFDforv0______8BYLu-roPQCqABxZ3z-APIAQGpAkUSJkzd_Ls-qgQoT9BHtJqQWwNJfrTvOCn479Nqe5gG0OWaC7cHrUK8OJEh7B7r1h4KZYAHo-KMB5AHAw&num=10&sig=AOD64_2gsxTDveHSAPYhi8LCV0LsjewSbg&rct=j&q=office+supplies&ved=0COMBENEM&adurl=http://www.fireflyoffice.com" id="s1p7" style="display: none"></a><a href="http://www.fireflyoffice.com/office+stationery" id="vs1p7" onmousedown="return google.arwt(this)">OneStop <b>Office</b> Stationery‎</a></h3>
-                                <div class="kv _IH ads-visurl">
-                                    <cite>www.firefly<b>office</b>.com/<b>office</b>+stationery</cite>‎<div class="action-menu ab_ctl">
-                                        <a class="clickable-dropdown-arrow ab_button" href="https://www.google.co.uk/search?q=office+supplies&oq=office+supplies&aqs=chrome..69i57j69i61j0l4.3032j0j4&sourceid=chrome&espv=210&es_sm=93&ie=UTF-8#" id="am-b479570245" aria-label="Result details" jsaction="ab.tdd;keydown:ab.hbke;keypress:ab.mskpe" aria-expanded="false" aria-haspopup="true" role="button" data-ved="0COQBEOwd"><span class="mn-dwn-arw"></span></a>
-                                        <div class="action-menu-panel ab_dropdown" jsaction="keydown:ab.hdke;mouseover:ab.hdhne;mouseout:ab.hdhue" role="menu" tabindex="-1" data-ved="0COUBEKkf">
-                                            <ul>
-                                                <li class="action-menu-item ab_dropdownitem" role="menuitem" data-type="why_this_ad">
-                                                    <div class="action-menu-button" jsaction="am.itemclk" role="menuitem" tabindex="-1" data-ved="0COYBEIET">Why this ad?</div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ads-creative">
-                                    22,000+ <b>Products</b>, up to 92% off RRP<br>
-                                    Next Day Delivery, Buy Online Now
-                                </div>
-                            </li>
-                            <li class="ads-ad" data-hveid="231">
-                                <h3><a href="http://www.google.co.uk/aclk?sa=l&ai=CfPGEg7ohU92SAuP77Qa5-oDYBbTQmblAvIO5snvop4MQEAgoCFCegIOzAmC7vq6D0AqgAbyQueIDyAEBqQIl_hK8mwq8PqoEKE_QN-OakFoDSX607zgp-O-8aCv2BtDlmgu3B61CvDiRIewe6_ExJH2AB6zvxh2QBwM&num=11&sig=AOD64_29MPke8iCCgiMC3aVBTjlKPPaKpw&rct=j&q=office+supplies&ved=0COgBENEM&adurl=http://www.OfficeFurnitureWorld.co.uk%3Faffiliate%3Dadwords" id="s1p8" style="display: none"></a><a href="http://www.officefurnitureworld.co.uk/" id="vs1p8" onmousedown="return google.arwt(this)"><b>Office Furniture</b> 70% Off‎</a></h3>
-                                <div class="kv _IH ads-visurl">
-                                    <cite>www.<b>officefurniture</b>world.co.uk/</cite>‎<div class="action-menu ab_ctl">
-                                        <a class="clickable-dropdown-arrow ab_button" href="https://www.google.co.uk/search?q=office+supplies&oq=office+supplies&aqs=chrome..69i57j69i61j0l4.3032j0j4&sourceid=chrome&espv=210&es_sm=93&ie=UTF-8#" id="am-b-1236385348" aria-label="Result details" jsaction="ab.tdd;keydown:ab.hbke;keypress:ab.mskpe" aria-expanded="false" aria-haspopup="true" role="button" data-ved="0COkBEOwd"><span class="mn-dwn-arw"></span></a>
-                                        <div class="action-menu-panel ab_dropdown" jsaction="keydown:ab.hdke;mouseover:ab.hdhne;mouseout:ab.hdhue" role="menu" tabindex="-1" data-ved="0COoBEKkf">
-                                            <ul>
-                                                <li class="action-menu-item ab_dropdownitem" role="menuitem" data-type="why_this_ad">
-                                                    <div class="action-menu-button" jsaction="am.itemclk" role="menuitem" tabindex="-1" data-ved="0COsBEIET">Why this ad?</div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ads-creative">
-                                    Next Day Delivery on All <b>Furniture</b><br>
-                                    Call Now Lines Open 9am-5pm
-                                </div>
-                            </li>
-                            </ol><div class="_kC"><a href="https://adwords.google.com/um/StartNewLogin?service=adwords&sourceid=awo&hl=en-GB&subid=uk-en-GB-et-symh" onmousedown="return rwt(this,&#39;&#39;,&#39;&#39;,&#39;&#39;,&#39;&#39;,&#39;AFQjCNFf_TKJVeLz89YX7VWtmb-SRx7SWA&#39;,&#39;&#39;,&#39;0COwBEO4q&#39;,&#39;&#39;,&#39;&#39;,event)">See your ad here&nbsp;»</a></div>
+                                            @if (Model.ChildrenAdsItems != null)
+                                            {
+                                                foreach (Item item in Model.ChildrenAdsItems.Take(3))
+                                                {
+                                                    <li class="ads-ad" data-hveid="198">
+                                                        <h3>@Html.Sitecore().Field("Title", item)</h3>
+                                                        <div class="kv _IH ads-visurl">
+                                                            <cite>www.<b>officesupplies</b>.org.uk/</cite>‎
+                                                            <div class="action-menu ab_ctl">
+                                                                <a class="clickable-dropdown-arrow ab_button" href="https://www.google.co.uk/search?q=office+supplies&oq=office+supplies&aqs=chrome..69i57j69i61j0l4.3032j0j4&sourceid=chrome&espv=210&es_sm=93&ie=UTF-8#" id="am-b175732427" aria-label="Result details" jsaction="ab.tdd;keydown:ab.hbke;keypress:ab.mskpe" aria-expanded="false" aria-haspopup="true" role="button" data-ved="0CMgBEOwd"><span class="mn-dwn-arw"></span></a>
+                                                                <div class="action-menu-panel ab_dropdown" jsaction="keydown:ab.hdke;mouseover:ab.hdhne;mouseout:ab.hdhue" role="menu" tabindex="-1" data-ved="0CMkBEKkf">
+                                                                    <ul>
+                                                                        <li class="action-menu-item ab_dropdownitem" role="menuitem" data-type="why_this_ad">
+                                                                            <div class="action-menu-button" jsaction="am.itemclk" role="menuitem" tabindex="-1" data-ved="0CMoBEIET">Why this ad?</div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        @if (string.IsNullOrEmpty(item["Telephone"]))
+                                                        {
+                                                            <div class="_Yu"><span>@Html.Sitecore().Field("Telephone", item)</span></div>
+                                                        }
+
+                                                        <div class="ads-creative">
+                                                            Huge Savings, Easy Returns, Free<br>
+                                                            Delivery. Great Service. Buy Online
+                                                        </div>
+                                                    </li>
+                                                }
+
+                                            }
+
+                                        </ol><div class="_kC"><a href="https://adwords.google.com/um/StartNewLogin?service=adwords&sourceid=awo&hl=en-GB&subid=uk-en-GB-et-symh" onmousedown="return rwt(this,&#39;&#39;,&#39;&#39;,&#39;&#39;,&#39;&#39;,&#39;AFQjCNFf_TKJVeLz89YX7VWtmb-SRx7SWA&#39;,&#39;&#39;,&#39;0COwBEO4q&#39;,&#39;&#39;,&#39;&#39;,event)">See your ad here&nbsp;»</a></div>
                         </div>
                     </div>
                 </div>
@@ -10081,4 +9901,5 @@
         }
     </style>
 </body>
+
 </html>
