@@ -1,40 +1,26 @@
 ----item----
 version: 1
-id: {6C2CC772-8472-45DE-9A9B-EA3918D23D35}
+id: {3759AB7D-701A-498B-8F47-C0795A67AA48}
 database: master
-path: /sitecore/layout/Models/Spitfire/Core/Search/SearcheEngineResults
-parent: {7E7A7490-6C88-4F21-8BB2-05ED816D747D}
-name: SearcheEngineResults
+path: /sitecore/templates/Spitfire/Core/Pages/Search results list/Search
+parent: {5486240C-02A1-41D8-B4E3-D871E1F2040A}
+name: Search
 master: {00000000-0000-0000-0000-000000000000}
-template: {FED6A14F-0D05-4E18-B160-17C0588A2005}
-templatekey: Model
+template: {E269FBB5-3750-427A-9149-7AA950B49301}
+templatekey: Template section
 
-----field----
-field: {EE9E23D2-181D-4172-A929-0E0B8D10313C}
-name: Model Type
-key: model type
-content-length: 68
-
-Spitfire.Library.Models.Search.SearcheEngineResults,Spitfire.Library
 ----version----
 language: en
 version: 1
-revision: cb3d5942-6e56-4677-8b69-887ecf7e82fd
+revision: 3a97826b-b963-4bc3-a3f6-49154feb346c
 
-----field----
-field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
-name: __Owner
-key: __owner
-content-length: 14
-
-sitecore\admin
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20150717T112553Z
+20150721T105411Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -48,14 +34,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-cb3d5942-6e56-4677-8b69-887ecf7e82fd
+3a97826b-b963-4bc3-a3f6-49154feb346c
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150717T140302Z
+20150721T105411Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -11,12 +11,16 @@
     {
         public override void Process(GetPageRenderingArgs args)
         {
-            var javaScriptService = new JavaScriptService();
+            // Only run in "normal" page mode, otherwise we assume renderings are always executed.
+            if (!Sitecore.Context.PageMode.IsNormal)
+            {
+                return;
+            }
 
             // Loop through all the renderings which are cacheable and might not have had their code executed
             foreach (var rendering in args.PageContext.PageDefinition.Renderings.Where(rendering => rendering.Caching.Cacheable))
             {
-                javaScriptService.AddFromRenderingCache(rendering.RenderingItem.ID);
+                MyContext.JavaScriptService.AddFromRenderingCache(rendering.RenderingItem.ID);
             }
         }
     }

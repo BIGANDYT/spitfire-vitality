@@ -20,8 +20,16 @@
 
         public IList<Item> ChildrenAdsItems { get; private set; }
 
-        public IList<Item> ChildrenNoAdsItems { get; private set; } 
-        
+        public IList<Item> ChildrenNoAdsItems { get; private set; }
+
+        public override Item PageItem
+        {
+            get
+            {
+                return base.PageItem;
+            }
+        }
+
         public override void Initialize(Rendering rendering)
         {
             base.Initialize(rendering);
