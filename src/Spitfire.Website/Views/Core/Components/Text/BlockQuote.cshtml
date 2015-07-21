@@ -1,6 +1,7 @@
 ﻿@using Spitfire.SitecoreExtensions.Extensions
 @using Sitecore.Mvc
 @using Sitecore.Mvc.Presentation
+@using Spitfire.Library
 @model RenderingModel
 @{
     string css;
@@ -30,8 +31,9 @@
     {
         css = blockColourItem["css"];
     }
+
+    MyContext.AssetRequirementService.AddCssFile("/assets/Core/Components/Text/BlockQuote.css");
 }
-<link href="/assets/Core/Components/Text/BlockQuote.css" rel="stylesheet">
 
 <!-- BEGIN BLOCKQUOTE BLOCK -->
 <div class="row quote-v1 @css @hoverCss hover margin-bottom-30">

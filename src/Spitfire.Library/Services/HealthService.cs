@@ -1,13 +1,15 @@
-﻿namespace Spitfire.Library.Service
+﻿namespace Spitfire.Library.Services
 {
     using System;
     using System.Collections.Generic;
     using System.IO;
     using System.Linq;
     using System.Web;
-    using Constants;
-    using Models.Health;
+
     using Sitecore.Data;
+
+    using Spitfire.Library.Constants;
+    using Spitfire.Library.Models.Health;
 
     /// <summary>
     /// Health Service responsible for preparing and returning a "HealthResult" analysis

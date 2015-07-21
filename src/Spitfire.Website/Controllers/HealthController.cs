@@ -3,7 +3,8 @@
     using System.Web.Http;
 
     using Library.Models.Health;
-    using Library.Service;
+
+    using Spitfire.Library.Services;
 
     /// <summary>
     /// Health ApiController

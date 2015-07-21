@@ -1,12 +1,22 @@
 namespace Spitfire.Library.Models.AssetRequirements
 {
-    public class JavaScriptRequirement
+    public class AssetRequirement
     {
+        public AssetRequirement(AssetType type, string file, string inline = null, string addOnceToken = null)
+        {
+            Type = type;
+            File = file;
+            Inline = inline;
+            AddOnceToken = addOnceToken;
+        }
+
         public string File { get; set; }
 
         public string Inline { get; set; }
 
         public string AddOnceToken { get; set; }
+
+        public AssetType Type { get; set; }
 
         public long GetDataLength()
         {

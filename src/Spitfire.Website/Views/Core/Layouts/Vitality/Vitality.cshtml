@@ -1,6 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@using Spitfire.Library
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -23,6 +23,7 @@
     @Styles.Render("~/animate/css")
     @Styles.Render("~/vitality/css")
     @Styles.Render("~/finance/css")
+    @MyContext.AssetRequirementService.RenderStyles()
     <!-- IE8 support for HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -51,8 +52,7 @@
     @Scripts.Render("~/plugins/jqBootstrapValidation")
     @Scripts.Render("~/plugins/contact_me")
     @Scripts.Render("~/bundles/vitality")
+    @MyContext.AssetRequirementService.RenderJavaScript()
 </body>
-
-
 
 </html>

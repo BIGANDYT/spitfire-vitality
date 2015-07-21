@@ -1,7 +1,7 @@
 ﻿namespace Spitfire.Library.MySitecore.Pipelines.GetPageRendering
 {
     using System.Linq;
-    using Service;
+
     using Sitecore.Mvc.Pipelines.Response.GetPageRendering;
 
     /// <summary>
@@ -20,7 +20,7 @@
             // Loop through all the renderings which are cacheable and might not have had their code executed
             foreach (var rendering in args.PageContext.PageDefinition.Renderings.Where(rendering => rendering.Caching.Cacheable))
             {
-                MyContext.JavaScriptService.AddFromRenderingCache(rendering.RenderingItem.ID);
+                MyContext.AssetRequirementService.AddFromRenderingCache(rendering.RenderingItem.ID);
             }
         }
     }

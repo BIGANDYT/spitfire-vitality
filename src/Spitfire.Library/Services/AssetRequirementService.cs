@@ -1,39 +1,41 @@
-﻿namespace Spitfire.Library.Service
+﻿namespace Spitfire.Library.Services
 {
     using System.Collections.Generic;
     using System.Linq;
     using System.Text;
     using System.Web;
-    using Models.AssetRequirements;
+
     using Sitecore;
     using Sitecore.Data;
     using Sitecore.Mvc.Presentation;
 
+    using Spitfire.Library.Models.AssetRequirements;
+
     /// <summary>
-    /// A service which helps add the required JavaScript at the end of a page
-    /// In component based architecture it ensures JavaScript references and inline scripts are only added once.
+    /// A service which helps add the required JavaScript at the end of a page, and CSS at the top of a page.
+    /// In component based architecture it ensures references and inline scripts are only added once.
     /// </summary>
-    public class JavaScriptService
+    public class AssetRequirementService
     {
         /// <summary>Sitecore CustomCache object which holds the requirements for cacheable renderings</summary>
-        private static readonly JavaScriptRequirementCache Cache = new JavaScriptRequirementCache(StringUtil.ParseSizeString("10MB"));
+        private static readonly AssetRequirementCache Cache = new AssetRequirementCache(StringUtil.ParseSizeString("10MB"));
 
         /// <summary>The requirements which have been found in renderings executed on this page request</summary>
-        private readonly List<JavaScriptRequirement> items = new List<JavaScriptRequirement>();
+        private readonly List<AssetRequirement> items = new List<AssetRequirement>();
 
         /// <summary>A list of rendering IDs which have been executed on this page request</summary>
         private readonly List<ID> seenRenderings = new List<ID>();
 
         /// <summary>
-        /// Adds a JavaScriptRequirement to the page, checking if it hasn't been added already.
+        /// Adds an AssetRequirement to the page, checking if it hasn't been added already.
         /// </summary>
         /// <param name="requirement">
-        /// The JavaScriptRequirement to be added to the page
+        /// The AssetRequirement to be added to the page
         /// </param>
         /// <param name="preventAddToCache">
         /// Do not add requirement to cache
         /// </param>
-        public void Add(JavaScriptRequirement requirement, bool preventAddToCache = false)
+        public void Add(AssetRequirement requirement, bool preventAddToCache = false)
         {
             // If this code block should only be added once per page, check that now.
             if (requirement.AddOnceToken != null)
@@ -60,7 +62,7 @@
                 var rendering = RenderingContext.Current.Rendering;
                 if (rendering != null && rendering.Caching.Cacheable)
                 {
-                    JavaScriptRequirementList cachedRequirements;
+                    AssetRequirementList cachedRequirements;
 
                     var renderingID = rendering.RenderingItem.ID;
 
@@ -69,11 +71,11 @@
                     if (!seenRenderings.Contains(renderingID))
                     {
                         seenRenderings.Add(renderingID);
-                        cachedRequirements = new JavaScriptRequirementList();
+                        cachedRequirements = new AssetRequirementList();
                     }
                     else
                     {
-                        cachedRequirements = Cache.Get(renderingID) ?? new JavaScriptRequirementList();
+                        cachedRequirements = Cache.Get(renderingID) ?? new AssetRequirementList();
                     }
 
                     cachedRequirements.Add(requirement);
@@ -111,10 +113,10 @@
         /// Renders the JavaScript requirements to the page
         /// </summary>
         /// <returns>The rendered JavaScript code</returns>
-        public HtmlString Render()
+        public HtmlString RenderJavaScript()
         {
             var sb = new StringBuilder();
-            foreach (var item in items.Where(x => x.File != null))
+            foreach (var item in items.Where(x => x.Type == AssetType.JavaScript && x.File != null))
             {
                 sb.AppendFormat("<script src=\"{0}\"></script>", item.File).AppendLine();
             }
@@ -123,7 +125,7 @@
             {
                 sb.AppendLine("<script>\njQuery2(document).ready(function() {");
 
-                foreach (var item in items.Where(x => x.Inline != null))
+                foreach (var item in items.Where(x => x.Type == AssetType.JavaScript && x.Inline != null))
                 {
                     sb.AppendLine(item.Inline);
                 }
@@ -132,6 +134,53 @@
             }
 
             return new HtmlString(sb.ToString());
+        }
+
+        /// <summary>
+        /// Renders the stylesheet requirements to the page
+        /// </summary>
+        /// <returns>The rendered style code</returns>
+        public HtmlString RenderStyles()
+        {
+            var sb = new StringBuilder();
+            foreach (var item in items.Where(x => x.Type == AssetType.Css && x.File != null))
+            {
+                sb.AppendFormat("<link href=\"{0}\" rel=\"stylesheet\" />", item.File).AppendLine();
+            }
+
+            if (items.Any(x => x.Inline != null))
+            {
+                sb.AppendLine("<style type=\"text/css\">");
+
+                foreach (var item in items.Where(x => x.Type == AssetType.Css && x.Inline != null))
+                {
+                    sb.AppendLine(item.Inline);
+                }
+
+                sb.AppendLine("</style>");
+            }
+
+            return new HtmlString(sb.ToString());
+        }
+
+        public void AddJavaScriptFile(string file)
+        {
+            Add(new AssetRequirement(AssetType.JavaScript, file));
+        }
+
+        public void AddJavaScriptInline(string inline, string addOnceToken)
+        {
+            Add(new AssetRequirement(AssetType.JavaScript, null, inline, addOnceToken));
+        }
+
+        public void AddCssFile(string file)
+        {
+            Add(new AssetRequirement(AssetType.Css, file));
+        }
+
+        public void AddCssInline(string inline, string addOnceToken)
+        {
+            Add(new AssetRequirement(AssetType.Css, null, inline, addOnceToken));
         }
     }
 }

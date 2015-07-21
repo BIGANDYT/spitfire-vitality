@@ -69,6 +69,7 @@
     <Compile Include="Constants\ParameterConstants.cs" />
     <Compile Include="Constants\ItemConstants.cs" />
     <Compile Include="Constants\TemplateConstants.cs" />
+    <Compile Include="Models\AssetRequirements\AssetType.cs" />
     <Compile Include="Models\Core\Components\Headers\SectionHeader.cs" />
     <Compile Include="Models\Core\Components\Multilists\MultiList.cs" />
     <Compile Include="Models\Core\Components\Video\VideoBanner.cs" />
@@ -99,14 +100,14 @@
     <Compile Include="Models\Core\Components\Snippets\TeaserGallery.cs" />
     <Compile Include="Models\Core\Components\Text\TestimonialsCarousel.cs" />
     <Compile Include="Models\Core\Components\Video\Video.cs" />
-    <Compile Include="Models\AssetRequirements\JavaScriptRequirementCache.cs" />
-    <Compile Include="Models\AssetRequirements\JavaScriptRequirementList.cs" />
+    <Compile Include="Models\AssetRequirements\AssetRequirementCache.cs" />
+    <Compile Include="Models\AssetRequirements\AssetRequirementList.cs" />
     <Compile Include="MyContext.cs" />
     <Compile Include="MySitecore\Pipelines\GetPageRendering\AddAssets.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service\HealthService.cs" />
-    <Compile Include="Models\AssetRequirements\JavaScriptRequirement.cs" />
-    <Compile Include="Service\JavaScriptService.cs" />
+    <Compile Include="Services\HealthService.cs" />
+    <Compile Include="Models\AssetRequirements\AssetRequirement.cs" />
+    <Compile Include="Services\AssetRequirementService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Spitfire.SitecoreExtensions\Spitfire.SitecoreExtensions.csproj">

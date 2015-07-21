@@ -10,7 +10,7 @@
     using Sitecore.Data.Items;
 
     using Spitfire.Library.Models;
-    using Spitfire.Library.Service;
+    using Spitfire.Library.Services;
 
     /// <summary>
     /// A helper for find related information of the Context
@@ -132,19 +132,19 @@
         }
 
         /// <summary>
-        /// Gets a reference of <see cref="JavaScriptService"/> for this page request
+        /// Gets a reference of <see cref="AssetRequirementService"/> for this page request
         /// </summary>
-        public static JavaScriptService JavaScriptService
+        public static AssetRequirementService AssetRequirementService
         {
             get
             {
                 const string Key = "JavaScriptService";
                 if (Items[Key] == null)
                 {
-                    Items[Key] = new JavaScriptService();
+                    Items[Key] = new AssetRequirementService();
                 }
 
-                return (JavaScriptService)Items[Key];
+                return (AssetRequirementService)Items[Key];
             }
         }
 

@@ -6,9 +6,9 @@ namespace Spitfire.Library.Models.AssetRequirements
 
     using Sitecore.Caching;
 
-    public class JavaScriptRequirementList : ICacheable, IEnumerable<JavaScriptRequirement>
+    public class AssetRequirementList : ICacheable, IEnumerable<AssetRequirement>
     {
-        private readonly List<JavaScriptRequirement> items = new List<JavaScriptRequirement>();
+        private readonly List<AssetRequirement> items = new List<AssetRequirement>();
 
         public event DataLengthChangedDelegate DataLengthChanged;
 
@@ -21,12 +21,12 @@ namespace Spitfire.Library.Models.AssetRequirements
             return items.Sum(x => x.GetDataLength());
         }
 
-        public void Add(JavaScriptRequirement requirement)
+        public void Add(AssetRequirement requirement)
         {
             items.Add(requirement);
         }
 
-        public IEnumerator<JavaScriptRequirement> GetEnumerator()
+        public IEnumerator<AssetRequirement> GetEnumerator()
         {
             return items.GetEnumerator();
         }
