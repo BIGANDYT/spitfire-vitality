@@ -201,6 +201,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\Core\Components\Overview\RecentItems.css" />
+    <Content Include="assets\Core\Components\Portfolio\our-clients.css" />
     <Content Include="assets\Core\Components\Profiles\profiles.js" />
     <Content Include="assets\Core\Layouts\Search\Images\Google\chrome-48.png" />
     <Content Include="assets\Core\Layouts\Search\Images\Google\close_sm.gif" />

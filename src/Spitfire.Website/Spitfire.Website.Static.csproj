@@ -711,12 +711,6 @@
     <Content Include="metronic\frontend\layout\css\custom.css" />
     <Content Include="metronic\frontend\layout\css\style-responsive.css" />
     <Content Include="metronic\frontend\layout\css\style.css" />
-    <Content Include="metronic\frontend\layout\css\themes\blue.css" />
-    <Content Include="metronic\frontend\layout\css\themes\grey.css" />
-    <Content Include="metronic\frontend\layout\css\themes\orange.css" />
-    <Content Include="metronic\frontend\layout\css\themes\purple.css" />
-    <Content Include="metronic\frontend\layout\css\themes\red.css" />
-    <Content Include="metronic\frontend\layout\css\themes\teal.css" />
     <Content Include="metronic\frontend\layout\img\blockquote-corner-another-color.png" />
     <Content Include="metronic\frontend\layout\img\blockquote-corner.png" />
     <Content Include="metronic\frontend\layout\img\fa-angle-brands.png" />

@@ -16,10 +16,17 @@ key: path
 content-length: 47
 
 /Views/Core/Components/Portfolio/Clients.cshtml
+----field----
+field: {4867D192-326A-4AA4-81EF-EA430E224AFF}
+name: Css assets
+key: css assets
+content-length: 49
+
+/assets/Core/Components/Portfolio/our-clients.css
 ----version----
 language: en
 version: 1
-revision: 7b21809c-d13a-4101-bbc3-75fe1a0cff70
+revision: 422201d8-ec80-4aa5-8617-1297eaf33956
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-7b21809c-d13a-4101-bbc3-75fe1a0cff70
+422201d8-ec80-4aa5-8617-1297eaf33956
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150714T095016Z
+20150721T190656Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
