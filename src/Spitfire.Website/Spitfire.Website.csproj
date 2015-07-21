@@ -200,6 +200,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\Core\Components\Profiles\profiles.js" />
     <Content Include="assets\Core\Layouts\Search\Images\Google\chrome-48.png" />
     <Content Include="assets\Core\Layouts\Search\Images\Google\close_sm.gif" />
     <Content Include="assets\Core\Layouts\Search\Images\Google\google-favicon-logo-vector-400x400.png" />

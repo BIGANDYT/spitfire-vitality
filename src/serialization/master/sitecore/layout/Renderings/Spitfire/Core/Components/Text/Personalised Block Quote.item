@@ -33,8 +33,15 @@ content-length: 52
 ----version----
 language: en
 version: 1
-revision: 0c9312e5-cc9d-4a2d-8241-43d7585d767b
+revision: f7fdc8d9-047e-4ae0-be49-fa9139b0c131
 
+----field----
+field: {4867D192-326A-4AA4-81EF-EA430E224AFF}
+name: Css assets
+key: css assets
+content-length: 43
+
+/assets/Core/Components/Text/BlockQuote.css
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -48,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-0c9312e5-cc9d-4a2d-8241-43d7585d767b
+f7fdc8d9-047e-4ae0-be49-fa9139b0c131
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150714T090947Z
+20150721T164136Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

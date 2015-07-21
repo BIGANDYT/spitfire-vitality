@@ -59,27 +59,30 @@
             // are also cached so we can process them elsewhere in the rendering pipeline.
             if (!preventAddToCache)
             {
-                var rendering = RenderingContext.Current.Rendering;
-                if (rendering != null && rendering.Caching.Cacheable)
+                if (RenderingContext.Current != null)
                 {
-                    AssetRequirementList cachedRequirements;
-
-                    var renderingID = rendering.RenderingItem.ID;
-
-                    // Check if this is the first time we've seen this rendering during this page request
-                    // If so, start from fresh with a new list of requirements
-                    if (!seenRenderings.Contains(renderingID))
+                    var rendering = RenderingContext.Current.Rendering;
+                    if (rendering != null && rendering.Caching.Cacheable)
                     {
-                        seenRenderings.Add(renderingID);
-                        cachedRequirements = new AssetRequirementList();
-                    }
-                    else
-                    {
-                        cachedRequirements = Cache.Get(renderingID) ?? new AssetRequirementList();
-                    }
+                        AssetRequirementList cachedRequirements;
 
-                    cachedRequirements.Add(requirement);
-                    Cache.Set(renderingID, cachedRequirements);
+                        var renderingID = rendering.RenderingItem.ID;
+
+                        // Check if this is the first time we've seen this rendering during this page request
+                        // If so, start from fresh with a new list of requirements
+                        if (!seenRenderings.Contains(renderingID))
+                        {
+                            seenRenderings.Add(renderingID);
+                            cachedRequirements = new AssetRequirementList();
+                        }
+                        else
+                        {
+                            cachedRequirements = Cache.Get(renderingID) ?? new AssetRequirementList();
+                        }
+
+                        cachedRequirements.Add(requirement);
+                        Cache.Set(renderingID, cachedRequirements);
+                    }
                 }
             }
 
@@ -163,24 +166,24 @@
             return new HtmlString(sb.ToString());
         }
 
-        public void AddJavaScriptFile(string file)
+        public void AddJavaScriptFile(string file, bool preventAddToCache = false)
         {
-            Add(new AssetRequirement(AssetType.JavaScript, file));
+            Add(new AssetRequirement(AssetType.JavaScript, file), preventAddToCache);
         }
 
-        public void AddJavaScriptInline(string inline, string addOnceToken)
+        public void AddJavaScriptInline(string inline, string addOnceToken, bool preventAddToCache = false)
         {
-            Add(new AssetRequirement(AssetType.JavaScript, null, inline, addOnceToken));
+            Add(new AssetRequirement(AssetType.JavaScript, null, inline, addOnceToken), preventAddToCache);
         }
 
-        public void AddCssFile(string file)
+        public void AddCssFile(string file, bool preventAddToCache = false)
         {
-            Add(new AssetRequirement(AssetType.Css, file));
+            Add(new AssetRequirement(AssetType.Css, file), preventAddToCache);
         }
 
-        public void AddCssInline(string inline, string addOnceToken)
+        public void AddCssInline(string inline, string addOnceToken, bool preventAddToCache = false)
         {
-            Add(new AssetRequirement(AssetType.Css, null, inline, addOnceToken));
+            Add(new AssetRequirement(AssetType.Css, null, inline, addOnceToken), preventAddToCache);
         }
     }
 }

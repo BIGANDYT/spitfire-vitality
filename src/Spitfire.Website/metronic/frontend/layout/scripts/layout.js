@@ -264,51 +264,21 @@ var Layout = function ($) {
         });
     }
 
-    var handleTheme = function () {
-    
-        var panel = $('.color-panel');
-    
-        // handle theme colors
-        var setColor = function (color) {
-            $('#style-color').attr("href", "../../assets/frontend/layout/css/themes/" + color + ".css");
-            $('.corporate .site-logo img').attr("src", "../../assets/frontend/layout/img/logos/logo-corp-" + color + ".png");
-            $('.ecommerce .site-logo img').attr("src", "../../assets/frontend/layout/img/logos/logo-shop-" + color + ".png");
-        }
-
-        $('.icon-color', panel).click(function () {
-            $('.color-mode').show();
-            $('.icon-color-close').show();
-        });
-
-        $('.icon-color-close', panel).click(function () {
-            $('.color-mode').hide();
-            $('.icon-color-close').hide();
-        });
-
-        $('li', panel).click(function () {
-            var color = $(this).attr("data-style");
-            setColor(color);
-            $('.inline li', panel).removeClass("current");
-            $(this).addClass("current");
-        });
-    }
-	
     return {
         init: function () {
             // init core variables
-            handleTheme();
-            handleInit();
-            handleResponsiveOnResize();
-            handleIEFixes();
-            handleSearch();
-            handleFancybox();
-            handleDifInits();
-            handleSidebarMenu();
-            handleAccordions();
-            handleMenu();
-            handleScrollers();
-            handleSubMenuExt();
-            handleMobiToggler();
+            //handleInit();
+            //handleResponsiveOnResize();
+            //handleIEFixes();
+            //handleSearch();
+            //handleFancybox();
+            //handleDifInits();
+            //handleSidebarMenu();
+            //handleAccordions();
+            //handleMenu();
+            //handleScrollers();
+            //handleSubMenuExt();
+            //handleMobiToggler();
         },
 
         initUniform: function (els) {
