@@ -410,17 +410,12 @@
 		margin-bottom: 10px;
 	}
 
-	.recent-work .owl-carousel {
-		margin-left: -10px;
-	}
 	.our-clients .owl-carousel {
 		margin-left: -2px;
 	}
-	.recent-work .owl-carousel,
 	.our-clients .owl-carousel {
 		padding-top: 30px;
 	}
-	.recent-work .owl-buttons,
 	.our-clients .owl-buttons {
 		top: 0;
 		left: -3px;
@@ -431,14 +426,6 @@
 
 	.testimonials-v1 {
 		padding-top: 40px;
-	}
-
-	.recent-work .recent-work-item .fa {
-		width: 36px;
-		height: 36px;
-		margin-top: -18px;
-		font-size: 14px;
-		padding: 12px;
 	}
 
 	.recent-news-inner {

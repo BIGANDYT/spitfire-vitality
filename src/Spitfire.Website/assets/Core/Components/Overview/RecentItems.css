@@ -1,0 +1,128 @@
+﻿/* Recent Works */
+.recent-work {
+    position: relative;
+}
+
+    .recent-work a:hover {
+        text-decoration: none;
+    }
+
+    .recent-work h2,
+    .ecommerce .recent-work h2 {
+        margin: 3px 0 5px;
+    }
+
+        .recent-work h2 a {
+            color: #3e4d5c;
+        }
+
+            .recent-work h2 a:hover {
+                color: #E02222;
+            }
+
+.recent-work-item {
+    padding-left: 10px;
+}
+
+.recent-work .owl-buttons {
+    left: -74px;
+    right: auto;
+    top: 0;
+}
+
+.recent-work .recent-work-item a.recent-work-description {
+    padding: 10px;
+    display: block;
+    background: #fff;
+}
+
+.recent-work .recent-work-item:hover a.recent-work-description {
+    background: #E6400C;
+    transition: all 0.9s ease;
+    -o-transition: all 0.9s ease;
+    -moz-transition: all 0.9s ease;
+    -webkit-transition: all 0.9s ease;
+}
+
+.recent-work .recent-work-item strong {
+    color: #000;
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.recent-work .recent-work-item b {
+    color: #656565;
+    font-weight: 300;
+}
+
+.recent-work .recent-work-item:hover b,
+.recent-work .recent-work-item:hover strong {
+    color: #fff;
+}
+
+.recent-work .recent-work-item em {
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+.recent-work .recent-work-item .fa {
+    color: #fff;
+    padding: 16px 30px 16px 18px;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    width: 47px;
+    height: 47px;
+    margin-top: -23.5px;
+    border-radius: 47px;
+    background: rgba(0,0,0,0.5);
+    transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
+}
+
+    .recent-work .recent-work-item .fa:hover {
+        color: #E02222;
+    }
+
+.recent-work .recent-work-item .fa-link {
+    left: -100px;
+}
+
+.recent-work .recent-work-item .fa-search {
+    right: -100px;
+}
+
+.recent-work .recent-work-item:hover .fa-link {
+    left: 30%;
+}
+
+.recent-work .recent-work-item:hover .fa-search {
+    right: 30%;
+}
+
+@media (max-width: 992px) {
+    .recent-work .owl-carousel {
+        margin-left: -10px;
+    }
+
+    .recent-work .owl-carousel {
+        padding-top: 30px;
+    }
+
+    .recent-work .owl-buttons {
+        top: 0;
+        left: -3px;
+    }
+
+    .recent-work .recent-work-item .fa {
+        width: 36px;
+        height: 36px;
+        margin-top: -18px;
+        font-size: 14px;
+        padding: 12px;
+    }
+}

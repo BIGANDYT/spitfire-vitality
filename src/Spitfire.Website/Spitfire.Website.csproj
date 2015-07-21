@@ -200,6 +200,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\Core\Components\Overview\RecentItems.css" />
     <Content Include="assets\Core\Components\Profiles\profiles.js" />
     <Content Include="assets\Core\Layouts\Search\Images\Google\chrome-48.png" />
     <Content Include="assets\Core\Layouts\Search\Images\Google\close_sm.gif" />
@@ -210,6 +211,14 @@
     <Content Include="assets\Core\Layouts\Search\Images\Google\nav_logo170.png" />
     <Content Include="assets\Core\Layouts\Search\Images\Google\nav_logo170_hr.png" />
     <Content Include="assets\Core\Layouts\Search\Images\Google\nav_logo83.png" />
+    <Content Include="assets\Global\App\owl.js" />
+    <Content Include="assets\Global\Plugins\owl-carousel\AjaxLoader.gif" />
+    <Content Include="assets\Global\Plugins\owl-carousel\grabbing.png" />
+    <Content Include="assets\Global\Plugins\owl-carousel\owl.carousel.css" />
+    <Content Include="assets\Global\Plugins\owl-carousel\owl.carousel.js" />
+    <Content Include="assets\Global\Plugins\owl-carousel\owl.carousel.min.js" />
+    <Content Include="assets\Global\Plugins\owl-carousel\owl.theme.css" />
+    <Content Include="assets\Global\Plugins\owl-carousel\owl.transitions.css" />
     <Content Include="Content\animate.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />

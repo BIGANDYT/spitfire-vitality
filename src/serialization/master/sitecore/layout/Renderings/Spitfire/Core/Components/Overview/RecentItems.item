@@ -17,6 +17,13 @@ content-length: 50
 
 /Views/Core/Components/Overview/RecentItems.cshtml
 ----field----
+field: {4867D192-326A-4AA4-81EF-EA430E224AFF}
+name: Css assets
+key: css assets
+content-length: 48
+
+/assets/Core/Components/Overview/RecentItems.css
+----field----
 field: {3D08DB46-2267-41B0-BC52-BE69FD618633}
 name: Cacheable
 key: cacheable
@@ -33,7 +40,7 @@ content-length: 0
 ----version----
 language: en
 version: 1
-revision: 6f5b2c28-d742-4caa-89fd-24a9e384f2cc
+revision: 4c9a4225-12d4-4fa5-bcaa-f7e597601666
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -48,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-6f5b2c28-d742-4caa-89fd-24a9e384f2cc
+4c9a4225-12d4-4fa5-bcaa-f7e597601666
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150716T173312Z
+20150721T183420Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
