@@ -21,13 +21,12 @@
         /// <param name="item">
         ///     Sitecore item.
         /// </param>
-        /// <param name="link">?? Never used</param>
         /// <returns>
         /// Link Item Url value.
         /// </returns>
         /// <exception cref="ArgumentNullException">Item does not exist excpetion.
         /// </exception>
-        public static string Url(this Item item, ID link)
+        public static string Url(this Item item)
         {
             if (item == null)
             {

@@ -27,7 +27,7 @@
             if (!string.IsNullOrEmpty(rendering["Parameters"]))
             {
                 NameValueCollection parameters = WebUtil.ParseUrlParameters(rendering["Parameters"]);
-                this.ShowButton = MainUtil.GetBool(parameters["Show Button"], false);
+                ShowButton = MainUtil.GetBool(parameters["Show Button"], false);
             }
         }
     }

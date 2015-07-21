@@ -5,7 +5,7 @@
 @{
     string css;
     var hoverCss = string.Empty;
-    
+
     var hoverColour = Model.Item["hover colour"];
     if (!string.IsNullOrEmpty(hoverColour))
     {
@@ -31,8 +31,10 @@
         css = blockColourItem["css"];
     }
 }
+<link href="/assets/Core/Components/Text/BlockQuote.css" rel="stylesheet">
+
 <!-- BEGIN BLOCKQUOTE BLOCK -->
-<div class="row quote-oc @css @hoverCss hover margin-bottom-30">
+<div class="row quote-v1 @css @hoverCss hover margin-bottom-30">
     <div class="col-md-9">
         <span>@Html.Sitecore().Field("quote")</span>
     </div>

@@ -1,11 +1,10 @@
 ﻿namespace Spitfire.Library.Models.Core.Scaffolding
 {
+    using Constants;
     using Sitecore.Mvc.Presentation;
 
-    using Spitfire.Library.Constants;
-
     /// <summary>
-    /// Section component inhireted Style model
+    /// Section component inherited Style model
     /// </summary>
     public class Section : Style
     {
@@ -41,9 +40,9 @@
         public override void Initialize(Rendering rendering)
         {
             base.Initialize(rendering);
-            this.Id = rendering.Parameters[ParameterConstants.Id];
-            this.SubCssClass = rendering.Parameters[ParameterConstants.Style.SubCssClass];
-            this.AnimationClass = rendering.Parameters[ParameterConstants.Style.Animation];
+            Id = rendering.Parameters[ParameterConstants.Id];
+            SubCssClass = rendering.Parameters[ParameterConstants.Style.SubCssClass];
+            AnimationClass = rendering.Parameters[ParameterConstants.Style.Animation];
         }
     }
 }

@@ -29,7 +29,7 @@
         {
             base.Initialize(rendering);
 
-            this.Teasers = this.Items;
+            Teasers = Items;
         }
     }
 }

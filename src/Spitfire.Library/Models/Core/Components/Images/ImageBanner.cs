@@ -3,7 +3,7 @@
     using Sitecore;
     using Sitecore.Mvc.Presentation;
 
-    using Spitfire.Library.Constants;
+    using Constants;
     using Spitfire.SitecoreExtensions.Extensions;
 
     using Convert = System.Convert;
@@ -83,15 +83,15 @@
 
             var datasource = Context.Database.GetItem(rendering.DataSource);
 
-            this.BackgroundImageUrl = datasource.ImageUrl(FieldConstants.Banner.BackgroundImage.ToString());
+            BackgroundImageUrl = datasource.ImageUrl(FieldConstants.Banner.BackgroundImage.ToString());
 
-            this.TitleColor = datasource[FieldConstants.Banner.TitleColor];
-            this.SubTitleColor = datasource[FieldConstants.Banner.SubtitleColor];
-            this.LinkColor = datasource[FieldConstants.Banner.LinkColor];
+            TitleColor = datasource[FieldConstants.Banner.TitleColor];
+            SubTitleColor = datasource[FieldConstants.Banner.SubtitleColor];
+            LinkColor = datasource[FieldConstants.Banner.LinkColor];
             var y = double.Parse(datasource[FieldConstants.Banner.LogoTop]);
-            this.LogoTop = Convert.ToInt32(30 * y);
+            LogoTop = Convert.ToInt32(30 * y);
             var x = double.Parse(datasource[FieldConstants.Banner.LogoLeft]);
-            this.LogoLeft = Convert.ToInt32(8 * x);
+            LogoLeft = Convert.ToInt32(8 * x);
             var bannerHeightValue = datasource[FieldConstants.Banner.BannerHeight];
             if (bannerHeightValue == null)
             {
@@ -99,7 +99,7 @@
             }
 
             var z = double.Parse(bannerHeightValue);
-            this.BannerHeight = Convert.ToInt32(z * 100);
+            BannerHeight = Convert.ToInt32(z * 100);
         }
     }
 }

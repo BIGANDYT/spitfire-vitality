@@ -2,7 +2,7 @@
 {
     using Sitecore.Mvc.Presentation;
 
-    using Spitfire.Library.Constants;
+    using Constants;
 
     /// <summary>
     /// Aside component model 
@@ -32,8 +32,8 @@
         public override void Initialize(Rendering rendering)
         {
             base.Initialize(rendering);
-            this.Id = rendering.Parameters[ParameterConstants.Id];
-            this.SubCssClass = rendering.Parameters[ParameterConstants.Style.SubCssClass];
+            Id = rendering.Parameters[ParameterConstants.Id];
+            SubCssClass = rendering.Parameters[ParameterConstants.Style.SubCssClass];
         }
     }
 }

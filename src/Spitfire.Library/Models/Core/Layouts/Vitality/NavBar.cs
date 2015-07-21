@@ -6,7 +6,7 @@
     using Sitecore.Data.Items;
     using Sitecore.Mvc.Presentation;
 
-    using Spitfire.Library.Constants;
+    using Constants;
 
     /// <summary>
     /// Nav bar component
@@ -46,12 +46,12 @@
             base.Initialize(rendering);
 
             // Todo: Possibly use Sitecore Search? 
-            this.NavRoot = MyContext.SiteRoot.Axes.SelectSingleItem("./*/*[@@tid='" + TemplateIds.NavBar + "']");
+            NavRoot = MyContext.SiteRoot.Axes.SelectSingleItem("./*/*[@@tid='" + TemplateIds.NavBar + "']");
 
-            if (this.NavRoot != null)
+            if (NavRoot != null)
             {
-                this.BackgroundColor = this.NavRoot[FieldConstants.NavBar.BackgroundColor];
-                this.NavItems = this.NavRoot.Children.Where(item => item.TemplateID == TemplateIds.NavItem).ToList();
+                BackgroundColor = NavRoot[FieldConstants.NavBar.BackgroundColor];
+                NavItems = NavRoot.Children.Where(item => item.TemplateID == TemplateIds.NavItem).ToList();
             }
         }
     }

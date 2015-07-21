@@ -8,7 +8,7 @@
     using Sitecore.Data.Items;
     using Sitecore.Mvc.Presentation;
 
-    using Spitfire.Library.Constants;
+    using Constants;
 
     /// <summary>
     /// OwlTeaser component model
@@ -39,27 +39,27 @@
         {
             base.Initialize(rendering);
 
-            if (!string.IsNullOrEmpty(this.Item[FieldConstants.TeaserGroup.Source]))
+            if (!string.IsNullOrEmpty(Item[FieldConstants.TeaserGroup.Source]))
             {
-                MultilistField source = this.Item.Fields[FieldConstants.TeaserGroup.Source];
+                MultilistField source = Item.Fields[FieldConstants.TeaserGroup.Source];
 
                 if (source != null)
                 {
-                   this.OwlTeasers = source.GetItems().ToList();
+                    OwlTeasers = source.GetItems().ToList();
                 }
             }
 
             // Findout dispaly social icons or not; this is droplist field
-           this.SocialDisplay = this.Item[FieldConstants.TeaserGroup.Display];
+            SocialDisplay = Item[FieldConstants.TeaserGroup.Display];
 
-            if (string.IsNullOrEmpty(this.SocialDisplay) || string.Equals(this.SocialDisplay, "show", StringComparison.CurrentCultureIgnoreCase))
+            if (string.IsNullOrEmpty(SocialDisplay) || string.Equals(SocialDisplay, "show", StringComparison.CurrentCultureIgnoreCase))
             {
-                this.SocialDisplay = "show";
+                SocialDisplay = "show";
             }
 
-            if (string.Equals(this.SocialDisplay, "none", StringComparison.CurrentCultureIgnoreCase))
+            if (string.Equals(SocialDisplay, "none", StringComparison.CurrentCultureIgnoreCase))
             {
-               this.SocialDisplay = "none";
+                SocialDisplay = "none";
             }
         }
     }

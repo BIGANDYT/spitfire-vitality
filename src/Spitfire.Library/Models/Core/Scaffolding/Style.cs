@@ -2,7 +2,7 @@
 {
     using Sitecore.Mvc.Presentation;
 
-    using Spitfire.Library.Constants;
+    using Constants;
     using Spitfire.SitecoreExtensions.Extensions;
 
     /// <summary>
@@ -41,9 +41,9 @@
         /// </param>
         public virtual void Initialize(Rendering rendering)
         {
-            this.CssStyle = rendering.Parameters[ParameterConstants.Style.CssStyle];
-            this.CssClass = rendering.Parameters[ParameterConstants.Style.CssClass];
-            this.BackgroundImgUrl = rendering.ImageUrl(ParameterConstants.Style.BackgroundImageUrl);
+            CssStyle = rendering.Parameters[ParameterConstants.Style.CssStyle];
+            CssClass = rendering.Parameters[ParameterConstants.Style.CssClass];
+            BackgroundImgUrl = rendering.ImageUrl(ParameterConstants.Style.BackgroundImageUrl);
         }
     }
 }

@@ -7,7 +7,7 @@
     using Sitecore.Data.Items;
     using Sitecore.Mvc.Presentation;
 
-    using Spitfire.Library.Constants;
+    using Constants;
 
     /// <summary>
     /// The base class for multilist models
@@ -27,13 +27,13 @@
         {
             base.Initialize(rendering);
 
-            if (!string.IsNullOrEmpty(this.Item[FieldConstants.FieldNames.SourceField]))
+            if (!string.IsNullOrEmpty(Item[FieldConstants.FieldNames.SourceField]))
             {
-                MultilistField source = this.Item.Fields[FieldConstants.FieldNames.SourceField];
+                MultilistField source = Item.Fields[FieldConstants.FieldNames.SourceField];
 
                 if (source != null)
                 {
-                    this.Items = source.GetItems().ToList();
+                    Items = source.GetItems().ToList();
                 }
             }
         }

@@ -387,7 +387,7 @@
             // vitality
             bundles.Add(new StyleBundle("~/vitality/css").Include("~/Content/plugins/vitality/vitality-red.css", "~/Content/plugins/vitality/vitality-custom.css"));
 
-            bundles.Add(new StyleBundle("~/finance/css").Include("~/Content/finance.css"));
+            bundles.Add(new StyleBundle("~/finance/css").Include("~/Content/finance.css", "~/Content/global.css"));
 
             // Vitality script
             bundles.Add(new ScriptBundle("~/bundles/vitality").Include("~/Scripts/app/vitality.js"));

@@ -15,8 +15,8 @@
         /// <param name="message">The specific details about the issue</param>
         public HealthIssue(HealthIssueSeverity severity, string message)
         {
-            this.Message = message;
-            this.Severity = severity;
+            Message = message;
+            Severity = severity;
         }
         
         /// <summary>

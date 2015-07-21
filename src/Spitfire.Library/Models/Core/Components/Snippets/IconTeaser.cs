@@ -51,9 +51,9 @@
 
             if (parameters != null && parameters.Count > 0)
             {
-                this.TitleColor = parameters["TitleColor"];
-                this.TitleFontSize = parameters["TitleFontSize"];
-                this.Background = parameters["Background"];
+                TitleColor = parameters["TitleColor"];
+                TitleFontSize = parameters["TitleFontSize"];
+                Background = parameters["Background"];
             }
         }
     }

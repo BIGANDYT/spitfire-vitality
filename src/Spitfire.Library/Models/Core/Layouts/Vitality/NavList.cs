@@ -26,9 +26,9 @@
         public override void Initialize(Rendering rendering)
         {
             base.Initialize(rendering);
-            if (this.Item != null)
+            if (Item != null)
             {
-                this.Data = this.Item.Children.OrderBy(x => x.Name).ToList();
+                Data = Item.Children.OrderBy(x => x.Name).ToList();
             }
         }
     }

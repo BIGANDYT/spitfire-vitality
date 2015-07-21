@@ -21,6 +21,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\</SolutionDir>
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -199,21 +200,23 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\images\Google\chrome-48.png" />
-    <Content Include="assets\images\Google\close_sm.gif" />
-    <Content Include="assets\images\Google\google-favicon-logo-vector-400x400.png" />
-    <Content Include="assets\images\Google\logo3w.png" />
-    <Content Include="assets\images\Google\map.gif" />
-    <Content Include="assets\images\Google\mgyhp_sm.png" />
-    <Content Include="assets\images\Google\nav_logo170.png" />
-    <Content Include="assets\images\Google\nav_logo170_hr.png" />
-    <Content Include="assets\images\Google\nav_logo83.png" />
+    <Content Include="assets\Core\Layouts\Search\Images\Google\chrome-48.png" />
+    <Content Include="assets\Core\Layouts\Search\Images\Google\close_sm.gif" />
+    <Content Include="assets\Core\Layouts\Search\Images\Google\google-favicon-logo-vector-400x400.png" />
+    <Content Include="assets\Core\Layouts\Search\Images\Google\logo3w.png" />
+    <Content Include="assets\Core\Layouts\Search\Images\Google\map.gif" />
+    <Content Include="assets\Core\Layouts\Search\Images\Google\mgyhp_sm.png" />
+    <Content Include="assets\Core\Layouts\Search\Images\Google\nav_logo170.png" />
+    <Content Include="assets\Core\Layouts\Search\Images\Google\nav_logo170_hr.png" />
+    <Content Include="assets\Core\Layouts\Search\Images\Google\nav_logo83.png" />
     <Content Include="Content\animate.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="assets\Core\Components\Text\BlockQuote.css" />
     <Content Include="Content\finance.css" />
+    <Content Include="Content\global.css" />
     <Content Include="Content\plugins\animate\animate.css" />
     <Content Include="Content\plugins\fontawesome\css\font-awesome.css" />
     <Content Include="Content\plugins\fontawesome\fonts\fontawesome-webfont.svg" />
@@ -227,6 +230,7 @@
     <Content Include="Content\plugins\rrsocialshare\rrssb.css" />
     <Content Include="Content\plugins\vitality\vitality-custom.css" />
     <Content Include="Content\plugins\vitality\vitality-red.css" />
+    <Content Include="Content\microsoft.css" />
     <Content Include="Content\themes\Blue\Blue.css" />
     <Content Include="Content\themes\Blue\header-bg.png" />
     <Content Include="Content\themes\Gold\Gold.css" />
@@ -357,7 +361,6 @@
     <Content Include="Views\Core\Components\Portfolio\Clients.cshtml" />
     <Content Include="Views\Core\Components\Contact\Contact.cshtml" />
     <Content Include="Views\Core\Components\Fxm\FxmFeatured.cshtml" />
-    <Content Include="Views\Core\Components\News\HomeNews.cshtml" />
     <Content Include="Views\Core\Components\Text\ImportantInfo.cshtml" />
     <Content Include="Views\Core\Components\Overview\ItemList.cshtml" />
     <Content Include="Views\Core\Components\Navigation\LeftMenu.cshtml" />

@@ -83,20 +83,20 @@
                 return;
             }
 
-            this.TitleColor = parameters["TitleColor"];
-            this.TitleFontSize = parameters["TitleFontSize"];
-            this.Background = parameters["Background"];
-            this.DivHeight = parameters["CompHeight"];
-            this.ImageHeight = !string.IsNullOrEmpty(parameters["ImageHeight"]) ? parameters["ImageHeight"] : "auto";
-            this.CssClass = MainUtil.GetBool(parameters["Image Left"], false) ? string.Empty : "image-right";
+            TitleColor = parameters["TitleColor"];
+            TitleFontSize = parameters["TitleFontSize"];
+            Background = parameters["Background"];
+            DivHeight = parameters["CompHeight"];
+            ImageHeight = !string.IsNullOrEmpty(parameters["ImageHeight"]) ? parameters["ImageHeight"] : "auto";
+            CssClass = MainUtil.GetBool(parameters["Image Left"], false) ? string.Empty : "image-right";
 
             if (!string.IsNullOrEmpty(parameters["ImageWidth"]))
             {
-                this.ImageWidth = parameters["ImageWidth"];
+                ImageWidth = parameters["ImageWidth"];
             }
             else
             {
-                this.ImageHeight = "auto";
+                ImageHeight = "auto";
             }
         }
     }

@@ -5,11 +5,9 @@
     using System.IO;
     using System.Linq;
     using System.Web;
+    using Constants;
+    using Models.Health;
     using Sitecore.Data;
-    using Sitecore.Data.Items;
-
-    using Spitfire.Library.Constants;
-    using Spitfire.Library.Models.Health;
 
     /// <summary>
     /// Health Service responsible for preparing and returning a "HealthResult" analysis
@@ -61,7 +59,7 @@
             // Check if the renderings root item exists
             if (renderingsRootItem == null)
             {
-                this.AddRenderingIssue(new HealthIssue(HealthIssueSeverity.Error, "RenderingRootItem not found"));
+                AddRenderingIssue(new HealthIssue(HealthIssueSeverity.Error, "RenderingRootItem not found"));
                 return;
             }
 
@@ -85,7 +83,7 @@
                         var path = renderingItem["Path"].ToLower();
                         if (string.IsNullOrEmpty(path))
                         {
-                            this.AddRenderingIssue(
+                            AddRenderingIssue(
                                 new HealthIssueRendering(
                                     HealthIssueSeverity.Error,
                                     "Rendering's path not set",
@@ -96,7 +94,7 @@
                         // Does the rendering exist on the filesystem?
                         if (!viewRenderingFiles.Contains(path))
                         {
-                            this.AddRenderingIssue(
+                            AddRenderingIssue(
                               new HealthIssueRendering(
                                   HealthIssueSeverity.Error,
                                   "File not found: " + path,

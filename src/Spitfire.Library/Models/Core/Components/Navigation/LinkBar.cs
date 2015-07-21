@@ -5,7 +5,7 @@
     using Sitecore.Mvc.Presentation;
     using Sitecore.Web;
 
-    using Spitfire.Library.Constants;
+    using Constants;
 
     /// <summary>
     /// Model for Linkbar component redering
@@ -77,12 +77,12 @@
 
             if (parameters != null && parameters.Count > 0)
             {
-                this.Color = parameters["Color"];
-                this.ColorActive = parameters["ColorActive"];
-                this.BackgroundColor = parameters["Background"];
-                this.BackgroundColorActive = parameters["BackgroundActive"];
-                this.FontSize = parameters["FontSize"];
-                this.CssClass = parameters[ParameterConstants.Style.CssClass];
+                Color = parameters["Color"];
+                ColorActive = parameters["ColorActive"];
+                BackgroundColor = parameters["Background"];
+                BackgroundColorActive = parameters["BackgroundActive"];
+                FontSize = parameters["FontSize"];
+                CssClass = parameters[ParameterConstants.Style.CssClass];
             }
         }
     }

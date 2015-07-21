@@ -16,7 +16,7 @@ namespace Spitfire.Library.Models.Health
         public HealthIssueRendering(HealthIssueSeverity severity, string message, Item item)
             : base(severity, message, item)
         {
-            this.FilePath = item["Path"];
+            FilePath = item["Path"];
         }
 
         /// <summary>

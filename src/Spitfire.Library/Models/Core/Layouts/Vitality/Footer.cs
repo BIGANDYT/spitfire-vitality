@@ -2,7 +2,7 @@
 {
     using Sitecore.Mvc.Presentation;
 
-    using Spitfire.Library.Constants;
+    using Constants;
     using Spitfire.SitecoreExtensions.Extensions;
 
     /// <summary>
@@ -34,8 +34,8 @@
         public override void Initialize(Rendering rendering)
         {
             base.Initialize(rendering);
-            this.BackgroundImageUrl = this.Item.ImageUrl(FieldConstants.Footer.BackgroundImage.ToString());
-            this.FooterHeight = this.Item[FieldConstants.Footer.FooterHeight];
+            BackgroundImageUrl = Item.ImageUrl(FieldConstants.Footer.BackgroundImage.ToString());
+            FooterHeight = Item[FieldConstants.Footer.FooterHeight];
         }
     }
 }

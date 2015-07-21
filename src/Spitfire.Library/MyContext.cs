@@ -1,14 +1,16 @@
 ﻿namespace Spitfire.Library
 {
     using System;
+    using System.Collections.Generic;
     using System.Linq;
-
+    using Constants;
     using Sitecore;
     using Sitecore.Caching;
     using Sitecore.ContentSearch;
     using Sitecore.Data.Items;
 
-    using Spitfire.Library.Constants;
+    using Spitfire.Library.Models;
+    using Spitfire.Library.Service;
 
     /// <summary>
     /// A helper for find related information of the Context
@@ -127,6 +129,37 @@
         public static bool IsMaster
         {
             get { return Context.Database != null && Context.Database.Name == "master"; }
+        }
+
+        /// <summary>
+        /// Gets a reference of <see cref="JavaScriptService"/> for this page request
+        /// </summary>
+        public static JavaScriptService JavaScriptService
+        {
+            get
+            {
+                const string Key = "JavaScriptService";
+                if (Items[Key] == null)
+                {
+                    Items[Key] = new JavaScriptService();
+                }
+
+                return (JavaScriptService)Items[Key];
+            }
+        }
+
+        public static List<string> RequiredCss
+        {
+            get
+            {
+                const string Key = "RequiredCss";
+                if (Items[Key] == null)
+                {
+                    Items[Key] = new List<string>();
+                }
+
+                return (List<string>)Items[Key];
+            }
         }
     }
 }

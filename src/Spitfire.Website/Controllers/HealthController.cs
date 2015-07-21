@@ -2,9 +2,12 @@
 {
     using System.Web.Http;
 
-    using Spitfire.Library.Models.Health;
-    using Spitfire.Library.Service;
+    using Library.Models.Health;
+    using Library.Service;
 
+    /// <summary>
+    /// Health ApiController
+    /// </summary>
     public class HealthController : ApiController
     {
         [HttpGet]

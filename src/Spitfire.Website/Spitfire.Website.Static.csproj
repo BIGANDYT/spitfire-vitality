@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -708,15 +709,8 @@
   <ItemGroup>
     <Content Include="metronic\fieldrequired.png" />
     <Content Include="metronic\frontend\layout\css\custom.css" />
-    <Content Include="metronic\frontend\layout\css\style-override.css" />
     <Content Include="metronic\frontend\layout\css\style-responsive.css" />
     <Content Include="metronic\frontend\layout\css\style.css" />
-    <Content Include="metronic\frontend\layout\css\themes\backup\blue.css" />
-    <Content Include="metronic\frontend\layout\css\themes\backup\green.css" />
-    <Content Include="metronic\frontend\layout\css\themes\backup\grey.css" />
-    <Content Include="metronic\frontend\layout\css\themes\backup\orange.css" />
-    <Content Include="metronic\frontend\layout\css\themes\backup\red.css" />
-    <Content Include="metronic\frontend\layout\css\themes\backup\turquoise.css" />
     <Content Include="metronic\frontend\layout\css\themes\blue.css" />
     <Content Include="metronic\frontend\layout\css\themes\grey.css" />
     <Content Include="metronic\frontend\layout\css\themes\orange.css" />

@@ -17,8 +17,8 @@ namespace Spitfire.Library.Models.Health
         protected HealthIssueItem(HealthIssueSeverity severity, string message, Item item)
             : base(severity, message)
         {
-            this.ID = item.ID;
-            this.Path = item.Paths.Path;
+            ID = item.ID;
+            Path = item.Paths.Path;
         }
 
         /// <summary>

@@ -5,7 +5,7 @@
     using Sitecore.Mvc.Presentation;
     using Sitecore.Resources.Media;
 
-    using Spitfire.Library.Constants;
+    using Constants;
 
     /// <summary>
     /// The model for the video. 
@@ -66,21 +66,21 @@
         /// <param name="rendering">The Rendering to use</param>
         public void Initialize(Rendering rendering)
         {
-            this.Item = !string.IsNullOrWhiteSpace(rendering.DataSource)
+            Item = !string.IsNullOrWhiteSpace(rendering.DataSource)
                 ? Context.Database.GetItem(rendering.DataSource)
                 : Context.Item;
 
-            if (this.Item == null)
+            if (Item == null)
             {
                 return;
             }
 
-            this.VideoPath = MediaManager.GetMediaUrl(this.Item);
-            this.VideoType = this.Item.MimeType;
+            VideoPath = MediaManager.GetMediaUrl(Item);
+            VideoType = Item.MimeType;
 
-            this.Loop = MainUtil.GetBool(rendering.Parameters[ParameterConstants.Video.Loop], false);
-            this.Autoplay = MainUtil.GetBool(rendering.Parameters[ParameterConstants.Video.Autoplay], false);
-            this.Mute = MainUtil.GetBool(rendering.Parameters[ParameterConstants.Video.Mute], false);
+            Loop = MainUtil.GetBool(rendering.Parameters[ParameterConstants.Video.Loop], false);
+            Autoplay = MainUtil.GetBool(rendering.Parameters[ParameterConstants.Video.Autoplay], false);
+            Mute = MainUtil.GetBool(rendering.Parameters[ParameterConstants.Video.Mute], false);
         }
     }
 }

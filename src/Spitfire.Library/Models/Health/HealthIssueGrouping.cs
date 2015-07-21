@@ -12,8 +12,8 @@
         /// </summary>
         public HealthIssueGrouping()
         {
-            this.Totals = new HealthTotals();
-            this.Issues = new List<HealthIssue>();
+            Totals = new HealthTotals();
+            Issues = new List<HealthIssue>();
         }
 
         /// <summary>

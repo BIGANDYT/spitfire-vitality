@@ -28,7 +28,7 @@
         {
             base.Initialize(rendering);
 
-            this.PortfolioItems = this.Items;
+            PortfolioItems = Items;
         }
     }
 }

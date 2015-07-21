@@ -7,7 +7,7 @@
     using Sitecore.Data.Items;
     using Sitecore.Mvc.Presentation;
 
-    using Spitfire.Library.Constants;
+    using Constants;
 
     /// <summary>
     /// Teaser gallery component
@@ -30,13 +30,13 @@
         public override void Initialize(Rendering rendering)
         {
             base.Initialize(rendering);
-            if (!string.IsNullOrEmpty(this.Item[FieldConstants.TeaserGroup.Source]))
+            if (!string.IsNullOrEmpty(Item[FieldConstants.TeaserGroup.Source]))
             {
-                MultilistField teasers = this.Item.Fields[FieldConstants.TeaserGroup.Source];
+                MultilistField teasers = Item.Fields[FieldConstants.TeaserGroup.Source];
 
                 if (teasers != null)
                 {
-                    this.TeaserItems = teasers.GetItems().ToList();
+                    TeaserItems = teasers.GetItems().ToList();
                 }
             }
         }
