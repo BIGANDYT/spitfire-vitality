@@ -1,9 +1,9 @@
 ----item----
 version: 1
-id: {4A2C2573-6DE6-4583-8354-3FF45D4EBD61}
+id: {F8269597-D730-4A05-AFF9-634C62D6B961}
 database: master
 path: /sitecore/templates/Spitfire/Core/Content/Search Result/Search/Rating
-parent: {673A6DE6-98F9-4EAC-88EA-9DCBC15BD8EA}
+parent: {7B150818-33E1-4865-B0B2-23BC5B1D3C8F}
 name: Rating
 master: {00000000-0000-0000-0000-000000000000}
 template: {455A3E98-A627-4B40-8035-E683A0331AC7}
@@ -22,11 +22,11 @@ name: __Sortorder
 key: __sortorder
 content-length: 3
 
-800
+400
 ----version----
 language: en
 version: 1
-revision: ccad135f-df4b-44fe-94bb-bbbeb91e743b
+revision: 6ee07569-2e99-4a45-9b5a-472b63701239
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,21 +34,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20150716T161310Z
+20150721T090532Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-ccad135f-df4b-44fe-94bb-bbbeb91e743b
+6ee07569-2e99-4a45-9b5a-472b63701239
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150720T140514Z
+20150721T092632Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

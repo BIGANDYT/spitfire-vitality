@@ -1,25 +1,25 @@
 ----item----
 version: 1
-id: {6C2CC772-8472-45DE-9A9B-EA3918D23D35}
+id: {2D7BD511-923B-4AC9-BBF8-2138D5F3ED2E}
 database: master
-path: /sitecore/layout/Models/Spitfire/Core/Search/SearcheEngineResults
-parent: {7E7A7490-6C88-4F21-8BB2-05ED816D747D}
-name: SearcheEngineResults
+path: /sitecore/templates/Spitfire/Core/Pages/Search results list/__Standard Values
+parent: {5486240C-02A1-41D8-B4E3-D871E1F2040A}
+name: __Standard Values
 master: {00000000-0000-0000-0000-000000000000}
-template: {FED6A14F-0D05-4E18-B160-17C0588A2005}
-templatekey: Model
+template: {5486240C-02A1-41D8-B4E3-D871E1F2040A}
+templatekey: Search results list
 
 ----field----
-field: {EE9E23D2-181D-4172-A929-0E0B8D10313C}
-name: Model Type
-key: model type
-content-length: 68
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 22
 
-Spitfire.Library.Models.Search.SearcheEngineResults,Spitfire.Library
+Office/16x16/apple.png
 ----version----
 language: en
 version: 1
-revision: cb3d5942-6e56-4677-8b69-887ecf7e82fd
+revision: 183f8ace-fe6c-4880-b107-e6f95fce7350
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -34,7 +34,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20150717T112553Z
+20150721T094454Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-cb3d5942-6e56-4677-8b69-887ecf7e82fd
+183f8ace-fe6c-4880-b107-e6f95fce7350
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150717T140302Z
+20150721T094525Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
