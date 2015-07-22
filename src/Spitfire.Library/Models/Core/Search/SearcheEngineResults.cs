@@ -12,12 +12,18 @@
     public class SearcheEngineResults : RenderingModel
     {
         /// <summary>
-        /// Href vaule of link field
+        /// Gets Promote item from the campaign - our home page
         /// </summary>
-
         public Item PromoteItem { get; private set; }
-        public IList<Item> ChildrenItems { get; private set; }
 
+        /// <summary>
+        /// Gets child items of Google results
+        /// </summary>
+        public IList<Item> ChildrenItems { get; private set;}
+
+        /// <summary>
+        /// Get Ads items excluding promote item
+        /// </summary>
         public IList<Item> ChildrenAdsItems { get; private set; }
 
         public IList<Item> ChildrenNoAdsItems { get; private set; }

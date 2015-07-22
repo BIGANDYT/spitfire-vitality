@@ -9,6 +9,7 @@
     using Sitecore.Mvc.Presentation;
     using Sitecore.Resources.Media;
     using Sitecore.Xml;
+    using Sitecore.Xml.Xsl;
 
     /// <summary>
     /// Extension of Sitecore iems. A few common used fields of Sitecore Items. Make life slightly easier.
@@ -229,6 +230,12 @@
             }
 
             return item.Axes.SelectSingleItem("ancestor-or-self::*[@@templatekey='" + templateKey + "']");
+        }
+
+        public static string LinkFieldUrl(this Item item, string fieldName)
+        {
+            var linkUrl = new LinkUrl();
+            return linkUrl.GetUrl(item, fieldName);
         }
     }
 }

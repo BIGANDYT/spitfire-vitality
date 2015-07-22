@@ -10,13 +10,14 @@
 @{
     //Google Campaign product
     LinkField lf = (LinkField)Model.PromoteItem.Fields["Title"];
-    string url = Sitecore.Links.LinkManager.GetItemUrl(lf.TargetItem);
-    string lf_campaignId = Model.PageItem["Campaign"];
-    url += lf_campaignId;
+    string url = Model.PromoteItem.LinkFieldUrl("Title");
+    ReferenceField campfd = Model.PageItem.Fields["campaign"];
+    string lf_campaignId = "sc_camp="+campfd.TargetID.ToString();
+    string url_camp = url + lf_campaignId;
     string titleText = lf.Text;
     string shortTitle = string.Join(" ",titleText.Split(' ').Take(6));
-    string tel = Model.PromoteItem["Telephone"];
-}
+
+    }
 
 <html lang="en">
 <head>
@@ -8501,7 +8502,7 @@
                                     </div>
                                     <div class="jsb" id="gbqfbwa" style="display: none;">
                                         <button class="gbqfba" aria-label="Google Search" id="gbqfba" name="btnK"><span id="gbqfsa">Google Search</span></button>
-                                        <button class="gbqfba" aria-label="I&#39;m Feeling Lucky" onclick="if(this.form.q.value)this.checked=1;else window.top.location=&#39;/doodles/&#39;" id="gbqfbb" name="btnI"><span id="gbqfsb">I'm Feeling Lucky</span></button>
+                                        <button class="gbqfba" aria-label="I&#39;m Feeling Lucky" onclick="if(this.form.q.value)this.checked=1;" name="btnI"><span id="gbqfsb">I'm Feeling Lucky</span></button>
                                     </div>
                                     <div class="gbqfif" style="background-color: transparent; color: rgb(0, 0, 0); padding: 0px; position: absolute; white-space: pre; visibility: hidden; background-position: initial initial; background-repeat: initial initial;"></div>
                                     <input type="hidden" name="oq"><input type="hidden" name="gs_l"><input type="hidden" name="pbx" value="1">
@@ -8526,7 +8527,7 @@
                     <span id="spchb">
                         <span id="spchm">
                             <span id="mrcv"></span>
-                            <div id="mwrp"><span id="mstm"></span><span id="mshl"></span></div>
+
                         </span>
                     </span><span id="spchl"></span><span id="spchp"></span>
                 </div>
@@ -9022,7 +9023,7 @@
                                 </div>
                                 <a id="hdtb_tls" class="hdtb-tl" role="button" tabindex="0" data-ved="0CAcQ2x8">Search tools</a>
                             </div>
-                            </li></ol>
+                            
                         </div>
                     </div>
                     <div class="hdtb-td-c hdtb-td-h" aria-expanded="false" id="hdtbMenus" tabindex="0" data-ved="0CBEQ3B8">
@@ -9125,7 +9126,7 @@
                                     <div id="epbar" data-ved="0CCYQ-Cc" style="display: block;">
                                         <p id="epb-notice">Cookies help us deliver our services. By using our services, you agree to our use of cookies.</p>
                                         <div aria-label="OK" title="Clicking OK dismisses this notice." jsaction="epb.dismiss" id="epb-ok" role="button" data-ved="0CCcQ-ic">OK</div>
-                                        <a href="https://www.google.co.uk/intl/en-GB/policies/technologies/cookies/" id="epb-lm" onmousedown="return rwt(this,&#39;&#39;,&#39;&#39;,&#39;&#39;,&#39;&#39;,&#39;AFQjCNG_dfdJvnEIqRSk95S4cnqP6z9Pkg&#39;,&#39;&#39;,&#39;0CCgQ-Sc&#39;,&#39;&#39;,&#39;&#39;,event)">Learn more</a>
+
                                     </div>
                                 </div>
                                 <div id="tvcap">
@@ -9146,16 +9147,16 @@
                                             {
                                                 <li class="ads-ad" data-hveid="45">
                                                     <h3>
-                                                        <a href="@url">@titleText</a>
+                                                        <a href="@url_camp">@titleText</a>
                                                     </h3>
                                                     <div class="kv _IH ads-visurl">
                                                         <span class="_Wu">Ad</span>
                                                         <cite>
-                                                            @url
+                                                            @url_camp
                                                         </cite>
 
                                                         <div class="action-menu ab_ctl">
-                                                            <a class="clickable-dropdown-arrow ab_button" href="@Model.PromoteItem.Url(@Model.PromoteItem.ID)" id="am-b1036527074" aria-label="Result details" jsaction="ab.tdd;keydown:ab.hbke;keypress:ab.mskpe" aria-expanded="false" aria-haspopup="true" role="button" data-ved="0CC8Q7B0"><span class="mn-dwn-arw"></span></a>
+                                                            <a class="clickable-dropdown-arrow ab_button" href="@url_camp" id="am-b1036527074" aria-label="Result details" jsaction="ab.tdd;keydown:ab.hbke;keypress:ab.mskpe" aria-expanded="false" aria-haspopup="true" role="button" data-ved="0CC8Q7B0"><span class="mn-dwn-arw"></span></a>
                                                             <div class="action-menu-panel ab_dropdown" jsaction="keydown:ab.hdke;mouseover:ab.hdhne;mouseout:ab.hdhue" role="menu" tabindex="-1" data-ved="0CDAQqR8">
                                                                 <ul>
                                                                     <li class="action-menu-item ab_dropdownitem" role="menuitem" data-type="why_this_ad">
@@ -9184,13 +9185,10 @@
                                                         <div class="kv _IH ads-visurl">
                                                             <span class="_Wu">Ad</span>
                                                             <cite>
-                                                                @{
-                                                    LinkField lf_f = (LinkField)item.Fields["Title"];
-                                                    @lf_f.Url
-                                                                }
+                                                                @item.LinkFieldUrl("Title")
                                                             </cite>‎
                                                             <div class="action-menu ab_ctl">
-                                                                <a class="clickable-dropdown-arrow ab_button" href="@item.Url(item.ID)" id="am-b1036527074" aria-label="Result details" jsaction="ab.tdd;keydown:ab.hbke;keypress:ab.mskpe" aria-expanded="false" aria-haspopup="true" role="button" data-ved="0CC8Q7B0"><span class="mn-dwn-arw"></span></a>
+                                                                <a class="clickable-dropdown-arrow ab_button" href="@item.LinkFieldUrl("Title")" id="am-b1036527074" aria-label="Result details" jsaction="ab.tdd;keydown:ab.hbke;keypress:ab.mskpe" aria-expanded="false" aria-haspopup="true" role="button" data-ved="0CC8Q7B0"><span class="mn-dwn-arw"></span></a>
                                                                 <div class="action-menu-panel ab_dropdown" jsaction="keydown:ab.hdke;mouseover:ab.hdhne;mouseout:ab.hdhue" role="menu" tabindex="-1" data-ved="0CDAQqR8">
                                                                     <ul>
                                                                         <li class="action-menu-item ab_dropdownitem" role="menuitem" data-type="why_this_ad">
@@ -9226,19 +9224,21 @@
                                                         <!--m-->
                                                         <div class="rc" data-hveid="73">
                                                             <h3 class="r">
-                                                                <a href="@url">@titleText</a>
+                                                                <a href="@url_camp">@titleText</a>
                                                             </h3>
                                                             <div class="s">
                                                                 <div>
                                                                     <div class="f kv _Cu" style="white-space: nowrap">
                                                                         <cite class="_md">
-                                                                            @url
+                                                                            @url_camp
                                                                         </cite>‎
                                                                         <div class="action-menu ab_ctl">
                                                                             <a class="clickable-dropdown-arrow ab_button" href="https://www.google.co.uk/search?q=office+supplies&oq=office+supplies&aqs=chrome..69i57j69i61j0l4.3032j0j4&sourceid=chrome&espv=210&es_sm=93&ie=UTF-8#" id="am-b0" aria-label="Result details" jsaction="ab.tdd;keydown:ab.hbke;keypress:ab.mskpe" aria-expanded="false" aria-haspopup="true" role="button" data-ved="0CEsQ7B0wAA"><span class="mn-dwn-arw"></span></a>
                                                                             <div class="action-menu-panel ab_dropdown" jsaction="keydown:ab.hdke;mouseover:ab.hdhne;mouseout:ab.hdhue" role="menu" tabindex="-1" data-ved="0CEwQqR8wAA">
                                                                                 <ul>
-                                                                                    <li class="action-menu-item ab_dropdownitem" role="menuitem"><a class="fl" href="http://webcache.googleusercontent.com/search?q=cache:AHN3YAdASJwJ:www.staples.co.uk/+&cd=1&hl=en&ct=clnk&gl=uk" onmousedown=" return rwt(this, &#39;&#39;, &#39;&#39;, &#39;&#39;, &#39;1&#39;, &#39;AFQjCNH8XUUVrfcFQwkICw5W90FOijl3vg&#39;, &#39;&#39;, &#39;0CE0QIDAA&#39;, &#39;&#39;, &#39;&#39;, event) ">Cached</a></li>
+                                                                                    <li class="action-menu-item ab_dropdownitem" role="menuitem">
+                                                                                        <a class="fl" href="http://webcache.googleusercontent.com/search?q=cache:AHN3YAdASJwJ:www.staples.co.uk/+&cd=1&hl=en&ct=clnk&gl=uk" onmousedown=" return rwt(this, &#39;&#39;, &#39;&#39;, &#39;&#39;, &#39;1&#39;, &#39;AFQjCNH8XUUVrfcFQwkICw5W90FOijl3vg&#39;, &#39;&#39;, &#39;0CE0QIDAA&#39;, &#39;&#39;, &#39;&#39;, event)">Cached</a>
+                                                                                    </li>
                                                                                     <li class="action-menu-item ab_dropdownitem" role="menuitem"><a class="fl" href="https://www.google.co.uk/search?espv=210&es_sm=93&q=related:www.staples.co.uk/+office+supplies&tbo=1&sa=X&ei=g7ohU8dptJHsBuvigKAO&ved=0CE4QHzAA">Similar</a></li>
                                                                                 </ul>
                                                                             </div>
@@ -9266,7 +9266,7 @@
                                                                     <div>
                                                                         <div class="f kv _Cu" style="white-space: nowrap">
                                                                             <cite class="_md">
-                                                                                @url
+                                                                               @item.LinkFieldUrl("Title")
                                                                             </cite>‎
                                                                             <div class="action-menu ab_ctl">
                                                                                 <a class="clickable-dropdown-arrow ab_button" href="https://www.google.co.uk/search?q=office+supplies&oq=office+supplies&aqs=chrome..69i57j69i61j0l4.3032j0j4&sourceid=chrome&espv=210&es_sm=93&ie=UTF-8#" id="am-b0" aria-label="Result details" jsaction="ab.tdd;keydown:ab.hbke;keypress:ab.mskpe" aria-expanded="false" aria-haspopup="true" role="button" data-ved="0CEsQ7B0wAA"><span class="mn-dwn-arw"></span></a>
@@ -9297,32 +9297,7 @@
                             </div>
                             <div data-jibp="h" data-jiis="uc" id="bottomcu"></div>
                             <div data-jibp="h" data-jiis="uc" id="bottomads"></div>
-                            <div class="med" id="extrares" style="padding: 0 8px">
-                                <div>
-                                    <div data-jibp="h" data-jiis="uc" id="botstuff">
-                                        <div id="brs" style="clear: both; overflow: hidden; margin-bottom: 17px">
-                                            <div class="med _Hb" style="text-align: left">Searches related to <em>office supplies</em></div>
-                                            <div class="_o">
-                                                <div class="brs_col">
-                                                    <p class="_hw"><a href="https://www.google.co.uk/search?espv=210&es_sm=93&q=lyreco+office+supplies&revid=619198075&sa=X&ei=g7ohU8dptJHsBuvigKAO&ved=0CK0BENUCKAA"><b>lyreco</b> office supplies</a></p>
-                                                    <p class="_hw"><a href="https://www.google.co.uk/search?espv=210&es_sm=93&q=office+supplies+online&revid=619198075&sa=X&ei=g7ohU8dptJHsBuvigKAO&ved=0CK4BENUCKAE">office supplies <b>online</b></a></p>
-                                                    <p class="_hw"><a href="https://www.google.co.uk/search?espv=210&es_sm=93&q=banner+office+supplies&revid=619198075&sa=X&ei=g7ohU8dptJHsBuvigKAO&ved=0CK8BENUCKAI"><b>banner</b> office supplies</a></p>
-                                                    <p class="_hw"><a href="https://www.google.co.uk/search?espv=210&es_sm=93&q=set+office+supplies&revid=619198075&sa=X&ei=g7ohU8dptJHsBuvigKAO&ved=0CLABENUCKAM"><b>set</b> office supplies</a></p>
-                                                </div>
-                                                <div class="brs_col">
-                                                    <p class="_hw"><a href="https://www.google.co.uk/search?espv=210&es_sm=93&q=quality+office+supplies&revid=619198075&sa=X&ei=g7ohU8dptJHsBuvigKAO&ved=0CLEBENUCKAQ"><b>quality</b> office supplies</a></p>
-                                                    <p class="_hw"><a href="https://www.google.co.uk/search?espv=210&es_sm=93&q=clares+office+supplies&revid=619198075&sa=X&ei=g7ohU8dptJHsBuvigKAO&ved=0CLIBENUCKAU"><b>clares</b> office supplies</a></p>
-                                                    <p class="_hw"><a href="https://www.google.co.uk/search?espv=210&es_sm=93&q=ross+office+supplies&revid=619198075&sa=X&ei=g7ohU8dptJHsBuvigKAO&ved=0CLMBENUCKAY"><b>ross</b> office supplies</a></p>
-                                                    <p class="_hw"><a href="https://www.google.co.uk/search?espv=210&es_sm=93&q=wg+office+supplies&revid=619198075&sa=X&ei=g7ohU8dptJHsBuvigKAO&ved=0CLQBENUCKAc"><b>wg</b> office supplies</a></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <hr class="rgsep">
-                                        <div id="uh_hp" class=""><a href="https://www.google.co.uk/search?q=office+supplies&oq=office+supplies&aqs=chrome..69i57j69i61j0l4.3032j0j4&sourceid=chrome&espv=210&es_sm=93&ie=UTF-8#" id="uh_hpl"></a></div>
-                                        <div id="uh_h"><a id="uh_hl"></a></div>
-                                    </div>
-                                </div>
-                            </div>
+                            
                             <div>
                                 <div id="foot" role="contentinfo">
                                     <div data-jibp="h" data-jiis="uc" id="cljs"></div>
@@ -9387,7 +9362,7 @@
                                             {
                                                 <div class="vsc vsra" sig="kcD">
                                                     <h3>
-                                                        <a href="@url">@shortTitle</a>
+                                                        <a href="@url_camp">@shortTitle</a>
                                                         <nobr style="margin-left: -5px;">
                                                             &nbsp;<button class="vspib"></button>
                                                         </nobr>
@@ -9441,273 +9416,273 @@
                                             }
 
                                         </ol><div class="_kC"><a href="https://adwords.google.com/um/StartNewLogin?service=adwords&sourceid=awo&hl=en-GB&subid=uk-en-GB-et-symh" onmousedown="return rwt(this,&#39;&#39;,&#39;&#39;,&#39;&#39;,&#39;&#39;,&#39;AFQjCNFf_TKJVeLz89YX7VWtmb-SRx7SWA&#39;,&#39;&#39;,&#39;0COwBEO4q&#39;,&#39;&#39;,&#39;&#39;,event)">See your ad here&nbsp;»</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="clear: both"></div>
+                </div>
+                <div data-jibp="h" data-jiis="uc" id="bfoot">
+                    <div id="nyc" role="dialog" style="display: none" class="rhstc5">
+                        <div id="nycp">
+                            <div id="nycxh">
+                                <button title="Hide result details" id="nycx"></button>
+                            </div>
+                            <div id="nycntg"></div>
+                            <div id="nycpp">
+                                <div style="position: absolute; left: 0; right: 0; text-align: center; top: 45%">
+                                    <img id="nycli">
+                                    <div id="nycm"></div>
+                                </div>
+                                <div id="nycprv"></div>
+                            </div>
+                        </div>
+                        <div id="nyccur"></div>
+                    </div>
+                    <div id="nycf"></div>
+                </div>
+                <div data-jibp="h" data-jiis="uc" id="zbc"></div>
+            </div><div id="footcnt">
+                <div>
+                    <style>
+                        .fmulti {
+                        }
+
+                        ._op {
+                            bottom: 0;
+                            left: 0;
+                            position: absolute;
+                            right: 0;
+                        }
+
+                        ._Rh {
+                            background: #f2f2f2;
+                            bottom: 0;
+                            left: 0;
+                            position: absolute;
+                            right: 0;
+                            -webkit-text-size-adjust: none;
+                        }
+
+                        .fbar p {
+                            display: inline;
+                        }
+
+                        .fbar a, #fsettl {
+                            text-decoration: none;
+                            white-space: nowrap;
+                        }
+
+                        .fbar ._Vd {
+                            padding: 0 0 0 27px !important;
+                            margin: 0 !important;
+                        }
+
+                        .fbar ._wi {
+                            padding: 0 !important;
+                            margin: 0 !important;
+                        }
+
+                        ._rg a:hover {
+                            text-decoration: underline;
+                        }
+
+                        ._nf img {
+                            margin-right: 4px;
+                        }
+
+                        ._nf a, ._Rh #swml a {
+                            text-decoration: none;
+                        }
+
+                        .fmulti {
+                            text-align: center;
+                        }
+
+                            .fmulti #fsr {
+                                display: block;
+                                float: none;
+                            }
+
+                            .fmulti #fuser {
+                                display: block;
+                                float: none;
+                            }
+
+                        #fuserm {
+                            line-height: 25px;
+                        }
+
+                        #fsr {
+                            float: right;
+                            white-space: nowrap;
+                        }
+
+                        #fsl {
+                            white-space: nowrap;
+                        }
+
+                        #fsett {
+                            background: #fff;
+                            border: 1px solid #999;
+                            bottom: 30px;
+                            padding: 10px 0;
+                            position: absolute;
+                            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+                            -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+                            text-align: left;
+                            z-index: 100;
+                        }
+
+                            #fsett a {
+                                display: block;
+                                line-height: 44px;
+                                padding: 0 20px;
+                                text-decoration: none;
+                                white-space: nowrap;
+                            }
+
+                        ._rg #fsettl:hover {
+                            text-decoration: underline;
+                        }
+
+                        ._rg #fsett a:hover {
+                            text-decoration: underline;
+                        }
+
+                        ._ib {
+                            color: #777;
+                        }
+
+                        ._qb {
+                            color: #222;
+                            font-size: 14px;
+                            font-weight: normal;
+                            -webkit-tap-highlight-color: rgba(0,0,0,0);
+                        }
+
+                            ._qb:hover, ._qb:active {
+                                color: #444;
+                            }
+
+                        ._Sc {
+                            display: inline-block;
+                            position: relative;
+                        }
+
+                        ._Bb, ._nc {
+                            height: 13px;
+                            width: 8px;
+                        }
+
+                            ._Bb:before, ._nc:before {
+                                border: 8px solid rgba(255,255,255,0);
+                                border-radius: 8px;
+                                content: '';
+                                position: absolute;
+                            }
+
+                            ._Bb:before {
+                                border-left: 8px solid #777;
+                                left: 1px;
+                            }
+
+                            ._nc:before {
+                                border-right: 8px solid #777;
+                                left: -9px;
+                            }
+
+                            ._Bb:after, ._nc:after {
+                                border: 12px solid rgba(255,255,255,0);
+                                content: '';
+                                position: absolute;
+                                top: -4px;
+                            }
+
+                            ._Bb:after {
+                                border-left: 10px solid #f6f6f6;
+                                left: -4px;
+                            }
+
+                            ._nc:after {
+                                border-right: 10px solid #f6f6f6;
+                                left: -10px;
+                            }
+
+                        ._jj ._Bb:after {
+                            border-left: 10px solid white;
+                        }
+
+                        ._jj ._nc:after {
+                            border-right: 10px solid white;
+                        }
+
+                        ._qb {
+                            padding: 8px 16px;
+                            margin-right: 10px;
+                        }
+
+                        ._ib {
+                            margin: 40px 0;
+                        }
+
+                        ._cg {
+                            margin-right: 10px;
+                        }
+
+                        .fbar {
+                            background: #f2f2f2;
+                            border-top: 1px solid #e4e4e4;
+                            line-height: 40px;
+                            min-width: 980px;
+                        }
+
+                        ._pp {
+                            margin-left: 135px;
+                        }
+
+                        ._np {
+                            margin-left: 135px;
+                        }
+
+                        .fbar p, .fbar a, #fsettl, #fsett a {
+                            color: #777;
+                        }
+
+                            .fbar a:hover, #fsett a:hover {
+                                color: #333;
+                            }
+
+                        .fbar {
+                            font-size: small;
+                        }
+
+                        #fuser {
+                            float: right;
+                        }
+                    </style>
+                    <div id="fbarcnt" style="position: relative; visibility: visible; display: block; height: 41px;">
+                        <div id="fbar" style="position: absolute; bottom: 0; left: 0; right: 0">
+                            <div class="fbar"><span class="_pp"><span id="fsl"><a class="_wi" href="https://support.google.com/websearch/?p=ws_results_help&hl=en-GB&fg=1">Help</a><a class="_Vd" href="javascript:void(0)" data-bucket="websearch" jsaction="gf.sf" id="_mQ" target="_blank" data-ved="0CO8BEC4">Send feedback</a><a class="_Vd" href="https://www.google.co.uk/intl/en/policies/?fg=1">Privacy &amp; Terms</a><span class="_Vd" data-jibp="h" data-jiis="uc" id="fescapehatch"><a href="https://www.google.co.uk/setprefdomain?prefdom=US&prev=https://www.google.com/search%3Fq%3Doffice%2Bsupplies%26oq%3Doffice%2Bsupplies%26aqs%3Dchrome..69i57j69i61j0l4.3032j0j4%26sourceid%3Dchrome%26espv%3D210%26es_sm%3D93%26ie%3DUTF-8&sig=0_dZ-DTb3vWI03CcIWhP-rv5HgPL0%3D&fg=1">Google.com</a></span><span data-jibp="h" data-jiis="uc" id="fbbv"></span><span data-jibp="h" data-jiis="uc" id="fbsh"></span></span></span></div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div style="clear: both"></div>
-    </div>
-    <div data-jibp="h" data-jiis="uc" id="bfoot">
-        <div id="nyc" role="dialog" style="display: none" class="rhstc5">
-            <div id="nycp">
-                <div id="nycxh">
-                    <button title="Hide result details" id="nycx"></button>
-                </div>
-                <div id="nycntg"></div>
-                <div id="nycpp">
-                    <div style="position: absolute; left: 0; right: 0; text-align: center; top: 45%">
-                        <img id="nycli">
-                        <div id="nycm"></div>
+            <style data-jiis="uc" id="_css1"></style>
+            <div data-jibp="h" data-jiis="uc" id="bpsw">
+            </div>
+            <div id="xfootw" data-jiis="bp">
+                <div data-jibp="h" data-jiis="uc" id="xfoot">
+                    <div id="xjsd">
                     </div>
-                    <div id="nycprv"></div>
+                    <div id="xjsi" data-jiis="bp">
+                    </div>
                 </div>
             </div>
-            <div id="nyccur"></div>
-        </div>
-        <div id="nycf"></div>
-    </div>
-    <div data-jibp="h" data-jiis="uc" id="zbc"></div>
-    </div><div id="footcnt">
-        <div>
-            <style>
-                .fmulti {
-                }
-
-                ._op {
-                    bottom: 0;
-                    left: 0;
-                    position: absolute;
-                    right: 0;
-                }
-
-                ._Rh {
-                    background: #f2f2f2;
-                    bottom: 0;
-                    left: 0;
-                    position: absolute;
-                    right: 0;
-                    -webkit-text-size-adjust: none;
-                }
-
-                .fbar p {
-                    display: inline;
-                }
-
-                .fbar a, #fsettl {
-                    text-decoration: none;
-                    white-space: nowrap;
-                }
-
-                .fbar ._Vd {
-                    padding: 0 0 0 27px !important;
-                    margin: 0 !important;
-                }
-
-                .fbar ._wi {
-                    padding: 0 !important;
-                    margin: 0 !important;
-                }
-
-                ._rg a:hover {
-                    text-decoration: underline;
-                }
-
-                ._nf img {
-                    margin-right: 4px;
-                }
-
-                ._nf a, ._Rh #swml a {
-                    text-decoration: none;
-                }
-
-                .fmulti {
-                    text-align: center;
-                }
-
-                    .fmulti #fsr {
-                        display: block;
-                        float: none;
-                    }
-
-                    .fmulti #fuser {
-                        display: block;
-                        float: none;
-                    }
-
-                #fuserm {
-                    line-height: 25px;
-                }
-
-                #fsr {
-                    float: right;
-                    white-space: nowrap;
-                }
-
-                #fsl {
-                    white-space: nowrap;
-                }
-
-                #fsett {
-                    background: #fff;
-                    border: 1px solid #999;
-                    bottom: 30px;
-                    padding: 10px 0;
-                    position: absolute;
-                    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-                    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-                    text-align: left;
-                    z-index: 100;
-                }
-
-                    #fsett a {
-                        display: block;
-                        line-height: 44px;
-                        padding: 0 20px;
-                        text-decoration: none;
-                        white-space: nowrap;
-                    }
-
-                ._rg #fsettl:hover {
-                    text-decoration: underline;
-                }
-
-                ._rg #fsett a:hover {
-                    text-decoration: underline;
-                }
-
-                ._ib {
-                    color: #777;
-                }
-
-                ._qb {
-                    color: #222;
-                    font-size: 14px;
-                    font-weight: normal;
-                    -webkit-tap-highlight-color: rgba(0,0,0,0);
-                }
-
-                    ._qb:hover, ._qb:active {
-                        color: #444;
-                    }
-
-                ._Sc {
-                    display: inline-block;
-                    position: relative;
-                }
-
-                ._Bb, ._nc {
-                    height: 13px;
-                    width: 8px;
-                }
-
-                    ._Bb:before, ._nc:before {
-                        border: 8px solid rgba(255,255,255,0);
-                        border-radius: 8px;
-                        content: '';
-                        position: absolute;
-                    }
-
-                    ._Bb:before {
-                        border-left: 8px solid #777;
-                        left: 1px;
-                    }
-
-                    ._nc:before {
-                        border-right: 8px solid #777;
-                        left: -9px;
-                    }
-
-                    ._Bb:after, ._nc:after {
-                        border: 12px solid rgba(255,255,255,0);
-                        content: '';
-                        position: absolute;
-                        top: -4px;
-                    }
-
-                    ._Bb:after {
-                        border-left: 10px solid #f6f6f6;
-                        left: -4px;
-                    }
-
-                    ._nc:after {
-                        border-right: 10px solid #f6f6f6;
-                        left: -10px;
-                    }
-
-                ._jj ._Bb:after {
-                    border-left: 10px solid white;
-                }
-
-                ._jj ._nc:after {
-                    border-right: 10px solid white;
-                }
-
-                ._qb {
-                    padding: 8px 16px;
-                    margin-right: 10px;
-                }
-
-                ._ib {
-                    margin: 40px 0;
-                }
-
-                ._cg {
-                    margin-right: 10px;
-                }
-
-                .fbar {
-                    background: #f2f2f2;
-                    border-top: 1px solid #e4e4e4;
-                    line-height: 40px;
-                    min-width: 980px;
-                }
-
-                ._pp {
-                    margin-left: 135px;
-                }
-
-                ._np {
-                    margin-left: 135px;
-                }
-
-                .fbar p, .fbar a, #fsettl, #fsett a {
-                    color: #777;
-                }
-
-                    .fbar a:hover, #fsett a:hover {
-                        color: #333;
-                    }
-
-                .fbar {
-                    font-size: small;
-                }
-
-                #fuser {
-                    float: right;
-                }
-            </style>
-            <div id="fbarcnt" style="position: relative; visibility: visible; display: block; height: 41px;">
-                <div id="fbar" style="position: absolute; bottom: 0; left: 0; right: 0">
-                    <div class="fbar"><span class="_pp"><span id="fsl"><a class="_wi" href="https://support.google.com/websearch/?p=ws_results_help&hl=en-GB&fg=1">Help</a><a class="_Vd" href="javascript:void(0)" data-bucket="websearch" jsaction="gf.sf" id="_mQ" target="_blank" data-ved="0CO8BEC4">Send feedback</a><a class="_Vd" href="https://www.google.co.uk/intl/en/policies/?fg=1">Privacy &amp; Terms</a><span class="_Vd" data-jibp="h" data-jiis="uc" id="fescapehatch"><a href="https://www.google.co.uk/setprefdomain?prefdom=US&prev=https://www.google.com/search%3Fq%3Doffice%2Bsupplies%26oq%3Doffice%2Bsupplies%26aqs%3Dchrome..69i57j69i61j0l4.3032j0j4%26sourceid%3Dchrome%26espv%3D210%26es_sm%3D93%26ie%3DUTF-8&sig=0_dZ-DTb3vWI03CcIWhP-rv5HgPL0%3D&fg=1">Google.com</a></span><span data-jibp="h" data-jiis="uc" id="fbbv"></span><span data-jibp="h" data-jiis="uc" id="fbsh"></span></span></span></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <style data-jiis="uc" id="_css1"></style>
-    <div data-jibp="h" data-jiis="uc" id="bpsw">
-    </div>
-    <div id="xfootw" data-jiis="bp">
-        <div data-jibp="h" data-jiis="uc" id="xfoot">
-            <div id="xjsd">
-            </div>
-            <div id="xjsi" data-jiis="bp">
-            </div>
-        </div>
-    </div>
-    <style data-jiis="uc" id="_css2"></style>
-    <div data-jibp="h" data-jiis="uc" id="lfoot"></div>
-    </div><div data-async-type="reviewDialog" id="reviewDialog" class="y yp" data-ved="0CPIBEMQs"></div>
+            <style data-jiis="uc" id="_css2"></style>
+            <div data-jibp="h" data-jiis="uc" id="lfoot"></div>
+        </div><div data-async-type="reviewDialog" id="reviewDialog" class="y yp" data-ved="0CPIBEMQs"></div>
     </div>
     <table cellspacing="0" cellpadding="0" class="gstl_0 gssb_c" style="width: 597px; top: 44px; position: absolute; left: 127px;">
         <tbody>

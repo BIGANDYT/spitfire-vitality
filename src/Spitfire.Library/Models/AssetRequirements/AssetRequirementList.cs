@@ -8,13 +8,24 @@ namespace Spitfire.Library.Models.AssetRequirements
 
     public class AssetRequirementList : ICacheable, IEnumerable<AssetRequirement>
     {
+        public AssetRequirementList()
+        {
+            Cacheable = true;
+        }
+
         private readonly List<AssetRequirement> items = new List<AssetRequirement>();
 
         public event DataLengthChangedDelegate DataLengthChanged;
 
-        public bool Cacheable { get; set; } = true;
+        public bool Cacheable { get; set; }
 
-        public bool Immutable => true;
+        public bool Immutable
+        {
+            get
+            {
+                return true;
+            }
+        }
 
         public long GetDataLength()
         {

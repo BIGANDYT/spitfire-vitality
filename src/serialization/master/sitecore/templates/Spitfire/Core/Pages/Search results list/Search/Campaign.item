@@ -13,13 +13,20 @@ templatekey: Template field
 field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
 name: Type
 key: type
-content-length: 16
+content-length: 8
 
-Single-Line Text
+Droptree
+----field----
+field: {1EB8AE32-E190-44A6-968D-ED904C794EBF}
+name: Source
+key: source
+content-length: 49
+
+datasource={F489CD8C-549D-4A7A-9F10-9482F36D27FA}
 ----version----
 language: en
 version: 1
-revision: b69074b6-efac-48ca-bf86-4987313d4b6c
+revision: dd31a3a1-1cf3-474a-90df-b45c0063ec27
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b69074b6-efac-48ca-bf86-4987313d4b6c
+dd31a3a1-1cf3-474a-90df-b45c0063ec27
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150721T105603Z
+20150722T095459Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

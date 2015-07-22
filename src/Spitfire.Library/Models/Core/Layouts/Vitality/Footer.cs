@@ -1,8 +1,9 @@
 ﻿namespace Spitfire.Library.Models.Core.Layouts.Vitality
 {
+    using Constants;
+
     using Sitecore.Mvc.Presentation;
 
-    using Constants;
     using Spitfire.SitecoreExtensions.Extensions;
 
     /// <summary>
