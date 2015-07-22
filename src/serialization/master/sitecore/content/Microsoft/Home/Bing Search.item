@@ -6,36 +6,8 @@ path: /sitecore/content/Microsoft/Home/Bing Search
 parent: {C18F6604-15E8-4445-89B8-DEE8EF597440}
 name: Bing Search
 master: {00000000-0000-0000-0000-000000000000}
-template: {99A1374E-2369-4732-BDF7-4BFC8CF6F0FA}
-templatekey: _BasePage
-
-----field----
-field: {5585A30D-B115-4753-93CE-422C3455DEB2}
-name: ShowInNavigation
-key: showinnavigation
-content-length: 0
-
-
-----field----
-field: {A1816D65-769A-4B09-89F6-B20665024CBF}
-name: ShowInSideNavigation
-key: showinsidenavigation
-content-length: 0
-
-
-----field----
-field: {114BFEE8-A57E-49E7-A18D-68FFD7CA5DF8}
-name: ShowInSitemap
-key: showinsitemap
-content-length: 0
-
-
-----field----
-field: {ADAF5524-E0CC-43DF-8B52-B2528A13ABBF}
-name: ShowInSearch
-key: showinsearch
-content-length: 0
-
+template: {89ED15D8-00E9-4DE2-9417-8AA3CC7C0087}
+templatekey: SearchEngine
 
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
@@ -56,8 +28,22 @@ content-length: 105
 ----version----
 language: en
 version: 1
-revision: 4453a63e-7df3-4918-baa0-63157e226c3b
+revision: 01dd952e-031d-4bbb-92b0-6aa04555a279
 
+----field----
+field: {4444E4BD-FCE3-4205-A09B-2E7ED3A0C2C8}
+name: ResultsLink
+key: resultslink
+content-length: 137
+
+<link text="" linktype="internal" class="" title="" target='Active Browser' querystring="" id="{54B2BA3B-E0FD-4342-BA6F-1E97C8B086C6}" />
+----field----
+field: {5836E677-D0C4-4EFA-8124-FAE90161CADF}
+name: Keyword
+key: keyword
+content-length: 13
+
+Surface Pro 3
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -85,14 +71,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-4453a63e-7df3-4918-baa0-63157e226c3b
+01dd952e-031d-4bbb-92b0-6aa04555a279
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150721T155354Z
+20150722T151055Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

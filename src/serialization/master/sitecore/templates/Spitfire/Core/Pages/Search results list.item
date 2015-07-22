@@ -27,13 +27,13 @@ content-length: 38
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
 key: __icon
-content-length: 32
+content-length: 22
 
-Applications/32x32/form_blue.png
+Office/32x32/apple.png
 ----version----
 language: en
 version: 1
-revision: 8f1faaa1-6c30-40be-b058-263a2a1559f1
+revision: 1444a99f-69b2-447a-b55f-3cb78d4b6af5
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8f1faaa1-6c30-40be-b058-263a2a1559f1
+1444a99f-69b2-447a-b55f-3cb78d4b6af5
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150721T094510Z
+20150722T151840Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
