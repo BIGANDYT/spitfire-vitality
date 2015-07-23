@@ -9,7 +9,7 @@
     LinkField lf = (LinkField)Model.PromoteItem.Fields["Title"];
     string url = Model.PromoteItem.LinkFieldUrl("Title");
     ReferenceField campfd = Model.PageItem.Fields["campaign"];
-    string lf_campaignId = "sc_camp=" + campfd.TargetID.ToString();
+    string lf_campaignId = "?sc_camp=" + campfd.TargetID.ToString();
     string url_camp = url + lf_campaignId;
     string titleText = lf.Text;
     string shortTitle = string.Join(" ", titleText.Split(' ').Take(6));
