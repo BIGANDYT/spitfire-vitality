@@ -2,9 +2,10 @@
 @using Sitecore.Mvc
 @using Sitecore.Mvc.Analytics.Extensions
 @using Sitecore.Mvc.Presentation
+@using Spitfire.SitecoreExtensions.Extensions
 @model RenderingModel
 @{
-  Layout = null;
+    string location = Model.PageItem.LinkFieldUrl("ResultsLink");
 }
 <html lang="en">
 <head>
@@ -1741,6 +1742,13 @@
     </div>
 
     <div id="xjsd"></div>
-
+    <script type="text/javascript">
+    function GetResults() {
+        console.log("here");
+        var input = document.getElementById('sb_form_q').value;
+        document.getElementById('sb_form').action = "@location";
+        window.location.href = "@location";
+    }
+    </script>
 </body>
 </html>

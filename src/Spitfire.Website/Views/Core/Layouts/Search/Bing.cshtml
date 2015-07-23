@@ -1165,15 +1165,6 @@
     @Html.Sitecore().VisitorIdentification()
 </head>
 <body class=" en en-GB wkit" onload="hpResize(_ge(&#39;bgDiv&#39;));_ge(&#39;sb_form_q&#39;).focus();if(_w.lb)lb();">
-    <script type="text/javascript">
-    function GetResults() {
-        console.log("here");
-        var input = document.getElementById('sb_form_q').value;
-        document.getElementById('sb_form').action = "@location";
-        window.location.href = "@location";
-    }
-    </script>
-
 <table id="hp_table">
 <tbody>
 <tr>
@@ -1395,6 +1386,13 @@
 </tr>
 </tbody>
 </table>
-
+    <script type="text/javascript">
+    function GetResults() {
+        console.log("here");
+        var input = document.getElementById('sb_form_q').value;
+        document.getElementById('sb_form').action = "@location";
+        window.location.href = "@location";
+    }
+    </script>
 </body>
 </html>
