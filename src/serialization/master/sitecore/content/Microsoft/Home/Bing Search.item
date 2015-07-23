@@ -38,13 +38,6 @@ content-length: 137
 
 <link text="" linktype="internal" class="" title="" target='Active Browser' querystring="" id="{54B2BA3B-E0FD-4342-BA6F-1E97C8B086C6}" />
 ----field----
-field: {5836E677-D0C4-4EFA-8124-FAE90161CADF}
-name: Keyword
-key: keyword
-content-length: 13
-
-Surface Pro 3
-----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
 key: __owner

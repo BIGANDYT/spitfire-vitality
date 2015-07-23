@@ -1,32 +1,25 @@
 ----item----
 version: 1
-id: {E0FFA631-C023-40CD-B903-59B7F27F0B0C}
+id: {7CFC42E1-3A32-47D3-832B-B1C188181AA8}
 database: master
-path: /sitecore/layout/Renderings/Spitfire/Core/Layouts/Search/Google search results
-parent: {5DE31EE2-9D83-4592-A593-0BB30F52D805}
-name: Google search results
+path: /sitecore/layout/Layouts/Spitfire/Search
+parent: {56EDE86D-7554-475C-9EF1-770A344AB2FD}
+name: Search
 master: {00000000-0000-0000-0000-000000000000}
-template: {3A45A723-64EE-4919-9D41-02FD40FD1466}
-templatekey: Layout
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
 
 ----field----
-field: {A036B2BC-BA04-44F6-A75F-BAE6CD242ABF}
-name: Path
-key: path
-content-length: 55
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
 
-/Views/Core/Layouts/Search/Google search results.cshtml
-----field----
-field: {E9CC5A73-3C8A-4D7D-92AC-3B88C18A996A}
-name: Model
-key: model
-content-length: 65
-
-/sitecore/layout/Models/Spitfire/Core/Search/SearcheEngineResults
+50
 ----version----
 language: en
 version: 1
-revision: d1118a59-6598-4efa-a752-bd0b60a061ab
+revision: e9d9df0f-40f0-4116-99ea-45e1572129df
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,7 +27,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20150716T140246Z
+20150721T093949Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -48,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-d1118a59-6598-4efa-a752-bd0b60a061ab
+e9d9df0f-40f0-4116-99ea-45e1572129df
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150717T144959Z
+20150723T154151Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
