@@ -1,14 +1,28 @@
 ----item----
 version: 1
-id: {2D7BD511-923B-4AC9-BBF8-2138D5F3ED2E}
+id: {EFA31037-F716-4ECA-9FD1-205CE071138F}
 database: master
-path: /sitecore/templates/Spitfire/Core/Pages/Search results list/__Standard Values
-parent: {5486240C-02A1-41D8-B4E3-D871E1F2040A}
-name: __Standard Values
+path: /sitecore/templates/Spitfire/Core/Pages/Bing SearchEngine
+parent: {8897E229-C471-4687-9320-14E355299EE7}
+name: Bing SearchEngine
 master: {00000000-0000-0000-0000-000000000000}
-template: {5486240C-02A1-41D8-B4E3-D871E1F2040A}
-templatekey: Search results list
+template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
+templatekey: Template
 
+----field----
+field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
+name: __Base template
+key: __base template
+content-length: 77
+
+{1930BBEB-7805-471A-A3BE-4858AC7CF696}|{99A1374E-2369-4732-BDF7-4BFC8CF6F0FA}
+----field----
+field: {F7D48A55-2158-4F02-9356-756654404F73}
+name: __Standard values
+key: __standard values
+content-length: 38
+
+{781185FC-3B91-4278-802F-C74A2B32F29B}
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
@@ -19,22 +33,15 @@ Office/16x16/apple.png
 ----version----
 language: en
 version: 1
-revision: 183f8ace-fe6c-4880-b107-e6f95fce7350
+revision: 6433b1bb-ac9f-4102-bdd0-209868404e81
 
-----field----
-field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
-name: __Owner
-key: __owner
-content-length: 14
-
-sitecore\admin
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20150721T094454Z
+20150722T134454Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -48,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-183f8ace-fe6c-4880-b107-e6f95fce7350
+6433b1bb-ac9f-4102-bdd0-209868404e81
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150721T094525Z
+20150724T115447Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

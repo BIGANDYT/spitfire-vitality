@@ -6,14 +6,22 @@
 
 @model Spitfire.Library.Models.Search.SearcheEngineResults
 @{
-    LinkField lf = (LinkField)Model.PromoteItem.Fields["Title"];
-    string url = Model.PromoteItem.LinkFieldUrl("Title");
-    ReferenceField campfd = Model.PageItem.Fields["campaign"];
-    string lf_campaignId = "?sc_camp=" + campfd.TargetID.ToString();
-    string url_camp = url + lf_campaignId;
-    string titleText = lf.Text;
-    string shortTitle = string.Join(" ", titleText.Split(' ').Take(6));
-    string keyword = Model.PageItem["Keyword"];
+    string url = "url";
+    string url_camp = "camp url";
+    string titleText = "Title";
+    string shortTitle = "Short Title";
+    string keyword = "Keyword";
+    if (Model.PromoteItem!=null)
+    {
+        LinkField lf = (LinkField)Model.PromoteItem.Fields["Title"];
+        url = Model.PromoteItem.LinkFieldUrl("Title");
+        ReferenceField campfd = Model.PageItem.Fields["campaign"];
+        string lf_campaignId = "?sc_camp=" + campfd.TargetID.ToString();
+        url_camp = url + lf_campaignId;
+        titleText = lf.Text;
+        shortTitle = string.Join(" ", titleText.Split(' ').Take(6));
+        keyword = Model.PageItem["Keyword"];
+    }
 }
 
 <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:web="http://schemas.live.com/Web/">
@@ -1906,7 +1914,6 @@
 <body class=" ">
     <!--FdBodyAsync-->
     <header id="b_header"><nav class="b_scopebar"><ul><li class="b_active"><a href="https://www.bing.com/?scope=web&FORM=HDRSC1" h="ID=SERP,5039.1">Web</a></li><li><a href="https://www.bing.com/images/search?q=office+supplies&FORM=HDRSC2" h="ID=SERP,5033.1">Images</a></li><li><a href="https://www.bing.com/videos/search?q=office+supplies&FORM=HDRSC3" h="ID=SERP,5034.1">Videos</a></li><li><a href="https://www.bing.com/maps/default.aspx?q=office+supplies&mkt=en&FORM=HDRSC4" h="ID=SERP,5035.1">Maps</a></li><li><a href="https://www.bing.com/news/search?q=office+supplies&FORM=HDRSC6" h="ID=SERP,5036.1">News</a></li><li><a href="https://www.bing.com/explore?q=office+supplies&FORM=HDRSC5" h="ID=SERP,5038.1">More</a></li></ul></nav><form action="https://www.bing.com/search" id="sb_form"><a href="https://www.bing.com/?FORM=Z9FD1" class="b_logoArea" h="ID=SERP,5041.1"><h1 class="b_logo">Bing</h1></a><div class="b_searchboxForm"><input class="b_searchbox" id="sb_form_q" name="q" title="Enter your search term" type="search" value="@keyword" maxlength="1000" onfocus="            _ge(&#39;b_header&#39;).className=&#39;b_focus&#39;;" autocomplete="off"><span class="b_searchboxSubmitWrapper"><input type="submit" class="b_searchboxSubmit" id="sb_form_go" title="Search" tabindex="0" name="go"></span><input id="sa_qs" name="qs" value="bs" type="hidden"><input type="hidden" value="QBRE" name="form"><div id="sw_as"></div></div></form></header><div id="id_h" style="display: block;"><a href="javascript:void(0);" id="id_l" class="id_button" _ct="SERP,5044.1"><span id="id_s">Sign in</span><span class="sw_spd id_avatar" id="id_a"></span><span id="id_n" style="display:none"></span><img id="id_p" class="b_icon id_avatar" style="display:none" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"></a><a href="https://www.bing.com/account/general?ru=https%3a%2f%2fwww.bing.com%3a443%2fsearch%3fq%3doffice%2bsupplies%26qs%3dHS%26sc%3d1-0%26sp%3d1%26FORM%3dQBLH%26cvid%3dfd2ccdcbbee748b7b1bf24ef94b603d8&FORM=SEFD" class="sw_pref" title="Preferences" h="ID=SERP,5045.1"></a><span id="id_d" _iid="SERP.5047"></span></div><div id="sw_tfbb"></div>
-
     <style type="text/css">
         .ftrB {
             position: relative;

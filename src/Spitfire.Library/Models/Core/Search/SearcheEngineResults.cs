@@ -39,15 +39,19 @@
         public override void Initialize(Rendering rendering)
         {
             base.Initialize(rendering);
-            Item item = Item;
+            Item item = this.Item;
 
-            ChildrenItems = item.GetChildren().ToList();
+            if (!item.HasChildren)
+            {
+                return;
+            }
 
-            ChildrenAdsItems = item.GetChildren().Where(x => x["Ads"] == "1" && x["Promote"] != "1").ToList();
+            this.ChildrenItems = item.GetChildren().ToList();
+            this.ChildrenAdsItems = item.GetChildren().Where(x => x["Ads"] == "1" && x["Promote"] != "1").ToList();
 
-            ChildrenNoAdsItems = item.GetChildren().Where(x => x["Ads"] != "1" && x["Promote"] !="1").ToList();
+            this.ChildrenNoAdsItems = item.GetChildren().Where(x => x["Ads"] != "1" && x["Promote"] != "1").ToList();
 
-            PromoteItem = item.GetChildren().First(x => x["Promote"] == "1");
+            this.PromoteItem = item.GetChildren().First(x => x["Promote"] == "1");
         }
     }
 }

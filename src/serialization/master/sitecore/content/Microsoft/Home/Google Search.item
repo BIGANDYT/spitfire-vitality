@@ -7,7 +7,7 @@ parent: {C18F6604-15E8-4445-89B8-DEE8EF597440}
 name: Google Search
 master: {00000000-0000-0000-0000-000000000000}
 template: {89ED15D8-00E9-4DE2-9417-8AA3CC7C0087}
-templatekey: SearchEngine
+templatekey: Google SearchEngine
 
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
@@ -20,15 +20,13 @@ Office/16x16/apple.png
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 105
+content-length: 0
 
-<r>
-  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{8C63D1F8-081A-450A-9D53-3644501EDE0D}" />
-</r>
+
 ----version----
 language: en
 version: 1
-revision: 8f9fb7af-9851-4a69-b61e-cd6abf3f8991
+revision: 93b2081a-3f3c-4996-aae0-e3f9c40107a4
 
 ----field----
 field: {4444E4BD-FCE3-4205-A09B-2E7ED3A0C2C8}
@@ -64,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8f9fb7af-9851-4a69-b61e-cd6abf3f8991
+93b2081a-3f3c-4996-aae0-e3f9c40107a4
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150723T123506Z
+20150724T120145Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {EC1CBF2A-19B5-4C21-9BC5-B3620076E3BA}
+id: {5067DAF5-7BFC-4D8A-B882-455BCD7F41FC}
 database: master
-path: /sitecore/templates/Spitfire/Core/Pages/SearchEngine/SearchEngine
-parent: {89ED15D8-00E9-4DE2-9417-8AA3CC7C0087}
-name: SearchEngine
+path: /sitecore/templates/Spitfire/Core/Pages/Bing Search results list/Search
+parent: {526DB135-486B-48F8-944C-870E20DD804D}
+name: Search
 master: {00000000-0000-0000-0000-000000000000}
 template: {E269FBB5-3750-427A-9149-7AA950B49301}
 templatekey: Template section
@@ -12,7 +12,7 @@ templatekey: Template section
 ----version----
 language: en
 version: 1
-revision: 2bc02d6e-763a-4229-94b7-6b93376b8519
+revision: 3a97826b-b963-4bc3-a3f6-49154feb346c
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -20,7 +20,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20150722T134529Z
+20150721T105411Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -34,14 +34,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-2bc02d6e-763a-4229-94b7-6b93376b8519
+3a97826b-b963-4bc3-a3f6-49154feb346c
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150722T134529Z
+20150721T105411Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
