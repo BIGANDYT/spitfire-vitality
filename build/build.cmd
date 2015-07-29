@@ -9,9 +9,11 @@ IF "%ERRORLEVEL%" NEQ "0" (
 	exit /B %ERRORLEVEL%
 )
 
+SET WebsiteDirectory=%InstanceDirectory%\%sitename%\Website
+
 if not exist ..\lib\Sitecore (
 	mkdir ..\lib\Sitecore
-	copy c:\websites\%SiteName%\Website\bin\Sitecore.*.dll ..\lib\Sitecore
+	copy %WebsiteDirectory%\bin\Sitecore.*.dll ..\lib\Sitecore
 
 	IF "%ERRORLEVEL%" NEQ "0" (
 		echo Copying Sitecore libs failed
@@ -21,7 +23,7 @@ if not exist ..\lib\Sitecore (
 
 if not exist ..\lib\System (
 	mkdir ..\lib\System
-	copy c:\websites\%SiteName%\Website\bin\System.*.dll ..\lib\System
+	copy %WebsiteDirectory%\bin\System.*.dll ..\lib\System
 
 	IF "%ERRORLEVEL%" NEQ "0" (
 		echo Copying System libs failed
@@ -29,7 +31,7 @@ if not exist ..\lib\System (
 	)
 )
 
-SET DeployParameters=/p:DeployOnBuild=true /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:DeleteExistingFiles=False /p:publishUrl=%InstanceDirectory%\%sitename%\Website
+SET DeployParameters=/p:DeployOnBuild=true /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:DeleteExistingFiles=False /p:publishUrl=%WebsiteDirectory%
 
 %msbuild% ..\src\Spitfire.Website\Spitfire.Website.csproj %DeployParameters%
 IF "%ERRORLEVEL%" NEQ "0" (
@@ -53,6 +55,10 @@ IF NOT EXIST %DevSettings% (
 		echo Powershell updates failed
 		exit /B %ERRORLEVEL%
 	)
+)
+
+IF DEFINED IsBuildServer (
+	powershell -file build-FixDataFolder.ps1 "%WebsiteDirectory%\Web.config" "%InstanceDirectory%\%sitename%\Data"
 )
 
 exit /B 0
