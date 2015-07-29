@@ -1,5 +1,4 @@
 ﻿@using Sitecore.Mvc.Presentation
-@using Spitfire.Library
 @using Spitfire.SitecoreExtensions.Extensions
 @model RenderingModel
 @{
@@ -28,11 +27,6 @@
 }
 else
 {
-    MyContext.AssetRequirementService.AddJavaScriptFile("http://cdn.amcharts.com/lib/3/amcharts.js");
-    MyContext.AssetRequirementService.AddJavaScriptFile("http://www.amcharts.com/lib/3/pie.js");
-    MyContext.AssetRequirementService.AddJavaScriptFile("http://cdn.amcharts.com/lib/3/themes/light.js");
-    MyContext.AssetRequirementService.AddJavaScriptFile("/assets/core/components/profiles/profiles.js");
-
     <div class="color-panel hidden-sm">
         <div class="color-mode-icons icon-color @css">
 

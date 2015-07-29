@@ -294,21 +294,6 @@ var Layout = function ($) {
             }
         },
 
-        initTwitter: function () {
-            !function(d,s,id){
-                var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}
-            }(document,"script","twitter-wjs");
-        },
-
-        initTouchspin: function () {
-            $(".product-quantity .form-control").TouchSpin({
-                buttondown_class: "btn quantity-down",
-                buttonup_class: "btn quantity-up"
-            });
-            $(".quantity-down").html("<i class='fa fa-angle-down'></i>");
-            $(".quantity-up").html("<i class='fa fa-angle-up'></i>");
-        },
-
         initFixHeaderWithPreHeader: function () {
             $(window).scroll(function() {                
                 if ($(window).scrollTop()>37){
@@ -335,24 +320,6 @@ var Layout = function ($) {
             $(window).scroll(function() {
                 NavScrolling ();
             });
-        },
-
-        initImageZoom: function () {
-            $('.product-main-image').zoom({url: $('.product-main-image img').attr('data-BigImgSrc')});
-        },
-
-        initSliderRange: function () {
-            $( "#slider-range" ).slider({
-              range: true,
-              min: 0,
-              max: 500,
-              values: [ 50, 250 ],
-              slide: function( event, ui ) {
-                $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
-              }
-            });
-            $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
-            " - $" + $( "#slider-range" ).slider( "values", 1 ) );
         },
 
         // wrapper function to scroll(focus) to an element

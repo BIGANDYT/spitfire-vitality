@@ -1,7 +1,5 @@
 ﻿namespace Spitfire.Library.MySitecore.Pipelines.GetPageRendering
 {
-    using System.Linq;
-
     using Sitecore.Mvc.Pipelines.Response.GetPageRendering;
 
     /// <summary>

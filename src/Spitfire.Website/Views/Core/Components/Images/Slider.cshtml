@@ -1,13 +1,6 @@
 ﻿@using Sitecore.Mvc
 @using Sitecore.Mvc.Presentation
-@using Spitfire.Library
 @model RenderingModel
-@{
-    MyContext.AssetRequirementService.AddJavaScriptFile("/metronic/global/plugins/slider-revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js");
-    MyContext.AssetRequirementService.AddJavaScriptFile("/metronic/global/plugins/slider-revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js");
-    MyContext.AssetRequirementService.AddJavaScriptFile("/metronic/frontend/pages/scripts/revo-slider-init.js");
-    MyContext.AssetRequirementService.AddJavaScriptInline("RevosliderInit.initRevoSlider();", "slider");
-}
 <!-- BEGIN SLIDER -->
 <div class="page-slider margin-bottom-40">
     <div class="fullwidthbanner-container revolution-slider">

@@ -2,14 +2,12 @@
 {
     using System.Collections.Generic;
     using System.Collections.Specialized;
-
+    using Constants;
     using Sitecore;
     using Sitecore.Data.Fields;
     using Sitecore.Data.Items;
     using Sitecore.Mvc.Presentation;
     using Sitecore.Web;
-
-    using Constants;
 
     /// <summary>
     /// The model for the testimonial component

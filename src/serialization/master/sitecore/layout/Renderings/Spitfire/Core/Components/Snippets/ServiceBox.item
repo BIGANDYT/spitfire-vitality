@@ -16,10 +16,17 @@ key: path
 content-length: 49
 
 /Views/Core/Components/Snippets/ServiceBox.cshtml
+----field----
+field: {4867D192-326A-4AA4-81EF-EA430E224AFF}
+name: Css assets
+key: css assets
+content-length: 48
+
+/assets/Core/Components/Snippets/service-box.css
 ----version----
 language: en
 version: 1
-revision: 54016a06-3671-4cd9-aed0-c856feb4a42b
+revision: 8b213acb-8b11-4634-b523-c7e2c7390880
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-54016a06-3671-4cd9-aed0-c856feb4a42b
+8b213acb-8b11-4634-b523-c7e2c7390880
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150714T093349Z
+20150721T200206Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
