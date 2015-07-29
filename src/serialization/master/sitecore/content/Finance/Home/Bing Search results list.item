@@ -1,25 +1,18 @@
 ----item----
 version: 1
-id: {4444E4BD-FCE3-4205-A09B-2E7ED3A0C2C8}
+id: {92DB01FD-C7D4-41E5-9D61-D667BB31BE65}
 database: master
-path: /sitecore/templates/Spitfire/Core/Pages/SearchEngine/SearchEngine/ResultsLink
-parent: {EC1CBF2A-19B5-4C21-9BC5-B3620076E3BA}
-name: ResultsLink
+path: /sitecore/content/Finance/Home/Bing Search results list
+parent: {EB6FF566-7288-4003-BED4-929F15769C82}
+name: Bing Search results list
 master: {00000000-0000-0000-0000-000000000000}
-template: {455A3E98-A627-4B40-8035-E683A0331AC7}
-templatekey: Template field
+template: {5486240C-02A1-41D8-B4E3-D871E1F2040A}
+templatekey: Search results list
 
-----field----
-field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
-name: Type
-key: type
-content-length: 12
-
-General Link
 ----version----
 language: en
 version: 1
-revision: e63a044d-cc69-4d82-87a0-591d84d4b041
+revision: 651433d1-855f-4f22-bd9d-62e1c3a7550d
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -27,21 +20,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20150722T134529Z
+20150724T105841Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-e63a044d-cc69-4d82-87a0-591d84d4b041
+651433d1-855f-4f22-bd9d-62e1c3a7550d
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150722T151810Z
+20150724T105841Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

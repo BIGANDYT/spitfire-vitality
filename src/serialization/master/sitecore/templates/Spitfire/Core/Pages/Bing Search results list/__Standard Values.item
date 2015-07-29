@@ -1,13 +1,13 @@
 ----item----
 version: 1
-id: {E1AEBD6D-ABA5-4F94-A7DC-0C897E323EBB}
+id: {EB982381-42FA-41F0-81DE-F016EC7E48E2}
 database: master
-path: /sitecore/content/Microsoft/Home/Google results list
-parent: {C18F6604-15E8-4445-89B8-DEE8EF597440}
-name: Google results list
+path: /sitecore/templates/Spitfire/Core/Pages/Bing Search results list/__Standard Values
+parent: {526DB135-486B-48F8-944C-870E20DD804D}
+name: __Standard Values
 master: {00000000-0000-0000-0000-000000000000}
-template: {5486240C-02A1-41D8-B4E3-D871E1F2040A}
-templatekey: Google Search results list
+template: {526DB135-486B-48F8-944C-870E20DD804D}
+templatekey: Bing Search results list
 
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
@@ -17,45 +17,33 @@ content-length: 22
 
 Office/16x16/apple.png
 ----field----
-field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
-name: __Masters
-key: __masters
-content-length: 77
-
-{A87A00B1-E6DB-45AB-8B54-636FEC3B5523}|{60417E0F-F6F4-4F93-8AD2-5C0329612B59}
-----field----
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 0
+content-length: 105
 
-
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{5E105169-AC15-425F-AB28-9C30839E356B}" />
+</r>
 ----version----
 language: en
 version: 1
-revision: d045ad73-fb42-4c86-adcc-6df9fd426021
+revision: c5076639-293a-4f7d-9a13-e2f476c60a0a
 
 ----field----
-field: {C970470D-B7CA-4BD5-893F-675BBAA1F730}
-name: Campaign
-key: campaign
-content-length: 38
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
 
-{D361252B-841B-49B6-9EF6-15CC9944AC47}
-----field----
-field: {58876F56-E48A-4AB0-998F-149ABC3F6E80}
-name: Keyword
-key: keyword
-content-length: 13
-
-Surface Pro 3
+sitecore\admin
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20150721T091757Z
+20150721T094454Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -69,14 +57,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-d045ad73-fb42-4c86-adcc-6df9fd426021
+c5076639-293a-4f7d-9a13-e2f476c60a0a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150724T120112Z
+20150724T120243Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

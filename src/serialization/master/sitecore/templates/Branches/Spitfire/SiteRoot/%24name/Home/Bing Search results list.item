@@ -1,61 +1,40 @@
 ----item----
 version: 1
-id: {54B2BA3B-E0FD-4342-BA6F-1E97C8B086C6}
+id: {9D6A39C1-CE1B-4533-8921-E00ABCA984D1}
 database: master
-path: /sitecore/content/Microsoft/Home/Bing search results list
-parent: {C18F6604-15E8-4445-89B8-DEE8EF597440}
-name: Bing search results list
+path: /sitecore/templates/Branches/Spitfire/SiteRoot/$name/Home/Bing Search results list
+parent: {1E33204F-0E07-4E7C-A22F-E5970604F5F5}
+name: Bing Search results list
 master: {00000000-0000-0000-0000-000000000000}
 template: {526DB135-486B-48F8-944C-870E20DD804D}
 templatekey: Bing Search results list
 
-----field----
-field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
-name: __Renderings
-key: __renderings
-content-length: 0
-
-
 ----version----
 language: en
 version: 1
-revision: 0c273956-1c02-434b-9ce5-352e1fe660a8
+revision: 81f21d3c-d0a5-4050-9696-f83072141d32
 
-----field----
-field: {7EC452F2-4BE6-4697-935B-0D2DAB7D93AE}
-name: Campaign
-key: campaign
-content-length: 38
-
-{87925D56-34D9-4080-A725-6EC8B3B4CB0A}
-----field----
-field: {64F64150-7F2A-4F74-BCA1-5D358DE141AF}
-name: Keyword
-key: keyword
-content-length: 13
-
-Surface Pro 3
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20150722T114912Z
+20150724T120457Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-0c273956-1c02-434b-9ce5-352e1fe660a8
+81f21d3c-d0a5-4050-9696-f83072141d32
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150724T120036Z
+20150724T120457Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

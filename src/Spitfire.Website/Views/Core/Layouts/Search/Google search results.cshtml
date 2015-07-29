@@ -8,16 +8,23 @@
 
 @model Spitfire.Library.Models.Search.SearcheEngineResults
 @{
-    //Google Campaign product
-    LinkField lf = (LinkField)Model.PromoteItem.Fields["Title"];
-    string url = Model.PromoteItem.LinkFieldUrl("Title");
-    ReferenceField campfd = Model.PageItem.Fields["campaign"];
-    string lf_campaignId = "sc_camp="+campfd.TargetID.ToString();
-    string url_camp = url + lf_campaignId;
-    string titleText = lf.Text;
-    string shortTitle = string.Join(" ",titleText.Split(' ').Take(6));
-
+    string url = "url";
+    string url_camp = "camp url";
+    string titleText = "Title";
+    string shortTitle = "Short Title";
+    string keyword = "Keyword";
+    if (Model.PromoteItem != null)
+    {
+        LinkField lf = (LinkField)Model.PromoteItem.Fields["Title"];
+        url = Model.PromoteItem.LinkFieldUrl("Title");
+        ReferenceField campfd = Model.PageItem.Fields["campaign"];
+        string lf_campaignId = "?sc_camp=" + campfd.TargetID.ToString();
+        url_camp = url + lf_campaignId;
+        titleText = lf.Text;
+        shortTitle = string.Join(" ", titleText.Split(' ').Take(6));
+        keyword = Model.PageItem["Keyword"];
     }
+}
 
 <html lang="en">
 <head>
