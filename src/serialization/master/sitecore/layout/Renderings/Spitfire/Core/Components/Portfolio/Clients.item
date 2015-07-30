@@ -20,10 +20,10 @@ content-length: 47
 field: {E514A1EB-DDBA-44F7-8528-82CA2280F778}
 name: JavaScript assets
 key: javascript assets
-content-length: 82
+content-length: 91
 
 /assets/global/plugins/owl-carousel/owl.carousel.min.js
-/assets/global/app/owl.js
+/assets/global/app/owl-carousel.js
 ----field----
 field: {4867D192-326A-4AA4-81EF-EA430E224AFF}
 name: Css assets
@@ -35,7 +35,7 @@ content-length: 103
 ----version----
 language: en
 version: 1
-revision: f6223392-853e-4f62-886a-157d140724ab
+revision: 13b71f8d-10c8-4c76-ba68-d8ba79beb2a8
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -50,14 +50,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-f6223392-853e-4f62-886a-157d140724ab
+13b71f8d-10c8-4c76-ba68-d8ba79beb2a8
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150722T112204Z
+20150730T112530Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
