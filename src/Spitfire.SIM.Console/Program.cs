@@ -21,6 +21,11 @@
                     var exportProcess = new ExportProcess();
                     exportProcess.Execute(exportArgs);
                     break;
+                case "import":
+                    var importArgs = new ImportArgs(args);
+                    var importProcess = new ImportProcess();
+                    importProcess.Execute(importArgs);
+                    break;
             }
         }
     }

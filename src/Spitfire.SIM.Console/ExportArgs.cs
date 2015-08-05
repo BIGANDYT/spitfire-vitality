@@ -14,6 +14,11 @@
             get { return this.GetArg("ExportFilePath"); }
         }
 
+        public string IgnoreFiles
+        {
+            get { return this.GetArg("IgnoreFiles"); }
+        }
+
         public ExportArgs(IEnumerable<string> args) : base(args)
         {
         }

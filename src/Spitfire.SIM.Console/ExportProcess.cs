@@ -32,7 +32,8 @@
                     excludeLogsFolderContents: true,
                     excludePackagesFolderContents: true,
                     exportFilePath: args.ExportFilePath,
-                    selectedDatabases: new[] { "core", "master", "web", "reporting" });
+                    selectedDatabases: new[] { "core", "master", "web", "reporting" },
+                    ignoreFiles: args.IgnoreFiles);
 
                 IPipelineController controller = new ConsoleController();
 

@@ -7,7 +7,7 @@
     {
         private readonly IEnumerable<string> _args;
 
-        public BaseArgsProcessor(IEnumerable<string> args )
+        public BaseArgsProcessor(IEnumerable<string> args)
         {
             this._args = args;
         }
@@ -21,6 +21,17 @@
             }
 
             return arg.Substring(key.Length + 1);
+        }
+
+        protected bool GetBoolean(string str)
+        {
+            if (str == null)
+            {
+                return false;
+            }
+
+            str = str.ToLower();
+            return str == "1" || str == "true" || str == "yes" || str == "y";
         }
     }
 }

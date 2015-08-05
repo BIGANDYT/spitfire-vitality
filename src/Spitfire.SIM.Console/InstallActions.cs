@@ -3,7 +3,9 @@
     using System.Collections.Generic;
     using System.Linq;
 
-    using SIM.Base;
+    using Sitecore.Diagnostics;
+
+    using SIM;
     using SIM.Pipelines;
     using SIM.Pipelines.Install;
     using SIM.Products;

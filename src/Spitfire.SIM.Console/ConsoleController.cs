@@ -8,6 +8,10 @@
 
     public class ConsoleController : IPipelineController
     {
+        public void SetProgress(long progress)
+        {
+        }
+
         public double Maximum { get; set; }
 
         public Pipeline Pipeline { get; set; }

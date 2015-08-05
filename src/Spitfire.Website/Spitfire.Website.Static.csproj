@@ -4222,7 +4222,7 @@
     <Folder Include="metronic\global\plugins\jquery-file-upload\server\php\files\thumbnail\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages.spitfire.website.static.config" />
+    <None Include="packages.spitfire.website.static.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\plugins\diff_match_patch\COPYING" />

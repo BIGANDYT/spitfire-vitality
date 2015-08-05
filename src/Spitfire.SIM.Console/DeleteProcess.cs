@@ -17,7 +17,6 @@
                 InstanceManager.Initialize(args.InstanceDirectory);
                 var instance = InstanceManager.GetInstance(args.InstanceName);
 
-
                 if (instance == null)
                 {
                     System.Console.WriteLine("SIM: Warning! Can't detect installed instance {0}", args.InstanceName);

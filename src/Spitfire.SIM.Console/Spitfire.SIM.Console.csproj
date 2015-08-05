@@ -31,24 +31,44 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="SIM.Adapters">
+      <HintPath>..\..\lib\SIM\SIM.Adapters.dll</HintPath>
+    </Reference>
     <Reference Include="SIM.Base">
       <HintPath>..\..\lib\SIM\SIM.Base.dll</HintPath>
     </Reference>
-    <Reference Include="SIM.Kernel.Adapters">
-      <HintPath>..\..\lib\SIM\SIM.Kernel.Adapters.dll</HintPath>
-    </Reference>
-    <Reference Include="SIM.Kernel.Instances">
-      <HintPath>..\..\lib\SIM\SIM.Kernel.Instances.dll</HintPath>
-    </Reference>
-    <Reference Include="SIM.Kernel.Pipelines">
-      <HintPath>..\..\lib\SIM\SIM.Kernel.Pipelines.dll</HintPath>
-    </Reference>
-    <Reference Include="SIM.Kernel.Products">
-      <HintPath>..\..\lib\SIM\SIM.Kernel.Products.dll</HintPath>
+    <Reference Include="SIM.Instances">
+      <HintPath>..\..\lib\SIM\SIM.Instances.dll</HintPath>
     </Reference>
     <Reference Include="SIM.Pipelines">
       <HintPath>..\..\lib\SIM\SIM.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="SIM.Products">
+      <HintPath>..\..\lib\SIM\SIM.Products.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Kernel">
+      <HintPath>..\..\lib\Sitecore\Sitecore.Kernel.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -67,6 +87,8 @@
     <Compile Include="DeleteArgs.cs" />
     <Compile Include="DeleteProcess.cs" />
     <Compile Include="ExportArgs.cs" />
+    <Compile Include="ImportArgs.cs" />
+    <Compile Include="ImportProcess.cs" />
     <Compile Include="InstallActions.cs" />
     <Compile Include="InstallArgs.cs" />
     <Compile Include="ExportProcess.cs" />

@@ -33,21 +33,6 @@
     <Reference Include="Ionic.Zip">
       <HintPath>..\..\lib\SIM\Ionic.Zip.dll</HintPath>
     </Reference>
-    <Reference Include="SIM.Base">
-      <HintPath>..\..\lib\SIM\SIM.Base.dll</HintPath>
-    </Reference>
-    <Reference Include="SIM.Kernel.Adapters">
-      <HintPath>..\..\lib\SIM\SIM.Kernel.Adapters.dll</HintPath>
-    </Reference>
-    <Reference Include="SIM.Kernel.Instances">
-      <HintPath>..\..\lib\SIM\SIM.Kernel.Instances.dll</HintPath>
-    </Reference>
-    <Reference Include="SIM.Kernel.Pipelines">
-      <HintPath>..\..\lib\SIM\SIM.Kernel.Pipelines.dll</HintPath>
-    </Reference>
-    <Reference Include="SIM.Pipelines">
-      <HintPath>..\..\lib\SIM\SIM.Pipelines.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />

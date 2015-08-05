@@ -8,7 +8,7 @@ sqlcmd -S .\ -U "sa" -P "%DbSaPassword%" -d "%SiteName%Sitecore_web" -v dbname="
 cd /D %InstallerPath%\SIM
 
 echo Exporting instance using SIM...
-Spitfire.Sim.Console.exe export "InstanceName:%SiteName%" "ExportFilePath:%1"
+Spitfire.Sim.Console.exe export "InstanceName:%SiteName%" "ExportFilePath:%1" "IgnoreFiles:DevSettings.config"
 cd %BuildDirectory%
 
 pause

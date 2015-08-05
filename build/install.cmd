@@ -62,6 +62,8 @@ IF "%ERRORLEVEL%" NEQ "0" (
 
 :: Deploying Unicorn items
 call sync.cmd
+call sync.cmd
+call sync.cmd
 IF "%ERRORLEVEL%" NEQ "0" (
 	echo Deploying Unicorn failed
 	exit /B %ERRORLEVEL%
