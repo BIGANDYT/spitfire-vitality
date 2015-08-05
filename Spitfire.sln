@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spitfire.Website", "src\Spitfire.Website\Spitfire.Website.csproj", "{86CADB26-5817-46B6-88C7-76D5753722C3}"
 EndProject
@@ -36,8 +36,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{1E906505
 		build\vars.cmd = build\vars.cmd
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spitfire.SIM", "src\Spitfire.SIM\Spitfire.SIM.csproj", "{6F85DEE3-3AF3-4598-93E0-1CE99401E519}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CI", "CI", "{CFA36180-16F1-4456-B18C-2057ABA18D03}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spitfire.SIM.Console", "src\Spitfire.SIM.Console\Spitfire.SIM.Console.csproj", "{E45940F3-DFAE-45C5-AFDB-3B578D257B9B}"
@@ -62,10 +60,6 @@ Global
 		{3CE5C5A8-C7B1-4D88-B487-6A3BED1891DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CE5C5A8-C7B1-4D88-B487-6A3BED1891DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CE5C5A8-C7B1-4D88-B487-6A3BED1891DF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6F85DEE3-3AF3-4598-93E0-1CE99401E519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6F85DEE3-3AF3-4598-93E0-1CE99401E519}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6F85DEE3-3AF3-4598-93E0-1CE99401E519}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6F85DEE3-3AF3-4598-93E0-1CE99401E519}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E45940F3-DFAE-45C5-AFDB-3B578D257B9B}.Debug|Any CPU.ActiveCfg = Debug|x64
 		{E45940F3-DFAE-45C5-AFDB-3B578D257B9B}.Debug|Any CPU.Build.0 = Debug|x64
 		{E45940F3-DFAE-45C5-AFDB-3B578D257B9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -80,7 +74,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1E906505-AD61-4F72-B200-0FA759EB409F} = {CFA36180-16F1-4456-B18C-2057ABA18D03}
-		{6F85DEE3-3AF3-4598-93E0-1CE99401E519} = {CFA36180-16F1-4456-B18C-2057ABA18D03}
 		{E45940F3-DFAE-45C5-AFDB-3B578D257B9B} = {CFA36180-16F1-4456-B18C-2057ABA18D03}
 	EndGlobalSection
 EndGlobal
