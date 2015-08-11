@@ -10,6 +10,34 @@ template: {5486240C-02A1-41D8-B4E3-D871E1F2040A}
 templatekey: Google Search results list
 
 ----field----
+field: {5585A30D-B115-4753-93CE-422C3455DEB2}
+name: ShowInNavigation
+key: showinnavigation
+content-length: 0
+
+
+----field----
+field: {A1816D65-769A-4B09-89F6-B20665024CBF}
+name: ShowInSideNavigation
+key: showinsidenavigation
+content-length: 0
+
+
+----field----
+field: {114BFEE8-A57E-49E7-A18D-68FFD7CA5DF8}
+name: ShowInSitemap
+key: showinsitemap
+content-length: 0
+
+
+----field----
+field: {ADAF5524-E0CC-43DF-8B52-B2528A13ABBF}
+name: ShowInSearch
+key: showinsearch
+content-length: 0
+
+
+----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
 key: __icon
@@ -33,7 +61,7 @@ content-length: 0
 ----version----
 language: en
 version: 1
-revision: d045ad73-fb42-4c86-adcc-6df9fd426021
+revision: 04179574-8b81-46cc-b50a-7d61cc93ca73
 
 ----field----
 field: {C970470D-B7CA-4BD5-893F-675BBAA1F730}
@@ -69,14 +97,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-d045ad73-fb42-4c86-adcc-6df9fd426021
+04179574-8b81-46cc-b50a-7d61cc93ca73
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150724T120112Z
+20150811T144347Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

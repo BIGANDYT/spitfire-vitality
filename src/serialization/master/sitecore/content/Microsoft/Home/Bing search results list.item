@@ -10,6 +10,34 @@ template: {526DB135-486B-48F8-944C-870E20DD804D}
 templatekey: Bing Search results list
 
 ----field----
+field: {5585A30D-B115-4753-93CE-422C3455DEB2}
+name: ShowInNavigation
+key: showinnavigation
+content-length: 0
+
+
+----field----
+field: {A1816D65-769A-4B09-89F6-B20665024CBF}
+name: ShowInSideNavigation
+key: showinsidenavigation
+content-length: 0
+
+
+----field----
+field: {114BFEE8-A57E-49E7-A18D-68FFD7CA5DF8}
+name: ShowInSitemap
+key: showinsitemap
+content-length: 0
+
+
+----field----
+field: {ADAF5524-E0CC-43DF-8B52-B2528A13ABBF}
+name: ShowInSearch
+key: showinsearch
+content-length: 0
+
+
+----field----
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
@@ -19,7 +47,7 @@ content-length: 0
 ----version----
 language: en
 version: 1
-revision: 0c273956-1c02-434b-9ce5-352e1fe660a8
+revision: 606dfbe9-c2ca-4b3d-832f-81f4fe100dd2
 
 ----field----
 field: {7EC452F2-4BE6-4697-935B-0D2DAB7D93AE}
@@ -48,14 +76,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-0c273956-1c02-434b-9ce5-352e1fe660a8
+606dfbe9-c2ca-4b3d-832f-81f4fe100dd2
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150724T120036Z
+20150811T140715Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
