@@ -1,5 +1,7 @@
 ﻿<Project>
-  <Site Server="spitfire" UserName="sitecore\admin" IsRemoteSitecore="True" />
+  <PropertyGroup>
+    <Site Server="finance.demo" UserName="sitecore\admin" IsRemoteSitecore="True" />
+  </PropertyGroup>
   <File Include="Models\IconTeaserModel.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{0B1D08A3-6C98-4236-9E75-413E87EA66BD}</Item>
   </File>
@@ -30,6 +32,7 @@
   <File Include="Views\Core\Layouts\Search\Bing search results.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0" />
   <File Include="/Views/Core/Layouts/Search/Bing search results.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{DC35570D-51F4-4227-8689-C8E6FD496128}</Item>
+  </File>
   <File Include="Views\Core\Components\Text\Testimonial.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{DC3BECB9-4202-4997-B8C2-CB4918F095C5}</Item>
   </File>

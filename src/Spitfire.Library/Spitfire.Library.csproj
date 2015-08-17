@@ -72,6 +72,7 @@
     <Compile Include="Models\AssetRequirements\AssetType.cs" />
     <Compile Include="Models\Core\Components\Headers\SectionHeader.cs" />
     <Compile Include="Models\Core\Components\Multilists\MultiList.cs" />
+    <Compile Include="Models\Core\Components\Snippets\Step.cs" />
     <Compile Include="Models\Core\Components\Video\VideoBanner.cs" />
     <Compile Include="Models\Core\Scaffolding\Aside.cs" />
     <Compile Include="Models\Core\Components\Images\ImageBanner.cs" />

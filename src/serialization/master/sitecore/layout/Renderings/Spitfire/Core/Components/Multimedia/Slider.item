@@ -2,7 +2,7 @@
 version: 1
 id: {C8987D0B-1FB9-403C-9746-41D56DEF5FF6}
 database: master
-path: /sitecore/layout/Renderings/Spitfire/Core/Components/Images/Slider
+path: /sitecore/layout/Renderings/Spitfire/Core/Components/Multimedia/Slider
 parent: {730A79D1-F97D-429E-B1AD-7EC6DC41CB74}
 name: Slider
 master: {00000000-0000-0000-0000-000000000000}
@@ -13,9 +13,9 @@ templatekey: View rendering
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
 name: Path
 key: path
-content-length: 43
+content-length: 47
 
-/Views/Core/Components/Images/Slider.cshtml
+/Views/Core/Components/Multimedia/Slider.cshtml
 ----field----
 field: {E514A1EB-DDBA-44F7-8528-82CA2280F778}
 name: JavaScript assets
@@ -64,7 +64,7 @@ content-length: 49
 ----version----
 language: en
 version: 1
-revision: 307a1572-993a-4b5f-b794-e4f92a38657e
+revision: da676cd5-ffa0-4dbc-b690-36d8b3749da1
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -79,14 +79,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-307a1572-993a-4b5f-b794-e4f92a38657e
+da676cd5-ffa0-4dbc-b690-36d8b3749da1
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150722T105108Z
+20150817T120420Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

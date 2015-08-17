@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {0BC2B250-8358-4371-A3FF-298F341942AF}
+id: {730A79D1-F97D-429E-B1AD-7EC6DC41CB74}
 database: master
-path: /sitecore/layout/Renderings/Spitfire/Core/Components/Headers
+path: /sitecore/layout/Renderings/Spitfire/Core/Components/Multimedia
 parent: {67EFB612-AB44-48B7-B151-FD2719FABD5B}
-name: Headers
+name: Multimedia
 master: {00000000-0000-0000-0000-000000000000}
 template: {7EE0975B-0698-493E-B3A2-0B2EF33D0522}
 templatekey: Rendering Folder
@@ -12,7 +12,7 @@ templatekey: Rendering Folder
 ----version----
 language: en
 version: 1
-revision: 406b944e-73b2-4774-b1fe-9f77589bfe2c
+revision: 70478133-84e3-437b-87a3-1315460125f6
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -20,21 +20,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20150714T080944Z
+20150714T090757Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-406b944e-73b2-4774-b1fe-9f77589bfe2c
+70478133-84e3-437b-87a3-1315460125f6
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150714T080947Z
+20150817T120346Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

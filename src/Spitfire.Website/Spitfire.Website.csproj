@@ -330,6 +330,7 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="sitecore modules\shell\Web Forms for Marketers\themes\metronic.css" />
+    <Content Include="Views\Core\Components\Snippets\css\Snippets.css" />
     <Content Include="webedit.css" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
@@ -408,10 +409,10 @@
     <Content Include="Views\Core\Layouts\Vitality\NavList.cshtml" />
     <Content Include="Views\Core\Layouts\Vitality\SocialShare.cshtml" />
     <Content Include="Views\Core\Components\Snippets\OwlCarousel.cshtml" />
-    <Content Include="Views\Core\Components\Headers\SectionHeader.cshtml" />
+    <Content Include="Views\Core\Components\Text\SectionHeader.cshtml" />
     <Content Include="Views\Core\Layouts\Vitality\NavBar.cshtml" />
-    <Content Include="Views\Core\Components\Video\VideoBanner.cshtml" />
-    <Content Include="Views\Core\Components\Images\ImageBanner.cshtml" />
+    <Content Include="Views\Core\Components\Multimedia\VideoBanner.cshtml" />
+    <Content Include="Views\Core\Components\Multimedia\ImageBanner.cshtml" />
     <Content Include="Views\Core\Scaffolding\section.cshtml" />
     <Content Include="Views\Core\Components\Snippets\IconTeaser.cshtml" />
     <Content Include="Views\Core\Scaffolding\aside.cshtml" />
@@ -424,7 +425,7 @@
     <Content Include="Views\Core\Components\Navigation\LinkBar.cshtml" />
     <Content Include="Views\Core\Layouts\Vitality\Footer.cshtml" />
     <Content Include="Views\Core\Components\Snippets\ImageText.cshtml" />
-    <Content Include="Views\Core\Components\Video\Video.cshtml" />
+    <Content Include="Views\Core\Components\Multimedia\Video.cshtml" />
     <Content Include="Views\Core\Components\Social\SocialIcons.cshtml" />
     <Content Include="Views\Core\Components\Text\BlockQuote.cshtml" />
     <Content Include="Views\Core\Layouts\Metronic\Breadcrumb.cshtml" />
@@ -439,7 +440,7 @@
     <Content Include="Views\Core\Components\News\NewsItem.cshtml" />
     <Content Include="Views\Core\Components\News\NewsList.cshtml" />
     <Content Include="Views\Core\Components\Text\PersonalisedBlockQuote.cshtml" />
-    <Content Include="Views\Core\Components\Images\PhotoStream.cshtml" />
+    <Content Include="Views\Core\Components\Multimedia\PhotoStream.cshtml" />
     <Content Include="Views\Core\Components\Product\ProductGallery.cshtml" />
     <Content Include="Views\Core\Components\Product\ProductItem.cshtml" />
     <Content Include="Views\Core\Components\Product\ProductSpot.cshtml" />
@@ -448,13 +449,13 @@
     <Content Include="Views\Core\Components\Overview\Selection.cshtml" />
     <Content Include="Views\Core\Components\Meta\Seo.cshtml" />
     <Content Include="Views\Core\Components\Snippets\ServiceBox.cshtml" />
-    <Content Include="Views\Core\Components\Images\Slider.cshtml" />
-    <Content Include="Views\Core\Components\Snippets\Steps.cshtml" />
+    <Content Include="Views\Core\Components\Multimedia\Slider.cshtml" />
+    <Content Include="Views\Core\Components\Snippets\Three-Steps.cshtml" />
     <Content Include="Views\Core\Components\Containers\Tabs.cshtml" />
     <Content Include="Views\Core\Components\Text\Testimonials.cshtml" />
     <Content Include="Views\Core\Components\Profiles\UserProfiles.cshtml" />
-    <Content Include="Views\Core\Components\Video\VideoBanner2.cshtml" />
-    <Content Include="Views\Core\Components\Video\VideoSidebar.cshtml" />
+    <Content Include="Views\Core\Components\Multimedia\VideoBanner2.cshtml" />
+    <Content Include="Views\Core\Components\Multimedia\VideoSidebar.cshtml" />
     <Content Include="Views\Core\Layouts\Metronic\CssColour.cshtml" />
     <Content Include="Views\Core\Layouts\Metronic\Footer.cshtml" />
     <Content Include="Views\Core\Layouts\Metronic\Header.cshtml" />
@@ -470,6 +471,8 @@
     <Content Include="Views\Core\Layouts\Search\Bing.cshtml" />
     <Content Include="Views\Core\Layouts\Search\Bing search results.cshtml" />
     <Content Include="Views\Core\Components\Text\Testimonial.cshtml" />
+    <Content Include="Views\Core\Components\Snippets\SnippetContainer.cshtml" />
+    <Content Include="Views\Core\Components\Snippets\Step.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

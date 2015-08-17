@@ -61,5 +61,23 @@
             /// </summary>
             public const string Animation = "Animation";
         }
+
+        public static class Step
+        {
+            /// <summary>
+            /// The name of the background color parameter field
+            /// </summary>
+            public const string BackgroundColor = "Background Color";
+
+            /// <summary>
+            /// The name of the Background Text parameter field
+            /// </summary>
+            public const string BackgroundText = "Background Text";
+
+            /// <summary>
+            /// The name of the Text Color parameter field
+            /// </summary>
+            public const string TextColor = "Text Color";
+        }
     }
 }
