@@ -241,7 +241,7 @@ Template Name: Metronic - Officecore overwrite
 }
 
 .color-panel .icon-color-close {
-	background-image: url(../img/icon-color-close.png) !important;
+	background-image: url(/metronic/frontend/layout/img/icon-color-close.png) !important;
 }
 video {
 	background-color: transparent;

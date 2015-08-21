@@ -1,26 +1,16 @@
 ﻿@model Spitfire.Library.Models.Core.Components.Snippets.Step
 
+<style type="text/css">
+    div.step-@Model.BackgroundText:before {
+        opacity: 0.2;
+        content: '@Model.BackgroundText'
+    }
+
+</style>
 
 <div class="col-md-4 col-sm-4 front-step-col">
-    <div class="front-step @Model.BackgroundText" style="background: @Model.BackgroundColor">
+    <div class="front-step step-@Model.BackgroundText" style="background: @Model.BackgroundColor">
         <h2 style="color: @Model.TextColor">@Html.Sitecore().Field("Title", Model.Item)</h2>
-        <p style="color: @Model.TextColor">@Html.Sitecore().Field("Body", Model.Item)</p>
+        <div class="step-content" style="color: @Model.TextColor">@Html.Sitecore().Field("Body", Model.Item)</div>
     </div>
 </div>
-
-<script type="text/javascript">
-    var addRule = (function(style){
-        var sheet = document.head.appendChild(style).sheet;
-        return function(selector, css){
-            var propText = Object.keys(css).map(function(p){
-                return p+":"+css[p]
-            }).join(";");
-            sheet.insertRule(selector + "{" + propText + "}", sheet.cssRules.length);
-        }
-    })(document.createElement("style"));
-
-    addRule("div.@Model.BackgroundText:before", {
-        opacity: "0.2",
-        content: "@Model.BackgroundText"
-    });
-</script>

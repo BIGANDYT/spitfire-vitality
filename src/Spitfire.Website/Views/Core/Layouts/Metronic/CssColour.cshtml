@@ -1,8 +1,8 @@
 ﻿@using Sitecore.Mvc.Presentation
 @using Spitfire.SitecoreExtensions.Extensions
-@model RenderingModel
+@*@model RenderingModel
 @{
-    var home = Model.PageItem.GetAncestorOfTemplate("home");
+    var home = Sitecore.Context.Database.GetItem(Sitecore.Context.Site.StartPath);
     if (home == null)
     {
         return;
@@ -12,4 +12,4 @@
     var colouritem = Sitecore.Context.Database.GetItem(colourid);
 }
 
-<link href="/metronic/frontend/layout/css/themes/@colouritem["css filename"]" rel="stylesheet" id="style-color" />
+<link href="/metronic/frontend/layout/css/themes/@colouritem["css filename"]" rel="stylesheet" id="style-color"*@ />
