@@ -39,13 +39,6 @@ key: cacheable
 content-length: 1
 
 1
-----field----
-field: {8B6D532B-6128-4486-A044-CA06D90948BA}
-name: VaryByData
-key: varybydata
-content-length: 0
-
-
 ----version----
 language: en
 version: 1

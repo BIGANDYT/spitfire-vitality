@@ -14,3 +14,4 @@ lib/Sitecore/*
 lib/System/*
 .sonar
 vars.user.cmd
+/.vs

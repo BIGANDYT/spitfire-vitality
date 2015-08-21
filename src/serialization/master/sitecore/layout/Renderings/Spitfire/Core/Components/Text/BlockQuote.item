@@ -17,6 +17,13 @@ content-length: 45
 
 /Views/Core/Components/Text/BlockQuote.cshtml
 ----field----
+field: {4867D192-326A-4AA4-81EF-EA430E224AFF}
+name: Css assets
+key: css assets
+content-length: 43
+
+/assets/Core/Components/Text/BlockQuote.css
+----field----
 field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
 name: Datasource Location
 key: datasource location
@@ -35,13 +42,6 @@ language: en
 version: 1
 revision: 0e46c191-cc00-4193-8220-4ab4b714c34a
 
-----field----
-field: {4867D192-326A-4AA4-81EF-EA430E224AFF}
-name: Css assets
-key: css assets
-content-length: 43
-
-/assets/Core/Components/Text/BlockQuote.css
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created

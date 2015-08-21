@@ -17,13 +17,6 @@ content-length: 42
 
 /Views/Core/Layouts/Metronic/Footer.cshtml
 ----field----
-field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
-name: Open Properties after Add
-key: open properties after add
-content-length: 0
-
-
-----field----
 field: {4867D192-326A-4AA4-81EF-EA430E224AFF}
 name: Css assets
 key: css assets

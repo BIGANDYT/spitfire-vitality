@@ -16,34 +16,6 @@ key: path
 content-length: 55
 
 /Views/Core/Components/Snippets/SnippetContainer.cshtml
-----field----
-field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
-name: Model
-key: model
-content-length: 0
-
-
-----field----
-field: {4867D192-326A-4AA4-81EF-EA430E224AFF}
-name: Css assets
-key: css assets
-content-length: 0
-
-
-----field----
-field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
-name: Datasource Location
-key: datasource location
-content-length: 0
-
-
-----field----
-field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
-name: Datasource Template
-key: datasource template
-content-length: 0
-
-
 ----version----
 language: en
 version: 1

@@ -33,15 +33,8 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: de4a5608-1d40-45b4-bc3b-97f79341f655
+revision: befed609-38c8-405e-81d9-2f7712141ae0
 
-----field----
-field: {8A826BE2-C878-49DA-A0F7-32DB6718E2FB}
-name: __FallbackFields
-key: __fallbackfields
-content-length: 1724
-
-            <fallback>                 <setting target="{C30A013F-3CC8-4961-9837-1C483277084A}" source="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" description="Title -> Display name" />                 <setting target="{CA0479CE-0BFE-4522-83DE-BA688B380A78}" source="{C30A013F-3CC8-4961-9837-1C483277084A}|{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" description="Browser title -> Title -> Display name" />                 <setting target="{1B483E91-D8C4-4D19-BA03-462074B55936}" source="{C30A013F-3CC8-4961-9837-1C483277084A}|{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" description="Short Title -> Title -> Display name" />                 <setting target="{0EE2F208-1FEE-42FC-8051-6696D49A92BF}" source="{C30A013F-3CC8-4961-9837-1C483277084A}|{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" description="Open Graph Title -> Title -> Display name" />                 <setting target="{AC3FD4DB-8266-476D-9635-67814D91E901}" source="{D74F396D-5C5E-4916-BD0A-BFD58B6B1967}" description="Summary -> Body" enableEllipsis="true" clipAt="200" />                 <setting target="{11F41661-E5FE-44E7-B8DA-7CFF2D39B4B2}" source="{9492E0BB-9DF9-46E7-8188-EC795C4ADE44}" description="Open Graph Image -> Thumbnail" />                 <setting target="{A12D5346-87EE-484D-83C5-F1E8E1B99666}" source="{AC3FD4DB-8266-476D-9635-67814D91E901}|{D74F396D-5C5E-4916-BD0A-BFD58B6B1967}" description="Open Graph description -> Summary -> Body" enableEllipsis="true" clipAt="200" />                       <setting target="{BB7A38C0-323C-4F81-8EB9-288ABF7C4638}" source="{AC3FD4DB-8266-476D-9635-67814D91E901}|{D74F396D-5C5E-4916-BD0A-BFD58B6B1967}" description="SEO Meta Description -> Summary -> Body" enableEllipsis="true" clipAt="200" />             </fallback>
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -55,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-de4a5608-1d40-45b4-bc3b-97f79341f655
+befed609-38c8-405e-81d9-2f7712141ae0
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150708T124040Z
+20150821T084236Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

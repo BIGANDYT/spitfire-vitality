@@ -44,13 +44,6 @@ key: datasource template
 content-length: 48
 
 /sitecore/templates/Spitfire/Core/Content/Teaser
-----field----
-field: {E441ABE7-2CA3-4640-AE26-3789967925D7}
-name: Compatible Renderings
-key: compatible renderings
-content-length: 0
-
-
 ----version----
 language: en
 version: 1

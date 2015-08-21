@@ -5,7 +5,6 @@ call vars.cmd
 echo Installing updates using Sitecore ship
 set sitelocation=%InstanceDirectory%\%sitename%\Website
 
-@echo on
 tools\curl -f "http://%sitename%/sitecore_ship/about"
 
 :: Note: We won't need this for much longer, will be in Sitecore 8.1
@@ -58,31 +57,6 @@ if not exist "%sitelocation%\bin\Outercore.FieldTypes.dll" (
 
 if not exist "%sitelocation%\bin\Sitecore.SharedSource.CustomFields.ColorPicker.dll" (
 	tools\curl -F "path=%InstallerPath%\ColorPicker Field.zip" "http://%sitename%/sitecore_ship/package/install"
-	IF "%ERRORLEVEL%" NEQ "0" (
-		echo Package installation failed
-		exit /B %ERRORLEVEL%
-	)
-)
-
-if not exist "%sitelocation%\bin\FieldFallback.Kernel.dll" (
-	tools\curl -F "path=%InstallerPath%\Kernel.Sitecore.Master.update" "http://%sitename%/sitecore_ship/package/install"
-	IF "%ERRORLEVEL%" NEQ "0" (
-		echo Package installation failed
-		exit /B %ERRORLEVEL%
-	)
-)
-
-if not exist "%sitelocation%\bin\FieldFallback.Processors.dll" (
-	tools\curl -F "path=%InstallerPath%\Processors.Sitecore.Master.update" "http://%sitename%/sitecore_ship/package/install"
-	IF "%ERRORLEVEL%" NEQ "0" (
-		echo Package installation failed
-		exit /B %ERRORLEVEL%
-	)
-)
-
-:: Note: We won't need this for much longer, will be in Sitecore 8.1
-if not exist "%sitelocation%\bin\FieldFallback.Processors.Globalization.dll" (
-	tools\curl -F "path=%InstallerPath%\Processors.Globalization.Sitecore.Master.update" "http://%sitename%/sitecore_ship/package/install"
 	IF "%ERRORLEVEL%" NEQ "0" (
 		echo Package installation failed
 		exit /B %ERRORLEVEL%

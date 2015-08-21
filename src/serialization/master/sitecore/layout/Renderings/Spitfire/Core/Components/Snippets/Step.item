@@ -65,13 +65,6 @@ key: datasource location
 content-length: 18
 
 /sitecore/content/
-----field----
-field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
-name: Datasource Template
-key: datasource template
-content-length: 0
-
-
 ----version----
 language: en
 version: 1

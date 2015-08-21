@@ -24,13 +24,6 @@ content-length: 66
 
 /sitecore/layout/Models/Spitfire/Core/Components/Video/VideoBanner
 ----field----
-field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
-name: Open Properties after Add
-key: open properties after add
-content-length: 0
-
-
-----field----
 field: {E441ABE7-2CA3-4640-AE26-3789967925D7}
 name: Compatible Renderings
 key: compatible renderings
