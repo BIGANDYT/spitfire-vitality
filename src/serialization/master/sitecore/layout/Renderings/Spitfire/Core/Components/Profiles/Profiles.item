@@ -20,16 +20,16 @@ content-length: 47
 field: {E514A1EB-DDBA-44F7-8528-82CA2280F778}
 name: JavaScript assets
 key: javascript assets
-content-length: 172
+content-length: 174
 
 http://cdn.amcharts.com/lib/3/amcharts.js
 http://www.amcharts.com/lib/3/pie.js
 http://cdn.amcharts.com/lib/3/themes/light.js
-/assets/core/components/profiles/profiles.js
+/Views/Core/Components/profiles/js/profiles.js
 ----version----
 language: en
 version: 1
-revision: 8ff7c7fb-b778-4bb1-9ec9-2f5e56baadc7
+revision: 89c24410-a1cd-4a03-b4d3-463aa878f9a6
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -44,14 +44,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8ff7c7fb-b778-4bb1-9ec9-2f5e56baadc7
+89c24410-a1cd-4a03-b4d3-463aa878f9a6
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150722T112046Z
+20150821T103818Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
