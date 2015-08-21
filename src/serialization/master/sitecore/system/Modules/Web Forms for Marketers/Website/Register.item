@@ -95,7 +95,7 @@ content-length: 769
 ----version----
 language: en
 version: 1
-revision: 275e1e35-2a21-4413-bd38-b155edf0dc7b
+revision: 559e9576-8cc5-4864-a461-292ac5edb144
 
 ----field----
 field: {86D6A401-5A20-49C9-A2F8-0312398EE946}
@@ -115,9 +115,9 @@ Create an account
 field: {9C4C1994-5140-49D3-BAD7-DB997816F816}
 name: Success Page
 key: success page
-content-length: 176
+content-length: 149
 
-<link id="{C18F6604-15E8-4445-89B8-DEE8EF597440}" querystring="" target="Active Browser" text="" url="/sitecore/content/Microsoft/Home" title="" class="" linktype="internal" />
+<link id="{C18F6604-15E8-4445-89B8-DEE8EF597440}" querystring="" target="Active Browser" text="" url="/Home" title="" class="" linktype="internal" />
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
@@ -145,14 +145,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-275e1e35-2a21-4413-bd38-b155edf0dc7b
+559e9576-8cc5-4864-a461-292ac5edb144
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150701T120017Z
+20150821T161552Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

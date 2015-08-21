@@ -10,13 +10,7 @@
         /// <summary>
         /// Gets the id of the NavBar template
         /// </summary>
-        public static ID NavBar
-        {
-            get
-            {
-                return new ID("{A12D613D-7E9E-4392-A405-36B8A2CE659F}");
-            }
-        }
+        public static ID NavBar { get; private set; } = new ID("{A12D613D-7E9E-4392-A405-36B8A2CE659F}");
 
         /// <summary>
         /// Gets the ID of the NavItem template
@@ -36,7 +30,7 @@
         {
             get
             {
-                return new ID("{0643D9D4-F30B-4B07-91D0-289CC324C9CF}"); 
+                return new ID("{0643D9D4-F30B-4B07-91D0-289CC324C9CF}");
             }
         }
 

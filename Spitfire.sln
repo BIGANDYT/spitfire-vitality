@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spitfire.Website", "src\Spitfire.Website\Spitfire.Website.csproj", "{86CADB26-5817-46B6-88C7-76D5753722C3}"
 EndProject
@@ -40,7 +40,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CI", "CI", "{CFA36180-16F1-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spitfire.SIM.Console", "src\Spitfire.SIM.Console\Spitfire.SIM.Console.csproj", "{E45940F3-DFAE-45C5-AFDB-3B578D257B9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spitfire.Website.Static", "src\Spitfire.Website\Spitfire.Website.Static.csproj", "{F3D8EFE0-4F7A-452E-AD0D-63E3C81DAD5B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{755F9E42-1707-4E1A-AE6D-3FD8A25118C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spitfire.Modules.AssetRequirements", "src\Modules\AssetRequirements\Spitfire.Modules.AssetRequirements.csproj", "{7E46FF93-EE05-412C-AC47-2A59A13DA73C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -64,10 +66,10 @@ Global
 		{E45940F3-DFAE-45C5-AFDB-3B578D257B9B}.Debug|Any CPU.Build.0 = Debug|x64
 		{E45940F3-DFAE-45C5-AFDB-3B578D257B9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E45940F3-DFAE-45C5-AFDB-3B578D257B9B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F3D8EFE0-4F7A-452E-AD0D-63E3C81DAD5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F3D8EFE0-4F7A-452E-AD0D-63E3C81DAD5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F3D8EFE0-4F7A-452E-AD0D-63E3C81DAD5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F3D8EFE0-4F7A-452E-AD0D-63E3C81DAD5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E46FF93-EE05-412C-AC47-2A59A13DA73C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E46FF93-EE05-412C-AC47-2A59A13DA73C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E46FF93-EE05-412C-AC47-2A59A13DA73C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E46FF93-EE05-412C-AC47-2A59A13DA73C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,5 +77,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{1E906505-AD61-4F72-B200-0FA759EB409F} = {CFA36180-16F1-4456-B18C-2057ABA18D03}
 		{E45940F3-DFAE-45C5-AFDB-3B578D257B9B} = {CFA36180-16F1-4456-B18C-2057ABA18D03}
+		{7E46FF93-EE05-412C-AC47-2A59A13DA73C} = {755F9E42-1707-4E1A-AE6D-3FD8A25118C0}
 	EndGlobalSection
 EndGlobal

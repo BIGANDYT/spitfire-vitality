@@ -20,13 +20,13 @@ snippetcontainer
 field: {E391B526-D0C5-439D-803E-17512EAE6222}
 name: Allowed Controls
 key: allowed controls
-content-length: 38
+content-length: 0
 
-{D9C0A7A3-8B93-495E-B7C1-E35E0540B472}
+
 ----version----
 language: en
 version: 1
-revision: 29925d9f-2154-4214-a73c-513774c34521
+revision: 385f465e-5d51-4450-901a-acf9f0dad1a6
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -41,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-29925d9f-2154-4214-a73c-513774c34521
+385f465e-5d51-4450-901a-acf9f0dad1a6
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150817T144137Z
+20150821T143306Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

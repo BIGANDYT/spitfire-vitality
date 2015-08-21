@@ -20,9 +20,9 @@ Action Gamer
 field: {98535F26-6C9D-4FD7-A7E2-392C7CB82D65}
 name: Image
 key: image
-content-length: 58
+content-length: 0
 
-<image mediaid="{39DAE389-DFB7-4F37-9C9B-F81E2AFBA79D}" />
+
 ----field----
 field: {6DA71AD3-5849-4482-9317-D21390E5A348}
 name: Pattern
@@ -41,7 +41,7 @@ content-length: 300
 ----version----
 language: en
 version: 1
-revision: bda8386d-3be0-44bb-a9e7-89abaf47fd2e
+revision: 7391496e-c723-44dd-bf50-910287c6018e
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -56,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-bda8386d-3be0-44bb-a9e7-89abaf47fd2e
+7391496e-c723-44dd-bf50-910287c6018e
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150302T140015:635609016153557296Z
+20150821T145504Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

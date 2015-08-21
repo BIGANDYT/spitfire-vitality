@@ -20,9 +20,9 @@ Fighting Gamer
 field: {98535F26-6C9D-4FD7-A7E2-392C7CB82D65}
 name: Image
 key: image
-content-length: 58
+content-length: 0
 
-<image mediaid="{9F2A69F8-ECB6-419F-BB36-58E59D240224}" />
+
 ----field----
 field: {6DA71AD3-5849-4482-9317-D21390E5A348}
 name: Pattern
@@ -41,7 +41,7 @@ content-length: 300
 ----version----
 language: en
 version: 1
-revision: 5690f889-0010-47e3-bd63-3469841717aa
+revision: a490d13a-1b4f-4466-b4e7-e424e2f6c350
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -56,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-5690f889-0010-47e3-bd63-3469841717aa
+a490d13a-1b4f-4466-b4e7-e424e2f6c350
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150302T140027:635609016276390644Z
+20150821T145504Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

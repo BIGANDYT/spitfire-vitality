@@ -20,9 +20,9 @@ Racing Gamer
 field: {98535F26-6C9D-4FD7-A7E2-392C7CB82D65}
 name: Image
 key: image
-content-length: 58
+content-length: 0
 
-<image mediaid="{90531EEE-528B-4ACD-A210-D6DCDE56B257}" />
+
 ----field----
 field: {6DA71AD3-5849-4482-9317-D21390E5A348}
 name: Pattern
@@ -41,7 +41,7 @@ content-length: 300
 ----version----
 language: en
 version: 1
-revision: 142b9848-09ce-487b-b1b0-7bd8eec66b64
+revision: 1b8badb6-e1fe-4569-88cf-13f38743d5d4
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -56,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-142b9848-09ce-487b-b1b0-7bd8eec66b64
+1b8badb6-e1fe-4569-88cf-13f38743d5d4
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150302T140032:635609016327727127Z
+20150821T145504Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

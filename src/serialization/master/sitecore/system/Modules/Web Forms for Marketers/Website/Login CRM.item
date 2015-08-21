@@ -86,7 +86,7 @@ content-length: 250
 ----version----
 language: en
 version: 1
-revision: 5d294bcb-8604-441a-b8a4-3b21817a7ce5
+revision: 835b34c6-a941-4422-9915-3732389daa60
 
 ----field----
 field: {86D6A401-5A20-49C9-A2F8-0312398EE946}
@@ -106,9 +106,9 @@ Login
 field: {9C4C1994-5140-49D3-BAD7-DB997816F816}
 name: Success Page
 key: success page
-content-length: 92
+content-length: 0
 
-<link url="/sitecore/content/Home/My Account" id="{C29CB32F-6648-4EBD-852A-707D84D3DEF5}" />
+
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
@@ -136,14 +136,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-5d294bcb-8604-441a-b8a4-3b21817a7ce5
+835b34c6-a941-4422-9915-3732389daa60
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150303T111530:635609781306449138Z
+20150821T130538Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

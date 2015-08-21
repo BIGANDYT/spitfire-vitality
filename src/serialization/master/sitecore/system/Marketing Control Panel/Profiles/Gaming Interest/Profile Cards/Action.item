@@ -13,9 +13,9 @@ templatekey: Profile Card
 field: {709B879B-7264-49C7-8864-E254D9129302}
 name: Image
 key: image
-content-length: 58
+content-length: 0
 
-<image mediaid="{39DAE389-DFB7-4F37-9C9B-F81E2AFBA79D}" />
+
 ----field----
 field: {85970AB7-22EA-4206-BE86-C0167178860B}
 name: Profile Card Value
@@ -34,7 +34,7 @@ content-length: 300
 ----version----
 language: en
 version: 1
-revision: 1dcf32df-9e96-4eac-9c21-68273f1dd09e
+revision: de3f0ceb-728c-4bbb-87ce-aa960aada2b2
 
 ----field----
 field: {A26FC256-1DB0-44AA-BA3D-1C830BF882A2}
@@ -56,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1dcf32df-9e96-4eac-9c21-68273f1dd09e
+de3f0ceb-728c-4bbb-87ce-aa960aada2b2
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150121T172640:635574580007452807Z
+20150821T145504Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

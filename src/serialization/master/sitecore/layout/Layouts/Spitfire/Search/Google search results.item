@@ -20,13 +20,13 @@ content-length: 55
 field: {E9CC5A73-3C8A-4D7D-92AC-3B88C18A996A}
 name: Model
 key: model
-content-length: 64
+content-length: 0
 
-/sitecore/layout/Models/Spitfire/Core/Search/SearchEngineResults
+
 ----version----
 language: en
 version: 1
-revision: ba0fb102-69df-4eda-be07-10e0594df25d
+revision: 8f9c08b6-508d-4897-a4a0-f3503fdc8cb0
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ba0fb102-69df-4eda-be07-10e0594df25d
+8f9c08b6-508d-4897-a4a0-f3503fdc8cb0
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150721T095235Z
+20150821T131018Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

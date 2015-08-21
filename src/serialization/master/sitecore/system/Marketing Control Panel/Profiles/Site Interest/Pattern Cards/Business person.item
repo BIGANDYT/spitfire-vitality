@@ -20,9 +20,9 @@ Business person
 field: {98535F26-6C9D-4FD7-A7E2-392C7CB82D65}
 name: Image
 key: image
-content-length: 58
+content-length: 0
 
-<image mediaid="{E5335228-6E12-4E5B-9F5D-D614377DE7D0}" />
+
 ----field----
 field: {6DA71AD3-5849-4482-9317-D21390E5A348}
 name: Pattern
@@ -40,7 +40,7 @@ content-length: 256
 ----version----
 language: en
 version: 1
-revision: 75f400c9-c18d-4a2c-9190-163d0a04094a
+revision: db49c82e-398f-4466-93ac-d9ec7e632197
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-75f400c9-c18d-4a2c-9190-163d0a04094a
+db49c82e-398f-4466-93ac-d9ec7e632197
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150121T173205:635574583258562604Z
+20150821T145517Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

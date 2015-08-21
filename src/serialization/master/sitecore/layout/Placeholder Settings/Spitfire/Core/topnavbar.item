@@ -20,13 +20,13 @@ topnavbar
 field: {E391B526-D0C5-439D-803E-17512EAE6222}
 name: Allowed Controls
 key: allowed controls
-content-length: 77
+content-length: 0
 
-{8B07173E-AC10-463B-BFE8-4AB246DD7508}|{57A9BDCA-E1FF-44AD-810C-2117B6F38F7F}
+
 ----version----
 language: en
 version: 1
-revision: b6ea3ade-c1d7-4bc5-ac28-6a968d4c0720
+revision: 5761a6ea-dc33-4e5f-90eb-3d33e4864b16
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -41,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b6ea3ade-c1d7-4bc5-ac28-6a968d4c0720
+5761a6ea-dc33-4e5f-90eb-3d33e4864b16
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150509T202732:635668000527343092Z
+20150821T130744Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

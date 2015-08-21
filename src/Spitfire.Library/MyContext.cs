@@ -130,36 +130,5 @@
         {
             get { return Context.Database != null && Context.Database.Name == "master"; }
         }
-
-        /// <summary>
-        /// Gets a reference of <see cref="AssetRequirementService"/> for this page request
-        /// </summary>
-        public static AssetRequirementService AssetRequirementService
-        {
-            get
-            {
-                const string Key = "JavaScriptService";
-                if (Items[Key] == null)
-                {
-                    Items[Key] = new AssetRequirementService();
-                }
-
-                return (AssetRequirementService)Items[Key];
-            }
-        }
-
-        public static List<string> RequiredCss
-        {
-            get
-            {
-                const string Key = "RequiredCss";
-                if (Items[Key] == null)
-                {
-                    Items[Key] = new List<string>();
-                }
-
-                return (List<string>)Items[Key];
-            }
-        }
     }
 }
