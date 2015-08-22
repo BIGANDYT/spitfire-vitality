@@ -1,0 +1,252 @@
+﻿[
+  {
+    "outputFile": "assets/Base/css/components.css",
+    "inputFile": "sass/components.scss",
+    "minify": {
+      "enabled": false
+    },
+    "includeInProject": true,
+    "sourceMap": false,
+    "options": { }
+  },
+  {
+    "outputFile": "assets/Base/css/plugins.css",
+    "inputFile": "sass/plugins.scss",
+    "minify": {
+      "enabled": false
+    },
+    "includeInProject": true,
+    "sourceMap": false,
+    "options": { }
+  },
+  {
+    "outputFile": "assets/Base/css/custom.css",
+    "inputFile": "sass/custom.scss",
+    "minify": {
+      "enabled": false
+    },
+    "includeInProject": true,
+    "sourceMap": false,
+    "options": { }
+  },
+  {
+    "outputFile": "assets/Base/css/themes/default.css",
+    "inputFile": "sass/themes/default.scss",
+    "minify": {
+      "enabled": false
+    },
+    "includeInProject": true,
+    "sourceMap": false,
+    "options": { }
+  },
+  {
+    "outputFile": "assets/Base/css/themes/blue1.css",
+    "inputFile": "sass/themes/blue1.scss",
+    "minify": {
+      "enabled": false
+    },
+    "includeInProject": true,
+    "sourceMap": false,
+    "options": { }
+  },
+  {
+    "outputFile": "assets/Base/css/themes/blue2.css",
+    "inputFile": "sass/themes/blue2.scss",
+    "minify": {
+      "enabled": false
+    },
+    "includeInProject": true,
+    "sourceMap": false,
+    "options": { }
+  },
+  {
+    "outputFile": "assets/Base/css/themes/blue3.css",
+    "inputFile": "sass/themes/blue3.scss",
+    "minify": {
+      "enabled": false
+    },
+    "includeInProject": true,
+    "sourceMap": false,
+    "options": { }
+  },
+  {
+    "outputFile": "assets/Base/css/themes/brown1.css",
+    "inputFile": "sass/themes/brown1.scss",
+    "minify": {
+      "enabled": false
+    },
+    "includeInProject": true,
+    "sourceMap": false,
+    "options": { }
+  },
+  {
+    "outputFile": "assets/Base/css/themes/brown2.css",
+    "inputFile": "sass/themes/brown2.scss",
+    "minify": {
+      "enabled": false
+    },
+    "includeInProject": true,
+    "sourceMap": false,
+    "options": { }
+  },
+  {
+    "outputFile": "assets/Base/css/themes/brown3.css",
+    "inputFile": "sass/themes/brown3.scss",
+    "minify": {
+      "enabled": false
+    },
+    "includeInProject": true,
+    "sourceMap": false,
+    "options": { }
+  },
+  {
+    "outputFile": "assets/Base/css/themes/dark1.css",
+    "inputFile": "sass/themes/dark1.scss",
+    "minify": {
+      "enabled": false
+    },
+    "includeInProject": true,
+    "sourceMap": false,
+    "options": { }
+  },
+  {
+    "outputFile": "assets/Base/css/themes/dark2.css",
+    "inputFile": "sass/themes/dark2.scss",
+    "minify": {
+      "enabled": false
+    },
+    "includeInProject": true,
+    "sourceMap": false,
+    "options": { }
+  },
+  {
+    "outputFile": "assets/Base/css/themes/dark3.css",
+    "inputFile": "sass/themes/dark3.scss",
+    "minify": {
+      "enabled": false
+    },
+    "includeInProject": true,
+    "sourceMap": false,
+    "options": { }
+  },
+  {
+    "outputFile": "assets/Base/css/themes/green1.css",
+    "inputFile": "sass/themes/green1.scss",
+    "minify": {
+      "enabled": false
+    },
+    "includeInProject": true,
+    "sourceMap": false,
+    "options": { }
+  },
+  {
+    "outputFile": "assets/Base/css/themes/green2.css",
+    "inputFile": "sass/themes/green2.scss",
+    "minify": {
+      "enabled": false
+    },
+    "includeInProject": true,
+    "sourceMap": false,
+    "options": { }
+  },
+  {
+    "outputFile": "assets/Base/css/themes/green3.css",
+    "inputFile": "sass/themes/green3.scss",
+    "minify": {
+      "enabled": false
+    },
+    "includeInProject": true,
+    "sourceMap": false,
+    "options": { }
+  },
+  {
+    "outputFile": "assets/Base/css/themes/purple1.css",
+    "inputFile": "sass/themes/purple1.scss",
+    "minify": {
+      "enabled": false
+    },
+    "includeInProject": true,
+    "sourceMap": false,
+    "options": { }
+  },
+  {
+    "outputFile": "assets/Base/css/themes/purple2.css",
+    "inputFile": "sass/themes/purple2.scss",
+    "minify": {
+      "enabled": false
+    },
+    "includeInProject": true,
+    "sourceMap": false,
+    "options": { }
+  },
+  {
+    "outputFile": "assets/Base/css/themes/purple3.css",
+    "inputFile": "sass/themes/purple3.scss",
+    "minify": {
+      "enabled": false
+    },
+    "includeInProject": true,
+    "sourceMap": false,
+    "options": { }
+  },
+  {
+    "outputFile": "assets/Base/css/themes/red1.css",
+    "inputFile": "sass/themes/red1.scss",
+    "minify": {
+      "enabled": false
+    },
+    "includeInProject": true,
+    "sourceMap": false,
+    "options": { }
+  },
+  {
+    "outputFile": "assets/Base/css/themes/red2.css",
+    "inputFile": "sass/themes/red2.scss",
+    "minify": {
+      "enabled": false
+    },
+    "includeInProject": true,
+    "sourceMap": false,
+    "options": { }
+  },
+  {
+    "outputFile": "assets/Base/css/themes/red3.css",
+    "inputFile": "sass/themes/red3.scss",
+    "minify": {
+      "enabled": false
+    },
+    "includeInProject": true,
+    "sourceMap": false,
+    "options": { }
+  },
+  {
+    "outputFile": "assets/Base/css/themes/yellow1.css",
+    "inputFile": "sass/themes/yellow1.scss",
+    "minify": {
+      "enabled": false
+    },
+    "includeInProject": true,
+    "sourceMap": false,
+    "options": { }
+  },
+  {
+    "outputFile": "assets/Base/css/themes/yellow2.css",
+    "inputFile": "sass/themes/yellow2.scss",
+    "minify": {
+      "enabled": false
+    },
+    "includeInProject": true,
+    "sourceMap": false,
+    "options": { }
+  },
+  {
+    "outputFile": "assets/Base/css/themes/yellow3.css",
+    "inputFile": "sass/themes/yellow3.scss",
+    "minify": {
+      "enabled": false
+    },
+    "includeInProject": true,
+    "sourceMap": false,
+    "options": { }
+  }
+]
