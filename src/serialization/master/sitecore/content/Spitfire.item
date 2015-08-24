@@ -1,86 +1,44 @@
 ----item----
 version: 1
-id: {DAC24EDD-44FB-42EF-9ECD-1E8DAF706386}
+id: {725A45E3-E307-4B95-B363-2782B059DF06}
 database: master
 path: /sitecore/content/Spitfire
 parent: {0DE95AE4-41AB-4D01-9EB0-67441B7C2450}
 name: Spitfire
 master: {00000000-0000-0000-0000-000000000000}
-template: {4A8822CC-B418-4452-AB0F-8BB6DF2F2114}
-templatekey: Home
+template: {0643D9D4-F30B-4B07-91D0-289CC324C9CF}
+templatekey: SiteRoot
 
-----field----
-field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
-name: __Renderings
-key: __renderings
-content-length: 133
-
-<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" s:l="{CC227564-15B6-41C1-AEBF-8E40458CEF8C}" /></r>
 ----version----
 language: en
 version: 1
-revision: 33ab0397-cc8f-4aa5-8c4d-5b3cf8f01c67
+revision: abbdc295-5e67-4f88-b01a-fb3845c04ae7
 
-----field----
-field: {CA0479CE-0BFE-4522-83DE-BA688B380A78}
-name: BrowserTitle
-key: browsertitle
-content-length: 4
-
-Home
-----field----
-field: {1B483E91-D8C4-4D19-BA03-462074B55936}
-name: ShortTitle
-key: shorttitle
-content-length: 8
-
-New Home
-----field----
-field: {C30A013F-3CC8-4961-9837-1C483277084A}
-name: Title
-key: title
-content-length: 8
-
-New Home
-----field----
-field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
-name: __Owner
-key: __owner
-content-length: 14
-
-sitecore\admin
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20150823T123346Z
-----field----
-field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
-name: __Created by
-key: __created by
-content-length: 14
-
-sitecore\admin
+20150824T171748Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-33ab0397-cc8f-4aa5-8c4d-5b3cf8f01c67
+abbdc295-5e67-4f88-b01a-fb3845c04ae7
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150823T172357Z
+20150824T171748Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 18
+content-length: 14
 
-extranet\Anonymous
+sitecore\admin

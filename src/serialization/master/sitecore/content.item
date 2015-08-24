@@ -41,9 +41,9 @@ content-length: 350
 field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
 name: __Masters
 key: __masters
-content-length: 0
+content-length: 38
 
-
+{0643D9D4-F30B-4B07-91D0-289CC324C9CF}
 ----field----
 field: {F2DB8BA1-E477-41F5-8EF5-22EEFA8D2F6E}
 name: __Enabled Views
@@ -197,7 +197,7 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: 0c7fa82f-3a5d-4e32-9096-feaa75bcaa9b
+revision: f025fd5e-47ee-4014-a783-ef4c72500710
 
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
@@ -247,14 +247,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-0c7fa82f-3a5d-4e32-9096-feaa75bcaa9b
+f025fd5e-47ee-4014-a783-ef4c72500710
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150823T122614Z
+20150824T171732Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
