@@ -33,15 +33,27 @@ if not exist ..\lib\System (
 
 SET DeployParameters=/p:DeployOnBuild=true /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:DeleteExistingFiles=False /p:publishUrl=%WebsiteDirectory%
 
-%msbuild% ..\src\Spitfire.Website\Spitfire.Website.csproj %DeployParameters%
+%msbuild% ..\src\Framework\Website\Spitfire.Framework.Website.csproj %DeployParameters%
 IF "%ERRORLEVEL%" NEQ "0" (
 	echo Build of Website project failed
 	exit /B %ERRORLEVEL%
 )
 
-%msbuild% ..\src\Spitfire.Website\Spitfire.Website.Static.csproj %DeployParameters%
+%msbuild% ..\src\Framework\Assets\Spitfire.Framework.Assets.csproj %DeployParameters%
 IF "%ERRORLEVEL%" NEQ "0" (
-	echo Build of Website static project failed
+	echo Build of assets project failed
+	exit /B %ERRORLEVEL%
+)
+
+%msbuild% ..\src\Framework\BuildProcess\Spitfire.Framework.BuildProcess.csproj %DeployParameters%
+IF "%ERRORLEVEL%" NEQ "0" (
+	echo Build of buildprocess project failed
+	exit /B %ERRORLEVEL%
+)
+
+%msbuild% ..\src\Framework\Health\Spitfire.Framework.Health.csproj %DeployParameters%
+IF "%ERRORLEVEL%" NEQ "0" (
+	echo Build of buildprocess project failed
 	exit /B %ERRORLEVEL%
 )
 

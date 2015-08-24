@@ -1,4 +1,4 @@
-﻿namespace Spitfire.Modules.BuildProcess
+﻿namespace Spitfire.Framework.BuildProcess
 {
     using Sitecore.Data;
 

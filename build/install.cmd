@@ -40,7 +40,7 @@ IF "%ERRORLEVEL%" NEQ "0" (
 call fix-file-permissions.cmd
 
 :: Add extra hostnames to IIS and c:\windows\system32\drivers\etc\hosts file
-powershell -file add-extra-hosts.ps1
+::powershell -file add-extra-hosts.ps1
 IF "%ERRORLEVEL%" NEQ "0" (
 	echo Adding extra hosts failed
 	exit /B %ERRORLEVEL%
@@ -73,7 +73,7 @@ ren %InstanceDirectory%\%sitename%\Website\App_Config\Include\Serialization.conf
 
 :: Rebuild link databases
 echo Rebuilding link databases...
-tools\curl -f "http://%sitename%/handlers/build/RebuildLinkDatabases.ashx"
+tools\curl -f "http://%sitename%/framework/buildprocess/handlers/RebuildLinkDatabases.ashx"
 IF "%ERRORLEVEL%" NEQ "0" (
 	echo Rebuilding link databases failed
 	exit /B %ERRORLEVEL%
@@ -81,7 +81,7 @@ IF "%ERRORLEVEL%" NEQ "0" (
 
 :: Deploy marketing assets - Disabled for now until we fix bug 438833
 ::echo Deploying marketing assets...
-::tools\curl -f "http://%sitename%/handlers/build/DeployMarketingAssets.ashx"
+::tools\curl -f "http://%sitename%/framework/buildprocess/handlers/DeployMarketingAssets.ashx"
 ::IF "%ERRORLEVEL%" NEQ "0" (
 ::	echo Deploying marketing assets failed
 ::	exit /B %ERRORLEVEL%
@@ -92,21 +92,21 @@ del %InstanceDirectory%\%sitename%\Website\App_Config\Include\zSpitfire\DisableI
 
 :: Rebuild search indexes
 echo Rebuilding system search index...
-tools\curl -f "http://%sitename%/handlers/build/RebuildSearchIndexes.ashx?index=system"
+tools\curl -f "http://%sitename%/framework/buildprocess/handlers/RebuildSearchIndexes.ashx?index=system"
 IF "%ERRORLEVEL%" NEQ "0" (
 	echo Rebuild system index failed
 	exit /B %ERRORLEVEL%
 )
 
 echo Rebuilding sitecore_core_index search index...
-tools\curl -f "http://%sitename%/handlers/build/RebuildSearchIndexes.ashx?index=sitecore_core_index"
+tools\curl -f "http://%sitename%/framework/buildprocess/handlers/RebuildSearchIndexes.ashx?index=sitecore_core_index"
 IF "%ERRORLEVEL%" NEQ "0" (
 	echo Rebuild core search index failed
 	exit /B %ERRORLEVEL%
 )
 
 echo Rebuilding sitecore_master_index search index...
-tools\curl -f "http://%sitename%/handlers/build/RebuildSearchIndexes.ashx?index=sitecore_master_index"
+tools\curl -f "http://%sitename%/framework/buildprocess/handlers/RebuildSearchIndexes.ashx?index=sitecore_master_index"
 IF "%ERRORLEVEL%" NEQ "0" (
 	echo Rebuild master search index failed
 	exit /B %ERRORLEVEL%

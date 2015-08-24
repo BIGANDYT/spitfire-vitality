@@ -1,6 +1,7 @@
-﻿namespace Spitfire.Modules.BuildProcess.Handlers
+﻿namespace Spitfire.Framework.BuildProcess.Handlers
 {
     using System.Web;
+
     using Sitecore.ContentSearch;
     using Sitecore.Diagnostics;
     using Sitecore.Security.Accounts;
@@ -15,7 +16,7 @@
             User user = User.FromName(@"sitecore\admin", false);
             using (new UserSwitcher(user))
             {
-                IndexRebuild(index);
+                this.IndexRebuild(index);
             }
 
             context.Response.Write("Finished RebuildSearchIndexes: " + index + "\n");

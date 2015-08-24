@@ -1,1 +1,1 @@
-﻿<%@ WebHandler Language="C#" CodeBehind="RebuildSearchIndexes.ashx.cs" Class="Spitfire.Website.Handlers.Build.RebuildSearchIndexes" %>
+﻿<%@ WebHandler Language="C#" CodeBehind="RebuildSearchIndexes.ashx.cs" Class="Spitfire.Framework.BuildProcess.Handlers.RebuildSearchIndexes" %>

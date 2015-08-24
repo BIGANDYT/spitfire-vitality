@@ -1,6 +1,7 @@
-﻿namespace Spitfire.Modules.BuildProcess.Handlers
+﻿namespace Spitfire.Framework.BuildProcess.Handlers
 {
     using System.Web;
+
     using Sitecore;
     using Sitecore.Configuration;
     using Sitecore.Data;
@@ -37,13 +38,13 @@
             using (new UserSwitcher(user))
             {
                 Log.Info("CI: Rebuilding Core Link Database", this);
-                Globals.LinkDatabase.Rebuild(_coreDb);
+                Globals.LinkDatabase.Rebuild(this._coreDb);
 
                 Log.Info("CI: Rebuilding Master Link Database", this);
-                Globals.LinkDatabase.Rebuild(_masterDb);
+                Globals.LinkDatabase.Rebuild(this._masterDb);
 
                 Log.Info("CI: Rebuilding Web Link Database", this);
-                Globals.LinkDatabase.Rebuild(_webDb);
+                Globals.LinkDatabase.Rebuild(this._webDb);
             }
         }
 

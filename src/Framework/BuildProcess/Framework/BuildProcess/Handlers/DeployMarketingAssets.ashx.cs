@@ -1,4 +1,4 @@
-﻿namespace Spitfire.Modules.BuildProcess.Handlers
+﻿namespace Spitfire.Framework.BuildProcess.Handlers
 {
     using System.Web;
 
@@ -15,6 +15,9 @@
     using Sitecore.SecurityModel;
     using Sitecore.Workflows;
     using Sitecore.Workflows.Simple;
+
+    using ItemIDs = Spitfire.Framework.BuildProcess.ItemIDs;
+    using TemplateIDs = Spitfire.Framework.BuildProcess.TemplateIDs;
 
     /// <summary>
     /// Deploy the marketing assets from a CI environment
@@ -47,12 +50,12 @@
         /// </summary>
         private void DeployGoals()
         {
-            Item[] goals = this._masterDb.SelectItems("fast:/sitecore/system/Marketing Control Panel/Goals//*[@@templateid='" + BuildProcess.TemplateIDs.Goal + "' or @@templateid='" + BuildProcess.TemplateIDs.PageEvent + "']");
+            Item[] goals = this._masterDb.SelectItems("fast:/sitecore/system/Marketing Control Panel/Goals//*[@@templateid='" + TemplateIDs.Goal + "' or @@templateid='" + TemplateIDs.PageEvent + "']");
             foreach (Item goal in goals)
             {
                 Log.Info("Deploying Goal: " + goal.Name, this);
-                this.MoveToStateAndExecuteActions(goal, BuildProcess.ItemIDs.WorkflowAnalyticsDraft);
-                this.MoveToStateAndExecuteActions(goal, BuildProcess.ItemIDs.WorkflowAnalyticsDeployed);
+                this.MoveToStateAndExecuteActions(goal, ItemIDs.WorkflowAnalyticsDraft);
+                this.MoveToStateAndExecuteActions(goal, ItemIDs.WorkflowAnalyticsDeployed);
             }
         }
 
@@ -61,12 +64,12 @@
         /// </summary>
         private void DeployCampaigns()
         {
-            Item[] campaigns = this._masterDb.SelectItems("fast:/sitecore/system/Marketing Control Panel/Campaigns//*[@@templateid='" + BuildProcess.TemplateIDs.CampaignCategory + "' or @@templateid='" + BuildProcess.TemplateIDs.Campaign + "']");
+            Item[] campaigns = this._masterDb.SelectItems("fast:/sitecore/system/Marketing Control Panel/Campaigns//*[@@templateid='" + TemplateIDs.CampaignCategory + "' or @@templateid='" + TemplateIDs.Campaign + "']");
             foreach (Item campaign in campaigns)
             {
                 Log.Info("Deploying Campaign: " + campaign.Name, this);
-                this.MoveToStateAndExecuteActions(campaign, BuildProcess.ItemIDs.WorkflowAnalyticsDraft);
-                this.MoveToStateAndExecuteActions(campaign, BuildProcess.ItemIDs.WorkflowAnalyticsDeployed);
+                this.MoveToStateAndExecuteActions(campaign, ItemIDs.WorkflowAnalyticsDraft);
+                this.MoveToStateAndExecuteActions(campaign, ItemIDs.WorkflowAnalyticsDeployed);
             }
         }
 
@@ -75,12 +78,12 @@
         /// </summary>
         private void DeployPathExperienceMaps()
         {
-            Item[] campaigns = this._masterDb.SelectItems("fast:/sitecore/system/Marketing Control Panel/Path Analyzer/Maps/Path Experience Maps//*[@@templateid='" + BuildProcess.TemplateIDs.VisitMap + "']");
+            Item[] campaigns = this._masterDb.SelectItems("fast:/sitecore/system/Marketing Control Panel/Path Analyzer/Maps/Path Experience Maps//*[@@templateid='" + TemplateIDs.VisitMap + "']");
             foreach (Item map in campaigns)
             {
                 Log.Info("Deploying Path Experience Map: " + map.Name, this);
-                this.MoveToStateAndExecuteActions(map, BuildProcess.ItemIDs.WorkflowPathAnalyzerInitializing);
-                this.MoveToStateAndExecuteActions(map, BuildProcess.ItemIDs.WorkflowPathAnalyzerDeployed);
+                this.MoveToStateAndExecuteActions(map, ItemIDs.WorkflowPathAnalyzerInitializing);
+                this.MoveToStateAndExecuteActions(map, ItemIDs.WorkflowPathAnalyzerDeployed);
             }
         }
 
@@ -89,12 +92,12 @@
         /// </summary>
         private void DeploySegments()
         {
-            Item[] campaigns = this._masterDb.SelectItems("fast:/sitecore/system/Marketing Control Panel/Experience Analytics/Dimensions//*[@@templateid='" + BuildProcess.TemplateIDs.Segment + "']");
+            Item[] campaigns = this._masterDb.SelectItems("fast:/sitecore/system/Marketing Control Panel/Experience Analytics/Dimensions//*[@@templateid='" + TemplateIDs.Segment + "']");
             foreach (Item segment in campaigns)
             {
                 Log.Info("Deploying Segment: " + segment.Name, this);
-                this.MoveToStateAndExecuteActions(segment, BuildProcess.ItemIDs.WorkflowSegmentInitializing);
-                this.MoveToStateAndExecuteActions(segment, BuildProcess.ItemIDs.WorkflowSegmentDeployed);
+                this.MoveToStateAndExecuteActions(segment, ItemIDs.WorkflowSegmentInitializing);
+                this.MoveToStateAndExecuteActions(segment, ItemIDs.WorkflowSegmentDeployed);
             }
         }
 
