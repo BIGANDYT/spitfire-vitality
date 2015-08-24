@@ -1,4 +1,4 @@
-﻿namespace Spitfire.Library.Services
+﻿namespace Spitfire.Modules.HealthCheck
 {
     using System;
     using System.Collections.Generic;
@@ -7,9 +7,6 @@
     using System.Web;
 
     using Sitecore.Data;
-
-    using Spitfire.Library.Constants;
-    using Spitfire.Library.Models.Health;
 
     /// <summary>
     /// Health Service responsible for preparing and returning a "HealthResult" analysis
@@ -44,11 +41,11 @@
         /// <returns>The HealthResult analysis</returns>
         public HealthResult GetHealthResult()
         {
-            result = new HealthResult();
-            db = Sitecore.Configuration.Factory.GetDatabase("master");
+            this.result = new HealthResult();
+            this.db = Sitecore.Configuration.Factory.GetDatabase("master");
 
-            DoRenderings();
-            return result;
+            this.DoRenderings();
+            return this.result;
         }
 
         /// <summary>
@@ -56,12 +53,12 @@
         /// </summary>
         private void DoRenderings()
         {
-            var renderingsRootItem = db.GetItem(ItemConstants.SpitfireRenderingsRoot);
+            var renderingsRootItem = db.GetItem("{324F31CB-6D56-49F2-996E-A617691A9929}");
 
             // Check if the renderings root item exists
             if (renderingsRootItem == null)
             {
-                AddRenderingIssue(new HealthIssue(HealthIssueSeverity.Error, "RenderingRootItem not found"));
+                this.AddRenderingIssue(new HealthIssue(HealthIssueSeverity.Error, "RenderingRootItem not found"));
                 return;
             }
 
@@ -85,7 +82,7 @@
                         var path = renderingItem["Path"].ToLower();
                         if (string.IsNullOrEmpty(path))
                         {
-                            AddRenderingIssue(
+                            this.AddRenderingIssue(
                                 new HealthIssueRendering(
                                     HealthIssueSeverity.Error,
                                     "Rendering's path not set",
@@ -96,7 +93,7 @@
                         // Does the rendering exist on the filesystem?
                         if (!viewRenderingFiles.Contains(path))
                         {
-                            AddRenderingIssue(
+                            this.AddRenderingIssue(
                               new HealthIssueRendering(
                                   HealthIssueSeverity.Error,
                                   "File not found: " + path,
@@ -117,7 +114,7 @@
 
                         if (!string.Equals(path, expectedPath, StringComparison.InvariantCultureIgnoreCase))
                         {
-                            AddRenderingIssue(
+                            this.AddRenderingIssue(
                                 new HealthIssueRendering(
                                     HealthIssueSeverity.Warning,
                                     "Expected path: " + expectedPath,
@@ -127,7 +124,7 @@
                         // Check caching enabled
                         if (renderingItem["Cacheable"] != "1")
                         {
-                            AddRenderingIssue(
+                            this.AddRenderingIssue(
                                 new HealthIssueRendering(
                                     HealthIssueSeverity.Info,
                                     "No caching enabled",
@@ -137,12 +134,12 @@
                         var modelPath = renderingItem["Model"].ToLower();
                         if (!string.IsNullOrEmpty(modelPath))
                         {
-                            var modelItem = db.GetItem(modelPath);
+                            var modelItem = this.db.GetItem(modelPath);
 
                             // Check if the model item actually exists.
                             if (modelItem == null)
                             {
-                                AddRenderingIssue(
+                                this.AddRenderingIssue(
                                 new HealthIssueRendering(
                                     HealthIssueSeverity.Error,
                                     "ModelItem not found: " + modelPath,
@@ -163,7 +160,7 @@
                                     expectedModelPath,
                                     modelPath);
 
-                                AddRenderingIssue(
+                                this.AddRenderingIssue(
                                     new HealthIssueRendering(
                                         HealthIssueSeverity.Warning,
                                         message,
@@ -176,7 +173,7 @@
                             var modelType = Type.GetType(modelTypeString, false);
                             if (modelType == null)
                             {
-                                AddRenderingIssue(
+                                this.AddRenderingIssue(
                                     new HealthIssueRendering(
                                         HealthIssueSeverity.Error,
                                         "Type not found on model: " + modelTypeString,
@@ -197,7 +194,7 @@
                                     expectedModelType,
                                     modelItem["Model Type"]);
 
-                                AddRenderingIssue(
+                                this.AddRenderingIssue(
                                     new HealthIssueRendering(
                                         HealthIssueSeverity.Warning,
                                         message,
@@ -215,7 +212,7 @@
 
                                 if (!renderingContents.Contains(expectedModelDeclaration))
                                 {
-                                    AddRenderingIssue(
+                                    this.AddRenderingIssue(
                                         new HealthIssueRendering(
                                             HealthIssueSeverity.Warning,
                                             "Model declaration missing: " + expectedModelDeclaration,
@@ -226,7 +223,7 @@
                                 if (renderingItem["Datasource Location"] == string.Empty
                                     || renderingItem["Datasource Template"] == string.Empty)
                                 {
-                                    AddRenderingIssue(
+                                    this.AddRenderingIssue(
                                     new HealthIssueRendering(
                                         HealthIssueSeverity.Warning,
                                         "Datasource Location or Datasource Template not set",
@@ -251,7 +248,7 @@
                     continue;
                 }
 
-                AddRenderingIssue(new HealthIssue(HealthIssueSeverity.Warning, "Unused view: " + leftoverViewRendering));
+                this.AddRenderingIssue(new HealthIssue(HealthIssueSeverity.Warning, "Unused view: " + leftoverViewRendering));
             }
         }
 
@@ -264,21 +261,21 @@
         {
             if (issue.Severity == HealthIssueSeverity.Error)
             {
-                result.Totals.NumErrors++;
-                result.Renderings.Totals.NumErrors++;
+                this.result.Totals.NumErrors++;
+                this.result.Renderings.Totals.NumErrors++;
             }
             else if (issue.Severity == HealthIssueSeverity.Warning)
             {
-                result.Totals.NumWarnings++;
-                result.Renderings.Totals.NumWarnings++;
+                this.result.Totals.NumWarnings++;
+                this.result.Renderings.Totals.NumWarnings++;
             }
             else if (issue.Severity == HealthIssueSeverity.Info)
             {
-                result.Totals.NumInfo++;
-                result.Renderings.Totals.NumInfo++;
+                this.result.Totals.NumInfo++;
+                this.result.Renderings.Totals.NumInfo++;
             }
 
-            result.Renderings.Issues.Add(issue);
+            this.result.Renderings.Issues.Add(issue);
         }
     }
 }

@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spitfire.Website", "src\Spitfire.Website\Spitfire.Website.csproj", "{86CADB26-5817-46B6-88C7-76D5753722C3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EBB23951-9829-4F8A-9BB3-376BD3842D05} = {EBB23951-9829-4F8A-9BB3-376BD3842D05}
+		{7E46FF93-EE05-412C-AC47-2A59A13DA73C} = {7E46FF93-EE05-412C-AC47-2A59A13DA73C}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spitfire.SitecoreExtensions", "src\Spitfire.SitecoreExtensions\Spitfire.SitecoreExtensions.csproj", "{B535703F-8D07-4F23-A533-2974BB4CC7B1}"
 EndProject
@@ -44,6 +48,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{755F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spitfire.Modules.AssetRequirements", "src\Modules\AssetRequirements\Spitfire.Modules.AssetRequirements.csproj", "{7E46FF93-EE05-412C-AC47-2A59A13DA73C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spitfire.Modules.HealthCheck", "src\Modules\HealthCheck\Spitfire.Modules.HealthCheck.csproj", "{EBB23951-9829-4F8A-9BB3-376BD3842D05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spitfire.Modules.BuildProcess", "BuildProcess\Spitfire.Modules.BuildProcess.csproj", "{D53FAB55-AEC0-44C1-9297-B599DA7C695C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -70,6 +78,14 @@ Global
 		{7E46FF93-EE05-412C-AC47-2A59A13DA73C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E46FF93-EE05-412C-AC47-2A59A13DA73C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E46FF93-EE05-412C-AC47-2A59A13DA73C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBB23951-9829-4F8A-9BB3-376BD3842D05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBB23951-9829-4F8A-9BB3-376BD3842D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBB23951-9829-4F8A-9BB3-376BD3842D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBB23951-9829-4F8A-9BB3-376BD3842D05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D53FAB55-AEC0-44C1-9297-B599DA7C695C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D53FAB55-AEC0-44C1-9297-B599DA7C695C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D53FAB55-AEC0-44C1-9297-B599DA7C695C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D53FAB55-AEC0-44C1-9297-B599DA7C695C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,5 +94,7 @@ Global
 		{1E906505-AD61-4F72-B200-0FA759EB409F} = {CFA36180-16F1-4456-B18C-2057ABA18D03}
 		{E45940F3-DFAE-45C5-AFDB-3B578D257B9B} = {CFA36180-16F1-4456-B18C-2057ABA18D03}
 		{7E46FF93-EE05-412C-AC47-2A59A13DA73C} = {755F9E42-1707-4E1A-AE6D-3FD8A25118C0}
+		{EBB23951-9829-4F8A-9BB3-376BD3842D05} = {755F9E42-1707-4E1A-AE6D-3FD8A25118C0}
+		{D53FAB55-AEC0-44C1-9297-B599DA7C695C} = {755F9E42-1707-4E1A-AE6D-3FD8A25118C0}
 	EndGlobalSection
 EndGlobal

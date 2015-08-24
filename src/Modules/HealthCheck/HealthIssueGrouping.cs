@@ -1,4 +1,4 @@
-﻿namespace Spitfire.Library.Models.Health
+﻿namespace Spitfire.Modules.HealthCheck
 {
     using System.Collections.Generic;
 

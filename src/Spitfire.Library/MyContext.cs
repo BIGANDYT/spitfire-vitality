@@ -1,16 +1,12 @@
 ﻿namespace Spitfire.Library
 {
     using System;
-    using System.Collections.Generic;
     using System.Linq;
     using Constants;
     using Sitecore;
     using Sitecore.Caching;
     using Sitecore.ContentSearch;
     using Sitecore.Data.Items;
-
-    using Spitfire.Library.Models;
-    using Spitfire.Library.Services;
 
     /// <summary>
     /// A helper for find related information of the Context
@@ -36,13 +32,7 @@
         /// <value>
         /// ItemContext item
         /// </value>
-        public static ItemsContext Items
-        {
-            get
-            {
-                return ItemsInternal;
-            }
-        }
+        public static ItemsContext Items => ItemsInternal;
 
         /// <summary>
         /// Gets current context item's site root item.
@@ -126,9 +116,6 @@
         /// <value>
         /// Whether the Context database is master
         /// </value>
-        public static bool IsMaster
-        {
-            get { return Context.Database != null && Context.Database.Name == "master"; }
-        }
+        public static bool IsMaster => Context.Database != null && Context.Database.Name == "master";
     }
 }

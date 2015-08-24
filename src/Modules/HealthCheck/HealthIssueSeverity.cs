@@ -1,4 +1,4 @@
-﻿namespace Spitfire.Library.Models.Health
+﻿namespace Spitfire.Modules.HealthCheck
 {
     /// <summary>
     /// The severity of a Health issue

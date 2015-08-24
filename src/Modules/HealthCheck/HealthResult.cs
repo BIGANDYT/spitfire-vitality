@@ -1,4 +1,4 @@
-﻿namespace Spitfire.Library.Models.Health
+﻿namespace Spitfire.Modules.HealthCheck
 {
     /// <summary>
     /// The entire health check result which is sent over the wire

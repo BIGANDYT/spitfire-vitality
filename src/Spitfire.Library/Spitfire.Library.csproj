@@ -71,20 +71,12 @@
     <Compile Include="Constants\TemplateConstants.cs" />
     <Compile Include="Models\Scaffolding\Aside.cs" />
     <Compile Include="Models\Scaffolding\Col.cs" />
-    <Compile Include="Models\Health\HealthIssueItem.cs" />
-    <Compile Include="Models\Health\HealthIssueRendering.cs" />
-    <Compile Include="Models\Health\HealthIssueSeverity.cs" />
-    <Compile Include="Models\Health\HealthResult.cs" />
-    <Compile Include="Models\Health\HealthIssue.cs" />
-    <Compile Include="Models\Health\HealthTotals.cs" />
     <Compile Include="Models\Search\SearcheEngineResults.cs" />
-    <Compile Include="Models\Health\HealthIssueGrouping.cs" />
     <Compile Include="Models\Scaffolding\Row.cs" />
     <Compile Include="Models\Scaffolding\Section.cs" />
     <Compile Include="Models\Scaffolding\Style.cs" />
     <Compile Include="MyContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\HealthService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Spitfire.SitecoreExtensions\Spitfire.SitecoreExtensions.csproj">
@@ -95,10 +87,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\Components\" />
-    <Folder Include="Models\Layouts\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -174,18 +174,8 @@
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="App_Start\WebApiHandler.cs" />
-    <Compile Include="Controllers\HealthController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="Handlers\Build\DeployMarketingAssets.ashx.cs">
-      <DependentUpon>DeployMarketingAssets.ashx</DependentUpon>
-    </Compile>
-    <Compile Include="Handlers\Build\RebuildLinkDatabases.ashx.cs">
-      <DependentUpon>RebuildLinkDatabases.ashx</DependentUpon>
-    </Compile>
-    <Compile Include="Handlers\Build\RebuildSearchIndexes.ashx.cs">
-      <DependentUpon>RebuildSearchIndexes.ashx</DependentUpon>
     </Compile>
     <Compile Include="Handlers\Logout.ashx.cs">
       <DependentUpon>Logout.ashx</DependentUpon>
@@ -1366,9 +1356,6 @@
     </Content>
     <Content Include="Handlers\Logout.ashx" />
     <Content Include="App_Config\Include\zSpitfire\WebApi.config" />
-    <Content Include="Handlers\Build\DeployMarketingAssets.ashx" />
-    <Content Include="Handlers\Build\RebuildLinkDatabases.ashx" />
-    <Content Include="Handlers\Build\RebuildSearchIndexes.ashx" />
     <None Include="Properties\PublishProfiles\Spitfire.pubxml" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>

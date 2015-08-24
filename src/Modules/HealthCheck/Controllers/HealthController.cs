@@ -1,10 +1,6 @@
-﻿namespace Spitfire.Website.Controllers
+﻿namespace Spitfire.Modules.HealthCheck.Controllers
 {
     using System.Web.Http;
-
-    using Library.Models.Health;
-
-    using Spitfire.Library.Services;
 
     /// <summary>
     /// Health ApiController

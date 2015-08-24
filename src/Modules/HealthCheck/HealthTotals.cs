@@ -1,4 +1,4 @@
-﻿namespace Spitfire.Library.Models.Health
+﻿namespace Spitfire.Modules.HealthCheck
 {
     /// <summary>
     /// The total number of issues, grouped by severity.

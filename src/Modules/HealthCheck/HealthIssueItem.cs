@@ -1,4 +1,4 @@
-namespace Spitfire.Library.Models.Health
+namespace Spitfire.Modules.HealthCheck
 {
     using Sitecore.Data;
     using Sitecore.Data.Items;

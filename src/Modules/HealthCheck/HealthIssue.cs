@@ -1,4 +1,4 @@
-﻿namespace Spitfire.Library.Models.Health
+﻿namespace Spitfire.Modules.HealthCheck
 {
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
