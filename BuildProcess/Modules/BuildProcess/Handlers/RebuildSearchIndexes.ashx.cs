@@ -1,4 +1,4 @@
-﻿namespace Spitfire.Website.Handlers.Build
+﻿namespace Spitfire.Modules.BuildProcess.Handlers
 {
     using System.Web;
     using Sitecore.ContentSearch;
