@@ -45,13 +45,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CI", "CI", "{CFA36180-16F1-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spitfire.SIM.Console", "src\Spitfire.SIM.Console\Spitfire.SIM.Console.csproj", "{E45940F3-DFAE-45C5-AFDB-3B578D257B9B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{755F9E42-1707-4E1A-AE6D-3FD8A25118C0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{755F9E42-1707-4E1A-AE6D-3FD8A25118C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spitfire.Modules.AssetRequirements", "src\Modules\AssetRequirements\Spitfire.Modules.AssetRequirements.csproj", "{7E46FF93-EE05-412C-AC47-2A59A13DA73C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spitfire.Framework.Assets", "src\Framework\AssetRequirements\Spitfire.Framework.Assets.csproj", "{7E46FF93-EE05-412C-AC47-2A59A13DA73C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spitfire.Modules.HealthCheck", "src\Modules\HealthCheck\Spitfire.Modules.HealthCheck.csproj", "{EBB23951-9829-4F8A-9BB3-376BD3842D05}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spitfire.Framework.HealthCheck", "src\Framework\HealthCheck\Spitfire.Framework.HealthCheck.csproj", "{EBB23951-9829-4F8A-9BB3-376BD3842D05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spitfire.Modules.BuildProcess", "BuildProcess\Spitfire.Modules.BuildProcess.csproj", "{D53FAB55-AEC0-44C1-9297-B599DA7C695C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spitfire.Framework.BuildProcess", "src\Framework\BuildProcess\Spitfire.Framework.BuildProcess.csproj", "{D53FAB55-AEC0-44C1-9297-B599DA7C695C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{D2CBE02E-6AA7-4343-9A01-891F971A17F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -92,10 +94,11 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{B535703F-8D07-4F23-A533-2974BB4CC7B1} = {D2CBE02E-6AA7-4343-9A01-891F971A17F5}
 		{1E906505-AD61-4F72-B200-0FA759EB409F} = {CFA36180-16F1-4456-B18C-2057ABA18D03}
 		{E45940F3-DFAE-45C5-AFDB-3B578D257B9B} = {CFA36180-16F1-4456-B18C-2057ABA18D03}
-		{7E46FF93-EE05-412C-AC47-2A59A13DA73C} = {755F9E42-1707-4E1A-AE6D-3FD8A25118C0}
-		{EBB23951-9829-4F8A-9BB3-376BD3842D05} = {755F9E42-1707-4E1A-AE6D-3FD8A25118C0}
-		{D53FAB55-AEC0-44C1-9297-B599DA7C695C} = {755F9E42-1707-4E1A-AE6D-3FD8A25118C0}
+		{7E46FF93-EE05-412C-AC47-2A59A13DA73C} = {D2CBE02E-6AA7-4343-9A01-891F971A17F5}
+		{EBB23951-9829-4F8A-9BB3-376BD3842D05} = {D2CBE02E-6AA7-4343-9A01-891F971A17F5}
+		{D53FAB55-AEC0-44C1-9297-B599DA7C695C} = {D2CBE02E-6AA7-4343-9A01-891F971A17F5}
 	EndGlobalSection
 EndGlobal
