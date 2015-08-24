@@ -1,6 +1,6 @@
 ﻿<Project>
   <PropertyGroup>
-    <Site Server="finance.demo" UserName="sitecore\admin" IsRemoteSitecore="True" />
+    <Site Server="spitfire" UserName="sitecore\admin" IsRemoteSitecore="True" />
   </PropertyGroup>
   <File Include="Models\IconTeaserModel.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{0B1D08A3-6C98-4236-9E75-413E87EA66BD}</Item>
