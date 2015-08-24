@@ -1,4 +1,6 @@
-﻿namespace Spitfire.Website.Handlers.Build
+﻿using Sitecore.Collections;
+
+namespace Spitfire.Website.Handlers.Build
 {
     using System.Web;
 
@@ -125,7 +127,7 @@
                     return;
 
                 // TODO: Obsolete constructor
-                var workflowPipelineArgs = new WorkflowPipelineArgs(item, string.Empty, null);
+                var workflowPipelineArgs = new WorkflowPipelineArgs(item, new StringDictionary(), null);
 
                 // start executing the actions
                 Pipeline pipeline = Pipeline.Start(stateItem, workflowPipelineArgs);
@@ -133,7 +135,7 @@
                     return;
 
                 // TODO: Obsolete class
-                WorkflowCounters.ActionsExecuted.IncrementBy(pipeline.Processors.Count);
+                //WorkflowCounters.ActionsExecuted.IncrementBy(pipeline.Processors.Count);
             }
         }
 

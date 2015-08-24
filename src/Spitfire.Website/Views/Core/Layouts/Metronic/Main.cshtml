@@ -2,7 +2,7 @@
 @using Sitecore.Mvc
 @using Sitecore.Mvc.Presentation
 @using Sitecore.Mvc.Analytics.Extensions
-@using Spitfire.Library
+@using Spitfire.Framework.Assets
 @model RenderingModel
 @{
     Layout = null;
@@ -55,7 +55,7 @@
     @Html.Sitecore().Rendering("{CE71A162-3419-4749-934F-A377C5CE52F6}") @* CssColour *@
 
     <link href="/metronic/frontend/layout/css/custom.css" rel="stylesheet">
-    @MyContext.AssetRequirementService.RenderStyles()
+    @RenderAssetsService.Current.RenderStyles()
     <!-- Theme styles END -->
 
     @Html.Sitecore().VisitorIdentification()

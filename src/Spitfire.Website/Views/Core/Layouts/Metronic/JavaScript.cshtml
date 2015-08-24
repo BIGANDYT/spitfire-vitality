@@ -1,5 +1,5 @@
 ﻿@using Sitecore.Mvc.Presentation
-@using Spitfire.Library
+@using Spitfire.Framework.Assets
 @model RenderingModel
 
 <!-- Load javascripts at bottom, this will reduce page load time -->
@@ -49,5 +49,5 @@
     });
 </script>
 
-@MyContext.AssetRequirementService.RenderJavaScript()
+@RenderAssetsService.Current.RenderScript()
 <script src="/assets/Core/Layouts/Metronic/pre-footer.js" type="text/javascript"></script>

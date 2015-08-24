@@ -29,22 +29,6 @@
         public string TitleFontSize { get; private set; }
 
         /// <summary>
-        /// Gets background color
-        /// </summary>
-        /// <value>
-        /// Background color value
-        /// </value>
-        public string Background { get; private set; }
-
-        /// <summary>
-        /// Gets css class
-        /// </summary>
-        /// <value>
-        /// Css class value
-        /// </value>
-        public string CssClassValue { get; private set; }
-
-        /// <summary>
         /// Initialize rendering
         /// </summary>
         /// <param name="rendering">Rendering to intialze
@@ -67,8 +51,6 @@
 
             TitleColor = parameters["TitleColor"];
             TitleFontSize = parameters["TitleFontSize"];
-            Background = parameters["Background"];
-            CssClassValue = parameters[ParameterConstants.Style.CssClass];
         }
     }
 }

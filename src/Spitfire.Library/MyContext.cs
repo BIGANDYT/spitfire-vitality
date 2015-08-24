@@ -9,14 +9,13 @@
     using Sitecore.ContentSearch;
     using Sitecore.Data.Items;
 
-    using Spitfire.Library.Models;
-    using Spitfire.Library.Services;
-
     /// <summary>
     /// A helper for find related information of the Context
     /// </summary>
     public static class MyContext
     {
+        private const string SITEROOTITEM = "SiteRootItem";
+
         /// <summary>
         /// Static Member of MyContext class
         /// </summary>
@@ -54,13 +53,13 @@
         {
             get
             {
-                const string Key = "SiteRootItem";
-                if (Items[Key] == null)
-                {
-                    var current = Context.Item;
-                    var root = current.Axes.SelectSingleItem("ancestor-or-self::*[@@templateid='" + TemplateIds.SiteRoot + "']");
-                    Items[Key] = root ?? Context.Database.GetItem(Context.Site.StartPath);
-                }
+                const string Key = SITEROOTITEM;
+                if (Items[Key] != null)
+                    return (Item) Items[Key];
+
+                var current = Context.Item;
+                var root = current.Axes.SelectSingleItem("ancestor-or-self::*[@@templateid='" + TemplateIds.SiteRoot + "']");
+                Items[Key] = root ?? Context.Database.GetItem(Context.Site.StartPath);
 
                 return (Item)Items[Key];
             }
@@ -129,23 +128,6 @@
         public static bool IsMaster
         {
             get { return Context.Database != null && Context.Database.Name == "master"; }
-        }
-
-        /// <summary>
-        /// Gets a reference of <see cref="AssetRequirementService"/> for this page request
-        /// </summary>
-        public static AssetRequirementService AssetRequirementService
-        {
-            get
-            {
-                const string Key = "JavaScriptService";
-                if (Items[Key] == null)
-                {
-                    Items[Key] = new AssetRequirementService();
-                }
-
-                return (AssetRequirementService)Items[Key];
-            }
         }
 
         public static List<string> RequiredCss

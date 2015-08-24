@@ -19,17 +19,6 @@
         }
 
         /// <summary>
-        /// Gets the ID for the root of the Spitfire folder in renderings
-        /// </summary>
-        public static ID SpitfireRenderingsRoot
-        {
-            get
-            {
-                return new ID("{324F31CB-6D56-49F2-996E-A617691A9929}");
-            }
-        }
-
-        /// <summary>
         /// Gets the ID for the Draft state in the Analytics workflow
         /// </summary>
         public static ID WorkflowAnalyticsDraft

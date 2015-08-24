@@ -86,7 +86,9 @@
   <ItemGroup>
     <Compile Include="Controls\EditFrame.cs" />
     <Compile Include="Extensions\CollectionExtensions.cs" />
+    <Compile Include="Constants.cs" />
     <Compile Include="Extensions\ItemExtensions.cs" />
+    <Compile Include="Extensions\RenderingExtensions.cs" />
     <Compile Include="Helpers\AnalyticsHelper.cs" />
     <Compile Include="Helpers\HTMLHelperExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

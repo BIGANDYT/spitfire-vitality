@@ -1,0 +1,7 @@
+﻿@using Sitecore.Mvc
+@using Spitfire.SitecoreExtensions.Extensions
+@model Spitfire.Navigation.Model.LinkBar
+@if (Model.Item != null)
+{
+    @Html.Sitecore().Field("Link", Model.Item, new { @class = Model.Rendering.GetStylingParams().CssClass, style = "background-color:" + @Model.Rendering.GetStylingParams().BackgroundColor + "; font-size:" + @Model.Rendering.GetStylingParams().FontSize, onMouseOver = "this.style.backgroundColor=" + "'" + @Model.Rendering.GetStylingParams().BackgroundColorActive + "'" + "; this.style.color=" + "'" + @Model.Rendering.GetStylingParams().Color + "'", OnMouseOut = "this.style.backgroundColor=" + "'" + @Model.Rendering.GetStylingParams().BackgroundColor + "'" })
+}

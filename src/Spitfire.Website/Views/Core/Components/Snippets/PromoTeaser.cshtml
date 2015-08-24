@@ -1,6 +1,7 @@
-﻿@model Spitfire.Library.Models.Core.Components.Snippets.PromoTeaser
+﻿@using Spitfire.SitecoreExtensions.Extensions
+@model Spitfire.Library.Models.Core.Components.Snippets.PromoTeaser
 
-<div class="@Model.CssClassValue" style="background: @Model.Background">
+<div class="@Model.Rendering.GetStylingParams().CssClass" style="background: @Model.Rendering.GetStylingParams().BackgroundColor">
     @if (Model.Item != null)
     {
         <h3 style="color: @Model.TitleColor; font-size: @Model.TitleFontSize">@Html.Sitecore().Field("Title", Model.Item)</h3>

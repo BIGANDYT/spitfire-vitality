@@ -1,4 +1,5 @@
-﻿@model Spitfire.Library.Models.Core.Scaffolding.Row
-<div class="row @Model.CssClass" style="background-image:url('@Model.BackgroundImgUrl');@Model.CssStyle">
+﻿@using Spitfire.SitecoreExtensions.Extensions
+@model Spitfire.Library.Models.Core.Scaffolding.Row
+<div class="row @Model.Rendering.GetStylingParams().CssClass" style="background-image:url('@Model.Rendering.GetStylingParams().BackgroundImageUrl');@Model.Rendering.GetStylingParams().CssStyle">
     @Html.Sitecore().DynamicPlaceholder("row")
 </div>

@@ -1,5 +1,0 @@
-﻿@model Spitfire.Library.Models.Core.Components.Navigation.LinkBar
-@if (Model.Item != null)
-{
-    @Html.Sitecore().Field("Link", Model.Item, new { @class = Model.CssClass, style = "background-color:" + @Model.BackgroundColor + "; font-size:" + @Model.FontSize, onMouseOver = "this.style.backgroundColor=" + "'" + @Model.BackgroundColorActive + "'" + "; this.style.color=" + "'" + @Model.Color + "'", OnMouseOut = "this.style.backgroundColor=" + "'" + @Model.BackgroundColor + "'" })
-}

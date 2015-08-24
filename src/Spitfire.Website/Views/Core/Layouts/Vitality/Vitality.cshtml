@@ -1,4 +1,5 @@
-﻿@using Spitfire.Library
+﻿@using Spitfire.Framework.Assets
+@using Spitfire.Library
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,7 +24,7 @@
     @Styles.Render("~/animate/css")
     @Styles.Render("~/vitality/css")
     @Styles.Render("~/finance/css")
-    @MyContext.AssetRequirementService.RenderStyles()
+    @RenderAssetsService.Current.RenderStyles()
     <!-- IE8 support for HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -52,7 +53,7 @@
     @Scripts.Render("~/plugins/jqBootstrapValidation")
     @Scripts.Render("~/plugins/contact_me")
     @Scripts.Render("~/bundles/vitality")
-    @MyContext.AssetRequirementService.RenderJavaScript()
+    @RenderAssetsService.Current.RenderScript()
 </body>
 
 </html>

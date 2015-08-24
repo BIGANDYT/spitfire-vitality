@@ -7,7 +7,7 @@
     /// <summary>
     /// Aside component model 
     /// </summary>
-    public class Aside : Style
+    public class Aside : RenderingModel
     {
         /// <summary>
         /// Gets the Component id
@@ -33,7 +33,6 @@
         {
             base.Initialize(rendering);
             Id = rendering.Parameters[ParameterConstants.Id];
-            SubCssClass = rendering.Parameters[ParameterConstants.Style.SubCssClass];
         }
     }
 }
