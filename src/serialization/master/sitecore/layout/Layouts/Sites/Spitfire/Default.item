@@ -1,18 +1,25 @@
 ----item----
 version: 1
-id: {335FCF65-61B0-4DCC-B29D-7A72A17E71F4}
+id: {ED043C36-CD48-4EDF-A288-EC404EE1CD42}
 database: master
-path: /sitecore/layout/Renderings/Spitfire/Scaffolding
-parent: {324F31CB-6D56-49F2-996E-A617691A9929}
-name: Scaffolding
+path: /sitecore/layout/Layouts/Sites/Spitfire/Default
+parent: {56EDE86D-7554-475C-9EF1-770A344AB2FD}
+name: Default
 master: {00000000-0000-0000-0000-000000000000}
-template: {7EE0975B-0698-493E-B3A2-0B2EF33D0522}
-templatekey: Rendering Folder
+template: {3A45A723-64EE-4919-9D41-02FD40FD1466}
+templatekey: Layout
 
+----field----
+field: {A036B2BC-BA04-44F6-A75F-BAE6CD242ABF}
+name: Path
+key: path
+content-length: 36
+
+/Views/Sites/Spitfire/Default.cshtml
 ----version----
 language: en
 version: 1
-revision: 6b97730f-e851-477c-a248-6be416320467
+revision: 1b8c388c-c2d2-40f9-9eb6-4608a13658aa
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -20,7 +27,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20150503T173138Z
+20150824T172943Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -34,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-6b97730f-e851-477c-a248-6be416320467
+1b8c388c-c2d2-40f9-9eb6-4608a13658aa
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150824T094604Z
+20150824T172943Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -2,7 +2,7 @@
 version: 1
 id: {0E03B0C2-FD98-4729-9E95-2B3C9170685F}
 database: master
-path: /sitecore/templates/Spitfire/Base/OpenGraph/Facebook Open Graph
+path: /sitecore/templates/Domain/Social/OpenGraph/Facebook Open Graph
 parent: {BDD24F35-05E8-4466-8798-7D3DD6A6C991}
 name: Facebook Open Graph
 master: {00000000-0000-0000-0000-000000000000}

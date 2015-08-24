@@ -2,7 +2,7 @@
 version: 1
 id: {53C4C7C6-98E3-49B8-9FF8-39AC963228C2}
 database: master
-path: /sitecore/layout/Renderings/Spitfire/Scaffolding/Presets/OneColumnRow
+path: /sitecore/layout/Renderings/Framework/Scaffolding/Presets/OneColumnRow
 parent: {C5050F8A-10A9-4FC0-ADBD-8CEA4A26E5E1}
 name: OneColumnRow
 master: {00000000-0000-0000-0000-000000000000}

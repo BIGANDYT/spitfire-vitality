@@ -17,13 +17,6 @@ content-length: 14
 
 Fighting Gamer
 ----field----
-field: {98535F26-6C9D-4FD7-A7E2-392C7CB82D65}
-name: Image
-key: image
-content-length: 0
-
-
-----field----
 field: {6DA71AD3-5849-4482-9317-D21390E5A348}
 name: Pattern
 key: pattern

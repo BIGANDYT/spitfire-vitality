@@ -16,13 +16,6 @@ key: placeholder key
 content-length: 8
 
 nav-left
-----field----
-field: {E391B526-D0C5-439D-803E-17512EAE6222}
-name: Allowed Controls
-key: allowed controls
-content-length: 0
-
-
 ----version----
 language: en
 version: 1

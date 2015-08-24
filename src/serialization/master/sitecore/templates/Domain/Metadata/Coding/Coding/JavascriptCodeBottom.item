@@ -2,7 +2,7 @@
 version: 1
 id: {B3BA9EA9-D0A1-49DF-9F4B-28FA5D353DC8}
 database: master
-path: /sitecore/templates/Spitfire/Base/Coding/Coding/JavascriptCodeBottom
+path: /sitecore/templates/Domain/Metadata/Coding/Coding/JavascriptCodeBottom
 parent: {570A9C1E-1791-4496-9A15-B21BEAF97B0A}
 name: JavascriptCodeBottom
 master: {00000000-0000-0000-0000-000000000000}

@@ -2,7 +2,7 @@
 version: 1
 id: {FEDC3E28-2559-40F8-A08B-76BC7B42BB61}
 database: master
-path: /sitecore/layout/Renderings/Spitfire/Scaffolding/Presets/TwoColumnRow
+path: /sitecore/layout/Renderings/Framework/Scaffolding/Presets/TwoColumnRow
 parent: {C5050F8A-10A9-4FC0-ADBD-8CEA4A26E5E1}
 name: TwoColumnRow
 master: {00000000-0000-0000-0000-000000000000}

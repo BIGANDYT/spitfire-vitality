@@ -2,7 +2,7 @@
 version: 1
 id: {1B483E91-D8C4-4D19-BA03-462074B55936}
 database: master
-path: /sitecore/templates/Spitfire/Base/Titles/Content/ShortTitle
+path: /sitecore/templates/Domain/StandardContent/Titles/Content/ShortTitle
 parent: {24DD5B45-8C1E-47B9-AE47-B02CDE8A4A87}
 name: ShortTitle
 master: {00000000-0000-0000-0000-000000000000}

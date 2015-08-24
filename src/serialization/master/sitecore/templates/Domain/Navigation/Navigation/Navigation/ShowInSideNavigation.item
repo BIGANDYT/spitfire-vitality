@@ -2,7 +2,7 @@
 version: 1
 id: {A1816D65-769A-4B09-89F6-B20665024CBF}
 database: master
-path: /sitecore/templates/Spitfire/Base/Navigation/Navigation/ShowInSideNavigation
+path: /sitecore/templates/Domain/Navigation/Navigation/Navigation/ShowInSideNavigation
 parent: {305E411C-4A73-4406-8F35-9BE2A87A2805}
 name: ShowInSideNavigation
 master: {00000000-0000-0000-0000-000000000000}

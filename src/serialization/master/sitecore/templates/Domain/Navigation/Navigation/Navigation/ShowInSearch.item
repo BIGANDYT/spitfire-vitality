@@ -2,7 +2,7 @@
 version: 1
 id: {ADAF5524-E0CC-43DF-8B52-B2528A13ABBF}
 database: master
-path: /sitecore/templates/Spitfire/Base/Navigation/Navigation/ShowInSearch
+path: /sitecore/templates/Domain/Navigation/Navigation/Navigation/ShowInSearch
 parent: {305E411C-4A73-4406-8F35-9BE2A87A2805}
 name: ShowInSearch
 master: {00000000-0000-0000-0000-000000000000}

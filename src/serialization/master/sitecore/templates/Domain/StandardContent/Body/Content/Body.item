@@ -2,7 +2,7 @@
 version: 1
 id: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
 database: master
-path: /sitecore/templates/Spitfire/Base/Body/Content/Body
+path: /sitecore/templates/Domain/StandardContent/Body/Content/Body
 parent: {C5495452-B2A1-4697-BAEF-6602C08E7DB7}
 name: Body
 master: {00000000-0000-0000-0000-000000000000}

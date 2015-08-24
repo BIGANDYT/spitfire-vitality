@@ -2,7 +2,7 @@
 version: 1
 id: {C29896FB-878C-4D74-9C7B-0DCCBB831970}
 database: master
-path: /sitecore/templates/Spitfire/Core/Content/SiteRoot/__Standard Values
+path: /sitecore/templates/Framework/SiteRoot/__Standard Values
 parent: {0643D9D4-F30B-4B07-91D0-289CC324C9CF}
 name: __Standard Values
 master: {00000000-0000-0000-0000-000000000000}

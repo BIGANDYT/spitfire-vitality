@@ -2,7 +2,7 @@
 version: 1
 id: {CFA8988E-704B-40C1-A8C8-E367E63D455F}
 database: master
-path: /sitecore/templates/Spitfire/Base/Image/Content
+path: /sitecore/templates/Domain/StandardContent/Image/Content
 parent: {640B55DD-405B-489C-A4AF-E328588EFE05}
 name: Content
 master: {00000000-0000-0000-0000-000000000000}

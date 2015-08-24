@@ -2,7 +2,7 @@
 version: 1
 id: {0EE2F208-1FEE-42FC-8051-6696D49A92BF}
 database: master
-path: /sitecore/templates/Spitfire/Base/OpenGraph/Facebook Open Graph/OpenGraphTitle
+path: /sitecore/templates/Domain/Social/OpenGraph/Facebook Open Graph/OpenGraphTitle
 parent: {0E03B0C2-FD98-4729-9E95-2B3C9170685F}
 name: OpenGraphTitle
 master: {00000000-0000-0000-0000-000000000000}

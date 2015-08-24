@@ -10,13 +10,6 @@ template: {0FC09EA4-8D87-4B0E-A5C9-8076AE863D9C}
 templatekey: Profile Card
 
 ----field----
-field: {709B879B-7264-49C7-8864-E254D9129302}
-name: Image
-key: image
-content-length: 0
-
-
-----field----
 field: {85970AB7-22EA-4206-BE86-C0167178860B}
 name: Profile Card Value
 key: profile card value
