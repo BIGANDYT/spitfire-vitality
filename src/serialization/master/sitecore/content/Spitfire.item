@@ -1,89 +1,82 @@
 ----item----
 version: 1
-id: {551174D0-3ADB-41CD-8CE5-7088C1FB652D}
+id: {DAC24EDD-44FB-42EF-9ECD-1E8DAF706386}
 database: master
-path: /sitecore/templates/Spitfire/Pages/Home/__Standard Values
-parent: {4A8822CC-B418-4452-AB0F-8BB6DF2F2114}
-name: __Standard Values
+path: /sitecore/content/Spitfire
+parent: {0DE95AE4-41AB-4D01-9EB0-67441B7C2450}
+name: Spitfire
 master: {00000000-0000-0000-0000-000000000000}
 template: {4A8822CC-B418-4452-AB0F-8BB6DF2F2114}
 templatekey: Home
 
 ----field----
-field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
-name: __Masters
-key: __masters
-content-length: 38
-
-{B33C9F41-4C04-4E6C-8A54-6B4E4BE25AAB}
-----field----
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 228
+content-length: 133
 
-<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r ds="" id="{0DE95AE4-41AB-4D01-9EB0-67441B7C2450}" par="" ph="maincontent" uid="{2E0E5CED-DE13-4305-99E0-576949D3363F}" /></d></r>
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" s:l="{CC227564-15B6-41C1-AEBF-8E40458CEF8C}" /></r>
 ----version----
 language: en
 version: 1
-revision: 23033639-af28-47ed-a871-0d3cb894ba08
+revision: 33ab0397-cc8f-4aa5-8c4d-5b3cf8f01c67
 
 ----field----
 field: {CA0479CE-0BFE-4522-83DE-BA688B380A78}
 name: BrowserTitle
 key: browsertitle
-content-length: 5
+content-length: 4
 
-$name
+Home
 ----field----
 field: {1B483E91-D8C4-4D19-BA03-462074B55936}
 name: ShortTitle
 key: shorttitle
-content-length: 5
+content-length: 8
 
-$name
+New Home
 ----field----
 field: {C30A013F-3CC8-4961-9837-1C483277084A}
 name: Title
 key: title
-content-length: 5
+content-length: 8
 
-$name
+New Home
 ----field----
-field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
-name: __Final Renderings
-key: __final renderings
-content-length: 149
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
 
-<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{E1C3CA03-8FBA-49AB-8121-3423BFE5C81B}"><p:d /></r></d></r>
+sitecore\admin
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
-content-length: 15
+content-length: 16
 
-20141119T151742
+20150823T123346Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
 key: __created by
-content-length: 18
+content-length: 14
 
-extranet\Anonymous
+sitecore\admin
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-23033639-af28-47ed-a871-0d3cb894ba08
+33ab0397-cc8f-4aa5-8c4d-5b3cf8f01c67
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150823T172251Z
+20150823T172357Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
