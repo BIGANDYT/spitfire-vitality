@@ -16,8 +16,6 @@
     using Sitecore.Workflows;
     using Sitecore.Workflows.Simple;
 
-    using Spitfire.Library.Constants;
-
     /// <summary>
     /// Deploy the marketing assets from a CI environment
     /// </summary>
@@ -49,12 +47,12 @@
         /// </summary>
         private void DeployGoals()
         {
-            Item[] goals = this._masterDb.SelectItems("fast:/sitecore/system/Marketing Control Panel/Goals//*[@@templateid='" + TemplateIds.Goal + "' or @@templateid='" + TemplateIds.PageEvent + "']");
+            Item[] goals = this._masterDb.SelectItems("fast:/sitecore/system/Marketing Control Panel/Goals//*[@@templateid='" + BuildProcess.TemplateIDs.Goal + "' or @@templateid='" + BuildProcess.TemplateIDs.PageEvent + "']");
             foreach (Item goal in goals)
             {
                 Log.Info("Deploying Goal: " + goal.Name, this);
-                this.MoveToStateAndExecuteActions(goal, ItemConstants.WorkflowAnalyticsDraft);
-                this.MoveToStateAndExecuteActions(goal, ItemConstants.WorkflowAnalyticsDeployed);
+                this.MoveToStateAndExecuteActions(goal, BuildProcess.ItemIDs.WorkflowAnalyticsDraft);
+                this.MoveToStateAndExecuteActions(goal, BuildProcess.ItemIDs.WorkflowAnalyticsDeployed);
             }
         }
 
@@ -63,12 +61,12 @@
         /// </summary>
         private void DeployCampaigns()
         {
-            Item[] campaigns = this._masterDb.SelectItems("fast:/sitecore/system/Marketing Control Panel/Campaigns//*[@@templateid='" + TemplateIds.CampaignCategory + "' or @@templateid='" + TemplateIds.Campaign + "']");
+            Item[] campaigns = this._masterDb.SelectItems("fast:/sitecore/system/Marketing Control Panel/Campaigns//*[@@templateid='" + BuildProcess.TemplateIDs.CampaignCategory + "' or @@templateid='" + BuildProcess.TemplateIDs.Campaign + "']");
             foreach (Item campaign in campaigns)
             {
                 Log.Info("Deploying Campaign: " + campaign.Name, this);
-                this.MoveToStateAndExecuteActions(campaign, ItemConstants.WorkflowAnalyticsDraft);
-                this.MoveToStateAndExecuteActions(campaign, ItemConstants.WorkflowAnalyticsDeployed);
+                this.MoveToStateAndExecuteActions(campaign, BuildProcess.ItemIDs.WorkflowAnalyticsDraft);
+                this.MoveToStateAndExecuteActions(campaign, BuildProcess.ItemIDs.WorkflowAnalyticsDeployed);
             }
         }
 
@@ -77,12 +75,12 @@
         /// </summary>
         private void DeployPathExperienceMaps()
         {
-            Item[] campaigns = this._masterDb.SelectItems("fast:/sitecore/system/Marketing Control Panel/Path Analyzer/Maps/Path Experience Maps//*[@@templateid='" + TemplateIds.VisitMap + "']");
+            Item[] campaigns = this._masterDb.SelectItems("fast:/sitecore/system/Marketing Control Panel/Path Analyzer/Maps/Path Experience Maps//*[@@templateid='" + BuildProcess.TemplateIDs.VisitMap + "']");
             foreach (Item map in campaigns)
             {
                 Log.Info("Deploying Path Experience Map: " + map.Name, this);
-                this.MoveToStateAndExecuteActions(map, ItemConstants.WorkflowPathAnalyzerInitializing);
-                this.MoveToStateAndExecuteActions(map, ItemConstants.WorkflowPathAnalyzerDeployed);
+                this.MoveToStateAndExecuteActions(map, BuildProcess.ItemIDs.WorkflowPathAnalyzerInitializing);
+                this.MoveToStateAndExecuteActions(map, BuildProcess.ItemIDs.WorkflowPathAnalyzerDeployed);
             }
         }
 
@@ -91,12 +89,12 @@
         /// </summary>
         private void DeploySegments()
         {
-            Item[] campaigns = this._masterDb.SelectItems("fast:/sitecore/system/Marketing Control Panel/Experience Analytics/Dimensions//*[@@templateid='" + TemplateIds.Segment + "']");
+            Item[] campaigns = this._masterDb.SelectItems("fast:/sitecore/system/Marketing Control Panel/Experience Analytics/Dimensions//*[@@templateid='" + BuildProcess.TemplateIDs.Segment + "']");
             foreach (Item segment in campaigns)
             {
                 Log.Info("Deploying Segment: " + segment.Name, this);
-                this.MoveToStateAndExecuteActions(segment, ItemConstants.WorkflowSegmentInitializing);
-                this.MoveToStateAndExecuteActions(segment, ItemConstants.WorkflowSegmentDeployed);
+                this.MoveToStateAndExecuteActions(segment, BuildProcess.ItemIDs.WorkflowSegmentInitializing);
+                this.MoveToStateAndExecuteActions(segment, BuildProcess.ItemIDs.WorkflowSegmentDeployed);
             }
         }
 

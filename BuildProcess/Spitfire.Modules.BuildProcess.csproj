@@ -74,9 +74,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <Content Include="Modules\BuildProcess\Handlers\RebuildSearchIndexes.ashx" />
-    <Content Include="Modules\BuildProcess\Handlers\DeployMarketingAssets.ashx" />
-    <Content Include="Modules\BuildProcess\Handlers\RebuildLinkDatabases.ashx" />
+    <Content Include="Modules\BuildProcess\Handlers\RebuildSearchIndexes.ashx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Modules\BuildProcess\Handlers\DeployMarketingAssets.ashx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Modules\BuildProcess\Handlers\RebuildLinkDatabases.ashx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -85,25 +91,24 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Web.config" />
+    <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Modules\BuildProcess\Handlers\DeployMarketingAssets.ashx.cs">
       <DependentUpon>DeployMarketingAssets.ashx</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Modules\BuildProcess\Handlers\RebuildLinkDatabases.ashx.cs">
       <DependentUpon>RebuildLinkDatabases.ashx</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Modules\BuildProcess\Handlers\RebuildSearchIndexes.ashx.cs">
       <DependentUpon>RebuildSearchIndexes.ashx</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
+    <Compile Include="Modules\BuildProcess\ItemIDs.cs" />
+    <Compile Include="Modules\BuildProcess\TemplateIDs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\src\Spitfire.Library\Spitfire.Library.csproj">
-      <Project>{3ce5c5a8-c7b1-4d88-b487-6a3bed1891df}</Project>
-      <Name>Spitfire.Library</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

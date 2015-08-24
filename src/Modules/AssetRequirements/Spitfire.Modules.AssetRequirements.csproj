@@ -83,6 +83,7 @@
   <ItemGroup>
     <Content Include="App_Config\Include\zSpitfire\AssetRequirements.config">
       <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <None Include="Web.config" />
   </ItemGroup>
