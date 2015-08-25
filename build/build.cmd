@@ -33,27 +33,51 @@ if not exist ..\lib\System (
 
 SET DeployParameters=/p:DeployOnBuild=true /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:DeleteExistingFiles=False /p:publishUrl=%WebsiteDirectory%
 
-%msbuild% ..\src\Framework\Website\Spitfire.Framework.Website.csproj %DeployParameters%
-IF "%ERRORLEVEL%" NEQ "0" (
-	echo Build of Website project failed
-	exit /B %ERRORLEVEL%
-)
-
 %msbuild% ..\src\Framework\Assets\Spitfire.Framework.Assets.csproj %DeployParameters%
 IF "%ERRORLEVEL%" NEQ "0" (
-	echo Build of assets project failed
+	echo Build of Framework.Assets project failed
 	exit /B %ERRORLEVEL%
 )
 
 %msbuild% ..\src\Framework\BuildProcess\Spitfire.Framework.BuildProcess.csproj %DeployParameters%
 IF "%ERRORLEVEL%" NEQ "0" (
-	echo Build of buildprocess project failed
+	echo Build of Framework.BuildProcess project failed
 	exit /B %ERRORLEVEL%
 )
 
 %msbuild% ..\src\Framework\Health\Spitfire.Framework.Health.csproj %DeployParameters%
 IF "%ERRORLEVEL%" NEQ "0" (
-	echo Build of buildprocess project failed
+	echo Build of Framework.Health project failed
+	exit /B %ERRORLEVEL%
+)
+
+%msbuild% ..\src\Framework\SitecoreExtensions\Spitfire.Framework.SitecoreExtensions.csproj %DeployParameters%
+IF "%ERRORLEVEL%" NEQ "0" (
+	echo Build of Framework.SitecoreExtensions project failed
+	exit /B %ERRORLEVEL%
+)
+
+%msbuild% ..\src\Domain\News\Spitfire.News.csproj %DeployParameters%
+IF "%ERRORLEVEL%" NEQ "0" (
+	echo Build of Domain.News project failed
+	exit /B %ERRORLEVEL%
+)
+
+%msbuild% ..\src\Domain\CRM\Spitfire.CRM.csproj %DeployParameters%
+IF "%ERRORLEVEL%" NEQ "0" (
+	echo Build of Domain.CRM project failed
+	exit /B %ERRORLEVEL%
+)
+
+%msbuild% ..\src\Domain\StandardContent\Spitfire.StandardContent.csproj %DeployParameters%
+IF "%ERRORLEVEL%" NEQ "0" (
+	echo Build of Domain.StandardContent project failed
+	exit /B %ERRORLEVEL%
+)
+
+%msbuild% ..\src\Website\Spitfire.Website.csproj %DeployParameters%
+IF "%ERRORLEVEL%" NEQ "0" (
+	echo Build of Website project failed
 	exit /B %ERRORLEVEL%
 )
 

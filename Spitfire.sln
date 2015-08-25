@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spitfire.Website", "src\Framework\Website\Spitfire.Website.csproj", "{86CADB26-5817-46B6-88C7-76D5753722C3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spitfire.Website", "src\Website\Spitfire.Website.csproj", "{86CADB26-5817-46B6-88C7-76D5753722C3}"
 	ProjectSection(ProjectDependencies) = postProject
 		{614D0A0B-BD7B-4C50-8766-340FB9E0DD95} = {614D0A0B-BD7B-4C50-8766-340FB9E0DD95}
 		{1AAD6F22-9B6D-4688-8EA5-1AE7044031F7} = {1AAD6F22-9B6D-4688-8EA5-1AE7044031F7}
