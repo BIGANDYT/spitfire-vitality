@@ -81,7 +81,7 @@ IF "%ERRORLEVEL%" NEQ "0" (
 	exit /B %ERRORLEVEL%
 )
 
-SET DevSettings=%InstanceDirectory%\%sitename%\Website\App_Config\Include\zSpitfire\DevSettings.config
+SET DevSettings=%InstanceDirectory%\%sitename%\Website\App_Config\Include\Spitfire.DevSettings.config
 IF NOT EXIST %DevSettings% (
 	copy %DevSettings%.sample %DevSettings%
 	powershell -file build-FixDataFolder.ps1 "%DevSettings%" "%InstanceDirectory%\%sitename%\Data"
@@ -95,6 +95,10 @@ IF NOT EXIST %DevSettings% (
 
 IF DEFINED IsBuildServer (
 	powershell -file build-FixDataFolder.ps1 "%WebsiteDirectory%\Web.config" "%InstanceDirectory%\%sitename%\Data"
+	IF "%ERRORLEVEL%" NEQ "0" (
+		echo Powershell updates failed
+		exit /B %ERRORLEVEL%
+	)
 )
 
 exit /B 0

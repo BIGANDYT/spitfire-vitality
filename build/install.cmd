@@ -87,8 +87,8 @@ IF "%ERRORLEVEL%" NEQ "0" (
 ::	exit /B %ERRORLEVEL%
 ::)
 
-:: Remove the hack of disabling indexing during install
-del %InstanceDirectory%\%sitename%\Website\App_Config\Include\zSpitfire\DisableIndexing.config
+:: Remove buildprocess hacks
+rmdir /S /Q %InstanceDirectory%\%sitename%\Website\App_Config\Include\zSpitfire
 
 :: Rebuild search indexes
 echo Rebuilding system search index...
