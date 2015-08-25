@@ -1,0 +1,15 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Spitfire.Identity
+@using Spitfire.SitecoreExtensions.Extensions
+@model RenderingModel
+@{
+    var identity = Model.PageItem.GetAncestorOfTemplate("home");
+    if (identity == null)
+    {
+        // TODO: Throw an error here? We shouldn't really be here, with a layout at least.
+        return;
+    }
+}
+<h2>About us</h2>
+<p>@Html.Sitecore().Field(Templates.Identity.Fields.AboutUs.ToString(), identity)</p>

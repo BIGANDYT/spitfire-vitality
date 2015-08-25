@@ -1,0 +1,17 @@
+﻿@using Sitecore.Data.Items
+@using Spitfire.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@using Spitfire.Identity
+@model Sitecore.Mvc.Presentation.RenderingModel
+@{
+    var home = Model.PageItem.GetAncestorOfTemplate("home");
+    if (home == null)
+    {
+        // TODO: Throw an error here? We shouldn't really be here, with a layout at least.
+        return;
+    }
+}
+
+<a href="@home.Url()" class="site-logo">
+    @Html.Sitecore().Field(Templates.Identity.Fields.Logo.ToString(), home)
+</a>

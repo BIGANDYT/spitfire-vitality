@@ -1,0 +1,97 @@
+﻿@using Sitecore.Data.Fields
+@using Sitecore.Data.Items
+@using Sitecore.Resources.Media
+@using Spitfire.SitecoreExtensions.Extensions
+@model Spitfire.References.Models.SectionPortfolio
+<section class="portfolio-carousel wow fadeIn">
+    @if (Model.PortfolioItems != null)
+    {
+        foreach (Item item in Model.PortfolioItems)
+        {
+            var imageUrl = item.ImageUrl("BackgroundImage");
+
+            <div class="item" style="@(imageUrl != string.Empty ? "background-image: url('" + @imageUrl + "')}" : string.Empty)">
+                @if (Sitecore.Context.PageMode.IsPageEditor)
+                {
+                    <div id="CustomBackgroundImageChange" style="position: absolute; top: 10px;">
+                        <h5>Change The Background Image</h5>
+                        @Html.Sitecore().Field("BackgroundImage", item, new { @class = "img-responsive", mw = 50, mh = 50, @style = "border: 1px black solid" })
+                    </div>
+                }
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-4 col-md-push-8">
+                            <div class="project-details">
+                                @Html.Sitecore().Field("ClientLogo", item)
+                                <span class="project-name">@Html.Sitecore().Field("ProjectName", item)</span>
+                                <span class="project-description">@Html.Sitecore().Field("ProjectTagline", item)</span>
+                                <hr class="colored">
+                                <a href="#portfolioModal1" data-toggle="modal" class="btn btn-outline-light">View Details <i class="fa fa-long-arrow-right fa-fw"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-md-pull-4 hidden-xs">
+                            @Html.Sitecore().Field("Image", item, new { @class = "img-responsive"})
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <div class="row">
+            <div class="col-lg-12">Please select a datasource</div>
+        </div>
+    }
+</section>
+
+<!-- Portfolio Modals -->
+@if (Model.PortfolioItems != null)
+{
+    foreach (Item item in Model.PortfolioItems)
+    {
+        var imageUrl = item.ImageUrl("ModalBackgroundImage");
+
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true" style="@(imageUrl != string.Empty ? "background-image: url('" + @imageUrl + "')}" : string.Empty)">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="project-details">
+                                    @Html.Sitecore().Field("ClientLogo", item)
+                                    <span class="project-name">@Html.Sitecore().Field("ProjectName", item)</span>
+                                    <hr class="colored">
+                                    <span class="project-description">@Html.Sitecore().Field("ProjectDescription", item)</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                @Html.Sitecore().Field("Image", item, new { @class = "img-responsive img-centered" })
+                            </div>
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <ul class="list-inline item-details">
+                                    <li>
+                                        Client: <strong>@Html.Sitecore().Field("Client", item)@*<a href="http://startbootstrap.com">Start Bootstrap</a>*@</strong>
+                                    </li>
+                                    <li>
+                                        Date: <strong>@Html.Sitecore().Field("Date", item, new { @format = "dd/MM/yyyy" })</strong>
+                                    </li>
+                                    <li>
+                                        Service: <strong><a href="http://startbootstrap.com">Web Development</a></strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+}

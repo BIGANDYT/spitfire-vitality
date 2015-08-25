@@ -1,0 +1,21 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+    var colour = Model.Item["colour"];
+    var home = Model.Item.Database.GetItem(colour);
+    var hovercolour = Model.Item["hover colour"];
+    var hoverhome = Model.Item.Database.GetItem(hovercolour);
+}
+<!-- BEGIN BLOCKQUOTE BLOCK -->
+<div class="row quote-oc @home["css"] @hoverhome["css"]hover margin-bottom-30">
+    <div class="col-md-9">
+        <span>@Sitecore.Context.User.Profile["Firstname"], @Html.Sitecore().Field("quote")</span>
+    </div>
+    <div class="col-md-3 text-right">
+        @Html.Sitecore().BeginField("link", new { @class = "btn-transparent" })
+        <i class="@Model.Item["icon"]"></i>@Html.Sitecore().Field("link text")
+        @Html.Sitecore().EndField()
+    </div>
+</div>
+<!-- END BLOCKQUOTE BLOCK -->

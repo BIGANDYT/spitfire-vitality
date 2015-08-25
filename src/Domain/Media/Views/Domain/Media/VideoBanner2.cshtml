@@ -1,0 +1,32 @@
+﻿@using Spitfire.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Resources.Media
+@model RenderingModel
+@{
+    if (Model.Item["video"] == string.Empty)
+    {
+        return;
+    }
+}
+<!-- BEGIN SLIDER -->
+<div class="page-slider margin-bottom-25">
+    <div class="fullwidthbanner-container revolution-slider" style="max-height:720px; height:720px; background-color:#F8F8F8;">
+        <div class="fullwidthbanner">
+            <ul id="revolutionul" style="height:auto !important @(Sitecore.Context.PageMode.IsPageEditor ? "text-align:center;" : string.Empty)">
+                @foreach (var item in Model.Item.TargetItems("video"))
+                {
+                    <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" style="text-align:center;">
+                        <video controls="controls" style="height: 720px;" autoplay="@(Sitecore.Context.PageMode.IsNormal ? "autoplay" : string.Empty)">
+                            <source src="@MediaManager.GetMediaUrl(item)" type="video/mp4" />
+                            <div class="video-error">
+                                Your browser does not support the <code>video</code> element.
+                            </div>
+                        </video>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- END SLIDER -->

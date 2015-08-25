@@ -1,0 +1,27 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+<!-- BEGIN SLIDER -->
+<div class="page-slider margin-bottom-40">
+    <div class="fullwidthbanner-container revolution-slider">
+        <div class="fullwidthabnner">
+            <ul id="revolutionul" style="height: auto !important;">
+                @if (Model.Item["source"] != "")
+                {
+                    foreach (var itemId in Model.Item["source"].Split('|'))
+                    {
+                        var item = Sitecore.Context.Database.GetItem(itemId);
+                        var alt = item["alt"] == string.Empty ? item.DisplayName : item["alt"];
+
+                        <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" data-thumb="/metronic/frontend/pages/img/revolutionslider/thumbs/thumb2.jpg">
+                            @Html.Sitecore().Field("background image", item, new { alt = alt, border = "0" })
+                            @Html.Sitecore().Field("content", item)
+                        </li>
+                    }
+                }
+            </ul>
+            <div class="tp-bannertimer tp-bottom"></div>
+        </div>
+    </div>
+</div>
+<!-- END SLIDER -->

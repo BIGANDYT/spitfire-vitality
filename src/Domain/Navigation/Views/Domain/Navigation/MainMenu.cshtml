@@ -1,0 +1,94 @@
+﻿@using Sitecore.Data.Items
+@using Spitfire.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@using Spitfire.Navigation
+@model Sitecore.Mvc.Presentation.RenderingModel
+@{
+    var home = Model.PageItem.GetAncestorOfTemplate("home");
+    if (home == null)
+    {
+        // TODO: Throw an error here? We shouldn't really be here, with a layout at least.
+        return;
+    }
+}
+
+<ul>
+    <li class="@(Model.Item.ID == home.ID ? "active" : string.Empty)">
+        <a href="@home.Url()">
+            <span>@Html.Sitecore().Field(Templates.Navigable.Fields.NavigationTitle.ToString(), home, new
+                  {
+                      DisableWebEdit = true
+                  })</span>
+        </a>
+    </li>
+
+    @foreach (var child in home.Children.Where(x => x[Templates.Navigable.Fields.ShowInNavigation.ToString()] == "1"))
+    {
+        if (child["dropdown"] == "1")
+        {
+            <li class="@(child.ID == home.ID ? "active" : string.Empty)">
+                <a href="@child.Url()">
+                    <span>@Html.Sitecore().Field(Templates.Navigable.Fields.NavigationTitle.ToString(), child, new
+                          {
+                              DisableWebEdit = true
+                          })</span>
+                </a>
+
+                <ul class="dropdown-menu">
+                    <li>
+                        <div class="header-navigation-content">
+                            <div class="row">
+                                @foreach (var item2 in child.Children.Where(x => x[Templates.Navigable.Fields.ShowInNavigation.ToString()] == "1"))
+                                {
+                                    <div class="col-md-4 header-navigation-col">
+                                        <a href="@item2.Url()"><h4>@Html.Sitecore().Field(Templates.Navigable.Fields.NavigationTitle.ToString(), item2, new
+                                                                   {
+                                                                       DisableWebEdit = true
+                                                                   })</h4></a>
+                                        <ul>
+                                            @foreach (var item3 in item2.Children.Where(x => x[Templates.Navigable.Fields.ShowInNavigation.ToString()] == "1"))
+                                            {
+                                                <li><a href="@item3.Url()">@Html.Sitecore().Field(Templates.Navigable.Fields.NavigationTitle.ToString(), item3, new
+                                                                           {
+                                                                               DisableWebEdit = true
+                                                                           })</a></li>
+                                            }
+                                        </ul>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+        }
+        else
+        {
+            <li class="@(child.ID == home.ID ? " active" : string.Empty)">
+                <a href="@child.Url()">
+                    <span>@Html.Sitecore().Field(Templates.Navigable.Fields.NavigationTitle.ToString(), child, new
+                          {
+                              DisableWebEdit = true
+                          })</span>
+                </a>
+            </li>
+        }
+    }
+
+    <!-- BEGIN TOP SEARCH -->
+    <li class="menu-search">
+        <span class="sep"></span>
+        <i class="fa fa-search search-btn"></i>
+        <div class="search-box">
+            <form action="#">
+                <div class="input-group">
+                    <input type="text" placeholder="Search" class="form-control"/>
+                    <span class="input-group-btn">
+                        <button class="btn btn-primary" type="submit">Search</button>
+                    </span>
+                </div>
+            </form>
+        </div>
+    </li>
+    <!-- END TOP SEARCH -->
+</ul>

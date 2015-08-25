@@ -1,0 +1,48 @@
+﻿@using Sitecore.Data.Items
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Spitfire.Library
+@using Spitfire.SitecoreExtensions.Extensions
+@model RenderingModel
+@{
+    var home = Model.PageItem.GetAncestorOfTemplate("home");
+    var vertical = home["vertical"];
+    var about = Sitecore.Context.Database.GetItem("E6EE5E01-D3B1-4225-AC07-D8368398947E");
+    var clients = Sitecore.Context.Database.GetItem("7E3CFDC4-6FF3-48ED-A474-D8F6B2E7ABE4");
+}
+<!-- BEGIN CLIENTS -->
+<div class="row margin-bottom-40 our-clients">
+    <div class="col-md-3">
+        @if (vertical == string.Empty)
+        {
+            <h2>Our Clients</h2>
+        }
+        else
+        {
+            <h2>@vertical Clients</h2>
+        }
+        <br />
+        <p>
+            Interested to see more of our customers?
+            Click <a href="@about.Url()">here</a>.
+        </p>
+    </div>
+    <div class="col-md-9">
+        <div class="owl-carousel owl-carousel6-brands">
+            @foreach (Item client in clients.Children.OrderBy(_ => Guid.NewGuid()))
+            {
+                var clienttag = client["tags"];
+                var clienttagid = client.Database.GetItem(clienttag);
+
+                if ((clienttagid != null && clienttagid.Name == vertical) || vertical == string.Empty)
+                {
+                    <div class="client-item">
+                        @Html.Sitecore().Field("logo off", client, new { @class = "img-responsive" })
+                        @Html.Sitecore().Field("logo on", client, new { @class = "color-img img-responsive" })
+                    </div>
+                }
+            }
+        </div>
+    </div>
+</div>
+<!-- END CLIENTS -->

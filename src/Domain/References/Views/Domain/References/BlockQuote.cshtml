@@ -1,0 +1,47 @@
+﻿@using Spitfire.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Spitfire.Library
+@model RenderingModel
+@{
+    string css;
+    var hoverCss = string.Empty;
+
+    var hoverColour = Model.Item["hover colour"];
+    if (!string.IsNullOrEmpty(hoverColour))
+    {
+        var hoverColourItem = Model.Item.Database.GetItem(hoverColour);
+        if (hoverColourItem != null)
+        {
+            hoverCss = hoverColourItem["css"];
+        }
+    }
+
+    var blockColour = Model.Item["colour"];
+    var blockColourItem = Model.Item.Database.GetItem(blockColour);
+
+    if (Model.Item.ID.ToString() == "{8CBDA387-0FFE-4258-ACD9-AA7CE0ABF10A}" || blockColourItem == null)
+    {
+        var siteHome = Model.PageItem.GetAncestorOfTemplate("home");
+        var theme = siteHome["theme"];
+        var themeItem = Model.Item.Database.GetItem(theme);
+        css = themeItem["css"];
+    }
+    else
+    {
+        css = blockColourItem["css"];
+    }
+}
+
+<!-- BEGIN BLOCKQUOTE BLOCK -->
+<div class="row quote-v1 @css @hoverCss hover margin-bottom-30">
+    <div class="col-md-9">
+        <span>@Html.Sitecore().Field("quote")</span>
+    </div>
+    <div class="col-md-3 text-right">
+        @Html.Sitecore().BeginField("link", Model.Item, new { @class = "btn-transparent", haschildren = true })
+        <i class="@Model.Item["icon"]"></i>@Html.Sitecore().Field("link text")
+        @Html.Sitecore().EndField()
+    </div>
+</div>
+<!-- END BLOCKQUOTE BLOCK -->

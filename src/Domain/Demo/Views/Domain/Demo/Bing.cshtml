@@ -1,0 +1,1398 @@
+﻿<!DOCTYPE html>
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Analytics.Extensions
+@using Sitecore.Mvc.Presentation
+@using Spitfire.SitecoreExtensions.Extensions
+@model RenderingModel
+@{
+    string location = Model.PageItem.LinkFieldUrl("ResultsLink");
+}
+
+<html lang="en">
+<head>
+<title>@Html.Sitecore().Field("title", new { DisableWebEdit = true })</title>
+    <meta content="Bing is a search engine that finds and organizes the answers you need so you can make faster, more informed decisions." name="description">
+    <meta content="NOODP" name="ROBOTS">
+    <style type="text/css">
+        .idh {
+            padding: 0;
+            margin: 0;
+            z-index: 951;
+        }
+
+        .idd {
+            display: none;
+            z-index: 950;
+            position: absolute;
+            width: 230px;
+            right: 5px;
+        }
+
+        .img_uparrow {
+            margin-left: 16px;
+            z-index: 952;
+            display: none;
+        }
+
+        #id_t {
+            white-space: nowrap;
+            max-width: 150px;
+            overflow: visible;
+        }
+
+        #id_la {
+            cursor: pointer;
+        }
+
+        .idh a:hover {
+            text-decoration: none;
+        }
+
+        .idh .lt {
+            cursor: pointer;
+            height: 34px;
+        }
+
+        .pic {
+            vertical-align: middle;
+            margin-left: 10px;
+        }
+
+        .pic.si {
+            height: 28px;
+            width: 28px;
+        }
+
+        .idh .lt #id_t {
+            display: block;
+        }
+
+        .idh .lt #id_s, #id_n {
+            padding-left: 8px;
+        }
+
+        .idh .lt #id_r {
+            width: 74px;
+            height: 13px;
+            position: relative;
+        }
+
+        .idh .lt #id_rc {
+            line-height: 13px;
+            position: absolute;
+            top: 1px;
+            left: 21px;
+        }
+
+        .idh .pref {
+            position: absolute;
+            right: 15px;
+            top: 48px;
+            cursor: pointer;
+        }
+
+        .img_downarrow {
+            margin-left: 4px;
+            vertical-align: middle;
+            display: inline-block;
+        }
+
+        .idh {
+            position: absolute;
+            top: 5px;
+            right: 0;
+            float: right;
+        }
+
+        #id_t {
+            margin-right: 20px;
+        }
+
+        #id_d {
+            right: 0;
+        }
+
+        #id_d_u {
+            margin: auto;
+        }
+
+        .idh #id_l #id_r {
+            padding-left: 14px;
+            width: auto;
+        }
+
+        #id_l {
+            height: auto;
+            margin-top: 5px;
+            margin-right: 56px;
+        }
+
+        .idh .lt #id_s, #id_n {
+            padding-right: 3px;
+        }
+
+        .idh #id_l #id_rc {
+            line-height: normal;
+            position: relative;
+            left: 0;
+        }
+
+        .sw_tb .idh .pref {
+            top: 5px;
+            right: 20px;
+        }
+
+        .idh span {
+            color: #999;
+        }
+
+        .img_rwds_sml {
+            display: inline-block;
+            position: absolute;
+            left: 0;
+            top: 1px;
+        }
+
+        a {
+        }
+    </style>
+    <style type="text/css">
+        html {
+            overflow: auto;
+        }
+
+        a, body {
+            font-family: "Segoe UI",Segoe,Tahoma,Arial,Verdana,sans-serif;
+            font-size: small;
+            text-decoration: none;
+        }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+        html, body, #hp_table, #hp_cellCenter {
+            height: 100%;
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            border: 0;
+        }
+
+        #hp_cellCenter {
+            vertical-align: middle;
+            overflow: hidden;
+        }
+
+        #hp_sw_hdr {
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+
+        #sc_hdu {
+            position: absolute;
+            top: 0;
+            height: 35px;
+            line-height: 35px;
+            bottom: 0;
+        }
+
+            #sc_hdu li {
+                zoom: 1;
+                display: inline;
+                height: inherit;
+            }
+
+                #sc_hdu li a {
+                    vertical-align: middle;
+                    line-height: 35px !important;
+                    display: inline-block;
+                }
+
+        #hp_bottomCell {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        #hp_container {
+            min-width: 1115px;
+            max-width: 1366px;
+            width: 100%;
+            min-height: 562px;
+            max-height: 768px;
+            height: 100%;
+            position: relative;
+            margin: auto;
+        }
+
+        * + html #hp_container {
+            overflow: hidden;
+        }
+
+        table, td {
+            border-spacing: 0;
+            border: 0;
+            padding: 0;
+        }
+
+        #bgDiv {
+            position: absolute;
+            top: 0;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-color: #666;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        .hp_text, .sc_pc li a, #sb_foot, #sb_foot li a, ul.hp_head_nav li a {
+            font-weight: 400;
+        }
+
+        .hp_text {
+            font-size: 13px;
+        }
+
+        #sb_foot, #hp_sw_hdr {
+            height: 35px;
+            background-color: #333;
+            z-index: 9;
+            width: 100%;
+            position: relative;
+            border: 0;
+            padding: 0;
+        }
+
+        #sc_hdu div, .sw_tb h3.sc_hl1, .sw_tb li {
+            display: inline;
+        }
+
+        #sw_footL, #sw_footL a {
+            color: #666;
+        }
+
+            #sw_footL #sb_feedback {
+                color: #999;
+            }
+
+        #sb_foot a, #sb_foot span {
+            margin: 0 10px;
+            zoom: 1;
+        }
+
+        #sb_foot {
+            overflow: hidden;
+        }
+
+        #sw_footL {
+            margin: 0;
+            padding: 0;
+            text-align: right;
+            position: absolute;
+            right: 20px;
+            white-space: nowrap;
+        }
+
+            #sw_footL li {
+                line-height: 32px;
+                height: 32px;
+                display: inline;
+                zoom: 1;
+            }
+
+        .sw_tb {
+            padding: 0;
+            width: 100%;
+            height: 35px;
+            margin: 0;
+            font-size: 13px;
+        }
+
+            .sw_tb ul {
+                margin: 0;
+                padding: 0;
+                padding-left: 8px;
+            }
+
+            .sw_tb .sc_hl1 div {
+                height: auto;
+            }
+
+            .sw_tb ul.sc_hl1 li a {
+                zoom: 1;
+            }
+
+        .sc_hl1 a {
+            text-transform: uppercase;
+        }
+
+        .sc_pc {
+            top: 25px !important;
+        }
+
+            .sc_pc a {
+                line-height: 18px !important;
+                text-transform: none;
+            }
+
+        #hp_sw_hdr li.sc_active {
+            font-weight: 700;
+            border-left: solid 1px #a8b1b7;
+            border-right: solid 1px #a8b1b7;
+            margin: 0;
+            border: none;
+        }
+
+            #hp_sw_hdr li.sc_active a {
+                color: #ffa615;
+            }
+
+        ul.hp_head_nav {
+            padding-left: 3px;
+        }
+
+            ul.hp_head_nav li a {
+                margin-left: 15px;
+                margin-right: 15px;
+                color: #acacac;
+                font-weight: 400;
+            }
+
+        #scpc_nav a img {
+            border: none;
+            position: absolute;
+            top: 2px;
+        }
+
+        #scp_nav_link {
+            display: inline-block;
+            width: 40px;
+            height: 16px;
+            overflow: hidden;
+        }
+
+        .sh_hst {
+            position: absolute;
+            z-index: 4;
+            visibility: hidden;
+        }
+
+        .sh_hto {
+            width: 39px;
+            height: 39px;
+            opacity: .4;
+            filter: alpha(opacity=40);
+            background: #000;
+            padding: 1px;
+        }
+
+            .sh_hto div {
+                height: 37px;
+                width: 37px;
+                border: 1px solid #fff;
+                float: left;
+            }
+
+        a.sh_hs {
+            color: #fff;
+            text-decoration: none;
+            position: absolute;
+            display: block;
+            cursor: pointer;
+            z-index: 6;
+            line-height: 1.4em;
+            width: 205px;
+            padding: 3px 8px 6px;
+            visibility: hidden;
+        }
+
+            a.sh_hs:hover {
+                text-decoration: none;
+            }
+
+            a.sh_hs p, a:visited.sh_hs p {
+                margin: 0 0 .2em;
+            }
+
+        .sh_hq {
+            text-decoration: underline;
+        }
+
+        .sh_hi {
+            display: inline;
+            font-size: medium;
+            color: #ffa500;
+        }
+
+        .sh_ho {
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            opacity: .6;
+            filter: alpha(opacity=60);
+            padding: 1px;
+            background: #000;
+        }
+
+            .sh_ho div {
+                border: 1px solid #fff;
+            }
+
+        #hp_tbar, #hp_bk {
+            display: none;
+        }
+
+        #thp_notf_div {
+            position: fixed;
+        }
+
+        #sh_cp .hidden {
+            display: none;
+        }
+
+        #hp_sw_hdr .sw_mktsw {
+            position: relative;
+            display: none;
+            top: 0;
+            float: right;
+        }
+
+            #hp_sw_hdr .sw_mktsw a, #hp_sw_hdr .sw_mktsw span {
+                color: #999;
+                margin: 0 10px 0 9px;
+                height: 35px;
+                line-height: 35px;
+            }
+
+        #hp_sw_hdr .pref {
+            top: 8px;
+        }
+
+        #dhp {
+            color: #acacac;
+            position: relative;
+            float: right;
+            bottom: 0;
+            display: block;
+            visibility: hidden;
+            padding-left: 5px;
+            padding-right: 30px;
+            height: 16px;
+            line-height: 100%;
+            top: 10px;
+        }
+
+        #hp_container .sa_as {
+            border-color: #e5e5e5;
+        }
+
+        .hpcBkP, .hpcLogoWhite, .hpcNext, .hpcCopyInfo, .hpcPlay, .hpcPause, .hpcPrevious, .hpcFull, .hpcSmall, .sw_qbtn, .hpcExpand, .hpcClose, .hpcDown, .pref, .img_uparrow, .img_rwds_sml, .img_downarrow, .hpcCaroNavRight, .hpcCaroNavLeft, .scPartnerLaunch, .sw_qbtn, .wpbClose {
+            background: transparent url(/images/Bing/hpc12.png) no-repeat;
+            overflow: hidden;
+        }
+
+        .hpcNext, .hpcCopyInfo, .hpcPlay, .hpcPause, .hpcPrevious, .hpcFull, .hpcSmall, .hpcDown {
+            width: 32px;
+            height: 32px;
+        }
+
+        .hpcLogoWhite {
+            background-position: 0 0;
+            margin: -7px 21px 0 0;
+            width: 132px;
+            height: 52px;
+        }
+
+        .hpcNext {
+            background-position: -160px -53px;
+        }
+
+        .hpcCopyInfo {
+            background-position: -64px -85px;
+        }
+
+        .hpcPlay {
+            background-position: 0 -85px;
+        }
+
+        .hpcSmall {
+            background-position: -64px -53px;
+        }
+
+        .hpcDown {
+            background-position: 0 -53px;
+        }
+
+        .hpcFull {
+            background-position: -32px -53px;
+        }
+
+        .hpcPause {
+            background-position: -32px -85px;
+        }
+
+        .hpcPrevious {
+            background-position: -192px -53px;
+        }
+
+        .sw_qbtn {
+            background-position: -224px -53px;
+        }
+
+        .hpcCaroNavLeft, .hpcCaroNavRight {
+            position: absolute;
+            width: 17px;
+            height: 26px;
+        }
+
+        .hpcCaroNavRight {
+            background-position: -222px -27px;
+        }
+
+        .hpcCaroNavLeft {
+            background-position: -205px -27px;
+        }
+
+        .hpcExpand, .hpcClose {
+            width: 32px;
+            height: 32px;
+        }
+
+        .hpcExpand {
+            background-position: -128px -53px;
+        }
+
+        .hpcClose {
+            background-position: -96px -53px;
+        }
+
+        .pref:hover {
+            background-position: -187px -18px;
+        }
+
+        .pref {
+            background-position: -169px -18px;
+            width: 18px;
+            height: 18px;
+        }
+
+        .img_uparrow {
+            background-position: -174px -36px;
+            width: 20px;
+            height: 12px !important;
+        }
+
+        .img_rwds_sml {
+            background-position: -167px 0;
+            width: 18px;
+            height: 18px !important;
+        }
+
+        .img_downarrow {
+            background-position: -165px -36px;
+            width: 9px;
+            height: 6px;
+        }
+
+        .hpcBkP {
+            overflow: hidden;
+            width: 74px;
+            height: 32px;
+            cursor: pointer;
+            background-position: -96px -85px;
+        }
+
+            .hpcBkP:hover {
+                background-position: -171px -85px;
+            }
+
+        .scPartnerLaunch {
+            background-position: -133px 0;
+            width: 17px;
+            height: 17px;
+            display: inline-block;
+        }
+
+            .scPartnerLaunch:hover {
+                background-position: -150px 0;
+            }
+
+        .wpbClose {
+            width: 16px;
+            height: 16px;
+            background-position: -132px -36px;
+        }
+
+            .wpbClose:hover {
+                background-position: -148px -36px;
+            }
+
+        b {
+            padding: 0;
+        }
+
+        #bgDiv {
+            opacity: 1;
+            background-image: url(/images/Bing/Scotland_Bing_bg.jpg);
+        }
+
+        .hp_sw_logo {
+            float: left;
+            text-indent: -20em;
+        }
+
+        .sw_sform {
+            position: absolute;
+            top: 20%;
+            left: 8%;
+            width: 1028px;
+            margin: 0;
+            z-index: 8;
+        }
+
+        .sw_b .sw_qbtn {
+            cursor: pointer;
+            height: 37px;
+            width: 37px;
+            margin: 0 0 -14px;
+            overflow: hidden;
+            font-size: 0;
+            border: 5px solid #ffb900;
+            background-color: #ffb900;
+        }
+
+        * + html .sw_b .sw_qbtn {
+            color: #010101;
+            filter: progid:DXImageTransform.Microsoft.Chroma(color=#000000);
+        }
+
+        #sbox .sw_qbox {
+            width: 415px;
+        }
+
+        .sb_form_align {
+            top: 2.7em;
+            left: 150px;
+            position: absolute;
+        }
+
+            .sb_form_align label, .sb_form_align a {
+                color: #fff;
+            }
+
+        .beta, .beta a {
+            color: #bbb !important;
+        }
+
+        .beta {
+            position: absolute;
+            top: 45px;
+            left: 54px;
+            width: 55px;
+            height: 18px;
+            overflow: hidden;
+        }
+
+            .beta a {
+                font-size: 12px;
+            }
+
+        .sw_bd {
+            position: relative;
+            float: left;
+            font-size: medium;
+            z-index: 1;
+            border: 1px #e5e5e5 solid;
+        }
+
+        .sw_b {
+            float: none;
+            background: #fff;
+            padding: .19em 3px 1.06em 0;
+            height: 23px;
+            position: relative;
+        }
+
+        * + html .sw_b {
+            width: 100%;
+        }
+
+            .sw_b input {
+                font-family: "Segoe UI",Segoe,Tahoma,Arial,Verdana,sans-serif;
+                float: left;
+                border: 0;
+                font-size: 18px;
+                margin: 5px 5px -1em 9px;
+                width: 375px;
+                -webkit-appearance: none;
+                outline: none;
+                padding: 0;
+                height: 27px;
+            }
+
+        #sw_filt {
+            margin-top: 10px;
+        }
+
+            #sw_filt input {
+                margin-right: 2px;
+                zoom: 1;
+            }
+
+            #sw_filt label {
+                display: inline-block;
+                text-shadow: 1px 1px 1px #565656;
+                padding-right: 1em;
+            }
+
+        .ie8l #sw_filt label, .ie9 #sw_filt label {
+            filter: progid:DXImageTransform.Microsoft.Blur(pixelradius=0);
+            height: 1.4em;
+        }
+
+        #id_h {
+            height: 35px;
+            top: auto;
+            position: relative;
+            bottom: 3px;
+        }
+
+        .sw_tb div.idp_fb, .sw_tb div.idp_wlid {
+            height: 24px;
+        }
+
+        .sw_tb .idh .pref {
+            right: 18px;
+            top: 12px !important;
+        }
+
+        .sw_tb .idp div {
+            line-height: normal;
+            font-variant: normal;
+            height: auto;
+        }
+
+        .idh {
+            _padding-top: 3px;
+        }
+
+            .idh span {
+                color: #acacac;
+                font-weight: 400;
+            }
+
+        .img_rwds_sml {
+            margin-top: 2px;
+            top: 3px !important;
+        }
+
+        table #id_l {
+            margin-top: 0;
+        }
+
+        #id_lt {
+            height: 35px;
+        }
+
+        #id_r {
+            display: none !important;
+            margin-right: 22px;
+            margin-top: 2px;
+            height: 22px !important;
+        }
+
+            #id_r.visible {
+                display: block !important;
+            }
+
+        #id_rc {
+            top: 5px !important;
+            left: 7px !important;
+        }
+
+        #id_t span {
+            line-height: 100%;
+        }
+
+        #id_dt, #id_dt span, #id_dt a {
+            white-space: normal;
+        }
+
+        #hp_sw_hdr #id_d_u {
+            display: none;
+            position: relative;
+            top: -7px;
+            float: right;
+        }
+
+        #id_rc, .idd a, .idd div {
+            font-size: 13px;
+        }
+
+        #hp_sw_hdr #id_dt .rule {
+            height: auto;
+        }
+
+        #id_t {
+            margin-top: 6px;
+            margin-right: 11px;
+            height: auto;
+        }
+
+        #id_la {
+            cursor: pointer;
+        }
+
+        #id_dt {
+            border: none;
+        }
+
+        #bep {
+            margin-right: 20px;
+            height: 12px;
+        }
+
+            #bep .cnton {
+                margin-right: 4px;
+            }
+
+        #bep_cnt {
+            color: #ccc;
+        }
+
+        #hp_ctrls {
+            height: 60px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        #sh_rdiv {
+            position: absolute;
+            right: 40px;
+            top: 15px;
+        }
+
+            #sh_rdiv a > div {
+                position: relative;
+                margin: 0 5px;
+            }
+
+            #sh_rdiv a {
+                position: relative;
+                float: left;
+                display: block;
+                text-decoration: none;
+                cursor: default;
+                outline: none;
+            }
+
+                #sh_rdiv a:hover, #sh_rdiv a:hover span {
+                    visibility: visible;
+                }
+
+        #sh_igl > div, #sh_igr > div, #sh_igf > div {
+            visibility: hidden;
+            cursor: pointer;
+        }
+
+        #sh_rdiv .sc_lightdis div {
+            cursor: default;
+            opacity: .5;
+            filter: alpha(opacity=30);
+        }
+
+        #sw_fbl {
+            border: 0;
+            overflow: hidden;
+            position: absolute;
+            width: 110px;
+            height: 20px;
+            top: 50px;
+            right: 0;
+            display: inline-block;
+        }
+
+        #btn_fb-like {
+            border: 0;
+            position: absolute;
+            width: 95px;
+            height: 20px;
+            top: 55px;
+            right: 0;
+            display: block;
+            opacity: 0;
+            filter: alpha(opacity=0);
+        }
+
+            .fb_edge_widget_with_comment, #btn_fb-like span {
+                z-index: 8 !important;
+            }
+
+        .btn_fb-like_show {
+            opacity: 1;
+            filter: alpha(opacity=100);
+        }
+
+        #sh_pl, #sh_ps {
+            display: none;
+            cursor: pointer;
+        }
+
+        .hp_vid #sc_mktb {
+            display: none;
+        }
+
+        #vid {
+            display: none;
+        }
+
+        .hp_vid #vid {
+            display: block;
+        }
+
+        #hp_vidwrp {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background: #fff;
+            opacity: 0;
+            filter: alpha(opacity=0);
+        }
+    </style>
+    <style>
+        #hp_tbar {
+            display: block;
+            background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.55)),to(rgba(0,0,0,.55)));
+            background-image: -moz-linear-gradient(rgba(0,0,0,.55) 0%,rgba(0,0,0,.55) 100%);
+            background-image: -ms-linear-gradient(rgba(0,0,0,.55) 0%,rgba(0,0,0,.55) 100%);
+            background-image: -o-linear-gradient(rgba(0,0,0,.55) 0%,rgba(0,0,0,.55) 100%);
+            background-image: linear-gradient(rgba(0,0,0,.55) 0%,rgba(0,0,0,.55) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8C000000',endColorstr='#8C000000');
+            zoom: 1;
+        }
+
+        #hp_pgbar {
+            height: 62px;
+            overflow: hidden;
+        }
+
+            #hp_pgbar a, #hp_pgbar h3 {
+                display: block;
+                overflow: hidden;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+            #hp_pgbar a {
+                color: #d3d3d3;
+                padding-top: 5px;
+                font-size: 13px;
+            }
+
+            #hp_pgbar h3 {
+                color: #fff;
+                margin: 0;
+                padding: 0;
+                font-weight: normal;
+                font-size: 16px;
+            }
+
+            #hp_pgbar div.msg {
+                height: 42px;
+                float: left;
+                padding: 10px 0 10px 20px;
+                min-width: 195px;
+            }
+
+            #hp_pgbar div.last {
+                min-width: 30%;
+                width: 30%;
+            }
+
+            #hp_pgbar .ps ul {
+                padding: 0;
+                margin: 0 0 0 -5px;
+                overflow: hidden;
+                height: 22px;
+                width: 100%;
+            }
+
+                #hp_pgbar .ps ul a {
+                    padding: 0 0 0 5px;
+                    display: inline;
+                }
+
+            #hp_pgbar .ps li {
+                display: block;
+                float: left;
+                padding: 5px 5px 0 0;
+                height: 22px;
+                color: #fff;
+                white-space: nowrap;
+                line-height: 17px;
+            }
+    </style>
+    <style>
+        .sc_pc {
+            position: absolute;
+            width: 18.5em;
+            padding: .45em 0;
+            top: 14px;
+            font-size: 92%;
+            margin: .82em 0;
+            visibility: hidden;
+        }
+
+        .sw_tb .sc_hl1 div {
+            height: auto;
+        }
+
+        .sc_pc .sc_hl1 {
+            margin-right: 0;
+        }
+
+        .sw_tb .sc_hl1 li .sc_hl1 li {
+            margin: 0;
+        }
+
+        .hp_hor_hdr .sw_tb .sc_pc .sc_hl1 li a {
+            margin: 0 9px;
+        }
+
+        .sc_pc .sc_pcC a {
+            word-wrap: break-word;
+            white-space: normal;
+            width: 14.5em;
+        }
+
+        .sc_pc .sc_hl1 li a {
+            white-space: normal;
+        }
+
+        #hp_sw_hdr .sc_pc h3 {
+            display: block;
+        }
+
+        .sc_pc li, .sc_pc h3, .sc_pc div.scphdr {
+            padding: .3em .2em;
+        }
+
+        .sc_sct {
+            background: #000;
+            left: 0;
+            top: 0;
+            position: absolute;
+            z-index: -1;
+            width: 100%;
+            height: 100% !important;
+        }
+
+        .sc_pc .sc_sca {
+            background: url('/fd/s/a/sca.gif') no-repeat scroll 0 0 transparent;
+            height: 9px !important;
+            left: 5px;
+            margin: 0;
+            position: absolute;
+            top: -9px;
+            width: 18px;
+        }
+
+        #hp_sw_hdr .sw_tb .sc_pc, #hp_sw_hdr .sw_tb .sc_pc div, #hp_sw_hdr .sw_tb .sc_pc li {
+            display: block;
+        }
+
+        .sc_sct, .sc_sca {
+            filter: alpha(opacity=70);
+            opacity: .7;
+        }
+
+        .sc_pcC {
+            float: left;
+            width: 16.6em;
+        }
+
+        .sc_pc h3, .sc_pc div.scphdr {
+            font-size: 100%;
+            color: #9f9f9f;
+            margin: .59em .9em 0;
+            text-transform: uppercase;
+            font-weight: normal;
+        }
+
+        .sc_pcA {
+            padding: 2.1em .2em 0;
+            clear: both;
+        }
+
+        .sw_tb ul.sc_hl1 li .sc_pcA A {
+            margin: 0 .75em;
+        }
+
+        div.sc_pc a {
+            display: inline-block;
+            padding: 0;
+        }
+
+        #hp_sw_hdr .sc_pc a {
+            font-size: 11px;
+            font-weight: normal;
+            line-height: 15px;
+            color: #fff;
+        }
+
+        #hp_sw_hdr .sc_pc a:hover {
+            text-decoration: underline;
+        }
+
+        #history.sc_C2 {
+            width: 34em;
+        }
+    </style>
+
+    @Html.Sitecore().VisitorIdentification()
+</head>
+<body class=" en en-GB wkit" onload="hpResize(_ge(&#39;bgDiv&#39;));_ge(&#39;sb_form_q&#39;).focus();if(_w.lb)lb();">
+<table id="hp_table">
+<tbody>
+<tr>
+<td id="hp_cellCenter">
+<div id="hp_container">
+<div id="bgDiv" style="height: 768px; width: 1366px; top: 0px; left: 0px;">
+    <div id="hp_vidwrp"></div>
+    <video id="vid" onended="VM.pause();" autobuffer="" preload="auto" oncontextmenu="return false" style="height: 768px; width: 1366px; top: 0px; left: 0px;"></video>
+</div>
+<div id="sbox" class="sw_sform">
+    <div class="hp_sw_logo hpcLogoWhite">Bing</div>
+    <div class="search_controls">
+
+        <form action="@location" class="sw_box" id="sb_form" onsubmit="GetResults();">
+
+            <div class="sw_bd">
+                <div class="sw_b">
+                    <input class="sw_qbox" id="sb_form_q" maxlength="1000" name="q" title="Enter your search term" type="text" value="" autocomplete="off"><span class="sw_dvdr"></span>
+
+                    <input onclick="GetResults();" class="sw_qbtn sw_sb" id="sb_form_go" name="go" tabindex="0" title="Search" type="button" value="Bing search">
+                </div>
+                <input id="sa_qs" name="qs" type="hidden" value="bs">
+                <div id="sw_as" style="display: block;">
+                    <div class="sa_as"></div>
+                </div>
+            </div>
+            <input name="form" type="hidden" value="QBLH">
+            <div class="sb_form_align">
+                <div id="sc_mktb">
+                    <div>
+                        <div id="sw_filt">
+                            <input checked="checked" id="nofilt" name="filt" type="radio" value="all"><label for="nofilt">Show all</label><input id="regionfilt" name="filt" type="radio" value="rf"><label for="regionfilt">Only from United Kingdom</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<div id="hp_sw_hdr" class="hp_hor_hdr">
+    <div class="sw_tb">
+        <ul id="sc_hdu" class="sc_hl1 hp_head_nav">
+            <li id="scpt0" class="sc_active">
+                <a href="https://www.bing.com/?scope=web&FORM=Z9LH" onclick="selectScope(this, &#39;web&#39;);" h="ID=SERP,5011.1">Web</a>
+                <div id="scpc0"></div>
+            </li>
+            <li id="scpt1" class="">
+                <a href="https://www.bing.com/images/search?q=UK+landscapes&FORM=Z9LH1" onclick="selectScope(this, &#39;images&#39;);" h="ID=SERP,5012.1">Images</a>
+                <div id="scpc1">
+                    <div class="sc_pc" id="images">
+                        <ul class="sc_hl1">
+                            <li><a href="https://www.bing.com/images/search?q=wallpaper&qft=+filterui:imagesize-wallpaper&qpvt=wallpaper&form=HPSFLT" h="ID=SERP.1000,5000.1">Find computer wallpaper </a></li>
+                            <li><a href="https://www.bing.com/images/search?q=black+and+white+photos&qs=n&form=HPSFLT" h="ID=SERP.1000,5001.1">Find black and white pictures </a></li>
+                        </ul>
+                        <div class="sc_sca"></div>
+                        <div class="sc_sct" style="height: 95px;"></div>
+                    </div>
+                </div>
+            </li>
+            <li id="scpt2" class="">
+                <a href="https://www.bing.com/videos/search?q=UK+Videos&FORM=Z9LH2" onclick="selectScope(this, &#39;video&#39;);" h="ID=SERP,5013.1">Videos</a>
+                <div id="scpc2">
+                    <div class="sc_pc" id="video">
+                        <ul class="sc_hl1">
+                            <li><a href="https://www.bing.com/videos/search?q=UK+TV+Shows&form=HPSFLT" h="ID=SERP.1000,5002.1">Find TV shows </a></li>
+                            <li><a href="https://www.bing.com/videos/search?q=UK+Music+Videos&form=HPSFLT" h="ID=SERP.1000,5003.1">Watch music videos </a></li>
+                            <li><a href="https://www.bing.com/videos/search?q=UK+Sports+Videos&form=HPSFLT" h="ID=SERP.1000,5004.1">See sports videos </a></li>
+                        </ul>
+                        <div class="sc_sca"></div>
+                        <div class="sc_sct" style="height: 137px;"></div>
+                    </div>
+                </div>
+            </li>
+            <li id="scpt3" class="">
+                <a href="https://www.bing.com/maps/?FORM=Z9LH3" onclick="selectScope(this, &#39;local&#39;);" h="ID=SERP,5014.1">Maps</a>
+                <div id="scpc3">
+                    <div class="sc_pc" id="local">
+                        <ul class="sc_hl1">
+                            <li><a href="https://www.bing.com/maps/default.aspx?v=2&rtp=~&form=HPSFLT" h="ID=SERP.1000,5008.1">Get directions/traffic </a></li>
+                        </ul>
+                        <div class="sc_sca"></div>
+                        <div class="sc_sct" style="height: 53px;"></div>
+                    </div>
+                </div>
+            </li>
+            <li id="scpt4" class="">
+                <a href="https://www.bing.com/news?FORM=Z9LH4" onclick="selectScope(this, &#39;news&#39;);" h="ID=SERP,5015.1">News</a>
+                <div id="scpc4">
+                    <div class="sc_pc" id="news">
+                        <ul class="sc_hl1">
+                            <li><a href="https://www.bing.com/news/search?q=&FORM=R5FD1&p1=%5bNewsVertical+Category%3d%22rt_UK%22+View%3d%220%22%5d&form=HPSFLT" h="ID=SERP.1000,5005.1">See local news </a></li>
+                            <li><a href="https://www.bing.com/news/search?q=&FORM=R5FD1&p1=%5bNewsVertical+Category%3d%22rt_Business%22%5d&form=HPSFLT" h="ID=SERP.1000,5006.1">Get business news </a></li>
+                            <li><a href="https://www.bing.com/news/search?q=&FORM=R5FD4&p1=%5bNewsVertical+Category%3d%22rt_Entertainment%22+View%3d%220%22%5d&form=HPSFLT" h="ID=SERP.1000,5007.1">Find entertainment news </a></li>
+                        </ul>
+                        <div class="sc_sca"></div>
+                        <div class="sc_sct" style="height: 137px;"></div>
+                    </div>
+                </div>
+            </li>
+            <li id="scpt5" class="">
+                <a href="https://www.bing.com/profile/history?FORM=Z9LH5" onclick="selectScope(this, &#39;history&#39;);" h="ID=SERP,5016.1">Search History</a>
+                <div id="scpc5">
+                    <div id="history" class="sc_pc sc_C2">
+                        <div class="sc_pcC">
+                            <h3>Recent Searches:</h3>
+                            <ul class="sc_hl1">
+                                <li><a href="https://www.bing.com/search?q=office+supplies&FORM=O1LH" h="ID=SERP.1000,5015.1">office supplies</a></li>
+                            </ul>
+                        </div>
+                        <div class="sc_pcC">
+                            <h3>Frequent Searches:</h3>
+                            <ul class="sc_hl1">
+                                <li><a href="https://www.bing.com/search?q=office+supplies&FORM=O1LH" h="ID=SERP.1000,5018.1">office supplies</a></li>
+                            </ul>
+                        </div>
+                        <div class="sc_pcA"><a href="https://www.bing.com/profile/history?FORM=O2LH" h="ID=SERP.1000,5012.1">See all</a> ·<a href="https://www.bing.com/profile/history/delete?rp=%2f&FORM=O2LH" h="ID=SERP.1000,5011.1">Clear all</a> ·<a href="https://www.bing.com/historyHandler?oma=GetResults_off&sig=2E500F97C8F34778B40CA0ECC90559AD&rp=%2f&FORM=O2LH" h="ID=SERP.1000,5013.1">Turn off</a>
+                        </div>
+                        <div class="sc_sca"></div>
+                        <div class="sc_sct" style="height: 164px;"></div>
+                    </div>
+                </div>
+            </li>
+            <li id="scpt6" class="">
+                <a href="https://www.bing.com/explore?FORM=Z9LH6" onclick="selectScope(this, &#39;seeall&#39;);" h="ID=SERP,5017.1">More</a>
+                <div id="scpc6"></div>
+            </li>
+            <li><a href="http://uk.msn.com/" h="ID=SERP,5000.1">MSN</a></li>
+            <li><a href="http://mail.live.com/?mkt=en-GB" h="ID=SERP,5001.1">Outlook.com</a></li>
+        </ul>
+        <div id="hp_id_hdr">
+            <div class="idh nosp" id="id_h" style="display: block;">
+                <table class="lt" id="id_l" _ct="ID=PJ,1.1">
+                    <tbody>
+                    <tr id="id_lt">
+                        <td>
+                            <a href="javascript:void(0);" id="id_la">
+                                <div id="id_t"><span id="id_n" style="display: none"></span><span id="id_s">Sign in</span><span id="id_a" class="img_downarrow sw_ddb sw_ddgy">&nbsp;&nbsp;</span></div>
+                            </a>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div class="img_uparrow sw_beak" id="id_d_u"></div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <a href="https://www.bing.com/account/general?ru=https%3a%2f%2fwww.bing.com%2f&FORM=SEFD" class="pref sw_pref" title="Preferences" _ct="ID=PJ,2.1"></a>
+            </div>
+            <div id="sw_tfbb"></div>
+            <span class="idd nosp" id="id_d" _iid="PJ.5" style="top: 35px;"></span>
+        </div>
+    </div>
+</div>
+<div id="hp_bottomCell">
+    <div id="hp_ctrls">
+        <div id="sh_rdiv">
+            <a href="javascript:void(0)" class="sh_psl" onclick="VM.pauseAction()" tabindex="-1" title="Pause" h="ID=SERP,5029.1">
+                <div id="sh_ps" class="hpcPause"></div>
+            </a><a href="javascript:void(0)" class="sh_pll" onclick="VM.playAction()" tabindex="-1" title="Play" h="ID=SERP,5028.1">
+                <div id="sh_pl" class="hpcPlay"></div>
+            </a><a href="https://www.bing.com/?FORM=HYLH#" id="sh_igf" title="Full Screen" h="ID=SERP,5038.1">
+                <div id="sh_fu" class="hpcFull" style="visibility: visible;"></div>
+            </a><a href="https://www.bing.com/?FORM=HYLH1#" id="sh_igl" title="Previous" h="ID=SERP,5037.1">
+                <div class="sc_light" style="visibility: visible;">
+                    <div class="hpcPrevious"></div>
+                </div>
+            </a><a href="https://www.bing.com/?FORM=HYLH2#" id="sh_igr" title="Next" h="ID=SERP,5036.1">
+                <div class="sc_lightdis" style="visibility: visible;">
+                    <div class="hpcNext"></div>
+                </div>
+            </a><a href="https://www.bing.com/search?q=Common+iguana&form=hpcapt&mkt=en-gb" class="sc_light" id="sh_cp" title="Common iguana (© Roman Mordashev/500px)" h="ID=SERP,5026.1" style="cursor: pointer;">
+                <div>
+                    <div id="sh_cp_in" class="hpcCopyInfo"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div>
+        <div id="hp_notf"></div>
+        <div id="hp_tbar">
+            <div id="hp_pgbar">
+                <div id="hp_pgm0" class="msg" style="width: 390px;">
+                    <h3>Nothing 'common' here…</h3>
+                    <a href="https://www.bing.com/images/search?q=common+iguana&FORM=pgbar1&mkt=en-gb" target="_self" h="ID=SERP,5024.1">Except maybe its name</a>
+                </div>
+                <div id="hp_pgm1" class="msg" style="width: 390px;">
+                    <h3>These beautiful beings…</h3>
+                    <a href="https://www.bing.com/videos/search?q=green+iguana+epic+journey&form=pgbar2&mkt=en-gb#view=detail&mid=5AF859C01F7D56F92A6B5AF859C01F7D56F92A6B" target="_self" h="ID=SERP,5025.1">Have quite a 'tail' to tell</a>
+                </div>
+                <div id="hp_pgps" class="msg last ps">
+                    <h3>Popular Now</h3>
+                    <ul>
+                        <li><a href="https://www.bing.com/search?q=Missing+plane&FORM=Z9LH7" target="_self" h="ID=SERP,5030.1">Missing plane</a></li>
+                        <li>·<a href="https://www.bing.com/search?q=Luis+Suarez&FORM=Z9LH8" target="_self" h="ID=SERP,5031.1">Luis Suarez</a></li>
+                        <li>·<a href="https://www.bing.com/search?q=US+tornadoes&FORM=Z9LH9" target="_self" h="ID=SERP,5032.1">US tornadoes</a></li>
+                        <li>·<a href="https://www.bing.com/search?q=Ukraine+crisis&FORM=Z9LH10" target="_self" h="ID=SERP,5033.1">Ukraine crisis</a></li>
+                        <li>·<a href="https://www.bing.com/search?q=Premier+League&FORM=Z9LH11" target="_self" h="ID=SERP,5034.1">Premier League</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sb_foot">
+        <ul id="sw_footL">
+            <li><span>© 2014 Microsoft</span> | </li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkId=248686&CLCID=809" h="ID=FD,40.1">Privacy and Cookies</a> | </li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkID=246338&CLCID=809" h="ID=FD,42.1">Legal</a> | </li>
+            <li><a href="http://go.microsoft.com/?linkid=9844319" h="ID=FD,44.1">Advertise</a> | </li>
+            <li><a href="http://go.microsoft.com/fwlink/?LinkID=286759&CLCID=809" target="_blank" h="ID=FD,46.1">About our ads</a> | </li>
+            <li><a href="http://onlinehelp.microsoft.com/en-GB/bing/ff808535.aspx" id="sb_help" target="_blank" h="ID=FD,48.1">Help</a> | </li>
+            <li><a href="javascript:;" id="sb_feedback">Feedback</a></li>
+        </ul>
+    </div>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+    <script type="text/javascript">
+    function GetResults() {
+        console.log("here");
+        var input = document.getElementById('sb_form_q').value;
+        document.getElementById('sb_form').action = "@location";
+        window.location.href = "@location";
+    }
+    </script>
+</body>
+</html>

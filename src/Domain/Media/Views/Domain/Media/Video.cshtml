@@ -1,0 +1,9 @@
+﻿@model Spitfire.Media.Model.Video
+
+@if (Model.Item != null)
+{
+    <video controls muted="@Model.Mute" autoplay="@Model.Autoplay" loop="@Model.Loop" poster="" class="img img-responsive">
+        <source src="@Model.VideoPath" type="@Model.VideoType">
+        <div class="video-error">Your browser does not support the <code>video</code> element.</div>
+    </video>
+}

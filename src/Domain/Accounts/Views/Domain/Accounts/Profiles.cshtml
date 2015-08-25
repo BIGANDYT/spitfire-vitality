@@ -1,0 +1,43 @@
+﻿@using Sitecore.Mvc.Presentation
+@using Spitfire.SitecoreExtensions.Extensions
+@model RenderingModel
+@{
+    var home = Model.PageItem.GetAncestorOfTemplate("home");
+    if (home == null)
+    {
+        return;
+    }
+
+    var colourid = home["theme"];
+    var colouritem = Sitecore.Context.Database.GetItem(colourid);
+    var css = colouritem["css"];
+}
+
+@if (Sitecore.Context.PageMode.IsPageEditor)
+{
+    <div class="color-panel hidden-sm">
+        <div class="color-mode-icons icon-color @css">
+
+        </div>
+        <div class="color-mode-icons icon-color-close @css" style="display: none;"></div>
+        <div class="color-mode @css" style="display: none;">
+            <p>DISABLED IN EXPERIENCE EDITOR</p>
+        </div>
+    </div>
+}
+else
+{
+    <div class="color-panel hidden-sm">
+        <div class="color-mode-icons icon-color @css">
+
+        </div>
+        <div class="color-mode-icons icon-color-close @css" style="display: none;"></div>
+        <div class="color-mode @css" style="display: none; width: 350px;">
+            <p>ANALYTICS PROFILE</p>
+
+            <div id="chartdiv1" style="width: 100%; height: 250px; background-color: #FFFFFF;"></div>
+
+            <div id="chartdiv2" style="width: 100%; height: 250px; background-color: #FFFFFF;"></div>
+        </div>
+    </div>
+}

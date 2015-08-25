@@ -1,0 +1,66 @@
+﻿@using System.Drawing
+@using Spitfire.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Resources.Media
+@model RenderingModel
+@{
+    var images = Model.Item.TargetItems("images");
+    var videos = Model.Item.TargetItems("video");
+
+    if (!images.Any() && !videos.Any())
+    {
+        if (Sitecore.Context.PageMode.IsPageEditor)
+        {
+            <div>No images or videos found.</div>
+        }
+        
+        return;
+    }
+}
+<!-- TABS -->
+<div class="col-md-12 tab-style-1">
+    <ul class="nav nav-tabs">
+        @if (images.Any())
+        {
+            <li class="active"><a href="#tab-1" data-toggle="tab">Images</a></li>
+        }
+        
+        @if (videos.Any())
+        {
+            <li class="@(!images.Any() ? "active" : string.Empty)"><a href="#tab-2" data-toggle="tab">Videos</a></li>
+        }
+    </ul>
+    <div class="tab-content">
+        @if (images.Any())
+        {
+            <div class="tab-pane row fade in active" id="tab-1">
+                @foreach (var image in images)
+                {
+                    <div class="col-md-3 col-sm-4 gallery-item">
+                        <a data-rel="fancybox-button" title="" href="@MediaManager.GetMediaUrl(image)" class="fancybox-button">
+                            <img alt="" src="@MediaManager.GetMediaUrl(image, new MediaUrlOptions(100, 75, false) { AllowStretch = true, BackgroundColor = ColorTranslator.FromHtml("#FAFAFA") })" class="img-responsive" />
+                            <!--<div class="zoomix"><i class="fa fa-search"></i></div>-->
+                        </a>
+                    </div>
+                }
+            </div>
+        }
+
+        @if (videos.Any())
+        {
+            <div class="tab-pane fade" id="tab-2">
+                @foreach (var video in videos)
+                {
+                    <video controls="controls" style="width: 100%; background-color: #fff !important;" >
+                        <source src="@MediaManager.GetMediaUrl(video)" type="video/mp4" />
+                        <p>
+                            Your browser does not support the <code>video</code> element.
+                        </p>
+                    </video>
+                }
+            </div>
+        }
+    </div>
+</div>
+<!-- END TABS -->

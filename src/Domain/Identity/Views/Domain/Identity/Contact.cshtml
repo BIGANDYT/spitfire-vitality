@@ -1,0 +1,28 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Spitfire.Identity
+@using Spitfire.SitecoreExtensions.Extensions
+@model RenderingModel
+@{
+    var identity = Model.PageItem.GetAncestorOfTemplate("home");
+    if (identity == null)
+    {
+        // TODO: Throw an error here? We shouldn't really be here, with a layout at least.
+        return;
+    }
+}
+<!-- BEGIN CONTACT -->
+<h2>Our Contacts</h2>
+<address>
+    <strong>@Html.Sitecore().Field(Templates.Identity.Fields.Company.ToString(), identity)</strong><br />
+    @Html.Sitecore().Field(Templates.Identity.Fields.Address1.ToString(), identity)<br />
+    @Html.Sitecore().Field(Templates.Identity.Fields.Address2.ToString(), identity)<br />
+    @Html.Sitecore().Field(Templates.Identity.Fields.Address3.ToString(), identity)<br />
+    <abbr title="Phone">P:</abbr>&#160;@Html.Sitecore().Field(Templates.Identity.Fields.Phone.ToString(), identity)<br />
+    <abbr title="Fax">F:</abbr>&#160;@Html.Sitecore().Field(Templates.Identity.Fields.Fax.ToString(), identity)<br/>
+</address>
+<address>
+    <strong>Email</strong><br/>
+    @Html.Sitecore().Field("email", identity)
+</address>
+<!-- END CONTACT -->	
