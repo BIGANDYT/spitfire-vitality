@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {FEDC3E28-2559-40F8-A08B-76BC7B42BB61}
+database: master
+path: /sitecore/layout/Renderings/Spitfire/Website/Scaffolding/Presets/TwoColumnRow
+parent: {C5050F8A-10A9-4FC0-ADBD-8CEA4A26E5E1}
+name: TwoColumnRow
+master: {00000000-0000-0000-0000-000000000000}
+template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
+templatekey: View rendering
+
+----field----
+field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
+name: Path
+key: path
+content-length: 51
+
+/Views/Core/Scaffolding/Presets/TwoColumnRow.cshtml
+----field----
+field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
+name: Parameters Template
+key: parameters template
+content-length: 38
+
+{D3D68320-DDFC-4A90-9920-503E6A6DE434}
+----field----
+field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
+name: Open Properties after Add
+key: open properties after add
+content-length: 1
+
+1
+----field----
+field: {E441ABE7-2CA3-4640-AE26-3789967925D7}
+name: Compatible Renderings
+key: compatible renderings
+content-length: 77
+
+{53C4C7C6-98E3-49B8-9FF8-39AC963228C2}|{01B234F0-4EC9-408C-9C5F-2319D1465678}
+----version----
+language: en
+version: 1
+revision: e17fc552-36e4-46f6-9638-23a1b09acc07
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150629T142701Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e17fc552-36e4-46f6-9638-23a1b09acc07
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150630T101044:635712558449558812Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

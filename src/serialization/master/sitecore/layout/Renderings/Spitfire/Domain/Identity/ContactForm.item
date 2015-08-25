@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {AAF224F5-B4EC-4105-9EFE-EA8472F811F5}
+database: master
+path: /sitecore/layout/Renderings/Spitfire/Domain/Identity/ContactForm
+parent: {37CD622A-A236-45E4-B8D0-64589E92C098}
+name: ContactForm
+master: {00000000-0000-0000-0000-000000000000}
+template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
+templatekey: View rendering
+
+----field----
+field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
+name: Path
+key: path
+content-length: 41
+
+/Views/Domain/Identity/ContactForm.cshtml
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 1
+
+0
+----version----
+language: en
+version: 1
+revision: f2b37764-5820-4df7-b8de-05af4808f05c
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150506T173501Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f2b37764-5820-4df7-b8de-05af4808f05c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150825T033355:635760704353912506Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
