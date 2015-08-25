@@ -36,7 +36,7 @@
   <File Include="Views\Core\Components\Text\Testimonial.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{DC3BECB9-4202-4997-B8C2-CB4918F095C5}</Item>
   </File>
-  <File Include="Views\Sites\Spitfire\Default.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+  <File Include="Views\Website\Default.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{ED043C36-CD48-4EDF-A288-EC404EE1CD42}</Item>
   </File>
 </Project>

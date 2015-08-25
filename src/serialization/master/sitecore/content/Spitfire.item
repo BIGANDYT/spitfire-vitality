@@ -7,7 +7,7 @@ parent: {0DE95AE4-41AB-4D01-9EB0-67441B7C2450}
 name: Spitfire
 master: {00000000-0000-0000-0000-000000000000}
 template: {0643D9D4-F30B-4B07-91D0-289CC324C9CF}
-templatekey: SiteRoot
+templatekey: Site Root
 
 ----version----
 language: en

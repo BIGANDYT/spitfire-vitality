@@ -7,41 +7,20 @@ parent: {DAC24EDD-44FB-42EF-9ECD-1E8DAF706386}
 name: News
 master: {00000000-0000-0000-0000-000000000000}
 template: {A99866E5-08E7-44D8-8A52-F8E26BCD3714}
-templatekey: News
+templatekey: News List
 
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{B69277AD-E917-4B9F-9136-A12E0A3E462F}
 ----version----
 language: en
 version: 1
-revision: 76888093-2f85-4900-a819-235eda8a33f4
+revision: e33f48ae-a1b9-4c7b-b483-6b319e810c5c
 
-----field----
-field: {CA0479CE-0BFE-4522-83DE-BA688B380A78}
-name: BrowserTitle
-key: browsertitle
-content-length: 4
-
-News
-----field----
-field: {1B483E91-D8C4-4D19-BA03-462074B55936}
-name: ShortTitle
-key: shorttitle
-content-length: 4
-
-News
-----field----
-field: {C30A013F-3CC8-4961-9837-1C483277084A}
-name: Title
-key: title
-content-length: 4
-
-News
-----field----
-field: {0EE2F208-1FEE-42FC-8051-6696D49A92BF}
-name: OpenGraphTitle
-key: opengraphtitle
-content-length: 4
-
-News
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -69,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-76888093-2f85-4900-a819-235eda8a33f4
+e33f48ae-a1b9-4c7b-b483-6b319e810c5c
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150824T175336Z
+20150825T121522Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

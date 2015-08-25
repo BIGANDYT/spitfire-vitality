@@ -87,6 +87,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="App_Config\Include\Spitfire.Framework.Health.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -98,6 +99,8 @@
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="App_Start\WebApiHandler.cs" />
     <Compile Include="Constants.cs" />
     <Compile Include="Controllers\HealthController.cs" />
     <Compile Include="HealthService.cs" />

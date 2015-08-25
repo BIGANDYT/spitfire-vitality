@@ -7,7 +7,7 @@ parent: {439EC71A-4231-45C8-B075-975BD41099A7}
 name: News article
 master: {00000000-0000-0000-0000-000000000000}
 template: {B69277AD-E917-4B9F-9136-A12E0A3E462F}
-templatekey: News Detail
+templatekey: News Article
 
 ----field----
 field: {C464D2D7-3382-428A-BCDF-0963C60BA0E3}
@@ -19,15 +19,8 @@ content-length: 16
 ----version----
 language: en
 version: 1
-revision: b35d5b17-affd-4ea2-a07c-b00e79457296
+revision: 71ca4f50-a856-4823-a85d-bd645b099ed6
 
-----field----
-field: {CA0479CE-0BFE-4522-83DE-BA688B380A78}
-name: BrowserTitle
-key: browsertitle
-content-length: 12
-
-News article
 ----field----
 field: {AC3FD4DB-8266-476D-9635-67814D91E901}
 name: Summary
@@ -43,13 +36,6 @@ content-length: 45
 
 <p>Hi this is the body of my news article</p>
 ----field----
-field: {1B483E91-D8C4-4D19-BA03-462074B55936}
-name: ShortTitle
-key: shorttitle
-content-length: 12
-
-News article
-----field----
 field: {C30A013F-3CC8-4961-9837-1C483277084A}
 name: Title
 key: title
@@ -57,9 +43,9 @@ content-length: 12
 
 News article
 ----field----
-field: {0EE2F208-1FEE-42FC-8051-6696D49A92BF}
-name: OpenGraphTitle
-key: opengraphtitle
+field: {CA0479CE-0BFE-4522-83DE-BA688B380A78}
+name: BrowserTitle
+key: browsertitle
 content-length: 12
 
 News article
@@ -76,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b35d5b17-affd-4ea2-a07c-b00e79457296
+71ca4f50-a856-4823-a85d-bd645b099ed6
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150824T183301Z
+20150825T113459Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

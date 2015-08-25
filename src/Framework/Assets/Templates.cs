@@ -6,7 +6,6 @@ namespace Spitfire.Framework.Assets
     {
         public struct RenderingAssets
         {
-            public static ID ID => new ID("{7CEAC341-B953-4C69-B907-EE44302BF6AE}");
             public struct Fields
             {
                 public static ID ScriptFiles => new ID("{E514A1EB-DDBA-44F7-8528-82CA2280F778}");
