@@ -1,7 +1,0 @@
-﻿@using Spitfire.SitecoreExtensions.Extensions
-@model Spitfire.Library.Models.Core.Scaffolding.Aside
-<aside d="@Model.Id" class="cta-quote @Model.Rendering.GetStylingParams().CssClass" style="background-image:url('@Model.Rendering.GetStylingParams().BackgroundImageUrl');@Model.Rendering.GetStylingParams().CssStyle">
-    <div class="@Model.Rendering.GetStylingParams().SubCssClass">
-        @Html.Sitecore().DynamicPlaceholder("aside")
-    </div>
-</aside>

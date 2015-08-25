@@ -20,9 +20,9 @@ content-length: 47
 field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
 name: Model
 key: model
-content-length: 67
+content-length: 58
 
-/sitecore/layout/Models/Spitfire/Core/Components/Navigation/LinkBar
+/sitecore/layout/Models/Spitfire/Domain/Navigation/LinkBar
 ----field----
 field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
 name: Parameters Template
@@ -47,7 +47,7 @@ content-length: 54
 ----version----
 language: en
 version: 1
-revision: 33274803-9b3e-4430-9cbf-a5fd54c63f36
+revision: 143d2f2c-610f-4e38-a2bb-49d2834f8751
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -62,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-33274803-9b3e-4430-9cbf-a5fd54c63f36
+143d2f2c-610f-4e38-a2bb-49d2834f8751
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 16
+content-length: 35
 
-20150824T042157Z
+20150825T054841:635760785211702780Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

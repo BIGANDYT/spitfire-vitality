@@ -2,15 +2,16 @@
 @using Sitecore.Data.Items
 @using Sitecore.Mvc
 @using Sitecore.Mvc.Presentation
+@using Spitfire.Navigation
+
 @model RenderingModel
 <div class="sidebar">
-    <ul class="list-group margin-bottom-25 sidebar-menu">
-        @foreach (Item item in Model.Item.Parent.Children
-            .Where(x => x["ShowInSideNavigation"] == "1"))
+    <ul class="list-group sidebar-menu">
+        @foreach (Item item in Model.Item.Parent.Children.Where(x => x[Templates.Navigable.Fields.ShowInNavigation.ToString()] == "1"))
         {
             <li class="list-group-item clearfix @(item.ID == Model.Item.ID ? "active" : string.Empty)">
                 <a href="@item.Url()">
-                    <i class="fa fa-angle-right"></i>@Html.Sitecore().Field("ShortTitle", item)
+                    <i></i>@Html.Sitecore().Field(Templates.Navigable.Fields.NavigationTitle.ToString(), item)
                 </a>
             </li>
         }

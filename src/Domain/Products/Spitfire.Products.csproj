@@ -93,6 +93,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\PublishProfiles\Spitfire.pubxml" />
+    <Content Include="Views\Domain\Products\ProductGallery.cshtml" />
+    <Content Include="Views\Domain\Products\ProductItem.cshtml" />
+    <Content Include="Views\Domain\Products\ProductSpot.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

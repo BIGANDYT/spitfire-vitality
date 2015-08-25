@@ -1,10 +1,7 @@
-﻿using System.Collections.Specialized;
-using System.Linq;
+﻿using System.Collections.Generic;
 
 namespace Spitfire.SitecoreExtensions.Extensions
 {
-    using System.Collections.Generic;
-
     /// <summary>
     /// Extension methods to make life easier
     /// </summary>

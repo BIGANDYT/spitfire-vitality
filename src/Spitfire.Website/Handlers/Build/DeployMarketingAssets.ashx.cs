@@ -17,7 +17,6 @@ namespace Spitfire.Website.Handlers.Build
     using Sitecore.SecurityModel;
     using Sitecore.Workflows;
     using Sitecore.Workflows.Simple;
-    using Spitfire.Library.Constants;
 
     /// <summary>
     /// Deploy the marketing assets from a CI environment

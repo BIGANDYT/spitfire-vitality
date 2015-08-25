@@ -15,7 +15,7 @@ name: __Base template
 key: __base template
 content-length: 116
 
-{DB6DB778-7E05-488E-9A0E-329393F84298}|{CD41BEA5-1054-4860-893D-0F6CAA643800}|{99A1374E-2369-4732-BDF7-4BFC8CF6F0FA}
+{99A1374E-2369-4732-BDF7-4BFC8CF6F0FA}|{DB6DB778-7E05-488E-9A0E-329393F84298}|{CD41BEA5-1054-4860-893D-0F6CAA643800}
 ----field----
 field: {F7D48A55-2158-4F02-9356-756654404F73}
 name: __Standard values
@@ -33,7 +33,7 @@ Network/16x16/news.png
 ----version----
 language: en
 version: 1
-revision: f10bfd35-1005-4a11-a8fc-0d79d41377a0
+revision: 3b6a989b-a828-4967-839b-c765bbda8172
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-f10bfd35-1005-4a11-a8fc-0d79d41377a0
+3b6a989b-a828-4967-839b-c765bbda8172
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 16
+content-length: 35
 
-20150708T115208Z
+20150825T040539:635760723394458535Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

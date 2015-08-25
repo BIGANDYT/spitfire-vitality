@@ -130,38 +130,16 @@
       <HintPath>..\..\packages\Microsoft.AspNet.WebApi.WebHost.5.1.1\lib\net45\System.Web.Http.WebHost.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Web.Mvc, Version=5.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Microsoft.AspNet.Mvc.5.1.1\lib\net45\System.Web.Mvc.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Microsoft.AspNet.Razor.3.1.1\lib\net45\System.Web.Razor.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.3.1.1\lib\net45\System.Web.WebPages.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.3.1.1\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.3.1.1\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Abstractions" />
-    <Reference Include="System.Web.Routing" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
-    <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
     <Reference Include="System.Net.Http">
     </Reference>
@@ -201,6 +179,7 @@
     <Compile Include="Handlers\SessionEnd.ashx.cs">
       <DependentUpon>SessionEnd.ashx</DependentUpon>
     </Compile>
+    <Compile Include="Models\Section.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -342,7 +321,6 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="sitecore modules\shell\Web Forms for Marketers\themes\metronic.css" />
-    <Content Include="Views\Core\Components\Snippets\css\Snippets.css" />
     <Content Include="webedit.css" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
@@ -399,79 +377,20 @@
     <Content Include="Scripts\jquery-2.1.1.js" />
     <Content Include="Scripts\jquery-2.1.1.min.js" />
     <Content Include="Views\Web.config" />
-    <Content Include="Views\Core\Layouts\Inspinia\Inspinia.cshtml" />
-    <Content Include="Views\Core\Layouts\Inspinia\Navigation.cshtml" />
-    <Content Include="Views\Core\Layouts\Inspinia\TopNavbar.cshtml" />
-    <Content Include="Views\Core\Layouts\Inspinia\LogoBar.cshtml" />
-    <Content Include="Views\Core\Scaffolding\row.cshtml" />
-    <Content Include="Views\Core\Scaffolding\col.cshtml" />
-    <Content Include="Views\Core\Layouts\Inspinia\Index.cshtml" />
-    <Content Include="Views\Core\Layouts\Inspinia\OffCanvas.cshtml" />
-    <Content Include="Views\Core\Layouts\Vitality\Vitality.cshtml" />
-    <Content Include="Views\Core\Layouts\Vitality\NavList.cshtml" />
-    <Content Include="Views\Core\Layouts\Vitality\SocialShare.cshtml" />
-    <Content Include="Views\Core\Components\Snippets\OwlCarousel.cshtml" />
-    <Content Include="Views\Core\Components\Text\SectionHeader.cshtml" />
-    <Content Include="Views\Core\Layouts\Vitality\NavBar.cshtml" />
-    <Content Include="Views\Core\Components\Multimedia\VideoBanner.cshtml" />
-    <Content Include="Views\Core\Components\Multimedia\ImageBanner.cshtml" />
-    <Content Include="Views\Core\Scaffolding\section.cshtml" />
-    <Content Include="Views\Core\Components\Snippets\IconTeaser.cshtml" />
-    <Content Include="Views\Core\Scaffolding\aside.cshtml" />
-    <Content Include="Views\Core\Components\Snippets\IconLeftTeaser.cshtml" />
-    <Content Include="Views\Core\Components\Portfolio\SectionPortfolio.cshtml" />
-    <Content Include="Views\Core\Components\Snippets\TeaserGallery.cshtml" />
-    <Content Include="Views\Core\Components\Text\TestimonialsCarousel.cshtml" />
-    <Content Include="Views\Core\Components\Snippets\PromoTeaser.cshtml" />
-    <Content Include="Views\Core\Components\Contact\ContactForm.cshtml" />
-    <Content Include="Views\Core\Layouts\Vitality\Footer.cshtml" />
-    <Content Include="Views\Core\Components\Snippets\ImageText.cshtml" />
-    <Content Include="Views\Core\Components\Multimedia\Video.cshtml" />
-    <Content Include="Views\Core\Components\Social\SocialIcons.cshtml" />
-    <Content Include="Views\Core\Components\Text\BlockQuote.cshtml" />
-    <Content Include="Views\Core\Components\Portfolio\ClientGallery.cshtml" />
-    <Content Include="Views\Core\Components\Portfolio\Clients.cshtml" />
-    <Content Include="Views\Core\Components\Contact\Contact.cshtml" />
-    <Content Include="Views\Core\Components\Fxm\FxmFeatured.cshtml" />
-    <Content Include="Views\Core\Components\Text\ImportantInfo.cshtml" />
-    <Content Include="Views\Core\Components\Overview\ItemList.cshtml" />
-    <Content Include="Views\Core\Components\Contact\Map.cshtml" />
-    <Content Include="Views\Core\Components\News\NewsItem.cshtml" />
-    <Content Include="Views\Core\Components\News\NewsList.cshtml" />
-    <Content Include="Views\Core\Components\Text\PersonalisedBlockQuote.cshtml" />
-    <Content Include="Views\Core\Components\Multimedia\PhotoStream.cshtml" />
-    <Content Include="Views\Core\Components\Product\ProductGallery.cshtml" />
-    <Content Include="Views\Core\Components\Product\ProductItem.cshtml" />
-    <Content Include="Views\Core\Components\Product\ProductSpot.cshtml" />
-    <Content Include="Views\Core\Components\Profiles\Profiles.cshtml" />
-    <Content Include="Views\Core\Components\Overview\RecentItems.cshtml" />
-    <Content Include="Views\Core\Components\Overview\Selection.cshtml" />
-    <Content Include="Views\Core\Components\Meta\Seo.cshtml" />
-    <Content Include="Views\Core\Components\Snippets\ServiceBox.cshtml" />
-    <Content Include="Views\Core\Components\Multimedia\Slider.cshtml" />
-    <Content Include="Views\Core\Components\Snippets\Three-Steps.cshtml" />
-    <Content Include="Views\Core\Components\Containers\Tabs.cshtml" />
-    <Content Include="Views\Core\Components\Text\Testimonials.cshtml" />
-    <Content Include="Views\Core\Components\Profiles\UserProfiles.cshtml" />
-    <Content Include="Views\Core\Components\Multimedia\VideoBanner2.cshtml" />
-    <Content Include="Views\Core\Components\Multimedia\VideoSidebar.cshtml" />
-    <Content Include="Views\Core\Layouts\Metronic\CssColour.cshtml" />
-    <Content Include="Views\Core\Layouts\Metronic\Footer.cshtml" />
-    <Content Include="Views\Core\Layouts\Metronic\Header.cshtml" />
-    <Content Include="Views\Core\Layouts\Metronic\JavaScript.cshtml" />
-    <Content Include="Views\Core\Layouts\Metronic\Main.cshtml" />
-    <Content Include="Views\Core\Layouts\Metronic\TopBar.cshtml" />
-    <Content Include="Views\Core\Scaffolding\Presets\OneColumnRow.cshtml" />
-    <Content Include="Views\Core\Scaffolding\Presets\TwoColumnRow.cshtml" />
-    <Content Include="Views\Core\Scaffolding\Presets\ThreeColumnRow.cshtml" />
-    <Content Include="Views\Core\System\EndSession.cshtml" />
-    <Content Include="Views\Core\Layouts\Search\Google.cshtml" />
-    <Content Include="Views\Core\Layouts\Search\Google search results.cshtml" />
-    <Content Include="Views\Core\Layouts\Search\Bing.cshtml" />
-    <Content Include="Views\Core\Layouts\Search\Bing search results.cshtml" />
-    <Content Include="Views\Core\Components\Text\Testimonial.cshtml" />
-    <Content Include="Views\Core\Components\Snippets\SnippetContainer.cshtml" />
-    <Content Include="Views\Core\Components\Snippets\Step.cshtml" />
+    <Content Include="Views\Website\Scaffolding\row.cshtml" />
+    <Content Include="Views\Website\Scaffolding\col.cshtml" />
+    <Content Include="Views\Website\Scaffolding\section.cshtml" />
+    <Content Include="Views\Website\Scaffolding\aside.cshtml" />
+    <Content Include="Views\Website\Layouts\CssColour.cshtml" />
+    <Content Include="Views\Website\Layouts\Footer.cshtml" />
+    <Content Include="Views\Website\Layouts\Header.cshtml" />
+    <Content Include="Views\Website\Layouts\JavaScript.cshtml" />
+    <Content Include="Views\Website\Layouts\Main.cshtml" />
+    <Content Include="Views\Website\Layouts\TopBar.cshtml" />
+    <Content Include="Views\Website\Scaffolding\Presets\OneColumnRow.cshtml" />
+    <Content Include="Views\Website\Scaffolding\Presets\TwoColumnRow.cshtml" />
+    <Content Include="Views\Website\Scaffolding\Presets\ThreeColumnRow.cshtml" />
+    <Content Include="Views\Website\Layouts\SnippetContainer.cshtml" />
     <Content Include="Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -492,10 +411,6 @@
     <ProjectReference Include="..\Framework\Health\Spitfire.Framework.Health.csproj">
       <Project>{79f65d70-77e8-47d2-b999-883ded55ca9e}</Project>
       <Name>Spitfire.Framework.Health</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Spitfire.Library\Spitfire.Library.csproj">
-      <Project>{3ce5c5a8-c7b1-4d88-b487-6a3bed1891df}</Project>
-      <Name>Spitfire.Library</Name>
     </ProjectReference>
     <ProjectReference Include="..\Spitfire.SitecoreExtensions\Spitfire.SitecoreExtensions.csproj">
       <Project>{b535703f-8d07-4f23-a533-2974bb4cc7b1}</Project>

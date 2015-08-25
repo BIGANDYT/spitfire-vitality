@@ -14,7 +14,7 @@ namespace Spitfire.Framework.Assets.Models
             this.Cacheable = true;
         }
 
-        public event DataLengthChangedDelegate DataLengthChanged;
+        public event DataLengthChangedDelegate DataLengthChanged { add { } remove {} }
         public bool Cacheable { get; set; }
 
         public bool Immutable => true;

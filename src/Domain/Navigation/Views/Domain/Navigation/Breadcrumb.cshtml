@@ -1,6 +1,8 @@
-﻿@using Spitfire.SitecoreExtensions.Extensions
-@using Sitecore.Mvc
+﻿@using Sitecore.Mvc
 @using Sitecore.Mvc.Presentation
+@using Spitfire.Navigation
+@using Spitfire.SitecoreExtensions.Extensions
+
 @model RenderingModel
 @{
     var items = Model.Item.Axes.SelectItems("ancestor-or-self::*")
@@ -19,7 +21,7 @@
             {
                 @:<a href="@bcItem.Value.Url()">
                 }
-            @Html.Sitecore().Field("ShortTitle", bcItem.Value)
+            @Html.Sitecore().Field(Templates.Navigable.Fields.NavigationTitle.ToString(), bcItem.Value)
             @if (!bcItem.IsLast)
             {
                 @:</a>
