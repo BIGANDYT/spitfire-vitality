@@ -63,6 +63,12 @@ IF "%ERRORLEVEL%" NEQ "0" (
 	exit /B %ERRORLEVEL%
 )
 
+%msbuild% ..\src\Domain\Identity\Spitfire.Identity.csproj %DeployParameters%
+IF "%ERRORLEVEL%" NEQ "0" (
+	echo Build of Domain.Identity project failed
+	exit /B %ERRORLEVEL%
+)
+
 %msbuild% ..\src\Domain\Metadata\Spitfire.Metadata.csproj %DeployParameters%
 IF "%ERRORLEVEL%" NEQ "0" (
 	echo Build of Domain.Metadata project failed

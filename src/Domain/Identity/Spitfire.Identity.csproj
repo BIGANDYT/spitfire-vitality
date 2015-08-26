@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{2BBD157C-AD28-4055-A208-48A2DA93BD04}</ProjectGuid>
+    <ProjectGuid>{0D0B809C-03AB-4EE1-898F-CFE28CF5B245}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Spitfire.Metadata</RootNamespace>
-    <AssemblyName>Spitfire.Metadata</AssemblyName>
+    <RootNamespace>Spitfire.Identity</RootNamespace>
+    <AssemblyName>Spitfire.Identity</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -102,8 +102,8 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\Spitfire.pubxml" />
-    <None Include="Views\Web.config" />
-    <Content Include="Views\Domain\Metadata\PageMetadata.cshtml" />
+    <Content Include="Views\Identity\Logo.cshtml" />
+    <Content Include="Views\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -115,7 +115,7 @@
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SiteMetadataService.cs" />
+    <Compile Include="IdentityService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Templates.cs" />
   </ItemGroup>
@@ -138,9 +138,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>55953</DevelopmentServerPort>
+          <DevelopmentServerPort>59901</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:55953/</IISUrl>
+          <IISUrl>http://localhost:59901/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

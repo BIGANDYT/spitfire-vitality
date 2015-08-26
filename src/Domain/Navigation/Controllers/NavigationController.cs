@@ -18,19 +18,19 @@
         public ActionResult Breadcrumb()
         {
             var items = navigationService.GetBreadcrumb();
-            return this.View("Breadcrumb", items);
+            return View("Breadcrumb", items);
         }
 
         public ActionResult PrimaryMenu()
         {
             var items = navigationService.GetPrimaryMenu();
-            return this.View("PrimaryMenu", items);
+            return View("PrimaryMenu", items);
         }
 
         public ActionResult SecondaryMenu()
         {
             var items = navigationService.GetSecondaryMenu();
-            return this.View("SecondaryMenu", items);
+            return View("SecondaryMenu", items);
         }
     }
 }

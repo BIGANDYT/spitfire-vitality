@@ -1,0 +1,11 @@
+﻿@using Spitfire.Identity
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+@{
+    var identity = IdentityService.GetIdentity(Model.Item);
+    if (identity == null)
+    {
+        return;
+    }
+}
+<div class="logo">@Html.Sitecore().Field(Templates.Identity.Fields.Logo.ToString(), identity)</div>
