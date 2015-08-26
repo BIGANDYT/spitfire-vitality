@@ -1,28 +1,35 @@
 ﻿namespace Spitfire.Navigation.Controllers
 {
     using System.Web.Mvc;
-    using Spitfire.Navigation.Models;
 
     public class NavigationController : Controller
     {
+        private readonly INavigationService navigationService;
+
+        public NavigationController() : this(new NavigationService())
+        {
+        }
+
+        public NavigationController(INavigationService navigationService)
+        {
+            this.navigationService = navigationService;
+        }
+
         public ActionResult Breadcrumb()
         {
-            //TODO: Find _NavigationRoot and return the correct NavigationItems
-            var items = new NavigationItems();
+            var items = navigationService.GetBreadcrumb();
             return this.View("Breadcrumb", items);
         }
 
         public ActionResult PrimaryMenu()
         {
-            //TODO: Find _NavigationRoot and return the correct NavigationItems
-            var items = new NavigationItems();
+            var items = navigationService.GetPrimaryMenu();
             return this.View("PrimaryMenu", items);
         }
 
         public ActionResult SecondaryMenu()
         {
-            //TODO: Find _NavigationRoot and return the correct NavigationItems
-            var items = new NavigationItems();
+            var items = navigationService.GetSecondaryMenu();
             return this.View("SecondaryMenu", items);
         }
     }
