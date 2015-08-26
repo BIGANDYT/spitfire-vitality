@@ -20,13 +20,18 @@ content-length: 38
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 254
+content-length: 336
 
-<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{ED043C36-CD48-4EDF-A288-EC404EE1CD42}"><r id="{6D309FC1-D6B1-43B1-A31C-1FECB7B9303F}" ph="content" uid="{7B4FE579-EA4E-43F5-9995-806097BFB4D7}" /></d></r>
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{ED043C36-CD48-4EDF-A288-EC404EE1CD42}">
+    <r id="{6D309FC1-D6B1-43B1-A31C-1FECB7B9303F}" ph="content" uid="{7B4FE579-EA4E-43F5-9995-806097BFB4D7}" />
+    <r id="{A47C8288-7D4C-45FF-B75F-4AEDBF58A02D}" ph="header" uid="{83702044-49A5-4CFF-9DAE-2E70052A393A}" />
+  </d>
+</r>
 ----version----
 language: en
 version: 1
-revision: 1d0fd362-2768-4b0c-a22e-6dbb42e29d71
+revision: e11b0768-e71d-4feb-a34c-9268dfa2c960
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -55,14 +60,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1d0fd362-2768-4b0c-a22e-6dbb42e29d71
+e11b0768-e71d-4feb-a34c-9268dfa2c960
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150826T065751Z
+20150826T114322Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

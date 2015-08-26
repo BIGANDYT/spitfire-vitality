@@ -9,11 +9,32 @@ master: {00000000-0000-0000-0000-000000000000}
 template: {0643D9D4-F30B-4B07-91D0-289CC324C9CF}
 templatekey: Site Root
 
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{4A8822CC-B418-4452-AB0F-8BB6DF2F2114}
 ----version----
 language: en
 version: 1
-revision: abbdc295-5e67-4f88-b01a-fb3845c04ae7
+revision: eb57fd6f-cf57-434a-bb49-d124b451dcc3
 
+----field----
+field: {E748D808-64C1-4DEC-9718-F35CF9689E4B}
+name: Logo
+key: logo
+content-length: 211
+
+<image mediapath="/Default Website/sc_logo" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Default Website/sc_logo" mediaid="{094AED03-02E7-4868-80CB-19926661FB77}" />
+----field----
+field: {235AE392-97AC-4822-BE38-837DA3E7724E}
+name: SiteBrowserTitle
+key: sitebrowsertitle
+content-length: 29
+
+ - Habitat Sitecore Framework
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -27,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-abbdc295-5e67-4f88-b01a-fb3845c04ae7
+eb57fd6f-cf57-434a-bb49-d124b451dcc3
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150824T171748Z
+20150826T115417Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

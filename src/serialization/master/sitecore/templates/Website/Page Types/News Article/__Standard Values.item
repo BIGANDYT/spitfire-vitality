@@ -13,10 +13,11 @@ templatekey: News Article
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 563
+content-length: 675
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{ED043C36-CD48-4EDF-A288-EC404EE1CD42}">
+    <r id="{A47C8288-7D4C-45FF-B75F-4AEDBF58A02D}" ph="header" uid="{B675566E-C25C-4054-92AC-713DC0589843}" />
     <r id="{45B8E1D9-D522-49E0-B9B7-04C965CC7089}" ph="content" uid="{B319F6DC-5AC1-4CB5-A495-F27A15FCE34D}" />
     <r id="{359A65BB-0A2C-44E5-8C34-DF3ACDBB42A7}" ph="content" uid="{CAE68E25-7F74-4DB0-ABCA-784DB4B3F7C0}" />
     <r id="{F366176E-2C2B-4AF2-B356-BCF8BD657C58}" ph="content" uid="{F10CD2BE-F260-4185-91FC-1E1360847E28}" />
@@ -26,7 +27,7 @@ content-length: 563
 ----version----
 language: en
 version: 1
-revision: 7c8acb63-fbb0-4d76-b103-088f76aa8cfd
+revision: 763d186d-d2e2-49e8-95fa-6e2c04bd4806
 
 ----field----
 field: {C30A013F-3CC8-4961-9837-1C483277084A}
@@ -42,13 +43,6 @@ key: browsertitle
 content-length: 5
 
 $name
-----field----
-field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
-name: __Owner
-key: __owner
-content-length: 14
-
-sitecore\admin
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -69,14 +63,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-7c8acb63-fbb0-4d76-b103-088f76aa8cfd
+763d186d-d2e2-49e8-95fa-6e2c04bd4806
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150825T123924Z
+20150826T114426Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

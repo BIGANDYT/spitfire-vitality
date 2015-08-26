@@ -102,7 +102,7 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\Spitfire.pubxml" />
-    <Content Include="Views\Navigation\Logo.cshtml" />
+    <Content Include="Views\Identity\Logo.cshtml" />
     <Content Include="Views\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

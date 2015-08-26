@@ -11,27 +11,27 @@ namespace Spitfire.Identity
 {
     public class IdentityService
     {
-        public Item GetIdentity(Item item)
+        public static Item GetIdentity(Item item)
         {
             if (item == null)
                 throw new ArgumentNullException(nameof(item));
 
-            var identityItem = this.GetIdentityFromItem(item);
+            var identityItem = GetIdentityFromItem(item);
             if (identityItem != null)
                 return identityItem;
 
-            if (this.GetIdentityFromContextSite(out identityItem))
+            if (GetIdentityFromContextSite(out identityItem))
                 return identityItem;
 
             return null;
         }
 
-        public Item GetIdentity()
+        public static Item GetIdentity()
         {
-            return this.GetIdentity(Sitecore.Context.Item);
+            return GetIdentity(Sitecore.Context.Item);
         }
 
-        private bool GetIdentityFromContextSite(out Item identityItem)
+        private static bool GetIdentityFromContextSite(out Item identityItem)
         {
             identityItem = null;
             if (Sitecore.Context.Site == null)
@@ -40,11 +40,11 @@ namespace Spitfire.Identity
             var startItem = Sitecore.Context.Site.Database.GetItem(Sitecore.Context.Site.StartPath);
             if (startItem == null)
                 return false;
-            identityItem = this.GetIdentityFromItem(startItem);
+            identityItem = GetIdentityFromItem(startItem);
             return identityItem != null;
         }
 
-        private Item GetIdentityFromItem(Item contextItem)
+        private static Item GetIdentityFromItem(Item contextItem)
         {
             if (contextItem == null)
                 throw new ArgumentNullException(nameof(contextItem));
