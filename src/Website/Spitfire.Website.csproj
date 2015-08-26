@@ -188,6 +188,7 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="App_Config\Include\Spitfire.DevSettings.config" />
+    <Content Include="App_Config\Include\Spitfire.DevSettings.config.sample" />
     <None Include="Properties\PublishProfiles\Spitfire.pubxml" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
