@@ -22,10 +22,10 @@ namespace Spitfire.Framework.Assets
         /// Renders the JavaScript requirements to the page
         /// </summary>
         /// <returns>The rendered JavaScript code</returns>
-        public HtmlString RenderScript()
+        public HtmlString RenderScript(ScriptLocation location = ScriptLocation.Head)
         {
             var sb = new StringBuilder();
-            foreach (var item in AssetRepository.Current.Items.Where(x => x.Type == AssetType.JavaScript && x.File != null))
+            foreach (var item in AssetRepository.Current.Items.Where(x => x.Type == AssetType.JavaScript && x.File != null && x.Location == location))
             {
                 sb.AppendFormat("<script src=\"{0}\"></script>", item.File).AppendLine();
             }
@@ -34,7 +34,7 @@ namespace Spitfire.Framework.Assets
             {
                 sb.AppendLine("<script>\njQuery2(document).ready(function() {");
 
-                foreach (var item in AssetRepository.Current.Items.Where(x => x.Type == AssetType.JavaScript && x.Inline != null))
+                foreach (var item in AssetRepository.Current.Items.Where(x => x.Type == AssetType.JavaScript && x.Inline != null && x.Location == location))
                 {
                     sb.AppendLine(item.Inline);
                 }

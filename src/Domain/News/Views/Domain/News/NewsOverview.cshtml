@@ -1,28 +1,28 @@
 ﻿@using Sitecore.Data.Items
 @using Sitecore.Mvc
 @using Sitecore.Mvc.Presentation
+@using Spitfire.Framework.SitecoreExtensions.Extensions
+@using Spitfire.News
 @using Spitfire.SitecoreExtensions.Extensions
 @model RenderingModel
-@foreach (Item item in Model.Item.Children.OrderByDescending(x => x["date"]))
-{
-    <div class="row">
-        <div class="col-md-8 col-sm-8">
+<ul>
+    @foreach (Item item in Model.Item.Children.OrderByDescending(x => x[Templates.NewsArticle.Fields.Date]))
+    {
+        <li class="news">
             <h2>
-                <a href="@item.Url()">@Html.Sitecore().Field("title", item)</a>
+                <a href="@item.Url()">@Html.Sitecore().Field(Spitfire.StandardContent.Templates.HasTitle.Fields.Title.ToString(), item)</a>
             </h2>
-            <ul>
-                <li><i class="fa fa-calendar"></i>&#160;@Html.Sitecore().Field("date", item, new { format = "MMMM dd, yyyy" })</li>
-                <li><i class="fa fa-comments"></i> 17</li>
-            </ul>
+            <div class="date">
+                @Html.Sitecore().Field(Templates.NewsArticle.Fields.Date.ToString(), item, new { format = "MMMM dd, yyyy" })
+            </div>
             <p>
-                @Html.Sitecore().Field("summary", item)
+                @Html.Sitecore().Field(Spitfire.StandardContent.Templates.HasSummary.Fields.Summary.ToString(), item)
             </p>
-            <a href="@item.Url()" class="more">Read more <i class="icon-angle-right"></i></a>
-        </div>
+            <a href="@item.Url()" class="more">Read more</a>
 
-        <div class="col-md-4 col-sm-4">
-            @Html.Sitecore().Field("Image", item, new { mw = 260, mh = 201, @as = 1 })
-        </div>
-    </div>
-    <hr />
-}
+            <div class="image">
+                @Html.Sitecore().Field(Spitfire.StandardContent.Templates.HasImage.Fields.Image.ToString(), item, new { mw = 260, mh = 201, @as = 1 })
+            </div>
+        </li>
+    }
+</ul>

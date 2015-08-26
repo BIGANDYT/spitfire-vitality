@@ -1,24 +1,19 @@
-﻿namespace Spitfire.Framework.BuildProcess.Handlers
+﻿using System.Web;
+using Sitecore;
+using Sitecore.Collections;
+using Sitecore.Configuration;
+using Sitecore.Data;
+using Sitecore.Data.Items;
+using Sitecore.Data.Managers;
+using Sitecore.Diagnostics;
+using Sitecore.Globalization;
+using Sitecore.Pipelines;
+using Sitecore.Security.Accounts;
+using Sitecore.SecurityModel;
+using Sitecore.Workflows.Simple;
+
+namespace Spitfire.Framework.BuildProcess.Handlers
 {
-    using System.Web;
-
-    using Sitecore;
-    using Sitecore.Configuration;
-    using Sitecore.Data;
-    using Sitecore.Data.Items;
-    using Sitecore.Data.Managers;
-    using Sitecore.Diagnostics;
-    using Sitecore.Diagnostics.PerformanceCounters;
-    using Sitecore.Globalization;
-    using Sitecore.Pipelines;
-    using Sitecore.Security.Accounts;
-    using Sitecore.SecurityModel;
-    using Sitecore.Workflows;
-    using Sitecore.Workflows.Simple;
-
-    using ItemIDs = Spitfire.Framework.BuildProcess.ItemIDs;
-    using TemplateIDs = Spitfire.Framework.BuildProcess.TemplateIDs;
-
     /// <summary>
     /// Deploy the marketing assets from a CI environment
     /// </summary>
@@ -44,6 +39,11 @@
                 this.DeploySegments();
             }
         }
+
+        /// <summary>
+        /// Required sillyness because of generic handler
+        /// </summary>
+        public bool IsReusable => false;
 
         /// <summary>
         /// Select all items based on the Goal and Page Event templates and run them through workflow
@@ -108,8 +108,8 @@
         /// <param name="workflowStateId">The ID of the workflow state</param>
         public void MoveToStateAndExecuteActions(Item item, ID workflowStateId)
         {
-            IWorkflowProvider workflowProvider = item.Database.WorkflowProvider;
-            IWorkflow workflow = workflowProvider.GetWorkflow(item);
+            var workflowProvider = item.Database.WorkflowProvider;
+            var workflow = workflowProvider.GetWorkflow(item);
 
             // if item is in any workflow
             if (workflow != null)
@@ -126,27 +126,8 @@
                 if (!stateItem.HasChildren)
                     return;
 
-                // TODO: Obsolete constructor
-                var workflowPipelineArgs = new WorkflowPipelineArgs(item, string.Empty, null);
-
-                // start executing the actions
-                Pipeline pipeline = Pipeline.Start(stateItem, workflowPipelineArgs);
-                if (pipeline == null)
-                    return;
-
-                // TODO: Obsolete class
-                WorkflowCounters.ActionsExecuted.IncrementBy(pipeline.Processors.Count);
-            }
-        }
-
-        /// <summary>
-        /// Required sillyness because of generic handler
-        /// </summary>
-        public bool IsReusable
-        {
-            get
-            {
-                return false;
+                var workflowPipelineArgs = new WorkflowPipelineArgs(item, new StringDictionary(), null);
+                Pipeline.Start(stateItem, workflowPipelineArgs);
             }
         }
     }

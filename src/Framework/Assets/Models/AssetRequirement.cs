@@ -2,13 +2,16 @@ namespace Spitfire.Framework.Assets.Models
 {
     internal class AssetRequirement
     {
-        public AssetRequirement(AssetType type, string file, string inline = null, string addOnceToken = null)
+        public AssetRequirement(AssetType type, string file, ScriptLocation location = ScriptLocation.Head, string inline = null, string addOnceToken = null)
         {
-            Type = type;
-            File = file;
-            Inline = inline;
-            AddOnceToken = addOnceToken;
+            this.Type = type;
+            this.File = file;
+            this.Location = location;
+            this.Inline = inline;
+            this.AddOnceToken = addOnceToken;
         }
+
+        public ScriptLocation Location { get; set; }
 
         public string File { get; set; }
 
@@ -22,19 +25,19 @@ namespace Spitfire.Framework.Assets.Models
         {
             var total = 0L;
 
-            if (File != null)
+            if (this.File != null)
             {
-                total += File.Length;
+                total += this.File.Length;
             }
 
-            if (Inline != null)
+            if (this.Inline != null)
             {
-                total += Inline.Length;
+                total += this.Inline.Length;
             }
 
-            if (AddOnceToken != null)
+            if (this.AddOnceToken != null)
             {
-                total += AddOnceToken.Length;
+                total += this.AddOnceToken.Length;
             }
 
             return total;

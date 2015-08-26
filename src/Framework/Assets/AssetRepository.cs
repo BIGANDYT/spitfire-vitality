@@ -24,21 +24,21 @@ namespace Spitfire.Framework.Assets
         public static AssetRepository Current => _current ?? (_current = new AssetRepository());
 
         /// <summary>The requirements which have been found in renderings executed on this page request</summary>
-        internal IEnumerable<AssetRequirement> Items => items;
+        internal IEnumerable<AssetRequirement> Items => this.items;
 
         internal void Add(AssetRequirement requirement, bool preventAddToCache = false)
         {
             // If this code block should only be added once per page, check that now.
             if (requirement.AddOnceToken != null)
             {
-                if (items.Any(x => x.AddOnceToken != null && x.AddOnceToken == requirement.AddOnceToken))
+                if (this.items.Any(x => x.AddOnceToken != null && x.AddOnceToken == requirement.AddOnceToken))
                     return;
             }
 
             // If requirement is a file, check it hasn't been added already.
             if (requirement.File != null)
             {
-                if (items.Any(x => x.File != null && x.File == requirement.File))
+                if (this.items.Any(x => x.File != null && x.File == requirement.File))
                     return;
             }
 
@@ -57,9 +57,9 @@ namespace Spitfire.Framework.Assets
 
                         // Check if this is the first time we've seen this rendering during this page request
                         // If so, start from fresh with a new list of requirements
-                        if (!seenRenderings.Contains(renderingId))
+                        if (!this.seenRenderings.Contains(renderingId))
                         {
-                            seenRenderings.Add(renderingId);
+                            this.seenRenderings.Add(renderingId);
                             cachedRequirements = new AssetRequirementList();
                         }
                         else
@@ -72,7 +72,7 @@ namespace Spitfire.Framework.Assets
             }
 
             // Passed the checks, add the requirement.
-            items.Add(requirement);
+            this.items.Add(requirement);
         }
 
         /// <summary>Add requirements which would otherwise have been missed because of rendering caching</summary>
@@ -81,7 +81,7 @@ namespace Spitfire.Framework.Assets
         {
             // Check if rendering has already been executed in this page request
             // and if so, no need to add it again.
-            if (seenRenderings.Contains(renderingID))
+            if (this.seenRenderings.Contains(renderingID))
                 return;
 
             var list = Cache.Get(renderingID);
@@ -89,7 +89,7 @@ namespace Spitfire.Framework.Assets
             if (list != null)
             {
                 foreach (var requirement in list)
-                    Add(requirement, true);
+                    this.Add(requirement, true);
             }
         }
 
@@ -98,15 +98,15 @@ namespace Spitfire.Framework.Assets
         /// </summary>
         public void AddScript(string file, bool preventAddToCache = false)
         {
-            Add(new AssetRequirement(AssetType.JavaScript, file), preventAddToCache);
+            this.Add(new AssetRequirement(AssetType.JavaScript, file), preventAddToCache);
         }
 
         /// <summary>
         ///     Adds inline script to the list of assets on the page
         /// </summary>
-        public void AddScript(string script, string addOnceToken, bool preventAddToCache = false)
+        public void AddScript(string script, string addOnceToken, ScriptLocation location, bool preventAddToCache = false)
         {
-            Add(new AssetRequirement(AssetType.JavaScript, null, script, script.GetHashCode().ToString()), preventAddToCache);
+            this.Add(new AssetRequirement(AssetType.JavaScript, null, location, script, script.GetHashCode().ToString()), preventAddToCache);
         }
 
         /// <summary>
@@ -114,7 +114,7 @@ namespace Spitfire.Framework.Assets
         /// </summary>
         public void AddStyling(string file, bool preventAddToCache = false)
         {
-            Add(new AssetRequirement(AssetType.Css, file), preventAddToCache);
+            this.Add(new AssetRequirement(AssetType.Css, file), preventAddToCache);
         }
 
         /// <summary>
@@ -122,7 +122,7 @@ namespace Spitfire.Framework.Assets
         /// </summary>
         public void AddStyling(string styling, string addOnceToken, bool preventAddToCache = false)
         {
-            Add(new AssetRequirement(AssetType.Css, null, styling, styling.GetHashCode().ToString()), preventAddToCache);
+            this.Add(new AssetRequirement(AssetType.Css, null, ScriptLocation.Head, styling, styling.GetHashCode().ToString()), preventAddToCache);
         }
     }
 }
