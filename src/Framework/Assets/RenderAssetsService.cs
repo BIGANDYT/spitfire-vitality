@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Web;
-using Spitfire.Framework.Assets.Models;
-
-namespace Spitfire.Framework.Assets
+﻿namespace Spitfire.Framework.Assets
 {
+    using System.Linq;
+    using System.Text;
+    using System.Web;
+    using Spitfire.Framework.Assets.Models;
+
     /// <summary>
     /// A service which helps add the required JavaScript at the end of a page, and CSS at the top of a page.
     /// In component based architecture it ensures references and inline scripts are only added once.

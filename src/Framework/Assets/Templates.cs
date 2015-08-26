@@ -1,7 +1,7 @@
-﻿using Sitecore.Data;
-
-namespace Spitfire.Framework.Assets
+﻿namespace Spitfire.Framework.Assets
 {
+    using Sitecore.Data;
+
     public struct Templates
     {
         public struct RenderingAssets
@@ -16,9 +16,11 @@ namespace Spitfire.Framework.Assets
                 public static ID InlineStyling => new ID("{FD0DEC96-B220-4196-B544-68B11EEE727A}");
             }
         }
+
         public struct PageAssets
         {
             public static ID ID => new ID("{91962B60-25F6-428F-8D10-02AA1E49D6A5}");
+
             public struct Fields
             {
                 public static ID JavascriptCodeTop => new ID("{D79D9DDD-2774-42F4-94C3-50C892F6E13D}");
