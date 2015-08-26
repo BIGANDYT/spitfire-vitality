@@ -13,10 +13,11 @@ templatekey: News Article
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 787
+content-length: 897
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{ED043C36-CD48-4EDF-A288-EC404EE1CD42}">
+    <r id="{E7AE3F87-CF66-40F2-A9F5-33ECF08BC777}" ph="head" uid="{05021F74-1906-464C-85E6-DD8838CAC06A}" />
     <r id="{A47C8288-7D4C-45FF-B75F-4AEDBF58A02D}" ph="header" uid="{B675566E-C25C-4054-92AC-713DC0589843}" />
     <r id="{E6BA23C6-08F7-43D0-BE00-BB2129D6F288}" ph="header" uid="{806BE442-0A7B-4CAF-A418-2740C79D8B18}" />
     <r id="{45B8E1D9-D522-49E0-B9B7-04C965CC7089}" ph="content" uid="{B319F6DC-5AC1-4CB5-A495-F27A15FCE34D}" />
@@ -28,7 +29,7 @@ content-length: 787
 ----version----
 language: en
 version: 1
-revision: 0cca51e9-2b37-4a06-a353-b1f8956f2e54
+revision: 880d550a-30a3-442b-94b1-81a8b2ea3237
 
 ----field----
 field: {C30A013F-3CC8-4961-9837-1C483277084A}
@@ -64,14 +65,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-0cca51e9-2b37-4a06-a353-b1f8956f2e54
+880d550a-30a3-442b-94b1-81a8b2ea3237
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150826T123213Z
+20150826T125623Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
