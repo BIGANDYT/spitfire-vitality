@@ -51,11 +51,12 @@ namespace Spitfire.Framework.SitecoreExtensions.Extensions
             return mf == null ? new Item[0] : mf.GetItems();
         }
 
-        public static Item GetAncestorOfTemplate(this Item item, ID templateID)
+        public static Item GetAncestorOrSelfOfTemplate(this Item item, ID templateID)
         {
             if (item == null)
                 throw new ArgumentNullException(nameof(item));
-
+            if (item.TemplateID == templateID)
+                return item;
             return item.Axes.GetAncestors().FirstOrDefault(i => i.IsDerived(templateID));
         }
 
