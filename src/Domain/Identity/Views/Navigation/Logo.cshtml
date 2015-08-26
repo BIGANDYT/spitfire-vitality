@@ -1,2 +1,3 @@
-﻿@model Sitecore.Mvc.Presentation.RenderingModel
-<div>Logo</div>
+﻿@using Spitfire.Identity
+@model Sitecore.Mvc.Presentation.RenderingModel
+<div class="logo">@Html.Sitecore().Field(Templates.Identity.Fields.Logo.ToString(), Model.Item)</div>

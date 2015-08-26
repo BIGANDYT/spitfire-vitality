@@ -1,33 +1,26 @@
 ----item----
 version: 1
-id: {DAC24EDD-44FB-42EF-9ECD-1E8DAF706386}
+id: {93D8EE88-17AA-4B94-9F58-448D6C3DDBB7}
 database: master
-path: /sitecore/content/Spitfire/Home
-parent: {725A45E3-E307-4B95-B363-2782B059DF06}
-name: Home
+path: /sitecore/templates/Domain/Identity
+parent: {8F343079-3CC5-4EF7-BC27-32ADDB46F45E}
+name: Identity
 master: {00000000-0000-0000-0000-000000000000}
-template: {4A8822CC-B418-4452-AB0F-8BB6DF2F2114}
-templatekey: Home
+template: {0437FEE2-44C9-46A6-ABE9-28858D9FEE8C}
+templatekey: Template Folder
 
 ----version----
 language: en
 version: 1
-revision: 16fc9611-05ea-4ec6-897b-3b037348e291
+revision: 0df63a62-6532-45be-8376-edc194ec231f
 
-----field----
-field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
-name: __Owner
-key: __owner
-content-length: 14
-
-sitecore\admin
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20150823T123346Z
+20150826T104449Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -41,14 +34,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-16fc9611-05ea-4ec6-897b-3b037348e291
+0df63a62-6532-45be-8376-edc194ec231f
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150826T113129Z
+20150826T104453Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
