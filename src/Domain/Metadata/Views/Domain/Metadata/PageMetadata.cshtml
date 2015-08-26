@@ -1,1 +1,5 @@
-﻿@model Sitecore.Mvc.Presentation.RenderingModel
+﻿@using Spitfire.Metadata
+@model Sitecore.Mvc.Presentation.RenderingModel
+@*TODO: Fall back to Title / DisplayName etc*@
+@*TODO: Use Global Browser Title here from home item. Logic in Controller rendering?*@
+<title>@Html.Sitecore().Field(Templates.PageMetadata.Fields.BrowserTitle.ToString())</title>

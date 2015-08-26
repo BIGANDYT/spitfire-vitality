@@ -1,7 +1,7 @@
-﻿using Sitecore.Data;
-
-namespace Spitfire.Metadata
+﻿namespace Spitfire.Metadata
 {
+    using Sitecore.Data;
+
     public struct Templates
     {
         public struct PageMetadata

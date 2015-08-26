@@ -1,17 +1,25 @@
-﻿@using Spitfire.Framework.Assets
+﻿<!DOCTYPE html>
+@using Spitfire.Framework.Assets
 @using Spitfire.Framework.Assets.Models
-<!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title></title>
+
+    @Html.Sitecore().Placeholder("head")
+
     <!-- Latest compiled and minified JavaScript -->
     @RenderAssetsService.Current.RenderScript()
     @RenderAssetsService.Current.RenderStyles()
 </head>
 <body>
     <div class="container">
+        @Html.Sitecore().Placeholder("header")
+    </div>
+    <div class="container">
         @Html.Sitecore().Placeholder("content")
+    </div>
+    <div class="footer">
+        @Html.Sitecore().Placeholder("footer")
     </div>
     @RenderAssetsService.Current.RenderScript(ScriptLocation.Body)
 </body>
