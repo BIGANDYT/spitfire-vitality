@@ -36,4 +36,13 @@
   <File Include="Views\Core\Components\Text\Testimonial.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{DC3BECB9-4202-4997-B8C2-CB4918F095C5}</Item>
   </File>
+  <File Include="Views\Components\Site\Header.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{F834469E-0761-417D-A8C1-93647DED44EE}</Item>
+  </File>
+  <File Include="Views\Components\Site\Footer.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{3A59EEF7-1C46-48D7-9720-4DCA1C654147}</Item>
+  </File>
+  <File Include="Views\Components\Media\RevoSlider.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{18CD5A9F-343B-4D57-A72C-FC5207AE0B81}</Item>
+  </File>
 </Project>
