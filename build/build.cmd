@@ -93,13 +93,7 @@ IF "%ERRORLEVEL%" NEQ "0" (
 	exit /B %ERRORLEVEL%
 )
 
-%msbuild% ..\src\Website\Spitfire.Website.csproj %DeployParameters%
-IF "%ERRORLEVEL%" NEQ "0" (
-	echo Build of Website project failed
-	exit /B %ERRORLEVEL%
-)
-
-SET DevSettings=%InstanceDirectory%\%sitename%\Website\App_Config\Include\Spitfire.DevSettings.config
+SET DevSettings=%SourceDirectory%\src\Website\App_Config\Include\Spitfire.DevSettings.config
 IF NOT EXIST %DevSettings% (
 	copy %DevSettings%.sample %DevSettings%
 	powershell -file build-FixDataFolder.ps1 "%DevSettings%" "%InstanceDirectory%\%sitename%\Data"
@@ -109,6 +103,12 @@ IF NOT EXIST %DevSettings% (
 		echo Powershell updates failed
 		exit /B %ERRORLEVEL%
 	)
+)
+
+%msbuild% ..\src\Website\Spitfire.Website.csproj %DeployParameters%
+IF "%ERRORLEVEL%" NEQ "0" (
+	echo Build of Website project failed
+	exit /B %ERRORLEVEL%
 )
 
 IF DEFINED IsBuildServer (
