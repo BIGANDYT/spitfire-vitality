@@ -16,10 +16,17 @@ key: date
 content-length: 16
 
 20150824T175742Z
+----field----
+field: {5585A30D-B115-4753-93CE-422C3455DEB2}
+name: ShowInNavigation
+key: showinnavigation
+content-length: 0
+
+
 ----version----
 language: en
 version: 1
-revision: b4fb9dd8-4300-46b9-a59b-51288b6ffc5c
+revision: 92e855fe-db3a-43c3-9973-64b5c7c1a82b
 
 ----field----
 field: {AC3FD4DB-8266-476D-9635-67814D91E901}
@@ -57,6 +64,13 @@ content-length: 12
 
 News article
 ----field----
+field: {1B483E91-D8C4-4D19-BA03-462074B55936}
+name: NavigationTitle
+key: navigationtitle
+content-length: 7
+
+Article
+----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
@@ -69,14 +83,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b4fb9dd8-4300-46b9-a59b-51288b6ffc5c
+92e855fe-db3a-43c3-9973-64b5c7c1a82b
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150825T173242Z
+20150826T123433Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -1,2 +1,16 @@
-﻿@model Spitfire.Navigation.Models.NavigationItems
-<div>Breadcrumb! :)</div>
+﻿@using Sitecore.Data.Items
+@using Spitfire.Framework.SitecoreExtensions.Extensions
+@using Spitfire.Navigation
+@model Spitfire.Navigation.Models.NavigationItems
+<ol class="breadcrumb">
+
+@{
+    foreach (Item item in Model.Items)
+    {
+        <li class="@(item.ID == Model.ActiveItem.ID ? "active" : "")">
+            <a href="@item.Url()">@Html.Sitecore().Field(Templates.Navigable.Fields.NavigationTitle.ToString(), item)</a>
+        </li>
+    }
+
+}    
+</ol>

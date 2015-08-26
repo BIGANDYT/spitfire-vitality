@@ -6,6 +6,7 @@
 
     public class NavigationItems : RenderingModel
     {
-        public IEnumerable<Item> Items { get; set; } 
+        public IEnumerable<Item> Items { get; set; }
+        public Item ActiveItem { get; set; }
     }
 }
