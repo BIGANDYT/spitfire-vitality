@@ -57,15 +57,33 @@ IF "%ERRORLEVEL%" NEQ "0" (
 	exit /B %ERRORLEVEL%
 )
 
+%msbuild% ..\src\Domain\CRM\Spitfire.CRM.csproj %DeployParameters%
+IF "%ERRORLEVEL%" NEQ "0" (
+	echo Build of Domain.CRM project failed
+	exit /B %ERRORLEVEL%
+)
+
+%msbuild% ..\src\Domain\Metadata\Spitfire.Metadata.csproj %DeployParameters%
+IF "%ERRORLEVEL%" NEQ "0" (
+	echo Build of Domain.Metadata project failed
+	exit /B %ERRORLEVEL%
+)
+
+%msbuild% ..\src\Domain\Navigation\Spitfire.Navigation.csproj %DeployParameters%
+IF "%ERRORLEVEL%" NEQ "0" (
+	echo Build of Domain.Navigation project failed
+	exit /B %ERRORLEVEL%
+)
+
 %msbuild% ..\src\Domain\News\Spitfire.News.csproj %DeployParameters%
 IF "%ERRORLEVEL%" NEQ "0" (
 	echo Build of Domain.News project failed
 	exit /B %ERRORLEVEL%
 )
 
-%msbuild% ..\src\Domain\CRM\Spitfire.CRM.csproj %DeployParameters%
+%msbuild% ..\src\Domain\Social\Spitfire.Social.csproj %DeployParameters%
 IF "%ERRORLEVEL%" NEQ "0" (
-	echo Build of Domain.CRM project failed
+	echo Build of Domain.Social project failed
 	exit /B %ERRORLEVEL%
 )
 
