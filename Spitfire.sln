@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spitfire.Social", "src\doma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spitfire.Identity", "src\domain\Identity\Spitfire.Identity.csproj", "{0D0B809C-03AB-4EE1-898F-CFE28CF5B245}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spitfire.Teasers", "src\Domain\Teasers\Spitfire.Teasers.csproj", "{F7BD93E3-1864-4519-851F-CBA3666D7A74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -191,6 +193,14 @@ Global
 		{0D0B809C-03AB-4EE1-898F-CFE28CF5B245}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0D0B809C-03AB-4EE1-898F-CFE28CF5B245}.Release|x64.ActiveCfg = Release|Any CPU
 		{0D0B809C-03AB-4EE1-898F-CFE28CF5B245}.Release|x64.Build.0 = Release|Any CPU
+		{F7BD93E3-1864-4519-851F-CBA3666D7A74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7BD93E3-1864-4519-851F-CBA3666D7A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7BD93E3-1864-4519-851F-CBA3666D7A74}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F7BD93E3-1864-4519-851F-CBA3666D7A74}.Debug|x64.Build.0 = Debug|Any CPU
+		{F7BD93E3-1864-4519-851F-CBA3666D7A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7BD93E3-1864-4519-851F-CBA3666D7A74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7BD93E3-1864-4519-851F-CBA3666D7A74}.Release|x64.ActiveCfg = Release|Any CPU
+		{F7BD93E3-1864-4519-851F-CBA3666D7A74}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -209,5 +219,6 @@ Global
 		{C353B05E-1D24-4806-B1C3-C55DA60CB15D} = {D2CBE02E-6AA7-4343-9A01-891F971A17F5}
 		{B018C183-6976-4766-B2C0-0CBA4C064AED} = {755F9E42-1707-4E1A-AE6D-3FD8A25118C0}
 		{0D0B809C-03AB-4EE1-898F-CFE28CF5B245} = {755F9E42-1707-4E1A-AE6D-3FD8A25118C0}
+		{F7BD93E3-1864-4519-851F-CBA3666D7A74} = {755F9E42-1707-4E1A-AE6D-3FD8A25118C0}
 	EndGlobalSection
 EndGlobal
