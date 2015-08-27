@@ -1,4 +1,5 @@
-﻿@using Spitfire.Identity
+﻿@using Spitfire.Framework.SitecoreExtensions.Extensions
+@using Spitfire.Identity
 @model Sitecore.Mvc.Presentation.RenderingModel
 
 @{
@@ -8,4 +9,8 @@
         return;
     }
 }
-<div class="logo">@Html.Sitecore().Field(Templates.Identity.Fields.Logo.ToString(), identity)</div>
+<div class="brand">
+    <a class="navbar-brand" href="/">
+        @Html.Sitecore().ImageField(Templates.Identity.Fields.Logo.ToString(), identity, mh:20)
+    </a>
+</div>

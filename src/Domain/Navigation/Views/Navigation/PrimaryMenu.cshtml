@@ -1,2 +1,13 @@
-﻿@model Spitfire.Navigation.Models.NavigationItems
-<div>Primary menu</div>
+﻿@using Sitecore.Data
+@using Sitecore.Data.Items
+@using Spitfire.Framework.SitecoreExtensions.Extensions
+@using Spitfire.Navigation
+@model Spitfire.Navigation.Models.NavigationItems
+<ul class="nav navbar-nav">
+    @foreach (var item in Model.Items)
+    {
+        <li class="@(item.IsActive ? "active" : string.Empty)">
+            <a href="@item.Item.Url()">@Html.Sitecore().Field(Templates.Navigable.Fields.NavigationTitle.ToString(), item.Item)</a>
+        </li>
+    }
+</ul>

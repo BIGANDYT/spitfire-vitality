@@ -1,2 +1,18 @@
-﻿@model Spitfire.Navigation.Models.NavigationItems
-<div>Secondary menu</div>
+﻿@using Spitfire.Framework.SitecoreExtensions.Extensions
+@using Spitfire.Navigation
+@model Spitfire.Navigation.Models.NavigationItems
+
+@{
+    if (Model == null || Model.Items == null)
+    {
+        return;
+    }
+}
+<nav class="secondarynav">
+    <div class="panel panel-default">
+        <div class="panel-title">
+            
+        </div>
+        @Html.Partial("SecondaryMenuItems", Model)
+    </div>
+</nav>

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Sitecore.Data;
 using Sitecore.Data.Fields;
@@ -64,12 +65,29 @@ namespace Spitfire.Framework.SitecoreExtensions.Extensions
                 throw new ArgumentNullException(nameof(item));
             }
 
-            if (item.TemplateID == templateID)
+            if (item.IsDerived(templateID))
             {
                 return item;
             }
 
             return item.Axes.GetAncestors().FirstOrDefault(i => i.IsDerived(templateID));
+        }
+
+        public static IList<Item> GetAncestorsAndSelfOfTemplate(this Item item, ID templateID)
+        {
+            if (item == null)
+            {
+                throw new ArgumentNullException(nameof(item));
+            }
+
+            List<Item> returnValue = new List<Item>();
+            if (item.IsDerived(templateID))
+            {
+                returnValue.Add(item);
+            }
+
+            returnValue.AddRange(item.Axes.GetAncestors().Where(i => i.IsDerived(templateID)));
+            return returnValue;
         }
 
         public static string LinkFieldUrl(this Item item, ID fieldID)

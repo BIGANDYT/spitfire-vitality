@@ -1,34 +1,35 @@
-﻿namespace Spitfire.Navigation
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using Sitecore;
+using Sitecore.Data.Items;
+using Sitecore.Mvc.Presentation;
+using Spitfire.Framework.SitecoreExtensions.Extensions;
+using Spitfire.Navigation.Models;
+
+namespace Spitfire.Navigation
 {
-    using System.Collections.Generic;
-    using System.Linq;
-
-    using Sitecore;
-    using Sitecore.Data.Items;
-    using Sitecore.Mvc.Presentation;
-
-    using Spitfire.Framework.SitecoreExtensions.Extensions;
-    using Spitfire.Navigation.Models;
-
     public interface INavigationService
     {
         Item GetNavigationRoot(Item contextItem);
-
         NavigationItems GetBreadcrumb();
-
         NavigationItems GetPrimaryMenu();
-
         NavigationItems GetSecondaryMenu();
     }
 
     public class NavigationService : INavigationService
     {
-        private readonly Item navigationRoot;
-
         public NavigationService()
         {
-            navigationRoot = GetNavigationRoot(RenderingContext.Current.Rendering.Item);
+            this.ContextItem = RenderingContext.Current.Rendering.Item;
+            this.NavigationRoot = this.GetNavigationRoot(this.ContextItem);
+            if (this.NavigationRoot == null)
+                throw new InvalidOperationException($"Cannot determine navigation root from '{this.ContextItem.Paths.FullPath}'");
         }
+
+        public Item ContextItem { get; }
+
+        public Item NavigationRoot { get; }
 
         public Item GetNavigationRoot(Item contextItem)
         {
@@ -39,63 +40,91 @@
         {
             var items = new NavigationItems
             {
-                Items = GetNavigationHierarchy().Reverse(),
+                Items = this.GetNavigationHierarchy().Reverse().ToList(),
             };
 
-            items.ActiveItem = items.Items.LastOrDefault();
+            for (var i = 0; i < items.Items.Count - 1; i++)
+            {
+                items.Items[i].Level = i;
+            }
+
             return items;
         }
 
         public NavigationItems GetPrimaryMenu()
         {
-            var items = new NavigationItems
-            {
-                Items = GetPrimaryNavigationItems(),
-                ActiveItem = GetActiveNavigationItem(),
-            };
+            var navItems = this.GetChildNavigationItems(this.NavigationRoot, 0, 0);
 
-            items.ActiveItem = items.Items.LastOrDefault();
-            return items;
+            if (MainUtil.GetBool(this.NavigationRoot[Templates.NavigationRoot.Fields.IncludeRootInPrimaryMenu], false))
+            {
+                if (this.NavigationRoot.IsDerived(Templates.Navigable.ID))
+                {
+                    var navigationItem = this.CreateNavigationItem(this.NavigationRoot, 0, 0);
+                    //Root navigation item is only active when we are actually on the root item
+                    navigationItem.IsActive = this.ContextItem.ID == this.NavigationRoot.ID;
+                    navItems.Items.Insert(0, navigationItem);
+                }
+            }
+            return navItems;
         }
 
         public NavigationItems GetSecondaryMenu()
         {
-            return new NavigationItems();
+            var rootItem = this.GetSecondaryMenuRoot();
+            if (rootItem == null)
+                return null;
+            return this.GetChildNavigationItems(rootItem, 0, 1);
         }
 
-        private Item GetActiveNavigationItem()
+        private Item GetSecondaryMenuRoot()
         {
-            // TODO:
-            return null;
+            return this.FindActivePrimaryMenuItem();
         }
 
-        private IEnumerable<Item> GetNavigationHierarchy()
+        private Item FindActivePrimaryMenuItem()
         {
-            var item = RenderingContext.Current.Rendering.Item;
+            var primaryMenuItems = this.GetPrimaryMenu();
+            //Find the active primary menu item
+            var activePrimaryMenuItem = primaryMenuItems.Items.FirstOrDefault(i => i.Item.ID != this.NavigationRoot.ID && i.IsActive);
+            return activePrimaryMenuItem?.Item;
+        }
+
+        private IEnumerable<NavigationItem> GetNavigationHierarchy()
+        {
+            var item = this.ContextItem;
             while (item != null)
             {
                 if (item.IsDerived(Templates.Navigable.ID))
-                {
-                    yield return item;
-                }
+                    yield return CreateNavigationItem(item, 0);
 
                 item = item.Parent;
             }
         }
 
-        private IEnumerable<Item> GetPrimaryNavigationItems()
+        private NavigationItem CreateNavigationItem(Item item, int level, int maxLevel = -1)
         {
-            var items = new List<Item>();
-            if (MainUtil.GetBool(navigationRoot[Templates.NavigationRoot.Fields.IncludeRootInPrimaryMenu], false))
+            return new NavigationItem()
             {
-                if (navigationRoot.IsDerived(Templates.Navigable.ID))
-                {
-                    items.Add(navigationRoot);
-                }
-            }
+                Item = item,
+                IsActive = this.IsItemActive(item),
+                Children = this.GetChildNavigationItems(item, level+1, maxLevel)
+            };
+        }
 
-            items.AddRange(navigationRoot.Children.Where(i => i.IsDerived(Templates.Navigable.ID)));
-            return items;
+        private NavigationItems GetChildNavigationItems(Item parentItem, int level, int maxLevel)
+        {
+            if (level > maxLevel || !parentItem.HasChildren)
+                return null;
+            var childItems = parentItem.Children.Where(i => MainUtil.GetBool(i[Templates.Navigable.Fields.ShowInNavigation], true)).Select(i => this.CreateNavigationItem(i, level, maxLevel));
+            return new NavigationItems()
+            {
+                Items = childItems.ToList()
+            };
+        }
+
+        private bool IsItemActive(Item item)
+        {
+            return this.ContextItem.ID == item.ID || this.ContextItem.Axes.GetAncestors().Any(a => a.ID == item.ID);
         }
     }
 }

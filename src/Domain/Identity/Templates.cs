@@ -11,6 +11,7 @@ namespace Spitfire.Identity
             public struct Fields
             {
                 public static ID Logo => new ID("{E748D808-64C1-4DEC-9718-F35CF9689E4B}");
+                public static ID Copyright => new ID("{02115632-FE1E-4B3D-9AD4-A4DDF1F782F0}");
             }
         }
     }

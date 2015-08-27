@@ -6,8 +6,14 @@
 
     public class NavigationItems : RenderingModel
     {
-        public IEnumerable<Item> Items { get; set; }
+        public IList<NavigationItem> Items { get; set; }
+    }
 
-        public Item ActiveItem { get; set; }
+    public class NavigationItem
+    {
+        public Item Item { get; set; }
+        public bool IsActive { get; set; }
+        public int Level { get; set; }
+        public NavigationItems Children { get; set; }
     }
 }

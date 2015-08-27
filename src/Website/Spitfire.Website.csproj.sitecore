@@ -39,4 +39,16 @@
   <File Include="Views\Website\Layouts\Default.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{ED043C36-CD48-4EDF-A288-EC404EE1CD42}</Item>
   </File>
+  <File Include="Views\Website\Sublayouts\1 Column.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{E6581F91-9A48-4814-A4E1-760F02440DA9}</Item>
+  </File>
+  <File Include="Views\Website\Sublayouts\2 Column 7-5.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{E893B3F6-423E-41FB-B24D-3E729A56ED6A}</Item>
+  </File>
+  <File Include="Views\Website\Sublayouts\2 Column 8-4.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{8C44EDEA-077C-4178-94A3-38EEE2E8A63F}</Item>
+  </File>
+  <File Include="Views\Website\Sublayouts\3 Column.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{BBB690A4-2975-4987-A7BD-88BF60156EC5}</Item>
+  </File>
 </Project>

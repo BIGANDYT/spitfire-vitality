@@ -1,7 +1,8 @@
 ﻿@using Sitecore.Mvc
 @using Sitecore.Mvc.Presentation
+@using Spitfire.Framework.SitecoreExtensions.Extensions
 @model RenderingModel
 
-<div>
-    @Html.Sitecore().Field("image", new { mw = 700 })
+<div class="standardcontent image">
+    @Html.Sitecore().ImageField("image", @Model.Item, mw:700, cssClass: "img-responsive")
 </div>

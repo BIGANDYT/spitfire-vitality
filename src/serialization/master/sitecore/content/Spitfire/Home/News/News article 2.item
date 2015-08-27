@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {B415F846-5EED-409C-B6D8-C23BAB52D502}
+id: {844A7337-2020-4C2E-912E-7651930FE179}
 database: master
-path: /sitecore/content/Spitfire/Home/News/News article
+path: /sitecore/content/Spitfire/Home/News/News article 2
 parent: {439EC71A-4231-45C8-B075-975BD41099A7}
-name: News article
+name: News article 2
 master: {00000000-0000-0000-0000-000000000000}
 template: {B69277AD-E917-4B9F-9136-A12E0A3E462F}
 templatekey: News Article
@@ -29,11 +29,11 @@ name: __Sortorder
 key: __sortorder
 content-length: 2
 
-25
+50
 ----version----
 language: en
 version: 1
-revision: de8ff853-b36b-41bd-8a2f-f6427ec0feeb
+revision: 0e50d003-8ab6-48d6-929d-a99fa87fcd9a
 
 ----field----
 field: {C30A013F-3CC8-4961-9837-1C483277084A}
@@ -92,7 +92,7 @@ name: __Revision
 key: __revision
 content-length: 36
 
-de8ff853-b36b-41bd-8a2f-f6427ec0feeb
+0e50d003-8ab6-48d6-929d-a99fa87fcd9a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated

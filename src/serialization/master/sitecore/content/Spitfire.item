@@ -19,7 +19,7 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: eb57fd6f-cf57-434a-bb49-d124b451dcc3
+revision: c8c1427e-bd15-48ef-ae8d-f64285aa7e06
 
 ----field----
 field: {E748D808-64C1-4DEC-9718-F35CF9689E4B}
@@ -28,6 +28,13 @@ key: logo
 content-length: 211
 
 <image mediapath="/Default Website/sc_logo" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Default Website/sc_logo" mediaid="{094AED03-02E7-4868-80CB-19926661FB77}" />
+----field----
+field: {02115632-FE1E-4B3D-9AD4-A4DDF1F782F0}
+name: Copyright
+key: copyright
+content-length: 91
+
+Copyright © 2015 <a href="http://sitecore.net" target="_blank">Sitecore Corporation A/S</a>
 ----field----
 field: {235AE392-97AC-4822-BE38-837DA3E7724E}
 name: SiteBrowserTitle
@@ -48,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-eb57fd6f-cf57-434a-bb49-d124b451dcc3
+c8c1427e-bd15-48ef-ae8d-f64285aa7e06
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150826T115417Z
+20150827T004752Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
