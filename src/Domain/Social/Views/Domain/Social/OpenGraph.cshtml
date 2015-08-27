@@ -1,1 +1,11 @@
-﻿@model Sitecore.Mvc.Presentation.RenderingModel
+﻿@using Sitecore.Links
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Resources.Media
+@using Spitfire.Framework.SitecoreExtensions.Extensions
+@using Spitfire.Social
+@model RenderingModel
+<meta property="og:title" content="@Html.Sitecore().Field(Templates.OpenGraph.Fields.Title.ToString(), @Model.Item)" />
+<meta property="og:image" content="@Model.Item.ImageUrl(Templates.OpenGraph.Fields.Image, new MediaUrlOptions() {AbsolutePath = true})" />
+<meta property="og:description" content="@Html.Sitecore().Field(Templates.OpenGraph.Fields.Description.ToString(), @Model.Item)" />
+<meta property="og:url" content="@Model.Item.Url(new UrlOptions() {AlwaysIncludeServerUrl = true})" />

@@ -128,8 +128,9 @@
     <Content Include="App_Config\Include\Spitfire.Framework.SitecoreExtensions.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="web.config" />
+    <None Include="web.config" />
     <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\Spitfire.pubxml" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>

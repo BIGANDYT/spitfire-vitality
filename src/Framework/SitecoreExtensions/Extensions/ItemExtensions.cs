@@ -16,29 +16,24 @@ namespace Spitfire.Framework.SitecoreExtensions.Extensions
     /// </summary>
     public static class ItemExtensions
     {
-        public static string Url(this Item item)
+        public static string Url(this Item item, UrlOptions options = null)
         {
             if (item == null)
             {
                 throw new ArgumentNullException(nameof(item));
             }
 
-            return LinkManager.GetItemUrl(item);
+            return options != null ? LinkManager.GetItemUrl(item, options) : LinkManager.GetItemUrl(item);
         }
 
-        public static string ImageUrl(this Item item, string imageFieldName, MediaUrlOptions options = null)
+        public static string ImageUrl(this Item item, ID imageFieldId, MediaUrlOptions options = null)
         {
             if (item == null)
             {
                 throw new ArgumentNullException(nameof(item));
             }
 
-            if (imageFieldName == null)
-            {
-                throw new ArgumentNullException(nameof(imageFieldName));
-            }
-
-            var imageField = (ImageField) item.Fields[imageFieldName];
+            var imageField = (ImageField) item.Fields[imageFieldId];
             return imageField?.MediaItem == null ? string.Empty : imageField.ImageUrl(options);
         }
 
