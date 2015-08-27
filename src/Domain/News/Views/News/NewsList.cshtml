@@ -4,9 +4,9 @@
 @using Spitfire.Framework.SitecoreExtensions.Extensions
 @using Spitfire.News
 @using Spitfire.SitecoreExtensions.Extensions
-@model RenderingModel
+@model IEnumerable<Item>
 <ul class="news">
-    @foreach (Item item in Model.Item.Children.OrderByDescending(x => x[Templates.NewsArticle.Fields.Date]))
+    @foreach (var item in Model)
     {
         <li class="media">
             <div class="media-left media-top">

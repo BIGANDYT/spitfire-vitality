@@ -2,9 +2,9 @@
 version: 1
 id: {2F75C8AF-35FC-4A88-B585-7595203F442C}
 database: master
-path: /sitecore/templates/Domain/News/_News Article
+path: /sitecore/templates/Domain/News/_NewsArticle
 parent: {F7CF8EBD-6EC0-467A-92F0-E28EC0AD0F6E}
-name: _News Article
+name: _NewsArticle
 master: {00000000-0000-0000-0000-000000000000}
 template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
 templatekey: Template
@@ -27,13 +27,13 @@ content-length: 38
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
 key: __icon
-content-length: 22
+content-length: 0
 
-Network/16x16/news.png
+
 ----version----
 language: en
 version: 1
-revision: f1f27c4e-64ab-472b-8e6d-555bd9b9cfa3
+revision: a192d0ab-757a-4bd7-baed-a18ff8c839d9
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-f1f27c4e-64ab-472b-8e6d-555bd9b9cfa3
+a192d0ab-757a-4bd7-baed-a18ff8c839d9
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150826T065702Z
+20150827T051648Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

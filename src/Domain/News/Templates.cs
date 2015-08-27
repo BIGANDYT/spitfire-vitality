@@ -18,5 +18,11 @@ namespace Spitfire.News
                 public static ID Date => new ID("{C464D2D7-3382-428A-BCDF-0963C60BA0E3}");
             }
         }
+
+        public struct NewsFolder
+        {
+            public static ID ID => new ID("{74889B26-061C-4D6A-8CDB-422665FC34EC}");
+        }
+
     }
 }

@@ -13,13 +13,13 @@ templatekey: View rendering
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
 name: Path
 key: path
-content-length: 41
+content-length: 34
 
-/Views/Domain/StandardContent/Body.cshtml
+/Views/StandardContent/Body.cshtml
 ----version----
 language: en
 version: 1
-revision: e461fc58-0212-4cf3-8be6-9db8d1709e11
+revision: c0f49965-a886-4416-844f-4c74966ee862
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,14 +34,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-e461fc58-0212-4cf3-8be6-9db8d1709e11
+c0f49965-a886-4416-844f-4c74966ee862
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150825T123755Z
+20150827T045552Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

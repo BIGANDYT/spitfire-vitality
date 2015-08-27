@@ -2,7 +2,7 @@
 version: 1
 id: {C425B1AA-48B4-4EF1-86B3-19B95ACCEEE1}
 database: master
-path: /sitecore/templates/Domain/News/_News Article/__Standard Values
+path: /sitecore/templates/Domain/News/_NewsArticle/__Standard Values
 parent: {2F75C8AF-35FC-4A88-B585-7595203F442C}
 name: __Standard Values
 master: {00000000-0000-0000-0000-000000000000}

@@ -9,17 +9,10 @@ master: {00000000-0000-0000-0000-000000000000}
 template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
 templatekey: View rendering
 
-----field----
-field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
-name: Path
-key: path
-content-length: 34
-
-/Views/Domain/News/NewsDate.cshtml
 ----version----
 language: en
 version: 1
-revision: 2f0a1c41-507a-4707-aaef-dd8b0f89aaed
+revision: 7bf42dab-4a9f-4a5b-b930-b2e72a65aacf
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,14 +27,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-2f0a1c41-507a-4707-aaef-dd8b0f89aaed
+7bf42dab-4a9f-4a5b-b930-b2e72a65aacf
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150825T123834Z
+20150827T053336Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

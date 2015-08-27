@@ -103,7 +103,7 @@
     <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\Spitfire.pubxml" />
     <None Include="Views\Web.config" />
-    <Content Include="Views\Domain\Metadata\PageMetadata.cshtml" />
+    <Content Include="Views\Metadata\PageMetadata.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -19,9 +19,9 @@ namespace Spitfire.Navigation
 
     public class NavigationService : INavigationService
     {
-        public NavigationService()
+        public NavigationService(Item contextItem)
         {
-            this.ContextItem = RenderingContext.Current.Rendering.Item;
+            this.ContextItem = contextItem;
             this.NavigationRoot = this.GetNavigationRoot(this.ContextItem);
             if (this.NavigationRoot == null)
                 throw new InvalidOperationException($"Cannot determine navigation root from '{this.ContextItem.Paths.FullPath}'");

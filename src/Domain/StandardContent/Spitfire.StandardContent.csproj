@@ -101,10 +101,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <Content Include="Views\Domain\StandardContent\Summary.cshtml" />
-    <Content Include="Views\Domain\StandardContent\Image.cshtml" />
-    <Content Include="Views\Domain\StandardContent\Body.cshtml" />
-    <Content Include="Views\Domain\StandardContent\Title.cshtml" />
+    <Content Include="Views\StandardContent\Summary.cshtml" />
+    <Content Include="Views\StandardContent\Image.cshtml" />
+    <Content Include="Views\StandardContent\Body.cshtml" />
+    <Content Include="Views\StandardContent\Title.cshtml" />
     <None Include="Views\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

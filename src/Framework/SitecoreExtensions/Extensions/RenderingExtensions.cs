@@ -7,14 +7,26 @@ namespace Spitfire.SitecoreExtensions.Extensions
 {
     public static class RenderingExtensions
     {
-        public static string ImageUrl(this Rendering rendering, string fieldName, MediaUrlOptions options = null)
+        public static int GetIntegerParameter(this Rendering rendering, string parameterName, int defaultValue = 0)
+        {
+            if (rendering == null)
+                throw new ArgumentNullException(nameof(rendering));
+
+            var parameter = rendering.Parameters[parameterName];
+            if (string.IsNullOrEmpty(parameter))
+                return defaultValue;
+
+            int returnValue;
+            return !int.TryParse(parameter, out returnValue) ? defaultValue : returnValue;
+        }
+        public static string GetImageUrlParameter(this Rendering rendering, string parameterName, MediaUrlOptions options = null)
         {
             if (rendering == null)
                 throw new ArgumentNullException(nameof(rendering));
 
             // Check if this rendering parameter exists
             // Also crude check to guess if this is actually XML.
-            var parameters = rendering.Parameters[fieldName];
+            var parameters = rendering.Parameters[parameterName];
             if (string.IsNullOrEmpty(parameters) || !parameters.StartsWith("<"))
                 return string.Empty;
 
