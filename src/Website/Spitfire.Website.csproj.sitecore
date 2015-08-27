@@ -51,4 +51,7 @@
   <File Include="Views\Website\Sublayouts\3 Column.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{BBB690A4-2975-4987-A7BD-88BF60156EC5}</Item>
   </File>
+  <File Include="Views\Website\Sublayouts\2 Column 3-9.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{0E1E6FFB-6A29-404E-8C32-081484E4D220}</Item>
+  </File>
 </Project>

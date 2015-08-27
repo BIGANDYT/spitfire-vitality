@@ -1,18 +1,20 @@
 ﻿@using Spitfire.Framework.SitecoreExtensions.Extensions
 @using Spitfire.Navigation
-@model Spitfire.Navigation.Models.NavigationItems
-
+@model Spitfire.Navigation.Models.NavigationItem
 @{
-    if (Model == null || Model.Items == null)
+    if (Model == null)
     {
         return;
     }
 }
 <nav class="secondarynav">
     <div class="panel panel-default">
-        <div class="panel-title">
-            
+        <div class="panel-heading">
+            <a href="@Model.Item.Url()">@Html.Sitecore().Field(Templates.Navigable.Fields.NavigationTitle.ToString(), Model.Item)</a>
         </div>
-        @Html.Partial("SecondaryMenuItems", Model)
+        @if (Model.Children != null)
+        {
+            @Html.Partial("SecondaryMenuItems", Model.Children)
+        }
     </div>
 </nav>

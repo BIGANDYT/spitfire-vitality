@@ -199,6 +199,7 @@
     <Content Include="Views\Website\Sublayouts\2 Column 8-4.cshtml" />
     <Content Include="Views\Website\Sublayouts\1 Column.cshtml" />
     <Content Include="Views\Website\Sublayouts\2 Column 7-5.cshtml" />
+    <Content Include="Views\Website\Sublayouts\2 Column 3-9.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

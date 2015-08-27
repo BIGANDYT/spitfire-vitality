@@ -14,7 +14,7 @@ namespace Spitfire.Navigation
         Item GetNavigationRoot(Item contextItem);
         NavigationItems GetBreadcrumb();
         NavigationItems GetPrimaryMenu();
-        NavigationItems GetSecondaryMenu();
+        NavigationItem GetSecondaryMenuItem();
     }
 
     public class NavigationService : INavigationService
@@ -28,7 +28,6 @@ namespace Spitfire.Navigation
         }
 
         public Item ContextItem { get; }
-
         public Item NavigationRoot { get; }
 
         public Item GetNavigationRoot(Item contextItem)
@@ -44,9 +43,7 @@ namespace Spitfire.Navigation
             };
 
             for (var i = 0; i < items.Items.Count - 1; i++)
-            {
                 items.Items[i].Level = i;
-            }
 
             return items;
         }
@@ -68,12 +65,10 @@ namespace Spitfire.Navigation
             return navItems;
         }
 
-        public NavigationItems GetSecondaryMenu()
+        public NavigationItem GetSecondaryMenuItem()
         {
             var rootItem = this.GetSecondaryMenuRoot();
-            if (rootItem == null)
-                return null;
-            return this.GetChildNavigationItems(rootItem, 0, 1);
+            return rootItem == null ? null : this.CreateNavigationItem(rootItem, 0, 2);
         }
 
         private Item GetSecondaryMenuRoot()
@@ -95,7 +90,7 @@ namespace Spitfire.Navigation
             while (item != null)
             {
                 if (item.IsDerived(Templates.Navigable.ID))
-                    yield return CreateNavigationItem(item, 0);
+                    yield return this.CreateNavigationItem(item, 0);
 
                 item = item.Parent;
             }
@@ -107,7 +102,7 @@ namespace Spitfire.Navigation
             {
                 Item = item,
                 IsActive = this.IsItemActive(item),
-                Children = this.GetChildNavigationItems(item, level+1, maxLevel)
+                Children = this.GetChildNavigationItems(item, level + 1, maxLevel)
             };
         }
 

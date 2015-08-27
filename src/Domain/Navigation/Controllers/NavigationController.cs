@@ -29,8 +29,8 @@
 
         public ActionResult SecondaryMenu()
         {
-            var items = navigationService.GetSecondaryMenu();
-            return View("SecondaryMenu", items);
+            var item = navigationService.GetSecondaryMenuItem();
+            return View("SecondaryMenu", item);
         }
     }
 }
